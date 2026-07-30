@@ -137,45 +137,21 @@ Key challenges include: optimizing the relative potency ratio for each receptor 
 
 
 ## References
-<ol class="references
-
-
-- Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a>
-  - Rosenstock J, Frias JP, Rodbard HW, et al.
-
-Retatrutide, a GIP/GLP-1/glucagon receptor triagonist, for type 2 diabetes: a phase 2 study. <em>The Lancet</em>. 2023;402(10415):1394-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901822-6">doi:10.1016/S0140-6736(23)01822-6</a>
-  - Pocai A, Carrington PE, Adams JR, et al.
-
-Glucagon-like peptide 1/glucagon receptor dual agonism reverses obesity in mice. <em>Cell Metabolism</em>. 2009;9(5):435-444. <a href="https://doi.org/10.1016%2Fj.cmet.2009.03.003">doi:10.1016/j.cmet.2009.03.003</a>
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
-  - Campbell JE, Drucker DJ.
-
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
-  - Capozzi ME, DiMarchi RD, Tschöp MH, et al.
-
-Multi-receptor peptide agonists for the treatment of metabolic disease. <em>Nature Reviews Endocrinology</em>. 2023;19(8):467-480. <a href="https://doi.org/10.1038%2Fs41574-023-00856-5">doi:10.1038/s41574-023-00856-5</a>
-  - Samms RJ, Cody E, Sloop KW, et al.
-
-GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a>
-  - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
-
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
-  - Tan T, Bloom SR. Peptide therapeutics for obesity and metabolic disease. <em>Annual Review of Medicine</em>. 2021;72:131-147. <a href="https://doi.org/10.1146%2Fannurev-med-062319-120332">doi:10.1146/annurev-med-062319-120332</a>
-  - Finan B, Yang B, Ottaway N, et al.
-
-A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-35. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a>
-  - Drucker DJ.
-
-Mechanisms of action and therapeutic applications of GLP-1 and dual and triple incretin receptor agonists. <em>Nature Reviews Endocrinology</em>. 2024;20(1):23-38. <a href="https://doi.org/10.1038%2Fs41574-023-00908-w">doi:10.1038/s41574-023-00908-w</a>
-  - Clemmensen C, Finan B, Müller TD, et al.
-
-Emerging hormonal-based combination pharmacotherapies for the treatment of metabolic diseases. <em>Nature Reviews Endocrinology</em>. 2019;15(2):90-104. <a href="https://doi.org/10.1038%2Fs41574-018-0122-7">doi:10.1038/s41574-018-0122-7</a>
-  - Holst JJ.
-
-The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a>
-  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
-
-
+<ol class="references">
+  <li id="ref1">Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a></li>
+  <li id="ref2">Rosenstock J, Frias JP, Rodbard HW, et al. Retatrutide, a GIP/GLP-1/glucagon receptor triagonist, for type 2 diabetes: a phase 2 study. <em>The Lancet</em>. 2023;402(10415):1394-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901822-6">doi:10.1016/S0140-6736(23)01822-6</a></li>
+  <li id="ref3">Pocai A, Carrington PE, Adams JR, et al. Glucagon-like peptide 1/glucagon receptor dual agonism reverses obesity in mice. <em>Cell Metabolism</em>. 2009;9(5):435-444. <a href="https://doi.org/10.1016%2Fj.cmet.2009.03.003">doi:10.1016/j.cmet.2009.03.003</a></li>
+  <li id="ref4">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>
+  <li id="ref5">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a></li>
+  <li id="ref6">Capozzi ME, DiMarchi RD, Tschöp MH, et al. Multi-receptor peptide agonists for the treatment of metabolic disease. <em>Nature Reviews Endocrinology</em>. 2023;19(8):467-480. <a href="https://doi.org/10.1038%2Fs41574-023-00856-5">doi:10.1038/s41574-023-00856-5</a></li>
+  <li id="ref7">Samms RJ, Cody E, Sloop KW, et al. GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a></li>
+  <li id="ref8">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a></li>
+  <li id="ref9">Tan T, Bloom SR. Peptide therapeutics for obesity and metabolic disease. <em>Annual Review of Medicine</em>. 2021;72:131-147. <a href="https://doi.org/10.1146%2Fannurev-med-062319-120332">doi:10.1146/annurev-med-062319-120332</a></li>
+  <li id="ref10">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-35. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a></li>
+  <li id="ref11">Drucker DJ. Mechanisms of action and therapeutic applications of GLP-1 and dual and triple incretin receptor agonists. <em>Nature Reviews Endocrinology</em>. 2024;20(1):23-38. <a href="https://doi.org/10.1038%2Fs41574-023-00908-w">doi:10.1038/s41574-023-00908-w</a></li>
+  <li id="ref12">Clemmensen C, Finan B, Müller TD, et al. Emerging hormonal-based combination pharmacotherapies for the treatment of metabolic diseases. <em>Nature Reviews Endocrinology</em>. 2019;15(2):90-104. <a href="https://doi.org/10.1038%2Fs41574-018-0122-7">doi:10.1038/s41574-018-0122-7</a></li>
+  <li id="ref13">Holst JJ. The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a></li>
+  <li id="ref14">Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated June 2025*

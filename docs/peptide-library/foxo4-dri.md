@@ -138,10 +138,8 @@ FOXO4-DRI includes a cell-penetrating peptide (CPP) sequence that facilitates tr
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Baar MP, Brandt RMC, Putavet DA, et al. Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. <em>Cell</em>. 2017;169(1):132-147. <a href="https://doi.org/10.1016%2Fj.cell.2017.02.031">doi:10.1016/j.cell.2017.02.031</a></li>
+  <ol class="references">
+Cell</em>. 2017;169(1):132-147. <a href="https://doi.org/10.1016%2Fj.cell.2017.02.031">doi:10.1016/j.cell.2017.02.031</a></li>
   <li id="ref2van der Horst A, Burgering BM. Stressing the role of FoxO proteins in lifespan and disease. <em>Nature Reviews Molecular Cell Biology</em>. 2007;8(6):440-450. <a href="https://doi.org/10.1038%2Fnrm2190">doi:10.1038/nrm2190</a></li>
   <li id="ref3Demaria M, O'Leary MN, Chang J, et al. Cellular senescence promotes adverse effects of chemotherapy and cancer relapse. <em>Cancer Discovery</em>. 2017;7(2):165-176. <a href="https://doi.org/10.1158%2F2159-8290.CD-16-0241">doi:10.1158/2159-8290.CD-16-0241</a></li>
   <li id="ref4Schmitt R, Melk A. Molecular mechanisms of renal aging. <em>Kidney International</em>. 2017;92(3):569-579. <a href="https://doi.org/10.1016%2Fj.kint.2017.02.036">doi:10.1016/j.kint.2017.02.036</a></li>

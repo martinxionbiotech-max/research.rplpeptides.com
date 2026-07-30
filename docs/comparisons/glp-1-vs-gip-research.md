@@ -171,8 +171,8 @@ Dual agonists produce complementary actions: GLP-1 provides insulin stimulation 
 
 
 ## References
-<ol class="references
-  <li id="ref1Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+<ol class="references">
+Gastroenterology</em>. 2007;132(6):2131-2157.</li>
   <li id="ref2Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
   <li id="ref3Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
   <li id="ref4Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>

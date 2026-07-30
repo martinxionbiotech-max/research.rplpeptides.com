@@ -172,10 +172,8 @@ Peptide-based therapeutics began with insulin (1922), the first peptide drug. Th
 
 
 ## References
-  <ol class="references
-
-
-  <li id="ref1Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
+  <ol class="references">
+Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
   <li id="ref2Hancock, R. E. W., & Sahl, H. G. (2006). Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. <em>Nature Biotechnology</em>, 24(12), 1551–1557. https://doi.org/10.1038/nbt1267</li>
   <li id="ref3Fosgerau, K., & Hoffmann, T. (2015). Peptide therapeutics: current status and future directions. <em>Drug Discovery Today</em>, 20(1), 122–128. https://doi.org/10.1016/j.drudis.2014.10.003</li>
   <li id="ref4Lau, J. L., & Dunn, M. K. (2018). Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorganic & Medicinal Chemistry</em>, 26(10), 2700–2707. https://doi.org/10.1016/j.bmc.2017.06.052</li>

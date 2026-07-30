@@ -143,39 +143,19 @@ Key challenges include: optimizing the receptor potency ratio for different ther
 
 
 ## References
-<ol class="references
-
-
-- Frias JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a>
-  - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
-
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
-  - Müller TD, Finan B, Bloom SR, et al.
-
-Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a>
-  - Samms RJ, Cody E, Sloop KW, et al.
-
-GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a>
-  - Campbell JE, Drucker DJ.
-
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
-  - Killion EA, Chen M, Falsey JR, et al.
-
-Chronic GIPR agonism desensitizes adipocyte GIPR activity. <em>Nature Communications</em>. 2020;11:2981. <a href="https://doi.org/10.1038%2Fs41467-020-16751-8">doi:10.1038/s41467-020-16751-8</a>
-  - Rosenstock J, Wysham C, Frias JP, et al.
-
-Efficacy and safety of tirzepatide in patients with type 2 diabetes. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a>
-  - Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of tirzepatide on weight loss. <em>Nature Medicine</em>. 2023;29(7):1713-1722. <a href="https://doi.org/10.1038%2Fs41591-023-02441-3">doi:10.1038/s41591-023-02441-3</a>
-  - Nauck MA, Meier JJ.
-
-Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
-  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a>
-  - Holst JJ.
-
-The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a>
-
-
+<ol class="references">
+  <li id="ref1">New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a></li>
+  <li id="ref2">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a></li>
+  <li id="ref3">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a></li>
+  <li id="ref4">Samms RJ, Cody E, Sloop KW, et al. GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a></li>
+  <li id="ref5">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a></li>
+  <li id="ref6">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>
+  <li id="ref7">Killion EA, Chen M, Falsey JR, et al. Chronic GIPR agonism desensitizes adipocyte GIPR activity. <em>Nature Communications</em>. 2020;11:2981. <a href="https://doi.org/10.1038%2Fs41467-020-16751-8">doi:10.1038/s41467-020-16751-8</a></li>
+  <li id="ref8">Rosenstock J, Wysham C, Frias JP, et al. Efficacy and safety of tirzepatide in patients with type 2 diabetes. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a></li>
+  <li id="ref9">Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of tirzepatide on weight loss. <em>Nature Medicine</em>. 2023;29(7):1713-1722. <a href="https://doi.org/10.1038%2Fs41591-023-02441-3">doi:10.1038/s41591-023-02441-3</a></li>
+  <li id="ref10">Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a></li>
+  <li id="ref11">Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a></li>
+  <li id="ref12">Holst JJ. The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated June 2025*

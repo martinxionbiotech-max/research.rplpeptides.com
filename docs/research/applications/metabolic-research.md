@@ -140,9 +140,8 @@ Mitochondrial peptide biology is an emerging area with substantial potential. Un
 
 
 ## References
-<ol class="references
-
-  <li id="ref-1McIntyre N, Holdsworth CD, Turner DS. New interpretation of oral glucose tolerance. <em>Lancet</em>. 1964;2(7349):20–21. <a href="https://doi.org/10.1016%2FS0140-6736%2864%2990011-X">doi:10.1016/S0140-6736(64)90011-X</a></li>
+<ol class="references">
+Lancet</em>. 1964;2(7349):20–21. <a href="https://doi.org/10.1016%2FS0140-6736%2864%2990011-X">doi:10.1016/S0140-6736(64)90011-X</a></li>
   <li id="ref-2Nauck MA, Heimesaat MM, Orskov C, et al. Preserved incretin activity of glucagon-like peptide 1 [7-36 amide] but not of synthetic human gastric inhibitory polypeptide in patients with type-2 diabetes mellitus. <em>J Clin Invest</em>. 1993;91(1):301–307. <a href="https://doi.org/10.1172%2FJCI116186">doi:10.1172/JCI116186</a></li>
   <li id="ref-3Eng J, Kleinman WA, Singh L, et al. Isolation and characterization of exendin-4, an exendin-3 analogue, from Heloderma suspectum venom. <em>J Biol Chem</em>. 1992;267(11):7402–7405.</li>
   <li id="ref-4Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131–2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>

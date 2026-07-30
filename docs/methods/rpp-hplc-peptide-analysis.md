@@ -171,8 +171,8 @@ TFA causes ion suppression in ESI-MS. For LC-MS, use 0.1% formic acid instead of
 
 
 ## References
-<ol class="references
-  <li id="ref1Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
+<ol class="references">
+Methods Mol Biol</em>. 2007;386:3-55.</li>
   <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
   <li id="ref3Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
   <li id="ref4Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>

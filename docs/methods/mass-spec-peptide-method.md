@@ -192,8 +192,8 @@ CID and HCD produce b/y ions through backbone cleavage; HCD occurs at higher ene
 
 
 ## References
-<ol class="references
-  <li id="ref1Fenn JB, Mann M, Meng CK, et al. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
+<ol class="references">
+Science</em>. 1989;246(4926):64-71.</li>
   <li id="ref2Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
   <li id="ref3Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
   <li id="ref4Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>

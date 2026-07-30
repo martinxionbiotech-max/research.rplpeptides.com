@@ -125,10 +125,8 @@ MOTS-c activates AMPK indirectly through modulation of one-carbon metabolism. It
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. <em>Cell Metabolism</em>. 2015;21(3):443-454. <a href="https://doi.org/10.1016%2Fj.cmet.2015.02.009">doi:10.1016/j.cmet.2015.02.009</a></li>
+  <ol class="references">
+Cell Metabolism</em>. 2015;21(3):443-454. <a href="https://doi.org/10.1016%2Fj.cmet.2015.02.009">doi:10.1016/j.cmet.2015.02.009</a></li>
   <li id="ref2Kim KH, Son JM, Benayoun BA, et al. The mitochondrial-encoded peptide MOTS-c is a regulator of age-related metabolic dysfunction. <em>Nature Communications</em>. 2019;10(1):1104. <a href="https://doi.org/10.1038%2Fs41467-019-08933-0">doi:10.1038/s41467-019-08933-0</a></li>
   <li id="ref3Lu L, Li J, Jiang J, et al. MOTS-c peptide regulates mitochondrial function and metabolic homeostasis in skeletal muscle. <em>Molecular Metabolism</em>. 2019;27:1-9. <a href="https://doi.org/10.1016%2Fj.molmet.2019.06.012">doi:10.1016/j.molmet.2019.06.012</a></li>
   <li id="ref4Zapata RC, Singh A, Bhatt D, et al. Mitochondrial-derived peptides in energy metabolism and metabolic diseases. <em>Trends in Endocrinology & Metabolism</em>. 2021;32(7):467-479. <a href="https://doi.org/10.1016%2Fj.tem.2021.04.007">doi:10.1016/j.tem.2021.04.007</a></li>

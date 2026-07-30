@@ -179,8 +179,8 @@ Onium salt-based reagents dominate: HBTU, HATU, HCTU, PyBOP, and COMU are widely
 
 
 ## References
-<ol class="references
-  <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
+<ol class="references">
+J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
   <li id="ref2Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
   <li id="ref3Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
   <li id="ref4Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>

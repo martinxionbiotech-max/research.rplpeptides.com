@@ -207,10 +207,8 @@ Peptide-receptor interactions typically involve a larger contact surface area (5
 
 
 ## References
-  <ol class="references
-
-
-  <li id="ref1Rosenbaum, D. M., Rasmussen, S. G. F., & Kobilka, B. K. (2009). The structure and function of G-protein-coupled receptors. <em>Nature</em>, 459(7245), 356–363. https://doi.org/10.1038/nature08144</li>
+  <ol class="references">
+Nature</em>, 459(7245), 356–363. https://doi.org/10.1038/nature08144</li>
   <li id="ref2Wettschureck, N., & Offermanns, S. (2005). Mammalian G proteins and their cell type specific functions. <em>Physiological Reviews</em>, 85(4), 1159–1204. https://doi.org/10.1152/physrev.00003.2005</li>
   <li id="ref3Berridge, M. J. (2009). Inositol trisphosphate and calcium signalling mechanisms. <em>Biochimica et Biophysica Acta</em>, 1793(6), 933–940. https://doi.org/10.1016/j.bbamcr.2008.10.005</li>
   <li id="ref4Lemmon, M. A., & Schlessinger, J. (2010). Cell signaling by receptor tyrosine kinases. <em>Cell</em>, 141(7), 1117–1134. https://doi.org/10.1016/j.cell.2010.06.011</li>

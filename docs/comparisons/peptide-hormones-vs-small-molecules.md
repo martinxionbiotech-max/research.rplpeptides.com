@@ -202,8 +202,8 @@ Small molecule synthesis is typically less expensive at scale ($50–500/g) comp
 
 
 ## References
-<ol class="references
-  <li id="ref1Craik DJ, Fairlie DP, Liras S, Price DA. The future of peptide-based drugs. <em>Chem Biol Drug Des</em>. 2013;81(1):136-147.</li>
+<ol class="references">
+Chem Biol Drug Des</em>. 2013;81(1):136-147.</li>
   <li id="ref2Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. <em>Drug Discov Today</em>. 2015;20(1):122-128.</li>
   <li id="ref3Lau JL, Dunn MK. Therapeutic peptides: Historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700-2707.</li>
   <li id="ref4Leader B, Baca QJ, Golan DE. Protein therapeutics: a summary and pharmacological classification. <em>Nat Rev Drug Discov</em>. 2008;7(1):21-39.</li>

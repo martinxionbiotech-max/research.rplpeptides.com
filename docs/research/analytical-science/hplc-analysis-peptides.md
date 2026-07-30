@@ -108,10 +108,8 @@ Peptide mapping involves enzymatic digestion of a peptide or protein followed by
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Mant CT, Hodges RS. High-performance liquid chromatography of peptides and proteins: separation analysis and conformation. <em>Methods Enzymol</em>. 1996;271:3-50.</li>
+  <ol class="references">
+Methods Enzymol</em>. 1996;271:3-50.</li>
   <li id="ref2Aguilar MI. Reversed-phase high-performance liquid chromatography of peptides. <em>Methods Mol Biol</em>. 2004;251:9-22.</li>
   <li id="ref3Bobaly B, Beck A, Fekete J, Guillarme D, Fekete S. Recent advances in reversed-phase liquid chromatographic separations of therapeutic peptides. <em>J Chromatogr A</em>. 2015;1384:29-40.</li>
   <li id="ref4Hancock WS, Bishop CA, Prestidge RL, Harding DR, Hearn MT. High-pressure liquid chromatography of peptides. <em>J Chromatogr</em>. 1976;125(1):215-222.</li>

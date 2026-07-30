@@ -142,9 +142,8 @@ The integration of peptides with next-generation sequencing platforms represents
 
 
 ## References
-<ol class="references
-
-  <li id="ref-1Terpe K. Overview of tag protein fusions: from molecular and biochemical fundamentals to commercial systems. <em>Appl Microbiol Biotechnol</em>. 2003;60(5):523–533. <a href="https://doi.org/10.1007%2Fs00253-002-1158-6">doi:10.1007/s00253-002-1158-6</a></li>
+<ol class="references">
+Appl Microbiol Biotechnol</em>. 2003;60(5):523–533. <a href="https://doi.org/10.1007%2Fs00253-002-1158-6">doi:10.1007/s00253-002-1158-6</a></li>
   <li id="ref-2Nielsen PE, Egholm M, Berg RH, et al. Sequence-selective recognition of DNA by strand displacement with a thymine-substituted polyamide. <em>Science</em>. 1991;254(5037):1497–1500. <a href="https://doi.org/10.1126%2Fscience.1962210">doi:10.1126/science.1962210</a></li>
   <li id="ref-3Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
   <li id="ref-4Egholm M, Buchardt O, Christensen L, et al. PNA hybridizes to complementary oligonucleotides obeying the Watson-Crick hydrogen-bonding rules. <em>Nature</em>. 1993;365(6446):566–568. <a href="https://doi.org/10.1038%2F365566a0">doi:10.1038/365566a0</a></li>

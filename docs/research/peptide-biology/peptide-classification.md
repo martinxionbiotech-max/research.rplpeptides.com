@@ -220,10 +220,8 @@ RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) repre
 
 
 ## References
-  <ol class="references
-
-
-  <li id="ref1Boonen, K., Landuyt, B., Bag german, G., Husson, S. J., Huybrechts, J., & Schoofs, L. (2019). Peptidomics: the integrated approach of MS, hyphenated techniques and bioinformatics for neuropeptide analysis. <em>Journal of Proteomics</em>, 188, 1–17. https://doi.org/10.1016/j.jprot.2018.01.008</li>
+  <ol class="references">
+Journal of Proteomics</em>, 188, 1–17. https://doi.org/10.1016/j.jprot.2018.01.008</li>
   <li id="ref2Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. https://doi.org/10.1016/S1474-4422(03)00482-400482-4)</li>
   <li id="ref3Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278</li>
   <li id="ref4Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. https://doi.org/10.1146/annurev.micro.58.030603.123615</li>

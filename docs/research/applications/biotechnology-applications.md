@@ -156,9 +156,8 @@ The integration of peptides into biomanufacturing processes—including cell-fre
 
 
 ## References
-<ol class="references
-
-  <li id="ref-1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+<ol class="references">
+J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
   <li id="ref-2Zhang S, Holmes T, Lockshin C, et al. Spontaneous assembly of a self-complementary oligopeptide to form a stable macroscopic membrane. <em>Proc Natl Acad Sci USA</em>. 1993;90(8):3334–3338. <a href="https://doi.org/10.1073%2Fpnas.90.8.3334">doi:10.1073/pnas.90.8.3334</a></li>
   <li id="ref-3Zasloff M. Magainins, a class of antimicrobial peptides from Xenopus skin: isolation, characterization of two active forms, and partial cDNA sequence of a precursor. <em>Proc Natl Acad Sci USA</em>. 1987;84(15):5449–5453. <a href="https://doi.org/10.1073%2Fpnas.84.15.5449">doi:10.1073/pnas.84.15.5449</a></li>
   <li id="ref-4Smith GP. Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface. <em>Science</em>. 1985;228(4705):1315–1317. <a href="https://doi.org/10.1126%2Fscience.4001944">doi:10.1126/science.4001944</a></li>

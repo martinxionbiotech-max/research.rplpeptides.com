@@ -182,8 +182,8 @@ Cyclic peptides require additional analytical attention. MALDI-TOF MS can confir
 
 
 ## References
-<ol class="references
-  <li id="ref1Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
+<ol class="references">
+Methods Mol Biol</em>. 2007;386:3-55.</li>
   <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
   <li id="ref3Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
   <li id="ref4Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>

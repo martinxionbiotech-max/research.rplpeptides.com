@@ -143,10 +143,8 @@ Some research has suggested that Epithalon may have immunomodulatory effects. St
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Khavinson VK, Malinin VV. Gerontological aspects of genome peptide regulation. <em>Biochemistry (Moscow)</em>. 2005;70(4):404-413. <a href="https://doi.org/10.1007%2Fs10541-005-0138-1">doi:10.1007/s10541-005-0138-1</a></li>
+  <ol class="references">
+Biochemistry (Moscow)</em>. 2005;70(4):404-413. <a href="https://doi.org/10.1007%2Fs10541-005-0138-1">doi:10.1007/s10541-005-0138-1</a></li>
   <li id="ref2Khavinson VK, Morozov VG, Malinin VV, et al. Effect of epithalon on the function of the pineal gland in elderly humans. <em>Advances in Gerontology</em>. 2002;9:101-109.</li>
   <li id="ref3Khavinson VK, Bondarev IE, Butyugov AA, et al. Peptide promotes overcoming of the division limit in human somatic cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2003;135(5):503-506. <a href="https://doi.org/10.1023%2FA%3A1024946820347">doi:10.1023/A:1024946820347</a></li>
   <li id="ref4Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. <em>Advances in Gerontology</em>. 2011;24(4):555-565.</li>

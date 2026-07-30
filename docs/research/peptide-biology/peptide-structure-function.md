@@ -187,10 +187,8 @@ Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides w
 
 
 ## References
-  <ol class="references
-
-
-  <li id="ref1Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain. <em>Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. https://doi.org/10.1073/pnas.37.4.205</li>
+  <ol class="references">
+Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. https://doi.org/10.1073/pnas.37.4.205</li>
   <li id="ref2Pauling, L., & Corey, R. B. (1951). Configurations of polypeptide chains with favored orientations around single bonds: two new pleated sheets. <em>Proceedings of the National Academy of Sciences</em>, 37(11), 729–740. https://doi.org/10.1073/pnas.37.11.729</li>
   <li id="ref3Kaiser, E. T., & Kézdy, F. J. (1984). Amphiphilic secondary structure: design of peptide hormones. <em>Science</em>, 223(4633), 249–255. https://doi.org/10.1126/science.6322295</li>
   <li id="ref4Milner-White, E. J., & Poet, R. (1987). Loops, bulges, turns and hairpins in proteins. <em>Trends in Biochemical Sciences</em>, 12, 189–192. https://doi.org/10.1016/0968-0004(87)90091-090091-0)</li>

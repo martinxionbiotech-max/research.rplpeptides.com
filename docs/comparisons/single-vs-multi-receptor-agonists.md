@@ -154,8 +154,8 @@ Clinical trial data suggest that multi-receptor agonists (tirzepatide) have GI t
 
 
 ## References
-<ol class="references
-  <li id="ref1Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
+<ol class="references">
+Nat Med</em>. 2015;21(1):27-36.</li>
   <li id="ref2Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
   <li id="ref3Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for type 2 diabetes. <em>Diabetes</em>. 2018;67(Suppl 1):1109-P.</li>
   <li id="ref4Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>

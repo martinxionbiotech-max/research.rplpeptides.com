@@ -153,43 +153,19 @@ Key open questions include the precise mechanisms of GIP-GLP-1 synergy at the ce
 
 
 ## References
-<ol class="references
-
-
-- Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
-  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
-  - Brown JC, Dryburgh JR.
-
-A gastric inhibitory polypeptide. II. The complete amino acid sequence. <em>Canadian Journal of Biochemistry</em>. 1971;49(8):867-872. <a href="https://doi.org/10.1139%2Fo71-122">doi:10.1139/o71-122</a>
-  - Campbell JE, Drucker DJ.
-
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
-  - Samms RJ, Cody E, Sloop KW, et al.
-
-GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a>
-  - Killion EA, Chen M, Falsey JR, et al.
-
-Chronic glucose-dependent insulinotropic polypeptide receptor (GIPR) agonism desensitizes adipocyte GIPR activity mimicking functional GIPR antagonism. <em>Nature Communications</em>. 2020;11:2981. <a href="https://doi.org/10.1038%2Fs41467-020-16751-8">doi:10.1038/s41467-020-16751-8</a>
-  - Müller TD, Finan B, Bloom SR, et al.
-
-Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a>
-  - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
-
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
-  - Frias JP, Davies MJ, Rosenstock J, et al.
-
-Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a>
-  - Pederson RA, Brown JC.
-
-The insulinotropic action of gastric inhibitory polypeptide in the perfused isolated rat pancreas. <em>Endocrinology</em>. 1976;99(3):780-785. <a href="https://doi.org/10.1210%2Fendo-99-3-780">doi:10.1210/endo-99-3-780</a>
-  - Seino Y, Fukushima M, Yabe D.
-
-GIP and GLP-1, the two incretin hormones: similarities and differences. <em>Journal of Diabetes Investigation</em>. 2010;1(1-2):8-23. <a href="https://doi.org/10.1111%2Fj.2040-1124.2010.00022.x">doi:10.1111/j.2040-1124.2010.00022.x</a>
-  - Gasbjerg LS, Christensen MB, Hartmann B, et al.
-
-Separate and combined effects of GIP and GLP-1 on insulin and glucagon secretion in healthy volunteers. <em>Diabetes</em>. 2019;68(7):1435-1444. <a href="https://doi.org/10.2337%2Fdb19-0058">doi:10.2337/db19-0058</a>
-
-
+<ol class="references">
+  <li id="ref1">Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>
+  <li id="ref2">Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a></li>
+  <li id="ref3">Brown JC, Dryburgh JR. A gastric inhibitory polypeptide. II. The complete amino acid sequence. <em>Canadian Journal of Biochemistry</em>. 1971;49(8):867-872. <a href="https://doi.org/10.1139%2Fo71-122">doi:10.1139/o71-122</a></li>
+  <li id="ref4">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a></li>
+  <li id="ref5">Samms RJ, Cody E, Sloop KW, et al. GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a></li>
+  <li id="ref6">Killion EA, Chen M, Falsey JR, et al. Chronic glucose-dependent insulinotropic polypeptide receptor (GIPR) agonism desensitizes adipocyte GIPR activity mimicking functional GIPR antagonism. <em>Nature Communications</em>. 2020;11:2981. <a href="https://doi.org/10.1038%2Fs41467-020-16751-8">doi:10.1038/s41467-020-16751-8</a></li>
+  <li id="ref7">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a></li>
+  <li id="ref8">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a></li>
+  <li id="ref9">Frias JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a></li>
+  <li id="ref10">Pederson RA, Brown JC. The insulinotropic action of gastric inhibitory polypeptide in the perfused isolated rat pancreas. <em>Endocrinology</em>. 1976;99(3):780-785. <a href="https://doi.org/10.1210%2Fendo-99-3-780">doi:10.1210/endo-99-3-780</a></li>
+  <li id="ref11">Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: similarities and differences. <em>Journal of Diabetes Investigation</em>. 2010;1(1-2):8-23. <a href="https://doi.org/10.1111%2Fj.2040-1124.2010.00022.x">doi:10.1111/j.2040-1124.2010.00022.x</a></li>
+  <li id="ref12">Gasbjerg LS, Christensen MB, Hartmann B, et al. Separate and combined effects of GIP and GLP-1 on insulin and glucagon secretion in healthy volunteers. <em>Diabetes</em>. 2019;68(7):1435-1444. <a href="https://doi.org/10.2337%2Fdb19-0058">doi:10.2337/db19-0058</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated June 2025*

@@ -119,10 +119,8 @@ Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes;
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
+  <ol class="references">
+Pharm Res</em>. 1989;6(11):903-918.</li>
   <li id="ref2Clarke S, Williams KR, Watanabe H. The deamidation of asparagine and glutamine residues in proteins. <em>J Biol Chem</em>. 1988;263(12):5778-5781.</li>
   <li id="ref3Li B, Borchardt RT, Topp EM. Chemical instability of protein pharmaceuticals: mechanisms, detection, and stabilization. <em>J Pharm Sci</em>. 2010;99(3):1139-1154.</li>
   <li id="ref4Robinson NE, Robinson AB. <em>Molecular Clocks: Deamidation of Asparaginyl and Glutaminyl Residues in Peptides and Proteins</em>. Althouse Press; 2004.</li>

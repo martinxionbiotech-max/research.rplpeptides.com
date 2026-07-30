@@ -134,29 +134,13 @@ Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimul
 
 
 ## References
-<ol class="references
-
-
-- Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. <em>N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a>
-  - Stanley TL, Feldpausch MN, Oh J, et al.
-
-Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. <em>AIDS.</em> 2014;28(9):1299-1307. <a href="https://doi.org/10.1097%2FQAD.0000000000000256">doi:10.1097/QAD.0000000000000256</a>
-  - Falutz J, Potvin D, Mamputu JC, et al.
-
-Long-term safety and effects of tesamorelin in HIV patients with abdominal fat accumulation. <em>AIDS.</em> 2008;22(13):1665-1676. <a href="https://doi.org/10.1097%2FQAD.0b013e3283030d91">doi:10.1097/QAD.0b013e3283030d91</a>
-  - Grunfeld C, Dobs AS, Engelson E, et al.
-
-Effects of tesamorelin on visceral adiposity in HIV-infected patients with abdominal fat accumulation. <em>J Clin Endocrinol Metab.</em> 2009;94(11):4286-4294. <a href="https://doi.org/10.1210%2Fjc.2009-1330">doi:10.1210/jc.2009-1330</a>
-  - Koutkia P, Canavan B, Breu J, et al.
-
-Growth hormone-releasing hormone (GHRH) administration in HIV-infected men: effects on body composition. <em>J Clin Endocrinol Metab.</em> 2005;90(5):2795-2800. <a href="https://doi.org/10.1210%2Fjc.2004-2099">doi:10.1210/jc.2004-2099</a>
-  - Dhillon S.
-
-Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. <em>Drugs.</em> 2011;71(8):1071-1091. <a href="https://doi.org/10.2165%2F11207480-000000000-00000">doi:10.2165/11207480-000000000-00000</a>
-  - Suh HS, Zhao Y, Smith N, et al.
-
-Tesamorelin for HIV-associated lipodystrophy: a systematic review. <em>Clin Ther.</em> 2014;36(10):1509-1522. <a href="https://doi.org/10.1016%2Fj.clinthera.2014.08.004">doi:10.1016/j.clinthera.2014.08.004</a>
-  - Lo J, You SM, Liebau J, et al. Effects of tesamorelin on coronary vascular function in HIV-infected patients. <em>HIV Med.</em> 2016;17(8):580-588. <a href="https://doi.org/10.1111%2Fhiv.12381">doi:10.1111/hiv.12381</a>
-
-
+<ol class="references">
+  <li id="ref1">N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a></li>
+  <li id="ref2">Stanley TL, Feldpausch MN, Oh J, et al. Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. <em>AIDS.</em> 2014;28(9):1299-1307. <a href="https://doi.org/10.1097%2FQAD.0000000000000256">doi:10.1097/QAD.0000000000000256</a></li>
+  <li id="ref3">Falutz J, Potvin D, Mamputu JC, et al. Long-term safety and effects of tesamorelin in HIV patients with abdominal fat accumulation. <em>AIDS.</em> 2008;22(13):1665-1676. <a href="https://doi.org/10.1097%2FQAD.0b013e3283030d91">doi:10.1097/QAD.0b013e3283030d91</a></li>
+  <li id="ref4">Grunfeld C, Dobs AS, Engelson E, et al. Effects of tesamorelin on visceral adiposity in HIV-infected patients with abdominal fat accumulation. <em>J Clin Endocrinol Metab.</em> 2009;94(11):4286-4294. <a href="https://doi.org/10.1210%2Fjc.2009-1330">doi:10.1210/jc.2009-1330</a></li>
+  <li id="ref5">Koutkia P, Canavan B, Breu J, et al. Growth hormone-releasing hormone (GHRH) administration in HIV-infected men: effects on body composition. <em>J Clin Endocrinol Metab.</em> 2005;90(5):2795-2800. <a href="https://doi.org/10.1210%2Fjc.2004-2099">doi:10.1210/jc.2004-2099</a></li>
+  <li id="ref6">Dhillon S. Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. <em>Drugs.</em> 2011;71(8):1071-1091. <a href="https://doi.org/10.2165%2F11207480-000000000-00000">doi:10.2165/11207480-000000000-00000</a></li>
+  <li id="ref7">Suh HS, Zhao Y, Smith N, et al. Tesamorelin for HIV-associated lipodystrophy: a systematic review. <em>Clin Ther.</em> 2014;36(10):1509-1522. <a href="https://doi.org/10.1016%2Fj.clinthera.2014.08.004">doi:10.1016/j.clinthera.2014.08.004</a></li>
+  <li id="ref8">Lo J, You SM, Liebau J, et al. Effects of tesamorelin on coronary vascular function in HIV-infected patients. <em>HIV Med.</em> 2016;17(8):580-588. <a href="https://doi.org/10.1111%2Fhiv.12381">doi:10.1111/hiv.12381</a></li>
 </ol>

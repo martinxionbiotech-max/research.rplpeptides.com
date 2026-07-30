@@ -145,27 +145,13 @@ Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a act
 
 
 ## References
-<ol class="references
-
-
-- Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. <em>Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a>
-  - Karsdal MA, Byrjalsen I, Riis BJ, et al.
-
-Effect of the growth hormone secretagogue ipamorelin on markers of bone turnover in healthy volunteers. <em>Bone.</em> 2011;49(4):702-708. <a href="https://doi.org/10.1016%2Fj.bone.2011.06.010">doi:10.1016/j.bone.2011.06.010</a>
-  - Svensson J, Lönn L, Jansson JO, et al.
-
-Two-month treatment of obese subjects with the oral growth hormone secretagogue ipamorelin. <em>Obes Res.</em> 2000;8(2):186-192. <a href="https://doi.org/10.1038%2Foby.2000.19">doi:10.1038/oby.2000.19</a>
-  - Hansen TK, Møller J, Khalaf N, et al.
-
-Intravenous growth hormone secretagogue ipamorelin stimulates GH secretion in healthy humans. <em>Clin Endocrinol (Oxf).</em> 1999;51(2):185-191. <a href="https://doi.org/10.1046%2Fj.1365-2265.1999.00739.x">doi:10.1046/j.1365-2265.1999.00739.x</a>
-  - Jørgensen JO, Møller N, Wolthers T, et al.
-
-Growth hormone secretagogues: a new class of compounds. <em>Growth Horm IGF Res.</em> 1998;8 Suppl A:21-26. <a href="https://doi.org/10.1016%2Fs1096-6374%2898%2980005-3">doi:10.1016/s1096-6374(98)80005-3</a>
-  - Bowers CY. Growth hormone-releasing peptide (GHRP). <em>Cell Mol Life Sci.</em> 1998;54(12):1316-1329. <a href="https://doi.org/10.1007%2Fs000180050257">doi:10.1007/s000180050257</a>
-  - Kojima M, Hosoda H, Date Y, et al.
-
-Ghrelin is a growth-hormone-releasing acylated peptide from stomach. <em>Nature.</em> 1999;402(6762):656-660. <a href="https://doi.org/10.1038%2F45230">doi:10.1038/45230</a>
-  - Nass R, Pezzoli SS, Chapman IM, et al. GH secretagogues and bone. <em>Endocr Rev.</em> 2011;32(3):376-397. <a href="https://doi.org/10.1210%2Fer.2010-0007">doi:10.1210/er.2010-0007</a>
-
-
+<ol class="references">
+  <li id="ref1">Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a></li>
+  <li id="ref2">Karsdal MA, Byrjalsen I, Riis BJ, et al. Effect of the growth hormone secretagogue ipamorelin on markers of bone turnover in healthy volunteers. <em>Bone.</em> 2011;49(4):702-708. <a href="https://doi.org/10.1016%2Fj.bone.2011.06.010">doi:10.1016/j.bone.2011.06.010</a></li>
+  <li id="ref3">Svensson J, Lönn L, Jansson JO, et al. Two-month treatment of obese subjects with the oral growth hormone secretagogue ipamorelin. <em>Obes Res.</em> 2000;8(2):186-192. <a href="https://doi.org/10.1038%2Foby.2000.19">doi:10.1038/oby.2000.19</a></li>
+  <li id="ref4">Hansen TK, Møller J, Khalaf N, et al. Intravenous growth hormone secretagogue ipamorelin stimulates GH secretion in healthy humans. <em>Clin Endocrinol (Oxf).</em> 1999;51(2):185-191. <a href="https://doi.org/10.1046%2Fj.1365-2265.1999.00739.x">doi:10.1046/j.1365-2265.1999.00739.x</a></li>
+  <li id="ref5">Jørgensen JO, Møller N, Wolthers T, et al. Growth hormone secretagogues: a new class of compounds. <em>Growth Horm IGF Res.</em> 1998;8 Suppl A:21-26. <a href="https://doi.org/10.1016%2Fs1096-6374%2898%2980005-3">doi:10.1016/s1096-6374(98)80005-3</a></li>
+  <li id="ref6">Bowers CY. Growth hormone-releasing peptide (GHRP). <em>Cell Mol Life Sci.</em> 1998;54(12):1316-1329. <a href="https://doi.org/10.1007%2Fs000180050257">doi:10.1007/s000180050257</a></li>
+  <li id="ref7">Kojima M, Hosoda H, Date Y, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. <em>Nature.</em> 1999;402(6762):656-660. <a href="https://doi.org/10.1038%2F45230">doi:10.1038/45230</a></li>
+  <li id="ref8">Nass R, Pezzoli SS, Chapman IM, et al. GH secretagogues and bone. <em>Endocr Rev.</em> 2011;32(3):376-397. <a href="https://doi.org/10.1210%2Fer.2010-0007">doi:10.1210/er.2010-0007</a></li>
 </ol>

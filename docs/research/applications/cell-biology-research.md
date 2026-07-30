@@ -142,9 +142,8 @@ The integration of synthetic biology and peptide chemistry is enabling the desig
 
 
 ## References
-<ol class="references
-
-  <li id="ref-1Levi-Montalcini R. The nerve growth factor 35 years later. <em>Science</em>. 1987;237(4819):1154–1162. <a href="https://doi.org/10.1126%2Fscience.3306916">doi:10.1126/science.3306916</a></li>
+<ol class="references">
+Science</em>. 1987;237(4819):1154–1162. <a href="https://doi.org/10.1126%2Fscience.3306916">doi:10.1126/science.3306916</a></li>
   <li id="ref-2Maquart FX, Pasco S, Ramont L, et al. An introduction to matrikines: extracellular matrix-derived peptides which regulate cell activity. <em>Crit Rev Oncol Hematol</em>. 2004;49(3):199–202. <a href="https://doi.org/10.1016%2Fj.critrevonc.2003.06.007">doi:10.1016/j.critrevonc.2003.06.007</a></li>
   <li id="ref-3Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
   <li id="ref-4Schlessinger J. Cell signaling by receptor tyrosine kinases. <em>Cell</em>. 2000;103(2):211–225. <a href="https://doi.org/10.1016%2FS0092-8674%2800%2900114-8">doi:10.1016/S0092-8674(00)00114-8</a></li>

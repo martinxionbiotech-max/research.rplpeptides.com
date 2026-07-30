@@ -192,8 +192,8 @@ Freezing and drying stresses can cause conformational changes and aggregation if
 
 
 ## References
-<ol class="references
-  <li id="ref1Franks F. Freeze-drying of bioproducts: putting principles into practice. <em>Eur J Pharm Biopharm</em>. 1998;45(3):221-229.</li>
+<ol class="references">
+Eur J Pharm Biopharm</em>. 1998;45(3):221-229.</li>
   <li id="ref2Pikal MJ. Freeze-drying of proteins. Part I: process design. <em>Pharm Technol</em>. 2002;15(1):78-92.</li>
   <li id="ref3Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. <em>Pharm Res</em>. 2004;21(2):191-200.</li>
   <li id="ref4Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations. <em>Pharm Res</em>. 1997;14(8):969-975.</li>

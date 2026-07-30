@@ -143,39 +143,17 @@ Limitations include the need for long-term safety data beyond 5 years, incomplet
 
 
 ## References
-<ol class="references
-
-
-- Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a>
-  - Wilding JPH, Batterham RL, Calanna S, et al.
-
-Once-Weekly Semaglutide in Adults with Overweight or Obesity. <em>New England Journal of Medicine</em>. 2021;384(11):989-1002. <a href="https://doi.org/10.1056%2FNEJMoa2032183">doi:10.1056/NEJMoa2032183</a>
-  - Aroda VR, Rosenstock J, Terauchi Y, et al.
-
-Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide as add-on to metformin in patients with type 2 diabetes (SUSTAIN 7). <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a>
-  - Marx N, Husain M, Ofstad AP, et al.
-
-Semaglutide and cardiovascular outcomes in patients with type 2 diabetes and prior cardiovascular disease: a post hoc analysis of SUSTAIN 6. <em>Diabetes Care</em>. 2018;41(11):e153-e154. <a href="https://doi.org/10.2337%2Fdc18-1014">doi:10.2337/dc18-1014</a>
-  - Rubino D, Abrahamsson N, Davies M, et al.
-
-Effect of continued weekly subcutaneous semaglutide vs placebo on weight loss maintenance in adults with overweight or obesity: the STEP 4 randomized clinical trial. <em>JAMA</em>. 2021;325(14):1414-1425. <a href="https://doi.org/10.1001%2Fjama.2021.3224">doi:10.1001/jama.2021.3224</a>
-  - Davies M, Pieber TR, Hartoft-Nielsen ML, et al.
-
-Effect of oral semaglutide compared with placebo and subcutaneous semaglutide on glycemic control in patients with type 2 diabetes: a randomized clinical trial. <em>JAMA</em>. 2017;318(15):1460-1470. <a href="https://doi.org/10.1001%2Fjama.2017.14752">doi:10.1001/jama.2017.14752</a>
-  - Kosiborod M, Cavender MA, Fu AZ, et al.
-
-Lower risk of heart failure and death in patients initiated on sodium-glucose cotransporter-2 inhibitors versus other glucose-lowering drugs: the CVD-REAL study. <em>Circulation</em>. 2017;136(3):249-259. <a href="https://doi.org/10.1161%2FCIRCULATIONAHA.116.025943">doi:10.1161/CIRCULATIONAHA.116.025943</a>
-  - Pratley R, Amod A, Hoff ST, et al.
-
-Oral semaglutide versus subcutaneous liraglutide and placebo in type 2 diabetes (PIONEER 4): a randomised, double-blind, phase 3a trial. <em>The Lancet</em>. 2019;394(10192):39-50. <a href="https://doi.org/10.1016%2FS0140-6736%2819%2931271-1">doi:10.1016/S0140-6736(19)31271-1</a>
-  - Rubino DM, Greenway FL, Khalid U, et al.
-
-Effect of weekly subcutaneous semaglutide vs daily liraglutide on body weight in adults with overweight or obesity without diabetes: the STEP 8 randomized clinical trial. <em>JAMA</em>. 2022;327(2):138-150. <a href="https://doi.org/10.1001%2Fjama.2021.23619">doi:10.1001/jama.2021.23619</a>
-  - Kusminski CM, Bickel PE, Scherer PE.
-
-Targeting adipose tissue in the treatment of obesity-associated diabetes. <em>Nature Reviews Drug Discovery</em>. 2016;15(9):639-660. <a href="https://doi.org/10.1038%2Fnrd.2016.75">doi:10.1038/nrd.2016.75</a>
-
-
+<ol class="references">
+  <li id="ref1">New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a></li>
+  <li id="ref2">Wilding JPH, Batterham RL, Calanna S, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. <em>New England Journal of Medicine</em>. 2021;384(11):989-1002. <a href="https://doi.org/10.1056%2FNEJMoa2032183">doi:10.1056/NEJMoa2032183</a></li>
+  <li id="ref3">Aroda VR, Rosenstock J, Terauchi Y, et al. Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide as add-on to metformin in patients with type 2 diabetes (SUSTAIN 7). <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a></li>
+  <li id="ref4">Marx N, Husain M, Ofstad AP, et al. Semaglutide and cardiovascular outcomes in patients with type 2 diabetes and prior cardiovascular disease: a post hoc analysis of SUSTAIN 6. <em>Diabetes Care</em>. 2018;41(11):e153-e154. <a href="https://doi.org/10.2337%2Fdc18-1014">doi:10.2337/dc18-1014</a></li>
+  <li id="ref5">Rubino D, Abrahamsson N, Davies M, et al. Effect of continued weekly subcutaneous semaglutide vs placebo on weight loss maintenance in adults with overweight or obesity: the STEP 4 randomized clinical trial. <em>JAMA</em>. 2021;325(14):1414-1425. <a href="https://doi.org/10.1001%2Fjama.2021.3224">doi:10.1001/jama.2021.3224</a></li>
+  <li id="ref6">Davies M, Pieber TR, Hartoft-Nielsen ML, et al. Effect of oral semaglutide compared with placebo and subcutaneous semaglutide on glycemic control in patients with type 2 diabetes: a randomized clinical trial. <em>JAMA</em>. 2017;318(15):1460-1470. <a href="https://doi.org/10.1001%2Fjama.2017.14752">doi:10.1001/jama.2017.14752</a></li>
+  <li id="ref7">Kosiborod M, Cavender MA, Fu AZ, et al. Lower risk of heart failure and death in patients initiated on sodium-glucose cotransporter-2 inhibitors versus other glucose-lowering drugs: the CVD-REAL study. <em>Circulation</em>. 2017;136(3):249-259. <a href="https://doi.org/10.1161%2FCIRCULATIONAHA.116.025943">doi:10.1161/CIRCULATIONAHA.116.025943</a></li>
+  <li id="ref8">Pratley R, Amod A, Hoff ST, et al. Oral semaglutide versus subcutaneous liraglutide and placebo in type 2 diabetes (PIONEER 4): a randomised, double-blind, phase 3a trial. <em>The Lancet</em>. 2019;394(10192):39-50. <a href="https://doi.org/10.1016%2FS0140-6736%2819%2931271-1">doi:10.1016/S0140-6736(19)31271-1</a></li>
+  <li id="ref9">Rubino DM, Greenway FL, Khalid U, et al. Effect of weekly subcutaneous semaglutide vs daily liraglutide on body weight in adults with overweight or obesity without diabetes: the STEP 8 randomized clinical trial. <em>JAMA</em>. 2022;327(2):138-150. <a href="https://doi.org/10.1001%2Fjama.2021.23619">doi:10.1001/jama.2021.23619</a></li>
+  <li id="ref10">Kusminski CM, Bickel PE, Scherer PE. Targeting adipose tissue in the treatment of obesity-associated diabetes. <em>Nature Reviews Drug Discovery</em>. 2016;15(9):639-660. <a href="https://doi.org/10.1038%2Fnrd.2016.75">doi:10.1038/nrd.2016.75</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated July 2025*

@@ -110,10 +110,8 @@ Modern mass spectrometers routinely achieve detection limits in the low femtomol
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
+  <ol class="references">
+Anal Chem</em>. 1988;60(20):2299-2301.</li>
   <li id="ref2Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
   <li id="ref3Mann M, Wilm M. Error-tolerant identification of peptides in sequence databases by peptide sequence tags. <em>Anal Chem</em>. 1994;66(24):4390-4399.</li>
   <li id="ref4Steen H, Mann M. The abc's (and xyz's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>

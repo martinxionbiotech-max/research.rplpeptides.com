@@ -167,8 +167,8 @@ The literature is dominated by a single research group (Sikiric and colleagues),
 
 
 ## References
-<ol class="references
-  <li id="ref1Sikiric P, Seiwerth S, Brcic L, et al. Stable gastric pentadecapeptide BPC 157-NO-system relation. <em>Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>
+<ol class="references">
+Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>
   <li id="ref2Sikiric P, Seiwerth S, Brcic L, et al. BPC 157 as therapy for gastrointestinal ulcer and other lesions. <em>Dig Dis Sci</em>. 2010;55(11):3081-3097.</li>
   <li id="ref3Sikiric P, Seiwerth S, Brcic L, et al. Central and peripheral modulation of pain and GI motility by stable gastric pentadecapeptide BPC 157. <em>Curr Med Chem</em>. 2012;19(9):1268-1280.</li>
   <li id="ref4Staresinic M, Petrovic I, Novinscak T, et al. Effective therapy of transected quadriceps muscle in rat: BPC 157 vs. control. <em>J Orthop Res</em>. 2006;24(8):1663-1673.</li>

@@ -142,10 +142,8 @@ GHK-Cu functions as a physiological copper delivery system in the body. It can b
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1Pickart L, Thaler MM. Tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver. <em>Nature New Biology</em>. 1973;243(126):87-88. <a href="https://doi.org/10.1038%2Fnewbio243085a0">doi:10.1038/newbio243085a0</a></li>
+  <ol class="references">
+Nature New Biology</em>. 1973;243(126):87-88. <a href="https://doi.org/10.1038%2Fnewbio243085a0">doi:10.1038/newbio243085a0</a></li>
   <li id="ref2Pickart L, Vasquez-Soltero JM, Margolina A. The human tripeptide GHK-Cu in prevention of oxidative stress and degenerative conditions of aging: implications for cognitive decline. <em>Oxidative Medicine and Cellular Longevity</em>. 2012;2012:324832. <a href="https://doi.org/10.1155%2F2012%2F324832">doi:10.1155/2012/324832</a></li>
   <li id="ref3Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. <em>International Journal of Molecular Sciences</em>. 2015;16(12):28568-28579. <a href="https://doi.org/10.3390%2Fijms161226114">doi:10.3390/ijms161226114</a></li>
   <li id="ref4Gruber JV, Holtz R, Kadla JE, et al. Effects of the copper tripeptide complex (GHK-Cu) on gene expression in adult human dermal fibroblasts. <em>Journal of the American Academy of Dermatology</em>. 2006;54(3):AB44.</li>

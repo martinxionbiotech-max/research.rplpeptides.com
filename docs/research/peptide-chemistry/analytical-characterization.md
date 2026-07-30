@@ -113,27 +113,27 @@ The field is moving toward increased automation, with high-throughput LC-MS syst
 
 ## Frequently Asked Questions
 <details class="faq-item">
-<summary></summary>
+<summary>The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.</summary>
 The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.1 Da); (2) analytical RP-HPLC retention time matching against a reference standard; and (3) optionally, amino acid analysis or MS/MS sequencing for definitive sequence confirmation. For most research peptides, MS confirmation paired with HPLC purity is considered sufficient.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Purity is determined by integrating all UV-absorbing peaks in the chromatogram (detected at 214 nm) and expressing the area of the main peak as a percentage of the total integrated area (% area purity).</summary>
 Purity is determined by integrating all UV-absorbing peaks in the chromatogram (detected at 214 nm) and expressing the area of the main peak as a percentage of the total integrated area (% area purity). This assumes all impurities have comparable molar absorptivity at 214 nm, which is reasonable because absorbance at this wavelength is dominated by amide bonds. Purity claims of ">95%" or ">98%" refer to this area percent value.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>CD measures the difference in absorption of left- and right-circularly polarized light by chiral molecules.</summary>
 CD measures the difference in absorption of left- and right-circularly polarized light by chiral molecules. In the far-UV region (190–250 nm), the peptide bond chromophore produces characteristic spectra for different secondary structures: α-helices show negative bands at 208 and 222 nm, β-sheets show a negative band at ~216 nm, and random coils show a positive band at ~212 nm and a negative band at ~198 nm. Deconvolution algorithms fit the experimental spectrum to reference spectra to quantify secondary structure percentages.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Peptide content is the mass fraction of the peptide itself in a lyophilized powder, which typically also contains residual TFA (from HPLC purification), water, and trace salts.</summary>
 Peptide content is the mass fraction of the peptide itself in a lyophilized powder, which typically also contains residual TFA (from HPLC purification), water, and trace salts. A lyophilized peptide labeled as "5 mg" might contain only 3.5 mg of peptide (70% content). Accurate content determination by AAA or UV spectrophotometry is essential for preparing precise stock solutions for quantitative biological assays.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (for molecular weight confirmation) in a single analytical run.</summary>
 LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (for molecular weight confirmation) in a single analytical run. The UV chromatogram at 214 nm provides purity data, while the MS total ion chromatogram and extracted mass spectra confirm the identity of each peak. LC-MS can identify the nature of impurities — for example, a peak 28 Da lighter than the target suggests a deletion sequence, while a +16 Da peak suggests methionine oxidation.
 </details>
   </div>
@@ -144,21 +144,19 @@ LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (f
 
 
 ## References
-<div class="references
-  <ol>
-    <li id="ref1Biemann K. Sequencing of peptides by tandem mass spectrometry and high-energy collision-induced dissociation. <em>Methods Enzymol</em>. 1990;193:455-479. <a href="https://doi.org/10.1016%2F0076-6879%2890%2993433-B">doi:10.1016/0076-6879(90)93433-B</a></li>
-    <li id="ref2Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71. <a href="https://doi.org/10.1126%2Fscience.2675315">doi:10.1126/science.2675315</a></li>
-    <li id="ref3Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301. <a href="https://doi.org/10.1021%2Fac00171a028">doi:10.1021/ac00171a028</a></li>
-    <li id="ref4Bewley TA, Li CH. Circular dichroism of peptides and proteins. <em>Methods Enzymol</em>. 1972;25:355-375. <a href="https://doi.org/10.1016%2FS0076-6879%2872%2925032-8">doi:10.1016/S0076-6879(72)25032-8</a></li>
+<ol class="references">
+    <li id="ref"ref1">Biemann K. Sequencing of peptides by tandem mass spectrometry and high-energy collision-induced dissociation. <em>Methods Enzymol</em>. 1990;193:455-479. <a href="https://doi.org/10.1016%2F0076-6879%2890%2993433-B">doi:10.1016/0076-6879(90)93433-B</a></li>
+    <li id="ref"ref2">Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71. <a href="https://doi.org/10.1126%2Fscience.2675315">doi:10.1126/science.2675315</a></li>
+    <li id="ref"ref3">Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301. <a href="https://doi.org/10.1021%2Fac00171a028">doi:10.1021/ac00171a028</a></li>
+    <li id="ref"ref4">Bewley TA, Li CH. Circular dichroism of peptides and proteins. <em>Methods Enzymol</em>. 1972;25:355-375. <a href="https://doi.org/10.1016%2FS0076-6879%2872%2925032-8">doi:10.1016/S0076-6879(72)25032-8</a></li>
     <li id="ref5Wüthrich K. <em>NMR of Proteins and Nucleic Acids</em>. Wiley; 1986. ISBN: 9780471828938</li>
-    <li id="ref6Moore S, Stein WH. Chromatographic determination of amino acids by the use of automatic recording equipment. <em>Methods Enzymol</em>. 1963;6:819-831. <a href="https://doi.org/10.1016%2F0076-6879%2863%2906260-5">doi:10.1016/0076-6879(63)06260-5</a></li>
-    <li id="ref7Spackman DH, Stein WH, Moore S. Automatic recording apparatus for use in the chromatography of amino acids. <em>Anal Chem</em>. 1958;30(7):1190-1206. <a href="https://doi.org/10.1021%2Fac60139a006">doi:10.1021/ac60139a006</a></li>
-    <li id="ref8Roepstorff P, Fohlman J. Proposal for a common nomenclature for sequence ions in mass spectra of peptides. <em>Biomed Mass Spectrom</em>. 1984;11(11):601. <a href="https://doi.org/10.1002%2Fbms.1200111109">doi:10.1002/bms.1200111109</a></li>
-    <li id="ref9Kelly SM, Price NC. The use of circular dichroism in the investigation of protein structure and function. <em>Curr Protein Pept Sci</em>. 2000;1(4):349-384. <a href="https://doi.org/10.2174%2F1389203003381315">doi:10.2174/1389203003381315</a></li>
-    <li id="ref10Whitford D. <em>Proteins: Structure and Function</em>. Wiley; 2005. ISBN: 9780471498933</li>
-    <li id="ref11Stults JT. Matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS). <em>Curr Opin Struct Biol</em>. 1995;5(5):691-698. <a href="https://doi.org/10.1016%2F0959-440X%2895%2980059-4">doi:10.1016/0959-440X(95)80059-4</a></li>
-    <li id="ref12Mann M, Jensen ON. Proteomic analysis of post-translational modifications. <em>Nat Biotechnol</em>. 2003;21(3):255-261. <a href="https://doi.org/10.1038%2Fnbt0303-255">doi:10.1038/nbt0303-255</a></li>
+    <li id="ref"ref6">Moore S, Stein WH. Chromatographic determination of amino acids by the use of automatic recording equipment. <em>Methods Enzymol</em>. 1963;6:819-831. <a href="https://doi.org/10.1016%2F0076-6879%2863%2906260-5">doi:10.1016/0076-6879(63)06260-5</a></li>
+    <li id="ref"ref7">Spackman DH, Stein WH, Moore S. Automatic recording apparatus for use in the chromatography of amino acids. <em>Anal Chem</em>. 1958;30(7):1190-1206. <a href="https://doi.org/10.1021%2Fac60139a006">doi:10.1021/ac60139a006</a></li>
+    <li id="ref"ref8">Roepstorff P, Fohlman J. Proposal for a common nomenclature for sequence ions in mass spectra of peptides. <em>Biomed Mass Spectrom</em>. 1984;11(11):601. <a href="https://doi.org/10.1002%2Fbms.1200111109">doi:10.1002/bms.1200111109</a></li>
+    <li id="ref"ref9">Kelly SM, Price NC. The use of circular dichroism in the investigation of protein structure and function. <em>Curr Protein Pept Sci</em>. 2000;1(4):349-384. <a href="https://doi.org/10.2174%2F1389203003381315">doi:10.2174/1389203003381315</a></li>
+    <li id="ref"ref10">Whitford D. <em>Proteins: Structure and Function</em>. Wiley; 2005. ISBN: 9780471498933</li>
+    <li id="ref"ref11">Stults JT. Matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS). <em>Curr Opin Struct Biol</em>. 1995;5(5):691-698. <a href="https://doi.org/10.1016%2F0959-440X%2895%2980059-4">doi:10.1016/0959-440X(95)80059-4</a></li>
+    <li id="ref"ref12">Mann M, Jensen ON. Proteomic analysis of post-translational modifications. <em>Nat Biotechnol</em>. 2003;21(3):255-261. <a href="https://doi.org/10.1038%2Fnbt0303-255">doi:10.1038/nbt0303-255</a></li>
 </ol>
-</div>
 
 *This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.*

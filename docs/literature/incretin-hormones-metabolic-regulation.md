@@ -184,8 +184,8 @@ Yes, incretins can also be cleared through renal filtration and degraded by othe
 
 
 ## References
-<ol class="references
-  <li id="ref1Creutzfeldt W. The incretin concept today. <em>Diabetologia</em>. 1979;16(2):75-85.</li>
+<ol class="references">
+Diabetologia</em>. 1979;16(2):75-85.</li>
   <li id="ref2Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
   <li id="ref3Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
   <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>

@@ -175,8 +175,8 @@ Tirzepatide is a biased GLP-1R agonist that preferentially activates Gαs/cAMP o
 
 
 ## References
-<ol class="references
-  <li id="ref1Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes (SURPASS-2). <em>Lancet</em>. 2021;398(10295):143-155.</li>
+<ol class="references">
+Lancet</em>. 2021;398(10295):143-155.</li>
   <li id="ref2Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
   <li id="ref3Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
   <li id="ref4Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>

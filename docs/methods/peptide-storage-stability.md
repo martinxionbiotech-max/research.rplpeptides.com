@@ -164,8 +164,8 @@ Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, P
 
 
 ## References
-<ol class="references
-  <li id="ref1Oliyai C, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Res</em>. 1994;11(6):751-758.</li>
+<ol class="references">
+Pharm Res</em>. 1994;11(6):751-758.</li>
   <li id="ref2Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
   <li id="ref3Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
   <li id="ref4Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>

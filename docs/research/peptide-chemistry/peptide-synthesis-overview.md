@@ -94,27 +94,27 @@ Several frontiers in peptide synthesis research are actively being explored:
 
 ## Frequently Asked Questions
 <details class="faq-item">
-<summary></summary>
+<summary>Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage.</summary>
 Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond.</summary>
 Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity.</summary>
 Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications.</summary>
 Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously.</summary>
 Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.
 </details>
   </div>
@@ -125,19 +125,17 @@ Automated peptide synthesizers have democratized SPPS by reducing hands-on time,
 
 
 ## References
-<div class="references
-  <ol>
-    <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
-    <li id="ref2Carpino LA, Han GY. The 9-fluorenylmethoxycarbonyl amino-protecting group. <em>J Org Chem</em>. 1972;37(22):3404-3409. <a href="https://doi.org/10.1021%2Fjo00795a005">doi:10.1021/jo00795a005</a></li>
-    <li id="ref3Kent SBH. Chemical synthesis of peptides and proteins. <em>Annu Rev Biochem</em>. 1988;57:957-989. <a href="https://doi.org/10.1146%2Fannurev.bi.57.070188.004521">doi:10.1146/annurev.bi.57.070188.004521</a></li>
-    <li id="ref4Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779. <a href="https://doi.org/10.1126%2Fscience.7973629">doi:10.1126/science.7973629</a></li>
-    <li id="ref5Merrifield RB. Solid-phase peptide synthesis. <em>Science</em>. 1986;232(4748):341-347. <a href="https://doi.org/10.1126%2Fscience.3961484">doi:10.1126/science.3961484</a></li>
-    <li id="ref6Lloyd-Williams P, Albericio F, Giralt E. <em>Chemical Approaches to the Synthesis of Peptides and Proteins</em>. CRC Press; 1997. ISBN: 9780849391422</li>
-    <li id="ref7Hackeng TM, Griffin JH, Dawson PE. Protein synthesis by native chemical ligation: expanded scope by using straightforward methodology. <em>Proc Natl Acad Sci USA</em>. 1999;96(18):10068-10073. <a href="https://doi.org/10.1073%2Fpnas.96.18.10068">doi:10.1073/pnas.96.18.10068</a></li>
-    <li id="ref8El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
-    <li id="ref9Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
-    <li id="ref10Made V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis to obtain therapeutic peptides. <em>Beilstein J Org Chem</em>. 2014;10:1197-1212. <a href="https://doi.org/10.3762%2Fbjoc.10.118">doi:10.3762/bjoc.10.118</a></li>
+<ol class="references">
+    <li id="ref"ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+    <li id="ref"ref2">Carpino LA, Han GY. The 9-fluorenylmethoxycarbonyl amino-protecting group. <em>J Org Chem</em>. 1972;37(22):3404-3409. <a href="https://doi.org/10.1021%2Fjo00795a005">doi:10.1021/jo00795a005</a></li>
+    <li id="ref"ref3">Kent SBH. Chemical synthesis of peptides and proteins. <em>Annu Rev Biochem</em>. 1988;57:957-989. <a href="https://doi.org/10.1146%2Fannurev.bi.57.070188.004521">doi:10.1146/annurev.bi.57.070188.004521</a></li>
+    <li id="ref"ref4">Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779. <a href="https://doi.org/10.1126%2Fscience.7973629">doi:10.1126/science.7973629</a></li>
+    <li id="ref"ref5">Merrifield RB. Solid-phase peptide synthesis. <em>Science</em>. 1986;232(4748):341-347. <a href="https://doi.org/10.1126%2Fscience.3961484">doi:10.1126/science.3961484</a></li>
+    <li id="ref"ref6">Lloyd-Williams P, Albericio F, Giralt E. <em>Chemical Approaches to the Synthesis of Peptides and Proteins</em>. CRC Press; 1997. ISBN: 9780849391422</li>
+    <li id="ref"ref7">Hackeng TM, Griffin JH, Dawson PE. Protein synthesis by native chemical ligation: expanded scope by using straightforward methodology. <em>Proc Natl Acad Sci USA</em>. 1999;96(18):10068-10073. <a href="https://doi.org/10.1073%2Fpnas.96.18.10068">doi:10.1073/pnas.96.18.10068</a></li>
+    <li id="ref"ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
+    <li id="ref"ref9">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
+    <li id="ref"ref10">Made V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis to obtain therapeutic peptides. <em>Beilstein J Org Chem</em>. 2014;10:1197-1212. <a href="https://doi.org/10.3762%2Fbjoc.10.118">doi:10.3762/bjoc.10.118</a></li>
 </ol>
-</div>
 
 *This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.*

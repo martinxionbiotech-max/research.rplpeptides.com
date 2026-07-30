@@ -133,21 +133,17 @@ Current limitations include incomplete understanding of tissue-specific GLP-1 si
 
 
 ## References
-<ol class="references
-
-
-  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a>
-  - Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors in type 2 diabetes. <em>The Lancet</em>. 2006;368(9548):1696-1705. <a href="https://doi.org/10.1016%2FS0140-6736%2806%2969705-5">doi:10.1016/S0140-6736(06)69705-5</a>
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
-  - Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiological Reviews</em>. 2007;87(4):1409-1439. <a href="https://doi.org/10.1152%2Fphysrev.00034.2006">doi:10.1152/physrev.00034.2006</a>
-  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
-  - Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a>
-  - Aroda VR, Rosenstock J, Terauchi Y, et al. Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide. <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a>
-  - Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
-  - Nauck MA, Homberger E, Siegel EG, et al. Incretin effects of increasing glucose loads in man from the intravenous route. <em>Diabetologia</em>. 1986;29(1):46-52. <a href="https://doi.org/10.1007%2FBF02427280">doi:10.1007/BF02427280</a>
-  - Kreymann B, Williams G, Ghatei MA, Bloom SR. Glucagon-like peptide-1 7-36: a physiological incretin in man. <em>The Lancet</em>. 1987;2(8571):1300-1304. <a href="https://doi.org/10.1016%2FS0140-6736%2887%2991194-9">doi:10.1016/S0140-6736(87)91194-9</a>
-
-
+<ol class="references">
+  <li id="ref1">Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a></li>
+  <li id="ref2">Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors in type 2 diabetes. <em>The Lancet</em>. 2006;368(9548):1696-1705. <a href="https://doi.org/10.1016%2FS0140-6736%2806%2969705-5">doi:10.1016/S0140-6736(06)69705-5</a></li>
+  <li id="ref3">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>
+  <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiological Reviews</em>. 2007;87(4):1409-1439. <a href="https://doi.org/10.1152%2Fphysrev.00034.2006">doi:10.1152/physrev.00034.2006</a></li>
+  <li id="ref5">Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a></li>
+  <li id="ref6">Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a></li>
+  <li id="ref7">Aroda VR, Rosenstock J, Terauchi Y, et al. Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide. <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a></li>
+  <li id="ref8">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a></li>
+  <li id="ref9">Nauck MA, Homberger E, Siegel EG, et al. Incretin effects of increasing glucose loads in man from the intravenous route. <em>Diabetologia</em>. 1986;29(1):46-52. <a href="https://doi.org/10.1007%2FBF02427280">doi:10.1007/BF02427280</a></li>
+  <li id="ref10">Kreymann B, Williams G, Ghatei MA, Bloom SR. Glucagon-like peptide-1 7-36: a physiological incretin in man. <em>The Lancet</em>. 1987;2(8571):1300-1304. <a href="https://doi.org/10.1016%2FS0140-6736%2887%2991194-9">doi:10.1016/S0140-6736(87)91194-9</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated June 2025*

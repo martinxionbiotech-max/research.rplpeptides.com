@@ -143,35 +143,17 @@ Current limitations include the absence of completed long-term cardiovascular ou
 
 
 ## References
-<ol class="references
-
-
-- Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a>
-  - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
-
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
-  - Rosenstock J, Wysham C, Frías JP, et al.
-
-Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a>
-  - Ludvik B, Giorgino F, Jódar E, et al.
-
-Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901443-4">doi:10.1016/S0140-6736(21)01443-4</a>
-  - Del Prato S, Kahn SE, Pavo I, et al.
-
-Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2902188-7">doi:10.1016/S0140-6736(21)02188-7</a>
-  - Coskun T, Sloop KW, Loghin C, et al.
-
-LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. <a href="https://doi.org/10.1038%2Fs42255-018-0007-6">doi:10.1038/s42255-018-0007-6</a>
-  - Samms RJ, Coghlan MP, Sloop KW.
-
-How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a>
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
-  - Campbell JE, Drucker DJ.
-
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
-  - Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a>
-
-
+<ol class="references">
+  <li id="ref1">New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a></li>
+  <li id="ref2">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a></li>
+  <li id="ref3">Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a></li>
+  <li id="ref4">Ludvik B, Giorgino F, Jódar E, et al. Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901443-4">doi:10.1016/S0140-6736(21)01443-4</a></li>
+  <li id="ref5">Del Prato S, Kahn SE, Pavo I, et al. Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2902188-7">doi:10.1016/S0140-6736(21)02188-7</a></li>
+  <li id="ref6">Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. <a href="https://doi.org/10.1038%2Fs42255-018-0007-6">doi:10.1038/s42255-018-0007-6</a></li>
+  <li id="ref7">Samms RJ, Coghlan MP, Sloop KW. How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a></li>
+  <li id="ref8">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>
+  <li id="ref9">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a></li>
+  <li id="ref10">Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated July 2025*

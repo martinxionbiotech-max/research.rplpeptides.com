@@ -159,8 +159,8 @@ For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult cou
 
 
 ## References
-<ol class="references
-  <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
+<ol class="references">
+J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
   <li id="ref2Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>
   <li id="ref3Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
   <li id="ref4El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>

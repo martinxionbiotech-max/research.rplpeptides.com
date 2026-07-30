@@ -142,39 +142,17 @@ The 24.2% mean weight reduction observed with retatrutide approaches the range t
 
 
 ## References
-<ol class="references
-
-
-- Coskun T, Urva S, Roell WC, et al.
-
-LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. <a href="https://doi.org/10.1016%2FS0140-6736%2822%2902033-5">doi:10.1016/S0140-6736(22)02033-5</a>
-  - Jastreboff AM, Kaplan LM, Frías JP, et al.
-
-Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. <a href="https://doi.org/10.1056%2FNEJMoa2301972">doi:10.1056/NEJMoa2301972</a>
-  - Rosenstock J, Frias J, Jastreboff AM, et al.
-
-Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901553-2">doi:10.1016/S0140-6736(23)01553-2</a>
-  - Coskun T, Sloop KW, Loghin C, et al.
-
-LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. <a href="https://doi.org/10.1111%2Fdom.14629">doi:10.1111/dom.14629</a>
-  - Finan B, Yang B, Ottaway N, et al.
-
-A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a>
-  - Galsgaard KD, Pedersen J, Knop FK, et al.
-
-Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. <a href="https://doi.org/10.3389%2Ffphys.2019.00413">doi:10.3389/fphys.2019.00413</a>
-  - Capozzi ME, DiMarchi RD, Tschöp MH, et al.
-
-Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. <a href="https://doi.org/10.1210%2Fer.2018-00117">doi:10.1210/er.2018-00117</a>
-  - Samms RJ, Coghlan MP, Sloop KW.
-
-How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a>
-  - Tschöp MH, DiMarchi RD.
-
-Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a>
-  - Sonne DP, Hemmingsen B, Faber J, et al. Pharmacology and physiology of glucagon receptor signaling. <em>Molecular Metabolism</em>. 2021;46:101169. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101169">doi:10.1016/j.molmet.2021.101169</a>
-
-
+<ol class="references">
+  <li id="ref1">Coskun T, Urva S, Roell WC, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. <a href="https://doi.org/10.1016%2FS0140-6736%2822%2902033-5">doi:10.1016/S0140-6736(22)02033-5</a></li>
+  <li id="ref2">Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. <a href="https://doi.org/10.1056%2FNEJMoa2301972">doi:10.1056/NEJMoa2301972</a></li>
+  <li id="ref3">Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901553-2">doi:10.1016/S0140-6736(23)01553-2</a></li>
+  <li id="ref4">Coskun T, Sloop KW, Loghin C, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. <a href="https://doi.org/10.1111%2Fdom.14629">doi:10.1111/dom.14629</a></li>
+  <li id="ref5">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a></li>
+  <li id="ref6">Galsgaard KD, Pedersen J, Knop FK, et al. Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. <a href="https://doi.org/10.3389%2Ffphys.2019.00413">doi:10.3389/fphys.2019.00413</a></li>
+  <li id="ref7">Capozzi ME, DiMarchi RD, Tschöp MH, et al. Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. <a href="https://doi.org/10.1210%2Fer.2018-00117">doi:10.1210/er.2018-00117</a></li>
+  <li id="ref8">Samms RJ, Coghlan MP, Sloop KW. How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a></li>
+  <li id="ref9">Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a></li>
+  <li id="ref10">Sonne DP, Hemmingsen B, Faber J, et al. Pharmacology and physiology of glucagon receptor signaling. <em>Molecular Metabolism</em>. 2021;46:101169. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101169">doi:10.1016/j.molmet.2021.101169</a></li>
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated July 2025*

@@ -186,8 +186,8 @@ GLP-1 RAs have been investigated in type 1 diabetes where residual beta cell fun
 
 
 ## References
-<ol class="references
-  <li id="ref1Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
+<ol class="references">
+N Engl J Med</em>. 2016;375:1834-1844.</li>
   <li id="ref2Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
   <li id="ref3Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
   <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>

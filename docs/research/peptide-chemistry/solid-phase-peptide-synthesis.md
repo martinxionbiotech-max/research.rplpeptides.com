@@ -113,27 +113,27 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 ## Frequently Asked Questions
 <details class="faq-item">
-<summary></summary>
+<summary>With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable.</summary>
 With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Resin choice determines the C-terminal functionality of the final peptide (acid vs.</summary>
 Resin choice determines the C-terminal functionality of the final peptide (acid vs. amide), the cleavage conditions required, and the swelling properties that affect reagent access. Wang resin yields peptide acids; Rink amide resin yields peptide amides; 2-chlorotrityl resin allows very mild cleavage. PEG-grafted resins like TentaGel improve performance in difficult sequences by reducing chain aggregation.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers.</summary>
 Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers. These are typically resolved by <a href="/research/peptide-chemistry/peptide-purification-methods/">preparative HPLC purification</a>.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions.</summary>
 Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions. Controlled microwave heating reduces coupling times from 30–60 minutes to 5–15 minutes, often with improved coupling efficiency and reduced aggregation. Modern microwave synthesizers maintain precise temperature control to minimize side reactions such as racemization.
 </details>
   </div>
 <details class="faq-item">
-<summary></summary>
+<summary>Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol.</summary>
 Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol. The primary contributors are DMF (the most common reaction solvent), DCM (used in washes), and acetonitrile (used in HPLC purification). Efforts to develop greener alternatives include 2-methyltetrahydrofuran (2-MeTHF), cyclopentyl methyl ether (CPME), and propylene carbonate as alternative solvents.
 </details>
   </div>
@@ -144,19 +144,17 @@ Traditional SPPS generates significant waste — estimated at 50–500 kg of sol
 
 
 ## References
-<div class="references
-  <ol>
-    <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
-    <li id="ref2Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
-    <li id="ref3Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. <a href="https://doi.org/10.1111%2Fj.1399-3011.1990.tb00939.x">doi:10.1111/j.1399-3011.1990.tb00939.x</a></li>
-    <li id="ref4Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. <a href="https://doi.org/10.1016%2FS0040-4039%2801%2980695-4">doi:10.1016/S0040-4039(01)80695-4</a></li>
-    <li id="ref5Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. <a href="https://doi.org/10.1002%2Fpsc.804">doi:10.1002/psc.804</a></li>
-    <li id="ref6Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
-    <li id="ref7Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. <a href="https://doi.org/10.1016%2FS0076-6879%2897%2989043-X">doi:10.1016/S0076-6879(97)89043-X</a></li>
-    <li id="ref8El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
-    <li id="ref9Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. <a href="https://doi.org/10.1039%2FC1CS15214A">doi:10.1039/C1CS15214A</a></li>
-    <li id="ref10Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. <a href="https://doi.org/10.1002%2F0471140864.ps1801s69">doi:10.1002/0471140864.ps1801s69</a></li>
+<ol class="references">
+    <li id="ref"ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+    <li id="ref"ref2">Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
+    <li id="ref"ref3">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. <a href="https://doi.org/10.1111%2Fj.1399-3011.1990.tb00939.x">doi:10.1111/j.1399-3011.1990.tb00939.x</a></li>
+    <li id="ref"ref4">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. <a href="https://doi.org/10.1016%2FS0040-4039%2801%2980695-4">doi:10.1016/S0040-4039(01)80695-4</a></li>
+    <li id="ref"ref5">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. <a href="https://doi.org/10.1002%2Fpsc.804">doi:10.1002/psc.804</a></li>
+    <li id="ref"ref6">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
+    <li id="ref"ref7">Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. <a href="https://doi.org/10.1016%2FS0076-6879%2897%2989043-X">doi:10.1016/S0076-6879(97)89043-X</a></li>
+    <li id="ref"ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
+    <li id="ref"ref9">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. <a href="https://doi.org/10.1039%2FC1CS15214A">doi:10.1039/C1CS15214A</a></li>
+    <li id="ref"ref10">Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. <a href="https://doi.org/10.1002%2F0471140864.ps1801s69">doi:10.1002/0471140864.ps1801s69</a></li>
 </ol>
-</div>
 
 *This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.*

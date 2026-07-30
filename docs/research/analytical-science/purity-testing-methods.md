@@ -107,10 +107,8 @@ Yes. Impurities lacking strong UV absorbance at 214 nm (e.g., non-peptide contam
 
 ## References
 <div class="references
-  <ol class="references
-
-
-  <li id="ref1D'Hondt M, Bracke N, Taevernier L, et al. Related impurities in peptide medicines. <em>J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
+  <ol class="references">
+J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
   <li id="ref2Bracke N, Wynendaele E, D'Hondt M, et al. Impurity profiling of therapeutic peptides by liquid chromatography. <em>TrAC Trends Anal Chem</em>. 2015;72:13-24.</li>
   <li id="ref3Kaschak T, Hines K, DeLorenzo RA, Matz J. Characterization of peptide impurities by LC-MS/MS. <em>J Pept Sci</em>. 2011;17(5):367-374.</li>
   <li id="ref4Zhao Y, Dong Y, Hu X, et al. Capillary electrophoresis in the analysis of therapeutic peptides. <em>Electrophoresis</em>. 2018;39(15):1856-1872.</li>
