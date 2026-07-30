@@ -2,115 +2,115 @@
 title: Solid-Phase Peptide Synthesis Method Guide
 description: "Solid-phase peptide synthesis (SPPS) is the predominant method for chemical peptide assembly, wherein the growing peptid"
 ---
-<h1>Solid-Phase Peptide Synthesis: Methodological Guide and Research Applications</h1>
 
-<h2>Executive Summary</h2>
-<p>Solid-phase peptide synthesis (SPPS) is the predominant method for chemical peptide assembly, wherein the growing peptide chain is covalently attached to an insoluble polymeric resin support. Chain elongation proceeds via repeated cycles of N<sup>α</sup>-deprotection and amino acid coupling, with excess reagents and byproducts removed by simple filtration and washing. The Fmoc/tBu strategy, employing base-labile N<sup>α</sup>-Fmoc protection and acid-labile side-chain protection, has become the standard approach for routine peptide synthesis. This guide provides a detailed methodological overview of SPPS, including resin selection, protecting groups, coupling reagents, synthetic protocols, automation, purification, and quality control best practices.</p>
+# Solid-Phase Peptide Synthesis: Methodological Guide and Research Applications
 
-<h2>Background</h2>
-<p>Prior to 1963, peptide synthesis was performed exclusively in solution, requiring purification and characterization of each intermediate—a process so laborious that even the synthesis of a pentapeptide was a significant undertaking. Merrifield's radical innovation was to anchor the growing peptide chain to an insoluble support, enabling simple solid-liquid separation after each reaction step. The first demonstration—the synthesis of a tetrapeptide (Leu-Ala-Gly-Val) on chloromethylated polystyrene resin—established the feasibility of the approach (Merrifield, 1963). Merrifield was awarded the Nobel Prize in Chemistry in 1984 for this contribution.</p>
-<p>The original Boc/benzyl strategy, while effective, required anhydrous hydrogen fluoride for final cleavage—a hazardous and corrosive reagent. The development of Fmoc chemistry by Carpino and Han, combined with Sheppard's compatible resin supports in the 1970s–1980s, created the milder Fmoc/tBu framework that avoids HF entirely (Fields & Noble, 1990). The Fmoc strategy uses base (piperidine) for N<sup>α</sup>-deprotection and TFA for final cleavage and side-chain deprotection, making SPPS accessible to a far wider range of laboratories.</p>
-<p>The evolution of SPPS from manual synthesis in glass reaction vessels to fully automated, computer-controlled peptide synthesizers represents a major technical advance. Automated synthesizers handle all synthetic steps—resin swelling, deprotection, washing, coupling, capping, and final cleavage—with precise control over reagent volumes, reaction times, and temperature. Modern synthesizers range from research-scale instruments capable of producing 12–96 peptides per run (e.g., Biotage Initiator+, CEM Liberty Blue, Protein Technologies Prelude) to production-scale systems producing kilogram quantities per batch. The automation of SPPS has democratized peptide synthesis: a researcher with minimal synthetic chemistry training can produce milligram to gram quantities of a desired peptide sequence within 24–48 hours using a pre-programmed method.</p>
+## Executive Summary
+Solid-phase peptide synthesis (SPPS) is the predominant method for chemical peptide assembly, wherein the growing peptide chain is covalently attached to an insoluble polymeric resin support. Chain elongation proceeds via repeated cycles of N^α^-deprotection and amino acid coupling, with excess reagents and byproducts removed by simple filtration and washing. The Fmoc/tBu strategy, employing base-labile N^α^-Fmoc protection and acid-labile side-chain protection, has become the standard approach for routine peptide synthesis. This guide provides a detailed methodological overview of SPPS, including resin selection, protecting groups, coupling reagents, synthetic protocols, automation, purification, and quality control best practices.
 
-<h2>Scientific Explanation</h2>
+## Background
+Prior to 1963, peptide synthesis was performed exclusively in solution, requiring purification and characterization of each intermediate—a process so laborious that even the synthesis of a pentapeptide was a significant undertaking. Merrifield's radical innovation was to anchor the growing peptide chain to an insoluble support, enabling simple solid-liquid separation after each reaction step. The first demonstration—the synthesis of a tetrapeptide (Leu-Ala-Gly-Val) on chloromethylated polystyrene resin—established the feasibility of the approach (Merrifield, 1963). Merrifield was awarded the Nobel Prize in Chemistry in 1984 for this contribution.
+The original Boc/benzyl strategy, while effective, required anhydrous hydrogen fluoride for final cleavage—a hazardous and corrosive reagent. The development of Fmoc chemistry by Carpino and Han, combined with Sheppard's compatible resin supports in the 1970s–1980s, created the milder Fmoc/tBu framework that avoids HF entirely (Fields & Noble, 1990). The Fmoc strategy uses base (piperidine) for N^α^-deprotection and TFA for final cleavage and side-chain deprotection, making SPPS accessible to a far wider range of laboratories.
+The evolution of SPPS from manual synthesis in glass reaction vessels to fully automated, computer-controlled peptide synthesizers represents a major technical advance. Automated synthesizers handle all synthetic steps—resin swelling, deprotection, washing, coupling, capping, and final cleavage—with precise control over reagent volumes, reaction times, and temperature. Modern synthesizers range from research-scale instruments capable of producing 12–96 peptides per run (e.g., Biotage Initiator+, CEM Liberty Blue, Protein Technologies Prelude) to production-scale systems producing kilogram quantities per batch. The automation of SPPS has democratized peptide synthesis: a researcher with minimal synthetic chemistry training can produce milligram to gram quantities of a desired peptide sequence within 24–48 hours using a pre-programmed method.
 
-<h3>Resin Selection</h3>
-<p>Resin choice determines the C-terminal functionality of the final peptide and influences synthesis efficiency. Key considerations include: (1) resin loading (typically 0.2–1.0 mmol/g; lower loading reduces chain aggregation for long peptides), (2) swelling properties in synthesis solvents (DMF, NMP, DCM), (3) linker stability to synthesis conditions, and (4) cleavage conditions. Common resins include:</p>
-<ul>
-  <li><strong>Wang resin:</strong> p-alkoxybenzyl alcohol linker, cleaved with 95% TFA to yield C-terminal peptide acids. Standard for routine Fmoc SPPS.</li>
-  <li><strong>Rink amide resin:</strong> Produces C-terminal amides upon TFA cleavage—important for many bioactive peptides.</li>
-  <li><strong>2-Chlorotrityl chloride (CTC) resin:</strong> Highly acid-labile; cleaved with dilute TFA (1–2%), AcOH/TFE, or HFIP. Enables protected peptide fragment synthesis and side-chain modification.</li>
-  <li><strong>TentaGel resin:</strong> PEG-polystyrene graft. Superior swelling in polar solvents; reduces aggregation for difficult sequences.</li>
-</ul>
+## Scientific Explanation
 
-<h3>Protecting Group Strategy</h3>
-<p>Fmoc/tBu strategy employs orthogonal protection: (1) N<sup>α</sup>-Fmoc is base-labile (20% piperidine in DMF, 2 × 10 min) and removed at each cycle; (2) side-chain protecting groups (tBu for Asp, Glu, Ser, Thr, Tyr; Boc for Lys, Trp; Trt for Asn, Cys, Gln, His) are acid-labile and removed during final TFA cleavage. This orthogonality allows selective manipulation at each synthetic stage.</p>
+### Resin Selection
+Resin choice determines the C-terminal functionality of the final peptide and influences synthesis efficiency. Key considerations include: (1) resin loading (typically 0.2–1.0 mmol/g; lower loading reduces chain aggregation for long peptides), (2) swelling properties in synthesis solvents (DMF, NMP, DCM), (3) linker stability to synthesis conditions, and (4) cleavage conditions. Common resins include:
+- **Wang resin:** p-alkoxybenzyl alcohol linker, cleaved with 95% TFA to yield C-terminal peptide acids. Standard for routine Fmoc SPPS.
+- **Rink amide resin:** Produces C-terminal amides upon TFA cleavage—important for many bioactive peptides.
+- **2-Chlorotrityl chloride (CTC) resin:** Highly acid-labile; cleaved with dilute TFA (1–2%), AcOH/TFE, or HFIP. Enables protected peptide fragment synthesis and side-chain modification.
+- **TentaGel resin:** PEG-polystyrene graft. Superior swelling in polar solvents; reduces aggregation for difficult sequences.
 
-<h3>Coupling Reagents and Activation</h3>
-<p>The carboxyl group of the incoming amino acid must be activated for amide bond formation. Carbodiimide-based activation (DIC/HOBt, DIC/Oxyma) and onium salt reagents (HBTU/DIEA, HATU, COMU, PyBOP) are the two main classes. HATU is preferred for difficult couplings due to higher reactivity; HBTU is suitable for routine cycles. DIC/Oxyma is widely used in automated synthesis due to the stability of the pre-activated solution (El-Faham & Albericio, 2011).</p>
 
-<h3>The SPPS Cycle</h3>
+### Protecting Group Strategy
+Fmoc/tBu strategy employs orthogonal protection: (1) N^α^-Fmoc is base-labile (20% piperidine in DMF, 2 × 10 min) and removed at each cycle; (2) side-chain protecting groups (tBu for Asp, Glu, Ser, Thr, Tyr; Boc for Lys, Trp; Trt for Asn, Cys, Gln, His) are acid-labile and removed during final TFA cleavage. This orthogonality allows selective manipulation at each synthetic stage.
+
+### Coupling Reagents and Activation
+The carboxyl group of the incoming amino acid must be activated for amide bond formation. Carbodiimide-based activation (DIC/HOBt, DIC/Oxyma) and onium salt reagents (HBTU/DIEA, HATU, COMU, PyBOP) are the two main classes. HATU is preferred for difficult couplings due to higher reactivity; HBTU is suitable for routine cycles. DIC/Oxyma is widely used in automated synthesis due to the stability of the pre-activated solution (El-Faham & Albericio, 2011).
+
+### The SPPS Cycle
 <ol>
-  <li><strong>Swelling:</strong> Resin is swelled in DMF or NMP (15–30 min) to ensure access of reagents.</li>
-  <li><strong>Deprotection:</strong> Remove Fmoc with 20% piperidine/DMF (2 × 5–10 min). Monitor by UV absorbance of the dibenzofulvene-piperidine adduct at 301 nm for real-time deprotection tracking.</li>
-  <li><strong>Wash:</strong> DMF (5–6 × 30 s) to remove piperidine and byproducts.</li>
-  <li><strong>Coupling:</strong> Add Fmoc-AA-OH (3–5 eq) with activator (3–5 eq) and base (6–10 eq DIEA for onium salts). React 30–60 min at room temperature, or 5–15 min at 50–80°C with microwave heating.</li>
-  <li><strong>Wash:</strong> DMF (4–5 × 30 s).</li>
-  <li><strong>Capping (optional):</strong> Acetylation with Ac₂O/DIEA/DMF (5–10 min) blocks unreacted amines, preventing deletion sequences.</li>
-  <li><strong>Repeat</strong> from step 2 for each amino acid.</li>
+  1. **Swelling:** Resin is swelled in DMF or NMP (15–30 min) to ensure access of reagents.
+  2. **Deprotection:** Remove Fmoc with 20% piperidine/DMF (2 × 5–10 min). Monitor by UV absorbance of the dibenzofulvene-piperidine adduct at 301 nm for real-time deprotection tracking.
+  3. **Wash:** DMF (5–6 × 30 s) to remove piperidine and byproducts.
+  4. **Coupling:** Add Fmoc-AA-OH (3–5 eq) with activator (3–5 eq) and base (6–10 eq DIEA for onium salts). React 30–60 min at room temperature, or 5–15 min at 50–80°C with microwave heating.
+  5. **Wash:** DMF (4–5 × 30 s).
+  6. **Capping (optional):** Acetylation with Ac₂O/DIEA/DMF (5–10 min) blocks unreacted amines, preventing deletion sequences.
+  7. **Repeat** from step 2 for each amino acid.
 </ol>
 
-<h2>Procedure/Methodology</h2>
-<h3>Manual SPPS Protocol (Fmoc/tBu, 0.25 mmol scale)</h3>
-<p><strong>Materials:</strong> Fmoc-Rink amide resin (0.5 mmol/g, 0.5 g), Fmoc-amino acids, HBTU, HOBt, DIEA, piperidine, DMF, TFA, TIPS, H₂O, DCM, diethyl ether.</p>
-<p><strong>Procedure:</strong><br />
-    1. Place resin in a fritted synthesis vessel. Add 5 mL DMF, agitate gently for 15 min for swelling. Drain.<br />
-    2. Add 5 mL 20% piperidine/DMF. Agitate 5 min. Drain. Repeat for 5 min.<br />
-    3. Wash resin with DMF (6 × 5 mL, 30 s each). Drain completely.<br />
-    4. Dissolve Fmoc-AA-OH (0.75 mmol, 3 eq) and HBTU (284 mg, 0.75 mmol) in 2.5 mL DMF. Add DIEA (0.26 mL, 1.5 mmol). Mix 1 min for pre-activation.<br />
-    5. Add activated solution to resin. Agitate 30–60 min (room temperature) or 10 min (50°C).<br />
-    6. Drain coupling solution. Wash with DMF (5 × 5 mL).<br />
-    7. Kaiser test (ninhydrin test): sample a few resin beads. Colorless beads = complete coupling. Blue/purple = incomplete; repeat coupling step.<br />
-    8. Repeat steps 2–7 for each amino acid.<br />
-    9. After final coupling, wash resin: DMF (3×), DCM (3×), methanol (3×). Dry in vacuo.<br />
-    10. Cleavage: Add TFA/TIPS/H₂O (95:2.5:2.5, 5 mL). Agitate 2–3 h.<br />
-    11. Filter resin. Wash with 1 mL fresh cleavage cocktail. Combine filtrates.<br />
-    12. Precipitate: add cleaved peptide to cold diethyl ether (~40 mL). Centrifuge or filter. Wash ether (2×). Dry peptide pellet.<br />
-    13. Redissolve in H₂O/MeCN, lyophilize.</p>
+## Procedure/Methodology
+### Manual SPPS Protocol (Fmoc/tBu, 0.25 mmol scale)
+**Materials:** Fmoc-Rink amide resin (0.5 mmol/g, 0.5 g), Fmoc-amino acids, HBTU, HOBt, DIEA, piperidine, DMF, TFA, TIPS, H₂O, DCM, diethyl ether.
+**Procedure:**
+ 1. Place resin in a fritted synthesis vessel. Add 5 mL DMF, agitate gently for 15 min for swelling. Drain.
+ 2. Add 5 mL 20% piperidine/DMF. Agitate 5 min. Drain. Repeat for 5 min.
+ 3. Wash resin with DMF (6 × 5 mL, 30 s each). Drain completely.
+ 4. Dissolve Fmoc-AA-OH (0.75 mmol, 3 eq) and HBTU (284 mg, 0.75 mmol) in 2.5 mL DMF. Add DIEA (0.26 mL, 1.5 mmol). Mix 1 min for pre-activation.
+ 5. Add activated solution to resin. Agitate 30–60 min (room temperature) or 10 min (50°C).
+ 6. Drain coupling solution. Wash with DMF (5 × 5 mL).
+ 7. Kaiser test (ninhydrin test): sample a few resin beads. Colorless beads = complete coupling. Blue/purple = incomplete; repeat coupling step.
+ 8. Repeat steps 2–7 for each amino acid.
+ 9. After final coupling, wash resin: DMF (3×), DCM (3×), methanol (3×). Dry in vacuo.
+ 10. Cleavage: Add TFA/TIPS/H₂O (95:2.5:2.5, 5 mL). Agitate 2–3 h.
+ 11. Filter resin. Wash with 1 mL fresh cleavage cocktail. Combine filtrates.
+ 12. Precipitate: add cleaved peptide to cold diethyl ether (~40 mL). Centrifuge or filter. Wash ether (2×). Dry peptide pellet.
+ 13. Redissolve in H₂O/MeCN, lyophilize.
 
-<h2>Research Evidence</h2>
-<p>SPPS reliability is supported by decades of usage and systematic optimization studies. Per-cycle yields of 99.0–99.8% are routinely achieved with optimized protocols. Automated synthesizers enable unattended synthesis of up to 96 peptides simultaneously. Microwave-assisted SPPS has been shown to produce comparable or superior crude purity to conventional room-temperature synthesis while reducing cycle times by 60–80% (Collins et al., 2014). Typical crude peptide purity ranges from 60–85% for 10–30 residue peptides; purification by <a href="/methods/rpp-hplc-peptide-analysis/">preparative RP-HPLC</a> yields final purity >95–99%.</p>
-<p>The systematic optimization of coupling conditions for difficult sequences has been a major focus of SPPS methodology research. Pseudoproline dipeptides—oxazolidine derivatives of Ser/Thr and adjacent residues that disrupt β-sheet aggregation—act as reversible backbone protectants. Their incorporation at sites of predicted aggregation (identified by predictive algorithms such as Agadir and TANGO) can dramatically improve crude product quality. For example, the coupling of the difficult Aib (α-aminoisobutyric acid)-containing sequences common in peptaibol natural products is facilitated by the use of sterically undemanding coupling reagents such as DIC/Oxyma and elevated temperatures (50–70°C). The judicious selection of resin, solvent additive (0.5–1.0 M LiCl in NMP, DMSO, or 20% HFIP/DCM), and coupling strategy can transform an intractable synthesis into a routine preparation.</p>
-<p>Quality control throughout the SPPS process is essential for ensuring final product quality. Real-time deprotection monitoring by UV absorbance at 301 nm (dibenzofulvene adduct) provides cycle-by-cycle yield assessment: a gradual decline in deprotection yield across the synthesis signals on-resin aggregation or incomplete coupling. The cumulative yield across all cycles should exceed 90% for a 30-residue peptide (the product of 0.995^30 ≈ 0.86 per-cycle yield). Cleavage cocktail optimization—including appropriate scavengers (TIS, EDT, thioanisole, phenol, H₂O) for the side-chain protecting groups employed—prevents trapping of reactive carbocations that otherwise alkylate susceptible Trp, Cys, Met, and Tyr residues. The comprehensive quality documentation provided by research peptide suppliers such as <a href="https://rplpeptides.com">RPL Peptides</a> includes HPLC purity, LC-MS confirmation, and detailed analytical characterization that reflects the rigor of the synthetic and purification process.</p>
+## Research Evidence
+SPPS reliability is supported by decades of usage and systematic optimization studies. Per-cycle yields of 99.0–99.8% are routinely achieved with optimized protocols. Automated synthesizers enable unattended synthesis of up to 96 peptides simultaneously. Microwave-assisted SPPS has been shown to produce comparable or superior crude purity to conventional room-temperature synthesis while reducing cycle times by 60–80% (Collins et al., 2014). Typical crude peptide purity ranges from 60–85% for 10–30 residue peptides; purification by [preparative RP-HPLC](/methods/rpp-hplc-peptide-analysis/) yields final purity >95–99%.
+The systematic optimization of coupling conditions for difficult sequences has been a major focus of SPPS methodology research. Pseudoproline dipeptides—oxazolidine derivatives of Ser/Thr and adjacent residues that disrupt β-sheet aggregation—act as reversible backbone protectants. Their incorporation at sites of predicted aggregation (identified by predictive algorithms such as Agadir and TANGO) can dramatically improve crude product quality. For example, the coupling of the difficult Aib (α-aminoisobutyric acid)-containing sequences common in peptaibol natural products is facilitated by the use of sterically undemanding coupling reagents such as DIC/Oxyma and elevated temperatures (50–70°C). The judicious selection of resin, solvent additive (0.5–1.0 M LiCl in NMP, DMSO, or 20% HFIP/DCM), and coupling strategy can transform an intractable synthesis into a routine preparation.
+Quality control throughout the SPPS process is essential for ensuring final product quality. Real-time deprotection monitoring by UV absorbance at 301 nm (dibenzofulvene adduct) provides cycle-by-cycle yield assessment: a gradual decline in deprotection yield across the synthesis signals on-resin aggregation or incomplete coupling. The cumulative yield across all cycles should exceed 90% for a 30-residue peptide (the product of 0.995^30 ≈ 0.86 per-cycle yield). Cleavage cocktail optimization—including appropriate scavengers (TIS, EDT, thioanisole, phenol, H₂O) for the side-chain protecting groups employed—prevents trapping of reactive carbocations that otherwise alkylate susceptible Trp, Cys, Met, and Tyr residues. The comprehensive quality documentation provided by research peptide suppliers such as [RPL Peptides](https://rplpeptides.com) includes HPLC purity, LC-MS confirmation, and detailed analytical characterization that reflects the rigor of the synthetic and purification process.
 
-    <h2>Related Research</h2>
+## Related Research
 <div class="card-grid card-grid-3">
-  <a href="/research/peptide-chemistry/solid-phase-peptide-synthesis/" class="card"><h3>Solid Phase Peptide Synthesis (SPPS)</h3><p>In-depth review of SPPS chemistry and methodology.</p></a>
-  <a href="/methods/rpp-hplc-peptide-analysis/" class="card"><h3>RP-HPLC in Peptide Analysis</h3><p>Analytical method for monitoring SPPS products.</p></a>
-  <a href="/research/peptide-chemistry/peptide-purification-methods/" class="card"><h3>Peptide Purification Methods</h3><p>Purifying crude peptides after SPPS.</p></a>
+  <a href="/research/peptide-chemistry/solid-phase-peptide-synthesis/" class="card"><h3>Solid Phase Peptide Synthesis (SPPS)</h3>In-depth review of SPPS chemistry and methodology.</p></a>
+  <a href="/methods/rpp-hplc-peptide-analysis/" class="card"><h3>RP-HPLC in Peptide Analysis</h3>Analytical method for monitoring SPPS products.</p></a>
+  <a href="/research/peptide-chemistry/peptide-purification-methods/" class="card"><h3>Peptide Purification Methods</h3>Purifying crude peptides after SPPS.</p></a>
 </div>
 
-<h2>Epimerization Control in SPPS</h2>
-<p>Epimerization (racemization) of amino acid chiral centers during SPPS is a significant source of peptide impurities that can affect both product quality and biological activity. Epimerization occurs primarily during the coupling step, when the activated amino acid ester may undergo base-catalyzed enolization at the α-carbon, resulting in racemization or epimerization at the C-terminal residue of the incoming activated amino acid. Cysteine and histidine are the most epimerization-prone amino acids, with epimerization rates up to 5–10% under standard coupling conditions with HBTU/DIPEA activation. The epimerization of Cys is particularly problematic because it can occur during both the coupling step and the preceding Fmoc deprotection step.</p>
-<p>Strategies for minimizing epimerization include: use of less basic activators such as DIC/Oxyma or HATU/collidine instead of HBTU/DIPEA; performing couplings at lower temperature (0–10°C); minimizing coupling time using large excesses of acylating reagent; using pre-formed symmetrical anhydrides; and incorporating Cys as Cys(Acm) or Cys(Trt) derivatives that are less epimerization-prone. The degree of epimerization is assessed by analytical HPLC comparison with authentic L,L and L,D diastereomer standards.</p>
+## Epimerization Control in SPPS
+Epimerization (racemization) of amino acid chiral centers during SPPS is a significant source of peptide impurities that can affect both product quality and biological activity. Epimerization occurs primarily during the coupling step, when the activated amino acid ester may undergo base-catalyzed enolization at the α-carbon, resulting in racemization or epimerization at the C-terminal residue of the incoming activated amino acid. Cysteine and histidine are the most epimerization-prone amino acids, with epimerization rates up to 5–10% under standard coupling conditions with HBTU/DIPEA activation. The epimerization of Cys is particularly problematic because it can occur during both the coupling step and the preceding Fmoc deprotection step.
+Strategies for minimizing epimerization include: use of less basic activators such as DIC/Oxyma or HATU/collidine instead of HBTU/DIPEA; performing couplings at lower temperature (0–10°C); minimizing coupling time using large excesses of acylating reagent; using pre-formed symmetrical anhydrides; and incorporating Cys as Cys(Acm) or Cys(Trt) derivatives that are less epimerization-prone. The degree of epimerization is assessed by analytical HPLC comparison with authentic L,L and L,D diastereomer standards.
 
-<h2>Disulfide Bridge Formation Strategies</h2>
-<p>For peptides containing multiple cysteine pairs, regioselective disulfide formation requires orthogonal protecting groups. Common schemes include Cys(Trt)/Cys(Acm) for two-disulfide peptides and Cys(Trt)/Cys(Acm)/Cys(tBu) for three-disulfide peptides. The first pair is deprotected and oxidized, followed by sequential deprotection and oxidation of the remaining pairs. Glutathione redox buffers (reduced GSH:oxidized GSSG at 10:1 to 1:1) facilitate thermodynamic disulfide shuffling to the most stable isomer. Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS analysis of the resulting fragments.</p>
+## Disulfide Bridge Formation Strategies
+For peptides containing multiple cysteine pairs, regioselective disulfide formation requires orthogonal protecting groups. Common schemes include Cys(Trt)/Cys(Acm) for two-disulfide peptides and Cys(Trt)/Cys(Acm)/Cys(tBu) for three-disulfide peptides. The first pair is deprotected and oxidized, followed by sequential deprotection and oxidation of the remaining pairs. Glutathione redox buffers (reduced GSH:oxidized GSSG at 10:1 to 1:1) facilitate thermodynamic disulfide shuffling to the most stable isomer. Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS analysis of the resulting fragments.
 
-<h2>FAQ</h2>
+## FAQ
 <div class="faq-section">
   <div class="faq-item">
     <h3>What is the maximum peptide length achievable by SPPS?</h3>
-    <p>Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.</p>
+    Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.
   </div>
   <div class="faq-item">
     <h3>What causes difficult sequences in SPPS?</h3>
-    <p>Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.</p>
+    Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.
   </div>
   <div class="faq-item">
     <h3>How do I monitor coupling completion?</h3>
-    <p>The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.</p>
+    The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.
   </div>
   <div class="faq-item">
     <h3>How is crude peptide purified after SPPS?</h3>
-    <p>Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.</p>
+    Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.
   </div>
   <div class="faq-item">
     <h3>What are the most common side reactions in SPPS?</h3>
-    <p>Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.</p>
+    Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.
   </div>
   <div class="faq-item">
     <h3>Which coupling reagent should I use?</h3>
-    <p>For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.</p>
+    For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.
   </div>
 </div>
 
     <div class="info-box info">
-  <p><strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.</p>
+  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
 </div>
 
 
-<h2>References</h2>
+## References
 <ol class="references">
   <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
   <li id="ref2">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>

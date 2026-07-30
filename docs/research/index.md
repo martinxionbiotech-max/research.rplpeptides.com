@@ -4,15 +4,16 @@ description: "Explore our comprehensive research categories, each with in-depth 
 ---
 
 
-<h1>Peptide Research Knowledge Base</h1>
-<p>Explore our comprehensive research categories, each with in-depth articles on fundamental concepts and cutting-edge developments in peptide science.</p>
+
+# Peptide Research Knowledge Base
+Explore our comprehensive research categories, each with in-depth articles on fundamental concepts and cutting-edge developments in peptide science.
 
 <div class="card-grid card-grid-3" style="margin-top:1.5rem;">
 
 <a href="peptide-biology/index.md" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">🧬</div>
 <h3>Peptide Biology</h3>
-<p style="flex:1;">Fundamentals of peptide structure, classification, sequence-function relationships, and signaling mechanisms in biological systems.</p>
+<p style="flex:1;">Fundamentals of peptide structure, classification, sequence-function relationships, and signaling mechanisms in biological systems.
 <div style="margin-top:1rem;">
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ What Are Peptides?</div>
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Peptide Classification</div>
@@ -24,7 +25,7 @@ description: "Explore our comprehensive research categories, each with in-depth 
 <a href="peptide-chemistry/index.md" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">⚗️</div>
 <h3>Peptide Chemistry</h3>
-<p style="flex:1;">Synthesis methods, purification strategies, and analytical characterization techniques for peptide research.</p>
+<p style="flex:1;">Synthesis methods, purification strategies, and analytical characterization techniques for peptide research.
 <div style="margin-top:1rem;">
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Peptide Synthesis Overview</div>
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Solid-Phase Peptide Synthesis</div>
@@ -36,7 +37,7 @@ description: "Explore our comprehensive research categories, each with in-depth 
 <a href="analytical-science/index.md" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">🔬</div>
 <h3>Analytical Science</h3>
-<p style="flex:1;">HPLC, mass spectrometry, stability testing, and purity assessment methodologies for peptide characterization.</p>
+<p style="flex:1;">HPLC, mass spectrometry, stability testing, and purity assessment methodologies for peptide characterization.
 <div style="margin-top:1rem;">
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ HPLC Analysis of Peptides</div>
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Mass Spectrometry in Peptide Research</div>
@@ -48,7 +49,7 @@ description: "Explore our comprehensive research categories, each with in-depth 
 <a href="metabolic/index.md" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">❤️</div>
 <h3>Metabolic Research</h3>
-<p style="flex:1;">GLP-1, GIP, incretin biology, and multi-receptor peptide research for metabolic applications.</p>
+<p style="flex:1;">GLP-1, GIP, incretin biology, and multi-receptor peptide research for metabolic applications.
 <div style="margin-top:1rem;">
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ GLP-1 Research Overview</div>
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ GIP Research</div>
@@ -60,7 +61,7 @@ description: "Explore our comprehensive research categories, each with in-depth 
 <a href="applications/index.md" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">💊</div>
 <h3>Research Applications</h3>
-<p style="flex:1;">Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology.</p>
+<p style="flex:1;">Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology.
 <div style="margin-top:1rem;">
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Peptides in Metabolic Research</div>
 <div style="font-size:0.8rem; padding:0.25rem 0; color:var(--color-primary);">→ Peptides in Cell Biology Research</div>

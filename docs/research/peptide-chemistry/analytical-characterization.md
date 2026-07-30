@@ -2,76 +2,75 @@
 title: Analytical Characterization of Peptides
 description: "A comprehensive scientific review of analytical methods for peptide characterization including mass spectrometry, HPLC, amino acid analysis, NMR spectroscopy, circular dichroism, and peptide content determination."
 ---
-<h1>Analytical Characterization of Peptides</h1>
+
+# Analytical Characterization of Peptides
 
 <div class="quick-fact">
   <strong>Key Summary:</strong> Comprehensive analytical characterization of peptides requires a multi-technique approach including mass spectrometry for molecular weight confirmation and sequencing, analytical HPLC for purity assessment, amino acid analysis for composition verification, and structural methods (CD, NMR) for conformational analysis. Each technique provides complementary information essential for confirming peptide identity, purity, and structural integrity.
 </div>
 
-<h2>Executive Summary</h2>
-<p>Analytical characterization is a critical step in peptide research, ensuring that synthetic products match the intended sequence, have acceptable purity, and possess the expected structural properties. No single analytical method provides complete characterization; instead, a combination of techniques is employed. Mass spectrometry (MS) establishes molecular identity and sequence, analytical reverse-phase HPLC determines purity by resolving target peptide from impurities, amino acid analysis (AAA) confirms quantitative composition, and spectroscopic methods (circular dichroism, NMR) provide conformational information. For research peptides, the typical characterization package includes HPLC (≥95–98% purity) and mass spectrometry confirmation, with additional methods applied as required by the specific research application (<a href="#ref2">Fenn et al., 1989</a>; <a href="#ref3">Karas &amp; Hillenkamp, 1988</a>).</p>
+## Executive Summary
+Analytical characterization is a critical step in peptide research, ensuring that synthetic products match the intended sequence, have acceptable purity, and possess the expected structural properties. No single analytical method provides complete characterization; instead, a combination of techniques is employed. Mass spectrometry (MS) establishes molecular identity and sequence, analytical reverse-phase HPLC determines purity by resolving target peptide from impurities, amino acid analysis (AAA) confirms quantitative composition, and spectroscopic methods (circular dichroism, NMR) provide conformational information. For research peptides, the typical characterization package includes HPLC (≥95–98% purity) and mass spectrometry confirmation, with additional methods applied as required by the specific research application ([Fenn et al., 1989](#ref2); [Karas &amp; Hillenkamp, 1988](#ref3)).
 
-<h2>Background</h2>
-<p>Peptide characterization has advanced dramatically since the early days of peptide chemistry. Sanger's sequencing of insulin in the 1950s established that amino acid sequence defines peptide identity, but the methods were laborious — requiring complete acid hydrolysis, two-dimensional paper chromatography, and manual Edman degradation. The development of automated amino acid analyzers by Moore, Stein, and Spackman brought quantitative amino acid analysis to routine practice (<a href="#ref7">Spackman et al., 1958</a>; <a href="#ref6">Moore &amp; Stein, 1963</a>).</p>
+## Background
+Peptide characterization has advanced dramatically since the early days of peptide chemistry. Sanger's sequencing of insulin in the 1950s established that amino acid sequence defines peptide identity, but the methods were laborious — requiring complete acid hydrolysis, two-dimensional paper chromatography, and manual Edman degradation. The development of automated amino acid analyzers by Moore, Stein, and Spackman brought quantitative amino acid analysis to routine practice ([Spackman et al., 1958](#ref7); [Moore &amp; Stein, 1963](#ref6)).
 
-<p>The revolutionary development of electrospray ionization (ESI) by Fenn and colleagues and matrix-assisted laser desorption/ionization (MALDI) by Karas and Hillenkamp in the late 1980s made mass spectrometry accessible for peptides and proteins, providing rapid and accurate molecular weight determination (<a href="#ref2">Fenn et al., 1989</a>; <a href="#ref3">Karas &amp; Hillenkamp, 1988</a>). Biemann and colleagues developed tandem mass spectrometry (MS/MS) methods for de novo peptide sequencing (<a href="#ref1">Biemann, 1990</a>). The complementary development of HPLC for peptide analysis and circular dichroism (CD) spectroscopy for secondary structure determination provided a comprehensive analytical toolkit that remains the foundation of peptide characterization today.</p>
+The revolutionary development of electrospray ionization (ESI) by Fenn and colleagues and matrix-assisted laser desorption/ionization (MALDI) by Karas and Hillenkamp in the late 1980s made mass spectrometry accessible for peptides and proteins, providing rapid and accurate molecular weight determination ([Fenn et al., 1989](#ref2); [Karas &amp; Hillenkamp, 1988](#ref3)). Biemann and colleagues developed tandem mass spectrometry (MS/MS) methods for de novo peptide sequencing ([Biemann, 1990](#ref1)). The complementary development of HPLC for peptide analysis and circular dichroism (CD) spectroscopy for secondary structure determination provided a comprehensive analytical toolkit that remains the foundation of peptide characterization today.
 
-<h2>Scientific Explanation</h2>
+## Scientific Explanation
 
-<h3>Mass Spectrometry</h3>
-<p>Mass spectrometry is the primary method for confirming the molecular identity of synthetic peptides. Two ionization methods dominate:</p>
-<ul>
-  <li><strong>Electrospray Ionization (ESI-MS):</strong> The peptide solution is electrosprayed through a charged capillary, producing multiply charged ions ([M+nH]<sup>n+</sup>) that are analyzed by a mass analyzer (quadrupole, time-of-flight, or ion trap). ESI-MS provides accurate molecular weight determination (typically ±0.01% or better) and is readily coupled inline with HPLC (LC-MS).</li>
-  <li><strong>MALDI-TOF-MS:</strong> The peptide is co-crystallized with a matrix (typically α-cyano-4-hydroxycinnamic acid for peptides) and irradiated with a UV laser. The matrix absorbs energy and desorbs protonated peptide ions into the gas phase for TOF analysis. MALDI predominantly produces singly charged ions, simplifying spectra interpretation, and can accommodate higher salt concentrations than ESI.</li>
-</ul>
+### Mass Spectrometry
+Mass spectrometry is the primary method for confirming the molecular identity of synthetic peptides. Two ionization methods dominate:
+- **Electrospray Ionization (ESI-MS):** The peptide solution is electrosprayed through a charged capillary, producing multiply charged ions ([M+nH]^n+^) that are analyzed by a mass analyzer (quadrupole, time-of-flight, or ion trap). ESI-MS provides accurate molecular weight determination (typically ±0.01% or better) and is readily coupled inline with HPLC (LC-MS).
+- **MALDI-TOF-MS:** The peptide is co-crystallized with a matrix (typically α-cyano-4-hydroxycinnamic acid for peptides) and irradiated with a UV laser. The matrix absorbs energy and desorbs protonated peptide ions into the gas phase for TOF analysis. MALDI predominantly produces singly charged ions, simplifying spectra interpretation, and can accommodate higher salt concentrations than ESI.
 
-<p>Tandem mass spectrometry (MS/MS) provides sequence information by fragmenting selected precursor ions through collision-induced dissociation (CID). The resulting fragment ions — annotated using the Roepstorff-Fohlman-Biemann nomenclature as b-ions (N-terminal fragments) and y-ions (C-terminal fragments) — reveal the amino acid sequence directly (<a href="#ref8">Roepstorff &amp; Fohlman, 1984</a>). This approach can confirm the full sequence of most peptides up to approximately 25 residues and identify the location of modifications.</p>
 
-<h3>Analytical HPLC</h3>
-<p>Analytical RP-HPLC is the standard method for assessing peptide purity. Detection at 214 nm (the absorbance maximum of the peptide bond) provides a near-universal response proportional to peptide concentration. Purity is expressed as the area percent of the target peak relative to all integrated peaks. Gradients of 5–60% acetonitrile in 0.1% TFA/water over 20–60 minutes on a C18 column (3–5 µm, 4.6 × 250 mm) provide standard conditions. Additional purity checks may include capillary electrophoresis (CE) for orthogonal separation based on charge-to-size ratio rather than hydrophobicity.</p>
+Tandem mass spectrometry (MS/MS) provides sequence information by fragmenting selected precursor ions through collision-induced dissociation (CID). The resulting fragment ions — annotated using the Roepstorff-Fohlman-Biemann nomenclature as b-ions (N-terminal fragments) and y-ions (C-terminal fragments) — reveal the amino acid sequence directly ([Roepstorff &amp; Fohlman, 1984](#ref8)). This approach can confirm the full sequence of most peptides up to approximately 25 residues and identify the location of modifications.
 
-<h3>Amino Acid Analysis (AAA)</h3>
-<p>AAA quantitatively determines the amino acid composition of a peptide. The peptide is hydrolyzed to free amino acids (6 N HCl, 110°C, 24–72 h), and the liberated amino acids are derivatized (with ninhydrin, OPA, or FMOC) and separated by HPLC or ion-exchange chromatography. AAA confirms that the amino acid ratios match the expected composition and can detect gross errors in synthesis. It also provides an independent measure of peptide content (mass of peptide per vial) by comparing recovered amino acid masses to the calculated peptide mass. Limitations include destruction of tryptophan, partial loss of serine and threonine, and incomplete hydrolysis of Val-Val and Ile-Ile bonds (<a href="#ref6">Moore &amp; Stein, 1963</a>).</p>
+### Analytical HPLC
+Analytical RP-HPLC is the standard method for assessing peptide purity. Detection at 214 nm (the absorbance maximum of the peptide bond) provides a near-universal response proportional to peptide concentration. Purity is expressed as the area percent of the target peak relative to all integrated peaks. Gradients of 5–60% acetonitrile in 0.1% TFA/water over 20–60 minutes on a C18 column (3–5 µm, 4.6 × 250 mm) provide standard conditions. Additional purity checks may include capillary electrophoresis (CE) for orthogonal separation based on charge-to-size ratio rather than hydrophobicity.
 
-<h3>Circular Dichroism (CD) Spectroscopy</h3>
-<p>CD spectroscopy provides information on peptide secondary structure in solution by measuring the differential absorption of left- and right-circularly polarized light. Peptide bonds, aromatic side chains, and disulfide bonds are all CD-active. Far-UV CD (190–250 nm) reports on backbone secondary structure: α-helices show characteristic double minima at 208 and 222 nm, β-sheets show a single minimum near 216 nm, and random coils have a minimum near 198 nm. Near-UV CD (250–320 nm) reports on the environment of aromatic residues and can detect tertiary structural changes. CD is particularly valuable for monitoring conformational changes in response to pH, temperature, or binding interactions (<a href="#ref9">Kelly &amp; Price, 2000</a>; <a href="#ref4">Bewley &amp; Li, 1972</a>).</p>
+### Amino Acid Analysis (AAA)
+AAA quantitatively determines the amino acid composition of a peptide. The peptide is hydrolyzed to free amino acids (6 N HCl, 110°C, 24–72 h), and the liberated amino acids are derivatized (with ninhydrin, OPA, or FMOC) and separated by HPLC or ion-exchange chromatography. AAA confirms that the amino acid ratios match the expected composition and can detect gross errors in synthesis. It also provides an independent measure of peptide content (mass of peptide per vial) by comparing recovered amino acid masses to the calculated peptide mass. Limitations include destruction of tryptophan, partial loss of serine and threonine, and incomplete hydrolysis of Val-Val and Ile-Ile bonds ([Moore &amp; Stein, 1963](#ref6)).
 
-<h3>NMR Spectroscopy</h3>
-<p>Nuclear magnetic resonance (NMR) spectroscopy provides the highest-resolution structural information for peptides in solution. One-dimensional <sup>1</sup>H NMR confirms the presence and approximate ratios of amino acid types and can detect impurities. Two-dimensional methods — including COSY, TOCSY, and NOESY — provide sequential assignment of all proton resonances and distance constraints for three-dimensional structure determination. For peptides up to approximately 15–20 kDa, solution NMR can determine full 3D structures. Structural constraints from NMR complement CD data and provide atomic-resolution conformational information (<a href="#ref5">Wüthrich, 1986</a>).</p>
+### Circular Dichroism (CD) Spectroscopy
+CD spectroscopy provides information on peptide secondary structure in solution by measuring the differential absorption of left- and right-circularly polarized light. Peptide bonds, aromatic side chains, and disulfide bonds are all CD-active. Far-UV CD (190–250 nm) reports on backbone secondary structure: α-helices show characteristic double minima at 208 and 222 nm, β-sheets show a single minimum near 216 nm, and random coils have a minimum near 198 nm. Near-UV CD (250–320 nm) reports on the environment of aromatic residues and can detect tertiary structural changes. CD is particularly valuable for monitoring conformational changes in response to pH, temperature, or binding interactions ([Kelly &amp; Price, 2000](#ref9); [Bewley &amp; Li, 1972](#ref4)).
 
-<h3>Peptide Content Determination</h3>
-<p>Accurate determination of peptide content (the mass fraction of peptide in a lyophilized powder) is essential for quantitative biological assays. Counterions (TFA from HPLC), residual water, and non-peptide impurities (salts, organic byproducts) can contribute significantly to the apparent mass. UV spectrophotometry (using the A<sub>280</sub> of tryptophan and tyrosine residues) and AAA both provide peptide content estimates, while Karl Fischer titration measures residual water content. TFA content can be quantified by ion chromatography or <sup>19</sup>F NMR.</p>
+### NMR Spectroscopy
+Nuclear magnetic resonance (NMR) spectroscopy provides the highest-resolution structural information for peptides in solution. One-dimensional ^1^H NMR confirms the presence and approximate ratios of amino acid types and can detect impurities. Two-dimensional methods — including COSY, TOCSY, and NOESY — provide sequential assignment of all proton resonances and distance constraints for three-dimensional structure determination. For peptides up to approximately 15–20 kDa, solution NMR can determine full 3D structures. Structural constraints from NMR complement CD data and provide atomic-resolution conformational information ([Wüthrich, 1986](#ref5)).
 
-<h2>Mechanism</h2>
-<p>Each analytical technique exploits different physical-chemical properties of peptides. ESI-MS relies on the ability of peptides to carry multiple protons in the gas phase, producing charge-state distributions that are deconvoluted to give the neutral molecular mass. CID fragmentation proceeds through the mobile proton model: a proton is transferred to amide backbone positions, weakening the amide bond and causing preferential cleavage at the CO-NH linkage to produce b- and y-ion series. In RP-HPLC, retention is driven by hydrophobic interactions between non-polar amino acid side chains and the C18 stationary phase, moderated by the ion-pairing action of TFA. CD measures the differential absorption of circularly polarized light arising from the chiral environment of the peptide backbone chromophore, which varies with secondary structure. NMR detects the magnetic resonance of individual hydrogen (and other NMR-active) nuclei in the presence of a strong magnetic field, with chemical shifts and through-space correlations providing atomic-resolution structural restraints.</p>
+### Peptide Content Determination
+Accurate determination of peptide content (the mass fraction of peptide in a lyophilized powder) is essential for quantitative biological assays. Counterions (TFA from HPLC), residual water, and non-peptide impurities (salts, organic byproducts) can contribute significantly to the apparent mass. UV spectrophotometry (using the A~280~ of tryptophan and tyrosine residues) and AAA both provide peptide content estimates, while Karl Fischer titration measures residual water content. TFA content can be quantified by ion chromatography or ^19^F NMR.
 
-<h2>Research Evidence</h2>
-<p>The reliability of mass spectrometry for peptide characterization is well-established. Fenn's demonstration of electrospray ionization enabled routine molecular weight determination of peptides with accuracy exceeding 0.01% (<a href="#ref2">Fenn et al., 1989</a>). Karas and Hillenkamp's MALDI method extended the mass range and salt tolerance of peptide MS (<a href="#ref3">Karas &amp; Hillenkamp, 1988</a>). Biemann's systematic development of CID fragmentation rules and the b/y-ion nomenclature made de novo sequencing of unknown peptides practical (<a href="#ref1">Biemann, 1990</a>; <a href="#ref8">Roepstorff &amp; Fohlman, 1984</a>).</p>
+## Mechanism
+Each analytical technique exploits different physical-chemical properties of peptides. ESI-MS relies on the ability of peptides to carry multiple protons in the gas phase, producing charge-state distributions that are deconvoluted to give the neutral molecular mass. CID fragmentation proceeds through the mobile proton model: a proton is transferred to amide backbone positions, weakening the amide bond and causing preferential cleavage at the CO-NH linkage to produce b- and y-ion series. In RP-HPLC, retention is driven by hydrophobic interactions between non-polar amino acid side chains and the C18 stationary phase, moderated by the ion-pairing action of TFA. CD measures the differential absorption of circularly polarized light arising from the chiral environment of the peptide backbone chromophore, which varies with secondary structure. NMR detects the magnetic resonance of individual hydrogen (and other NMR-active) nuclei in the presence of a strong magnetic field, with chemical shifts and through-space correlations providing atomic-resolution structural restraints.
 
-<p>For purity assessment, analytical RP-HPLC with UV detection at 214 nm achieves resolution sufficient to separate peptides differing by a single amino acid and has been validated through inter-laboratory comparisons. CD spectroscopy has been extensively validated for secondary structure estimation, with deconvolution algorithms (such as CONTIN, SELCON, and CDSSTR) providing quantitative assignments of helix, sheet, turn, and coil content from far-UV CD spectra (<a href="#ref9">Kelly &amp; Price, 2000</a>). NMR spectroscopy, through the framework established by Wüthrich, provides definitive 3D structure determination for small peptides in solution (<a href="#ref5">Wüthrich, 1986</a>).</p>
+## Research Evidence
+The reliability of mass spectrometry for peptide characterization is well-established. Fenn's demonstration of electrospray ionization enabled routine molecular weight determination of peptides with accuracy exceeding 0.01% ([Fenn et al., 1989](#ref2)). Karas and Hillenkamp's MALDI method extended the mass range and salt tolerance of peptide MS ([Karas &amp; Hillenkamp, 1988](#ref3)). Biemann's systematic development of CID fragmentation rules and the b/y-ion nomenclature made de novo sequencing of unknown peptides practical ([Biemann, 1990](#ref1); [Roepstorff &amp; Fohlman, 1984](#ref8)).
 
-<h2>Current Understanding</h2>
-<p>The standard characterization package for synthetic research peptides comprises analytical HPLC (for purity) and mass spectrometry (for identity confirmation). LC-MS combining both methods in a single instrument is now routine and provides orthogonal information in one analysis. For more demanding applications, comprehensive characterization includes amino acid analysis (for quantitative composition and peptide content), CD or NMR (for structural confirmation), and capillary electrophoresis (for orthogonal purity assessment). The field is moving toward increased automation, with high-throughput LC-MS systems enabling rapid batch analysis. Data reporting standards are increasingly aligned with FAIR (Findable, Accessible, Interoperable, Reusable) principles, facilitating comparison across studies and laboratories.</p>
+For purity assessment, analytical RP-HPLC with UV detection at 214 nm achieves resolution sufficient to separate peptides differing by a single amino acid and has been validated through inter-laboratory comparisons. CD spectroscopy has been extensively validated for secondary structure estimation, with deconvolution algorithms (such as CONTIN, SELCON, and CDSSTR) providing quantitative assignments of helix, sheet, turn, and coil content from far-UV CD spectra ([Kelly &amp; Price, 2000](#ref9)). NMR spectroscopy, through the framework established by Wüthrich, provides definitive 3D structure determination for small peptides in solution ([Wüthrich, 1986](#ref5)).
 
-<h2>Future Research</h2>
-<ul>
-  <li><strong>Ion mobility-mass spectrometry (IM-MS):</strong> Adding ion mobility separation to MS provides conformational information (collision cross-section) alongside mass, enabling separation of isomeric peptides and conformers.</li>
-  <li><strong>Native MS:</strong> Non-denaturing electrospray conditions preserve non-covalent interactions, allowing characterization of peptide-protein complexes and oligomeric states.</li>
-  <li><strong>Hydrogen-deuterium exchange MS (HDX-MS):</strong> Monitors the exchange of backbone amide protons with deuterium to probe conformational dynamics and binding interfaces.</li>
-  <li><strong>Two-dimensional HPLC (LC×LC):</strong> Comprehensive two-dimensional LC provides dramatically increased peak capacity for complex peptide mixtures.</li>
-  <li><strong>Automated data interpretation:</strong> Machine learning approaches for automated CD spectrum deconvolution and MS/MS spectrum interpretation.</li>
-  <li><strong>Microflow NMR:</strong> Reduced sample volume requirements (<10 µg) for NMR analysis through cryoprobes and microcoil technology.</li>
-</ul>
+## Current Understanding
+The standard characterization package for synthetic research peptides comprises analytical HPLC (for purity) and mass spectrometry (for identity confirmation). LC-MS combining both methods in a single instrument is now routine and provides orthogonal information in one analysis. For more demanding applications, comprehensive characterization includes amino acid analysis (for quantitative composition and peptide content), CD or NMR (for structural confirmation), and capillary electrophoresis (for orthogonal purity assessment). The field is moving toward increased automation, with high-throughput LC-MS systems enabling rapid batch analysis. Data reporting standards are increasingly aligned with FAIR (Findable, Accessible, Interoperable, Reusable) principles, facilitating comparison across studies and laboratories.
 
-    <h2>Related Research</h2>
+## Future Research
+- **Ion mobility-mass spectrometry (IM-MS):** Adding ion mobility separation to MS provides conformational information (collision cross-section) alongside mass, enabling separation of isomeric peptides and conformers.
+- **Native MS:** Non-denaturing electrospray conditions preserve non-covalent interactions, allowing characterization of peptide-protein complexes and oligomeric states.
+- **Hydrogen-deuterium exchange MS (HDX-MS):** Monitors the exchange of backbone amide protons with deuterium to probe conformational dynamics and binding interfaces.
+- **Two-dimensional HPLC (LC×LC):** Comprehensive two-dimensional LC provides dramatically increased peak capacity for complex peptide mixtures.
+- **Automated data interpretation:** Machine learning approaches for automated CD spectrum deconvolution and MS/MS spectrum interpretation.
+- **Microflow NMR:** Reduced sample volume requirements (<10 µg) for NMR analysis through cryoprobes and microcoil technology.
+
+
+## Related Research
 <div class="card-grid card-grid-3">
-  <a href="/research/analytical-science/mass-spectrometry-peptide-research/" class="card"><h3>Mass Spectrometry in Peptide Research</h3><p>MS-based identification and characterization of peptides.</p></a>
-  <a href="/research/analytical-science/hplc-analysis-peptides/" class="card"><h3>HPLC Analysis of Peptides</h3><p>Chromatographic methods for peptide purity analysis.</p></a>
-  <a href="/research/analytical-science/purity-testing-methods/" class="card"><h3>Purity Testing Methods</h3><p>Determining purity and identity of synthetic peptides.</p></a>
+  <a href="/research/analytical-science/mass-spectrometry-peptide-research/" class="card"><h3>Mass Spectrometry in Peptide Research</h3>MS-based identification and characterization of peptides.</p></a>
+  <a href="/research/analytical-science/hplc-analysis-peptides/" class="card"><h3>HPLC Analysis of Peptides</h3>Chromatographic methods for peptide purity analysis.</p></a>
+  <a href="/research/analytical-science/purity-testing-methods/" class="card"><h3>Purity Testing Methods</h3>Determining purity and identity of synthetic peptides.</p></a>
 </div>
 
 
-<h2>Frequently Asked Questions</h2>
+## Frequently Asked Questions
 <div class="faq-list">
   <div class="faq-item">
     <div class="faq-question"><span>What analytical methods are essential for confirming peptide identity?</span><span class="faq-toggle">+</span></div>
@@ -116,11 +115,11 @@ description: "A comprehensive scientific review of analytical methods for peptid
 </div>
 
     <div class="info-box info">
-  <p><strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.</p>
+  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
 </div>
 
 
-<h2>References</h2>
+## References
 <div class="references">
   <ol>
     <li id="ref1">Biemann K. Sequencing of peptides by tandem mass spectrometry and high-energy collision-induced dissociation. <em>Methods Enzymol</em>. 1990;193:455-479. doi:10.1016/0076-6879(90)93433-B</li>
@@ -135,7 +134,7 @@ description: "A comprehensive scientific review of analytical methods for peptid
     <li id="ref10">Whitford D. <em>Proteins: Structure and Function</em>. Wiley; 2005. ISBN: 9780471498933</li>
     <li id="ref11">Stults JT. Matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS). <em>Curr Opin Struct Biol</em>. 1995;5(5):691-698. doi:10.1016/0959-440X(95)80059-4</li>
     <li id="ref12">Mann M, Jensen ON. Proteomic analysis of post-translational modifications. <em>Nat Biotechnol</em>. 2003;21(3):255-261. doi:10.1038/nbt0303-255</li>
-  </ol>
+</ol>
 </div>
 
-<p><em>This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.</em></p>
+*This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.*

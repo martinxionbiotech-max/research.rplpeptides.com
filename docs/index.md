@@ -9,7 +9,7 @@ hide:
 <section class="hero">
   <div class="hero-content">
 <h1>RPL Peptides Research Knowledge Center</h1>
-<p>Exploring peptide biology, molecular science, research methods, and emerging peptide technologies — an evidence-based educational resource for the peptide research community.</p>
+Exploring peptide biology, molecular science, research methods, and emerging peptide technologies — an evidence-based educational resource for the peptide research community.
 <div class="hero-stats">
   <div class="hero-stat">
     <div class="hero-stat-value">50+</div>
