@@ -114,27 +114,27 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable.</summary>
-With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.
+<p>With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Resin choice determines the C-terminal functionality of the final peptide (acid vs.</summary>
-Resin choice determines the C-terminal functionality of the final peptide (acid vs. amide), the cleavage conditions required, and the swelling properties that affect reagent access. Wang resin yields peptide acids; Rink amide resin yields peptide amides; 2-chlorotrityl resin allows very mild cleavage. PEG-grafted resins like TentaGel improve performance in difficult sequences by reducing chain aggregation.
+<p>Resin choice determines the C-terminal functionality of the final peptide (acid vs. amide), the cleavage conditions required, and the swelling properties that affect reagent access. Wang resin yields peptide acids; Rink amide resin yields peptide amides; 2-chlorotrityl resin allows very mild cleavage. PEG-grafted resins like TentaGel improve performance in difficult sequences by reducing chain aggregation.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers.</summary>
-Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers. These are typically resolved by <a href="/research/peptide-chemistry/peptide-purification-methods/">preparative HPLC purification</a>.
+<p>Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers. These are typically resolved by <a href="/research/peptide-chemistry/peptide-purification-methods/">preparative HPLC purification</a>.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions.</summary>
-Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions. Controlled microwave heating reduces coupling times from 30–60 minutes to 5–15 minutes, often with improved coupling efficiency and reduced aggregation. Modern microwave synthesizers maintain precise temperature control to minimize side reactions such as racemization.
+<p>Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions. Controlled microwave heating reduces coupling times from 30–60 minutes to 5–15 minutes, often with improved coupling efficiency and reduced aggregation. Modern microwave synthesizers maintain precise temperature control to minimize side reactions such as racemization.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol.</summary>
-Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol. The primary contributors are DMF (the most common reaction solvent), DCM (used in washes), and acetonitrile (used in HPLC purification). Efforts to develop greener alternatives include 2-methyltetrahydrofuran (2-MeTHF), cyclopentyl methyl ether (CPME), and propylene carbonate as alternative solvents.
+<p>Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol. The primary contributors are DMF (the most common reaction solvent), DCM (used in washes), and acetonitrile (used in HPLC purification). Efforts to develop greener alternatives include 2-methyltetrahydrofuran (2-MeTHF), cyclopentyl methyl ether (CPME), and propylene carbonate as alternative solvents.</p>
 </details>
   </div>
 </div>

@@ -142,35 +142,35 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
 <div class="faq-section">
 <details class="faq-item">
 <summary>How does microwave irradiation accelerate SPPS?</summary>
-Microwave energy causes rapid, uniform dielectric heating of the polar reaction mixture, increasing the kinetic energy of reactants. This accelerates both the deprotection (Fmoc removal by piperidine) and amide bond formation steps, reducing typical reaction times by 60–90%.
+<p>Microwave energy causes rapid, uniform dielectric heating of the polar reaction mixture, increasing the kinetic energy of reactants. This accelerates both the deprotection (Fmoc removal by piperidine) and amide bond formation steps, reducing typical reaction times by 60–90%.</p>
 </details>
 <details class="faq-item">
 <summary>Does microwave SPPS increase racemization?</summary>
-Controlled microwave SPPS with proper temperature management (<80°C for couplings, fiber-optic monitoring) limits racemization to levels comparable to room-temperature synthesis. The risk is sequence-dependent: cysteine, histidine, and aspartic acid are most susceptible.
+<p>Controlled microwave SPPS with proper temperature management (<80°C for couplings, fiber-optic monitoring) limits racemization to levels comparable to room-temperature synthesis. The risk is sequence-dependent: cysteine, histidine, and aspartic acid are most susceptible.</p>
 </details>
 <details class="faq-item">
 <summary>What is the main advantage of flow peptide synthesis?</summary>
-Flow synthesis reduces per-cycle time from ~45 minutes (conventional batch) to 40–90 seconds, enabling synthesis of a 50-residue peptide in under 2 hours. It also reduces solvent consumption by 80–90% and uses higher reagent excess for improved coupling efficiency.
+<p>Flow synthesis reduces per-cycle time from ~45 minutes (conventional batch) to 40–90 seconds, enabling synthesis of a 50-residue peptide in under 2 hours. It also reduces solvent consumption by 80–90% and uses higher reagent excess for improved coupling efficiency.</p>
 </details>
 <details class="faq-item">
 <summary>What size of peptides can NCL assemble?</summary>
-NCL enables assembly of proteins in the range of 100–300 residues, with the theoretical limit determined by the number of ligation sites and the handling efficiency of intermediate segments. Canonical proteins up to ~25 kDa have been chemically synthesized.
+<p>NCL enables assembly of proteins in the range of 100–300 residues, with the theoretical limit determined by the number of ligation sites and the handling efficiency of intermediate segments. Canonical proteins up to ~25 kDa have been chemically synthesized.</p>
 </details>
 <details class="faq-item">
 <summary>What green solvents are replacing DMF in peptide synthesis?</summary>
-Promising DMF alternatives include 2-methyltetrahydrofuran (2-MeTHF), N-butylpyrrolidinone (NBP), dimethyl carbonate, diethyl carbonate, cyclopentyl methyl ether (CPME), and propylene carbonate. 2-MeTHF has advanced the furthest in practical implementation.
+<p>Promising DMF alternatives include 2-methyltetrahydrofuran (2-MeTHF), N-butylpyrrolidinone (NBP), dimethyl carbonate, diethyl carbonate, cyclopentyl methyl ether (CPME), and propylene carbonate. 2-MeTHF has advanced the furthest in practical implementation.</p>
 </details>
 <details class="faq-item">
 <summary>Can SPPS incorporate non-canonical amino acids?</summary>
-Yes. SPPS is inherently compatible with non-canonical amino acids, including D-amino acids, N-methyl amino acids, β-amino acids, and side-chain-modified residues. The main consideration is the availability and cost of suitably protected versions of these building blocks.
+<p>Yes. SPPS is inherently compatible with non-canonical amino acids, including D-amino acids, N-methyl amino acids, β-amino acids, and side-chain-modified residues. The main consideration is the availability and cost of suitably protected versions of these building blocks.</p>
 </details>
 <details class="faq-item">
 <summary>How does enzymatic peptide synthesis work?</summary>
-Enzymatic synthesis uses proteases or ligases under conditions where peptide bond formation (thermodynamically or kinetically controlled) is favored over hydrolysis. This often requires organic co-solvents, low water activity, or engineered enzymes. The approach offers stereospecificity and mild conditions.
+<p>Enzymatic synthesis uses proteases or ligases under conditions where peptide bond formation (thermodynamically or kinetically controlled) is favored over hydrolysis. This often requires organic co-solvents, low water activity, or engineered enzymes. The approach offers stereospecificity and mild conditions.</p>
 </details>
 <details class="faq-item">
 <summary>What are the main coupling reagents used in modern SPPS?</summary>
-Onium salt-based reagents dominate: HBTU, HATU, HCTU, PyBOP, and COMU are widely used. HATU is preferred for difficult couplings due to higher reactivity, while COMU offers improved solubility and stability. Carbodiimide-based activation (DIC with HOBt or Oxyma) is common in automated synthesis.
+<p>Onium salt-based reagents dominate: HBTU, HATU, HCTU, PyBOP, and COMU are widely used. HATU is preferred for difficult couplings due to higher reactivity, while COMU offers improved solubility and stability. Carbodiimide-based activation (DIC with HOBt or Oxyma) is common in automated synthesis.</p>
 </details>
 </div>
 

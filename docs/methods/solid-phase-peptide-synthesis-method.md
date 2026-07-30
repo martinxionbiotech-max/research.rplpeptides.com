@@ -130,27 +130,27 @@ Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS an
 <div class="faq-section">
 <details class="faq-item">
 <summary>What is the maximum peptide length achievable by SPPS?</summary>
-Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.
+<p>Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.</p>
 </details>
 <details class="faq-item">
 <summary>What causes difficult sequences in SPPS?</summary>
-Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.
+<p>Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.</p>
 </details>
 <details class="faq-item">
 <summary>How do I monitor coupling completion?</summary>
-The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.
+<p>The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.</p>
 </details>
 <details class="faq-item">
 <summary>How is crude peptide purified after SPPS?</summary>
-Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.
+<p>Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.</p>
 </details>
 <details class="faq-item">
 <summary>What are the most common side reactions in SPPS?</summary>
-Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.
+<p>Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.</p>
 </details>
 <details class="faq-item">
 <summary>Which coupling reagent should I use?</summary>
-For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.
+<p>For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.</p>
 </details>
 </div>
 

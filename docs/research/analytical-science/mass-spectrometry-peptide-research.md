@@ -79,27 +79,27 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>What is the difference between MALDI-TOF and ESI-MS for peptide analysis?</summary>
-MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.
+<p>MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is the difference between CID, HCD, and ETD fragmentation?</summary>
-CID (collision-induced dissociation) and HCD (higher-energy collisional dissociation) produce b- and y-ions through vibrational excitation. HCD provides better low-mass ion transmission. ETD (electron transfer dissociation) generates c- and z-ions via radical-mediated fragmentation and preserves labile PTMs like phosphorylation that would be lost during CID.
+<p>CID (collision-induced dissociation) and HCD (higher-energy collisional dissociation) produce b- and y-ions through vibrational excitation. HCD provides better low-mass ion transmission. ETD (electron transfer dissociation) generates c- and z-ions via radical-mediated fragmentation and preserves labile PTMs like phosphorylation that would be lost during CID.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Can mass spectrometry detect post-translational modifications on peptides?</summary>
-Yes. PTMs are detected as characteristic mass shifts from the unmodified residue mass (e.g., +80 Da for phosphorylation, +162 Da for hexose glycosylation). MS/MS fragmentation localizes the modification to a specific residue, and ETD fragmentation preserves labile modifications during analysis.
+<p>Yes. PTMs are detected as characteristic mass shifts from the unmodified residue mass (e.g., +80 Da for phosphorylation, +162 Da for hexose glycosylation). MS/MS fragmentation localizes the modification to a specific residue, and ETD fragmentation preserves labile modifications during analysis.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What mass accuracy is required for confident peptide identification?</summary>
-High-resolution instruments (Orbitrap, FT-ICR) routinely achieve sub-1 ppm mass accuracy, substantially reducing the number of candidate peptides and increasing identification confidence. Instruments with 10–50 ppm accuracy can still provide confident identifications when combined with retention time and fragmentation data.
+<p>High-resolution instruments (Orbitrap, FT-ICR) routinely achieve sub-1 ppm mass accuracy, substantially reducing the number of candidate peptides and increasing identification confidence. Instruments with 10–50 ppm accuracy can still provide confident identifications when combined with retention time and fragmentation data.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is the limit of detection for peptide mass spectrometry?</summary>
-Modern mass spectrometers routinely achieve detection limits in the low femtomole range, with state-of-the-art instruments reaching attomole sensitivity for purified peptides. Single-cell proteomics approaches are pushing toward zeptomole (10<sup>-21</sup> mol) detection limits.
+<p>Modern mass spectrometers routinely achieve detection limits in the low femtomole range, with state-of-the-art instruments reaching attomole sensitivity for purified peptides. Single-cell proteomics approaches are pushing toward zeptomole (10<sup>-21</sup> mol) detection limits.</p>
 </details>
   </div>
 </div>

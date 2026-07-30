@@ -95,27 +95,27 @@ Several frontiers in peptide synthesis research are actively being explored:
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage.</summary>
-Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.
+<p>Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond.</summary>
-Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.
+<p>Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity.</summary>
-Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.
+<p>Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications.</summary>
-Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.
+<p>Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously.</summary>
-Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.
+<p>Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.</p>
 </details>
   </div>
 </div>

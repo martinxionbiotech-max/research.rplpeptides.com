@@ -81,27 +81,27 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>What is the primary HPLC method for peptide analysis?</summary>
-Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.
+<p>Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>How is peptide purity determined by HPLC?</summary>
-Purity is determined by area normalization, where the peak area of the target peptide is expressed as a percentage of the total integrated peak area from all detected components. Research-grade peptides typically require >95% purity, while >98% is expected for pharmaceutical applications.
+<p>Purity is determined by area normalization, where the peak area of the target peptide is expressed as a percentage of the total integrated peak area from all detected components. Research-grade peptides typically require >95% purity, while >98% is expected for pharmaceutical applications.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Can HPLC distinguish between peptide impurities and degradation products?</summary>
-Yes, when coupled with mass spectrometry detection (LC-MS), HPLC can identify and characterize individual impurities and degradation products based on their mass-to-charge ratios. This is essential for understanding peptide stability and degradation pathways.
+<p>Yes, when coupled with mass spectrometry detection (LC-MS), HPLC can identify and characterize individual impurities and degradation products based on their mass-to-charge ratios. This is essential for understanding peptide stability and degradation pathways.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What stationary phases are best for hydrophobic versus hydrophilic peptides?</summary>
-Hydrophobic peptides are well separated on C18 columns, while moderately hydrophobic peptides benefit from C8 or C4 phases. For hydrophilic peptides, HILIC (hydrophilic interaction liquid chromatography) is often preferred as it provides retention and separation based on polarity rather than hydrophobicity.
+<p>Hydrophobic peptides are well separated on C18 columns, while moderately hydrophobic peptides benefit from C8 or C4 phases. For hydrophilic peptides, HILIC (hydrophilic interaction liquid chromatography) is often preferred as it provides retention and separation based on polarity rather than hydrophobicity.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is peptide mapping and why is it important?</summary>
-Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.
+<p>Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.</p>
 </details>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 

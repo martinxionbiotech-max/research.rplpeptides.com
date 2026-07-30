@@ -127,35 +127,35 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 <div class="faq-section">
 <details class="faq-item">
 <summary>Should peptides be stored lyophilized or in solution?</summary>
-Lyophilized storage is always preferred for long-term stability. Hydrolytic degradation is essentially eliminated in the dry state. Reconstitute only the amount needed for immediate use. Never store a peptide long-term in solution if lyophilized material is available.
+<p>Lyophilized storage is always preferred for long-term stability. Hydrolytic degradation is essentially eliminated in the dry state. Reconstitute only the amount needed for immediate use. Never store a peptide long-term in solution if lyophilized material is available.</p>
 </details>
 <details class="faq-item">
 <summary>How many freeze-thaw cycles can a peptide tolerate?</summary>
-Most peptides tolerate 3–5 freeze-thaw cycles before significant degradation occurs. To maximize stability, aliquot into single-use portions. Include cryoprotectants (trehalose, sucrose) for sensitive peptides.
+<p>Most peptides tolerate 3–5 freeze-thaw cycles before significant degradation occurs. To maximize stability, aliquot into single-use portions. Include cryoprotectants (trehalose, sucrose) for sensitive peptides.</p>
 </details>
 <details class="faq-item">
 <summary>Why does my peptide precipitate after thawing?</summary>
-Precipitation upon thawing indicates aggregation during freeze-thaw. This is often caused by hydrophobic peptides or inappropriate buffer composition. Try adding a small amount (1–10%) of organic co-solvent (acetonitrile, DMSO), adjusting pH away from the pI, or adding a chaotropic agent.
+<p>Precipitation upon thawing indicates aggregation during freeze-thaw. This is often caused by hydrophobic peptides or inappropriate buffer composition. Try adding a small amount (1–10%) of organic co-solvent (acetonitrile, DMSO), adjusting pH away from the pI, or adding a chaotropic agent.</p>
 </details>
 <details class="faq-item">
 <summary>What is the best solvent for reconstituting peptides?</summary>
-Sterile water or PBS (pH 7.4) is suitable for most peptides. For hydrophobic peptides, 0.1% TFA in water, 10–30% acetonitrile/water, or dilute acetic acid (10–50% v/v) may be necessary to achieve complete dissolution. Avoid DMSO unless absolutely necessary, as it can oxidize Met and Cys residues.
+<p>Sterile water or PBS (pH 7.4) is suitable for most peptides. For hydrophobic peptides, 0.1% TFA in water, 10–30% acetonitrile/water, or dilute acetic acid (10–50% v/v) may be necessary to achieve complete dissolution. Avoid DMSO unless absolutely necessary, as it can oxidize Met and Cys residues.</p>
 </details>
 <details class="faq-item">
 <summary>Do peptides degrade at −80°C?</summary>
-At −80°C, most chemical degradation pathways are kinetically arrested. Lyophilized peptides at −80°C typically degrade at <1% per year. Even in solution, −80°C provides excellent stability for most peptides for weeks to months.
+<p>At −80°C, most chemical degradation pathways are kinetically arrested. Lyophilized peptides at −80°C typically degrade at <1% per year. Even in solution, −80°C provides excellent stability for most peptides for weeks to months.</p>
 </details>
 <details class="faq-item">
 <summary>How can I detect peptide degradation?</summary>
-RP-HPLC with UV detection (214 nm) reveals new peaks corresponding to degradation products. Mass spectrometry identifies the modification (e.g., +16 Da for oxidation, −1 Da for deamidation, +18 Da for hydrolysis). Biological activity assays confirm whether degradation affects function.
+<p>RP-HPLC with UV detection (214 nm) reveals new peaks corresponding to degradation products. Mass spectrometry identifies the modification (e.g., +16 Da for oxidation, −1 Da for deamidation, +18 Da for hydrolysis). Biological activity assays confirm whether degradation affects function.</p>
 </details>
 <details class="faq-item">
 <summary>Should I store peptides with desiccant?</summary>
-Yes. Lyophilized peptides are hygroscopic. Storing a sealed vial with molecular sieve (3 Å) or silica gel desiccant prevents moisture absorption that would otherwise initiate degradation reactions.
+<p>Yes. Lyophilized peptides are hygroscopic. Storing a sealed vial with molecular sieve (3 Å) or silica gel desiccant prevents moisture absorption that would otherwise initiate degradation reactions.</p>
 </details>
 <details class="faq-item">
 <summary>Does light exposure affect peptide stability?</summary>
-Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, Phe, Cys, Met). UV and fluorescent light can catalyze oxidation. Store peptides in amber vials or opaque containers, and minimize light exposure during handling.
+<p>Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, Phe, Cys, Met). UV and fluorescent light can catalyze oxidation. Store peptides in amber vials or opaque containers, and minimize light exposure during handling.</p>
 </details>
 </div>
 

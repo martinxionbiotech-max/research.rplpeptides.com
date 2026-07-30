@@ -92,43 +92,43 @@ Success in developing an oral multi-receptor agonist would dramatically expand p
 <div class="faq-section">
 <details class="faq-item">
 <summary>What is a multi-receptor peptide agonist?</summary>
-A multi-receptor peptide agonist is a single engineered peptide molecule designed to activate two, three, or more different hormone receptors simultaneously. The goal is to harness the complementary metabolic effects of multiple receptor pathways through a single therapeutic agent, producing synergistic benefits.
+<p>A multi-receptor peptide agonist is a single engineered peptide molecule designed to activate two, three, or more different hormone receptors simultaneously. The goal is to harness the complementary metabolic effects of multiple receptor pathways through a single therapeutic agent, producing synergistic benefits.</p>
 </details>
 <details class="faq-item">
 <summary>What receptors are targeted in current multi-receptor research?</summary>
-The most advanced multi-receptor approaches target combinations of the GLP-1 receptor (GLP-1R), GIP receptor (GIPR), and glucagon receptor (GCGR). Emerging strategies also incorporate amylin receptors, the Y2 receptor (PYY), and other metabolic hormone receptors.
+<p>The most advanced multi-receptor approaches target combinations of the GLP-1 receptor (GLP-1R), GIP receptor (GIPR), and glucagon receptor (GCGR). Emerging strategies also incorporate amylin receptors, the Y2 receptor (PYY), and other metabolic hormone receptors.</p>
 </details>
 <details class="faq-item">
 <summary>What is retatrutide and how does it work?</summary>
-Retatrutide is a GLP-1/GIP/glucagon triple receptor agonist in clinical development. It activates all three receptors—each contributing distinct metabolic effects—to produce synergistic improvements in glycemic control, weight loss, and energy expenditure. Phase 2 trials have shown weight loss approaching bariatric surgery efficacy.
+<p>Retatrutide is a GLP-1/GIP/glucagon triple receptor agonist in clinical development. It activates all three receptors—each contributing distinct metabolic effects—to produce synergistic improvements in glycemic control, weight loss, and energy expenditure. Phase 2 trials have shown weight loss approaching bariatric surgery efficacy.</p>
 </details>
 <details class="faq-item">
 <summary>How does glucagon receptor activation contribute to weight loss?</summary>
-Glucagon receptor activation increases energy expenditure through hepatic fatty acid oxidation, thermogenesis, and lipolysis. When combined with GLP-1 and GIP activity, these effects mobilize fat stores and increase caloric expenditure without causing the hyperglycemia that would occur with glucagon alone.
+<p>Glucagon receptor activation increases energy expenditure through hepatic fatty acid oxidation, thermogenesis, and lipolysis. When combined with GLP-1 and GIP activity, these effects mobilize fat stores and increase caloric expenditure without causing the hyperglycemia that would occur with glucagon alone.</p>
 </details>
 <details class="faq-item">
 <summary>Are multi-receptor peptides safe given they activate glucagon?</summary>
-Clinical trial data indicate that triple agonists are generally well-tolerated. The incretin components (GLP-1 and GIP) effectively counter-regulate glucagon-mediated glucose elevation through enhanced insulin secretion and glucagon suppression, preventing hyperglycemia. Adverse effects are primarily gastrointestinal, similar to GLP-1 receptor agonists.
+<p>Clinical trial data indicate that triple agonists are generally well-tolerated. The incretin components (GLP-1 and GIP) effectively counter-regulate glucagon-mediated glucose elevation through enhanced insulin secretion and glucagon suppression, preventing hyperglycemia. Adverse effects are primarily gastrointestinal, similar to GLP-1 receptor agonists.</p>
 </details>
 <details class="faq-item">
 <summary>How do multi-receptor agonists compare to dual agonists?</summary>
-Head-to-head comparison is limited, but cross-trial evidence suggests triple agonists achieve greater weight loss than dual GLP-1/GIP agonists. The addition of glucagon agonism provides a mechanism for increasing energy expenditure beyond what dual incretin activation alone achieves, translating into superior weight reduction.
+<p>Head-to-head comparison is limited, but cross-trial evidence suggests triple agonists achieve greater weight loss than dual GLP-1/GIP agonists. The addition of glucagon agonism provides a mechanism for increasing energy expenditure beyond what dual incretin activation alone achieves, translating into superior weight reduction.</p>
 </details>
 <details class="faq-item">
 <summary>What non-metabolic conditions might benefit from multi-receptor peptides?</summary>
-NASH is a particularly promising indication due to the combined effects on hepatic steatosis, inflammation, and potentially fibrosis. Cardiovascular disease, neurodegenerative conditions, and even substance use disorders are also being explored based on the anti-inflammatory and neuroprotective effects of incretin pathway activation.
+<p>NASH is a particularly promising indication due to the combined effects on hepatic steatosis, inflammation, and potentially fibrosis. Cardiovascular disease, neurodegenerative conditions, and even substance use disorders are also being explored based on the anti-inflammatory and neuroprotective effects of incretin pathway activation.</p>
 </details>
 <details class="faq-item">
 <summary>How are multi-receptor peptides engineered?</summary>
-Multi-receptor peptides are designed through systematic amino acid substitutions in a parent peptide scaffold, guided by structure-activity relationships and computational modeling. Cryo-electron microscopy structures of peptide-receptor complexes have become crucial for rational design. Fatty acid acylation provides sustained pharmacokinetics.
+<p>Multi-receptor peptides are designed through systematic amino acid substitutions in a parent peptide scaffold, guided by structure-activity relationships and computational modeling. Cryo-electron microscopy structures of peptide-receptor complexes have become crucial for rational design. Fatty acid acylation provides sustained pharmacokinetics.</p>
 </details>
 <details class="faq-item">
 <summary>Could there be tetra-agonists or even penta-agonists?</summary>
-Yes, research is already exploring quadruple and quintuple agonists incorporating receptors for amylin, PYY, and other metabolic peptides. The structural and pharmacological challenges increase with each additional target, but the potential for further enhanced efficacy continues to drive innovation in this area.
+<p>Yes, research is already exploring quadruple and quintuple agonists incorporating receptors for amylin, PYY, and other metabolic peptides. The structural and pharmacological challenges increase with each additional target, but the potential for further enhanced efficacy continues to drive innovation in this area.</p>
 </details>
 <details class="faq-item">
 <summary>What are the main challenges facing multi-receptor peptide research?</summary>
-Key challenges include: optimizing the relative potency ratio for each receptor to achieve the ideal metabolic profile while minimizing adverse effects; maintaining stability and favorable pharmacokinetics for increasingly complex peptide designs; managing gastrointestinal tolerability at efficacious doses; and addressing long-term safety considerations with sustained activation of multiple receptor systems.
+<p>Key challenges include: optimizing the relative potency ratio for each receptor to achieve the ideal metabolic profile while minimizing adverse effects; maintaining stability and favorable pharmacokinetics for increasingly complex peptide designs; managing gastrointestinal tolerability at efficacious doses; and addressing long-term safety considerations with sustained activation of multiple receptor systems.</p>
 </details>
 </div>
 

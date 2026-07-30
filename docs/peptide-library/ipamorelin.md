@@ -101,42 +101,42 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 
 <details class="faq-item">
 <summary>How does ipamorelin differ from other growth hormone secretagogues?</summary>
-Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.
+<p>Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.</p>
 </details>
 
 <details class="faq-item">
 <summary>Does ipamorelin work through the same mechanism as GHRH?</summary>
-No. Ipamorelin acts on the GHS-R1a receptor (the ghrelin receptor), which is distinct from the GHRH receptor. GHS-R1a signals primarily through the phospholipase C–IP₃–calcium pathway, whereas GHRH signals through the adenylyl cyclase–cAMP–PKA pathway. Both converge on GH release from pituitary somatotrophs and can produce additive or synergistic effects when combined.
+<p>No. Ipamorelin acts on the GHS-R1a receptor (the ghrelin receptor), which is distinct from the GHRH receptor. GHS-R1a signals primarily through the phospholipase C–IP₃–calcium pathway, whereas GHRH signals through the adenylyl cyclase–cAMP–PKA pathway. Both converge on GH release from pituitary somatotrophs and can produce additive or synergistic effects when combined.</p>
 </details>
 
 <details class="faq-item">
 <summary>Is ipamorelin FDA-approved?</summary>
-No. Ipamorelin is not FDA-approved for any clinical indication. It is a research compound used in preclinical and early-phase clinical studies to investigate GH axis physiology and potential therapeutic applications.
+<p>No. Ipamorelin is not FDA-approved for any clinical indication. It is a research compound used in preclinical and early-phase clinical studies to investigate GH axis physiology and potential therapeutic applications.</p>
 </details>
 
 <details class="faq-item">
 <summary>What is the significance of the modified amino acids in ipamorelin?</summary>
-The inclusion of Aib (α-aminoisobutyric acid) and d-amino acids (d-2-Nal, d-Phe) confers resistance to proteolytic cleavage by endo- and exopeptidases, significantly improving the peptide's in vivo stability compared to all-L-amino-acid peptides. This is a common strategy in peptide drug design to enhance pharmacokinetic properties.
+<p>The inclusion of Aib (α-aminoisobutyric acid) and d-amino acids (d-2-Nal, d-Phe) confers resistance to proteolytic cleavage by endo- and exopeptidases, significantly improving the peptide's in vivo stability compared to all-L-amino-acid peptides. This is a common strategy in peptide drug design to enhance pharmacokinetic properties.</p>
 </details>
 
 <details class="faq-item">
 <summary>What are the reported effects of ipamorelin on bone?</summary>
-In preclinical and early clinical studies, ipamorelin has been shown to stimulate bone formation markers such as osteocalcin and P1NP. The effect is thought to be mediated through GH–IGF-1 axis activation, which promotes osteoblast differentiation and activity. However, large-scale clinical trials for bone indications have not been conducted.
+<p>In preclinical and early clinical studies, ipamorelin has been shown to stimulate bone formation markers such as osteocalcin and P1NP. The effect is thought to be mediated through GH–IGF-1 axis activation, which promotes osteoblast differentiation and activity. However, large-scale clinical trials for bone indications have not been conducted.</p>
 </details>
 
 <details class="faq-item">
 <summary>Can ipamorelin be taken orally?</summary>
-While ipamorelin is more resistant to proteolysis than linear all-L-peptides, its oral bioavailability remains negligible. It is administered by subcutaneous or intravenous injection in research settings. Oral formulation approaches (e.g., permeation enhancers) have not been clinically validated for this peptide.
+<p>While ipamorelin is more resistant to proteolysis than linear all-L-peptides, its oral bioavailability remains negligible. It is administered by subcutaneous or intravenous injection in research settings. Oral formulation approaches (e.g., permeation enhancers) have not been clinically validated for this peptide.</p>
 </details>
 
 <details class="faq-item">
 <summary>How long does the GH response to ipamorelin last?</summary>
-Following subcutaneous administration, peak GH levels are typically achieved within 30–60 minutes, with GH levels returning to baseline by approximately 2–3 hours post-injection. The total GH secretory pulse magnitude is dose-dependent and has been characterized in several human pharmacokinetic/pharmacodynamic studies.
+<p>Following subcutaneous administration, peak GH levels are typically achieved within 30–60 minutes, with GH levels returning to baseline by approximately 2–3 hours post-injection. The total GH secretory pulse magnitude is dose-dependent and has been characterized in several human pharmacokinetic/pharmacodynamic studies.</p>
 </details>
 
 <details class="faq-item">
 <summary>Does ipamorelin affect appetite?</summary>
-Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.
+<p>Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.</p>
 </details>
 
 <!-- References -->

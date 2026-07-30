@@ -88,43 +88,43 @@ Current research is investigating whether combination approaches—including GLP
 <div class="faq-section">
 <details class="faq-item">
 <summary>What is GLP-1 and where is it produced?</summary>
-GLP-1 (glucagon-like peptide-1) is a 30/31-amino acid incretin hormone produced primarily by intestinal L-cells in the distal small intestine and colon. It is also produced in the brainstem, where it functions as a neuropeptide regulating appetite and energy balance.
+<p>GLP-1 (glucagon-like peptide-1) is a 30/31-amino acid incretin hormone produced primarily by intestinal L-cells in the distal small intestine and colon. It is also produced in the brainstem, where it functions as a neuropeptide regulating appetite and energy balance.</p>
 </details>
 <details class="faq-item">
 <summary>How does GLP-1 stimulate insulin secretion?</summary>
-GLP-1 binds to the GLP-1 receptor on pancreatic beta cells, activating Gαs-mediated cAMP production. This signaling cascade potentiates glucose-stimulated insulin secretion through PKA and EPAC pathways, enhancing calcium mobilization and insulin granule exocytosis. Crucially, this effect is glucose-dependent.
+<p>GLP-1 binds to the GLP-1 receptor on pancreatic beta cells, activating Gαs-mediated cAMP production. This signaling cascade potentiates glucose-stimulated insulin secretion through PKA and EPAC pathways, enhancing calcium mobilization and insulin granule exocytosis. Crucially, this effect is glucose-dependent.</p>
 </details>
 <details class="faq-item">
 <summary>Why is native GLP-1 not suitable as a therapeutic agent?</summary>
-Native GLP-1 is rapidly degraded by the enzyme DPP-4, resulting in a plasma half-life of less than 2 minutes. This extremely short half-life renders native GLP-1 impractical for therapeutic use, motivating the development of DPP-4-resistant analogs.
+<p>Native GLP-1 is rapidly degraded by the enzyme DPP-4, resulting in a plasma half-life of less than 2 minutes. This extremely short half-life renders native GLP-1 impractical for therapeutic use, motivating the development of DPP-4-resistant analogs.</p>
 </details>
 <details class="faq-item">
 <summary>What are the main GLP-1 receptor agonists used in research?</summary>
-The principal GLP-1 receptor agonists include exenatide (derived from exendin-4), liraglutide (a fatty-acid acylated human GLP-1 analog), and semaglutide (a long-acting analog with once-weekly dosing available in both injectable and oral formulations).
+<p>The principal GLP-1 receptor agonists include exenatide (derived from exendin-4), liraglutide (a fatty-acid acylated human GLP-1 analog), and semaglutide (a long-acting analog with once-weekly dosing available in both injectable and oral formulations).</p>
 </details>
 <details class="faq-item">
 <summary>Does GLP-1 affect body weight?</summary>
-Yes. GLP-1 receptor agonists consistently reduce body weight through central mechanisms promoting satiety and reducing food intake, as well as peripheral effects on gastric emptying and energy expenditure. Semaglutide 2.4 mg produces mean weight reductions of approximately 15% in individuals with obesity.
+<p>Yes. GLP-1 receptor agonists consistently reduce body weight through central mechanisms promoting satiety and reducing food intake, as well as peripheral effects on gastric emptying and energy expenditure. Semaglutide 2.4 mg produces mean weight reductions of approximately 15% in individuals with obesity.</p>
 </details>
 <details class="faq-item">
 <summary>What cardiovascular effects has GLP-1 research demonstrated?</summary>
-GLP-1 receptor agonists reduce major adverse cardiovascular events, with semaglutide showing a 26% reduction in the composite cardiovascular endpoint in patients with type 2 diabetes. These effects appear to involve both direct cardioprotective mechanisms and improvements in cardiometabolic risk factors.
+<p>GLP-1 receptor agonists reduce major adverse cardiovascular events, with semaglutide showing a 26% reduction in the composite cardiovascular endpoint in patients with type 2 diabetes. These effects appear to involve both direct cardioprotective mechanisms and improvements in cardiometabolic risk factors.</p>
 </details>
 <details class="faq-item">
 <summary>What is the role of GLP-1 in non-alcoholic steatohepatitis (NASH)?</summary>
-Preclinical and clinical studies suggest that GLP-1 receptor agonists reduce hepatic steatosis, inflammation, and fibrosis, making them a subject of active investigation for NASH treatment. Semaglutide has shown beneficial effects on NASH resolution in phase 2 clinical trials.
+<p>Preclinical and clinical studies suggest that GLP-1 receptor agonists reduce hepatic steatosis, inflammation, and fibrosis, making them a subject of active investigation for NASH treatment. Semaglutide has shown beneficial effects on NASH resolution in phase 2 clinical trials.</p>
 </details>
 <details class="faq-item">
 <summary>Are there ongoing research efforts combining GLP-1 with other peptides?</summary>
-Yes. Multi-receptor agonists combining GLP-1 with GIP, glucagon, and other metabolic peptides represent a major research frontier. Agents such as <a href="https://research.rplpeptides.com/research/metabolic/glp1-gip-dual-agonist/">tirzepatide (GIP/GLP-1 dual agonist)</a> and retatrutide (GIP/GLP-1/glucagon triagonist) demonstrate enhanced metabolic effects compared to GLP-1R agonists alone.
+<p>Yes. Multi-receptor agonists combining GLP-1 with GIP, glucagon, and other metabolic peptides represent a major research frontier. Agents such as <a href="https://research.rplpeptides.com/research/metabolic/glp1-gip-dual-agonist/">tirzepatide (GIP/GLP-1 dual agonist)</a> and retatrutide (GIP/GLP-1/glucagon triagonist) demonstrate enhanced metabolic effects compared to GLP-1R agonists alone.</p>
 </details>
 <details class="faq-item">
 <summary>Does GLP-1 have effects in neurodegenerative disease?</summary>
-Emerging evidence suggests that GLP-1 receptor agonists exert neuroprotective effects through reduced neuroinflammation and improved mitochondrial function. Clinical trials are ongoing in Parkinson's disease and Alzheimer's disease, with early results showing potential cognitive benefits.
+<p>Emerging evidence suggests that GLP-1 receptor agonists exert neuroprotective effects through reduced neuroinflammation and improved mitochondrial function. Clinical trials are ongoing in Parkinson's disease and Alzheimer's disease, with early results showing potential cognitive benefits.</p>
 </details>
 <details class="faq-item">
 <summary>What are the limitations of current GLP-1 research?</summary>
-Current limitations include incomplete understanding of tissue-specific GLP-1 signaling contributions, inconsistent evidence regarding endogenous GLP-1 secretion deficits in type 2 diabetes, gastrointestinal side effects limiting tolerability, and residual uncertainty about long-term effects beyond the 2-5 year trial follow-up windows.
+<p>Current limitations include incomplete understanding of tissue-specific GLP-1 signaling contributions, inconsistent evidence regarding endogenous GLP-1 secretion deficits in type 2 diabetes, gastrointestinal side effects limiting tolerability, and residual uncertainty about long-term effects beyond the 2-5 year trial follow-up windows.</p>
 </details>
 </div>
 

@@ -108,43 +108,43 @@ These divergent findings underscore the need for further mechanistic studies and
 <div class="faq-section">
 <details class="faq-item">
 <summary>What is GIP and how does it differ from GLP-1?</summary>
-GIP (gastric inhibitory polypeptide) is a 42-amino acid incretin hormone secreted by K-cells in the proximal small intestine. While both GIP and <a href="https://research.rplpeptides.com/research/metabolic/glp-1-research-overview/">GLP-1</a> stimulate glucose-dependent insulin secretion, GIP also promotes glucagon secretion, regulates lipid metabolism in adipose tissue, and has distinct effects on bone remodeling.
+<p>GIP (gastric inhibitory polypeptide) is a 42-amino acid incretin hormone secreted by K-cells in the proximal small intestine. While both GIP and <a href="https://research.rplpeptides.com/research/metabolic/glp-1-research-overview/">GLP-1</a> stimulate glucose-dependent insulin secretion, GIP also promotes glucagon secretion, regulates lipid metabolism in adipose tissue, and has distinct effects on bone remodeling.</p>
 </details>
 <details class="faq-item">
 <summary>Why was GIP considered less promising than GLP-1 for many years?</summary>
-Early studies demonstrated that the insulinotropic effect of GIP is substantially reduced in patients with type 2 diabetes—a phenomenon termed "GIP resistance." This led to the assumption that GIP had limited therapeutic utility, while GLP-1 retained its insulinotropic activity in type 2 diabetes.
+<p>Early studies demonstrated that the insulinotropic effect of GIP is substantially reduced in patients with type 2 diabetes—a phenomenon termed "GIP resistance." This led to the assumption that GIP had limited therapeutic utility, while GLP-1 retained its insulinotropic activity in type 2 diabetes.</p>
 </details>
 <details class="faq-item">
 <summary>What is GIP resistance and can it be overcome?</summary>
-GIP resistance refers to the diminished insulinotropic response to GIP observed in patients with type 2 diabetes. Importantly, this resistance can be partially reversed by achieving better glycemic control, and pharmacological doses of GIP receptor agonists with optimized pharmacokinetics can overcome the resistance to produce meaningful insulin secretion.
+<p>GIP resistance refers to the diminished insulinotropic response to GIP observed in patients with type 2 diabetes. Importantly, this resistance can be partially reversed by achieving better glycemic control, and pharmacological doses of GIP receptor agonists with optimized pharmacokinetics can overcome the resistance to produce meaningful insulin secretion.</p>
 </details>
 <details class="faq-item">
 <summary>How does GIP affect lipid metabolism?</summary>
-GIP promotes postprandial lipid storage by stimulating lipoprotein lipase activity, enhancing fatty acid uptake into adipocytes, and inhibiting lipolysis. This "lipid partitioning" effect helps direct dietary fat toward appropriate adipose storage depots and away from ectopic tissues.
+<p>GIP promotes postprandial lipid storage by stimulating lipoprotein lipase activity, enhancing fatty acid uptake into adipocytes, and inhibiting lipolysis. This "lipid partitioning" effect helps direct dietary fat toward appropriate adipose storage depots and away from ectopic tissues.</p>
 </details>
 <details class="faq-item">
 <summary>Does GIP increase or decrease glucagon secretion?</summary>
-GIP stimulates glucagon secretion from pancreatic alpha cells under euglycemic and hypoglycemic conditions, whereas GLP-1 suppresses glucagon. This difference is important for understanding the distinct pharmacology of GIP-based therapeutics.
+<p>GIP stimulates glucagon secretion from pancreatic alpha cells under euglycemic and hypoglycemic conditions, whereas GLP-1 suppresses glucagon. This difference is important for understanding the distinct pharmacology of GIP-based therapeutics.</p>
 </details>
 <details class="faq-item">
 <summary>What role does GIP play in bone health?</summary>
-GIP receptors are expressed on osteoblasts and osteoclasts. GIP signaling promotes bone formation and inhibits bone resorption, suggesting potential anabolic effects on bone. This may have relevance for osteoporosis research and metabolic bone disease.
+<p>GIP receptors are expressed on osteoblasts and osteoclasts. GIP signaling promotes bone formation and inhibits bone resorption, suggesting potential anabolic effects on bone. This may have relevance for osteoporosis research and metabolic bone disease.</p>
 </details>
 <details class="faq-item">
 <summary>How does tirzepatide combine GIP and GLP-1 activity?</summary>
-Tirzepatide is a single peptide molecule engineered to act as a dual agonist at both the GIP and GLP-1 receptors, with roughly balanced potency at both targets. This dual activity produces synergistic metabolic effects exceeding those of GLP-1R agonists alone, as demonstrated in the SURPASS and SURMOUNT clinical trial programs.
+<p>Tirzepatide is a single peptide molecule engineered to act as a dual agonist at both the GIP and GLP-1 receptors, with roughly balanced potency at both targets. This dual activity produces synergistic metabolic effects exceeding those of GLP-1R agonists alone, as demonstrated in the SURPASS and SURMOUNT clinical trial programs.</p>
 </details>
 <details class="faq-item">
 <summary>Is the GIP receptor expressed in the brain?</summary>
-Yes, GIP receptors are expressed in the hypothalamus, hippocampus, and other brain regions. GIP can cross the blood-brain barrier via saturable transport, and central GIPR signaling modulates food intake, energy expenditure, and potentially cognitive function.
+<p>Yes, GIP receptors are expressed in the hypothalamus, hippocampus, and other brain regions. GIP can cross the blood-brain barrier via saturable transport, and central GIPR signaling modulates food intake, energy expenditure, and potentially cognitive function.</p>
 </details>
 <details class="faq-item">
 <summary>Could GIP antagonists be useful for weight loss?</summary>
-Preclinical and early clinical evidence suggests that GIP receptor antagonists may promote weight loss through a different mechanism—reducing GIP-mediated lipid storage in adipose tissue. This represents a complementary approach to GIP receptor agonism and is an active area of investigation.
+<p>Preclinical and early clinical evidence suggests that GIP receptor antagonists may promote weight loss through a different mechanism—reducing GIP-mediated lipid storage in adipose tissue. This represents a complementary approach to GIP receptor agonism and is an active area of investigation.</p>
 </details>
 <details class="faq-item">
 <summary>What are the main open questions in GIP research?</summary>
-Key open questions include the precise mechanisms of GIP-GLP-1 synergy at the cellular level, the relative contributions of different GIP-responsive tissues to overall metabolic effects, the optimal GIP-to-GLP-1 activation ratio for different therapeutic goals, and the long-term effects of sustained GIPR modulation.
+<p>Key open questions include the precise mechanisms of GIP-GLP-1 synergy at the cellular level, the relative contributions of different GIP-responsive tissues to overall metabolic effects, the optimal GIP-to-GLP-1 activation ratio for different therapeutic goals, and the long-term effects of sustained GIPR modulation.</p>
 </details>
 </div>
 

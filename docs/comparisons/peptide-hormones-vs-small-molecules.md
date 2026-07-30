@@ -173,27 +173,27 @@ The peptide component can also be used to target nanoparticles, where the peptid
 <div class="faq-section">
 <details class="faq-item">
 <summary>Why are most peptide drugs injectable?</summary>
-Peptides are poorly absorbed orally due to proteolytic degradation in the GI tract and poor permeability across the intestinal epithelium. Their high molecular weight and polar nature prevent passive transcellular absorption, and tight junctions limit paracellular transport.
+<p>Peptides are poorly absorbed orally due to proteolytic degradation in the GI tract and poor permeability across the intestinal epithelium. Their high molecular weight and polar nature prevent passive transcellular absorption, and tight junctions limit paracellular transport.</p>
 </details>
 <details class="faq-item">
 <summary>Can small molecules replace peptide hormones in metabolic disease?</summary>
-Non-peptide GLP-1R agonists are in development, but reproducing the full efficacy of peptide agonists in GPCR systems with extended binding interfaces remains challenging. Small molecules may find applications as oral options, but are unlikely to fully replace peptide agonists for all indications.
+<p>Non-peptide GLP-1R agonists are in development, but reproducing the full efficacy of peptide agonists in GPCR systems with extended binding interfaces remains challenging. Small molecules may find applications as oral options, but are unlikely to fully replace peptide agonists for all indications.</p>
 </details>
 <details class="faq-item">
 <summary>Which class has lower immunogenicity risk?</summary>
-Small molecules have negligible immunogenicity risk. Peptides have low-to-moderate risk depending on sequence homology to endogenous peptides, aggregation state, and impurities. Peptides with >50% homology to human sequences generally have low immunogenicity.
+<p>Small molecules have negligible immunogenicity risk. Peptides have low-to-moderate risk depending on sequence homology to endogenous peptides, aggregation state, and impurities. Peptides with >50% homology to human sequences generally have low immunogenicity.</p>
 </details>
 <details class="faq-item">
 <summary>How are peptide half-lives extended for therapeutic use?</summary>
-Strategies include: fatty acid acylation (albumin binding), PEGylation, Fc fusion, amino acid substitutions that confer DPP-4 resistance, cyclization, and conjugation to larger carrier proteins. Some modifications increase half-life from minutes to days.
+<p>Strategies include: fatty acid acylation (albumin binding), PEGylation, Fc fusion, amino acid substitutions that confer DPP-4 resistance, cyclization, and conjugation to larger carrier proteins. Some modifications increase half-life from minutes to days.</p>
 </details>
 <details class="faq-item">
 <summary>Do peptides or small molecules have better blood-brain barrier penetration?</summary>
-Small molecules generally exhibit far superior BBB penetration. Most peptides cannot cross the BBB in significant quantities unless modified with cell-penetrating sequences or transported via carrier-mediated mechanisms. This limits peptide application in CNS disorders.
+<p>Small molecules generally exhibit far superior BBB penetration. Most peptides cannot cross the BBB in significant quantities unless modified with cell-penetrating sequences or transported via carrier-mediated mechanisms. This limits peptide application in CNS disorders.</p>
 </details>
 <details class="faq-item">
 <summary>What are the manufacturing cost differences?</summary>
-Small molecule synthesis is typically less expensive at scale ($50–500/g) compared to peptide synthesis ($200–5,000/g depending on length and complexity). However, improved synthetic methods, enzymatic synthesis, and recombinant production are reducing peptide manufacturing costs.
+<p>Small molecule synthesis is typically less expensive at scale ($50–500/g) compared to peptide synthesis ($200–5,000/g depending on length and complexity). However, improved synthetic methods, enzymatic synthesis, and recombinant production are reducing peptide manufacturing costs.</p>
 </details>
 </div>
 

@@ -163,45 +163,38 @@ details.faq-item {
   border-radius: 8px;
   margin-bottom: 0.5rem;
   overflow: hidden;
-  display: block;
   width: 100%;
 }
 details.faq-item summary {
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1rem 0.75rem 2.2rem;
   font-weight: 600;
   cursor: pointer;
   background: var(--md-default-fg-color--lightest);
   user-select: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  position: relative;
   list-style: none;
   color: var(--md-typeset-color);
 }
-/* Remove default marker on all browsers */
+/* Remove default marker */
 details.faq-item summary::-webkit-details-marker { display: none; }
 details.faq-item summary::marker { display: none; content: ''; }
-/* Add custom "+" marker */
+/* Custom marker */
 details.faq-item summary::before {
   content: '+';
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
   font-weight: 700;
   font-size: 1.2rem;
-  flex-shrink: 0;
-  width: 1.2rem;
-  text-align: center;
-  transition: transform 0.2s;
 }
-details.faq-item[open] summary::before {
-  content: '−';
-}
-details.faq-item summary:hover {
-  background: var(--md-primary-fg-color--lightest);
-}
-details.faq-item > .faq-answer,
-details.faq-item > p:not(:first-child),
-details.faq-item > *:not(summary) {
-  padding: 0.75rem 1rem;
+details.faq-item[open] summary::before { content: '−'; }
+details.faq-item summary:hover { background: var(--md-primary-fg-color--lightest); }
+/* FAQ body content */
+details.faq-item p {
+  padding: 0 1rem 0.5rem 1rem;
+  margin: 0;
   font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 /* ===== REFERENCES ===== */

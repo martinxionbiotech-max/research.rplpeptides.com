@@ -92,27 +92,27 @@ The growing therapeutic interest in peptides continues to drive innovation in st
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>What is the most common peptide degradation pathway?</summary>
-Deamidation of asparagine residues is the most common non-enzymatic degradation pathway for peptides under neutral to basic conditions. The Asn-Gly sequence is particularly labile, with deamidation rates up to 100-fold faster than the most stable Asn-containing sequences.
+<p>Deamidation of asparagine residues is the most common non-enzymatic degradation pathway for peptides under neutral to basic conditions. The Asn-Gly sequence is particularly labile, with deamidation rates up to 100-fold faster than the most stable Asn-containing sequences.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>How should lyophilized peptides be stored for long-term stability?</summary>
-Lyophilized peptides should be stored at &le;−20 &deg;C (preferably −80 &deg;C for long-term storage) in desiccated, light-protected conditions. The container should have low moisture permeability, and exposure to atmospheric moisture during reconstitution should be minimized.
+<p>Lyophilized peptides should be stored at &le;−20 &deg;C (preferably −80 &deg;C for long-term storage) in desiccated, light-protected conditions. The container should have low moisture permeability, and exposure to atmospheric moisture during reconstitution should be minimized.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>How does methionine oxidation affect peptide stability and activity?</summary>
-Methionine oxidation to methionine sulfoxide (+16 Da) can alter peptide conformation and reduce biological activity. The oxidation rate is influenced by methionine solvent accessibility, proximity to other residues, and the presence of metal ions or light. Inclusion of free methionine as an antioxidant in formulations can protect against oxidation.
+<p>Methionine oxidation to methionine sulfoxide (+16 Da) can alter peptide conformation and reduce biological activity. The oxidation rate is influenced by methionine solvent accessibility, proximity to other residues, and the presence of metal ions or light. Inclusion of free methionine as an antioxidant in formulations can protect against oxidation.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is the Arrhenius equation's role in stability prediction?</summary>
-The Arrhenius equation (k = A &middot; e<sup>−Ea/RT</sup>) models the temperature dependence of degradation rates, enabling prediction of shelf life at intended storage conditions from accelerated stability data at elevated temperatures. However, caution is required as degradation mechanisms may change at high temperatures.
+<p>The Arrhenius equation (k = A &middot; e<sup>−Ea/RT</sup>) models the temperature dependence of degradation rates, enabling prediction of shelf life at intended storage conditions from accelerated stability data at elevated temperatures. However, caution is required as degradation mechanisms may change at high temperatures.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What excipients are commonly used to stabilize peptides in solution?</summary>
-Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes; polyols (mannitol, sorbitol) to reduce water activity; amino acids (methionine, histidine) as antioxidants; chelating agents (EDTA) to sequester metal ions; surfactants (polysorbate 80) to prevent surface-induced aggregation; and buffers to maintain optimal pH.
+<p>Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes; polyols (mannitol, sorbitol) to reduce water activity; amino acids (methionine, histidine) as antioxidants; chelating agents (EDTA) to sequester metal ions; surfactants (polysorbate 80) to prevent surface-induced aggregation; and buffers to maintain optimal pH.</p>
 </details>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 

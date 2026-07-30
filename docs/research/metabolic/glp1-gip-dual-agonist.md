@@ -98,43 +98,43 @@ Importantly, the regulatory framework for dual agonists recognizes that these mo
 <div class="faq-section">
 <details class="faq-item">
 <summary>What is a GLP-1/GIP dual agonist?</summary>
-A GLP-1/GIP dual agonist is a single peptide molecule engineered to activate both the glucagon-like peptide-1 receptor (GLP-1R) and the glucose-dependent insulinotropic polypeptide receptor (GIPR). Unlike combining two separate drugs, a unimolecular dual agonist ensures coordinated activity at both receptors with optimized pharmacokinetics.
+<p>A GLP-1/GIP dual agonist is a single peptide molecule engineered to activate both the glucagon-like peptide-1 receptor (GLP-1R) and the glucose-dependent insulinotropic polypeptide receptor (GIPR). Unlike combining two separate drugs, a unimolecular dual agonist ensures coordinated activity at both receptors with optimized pharmacokinetics.</p>
 </details>
 <details class="faq-item">
 <summary>How does tirzepatide work as a dual agonist?</summary>
-Tirzepatide is a 39-amino acid synthetic peptide derived from the native GIP sequence with modifications that confer balanced dual agonist activity at GIPR and GLP-1R. A C-terminal fatty acid moiety enables albumin binding and once-weekly dosing. The molecule activates both receptors to produce synergistic effects on insulin secretion, appetite, and energy balance.
+<p>Tirzepatide is a 39-amino acid synthetic peptide derived from the native GIP sequence with modifications that confer balanced dual agonist activity at GIPR and GLP-1R. A C-terminal fatty acid moiety enables albumin binding and once-weekly dosing. The molecule activates both receptors to produce synergistic effects on insulin secretion, appetite, and energy balance.</p>
 </details>
 <details class="faq-item">
 <summary>What advantages do dual agonists have over GLP-1 receptor agonists alone?</summary>
-Dual GLP-1/GIP agonists demonstrate superior glycemic control and weight reduction compared to selective GLP-1 receptor agonists based on head-to-head clinical trials. The synergy between GLP-1 and GIP pathways produces greater insulin secretion, improved central appetite regulation, and potentially better gastrointestinal tolerability.
+<p>Dual GLP-1/GIP agonists demonstrate superior glycemic control and weight reduction compared to selective GLP-1 receptor agonists based on head-to-head clinical trials. The synergy between GLP-1 and GIP pathways produces greater insulin secretion, improved central appetite regulation, and potentially better gastrointestinal tolerability.</p>
 </details>
 <details class="faq-item">
 <summary>What were the key findings from the SURPASS clinical trials?</summary>
-The SURPASS trials in type 2 diabetes showed that tirzepatide 5-15 mg reduced HbA1c by 1.9-2.4% and was superior to semaglutide 1 mg, insulin degludec, and insulin glargine. Up to 62% of patients achieved normoglycemia (HbA1c &lt;5.7%) at the highest dose.
+<p>The SURPASS trials in type 2 diabetes showed that tirzepatide 5-15 mg reduced HbA1c by 1.9-2.4% and was superior to semaglutide 1 mg, insulin degludec, and insulin glargine. Up to 62% of patients achieved normoglycemia (HbA1c &lt;5.7%) at the highest dose.</p>
 </details>
 <details class="faq-item">
 <summary>What weight loss results were seen in the SURMOUNT trials?</summary>
-In SURMOUNT-1, tirzepatide produced mean weight reductions of 15-22.5% from baseline in adults with obesity, with 57% of patients at the highest dose achieving ≥25% weight loss. These results represent efficacy comparable to bariatric surgery outcomes.
+<p>In SURMOUNT-1, tirzepatide produced mean weight reductions of 15-22.5% from baseline in adults with obesity, with 57% of patients at the highest dose achieving ≥25% weight loss. These results represent efficacy comparable to bariatric surgery outcomes.</p>
 </details>
 <details class="faq-item">
 <summary>Are GLP-1/GIP dual agonists associated with fewer gastrointestinal side effects?</summary>
-Clinical trial data suggest that the gastrointestinal tolerability profile of tirzepatide is comparable to or potentially improved compared to selective GLP-1 receptor agonists, despite greater efficacy. This is hypothesized to involve GIP-mediated counter-regulation of GLP-1-induced gastric emptying delay.
+<p>Clinical trial data suggest that the gastrointestinal tolerability profile of tirzepatide is comparable to or potentially improved compared to selective GLP-1 receptor agonists, despite greater efficacy. This is hypothesized to involve GIP-mediated counter-regulation of GLP-1-induced gastric emptying delay.</p>
 </details>
 <details class="faq-item">
 <summary>What receptor activation ratio is optimal for dual agonists?</summary>
-Tirzepatide has approximately balanced activity at GIPR and GLP-1R, with a slight GIPR preference. The optimal ratio for different clinical objectives remains an active research question, and next-generation dual agonists with altered potency ratios are being developed.
+<p>Tirzepatide has approximately balanced activity at GIPR and GLP-1R, with a slight GIPR preference. The optimal ratio for different clinical objectives remains an active research question, and next-generation dual agonists with altered potency ratios are being developed.</p>
 </details>
 <details class="faq-item">
 <summary>Could dual agonists be combined with other peptide hormones?</summary>
-Yes. GLP-1/GIP dual agonism is being combined with glucagon receptor activation in triple agonists such as retatrutide, and with amylin, PYY, or other peptide signals. These multi-receptor approaches may further enhance efficacy for specific metabolic indications.
+<p>Yes. GLP-1/GIP dual agonism is being combined with glucagon receptor activation in triple agonists such as retatrutide, and with amylin, PYY, or other peptide signals. These multi-receptor approaches may further enhance efficacy for specific metabolic indications.</p>
 </details>
 <details class="faq-item">
 <summary>What cardiovascular effects have been observed with dual agonists?</summary>
-Cardiovascular outcome trials for tirzepatide (SURPASS-CVOT) are ongoing, but available data suggest that dual agonists produce beneficial effects on blood pressure, lipid profile, and inflammatory markers consistent with or exceeding those of GLP-1 receptor agonists.
+<p>Cardiovascular outcome trials for tirzepatide (SURPASS-CVOT) are ongoing, but available data suggest that dual agonists produce beneficial effects on blood pressure, lipid profile, and inflammatory markers consistent with or exceeding those of GLP-1 receptor agonists.</p>
 </details>
 <details class="faq-item">
 <summary>What are the main challenges in dual agonist research?</summary>
-Key challenges include: optimizing the receptor potency ratio for different therapeutic goals, understanding the molecular basis of GLP-1R-GIPR signal integration, managing gastrointestinal tolerability in sensitive populations, and determining long-term safety and efficacy beyond available 2-3 year trial data.
+<p>Key challenges include: optimizing the receptor potency ratio for different therapeutic goals, understanding the molecular basis of GLP-1R-GIPR signal integration, managing gastrointestinal tolerability in sensitive populations, and determining long-term safety and efficacy beyond available 2-3 year trial data.</p>
 </details>
 </div>
 

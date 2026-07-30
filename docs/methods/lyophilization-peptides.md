@@ -163,27 +163,27 @@ For laboratory-scale lyophilization, the simpler Pirani/capacitance manometer co
 <div class="faq-section">
 <details class="faq-item">
 <summary>Can I lyophilize a peptide in any buffer?</summary>
-No. Avoid phosphate buffers as they can experience severe pH shifts during freezing. Use histidine, citrate, Tris, or acetate buffers instead. The buffer concentration should be kept low (10–50 mM) to minimize eutectic formation issues.
+<p>No. Avoid phosphate buffers as they can experience severe pH shifts during freezing. Use histidine, citrate, Tris, or acetate buffers instead. The buffer concentration should be kept low (10–50 mM) to minimize eutectic formation issues.</p>
 </details>
 <details class="faq-item">
 <summary>What is cake collapse and why is it bad?</summary>
-Cake collapse occurs when the product temperature exceeds the collapse temperature (T<sub>c</sub>) during primary drying. The porous matrix loses structural integrity, resulting in a shrunken, dense cake that is difficult to reconstitute and provides poor stability.
+<p>Cake collapse occurs when the product temperature exceeds the collapse temperature (T<sub>c</sub>) during primary drying. The porous matrix loses structural integrity, resulting in a shrunken, dense cake that is difficult to reconstitute and provides poor stability.</p>
 </details>
 <details class="faq-item">
 <summary>What is the best lyoprotectant for peptides?</summary>
-Trehalose is widely considered the best lyoprotectant due to its high T<sub>g</sub>, low hygroscopicity, and lack of internal hydrogen bonds. Sucrose is nearly as effective and is more economical. Mannitol can be used as a bulking agent but has poor lyoprotective properties.
+<p>Trehalose is widely considered the best lyoprotectant due to its high T<sub>g</sub>, low hygroscopicity, and lack of internal hydrogen bonds. Sucrose is nearly as effective and is more economical. Mannitol can be used as a bulking agent but has poor lyoprotective properties.</p>
 </details>
 <details class="faq-item">
 <summary>How do I determine when primary drying is complete?</summary>
-The product temperature rises toward the shelf temperature when ice sublimation finishes, because the drying front reaches the bottom of the vial. Pressure rise testing (Pirani vs. capacitance manometer divergence) is the most reliable method for production-scale equipment.
+<p>The product temperature rises toward the shelf temperature when ice sublimation finishes, because the drying front reaches the bottom of the vial. Pressure rise testing (Pirani vs. capacitance manometer divergence) is the most reliable method for production-scale equipment.</p>
 </details>
 <details class="faq-item">
 <summary>What residual moisture level is optimal for peptide stability?</summary>
-0.5–2.0% residual moisture is the optimal range. Below 0.5%, the formulation may be over-dried and essential hydration water may be removed. Above 3%, molecular mobility is sufficient to support hydrolytic degradation reactions.
+<p>0.5–2.0% residual moisture is the optimal range. Below 0.5%, the formulation may be over-dried and essential hydration water may be removed. Above 3%, molecular mobility is sufficient to support hydrolytic degradation reactions.</p>
 </details>
 <details class="faq-item">
 <summary>Can lyophilization damage peptides?</summary>
-Freezing and drying stresses can cause conformational changes and aggregation if the formulation is not properly designed. Cryoprotectants and lyoprotectants are essential to prevent damage. In properly formulated systems, peptides retain full potency after lyophilization.
+<p>Freezing and drying stresses can cause conformational changes and aggregation if the formulation is not properly designed. Cryoprotectants and lyoprotectants are essential to prevent damage. In properly formulated systems, peptides retain full potency after lyophilization.</p>
 </details>
 </div>
 

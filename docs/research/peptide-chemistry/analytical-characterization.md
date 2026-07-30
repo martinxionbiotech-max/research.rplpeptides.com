@@ -114,27 +114,27 @@ The field is moving toward increased automation, with high-throughput LC-MS syst
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.</summary>
-The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.1 Da); (2) analytical RP-HPLC retention time matching against a reference standard; and (3) optionally, amino acid analysis or MS/MS sequencing for definitive sequence confirmation. For most research peptides, MS confirmation paired with HPLC purity is considered sufficient.
+<p>The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.1 Da); (2) analytical RP-HPLC retention time matching against a reference standard; and (3) optionally, amino acid analysis or MS/MS sequencing for definitive sequence confirmation. For most research peptides, MS confirmation paired with HPLC purity is considered sufficient.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Purity is determined by integrating all UV-absorbing peaks in the chromatogram (detected at 214 nm) and expressing the area of the main peak as a percentage of the total integrated area (% area purity).</summary>
-Purity is determined by integrating all UV-absorbing peaks in the chromatogram (detected at 214 nm) and expressing the area of the main peak as a percentage of the total integrated area (% area purity). This assumes all impurities have comparable molar absorptivity at 214 nm, which is reasonable because absorbance at this wavelength is dominated by amide bonds. Purity claims of ">95%" or ">98%" refer to this area percent value.
+<p>Purity is determined by integrating all UV-absorbing peaks in the chromatogram (detected at 214 nm) and expressing the area of the main peak as a percentage of the total integrated area (% area purity). This assumes all impurities have comparable molar absorptivity at 214 nm, which is reasonable because absorbance at this wavelength is dominated by amide bonds. Purity claims of ">95%" or ">98%" refer to this area percent value.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>CD measures the difference in absorption of left- and right-circularly polarized light by chiral molecules.</summary>
-CD measures the difference in absorption of left- and right-circularly polarized light by chiral molecules. In the far-UV region (190–250 nm), the peptide bond chromophore produces characteristic spectra for different secondary structures: α-helices show negative bands at 208 and 222 nm, β-sheets show a negative band at ~216 nm, and random coils show a positive band at ~212 nm and a negative band at ~198 nm. Deconvolution algorithms fit the experimental spectrum to reference spectra to quantify secondary structure percentages.
+<p>CD measures the difference in absorption of left- and right-circularly polarized light by chiral molecules. In the far-UV region (190–250 nm), the peptide bond chromophore produces characteristic spectra for different secondary structures: α-helices show negative bands at 208 and 222 nm, β-sheets show a negative band at ~216 nm, and random coils show a positive band at ~212 nm and a negative band at ~198 nm. Deconvolution algorithms fit the experimental spectrum to reference spectra to quantify secondary structure percentages.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Peptide content is the mass fraction of the peptide itself in a lyophilized powder, which typically also contains residual TFA (from HPLC purification), water, and trace salts.</summary>
-Peptide content is the mass fraction of the peptide itself in a lyophilized powder, which typically also contains residual TFA (from HPLC purification), water, and trace salts. A lyophilized peptide labeled as "5 mg" might contain only 3.5 mg of peptide (70% content). Accurate content determination by AAA or UV spectrophotometry is essential for preparing precise stock solutions for quantitative biological assays.
+<p>Peptide content is the mass fraction of the peptide itself in a lyophilized powder, which typically also contains residual TFA (from HPLC purification), water, and trace salts. A lyophilized peptide labeled as "5 mg" might contain only 3.5 mg of peptide (70% content). Accurate content determination by AAA or UV spectrophotometry is essential for preparing precise stock solutions for quantitative biological assays.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (for molecular weight confirmation) in a single analytical run.</summary>
-LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (for molecular weight confirmation) in a single analytical run. The UV chromatogram at 214 nm provides purity data, while the MS total ion chromatogram and extracted mass spectra confirm the identity of each peak. LC-MS can identify the nature of impurities — for example, a peak 28 Da lighter than the target suggests a deletion sequence, while a +16 Da peak suggests methionine oxidation.
+<p>LC-MS combines HPLC separation (for purity assessment) with mass spectrometry (for molecular weight confirmation) in a single analytical run. The UV chromatogram at 214 nm provides purity data, while the MS total ion chromatogram and extracted mass spectra confirm the identity of each peak. LC-MS can identify the nature of impurities — for example, a peak 28 Da lighter than the target suggests a deletion sequence, while a +16 Da peak suggests methionine oxidation.</p>
 </details>
   </div>
 </div>

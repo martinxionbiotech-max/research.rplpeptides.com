@@ -114,22 +114,22 @@ For research planning support, the [RPL Peptides Research Tools](https://tool.rp
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>What does DRI stand for in FOXO4-DRI?</summary>
-DRI stands for D-Retro-Inverso, a peptide modification strategy in which the peptide is synthesized using D-amino acids (the mirror-image stereoisomers of natural L-amino acids) in the reverse sequence order. This configuration produces a peptide that is resistant to proteolytic degradation while maintaining the side-chain topology required for target binding.
+<p>DRI stands for D-Retro-Inverso, a peptide modification strategy in which the peptide is synthesized using D-amino acids (the mirror-image stereoisomers of natural L-amino acids) in the reverse sequence order. This configuration produces a peptide that is resistant to proteolytic degradation while maintaining the side-chain topology required for target binding.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What was the key finding of the original FOXO4-DRI study?</summary>
-The landmark 2017 study by Baar et al. published in Nature Medicine demonstrated that FOXO4-DRI could selectively eliminate senescent cells in vitro and in vivo. In aged mice, FOXO4-DRI treatment reduced markers of cellular senescence, improved physical function (measured by running wheel activity, grip strength, and other parameters), and ameliorated age-related renal dysfunction.
+<p>The landmark 2017 study by Baar et al. published in Nature Medicine demonstrated that FOXO4-DRI could selectively eliminate senescent cells in vitro and in vivo. In aged mice, FOXO4-DRI treatment reduced markers of cellular senescence, improved physical function (measured by running wheel activity, grip strength, and other parameters), and ameliorated age-related renal dysfunction.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Is FOXO4-DRI considered a senolytic agent?</summary>
-Yes, FOXO4-DRI is classified as a senolytic agent, meaning it selectively induces apoptosis in senescent cells. It is one of several senolytic compounds that have been studied in research contexts. Other well-known senolytics include the combination of dasatinib and quercetin (D+Q), navitoclax (ABT-263), and fisetin, each working through different molecular mechanisms.
+<p>Yes, FOXO4-DRI is classified as a senolytic agent, meaning it selectively induces apoptosis in senescent cells. It is one of several senolytic compounds that have been studied in research contexts. Other well-known senolytics include the combination of dasatinib and quercetin (D+Q), navitoclax (ABT-263), and fisetin, each working through different molecular mechanisms.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is the role of the cell-penetrating peptide in FOXO4-DRI?</summary>
-FOXO4-DRI includes a cell-penetrating peptide (CPP) sequence that facilitates transport across the cell membrane into the cytoplasm and nucleus, where its intracellular target (p53) is located. Without the CPP, the peptide would have poor cellular uptake due to its size and hydrophilicity. The CPP is typically derived from sequences such as HIV TAT or poly-arginine that have the ability to cross biological membranes.
+<p>FOXO4-DRI includes a cell-penetrating peptide (CPP) sequence that facilitates transport across the cell membrane into the cytoplasm and nucleus, where its intracellular target (p53) is located. Without the CPP, the peptide would have poor cellular uptake due to its size and hydrophilicity. The CPP is typically derived from sequences such as HIV TAT or poly-arginine that have the ability to cross biological membranes.</p>
 </details>
 <!-- References -->
 !!! info ""

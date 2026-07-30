@@ -97,27 +97,27 @@ Lyophilization of pooled pure fractions yields the final product as a fluffy, am
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>For most in vitro biological assays, >95% purity is sufficient.</summary>
-For most in vitro biological assays, >95% purity is sufficient. For in vivo studies, >98% is standard. For structural biology applications (NMR, X-ray crystallography), >99% may be required. Therapeutic peptides intended for clinical use require >99.5% purity with specific impurity profiling.
+<p>For most in vitro biological assays, >95% purity is sufficient. For in vivo studies, >98% is standard. For structural biology applications (NMR, X-ray crystallography), >99% may be required. Therapeutic peptides intended for clinical use require >99.5% purity with specific impurity profiling.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>C18 columns offer maximum retention and are suitable for most peptides (2–40 residues).</summary>
-C18 columns offer maximum retention and are suitable for most peptides (2–40 residues). C8 columns provide slightly less retention and may be preferred for moderately hydrophobic peptides where C18 retention is excessive. C4 columns are used for very hydrophobic or long peptides (>40 residues) that bind too strongly to C18 phases.
+<p>C18 columns offer maximum retention and are suitable for most peptides (2–40 residues). C8 columns provide slightly less retention and may be preferred for moderately hydrophobic peptides where C18 retention is excessive. C4 columns are used for very hydrophobic or long peptides (>40 residues) that bind too strongly to C18 phases.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>For some applications, alternative methods such as preparative thin-layer chromatography, flash chromatography, or pH-controlled precipitation may suffice, though resolution is generally inferior to HPLC.</summary>
-For some applications, alternative methods such as preparative thin-layer chromatography, flash chromatography, or pH-controlled precipitation may suffice, though resolution is generally inferior to HPLC. Dialysis or centrifugal filtration can remove small-molecule impurities. For high-purity requirements (>90%), HPLC remains the gold standard.
+<p>For some applications, alternative methods such as preparative thin-layer chromatography, flash chromatography, or pH-controlled precipitation may suffice, though resolution is generally inferior to HPLC. Dialysis or centrifugal filtration can remove small-molecule impurities. For high-purity requirements (>90%), HPLC remains the gold standard.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Analytical RP-HPLC at 214 nm (amide bond absorbance) is the primary method, typically using a shallower gradient than the preparative method.</summary>
-Analytical RP-HPLC at 214 nm (amide bond absorbance) is the primary method, typically using a shallower gradient than the preparative method. Mass spectrometry confirms molecular identity. Amino acid analysis provides quantitative composition verification. For comprehensive characterization, additional methods include capillary electrophoresis (CE), NMR spectroscopy, and circular dichroism (CD). See our <a href="/research/peptide-chemistry/analytical-characterization/">Analytical Characterization</a> article for details.
+<p>Analytical RP-HPLC at 214 nm (amide bond absorbance) is the primary method, typically using a shallower gradient than the preparative method. Mass spectrometry confirms molecular identity. Amino acid analysis provides quantitative composition verification. For comprehensive characterization, additional methods include capillary electrophoresis (CE), NMR spectroscopy, and circular dichroism (CD). See our <a href="/research/peptide-chemistry/analytical-characterization/">Analytical Characterization</a> article for details.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Analytical HPLC uses small-diameter columns (2.</summary>
-Analytical HPLC uses small-diameter columns (2.1–4.6 mm ID) with 3–5 µm particles for high-resolution analysis of microgram quantities. Preparative HPLC uses larger columns (10–50+ mm ID) with 5–10 µm particles to separate milligram-to-gram quantities. Preparative columns sacrifice some theoretical plates for higher loading capacity. Method development is first performed analytically, then scaled up to preparative dimensions using flow rate and gradient volume scaling factors.
+<p>Analytical HPLC uses small-diameter columns (2.1–4.6 mm ID) with 3–5 µm particles for high-resolution analysis of microgram quantities. Preparative HPLC uses larger columns (10–50+ mm ID) with 5–10 µm particles to separate milligram-to-gram quantities. Preparative columns sacrifice some theoretical plates for higher loading capacity. Method development is first performed analytically, then scaled up to preparative dimensions using flow rate and gradient volume scaling factors.</p>
 </details>
   </div>
 </div>

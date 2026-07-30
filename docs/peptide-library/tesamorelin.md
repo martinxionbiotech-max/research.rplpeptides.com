@@ -95,37 +95,37 @@ Contemporary research on tesamorelin extends beyond HIV-associated lipodystrophy
 
 <details class="faq-item">
 <summary>What distinguishes tesamorelin from endogenous GHRH?</summary>
-Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.
+<p>Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.</p>
 </details>
 
 <details class="faq-item">
 <summary>Is tesamorelin a growth hormone secretagogue?</summary>
-Yes, tesamorelin acts as a growth hormone secretagogue through stimulation of the GHRH receptor. However, unlike ghrelin mimetics (e.g., ipamorelin) that act on the GHS-R1a receptor, tesamorelin directly mimics the action of endogenous GHRH by binding to the GHRHR on pituitary somatotroph cells.
+<p>Yes, tesamorelin acts as a growth hormone secretagogue through stimulation of the GHRH receptor. However, unlike ghrelin mimetics (e.g., ipamorelin) that act on the GHS-R1a receptor, tesamorelin directly mimics the action of endogenous GHRH by binding to the GHRHR on pituitary somatotroph cells.</p>
 </details>
 
 <details class="faq-item">
 <summary>What is the regulatory status of tesamorelin?</summary>
-Tesamorelin (Egrifta) is FDA-approved for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy. It has also received marketing authorization in Canada. It remains an investigational compound for other indications.
+<p>Tesamorelin (Egrifta) is FDA-approved for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy. It has also received marketing authorization in Canada. It remains an investigational compound for other indications.</p>
 </details>
 
 <details class="faq-item">
 <summary>Does tesamorelin affect blood glucose levels?</summary>
-Clinical studies indicate that tesamorelin does not adversely affect glycemic control. Some evidence points to modest improvements in insulin sensitivity, likely due to GH-induced lipolysis and reduction of visceral adiposity. However, GH can induce transient insulin resistance, and glucose monitoring remains standard in clinical trials.
+<p>Clinical studies indicate that tesamorelin does not adversely affect glycemic control. Some evidence points to modest improvements in insulin sensitivity, likely due to GH-induced lipolysis and reduction of visceral adiposity. However, GH can induce transient insulin resistance, and glucose monitoring remains standard in clinical trials.</p>
 </details>
 
 <details class="faq-item">
 <summary>What are the most common adverse events associated with tesamorelin?</summary>
-The most frequently reported adverse events in clinical trials include injection-site reactions (erythema, pruritus), arthralgias, myalgias, and peripheral edema. These are generally mild to moderate and are consistent with the known effects of GH axis stimulation.
+<p>The most frequently reported adverse events in clinical trials include injection-site reactions (erythema, pruritus), arthralgias, myalgias, and peripheral edema. These are generally mild to moderate and are consistent with the known effects of GH axis stimulation.</p>
 </details>
 
 <details class="faq-item">
 <summary>Can tesamorelin be administered orally?</summary>
-No. Like most peptides of its size, tesamorelin undergoes rapid proteolytic degradation in the gastrointestinal tract and has negligible oral bioavailability. It is formulated exclusively for subcutaneous injection.
+<p>No. Like most peptides of its size, tesamorelin undergoes rapid proteolytic degradation in the gastrointestinal tract and has negligible oral bioavailability. It is formulated exclusively for subcutaneous injection.</p>
 </details>
 
 <details class="faq-item">
 <summary>How does tesamorelin compare with systemic GH therapy?</summary>
-Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimulating the pituitary's natural feedback mechanisms, whereas exogenous GH administration delivers supraphysiological, non-pulsatile GH levels. The pulsatile profile achieved with tesamorelin may offer a more physiologic approach with a potentially more favorable safety profile.
+<p>Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimulating the pituitary's natural feedback mechanisms, whereas exogenous GH administration delivers supraphysiological, non-pulsatile GH levels. The pulsatile profile achieved with tesamorelin may offer a more physiologic approach with a potentially more favorable safety profile.</p>
 </details>
 
 <!-- References -->

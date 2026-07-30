@@ -119,22 +119,22 @@ For research planning and experimental design support, the [RPL Peptides Researc
 ## Frequently Asked Questions
 <details class="faq-item">
 <summary>What is the relationship between Epithalon and epithalamin?</summary>
-Epithalamin is a peptide complex originally isolated from the bovine pineal gland by Russian researchers. Epithalon (AEDG) is a synthetic tetrapeptide representing the minimal active fragment of epithalamin. The tetrapeptide was developed to provide a chemically defined, reproducible molecule that retains the biological activities of the parent complex.
+<p>Epithalamin is a peptide complex originally isolated from the bovine pineal gland by Russian researchers. Epithalon (AEDG) is a synthetic tetrapeptide representing the minimal active fragment of epithalamin. The tetrapeptide was developed to provide a chemically defined, reproducible molecule that retains the biological activities of the parent complex.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Has Epithalon been studied in human clinical trials?</summary>
-Epithalon has been studied in clinical settings primarily in Russia and Eastern Europe. Studies have reported effects on immune function, endocrine parameters, and measures of biological age in human subjects. However, these studies have generally been small in scale and do not meet the rigorous standards of randomized controlled trials required for regulatory approval in Western jurisdictions.
+<p>Epithalon has been studied in clinical settings primarily in Russia and Eastern Europe. Studies have reported effects on immune function, endocrine parameters, and measures of biological age in human subjects. However, these studies have generally been small in scale and do not meet the rigorous standards of randomized controlled trials required for regulatory approval in Western jurisdictions.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>What is the significance of the AEDG sequence?</summary>
-The AEDG sequence (alanine-glutamic acid-aspartic acid-glycine) was identified as the minimal active fragment of the epithalamin peptide complex. Structure-activity studies determined that this tetrapeptide sequence retains the biological activity of the larger parent molecule. The C-terminal glycine residue appears to be particularly important for biological activity.
+<p>The AEDG sequence (alanine-glutamic acid-aspartic acid-glycine) was identified as the minimal active fragment of the epithalamin peptide complex. Structure-activity studies determined that this tetrapeptide sequence retains the biological activity of the larger parent molecule. The C-terminal glycine residue appears to be particularly important for biological activity.</p>
 </details>
   </div>
 <details class="faq-item">
 <summary>Does Epithalon affect immune function?</summary>
-Some research has suggested that Epithalon may have immunomodulatory effects. Studies in animal models have reported changes in T-cell数量和功能 after Epithalon treatment, particularly in aged animals. These immune effects may be secondary to the peptide's effects on the neuroendocrine axis, given the close relationship between the pineal gland and the immune system.
+<p>Some research has suggested that Epithalon may have immunomodulatory effects. Studies in animal models have reported changes in T-cell数量和功能 after Epithalon treatment, particularly in aged animals. These immune effects may be secondary to the peptide's effects on the neuroendocrine axis, given the close relationship between the pineal gland and the immune system.</p>
 </details>
 <!-- References -->
 !!! info ""

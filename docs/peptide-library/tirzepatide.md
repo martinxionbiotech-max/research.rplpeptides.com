@@ -98,43 +98,43 @@ Future applications may include prediabetes, metabolic syndrome, and combination
 <div class="faq-section">
 <details class="faq-item">
 <summary>What makes tirzepatide different from selective GLP-1 receptor agonists?</summary>
-Tirzepatide simultaneously activates both GIP and GLP-1 receptors, whereas selective GLP-1 receptor agonists (such as semaglutide) activate only GLP-1R. The addition of GIPR agonism is hypothesized to provide complementary metabolic benefits, including improved lipid metabolism and enhanced insulin sensitivity, while potentially mitigating GLP-1-related gastrointestinal adverse effects.
+<p>Tirzepatide simultaneously activates both GIP and GLP-1 receptors, whereas selective GLP-1 receptor agonists (such as semaglutide) activate only GLP-1R. The addition of GIPR agonism is hypothesized to provide complementary metabolic benefits, including improved lipid metabolism and enhanced insulin sensitivity, while potentially mitigating GLP-1-related gastrointestinal adverse effects.</p>
 </details>
 <details class="faq-item">
 <summary>What is tirzepatide's molecular structure?</summary>
-Tirzepatide is a 39-amino acid peptide based on a modified GIP backbone with multiple amino acid substitutions optimized for balanced GIPR and GLP-1R activity. It includes a C20 fatty diacid moiety at lysine 20 for albumin binding, extending its half-life to approximately 5 days.
+<p>Tirzepatide is a 39-amino acid peptide based on a modified GIP backbone with multiple amino acid substitutions optimized for balanced GIPR and GLP-1R activity. It includes a C20 fatty diacid moiety at lysine 20 for albumin binding, extending its half-life to approximately 5 days.</p>
 </details>
 <details class="faq-item">
 <summary>How does tirzepatide compare to semaglutide for glycemic control?</summary>
-In the SURPASS-2 head-to-head trial, all doses of tirzepatide (5, 10, 15 mg weekly) demonstrated superior HbA1c reduction compared to semaglutide 1.0 mg weekly, with the highest tirzepatide dose achieving a mean HbA1c reduction of 2.37% versus 1.86% for semaglutide.
+<p>In the SURPASS-2 head-to-head trial, all doses of tirzepatide (5, 10, 15 mg weekly) demonstrated superior HbA1c reduction compared to semaglutide 1.0 mg weekly, with the highest tirzepatide dose achieving a mean HbA1c reduction of 2.37% versus 1.86% for semaglutide.</p>
 </details>
 <details class="faq-item">
 <summary>What weight reductions have been observed with tirzepatide?</summary>
-In SURMOUNT-1, tirzepatide produced mean body weight reductions of 15.0% (5 mg), 19.5% (10 mg), and 20.9% (15 mg) compared to 3.1% with placebo. Subsequent analyses of the 15 mg group showed up to 22.5% mean weight reduction at 72 weeks.
+<p>In SURMOUNT-1, tirzepatide produced mean body weight reductions of 15.0% (5 mg), 19.5% (10 mg), and 20.9% (15 mg) compared to 3.1% with placebo. Subsequent analyses of the 15 mg group showed up to 22.5% mean weight reduction at 72 weeks.</p>
 </details>
 <details class="faq-item">
 <summary>Why include GIP agonism if GIP resistance was reported in diabetes?</summary>
-The concept of "GIP resistance" in type 2 diabetes described reduced insulinotropic response to physiological GIP levels. However, pharmacological levels of GIP agonism, especially in combination with GLP-1R activation, appear to overcome this resistance and provide distinct metabolic benefits, including improved lipid metabolism and adipose tissue function.
+<p>The concept of "GIP resistance" in type 2 diabetes described reduced insulinotropic response to physiological GIP levels. However, pharmacological levels of GIP agonism, especially in combination with GLP-1R activation, appear to overcome this resistance and provide distinct metabolic benefits, including improved lipid metabolism and adipose tissue function.</p>
 </details>
 <details class="faq-item">
 <summary>Does tirzepatide have cardiovascular benefits?</summary>
-The SURPASS-4 trial demonstrated a favorable cardiovascular safety profile, with a trend toward reduced major adverse cardiovascular events. The dedicated SURPASS-CVOT cardiovascular outcomes trial is ongoing to definitively evaluate cardiovascular efficacy.
+<p>The SURPASS-4 trial demonstrated a favorable cardiovascular safety profile, with a trend toward reduced major adverse cardiovascular events. The dedicated SURPASS-CVOT cardiovascular outcomes trial is ongoing to definitively evaluate cardiovascular efficacy.</p>
 </details>
 <details class="faq-item">
 <summary>What are the primary adverse events?</summary>
-Gastrointestinal adverse events, including nausea, diarrhea, vomiting, and decreased appetite, are the most commonly reported. Notably, the rates of gastrointestinal adverse events with tirzepatide are comparable to or lower than those observed with selective GLP-1R agonists at equivalent levels of GLP-1R activation, potentially reflecting a GIP-mediated tolerability benefit.
+<p>Gastrointestinal adverse events, including nausea, diarrhea, vomiting, and decreased appetite, are the most commonly reported. Notably, the rates of gastrointestinal adverse events with tirzepatide are comparable to or lower than those observed with selective GLP-1R agonists at equivalent levels of GLP-1R activation, potentially reflecting a GIP-mediated tolerability benefit.</p>
 </details>
 <details class="faq-item">
 <summary>Is tirzepatide being studied for NASH?</summary>
-Yes. GIPR activation is hypothesized to influence hepatic lipid metabolism and insulin sensitivity. Clinical trials are evaluating tirzepatide for non-alcoholic steatohepatitis, with the SYNERGY-NASH program assessing effects on liver histology, hepatic steatosis, and fibrosis.
+<p>Yes. GIPR activation is hypothesized to influence hepatic lipid metabolism and insulin sensitivity. Clinical trials are evaluating tirzepatide for non-alcoholic steatohepatitis, with the SYNERGY-NASH program assessing effects on liver histology, hepatic steatosis, and fibrosis.</p>
 </details>
 <details class="faq-item">
 <summary>How does the dosing schedule work?</summary>
-Tirzepatide is initiated at 2.5 mg once weekly for 4 weeks, then escalated to 5 mg. Further escalation to 10 mg or 15 mg is guided by therapeutic response and tolerability, with dose increases occurring at 4-week intervals. The dose-escalation schedule is designed to minimize gastrointestinal adverse effects.
+<p>Tirzepatide is initiated at 2.5 mg once weekly for 4 weeks, then escalated to 5 mg. Further escalation to 10 mg or 15 mg is guided by therapeutic response and tolerability, with dose increases occurring at 4-week intervals. The dose-escalation schedule is designed to minimize gastrointestinal adverse effects.</p>
 </details>
 <details class="faq-item">
 <summary>What are the limitations of tirzepatide research?</summary>
-Current limitations include the absence of completed long-term cardiovascular outcome data, limited data on effects in diverse global populations, uncertainty about optimal treatment duration, and the need for studies on weight regain and metabolic changes upon treatment cessation. The relative contributions of GIPR versus GLP-1R activation to the overall clinical effects also require further mechanistic elucidation.
+<p>Current limitations include the absence of completed long-term cardiovascular outcome data, limited data on effects in diverse global populations, uncertainty about optimal treatment duration, and the need for studies on weight regain and metabolic changes upon treatment cessation. The relative contributions of GIPR versus GLP-1R activation to the overall clinical effects also require further mechanistic elucidation.</p>
 </details>
 </div>
 
