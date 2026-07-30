@@ -56,13 +56,13 @@ The mild, non-acidic deprotection conditions make Fmoc chemistry the preferred a
 
 ### The SPPS Cycle
 Each cycle of amino acid addition consists of four steps:
-<ol class="references">
+<ol class="spps-steps">
 
 
-  <li id="ref1">*<em>Deprotection:</em>* Removal of the N^α^-protecting group from the resin-bound peptide (e.g., 20% piperidine/DMF for Fmoc).</li>
-  <li id="ref2">*<em>Washing:</em>* Thorough rinsing with DMF (or other solvent) to remove deprotection byproducts.</li>
-  <li id="ref3">*<em>Coupling:</em>* Activation of the incoming Fmoc-amino acid (using carbodiimide/HOBt or onium salt reagents) followed by reaction with the free N-terminal amine.</li>
-  <li id="ref4">*<em>Washing:</em>* Removal of excess reagents and byproducts before the next deprotection step.</li>
+  <li id="step1">*<em>Deprotection:</em>* Removal of the N^α^-protecting group from the resin-bound peptide (e.g., 20% piperidine/DMF for Fmoc).</li>
+  <li id="step2">*<em>Washing:</em>* Thorough rinsing with DMF (or other solvent) to remove deprotection byproducts.</li>
+  <li id="step3">*<em>Coupling:</em>* Activation of the incoming Fmoc-amino acid (using carbodiimide/HOBt or onium salt reagents) followed by reaction with the free N-terminal amine.</li>
+  <li id="step4">*<em>Washing:</em>* Removal of excess reagents and byproducts before the next deprotection step.</li>
 
 
 </ol>
@@ -145,16 +145,16 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 ## References
 <ol class="references">
-    <li id="ref"ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
-    <li id="ref"ref2">Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
-    <li id="ref"ref3">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. <a href="https://doi.org/10.1111%2Fj.1399-3011.1990.tb00939.x">doi:10.1111/j.1399-3011.1990.tb00939.x</a></li>
-    <li id="ref"ref4">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. <a href="https://doi.org/10.1016%2FS0040-4039%2801%2980695-4">doi:10.1016/S0040-4039(01)80695-4</a></li>
-    <li id="ref"ref5">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. <a href="https://doi.org/10.1002%2Fpsc.804">doi:10.1002/psc.804</a></li>
-    <li id="ref"ref6">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
-    <li id="ref"ref7">Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. <a href="https://doi.org/10.1016%2FS0076-6879%2897%2989043-X">doi:10.1016/S0076-6879(97)89043-X</a></li>
-    <li id="ref"ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
-    <li id="ref"ref9">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. <a href="https://doi.org/10.1039%2FC1CS15214A">doi:10.1039/C1CS15214A</a></li>
-    <li id="ref"ref10">Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. <a href="https://doi.org/10.1002%2F0471140864.ps1801s69">doi:10.1002/0471140864.ps1801s69</a></li>
+    <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+    <li id="ref2">Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
+    <li id="ref3">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. <a href="https://doi.org/10.1111%2Fj.1399-3011.1990.tb00939.x">doi:10.1111/j.1399-3011.1990.tb00939.x</a></li>
+    <li id="ref4">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. <a href="https://doi.org/10.1016%2FS0040-4039%2801%2980695-4">doi:10.1016/S0040-4039(01)80695-4</a></li>
+    <li id="ref5">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. <a href="https://doi.org/10.1002%2Fpsc.804">doi:10.1002/psc.804</a></li>
+    <li id="ref6">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
+    <li id="ref7">Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. <a href="https://doi.org/10.1016%2FS0076-6879%2897%2989043-X">doi:10.1016/S0076-6879(97)89043-X</a></li>
+    <li id="ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
+    <li id="ref9">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. <a href="https://doi.org/10.1039%2FC1CS15214A">doi:10.1039/C1CS15214A</a></li>
+    <li id="ref10">Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. <a href="https://doi.org/10.1002%2F0471140864.ps1801s69">doi:10.1002/0471140864.ps1801s69</a></li>
 </ol>
 
 *This article is for educational and research information purposes only. Consult the primary literature for detailed protocols and current best practices.*
