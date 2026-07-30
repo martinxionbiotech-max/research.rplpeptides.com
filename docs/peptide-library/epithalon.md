@@ -71,9 +71,8 @@ The research landscape for Epithalon is characterized by a substantial body of w
 
 For research planning and experimental design support, the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides peptide calculators and utilities for researchers working with short peptides and bioregulators.
 
-<div class="info-box info">
-  <strong>Research Status:</strong> Epithalon is a research chemical and is not approved for clinical use by the FDA, EMA, or other major Western regulatory agencies. It has been used in clinical research settings in Russia and some Eastern European countries. All information is presented for educational and research informational purposes only.
-</div>
+!!! info ""
+    **Research Status:** Epithalon is a research chemical and is not approved for clinical use by the FDA, EMA, or other major Western regulatory agencies. It has been used in clinical research settings in Russia and some Eastern European countries. All information is presented for educational and research informational purposes only.
 
 <!-- FAQ -->
 ## Related Research
@@ -118,9 +117,8 @@ For research planning and experimental design support, the [RPL Peptides Researc
 
 <!-- About RPL Peptides -->
 <!-- References -->
-    <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References

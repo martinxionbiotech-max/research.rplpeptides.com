@@ -178,3 +178,29 @@ h2.doc-heading {
 .md-breadcrumb {
   font-size: 0.75rem;
 }
+
+/* Increase page width for better readability */
+.md-grid {
+  max-width: 90rem !important; /* 1440px, up from default 61rem (976px) */
+}
+
+.md-sidebar--primary {
+  width: 12rem !important;
+}
+
+.md-content__inner {
+  max-width: 100% !important;
+}
+
+.md-content {
+  max-width: 100% !important;
+}
+
+/* Ensure article content fills the wide space without right-column squeeze */
+.md-typeset {
+  max-width: 100% !important;
+}
+
+.md-typeset p, .md-typeset li, .md-typeset table, .md-typeset div {
+  max-width: 100%;
+}

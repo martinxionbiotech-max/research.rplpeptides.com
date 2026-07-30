@@ -68,9 +68,8 @@ The study of MOTS-c has evolved into an active field of mitochondrial peptide bi
 
 The mitochondrial-derived peptide field continues to expand, with several related peptides (SHLPs, Humanin, MT-RNR2-like peptides) also identified. MOTS-c remains one of the most extensively characterized members of this family and serves as a model for understanding how mitochondrial-encoded peptides can function as inter-organelle and inter-tissue signaling molecules.
 
-<div class="info-box info">
-  <strong>Research Status:</strong> MOTS-c is a research chemical and is not approved for clinical use by the FDA, EMA, or other regulatory agencies. All information presented is based on published scientific literature for educational and research informational purposes.
-</div>
+!!! info ""
+    **Research Status:** MOTS-c is a research chemical and is not approved for clinical use by the FDA, EMA, or other regulatory agencies. All information presented is based on published scientific literature for educational and research informational purposes.
 
 <!-- FAQ -->
 ## Related Research
@@ -114,9 +113,8 @@ The mitochondrial-derived peptide field continues to expand, with several relate
 </div>
 
 <!-- References -->
-    <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References

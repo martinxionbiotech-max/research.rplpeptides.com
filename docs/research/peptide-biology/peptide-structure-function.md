@@ -5,18 +5,18 @@ description: "An in-depth examination of the relationship between peptide primar
 
 # Peptide Structure and Function
 
-<section id="executive-summary">
+
 ## Executive Summary
 The biological function of a peptide is inextricably linked to its three-dimensional structure, which is itself determined by its amino acid sequence. Peptide structure is described across four hierarchical levels: primary (amino acid sequence), secondary (local folding into alpha-helices, beta-sheets, and turns), tertiary (global three-dimensional conformation stabilized by disulfide bonds, hydrogen bonding, and hydrophobic interactions), and quaternary (multimeric assembly). Even minor structural modifications — a single amino acid substitution or a change in stereochemistry — can profoundly alter biological activity. Understanding structure-function relationships is fundamental to rational peptide design and therapeutic development.
-</section>
 
-<section id="background">
+
+
 ## Background
 Our understanding of peptide structure-function relationships emerged from pioneering work in protein chemistry during the mid-20th century. Linus Pauling and Robert Corey established the principles of peptide bond planarity and proposed the alpha-helix and beta-sheet as fundamental secondary structural elements in 1951, work for which Pauling received the Nobel Prize in Chemistry in 1954. John Kendrew and Max Perutz subsequently solved the first three-dimensional structures of globular proteins using X-ray crystallography, revealing how sequence dictates folding.
 The specific application of these principles to smaller peptides was pioneered by researchers studying peptide hormones and neuropeptides. The recognition that short peptide sequences — often fewer than 40 amino acids — could adopt well-defined conformations in solution challenged the prevailing notion that only large proteins possessed stable tertiary structure. This insight opened the door to understanding how small peptides achieve the specificity and potency observed in biological signaling systems.
-</section>
 
-<section id="scientific-explanation">
+
+
 ## Scientific Explanation
 
 ### Primary Structure
@@ -38,9 +38,9 @@ Disulfide bridges are particularly important structural elements in peptides. Th
 Some peptides assemble into **quaternary structures** — multimeric complexes of two or more peptide chains. Insulin exists as a hexamer in the presence of zinc ions, a storage form that stabilizes the hormone in pancreatic beta-cells. Many antimicrobial peptides oligomerize in membranes to form pores or channels.
 
 [Continue reading about peptide classification →](/research/peptide-biology/peptide-classification)
-</section>
 
-<section id="mechanism">
+
+
 ## Mechanism — Structure-Activity Relationships
 The relationship between peptide structure and function is governed by several key biophysical principles:
 
@@ -57,9 +57,9 @@ Cyclization — either backbone cyclization (head-to-tail) or side-chain cycliza
 Many peptides are intrinsically disordered in solution and fold only upon binding to their target — a mechanism termed **induced fit**. This conformational flexibility allows a single peptide to potentially interact with multiple receptors, a property exploited in multi-receptor agonist design for metabolic research.
 
 [Explore peptide signaling pathways →](/research/peptide-biology/peptide-signaling-pathways)
-</section>
 
-<section id="research-evidence">
+
+
 ## Research Evidence
 Key experimental evidence for structure-function relationships in peptides includes:
 
@@ -99,16 +99,16 @@ Key experimental evidence for structure-function relationships in peptides inclu
   </tr>
 </tbody>
   </table>
-</section>
 
-<section id="current-understanding">
+
+
 ## Current Understanding
 Contemporary research has moved beyond descriptive structure-function analysis to predictive and design-oriented approaches. Advances in NMR spectroscopy, particularly isotope-labeled peptide studies and residual dipolar coupling measurements, now allow detailed characterization of peptide conformational ensembles in solution. Cryo-electron microscopy has enabled the determination of peptide-receptor complex structures at near-atomic resolution, revealing the molecular details of peptide recognition and signaling. For researchers seeking detailed structural and molecular data on specific peptides, the [RPL Peptides Data Center](https://data.rplpeptides.com) provides comprehensive analytical documentation including spectral analyses and characterization reports.
 A major current insight is that many peptide receptors exhibit significant conformational plasticity, with the receptor itself undergoing structural rearrangements upon peptide binding. This "dynamic duo" concept — where both the peptide and its receptor are conformationally adaptable — explains the subtle selectivity patterns observed across peptide families and receptor subtypes. Researchers exploring peptide structure-function relationships can find high-purity peptide compounds for laboratory studies through [RPL Peptides](https://rplpeptides.com), which provides certified research materials with comprehensive analytical documentation.
 The integration of computational methods, including molecular dynamics simulations and free energy perturbation calculations, now enables researchers to predict how specific sequence modifications will alter peptide conformation, stability, and receptor affinity — accelerating the design of next-generation peptide therapeutics.
-</section>
 
-<section id="future-research">
+
+
 ## Future Research Directions
   - **Stapled peptides:** Hydrocarbon "stapling" — cross-linking two amino acid side chains — locks peptides into their bioactive helical conformation, dramatically improving stability, cell penetration, and potency. This approach is being actively pursued for targeting intracellular protein-protein interactions.
 - **D-peptides and retro-inverso peptides:** Peptides composed of D-amino acids or with reversed sequences exhibit enhanced proteolytic stability while maintaining biological activity when properly designed, offering a promising strategy for oral peptide development.
@@ -116,9 +116,9 @@ The integration of computational methods, including molecular dynamics simulatio
 - **Machine learning-guided design:** Deep learning models trained on large peptide structure-activity datasets are increasingly capable of predicting optimal sequences for desired structural and functional properties.
 - **Structural analysis tools:** The [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides researchers with peptide calculators and utilities to support structure-activity analysis and experimental design.
 
-</section>
 
-<section id="faq">
+
+
 ## Related Research
 <div class="card-grid card-grid-3">
   <a href="/research/peptide-biology/what-are-peptides/" class="card"><h3>What Are Peptides?</h3>Foundational overview of peptides as biological molecules.</p></a>
@@ -218,15 +218,14 @@ Beta-turns are reverse-turn structures where the peptide backbone folds back app
 Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides with multiple disulfide bonds) are highly rigid, which can confer pre-organization for receptor binding but also limited adaptability. Other peptides are highly flexible and fold only upon binding (induced fit), allowing a single sequence to potentially bind multiple targets. Optimal flexibility is context-dependent; therapeutic peptides often balance pre-organization for affinity with conformational adaptability for target engagement.
 </div>
   </div>
-</section>
 
-<section id="about-rpl">
-  </section>
 
-<section id="references">
-  <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+
+  
+
+
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
@@ -246,4 +245,4 @@ Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides w
   13. Wüthrich, K. (1989). Protein structure determination in solution by nuclear magnetic resonance spectroscopy. *Science*, 243(4887), 45–50. [https://doi.org/10.1126/science.2911719](https://doi.org/10.1126/science.2911719)
   14. Kabsch, W., &amp; Sander, C. (1983). Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. *Biopolymers*, 22(12), 2577–2637. [https://doi.org/10.1002/bip.360221211](https://doi.org/10.1002/bip.360221211)
 </ol>
-</section>
+

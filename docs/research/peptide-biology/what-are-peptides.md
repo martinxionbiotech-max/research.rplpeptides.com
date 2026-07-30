@@ -5,26 +5,26 @@ description: "A comprehensive scientific overview of peptides — short chains o
 
 # What Are Peptides?
 
-<section id="executive-summary">
+
 ## Executive Summary
 Peptides are short chains of amino acids linked by peptide bonds, typically ranging from 2 to approximately 50 residues in length. They function as signaling molecules, hormones, neurotransmitters, antimicrobial agents, and structural components in virtually all biological systems. Unlike larger proteins, their smaller size confers unique pharmacological advantages including higher tissue penetration, lower immunogenicity, and greater synthetic accessibility. Over 80 peptide drugs have received market approval, and hundreds more are in clinical development, reflecting the growing recognition of peptides as a versatile therapeutic modality.
-</section>
 
-<section id="background">
+
+
 ## Background
 The study of peptides dates back to the early 20th century when Emil Fischer first demonstrated that amino acids could be linked through peptide bonds to form chains. The conceptual framework for peptide chemistry was established through Fischer's "lock and key" hypothesis of enzyme-substrate interaction, for which he received the Nobel Prize in Chemistry in 1902. The modern era of peptide research began with Vincent du Vigneaud's synthesis of oxytocin, a nonapeptide hormone, in 1953 — a landmark achievement that earned him the Nobel Prize. Shortly thereafter, Bruce Merrifield developed solid-phase peptide synthesis (SPPS) in 1963, revolutionizing the field by enabling automated peptide production and making peptide research accessible to laboratories worldwide.
 Peptides occupy a molecular niche between small molecules and larger proteins. This intermediate position endows them with unique properties: they are large enough to engage protein-protein interfaces with high specificity yet small enough to be synthetically tractable and often orally bioavailable with formulation optimization. The human genome encodes thousands of bioactive peptides, including over 100 peptide hormones, hundreds of neuropeptides, and numerous antimicrobial peptides that constitute the innate immune system's first line of defense against pathogens.
-</section>
 
-<section id="scientific-explanation">
+
+
 ## Scientific Explanation
 Peptides are defined by their length. While no rigid boundary exists, peptides are generally classified as short chains of amino acids containing fewer than 50 residues. Oligopeptides contain 2–20 amino acids, while polypeptides range from 20–50 residues. Chains exceeding 50 amino acids are conventionally considered proteins. The distinction is practical rather than fundamental — many biologically active molecules cross these boundaries.
 The fundamental chemistry of peptides centers on the **peptide bond**, an amide linkage formed between the carboxyl group of one amino acid and the amino group of another through a condensation reaction. This bond exhibits partial double-bond character due to resonance stabilization, rendering it planar and restricting rotation. The resulting backbone rigidity influences peptide folding and secondary structure formation, including alpha-helices, beta-sheets, and turns.
 Each peptide chain has directionality: an N-terminus (free amino group) and a C-terminus (free carboxyl group). By convention, sequences are written from N-terminus to C-terminus. The amino acid sequence — known as the **primary structure** — dictates the peptide's three-dimensional conformation and, ultimately, its biological function. Even single amino acid substitutions can dramatically alter activity, as exemplified by the difference between oxytocin and vasopressin, two nonapeptides that differ by only two residues yet mediate entirely distinct physiological functions.
 [Learn more about peptide structure and function →](/research/peptide-biology/peptide-structure-function)
-</section>
 
-<section id="mechanism">
+
+
 ## Mechanism — Biological and Molecular Functions of Peptides
 Peptides exert biological effects through several fundamental mechanisms:
 ### Receptor-Mediated Signaling
@@ -36,9 +36,9 @@ Several naturally occurring peptides function as enzyme inhibitors. For example,
 ### Carrier and Transport Functions
 Certain peptides facilitate the transport of ions, metals, or other molecules across biological membranes. Glutathione (a tripeptide of glutamate, cysteine, and glycine) serves as a critical antioxidant and detoxification agent, while metallothioneins — cysteine-rich peptides — chelate heavy metals and regulate zinc homeostasis.
 [Explore peptide signaling pathways in detail →](/research/peptide-biology/peptide-signaling-pathways)
-</section>
 
-<section id="research-evidence">
+
+
 ## Research Evidence
 The scientific literature on peptides is extensive and spans multiple disciplines. Key areas of evidence include:
   <table>
@@ -72,15 +72,15 @@ The scientific literature on peptides is extensive and spans multiple discipline
   </tr>
 </tbody>
   </table>
-</section>
 
-<section id="current-understanding">
+
+
 ## Current Understanding
 Contemporary peptide research has moved beyond simple descriptive biology to encompass mechanistic understanding at atomic resolution. Advances in structural biology — particularly cryo-electron microscopy and NMR spectroscopy — have elucidated the three-dimensional structures of numerous peptide-receptor complexes, providing a molecular basis for rational drug design. The current scientific consensus recognizes peptides as critical mediators of intercellular communication, innate immunity, and metabolic regulation. For researchers requiring comprehensive molecular characterization data for their peptide studies, the [RPL Peptides Data Center](https://data.rplpeptides.com) provides detailed analytical documentation including HPLC chromatograms, mass spectra, and certificate of analysis (COA) information.
 The pharmaceutical landscape has shifted significantly in favor of peptides. Between 2015 and 2025, peptide-based therapeutics have grown at a compound annual growth rate exceeding 10%, driven by advances in delivery technologies, half-life extension strategies, and manufacturing scalability. Peptides now represent a $50+ billion market, with applications spanning metabolic disease, oncology, infectious disease, and rare genetic disorders. For researchers investigating specific peptide candidates, the [RPL Peptides product catalog](https://rplpeptides.com) offers a range of high-purity research-grade peptides with detailed analytical documentation.
-</section>
 
-<section id="future-research">
+
+
 ## Future Research Directions
   - **Oral peptide delivery:** Overcoming gastrointestinal barriers through formulation innovations (permeation enhancers, enzyme inhibitors, nanoparticle encapsulation) remains the central challenge in peptide therapeutics.
 - **Multifunctional peptides:** Designing single peptide molecules that engage multiple receptors simultaneously — exemplified by the dual GIP/GLP-1 and triple receptor agonists — represents a frontier in metabolic research.
@@ -90,9 +90,9 @@ The pharmaceutical landscape has shifted significantly in favor of peptides. Bet
 - **Research tools and calculations:** Researchers can access peptide research calculators, including reconstitution calculators and dosage estimation tools, at the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform to support experimental planning and data analysis.
 
 [Continue reading about peptide classification →](/research/peptide-biology/peptide-classification)
-</section>
 
-<section id="faq">
+
+
 ## Related Research
 <div class="card-grid card-grid-3">
   <a href="/research/peptide-biology/peptide-structure-function/" class="card"><h3>Peptide Structure and Function</h3>How amino acid sequence determines peptide conformation and biological activity.</p></a>
@@ -192,15 +192,14 @@ Most peptides do not readily cross the blood-brain barrier (BBB) due to their hy
 Peptide-based therapeutics began with insulin (1922), the first peptide drug. The field advanced through oxytocin synthesis (1953, du Vigneaud), SPPS development (1963, Merrifield), recombinant insulin production (1982), and the approval of the first peptide GPCR antagonist (2003). As of 2025, over 80 peptide drugs are approved, predominantly for metabolic, oncologic, and endocrine indications.
 </div>
   </div>
-</section>
 
-<section id="about-rpl">
-  </section>
 
-<section id="references">
-  <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+
+  
+
+
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
@@ -219,4 +218,4 @@ Peptide-based therapeutics began with insulin (1922), the first peptide drug. Th
   12. Boman, H. G. (2003). Antibacterial peptides: basic facts and emerging concepts. *Journal of Internal Medicine*, 254(3), 197–215. [https://doi.org/10.1046/j.1365-2796.2003.01228.x](https://doi.org/10.1046/j.1365-2796.2003.01228.x)
   13. Fields, G. B., &amp; Noble, R. L. (1990). Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. *International Journal of Peptide and Protein Research*, 35(3), 161–214. [https://doi.org/10.1111/j.1399-3011.1990.tb00939.x](https://doi.org/10.1111/j.1399-3011.1990.tb00939.x)
 </ol>
-</section>
+

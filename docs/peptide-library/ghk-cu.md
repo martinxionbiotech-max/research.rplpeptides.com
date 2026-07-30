@@ -72,9 +72,8 @@ Research on GHK-Cu continues to be active across multiple disciplines, reflectin
 
 For experimental planning and research support, the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides peptide calculators and utilities for researchers working with copper-binding peptides and tissue regeneration studies.
 
-<div class="info-box info">
-  <strong>Research Status:</strong> GHK-Cu is widely used in research as a model copper-binding peptide and is also available in some topical cosmetic preparations. It is not approved as a pharmaceutical drug by the FDA, EMA, or other regulatory agencies for therapeutic indications. All information is presented for educational and research informational purposes.
-</div>
+!!! info ""
+    **Research Status:** GHK-Cu is widely used in research as a model copper-binding peptide and is also available in some topical cosmetic preparations. It is not approved as a pharmaceutical drug by the FDA, EMA, or other regulatory agencies for therapeutic indications. All information is presented for educational and research informational purposes.
 
 <!-- FAQ -->
 ## Related Research
@@ -119,9 +118,8 @@ For experimental planning and research support, the [RPL Peptides Research Tools
 
 <!-- About RPL Peptides -->
 <!-- References -->
-    <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References

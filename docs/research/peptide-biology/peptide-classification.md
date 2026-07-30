@@ -5,18 +5,18 @@ description: "A comprehensive taxonomy of peptides classified by length, biologi
 
 # Peptide Classification
 
-<section id="executive-summary">
+
 ## Executive Summary
 Peptides constitute an extraordinarily diverse class of biomolecules that can be classified along multiple axes: by length (oligopeptides, polypeptides), by biological function (hormones, antimicrobials, neuropeptides, growth factors, cytokines, toxins), by structural features (linear, cyclic, disulfide-rich, amphipathic), by source (endogenous, exogenous, synthetic), and by biosynthesis mechanism (ribosomal, non-ribosomal, or proteolytic). Each classification system provides distinct insights into peptide biology and has practical implications for research and therapeutic development. Understanding these taxonomies is essential for navigating the vast landscape of known peptides, which now numbers tens of thousands of unique sequences.
-</section>
 
-<section id="background">
+
+
 ## Background
 The systematic classification of peptides has evolved in parallel with the discovery of new peptide families. Early classifications were based on biological source and function: researchers identified "hormones" from endocrine glands, "neurotransmitters" from neural tissue, and "toxins" from venoms. The development of high-throughput sequencing, mass spectrometry, and bioinformatics in the late 20th and early 21st centuries revealed the true scale of peptide diversity, prompting more systematic classification schemes.
 The discovery of ribosomally synthesized and post-translationally modified peptides (RiPPs) in bacteria, the identification of non-ribosomal peptide synthetase (NRPS) pathways producing bioactive peptides, and the characterization of the human peptidome through peptidomics approaches have all contributed to a richer classification framework. Modern peptide classification integrates structural, functional, biosynthetic, and evolutionary information to create a multidimensional taxonomy.
-</section>
 
-<section id="scientific-explanation">
+
+
 ## Scientific Explanation
 
 ### Classification by Length
@@ -90,17 +90,17 @@ Animal venoms are rich sources of structurally diverse peptides with high pharma
 **Proteolysis-derived peptides:** Some bioactive peptides are released from larger proteins through controlled proteolysis. The classic example is angiotensin II, produced from angiotensinogen through sequential cleavage by renin and ACE.
 
 [Read the foundational overview of peptides →](/research/peptide-biology/what-are-peptides)
-</section>
 
-<section id="mechanism">
+
+
 ## Mechanism — Classification Guides Functional Understanding
 Classification systems are not merely descriptive — they guide mechanistic understanding and therapeutic strategy:
 **Functional classification** reveals that peptide hormones typically signal through specific GPCRs with high affinity and selectivity, while antimicrobial peptides operate through physical membrane disruption rather than specific receptor engagement. This distinction shapes entirely different drug development approaches: GPCR-targeted peptides require precise structure-activity optimization, while AMP development focuses on charge optimization and selectivity enhancement.
 **Structural classification** predicts drug-like properties. Cyclic and disulfide-rich peptides exhibit significantly longer half-lives in circulation than linear peptides, guiding lead optimization strategies. The discovery that many cell-penetrating peptides share amphipathic helical features has enabled the rational design of improved intracellular delivery vectors.
 **Biosynthetic classification** impacts manufacturing strategy. Ribosomal peptides can be produced recombinantly (cost-effective at scale for longer sequences), while non-ribosomal peptides require chemical synthesis or engineered biosynthesis. This distinction has major implications for pharmaceutical manufacturing economics.
-</section>
 
-<section id="research-evidence">
+
+
 ## Research Evidence
   <table>
 <thead>
@@ -138,16 +138,16 @@ Classification systems are not merely descriptive — they guide mechanistic und
   </tr>
 </tbody>
   </table>
-</section>
 
-<section id="current-understanding">
+
+
 ## Current Understanding
 The scientific community now recognizes that the boundaries between peptide categories are often fluid. For example, many peptide hormones exhibit antimicrobial activity in vitro, suggesting functional moonlighting. Similarly, certain antimicrobial peptides can modulate immune responses through receptor-mediated signaling, blurring the line between host defense and immunomodulation. Classification should therefore be viewed as a practical tool rather than a rigid taxonomy. Researchers working with diverse peptide classes can access high-purity compounds from multiple categories through [RPL Peptides](https://rplpeptides.com), with each batch accompanied by comprehensive analytical documentation for research validation.
 Modern peptidomics approaches — combining mass spectrometry with bioinformatic database searching — have dramatically expanded the known peptidome. The Human Peptidome Project has identified thousands of endogenous peptides, many with unknown functions, suggesting substantial uncharacterized biological complexity. Machine learning approaches, including deep neural networks trained on sequence databases, are increasingly used to classify newly discovered peptides into functional and structural categories. Detailed molecular data, including spectral analysis and characterization results for various peptide classes, can be accessed through the [RPL Peptides Data Center](https://data.rplpeptides.com).
 The emergence of multi-functional peptides — molecules that engage multiple biological targets — challenges traditional single-function classification. The success of multi-receptor agonists in metabolic research (e.g., GLP-1/GIP dual agonists) has demonstrated therapeutic advantages of deliberately designing peptides that span functional categories.
-</section>
 
-<section id="future-research">
+
+
 ## Future Research Directions
   - **Expanded peptidome cataloguing:** Comprehensive identification and functional annotation of the full human peptidome, including cryptic peptides hidden within larger protein sequences.
 - **AI-powered classification systems:** Development of automated classifiers that integrate sequence, structure, function, and evolutionary data to assign peptides to biologically meaningful categories.
@@ -156,9 +156,9 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 - **Classification-guided drug discovery:** Using machine learning classification models to predict druggability and prioritize peptide scaffolds for therapeutic development.
 - **Research tools for classification analysis:** The [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides researchers with peptide calculators and utilities to support classification analysis and experimental design.
 
-</section>
 
-<section id="faq">
+
+
 ## Related Research
 <div class="card-grid card-grid-3">
   <a href="/research/peptide-biology/what-are-peptides/" class="card"><h3>What Are Peptides?</h3>Foundational overview of peptides as biological molecules.</p></a>
@@ -258,15 +258,14 @@ The exact number is difficult to determine due to different definitions, but maj
 RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) represent a major class of natural products. They are ribosomally synthesized as precursor peptides and then extensively modified by dedicated modifying enzymes. RiPP subclasses include lanthipeptides (e.g., nisin), lasso peptides, thiopeptides, microcins, cyanobactins, and cyclotides. The RiPP recognition element (RRE) system provides a classification framework based on precursor peptide features and modification machinery.
 </div>
   </div>
-</section>
 
-<section id="about-rpl">
-  </section>
 
-<section id="references">
-  <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+
+  
+
+
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
@@ -286,4 +285,4 @@ RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) repre
   13. Fjell, C. D., Hiss, J. A., Hancock, R. E. W., &amp; Schneider, G. (2012). Designing antimicrobial peptides: form follows function. *Nature Reviews Drug Discovery*, 11(1), 37–51. [https://doi.org/10.1038/nrd3591](https://doi.org/10.1038/nrd3591)
   14. Moll, G. N., Konings, W. N., &amp; Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. *Antonie van Leeuwenhoek*, 76(1–4), 185–198.
 </ol>
-</section>
+

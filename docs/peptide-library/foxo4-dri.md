@@ -70,9 +70,8 @@ The publication of the FOXO4-DRI study in 2017 generated considerable interest i
 
 For research planning support, the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides peptide calculators and utilities to support experimental design in senescence and signaling research.
 
-<div class="info-box info">
-  <strong>Research Status:</strong> FOXO4-DRI is a research chemical used as a tool for investigating cellular senescence and FOXO4-p53 signaling. It is not approved for clinical use by the FDA, EMA, or other regulatory agencies. Subsequent studies have both confirmed and questioned aspects of the original findings, reflecting the active and evolving nature of this research field.
-</div>
+!!! info ""
+    **Research Status:** FOXO4-DRI is a research chemical used as a tool for investigating cellular senescence and FOXO4-p53 signaling. It is not approved for clinical use by the FDA, EMA, or other regulatory agencies. Subsequent studies have both confirmed and questioned aspects of the original findings, reflecting the active and evolving nature of this research field.
 
 <!-- FAQ -->
 ## Related Research
@@ -117,9 +116,8 @@ For research planning support, the [RPL Peptides Research Tools](https://tool.rp
 
 <!-- About RPL Peptides -->
 <!-- References -->
-    <div class="info-box info">
-  <strong>About RPL Peptides:</strong> <a href="https://rplpeptides.com">RPL Peptides</a> is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit <a href="https://rplpeptides.com">rplpeptides.com</a> or explore detailed molecular data at the <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.
-</div>
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References

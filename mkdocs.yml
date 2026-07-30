@@ -24,7 +24,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - toc.follow
+    - toc.integrate
   favicon: assets/favicon.ico
   logo: assets/logo.svg
 

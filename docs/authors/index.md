@@ -55,15 +55,12 @@ Dr. Patel specializes in peptide signaling pathways and molecular endocrinology.
 </div>
 
 <h2 style="margin-top:3rem;">Content Standards</h2>
-<div class="info-box info">
-The RPL Peptides Research Knowledge Center adheres to the following content principles:
-<ul style="margin-top:0.75rem; padding-left:1.25rem;">
-- All scientific claims are supported by citations from peer-reviewed literature.
-- Content is reviewed regularly to reflect advances in scientific understanding.
-- We distinguish between established scientific knowledge and emerging research areas.
-- We do not provide medical advice, clinical recommendations, or treatment protocols.
-- References are sourced exclusively from PubMed-indexed journals and reputable scientific publishers.
-
-</div>
+!!! info ""
+    The RPL Peptides Research Knowledge Center adheres to the following content principles:
+    - All scientific claims are supported by citations from peer-reviewed literature.
+    - Content is reviewed regularly to reflect advances in scientific understanding.
+    - We distinguish between established scientific knowledge and emerging research areas.
+    - We do not provide medical advice, clinical recommendations, or treatment protocols.
+    - References are sourced exclusively from PubMed-indexed journals and reputable scientific publishers.
 
 </div>
