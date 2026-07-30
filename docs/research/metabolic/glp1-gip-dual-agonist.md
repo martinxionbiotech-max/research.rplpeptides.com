@@ -95,6 +95,7 @@ The demonstration of cardiovascular benefit or at least cardiovascular safety re
 Importantly, the regulatory framework for dual agonists recognizes that these molecules are distinct from combination therapy and that their safety profiles should be evaluated as unique entities rather than inferred from the safety of their individual components.
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is a GLP-1/GIP dual agonist?</h3>
@@ -140,8 +141,7 @@ Importantly, the regulatory framework for dual agonists recognizes that these mo
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a></li>

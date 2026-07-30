@@ -123,6 +123,7 @@ Whether the remaining sequences of the full-length BPC possess independent biolo
 For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), BPC-157 is manufactured as the 15-amino acid sequence that has been the subject of the majority of published research studies.
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is BPC-157 and where is it derived from?</h3>
@@ -164,8 +165,7 @@ For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>

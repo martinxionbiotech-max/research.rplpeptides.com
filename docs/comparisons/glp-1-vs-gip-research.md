@@ -143,6 +143,7 @@ Estrogen has been shown to modulate GLP-1 secretion from L-cells and GLP-1R expr
 These sex-specific aspects of incretin biology warrant dedicated investigation, particularly as incretin-based therapies are increasingly used in both men and women for a broadening range of metabolic indications.
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">Why is GLP-1 more effective in type 2 diabetes than GIP?</h3>
@@ -168,8 +169,7 @@ These sex-specific aspects of incretin biology warrant dedicated investigation, 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 Gastroenterology</em>. 2007;132(6):2131-2157.</li>

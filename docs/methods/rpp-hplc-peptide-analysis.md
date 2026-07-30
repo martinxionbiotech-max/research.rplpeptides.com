@@ -139,6 +139,8 @@ The collected fractions are analyzed by analytical HPLC, and those meeting the p
 Multi-step purification—combining initial preparative HPLC with a second orthogonal chromatographic step (e.g., ion exchange or size exclusion)—is used when a single RP-HPLC step is insufficient to achieve the target purity, particularly for long peptides (>30 residues) where the impurity profile is complex.
 
 ## FAQ
+<div class="faq-container">
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">Why is TFA used as an ion-pairing agent in peptide HPLC?</h3>
@@ -168,8 +170,8 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
+</div>
 ## References
 <ol class="references">
 Methods Mol Biol</em>. 2007;386:3-55.</li>

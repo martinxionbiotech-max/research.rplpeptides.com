@@ -79,6 +79,7 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What is the primary HPLC method for peptide analysis?</h3>
 <p>Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.</p>
@@ -104,8 +105,7 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 <p>Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.</p>
 </div>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

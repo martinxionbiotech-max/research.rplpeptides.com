@@ -137,6 +137,7 @@ The integration of computational methods, including molecular dynamics simulatio
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
   <div class="faq-item">
 <h3 class="faq-question">What determines the three-dimensional shape of a peptide?</h3>
 <p>A peptide's three-dimensional shape is determined primarily by its amino acid sequence (primary structure), with secondary structure arising from backbone hydrogen bonding (alpha-helices, beta-sheets, turns). Tertiary folding is stabilized by disulfide bonds, hydrophobic interactions, hydrogen bonds, and electrostatic interactions. The sequence encodes all the information necessary for folding, a principle known as the "Anfinsen dogma."</p>
@@ -184,8 +185,7 @@ The integration of computational methods, including molecular dynamics simulatio
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
   <ol class="references">
 Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. https://doi.org/10.1073/pnas.37.4.205</li>

@@ -105,6 +105,7 @@ However, pro-inflammatory effects of GIPR activation have also been described un
 These divergent findings underscore the need for further mechanistic studies and the importance of large-scale cardiovascular outcome trials to definitively establish the cardiovascular safety and benefit profile of GIP-based therapies.
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is GIP and how does it differ from GLP-1?</h3>
@@ -150,8 +151,7 @@ These divergent findings underscore the need for further mechanistic studies and
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a></li>

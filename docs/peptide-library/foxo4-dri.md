@@ -112,6 +112,7 @@ For research planning support, the [RPL Peptides Research Tools](https://tool.rp
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What does DRI stand for in FOXO4-DRI?</h3>
 <p>DRI stands for D-Retro-Inverso, a peptide modification strategy in which the peptide is synthesized using D-amino acids (the mirror-image stereoisomers of natural L-amino acids) in the reverse sequence order. This configuration produces a peptide that is resistant to proteolytic degradation while maintaining the side-chain topology required for target binding.</p>
@@ -134,8 +135,7 @@ For research planning support, the [RPL Peptides Research Tools](https://tool.rp
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

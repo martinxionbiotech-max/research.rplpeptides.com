@@ -90,6 +90,7 @@ The growing therapeutic interest in peptides continues to drive innovation in st
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What is the most common peptide degradation pathway?</h3>
 <p>Deamidation of asparagine residues is the most common non-enzymatic degradation pathway for peptides under neutral to basic conditions. The Asn-Gly sequence is particularly labile, with deamidation rates up to 100-fold faster than the most stable Asn-containing sequences.</p>
@@ -115,8 +116,7 @@ The growing therapeutic interest in peptides continues to drive innovation in st
 <p>Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes; polyols (mannitol, sorbitol) to reduce water activity; amino acids (methionine, histidine) as antioxidants; chelating agents (EDTA) to sequester metal ions; surfactants (polysorbate 80) to prevent surface-induced aggregation; and buffers to maintain optimal pH.</p>
 </div>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

@@ -78,6 +78,7 @@ For researchers conducting purity studies, the [RPL Peptides Research Tools](htt
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between chemical purity and peptide content?</h3>
 <p>Chemical purity (measured by HPLC area normalization) reflects the percentage of the target peptide relative to all UV-absorbing components. Peptide content (measured by amino acid analysis) reflects the actual mass of peptide in a sample, accounting for water, salts, and counter-ions that contribute to the total mass.</p>
@@ -103,8 +104,7 @@ For researchers conducting purity studies, the [RPL Peptides Research Tools](htt
 <p>Yes. Impurities lacking strong UV absorbance at 214 nm (e.g., non-peptide contaminants, salts, residual solvents, or peptides with few aromatic residues) may contribute proportionally less to the total peak area, leading to overestimation. Comprehensive purity assessment requires orthogonal methods including LC-MS and AAA.</p>
 </div>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

@@ -122,6 +122,7 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
   <div class="faq-item">
 <h3 class="faq-question">What is the difference between a peptide and a protein?</h3>
 <p>Peptides are shorter (typically fewer than 50 amino acids) while proteins are longer. This distinction is primarily operational; many biologically active molecules exist near this boundary. Practically, peptides are more synthetically accessible, penetrate tissues more readily, and elicit fewer immune responses than larger proteins.</p>
@@ -169,8 +170,7 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
   <ol class="references">
 Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>

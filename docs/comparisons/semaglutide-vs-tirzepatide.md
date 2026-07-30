@@ -147,6 +147,7 @@ As the duration of exposure to dual and multi-receptor agonists extends in clini
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">Which is more effective for weight loss: semaglutide or tirzepatide?</h3>
@@ -172,8 +173,7 @@ As the duration of exposure to dual and multi-receptor agonists extends in clini
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 Lancet</em>. 2021;398(10295):143-155.</li>

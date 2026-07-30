@@ -124,6 +124,8 @@ Cyclic peptides and peptides with unnatural amino acids generally exhibit enhanc
 PEGylated or fatty-acylated peptides may have altered stability profiles due to the stabilizing effect of the attached moiety on the peptide's conformation.
 
 ## FAQ
+<div class="faq-container">
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">Should peptides be stored lyophilized or in solution?</h3>
@@ -161,8 +163,8 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
+</div>
 ## References
 <ol class="references">
 Pharm Res</em>. 1994;11(6):751-758.</li>

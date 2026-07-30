@@ -112,6 +112,7 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable.</h3>
 <p>With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.</p>
@@ -141,8 +142,7 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
     <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>

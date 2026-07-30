@@ -93,6 +93,7 @@ Contemporary research on tesamorelin extends beyond HIV-associated lipodystrophy
 
 ## Frequently Asked Questions
 
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What distinguishes tesamorelin from endogenous GHRH?</h3>
 <p>Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.</p>
@@ -131,8 +132,7 @@ Contemporary research on tesamorelin extends beyond HIV-associated lipodystrophy
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a></li>

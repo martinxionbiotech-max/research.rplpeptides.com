@@ -94,6 +94,7 @@ Finally, comparative effectiveness research against bariatric surgery and other 
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What distinguishes retatrutide from tirzepatide?</h3>
@@ -139,8 +140,7 @@ Finally, comparative effectiveness research against bariatric surgery and other 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">Coskun T, Urva S, Roell WC, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. <a href="https://doi.org/10.1016%2FS0140-6736%2822%2902033-5">doi:10.1016/S0140-6736(22)02033-5</a></li>

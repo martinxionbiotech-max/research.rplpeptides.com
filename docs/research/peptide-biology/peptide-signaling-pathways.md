@@ -157,6 +157,7 @@ Mathematical modeling of signaling cascades — incorporating reaction kinetics,
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
   <div class="faq-item">
 <h3 class="faq-question">What is a second messenger in peptide signaling?</h3>
 <p>A second messenger is an intracellular signaling molecule produced or released in response to an extracellular first messenger (the peptide). Examples include cyclic AMP (cAMP), IP₃, DAG, and calcium ions. Second messengers amplify the initial signal — a single activated receptor can produce thousands of second messenger molecules — and propagate it to downstream effector proteins such as protein kinases.</p>
@@ -204,8 +205,7 @@ Mathematical modeling of signaling cascades — incorporating reaction kinetics,
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
   <ol class="references">
 Nature</em>, 459(7245), 356–363. https://doi.org/10.1038/nature08144</li>

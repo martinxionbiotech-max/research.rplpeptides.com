@@ -99,6 +99,7 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 
 ## Frequently Asked Questions
 
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">How does ipamorelin differ from other growth hormone secretagogues?</h3>
 <p>Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.</p>
@@ -142,8 +143,7 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a></li>

@@ -112,6 +112,7 @@ The field is moving toward increased automation, with high-throughput LC-MS syst
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What are the essential methods to confirm peptide identity?</h3>
 <p>The essential identity-confirming methods are: (1) Mass spectrometry (ESI-MS or MALDI-TOF) for accurate molecular weight matching to the calculated value (within ±0.1 Da); (2) analytical RP-HPLC retention time matching against a reference standard; and (3) optionally, amino acid analysis or MS/MS sequencing for definitive sequence confirmation. For most research peptides, MS confirmation paired with HPLC purity is considered sufficient.</p>
@@ -141,8 +142,7 @@ The field is moving toward increased automation, with high-throughput LC-MS syst
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
     <li id="ref1">Biemann K. Sequencing of peptides by tandem mass spectrometry and high-energy collision-induced dissociation. <em>Methods Enzymol</em>. 1990;193:455-479. <a href="https://doi.org/10.1016%2F0076-6879%2890%2993433-B">doi:10.1016/0076-6879(90)93433-B</a></li>

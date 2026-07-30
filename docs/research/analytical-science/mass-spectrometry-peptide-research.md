@@ -77,6 +77,7 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between MALDI-TOF and ESI-MS for peptide analysis?</h3>
 <p>MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.</p>
@@ -106,8 +107,7 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

@@ -100,6 +100,7 @@ The mitochondrial-derived peptide field continues to expand, with several relate
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What does MOTS-c stand for?</h3>
 <p>MOTS-c stands for Mitochondrial Open Reading Frame of the 12S rRNA-c. The name reflects its origin as a peptide encoded within the mitochondrial 12S ribosomal RNA gene.</p>
@@ -121,8 +122,7 @@ The mitochondrial-derived peptide field continues to expand, with several relate
 </div>
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

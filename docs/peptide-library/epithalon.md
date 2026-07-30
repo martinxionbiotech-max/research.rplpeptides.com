@@ -117,6 +117,7 @@ For research planning and experimental design support, the [RPL Peptides Researc
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What is the relationship between Epithalon and epithalamin?</h3>
 <p>Epithalamin is a peptide complex originally isolated from the bovine pineal gland by Russian researchers. Epithalon (AEDG) is a synthetic tetrapeptide representing the minimal active fragment of epithalamin. The tetrapeptide was developed to provide a chemically defined, reproducible molecule that retains the biological activities of the parent complex.</p>
@@ -139,8 +140,7 @@ For research planning and experimental design support, the [RPL Peptides Researc
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

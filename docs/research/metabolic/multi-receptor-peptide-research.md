@@ -89,6 +89,7 @@ Success in developing an oral multi-receptor agonist would dramatically expand p
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is a multi-receptor peptide agonist?</h3>
@@ -134,8 +135,7 @@ Success in developing an oral multi-receptor agonist would dramatically expand p
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a></li>

@@ -116,6 +116,7 @@ For experimental planning and research support, the [RPL Peptides Research Tools
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">Is GHK-Cu found naturally in the human body?</h3>
 <p>Yes, GHK-Cu is a naturally occurring peptide-copper complex found in human plasma. It is generated through the proteolytic degradation of larger proteins, particularly albumin and SPARC (secreted protein acidic and rich in cysteine). Plasma levels of GHK-Cu are approximately 200 μg/L in healthy young adults but decline significantly with age.</p>
@@ -138,8 +139,7 @@ For experimental planning and research support, the [RPL Peptides Research Tools
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <div class="references
   <ol class="references">

@@ -95,6 +95,7 @@ Lyophilization of pooled pure fractions yields the final product as a fluffy, am
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-item">
 <h3 class="faq-question">What purity level is required for different research applications?</h3>
 <p>For most in vitro biological assays, >95% purity is sufficient. For in vivo studies, >98% is standard. For structural biology applications (NMR, X-ray crystallography), >99% may be required. Therapeutic peptides intended for clinical use require >99.5% purity with specific impurity profiling.</p>
@@ -124,8 +125,7 @@ Lyophilization of pooled pure fractions yields the final product as a fluffy, am
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
     <li id="ref1">Bennett HPJ, Browne CA, Solomon S. Purification of the two major forms of rat pituitary corticotropin using only reverse-phase liquid chromatography. <em>Biochemistry</em>. 1981;20(16):4530-4538. <a href="https://doi.org/10.1021%2Fbi00519a005">doi:10.1021/bi00519a005</a></li>

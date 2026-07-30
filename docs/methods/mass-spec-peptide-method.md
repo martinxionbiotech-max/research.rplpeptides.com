@@ -164,6 +164,8 @@ Top-down analysis is simpler and faster than bottom-up analysis, requires less s
 For synthetic peptides, top-down analysis is the preferred first-line approach, with bottom-up analysis reserved for longer peptides or cases where the top-down data are inconclusive. The choice between approaches depends on the peptide length, the nature of potential modifications, and the specific information required.
 
 ## FAQ
+<div class="faq-container">
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">Which ionization method is best for my peptide?</h3>
@@ -189,8 +191,8 @@ For synthetic peptides, top-down analysis is the preferred first-line approach, 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
+</div>
 ## References
 <ol class="references">
 Science</em>. 1989;246(4926):64-71.</li>

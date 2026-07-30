@@ -139,6 +139,7 @@ For research screening applications, crude peptides with ≥70% purity are often
 The use of quality control mass spectrometry to confirm the correct mass of the major product in each crude peptide preparation is an essential quality check for all parallel synthesis campaigns.
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">How does microwave irradiation accelerate SPPS?</h3>
@@ -176,8 +177,7 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>

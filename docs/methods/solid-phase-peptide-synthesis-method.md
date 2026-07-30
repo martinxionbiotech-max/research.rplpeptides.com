@@ -127,6 +127,8 @@ The first pair is deprotected and oxidized, followed by sequential deprotection 
 Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS analysis of the resulting fragments.
 
 ## FAQ
+<div class="faq-container">
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is the maximum peptide length achievable by SPPS?</h3>
@@ -156,8 +158,8 @@ Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS an
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
+</div>
 ## References
 <ol class="references">
 J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>

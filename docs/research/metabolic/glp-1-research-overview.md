@@ -85,6 +85,7 @@ Current research is investigating whether combination approaches—including GLP
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is GLP-1 and where is it produced?</h3>
@@ -130,8 +131,7 @@ Current research is investigating whether combination approaches—including GLP
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
   <li id="ref1">Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a></li>

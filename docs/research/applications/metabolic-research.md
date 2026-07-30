@@ -81,6 +81,7 @@ Mitochondrial peptide biology is an emerging area with substantial potential. Un
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-list">
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What is the incretin effect and why is it important in metabolic research?</h3>
@@ -137,8 +138,7 @@ Mitochondrial peptide biology is an emerging area with substantial potential. Un
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 <li id="ref-1">Lancet</em>. 1964;2(7349):20–21. <a href="https://doi.org/10.1016%2FS0140-6736%2864%2990011-X">doi:10.1016/S0140-6736(64)90011-X</a></li>

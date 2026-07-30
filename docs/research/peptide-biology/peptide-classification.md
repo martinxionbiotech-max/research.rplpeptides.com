@@ -170,6 +170,7 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
   <div class="faq-item">
 <h3 class="faq-question">What is the difference between ribosomal and non-ribosomal peptides?</h3>
 <p>Ribosomal peptides are synthesized on the ribosome via mRNA translation, use only the 20 standard L-amino acids, and often require post-translational modifications. Non-ribosomal peptides are synthesized by large enzyme complexes (NRPSs) without mRNA templates and can incorporate D-amino acids, N-methylated residues, and other non-standard building blocks. Non-ribosomal peptides are more common in bacteria and fungi and include many clinically important antibiotics like cyclosporine and vancomycin.</p>
@@ -217,8 +218,7 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
   <ol class="references">
 Journal of Proteomics</em>, 188, 1–17. https://doi.org/10.1016/j.jprot.2018.01.008</li>

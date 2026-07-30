@@ -83,6 +83,7 @@ The integration of peptides with next-generation sequencing platforms represents
 
 
 ## Frequently Asked Questions
+<div class="faq-container">
 <div class="faq-list">
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What is a peptide nucleic acid (PNA) and how does it differ from DNA?</h3>
@@ -139,8 +140,7 @@ The integration of peptides with next-generation sequencing platforms represents
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-
-
+</div>
 ## References
 <ol class="references">
 <li id="ref-1">Appl Microbiol Biotechnol</em>. 2003;60(5):523–533. <a href="https://doi.org/10.1007%2Fs00253-002-1158-6">doi:10.1007/s00253-002-1158-6</a></li>
