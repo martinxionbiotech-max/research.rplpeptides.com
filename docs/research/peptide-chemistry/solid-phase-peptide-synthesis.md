@@ -112,46 +112,30 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the maximum peptide length achievable by SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.</div>
+<details class="faq-item">
+<summary></summary>
+With standard Fmoc SPPS, peptides of 40–50 residues are routinely achievable. Peptides up to 70–80 residues can be obtained with careful optimization, specialized coupling protocols, and microwave assistance. Beyond these lengths, segment assembly strategies such as native chemical ligation are typically employed.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>Why is Fmoc chemistry preferred over Boc chemistry in modern SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Fmoc chemistry avoids the corrosive and hazardous hydrogen fluoride required in Boc chemistry for final cleavage. Additionally, Fmoc deprotection uses mild base rather than acid, reducing side reactions and allowing side-chain protection with acid-labile groups that are conveniently removed during final cleavage. This makes Fmoc SPPS safer, more accessible, and more compatible with a wider range of peptide sequences.</div>
+<details class="faq-item">
+<summary></summary>
+Resin choice determines the C-terminal functionality of the final peptide (acid vs. amide), the cleavage conditions required, and the swelling properties that affect reagent access. Wang resin yields peptide acids; Rink amide resin yields peptide amides; 2-chlorotrityl resin allows very mild cleavage. PEG-grafted resins like TentaGel improve performance in difficult sequences by reducing chain aggregation.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How does resin choice affect peptide synthesis?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Resin choice determines the C-terminal functionality of the final peptide (acid vs. amide), the cleavage conditions required, and the swelling properties that affect reagent access. Wang resin yields peptide acids; Rink amide resin yields peptide amides; 2-chlorotrityl resin allows very mild cleavage. PEG-grafted resins like TentaGel improve performance in difficult sequences by reducing chain aggregation.</div>
+<details class="faq-item">
+<summary></summary>
+Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers. These are typically resolved by <a href="/research/peptide-chemistry/peptide-purification-methods/">preparative HPLC purification</a>.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What causes difficult sequences in SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Difficult sequences arise from interchain aggregation of the growing peptide on the resin, particularly for sequences with high β-sheet propensity. This aggregation hinders reagent access to the N-terminus, reducing coupling efficiency. Common problem sequences include those rich in hydrophobic residues, multiple valines or isoleucines, and sequences that form stable secondary structures during synthesis.</div>
+<details class="faq-item">
+<summary></summary>
+Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions. Controlled microwave heating reduces coupling times from 30–60 minutes to 5–15 minutes, often with improved coupling efficiency and reduced aggregation. Modern microwave synthesizers maintain precise temperature control to minimize side reactions such as racemization.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What are common side products in SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Common impurities include deletion sequences (from incomplete coupling), truncated peptides (from incomplete Fmoc deprotection), aspartimide/Haspi byproducts (especially Asp-Gly, Asp-Ser sequences), oxidation products (methionine sulfoxide), and racemized diastereomers. These are typically resolved by <a href="/research/peptide-chemistry/peptide-purification-methods/">preparative HPLC purification</a>.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How is coupling efficiency monitored during SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">The Kaiser test (ninhydrin) is the classic colorimetric test for free amines, giving a qualitative or semi-quantitative measure of coupling completion. The chloranil test is used for secondary amines (proline). More quantitative methods include UV monitoring of the Fmoc deprotection product (dibenzofulvene absorbance at 301 nm), which provides a per-cycle yield estimate. Automated synthesizers can use conductivity monitoring for real-time coupling assessment.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is microwave-assisted SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Microwave-assisted SPPS applies controlled microwave irradiation during coupling and deprotection steps to accelerate reactions. Controlled microwave heating reduces coupling times from 30–60 minutes to 5–15 minutes, often with improved coupling efficiency and reduced aggregation. Modern microwave synthesizers maintain precise temperature control to minimize side reactions such as racemization.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>Can SPPS incorporate non-standard amino acids?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Yes, SPPS readily accommodates hundreds of non-standard amino acids, including D-amino acids, N-methyl amino acids, β-amino acids, statine derivatives, and amino acids with modified side chains (fluorescent, crosslinkable, or isotopically labeled). These are commercially available as Fmoc- or Boc-protected derivatives and are incorporated using standard coupling protocols, though coupling times may need adjustment for sterically hindered residues.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the waste-to-product ratio of SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol. The primary contributors are DMF (the most common reaction solvent), DCM (used in washes), and acetonitrile (used in HPLC purification). Efforts to develop greener alternatives include 2-methyltetrahydrofuran (2-MeTHF), cyclopentyl methyl ether (CPME), and propylene carbonate as alternative solvents.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How does automated SPPS compare to manual synthesis?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Automated SPPS offers higher reproducibility, reduced hands-on time, and the ability to run multiple syntheses in parallel. Many automated instruments include microwave or heated vessel options and UV monitoring for real-time yield tracking. Manual synthesis remains valuable for small-scale exploratory work, unusual reaction conditions, and for sequences requiring extensive optimization of individual coupling steps.</div>
+<details class="faq-item">
+<summary></summary>
+Traditional SPPS generates significant waste — estimated at 50–500 kg of solvent waste per kilogram of peptide produced, depending on scale and protocol. The primary contributors are DMF (the most common reaction solvent), DCM (used in washes), and acetonitrile (used in HPLC purification). Efforts to develop greener alternatives include 2-methyltetrahydrofuran (2-MeTHF), cyclopentyl methyl ether (CPME), and propylene carbonate as alternative solvents.
+</details>
   </div>
 </div>
 
@@ -160,18 +144,18 @@ The ongoing development of greener solvents, more efficient coupling reagents, a
 
 
 ## References
-<div class="references">
+<div class="references
   <ol>
-    <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. doi:10.1021/ja00897a025</li>
-    <li id="ref2">Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
-    <li id="ref3">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. doi:10.1111/j.1399-3011.1990.tb00939.x</li>
-    <li id="ref4">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. doi:10.1016/S0040-4039(01)80695-4</li>
-    <li id="ref5">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. doi:10.1002/psc.804</li>
-    <li id="ref6">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. doi:10.1038/nprot.2007.454</li>
-    <li id="ref7">Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. doi:10.1016/S0076-6879(97)89043-X</li>
-    <li id="ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. doi:10.1021/cr100048w</li>
-    <li id="ref9">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. doi:10.1039/C1CS15214A</li>
-    <li id="ref10">Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. doi:10.1002/0471140864.ps1801s69</li>
+    <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+    <li id="ref2Atherton E, Sheppard RC. <em>Solid Phase Peptide Synthesis: A Practical Approach</em>. IRL Press; 1989. ISBN: 9780199630673</li>
+    <li id="ref3Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214. <a href="https://doi.org/10.1111%2Fj.1399-3011.1990.tb00939.x">doi:10.1111/j.1399-3011.1990.tb00939.x</a></li>
+    <li id="ref4Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946. <a href="https://doi.org/10.1016%2FS0040-4039%2801%2980695-4">doi:10.1016/S0040-4039(01)80695-4</a></li>
+    <li id="ref5Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc solid phase peptide synthesis. <em>J Pept Sci</em>. 2007;13(3):143-148. <a href="https://doi.org/10.1002%2Fpsc.804">doi:10.1002/psc.804</a></li>
+    <li id="ref6Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
+    <li id="ref7Wellings DA, Atherton E. Standard Fmoc protocols. <em>Methods Enzymol</em>. 1997;289:44-67. <a href="https://doi.org/10.1016%2FS0076-6879%2897%2989043-X">doi:10.1016/S0076-6879(97)89043-X</a></li>
+    <li id="ref8El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
+    <li id="ref9Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844. <a href="https://doi.org/10.1039%2FC1CS15214A">doi:10.1039/C1CS15214A</a></li>
+    <li id="ref10Stawikowski M, Fields GB. Introduction to peptide synthesis. <em>Curr Protoc Protein Sci</em>. 2012;Chapter 18:Unit 18.1. <a href="https://doi.org/10.1002%2F0471140864.ps1801s69">doi:10.1002/0471140864.ps1801s69</a></li>
 </ol>
 </div>
 

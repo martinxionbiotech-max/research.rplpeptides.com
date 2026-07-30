@@ -112,59 +112,46 @@ For research planning support, the [RPL Peptides Research Tools](https://tool.rp
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What does DRI stand for in FOXO4-DRI? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">DRI stands for D-Retro-Inverso, a peptide modification strategy in which the peptide is synthesized using D-amino acids (the mirror-image stereoisomers of natural L-amino acids) in the reverse sequence order. This configuration produces a peptide that is resistant to proteolytic degradation while maintaining the side-chain topology required for target binding.</div>
+<details class="faq-item">
+<summary>What does DRI stand for in FOXO4-DRI?</summary>
+DRI stands for D-Retro-Inverso, a peptide modification strategy in which the peptide is synthesized using D-amino acids (the mirror-image stereoisomers of natural L-amino acids) in the reverse sequence order. This configuration produces a peptide that is resistant to proteolytic degradation while maintaining the side-chain topology required for target binding.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How does FOXO4-DRI selectively affect senescent cells? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Senescent cells exhibit high levels of FOXO4 expression and nuclear accumulation, creating a dependency on FOXO4-p53 interactions for their survival. By disrupting this interaction in senescent cells, FOXO4-DRI releases p53 to initiate mitochondrial-dependent apoptosis. In non-senescent cells, where FOXO4 levels are lower and FOXO4-p53 complexes are less prominent, the peptide has minimal effects, providing a degree of selectivity for the senescent cell population.</div>
+<details class="faq-item">
+<summary>What was the key finding of the original FOXO4-DRI study?</summary>
+The landmark 2017 study by Baar et al. published in Nature Medicine demonstrated that FOXO4-DRI could selectively eliminate senescent cells in vitro and in vivo. In aged mice, FOXO4-DRI treatment reduced markers of cellular senescence, improved physical function (measured by running wheel activity, grip strength, and other parameters), and ameliorated age-related renal dysfunction.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What was the key finding of the original FOXO4-DRI study? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The landmark 2017 study by Baar et al. published in Nature Medicine demonstrated that FOXO4-DRI could selectively eliminate senescent cells in vitro and in vivo. In aged mice, FOXO4-DRI treatment reduced markers of cellular senescence, improved physical function (measured by running wheel activity, grip strength, and other parameters), and ameliorated age-related renal dysfunction.</div>
+<details class="faq-item">
+<summary>Is FOXO4-DRI considered a senolytic agent?</summary>
+Yes, FOXO4-DRI is classified as a senolytic agent, meaning it selectively induces apoptosis in senescent cells. It is one of several senolytic compounds that have been studied in research contexts. Other well-known senolytics include the combination of dasatinib and quercetin (D+Q), navitoclax (ABT-263), and fisetin, each working through different molecular mechanisms.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Has FOXO4-DRI been independently replicated? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Follow-up studies have provided mixed results. Some independent groups have reported successful replication of the senolytic activity and functional improvements in animal models, while others have observed more modest or context-dependent effects. This variability has prompted ongoing investigation into the specific experimental conditions, dosing regimens, and biological contexts that influence FOXO4-DRI activity. The field continues to evolve, with active research aimed at clarifying these factors.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Is FOXO4-DRI considered a senolytic agent? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Yes, FOXO4-DRI is classified as a senolytic agent, meaning it selectively induces apoptosis in senescent cells. It is one of several senolytic compounds that have been studied in research contexts. Other well-known senolytics include the combination of dasatinib and quercetin (D+Q), navitoclax (ABT-263), and fisetin, each working through different molecular mechanisms.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What are the advantages of the D-retro-inverso peptide design? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The D-retro-inverso design offers two main advantages: (1) proteolytic stability—D-amino acid peptides are resistant to degradation by endogenous proteases, which specifically cleave L-peptide bonds, resulting in substantially longer half-life in biological environments; (2) retained target binding—the D-retro-inverso configuration preserves the spatial orientation of side chains relative to the target, allowing the modified peptide to maintain binding affinity for its intended protein interaction partner.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the role of the cell-penetrating peptide in FOXO4-DRI? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">FOXO4-DRI includes a cell-penetrating peptide (CPP) sequence that facilitates transport across the cell membrane into the cytoplasm and nucleus, where its intracellular target (p53) is located. Without the CPP, the peptide would have poor cellular uptake due to its size and hydrophilicity. The CPP is typically derived from sequences such as HIV TAT or poly-arginine that have the ability to cross biological membranes.</div>
-  </div>
-</div>
-
-<!-- About RPL Peptides -->
+<details class="faq-item">
+<summary>What is the role of the cell-penetrating peptide in FOXO4-DRI?</summary>
+FOXO4-DRI includes a cell-penetrating peptide (CPP) sequence that facilitates transport across the cell membrane into the cytoplasm and nucleus, where its intracellular target (p53) is located. Without the CPP, the peptide would have poor cellular uptake due to its size and hydrophilicity. The CPP is typically derived from sequences such as HIV TAT or poly-arginine that have the ability to cross biological membranes.
+</details>
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Baar MP, Brandt RMC, Putavet DA, et al. Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. <em>Cell</em>. 2017;169(1):132-147. doi:10.1016/j.cell.2017.02.031</li>
-  <li id="ref2">van der Horst A, Burgering BM. Stressing the role of FoxO proteins in lifespan and disease. <em>Nature Reviews Molecular Cell Biology</em>. 2007;8(6):440-450. doi:10.1038/nrm2190</li>
-  <li id="ref3">Demaria M, O'Leary MN, Chang J, et al. Cellular senescence promotes adverse effects of chemotherapy and cancer relapse. <em>Cancer Discovery</em>. 2017;7(2):165-176. doi:10.1158/2159-8290.CD-16-0241</li>
-  <li id="ref4">Schmitt R, Melk A. Molecular mechanisms of renal aging. <em>Kidney International</em>. 2017;92(3):569-579. doi:10.1016/j.kint.2017.02.036</li>
-  <li id="ref5">Zhu Y, Tchkonia T, Pirtskhalava T, et al. The Achilles' heel of senescent cells: from transcriptome to senolytic drugs. <em>Aging Cell</em>. 2015;14(4):644-658. doi:10.1111/acel.12344</li>
-  <li id="ref6">Xu M, Pirtskhalava T, Farr JN, et al. Senolytics improve physical function and increase lifespan in old age. <em>Nature Medicine</em>. 2018;24(8):1246-1256. doi:10.1038/s41591-018-0092-9</li>
-  <li id="ref7">Caiado F, Pietra L, Shree T, et al. FOXO4-DRI selectively eliminates senescent cells in vivo during aging. <em>Aging (Albany NY)</em>. 2018;10(8):1966-1971. doi:10.18632/aging.101533</li>
-  <li id="ref8">Kirkland JL, Tchkonia T. Cellular senescence: a translational perspective. <em>eBioMedicine</em>. 2017;21:21-28. doi:10.1016/j.ebiom.2017.04.013</li>
-  <li id="ref9">Nardini C, Moreau JF, Gems D, et al. The FOXO code: molecular mechanisms of FOXO signaling in aging. <em>Trends in Cell Biology</em>. 2018;28(6):441-454. doi:10.1016/j.tcb.2018.02.001</li>
-  <li id="ref10">Bornstein SR, Pöll F, La Sala G, et al. The role of FOXO4 in cellular senescence and aging. <em>Molecular Aspects of Medicine</em>. 2020;76:100892. doi:10.1016/j.mam.2020.100892</li>
-  <li id="ref11">He Y, Chen X, Liu S, et al. FOXO4-DRI reverses cellular senescence in age-related kidney disease. <em>American Journal of Physiology-Renal Physiology</em>. 2020;319(3):F389-F399. doi:10.1152/ajprenal.00189.2020</li>
+  <li id="ref1Baar MP, Brandt RMC, Putavet DA, et al. Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. <em>Cell</em>. 2017;169(1):132-147. <a href="https://doi.org/10.1016%2Fj.cell.2017.02.031">doi:10.1016/j.cell.2017.02.031</a></li>
+  <li id="ref2van der Horst A, Burgering BM. Stressing the role of FoxO proteins in lifespan and disease. <em>Nature Reviews Molecular Cell Biology</em>. 2007;8(6):440-450. <a href="https://doi.org/10.1038%2Fnrm2190">doi:10.1038/nrm2190</a></li>
+  <li id="ref3Demaria M, O'Leary MN, Chang J, et al. Cellular senescence promotes adverse effects of chemotherapy and cancer relapse. <em>Cancer Discovery</em>. 2017;7(2):165-176. <a href="https://doi.org/10.1158%2F2159-8290.CD-16-0241">doi:10.1158/2159-8290.CD-16-0241</a></li>
+  <li id="ref4Schmitt R, Melk A. Molecular mechanisms of renal aging. <em>Kidney International</em>. 2017;92(3):569-579. <a href="https://doi.org/10.1016%2Fj.kint.2017.02.036">doi:10.1016/j.kint.2017.02.036</a></li>
+  <li id="ref5Zhu Y, Tchkonia T, Pirtskhalava T, et al. The Achilles' heel of senescent cells: from transcriptome to senolytic drugs. <em>Aging Cell</em>. 2015;14(4):644-658. <a href="https://doi.org/10.1111%2Facel.12344">doi:10.1111/acel.12344</a></li>
+  <li id="ref6Xu M, Pirtskhalava T, Farr JN, et al. Senolytics improve physical function and increase lifespan in old age. <em>Nature Medicine</em>. 2018;24(8):1246-1256. <a href="https://doi.org/10.1038%2Fs41591-018-0092-9">doi:10.1038/s41591-018-0092-9</a></li>
+  <li id="ref7Caiado F, Pietra L, Shree T, et al. FOXO4-DRI selectively eliminates senescent cells in vivo during aging. <em>Aging (Albany NY)</em>. 2018;10(8):1966-1971. <a href="https://doi.org/10.18632%2Faging.101533">doi:10.18632/aging.101533</a></li>
+  <li id="ref8Kirkland JL, Tchkonia T. Cellular senescence: a translational perspective. <em>eBioMedicine</em>. 2017;21:21-28. <a href="https://doi.org/10.1016%2Fj.ebiom.2017.04.013">doi:10.1016/j.ebiom.2017.04.013</a></li>
+  <li id="ref9Nardini C, Moreau JF, Gems D, et al. The FOXO code: molecular mechanisms of FOXO signaling in aging. <em>Trends in Cell Biology</em>. 2018;28(6):441-454. <a href="https://doi.org/10.1016%2Fj.tcb.2018.02.001">doi:10.1016/j.tcb.2018.02.001</a></li>
+  <li id="ref10Bornstein SR, Pöll F, La Sala G, et al. The role of FOXO4 in cellular senescence and aging. <em>Molecular Aspects of Medicine</em>. 2020;76:100892. <a href="https://doi.org/10.1016%2Fj.mam.2020.100892">doi:10.1016/j.mam.2020.100892</a></li>
+  <li id="ref11He Y, Chen X, Liu S, et al. FOXO4-DRI reverses cellular senescence in age-related kidney disease. <em>American Journal of Physiology-Renal Physiology</em>. 2020;319(3):F389-F399. <a href="https://doi.org/10.1152%2Fajprenal.00189.2020">doi:10.1152/ajprenal.00189.2020</a></li>
 
 
 </ol>

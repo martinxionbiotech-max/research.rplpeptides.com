@@ -122,96 +122,46 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 
 
 ## Frequently Asked Questions
-  <div class="faq-item">
-<div class="faq-question">
-      What is the difference between a peptide and a protein?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+  <details class="faq-item">
+<summary>What is the difference between a peptide and a protein?</summary>
 Peptides are shorter (typically fewer than 50 amino acids) while proteins are longer. This distinction is primarily operational; many biologically active molecules exist near this boundary. Practically, peptides are more synthetically accessible, penetrate tissues more readily, and elicit fewer immune responses than larger proteins.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How many amino acids make up a peptide?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How many amino acids make up a peptide?</summary>
 Peptides range from dipeptides (2 amino acids) to polypeptides (up to approximately 50 amino acids). Common categories include dipeptides (2), tripeptides (3), tetrapeptides (4), pentapeptides (5), and oligopeptides (generally 2–20). The most bioactive signaling peptides in humans are typically in the 3–40 amino acid range.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How are peptides synthesized in the laboratory?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How are peptides synthesized in the laboratory?</summary>
 Most peptides are produced via solid-phase peptide synthesis (SPPS), a method pioneered by Bruce Merrifield in 1963. Amino acids are sequentially coupled to a solid resin support, with protecting groups preventing unwanted side reactions. After assembly, the peptide is cleaved from the resin and purified, typically by preparative HPLC. Recombinant expression in microbial systems is also used for longer peptides.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Are peptides naturally occurring in the human body?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Are peptides naturally occurring in the human body?</summary>
 Yes. The human body produces thousands of naturally occurring peptides that function as hormones (insulin, glucagon), growth factors, neurotransmitters (substance P), antimicrobial agents (defensins), and regulatory molecules. Endogenous peptides are typically encoded by specific genes and produced through proteolytic processing of larger precursor proteins.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are the main advantages of peptides as therapeutic agents?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are the main advantages of peptides as therapeutic agents?</summary>
 Peptides offer high target specificity and potency, low toxicity profiles, minimal drug-drug interactions, and the ability to engage targets (such as protein-protein interfaces) that are difficult to modulate with small molecules. They also tend to have rapid onset of action and predictable metabolism to amino acids, reducing the risk of toxic metabolite accumulation.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are the limitations of peptide-based drugs?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are the limitations of peptide-based drugs?</summary>
 The principal limitations include poor oral bioavailability (most peptides require injection), rapid enzymatic degradation in plasma and tissues, short circulating half-lives, and challenges with large-scale manufacturing. However, significant progress has been made through formulation strategies, amino acid modifications, and conjugation to half-life-extending moieties such as polyethylene glycol or fatty acids.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How are peptides classified?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How are peptides classified?</summary>
 Peptides can be classified by length (oligopeptides, polypeptides), source (endogenous, exogenous), biological function (hormones, antimicrobials, neuropeptides, growth factors), structural features (linear, cyclic, disulfide-rich), or biosynthesis mechanism (ribosomal, non-ribosomal). Multiple classification systems often overlap for any given peptide.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the peptide bond and why is it important?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the peptide bond and why is it important?</summary>
 The peptide bond is an amide linkage (—CO—NH—) formed between the carboxyl group of one amino acid and the amino group of another. It has partial double-bond character due to resonance, making it planar and rigid. This planarity constrains the possible conformations of the peptide backbone and is the fundamental structural determinant of peptide and protein folding.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Can peptides cross the blood-brain barrier?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Can peptides cross the blood-brain barrier?</summary>
 Most peptides do not readily cross the blood-brain barrier (BBB) due to their hydrophilicity, molecular weight, and susceptibility to enzymatic degradation. However, certain small peptides (e.g., thyrotropin-releasing hormone, TRH) can cross to some extent. Strategies including conjugation to BBB-penetrating vectors, nanoparticle encapsulation, and intranasal administration are being actively investigated to enhance brain delivery.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the history of peptide drug discovery?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the history of peptide drug discovery?</summary>
 Peptide-based therapeutics began with insulin (1922), the first peptide drug. The field advanced through oxytocin synthesis (1953, du Vigneaud), SPPS development (1963, Merrifield), recombinant insulin production (1982), and the approval of the first peptide GPCR antagonist (2003). As of 2025, over 80 peptide drugs are approved, predominantly for metabolic, oncologic, and endocrine indications.
-</div>
-  </div>
+</details>
 
 
   
@@ -222,22 +172,22 @@ Peptide-based therapeutics began with insulin (1922), the first peptide drug. Th
 
 
 ## References
-  <ol class="references">
+  <ol class="references
 
 
-  <li id="ref1">Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. <a href="https://doi.org/10.1038/415389a">https://doi.org/10.1038/415389a</a></li>
-  <li id="ref2">Hancock, R. E. W., & Sahl, H. G. (2006). Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. <em>Nature Biotechnology</em>, 24(12), 1551–1557. <a href="https://doi.org/10.1038/nbt1267">https://doi.org/10.1038/nbt1267</a></li>
-  <li id="ref3">Fosgerau, K., & Hoffmann, T. (2015). Peptide therapeutics: current status and future directions. <em>Drug Discovery Today</em>, 20(1), 122–128. <a href="https://doi.org/10.1016/j.drudis.2014.10.003">https://doi.org/10.1016/j.drudis.2014.10.003</a></li>
-  <li id="ref4">Lau, J. L., & Dunn, M. K. (2018). Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorganic & Medicinal Chemistry</em>, 26(10), 2700–2707. <a href="https://doi.org/10.1016/j.bmc.2017.06.052">https://doi.org/10.1016/j.bmc.2017.06.052</a></li>
-  <li id="ref5">Muttenthaler, M., King, G. F., Adams, D. J., & Alewood, P. F. (2021). Trends in peptide drug discovery. <em>Nature Reviews Drug Discovery</em>, 20(4), 309–325. <a href="https://doi.org/10.1038/s41573-020-00135-8">https://doi.org/10.1038/s41573-020-00135-8</a></li>
-  <li id="ref6">Wang, L., Wang, N., Zhang, W., Cheng, X., Yan, Z., Shao, G., Wang, X., Wang, R., & Fu, C. (2022). Therapeutic peptides: current applications and future directions. <em>Signal Transduction and Targeted Therapy</em>, 7, 48. <a href="https://doi.org/10.1038/s41392-022-00904-4">https://doi.org/10.1038/s41392-022-00904-4</a></li>
-  <li id="ref7">Craik, D. J., Fairlie, D. P., Liras, S., & Price, D. (2013). The future of peptide-based drugs. <em>Chemical Biology & Drug Design</em>, 81(1), 136–147. <a href="https://doi.org/10.1111/cbdd.12055">https://doi.org/10.1111/cbdd.12055</a></li>
-  <li id="ref8">Henninot, A., Collins, J. C., & Nuss, J. M. (2018). The current state of peptide drug discovery: back to the future? <em>Journal of Medicinal Chemistry</em>, 61(4), 1382–1414. <a href="https://doi.org/10.1021/acs.jmedchem.7b00318">https://doi.org/10.1021/acs.jmedchem.7b00318</a></li>
-  <li id="ref9">Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>Journal of the American Chemical Society</em>, 85(14), 2149–2154. <a href="https://doi.org/10.1021/ja00897a025">https://doi.org/10.1021/ja00897a025</a></li>
-  <li id="ref10">Uhlig, T., Kyprianou, T., Martinelli, F. G., Oppici, C. A., Heiligers, D., Hills, D., Calvo, X. R., & Verhaert, P. (2014). The emergence of peptides in the pharmaceutical business: from exploration to exploitation. <em>EuPA Open Proteomics</em>, 4, 58–69. <a href="https://doi.org/10.1016/j.euprot.2014.05.003">https://doi.org/10.1016/j.euprot.2014.05.003</a></li>
-  <li id="ref11">Ganz, T. (2003). Defensins: antimicrobial peptides of innate immunity. <em>Nature Reviews Immunology</em>, 3(9), 710–720. <a href="https://doi.org/10.1038/nri1180">https://doi.org/10.1038/nri1180</a></li>
-  <li id="ref12">Boman, H. G. (2003). Antibacterial peptides: basic facts and emerging concepts. <em>Journal of Internal Medicine</em>, 254(3), 197–215. <a href="https://doi.org/10.1046/j.1365-2796.2003.01228.x">https://doi.org/10.1046/j.1365-2796.2003.01228.x</a></li>
-  <li id="ref13">Fields, G. B., & Noble, R. L. (1990). Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>International Journal of Peptide and Protein Research</em>, 35(3), 161–214. <a href="https://doi.org/10.1111/j.1399-3011.1990.tb00939.x">https://doi.org/10.1111/j.1399-3011.1990.tb00939.x</a></li>
+  <li id="ref1Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
+  <li id="ref2Hancock, R. E. W., & Sahl, H. G. (2006). Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. <em>Nature Biotechnology</em>, 24(12), 1551–1557. https://doi.org/10.1038/nbt1267</li>
+  <li id="ref3Fosgerau, K., & Hoffmann, T. (2015). Peptide therapeutics: current status and future directions. <em>Drug Discovery Today</em>, 20(1), 122–128. https://doi.org/10.1016/j.drudis.2014.10.003</li>
+  <li id="ref4Lau, J. L., & Dunn, M. K. (2018). Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorganic & Medicinal Chemistry</em>, 26(10), 2700–2707. https://doi.org/10.1016/j.bmc.2017.06.052</li>
+  <li id="ref5Muttenthaler, M., King, G. F., Adams, D. J., & Alewood, P. F. (2021). Trends in peptide drug discovery. <em>Nature Reviews Drug Discovery</em>, 20(4), 309–325. https://doi.org/10.1038/s41573-020-00135-8</li>
+  <li id="ref6Wang, L., Wang, N., Zhang, W., Cheng, X., Yan, Z., Shao, G., Wang, X., Wang, R., & Fu, C. (2022). Therapeutic peptides: current applications and future directions. <em>Signal Transduction and Targeted Therapy</em>, 7, 48. https://doi.org/10.1038/s41392-022-00904-4</li>
+  <li id="ref7Craik, D. J., Fairlie, D. P., Liras, S., & Price, D. (2013). The future of peptide-based drugs. <em>Chemical Biology & Drug Design</em>, 81(1), 136–147. https://doi.org/10.1111/cbdd.12055</li>
+  <li id="ref8Henninot, A., Collins, J. C., & Nuss, J. M. (2018). The current state of peptide drug discovery: back to the future? <em>Journal of Medicinal Chemistry</em>, 61(4), 1382–1414. https://doi.org/10.1021/acs.jmedchem.7b00318</li>
+  <li id="ref9Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>Journal of the American Chemical Society</em>, 85(14), 2149–2154. https://doi.org/10.1021/ja00897a025</li>
+  <li id="ref10Uhlig, T., Kyprianou, T., Martinelli, F. G., Oppici, C. A., Heiligers, D., Hills, D., Calvo, X. R., & Verhaert, P. (2014). The emergence of peptides in the pharmaceutical business: from exploration to exploitation. <em>EuPA Open Proteomics</em>, 4, 58–69. https://doi.org/10.1016/j.euprot.2014.05.003</li>
+  <li id="ref11Ganz, T. (2003). Defensins: antimicrobial peptides of innate immunity. <em>Nature Reviews Immunology</em>, 3(9), 710–720. https://doi.org/10.1038/nri1180</li>
+  <li id="ref12Boman, H. G. (2003). Antibacterial peptides: basic facts and emerging concepts. <em>Journal of Internal Medicine</em>, 254(3), 197–215. https://doi.org/10.1046/j.1365-2796.2003.01228.x</li>
+  <li id="ref13Fields, G. B., & Noble, R. L. (1990). Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>International Journal of Peptide and Protein Research</em>, 35(3), 161–214. https://doi.org/10.1111/j.1399-3011.1990.tb00939.x</li>
 
 
 </ol>

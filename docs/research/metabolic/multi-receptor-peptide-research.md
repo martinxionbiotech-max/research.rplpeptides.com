@@ -90,46 +90,46 @@ Success in developing an oral multi-receptor agonist would dramatically expand p
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is a multi-receptor peptide agonist?</h3>
-    A multi-receptor peptide agonist is a single engineered peptide molecule designed to activate two, three, or more different hormone receptors simultaneously. The goal is to harness the complementary metabolic effects of multiple receptor pathways through a single therapeutic agent, producing synergistic benefits.
-  </div>
-  <div class="faq-item">
-    <h3>What receptors are targeted in current multi-receptor research?</h3>
-    The most advanced multi-receptor approaches target combinations of the GLP-1 receptor (GLP-1R), GIP receptor (GIPR), and glucagon receptor (GCGR). Emerging strategies also incorporate amylin receptors, the Y2 receptor (PYY), and other metabolic hormone receptors.
-  </div>
-  <div class="faq-item">
-    <h3>What is retatrutide and how does it work?</h3>
-    Retatrutide is a GLP-1/GIP/glucagon triple receptor agonist in clinical development. It activates all three receptors—each contributing distinct metabolic effects—to produce synergistic improvements in glycemic control, weight loss, and energy expenditure. Phase 2 trials have shown weight loss approaching bariatric surgery efficacy.
-  </div>
-  <div class="faq-item">
-    <h3>How does glucagon receptor activation contribute to weight loss?</h3>
-    Glucagon receptor activation increases energy expenditure through hepatic fatty acid oxidation, thermogenesis, and lipolysis. When combined with GLP-1 and GIP activity, these effects mobilize fat stores and increase caloric expenditure without causing the hyperglycemia that would occur with glucagon alone.
-  </div>
-  <div class="faq-item">
-    <h3>Are multi-receptor peptides safe given they activate glucagon?</h3>
-    Clinical trial data indicate that triple agonists are generally well-tolerated. The incretin components (GLP-1 and GIP) effectively counter-regulate glucagon-mediated glucose elevation through enhanced insulin secretion and glucagon suppression, preventing hyperglycemia. Adverse effects are primarily gastrointestinal, similar to GLP-1 receptor agonists.
-  </div>
-  <div class="faq-item">
-    <h3>How do multi-receptor agonists compare to dual agonists?</h3>
-    Head-to-head comparison is limited, but cross-trial evidence suggests triple agonists achieve greater weight loss than dual GLP-1/GIP agonists. The addition of glucagon agonism provides a mechanism for increasing energy expenditure beyond what dual incretin activation alone achieves, translating into superior weight reduction.
-  </div>
-  <div class="faq-item">
-    <h3>What non-metabolic conditions might benefit from multi-receptor peptides?</h3>
-    NASH is a particularly promising indication due to the combined effects on hepatic steatosis, inflammation, and potentially fibrosis. Cardiovascular disease, neurodegenerative conditions, and even substance use disorders are also being explored based on the anti-inflammatory and neuroprotective effects of incretin pathway activation.
-  </div>
-  <div class="faq-item">
-    <h3>How are multi-receptor peptides engineered?</h3>
-    Multi-receptor peptides are designed through systematic amino acid substitutions in a parent peptide scaffold, guided by structure-activity relationships and computational modeling. Cryo-electron microscopy structures of peptide-receptor complexes have become crucial for rational design. Fatty acid acylation provides sustained pharmacokinetics.
-  </div>
-  <div class="faq-item">
-    <h3>Could there be tetra-agonists or even penta-agonists?</h3>
-    Yes, research is already exploring quadruple and quintuple agonists incorporating receptors for amylin, PYY, and other metabolic peptides. The structural and pharmacological challenges increase with each additional target, but the potential for further enhanced efficacy continues to drive innovation in this area.
-  </div>
-  <div class="faq-item">
-    <h3>What are the main challenges facing multi-receptor peptide research?</h3>
-    Key challenges include: optimizing the relative potency ratio for each receptor to achieve the ideal metabolic profile while minimizing adverse effects; maintaining stability and favorable pharmacokinetics for increasingly complex peptide designs; managing gastrointestinal tolerability at efficacious doses; and addressing long-term safety considerations with sustained activation of multiple receptor systems.
-  </div>
+<details class="faq-item">
+<summary>What is a multi-receptor peptide agonist?</summary>
+A multi-receptor peptide agonist is a single engineered peptide molecule designed to activate two, three, or more different hormone receptors simultaneously. The goal is to harness the complementary metabolic effects of multiple receptor pathways through a single therapeutic agent, producing synergistic benefits.
+</details>
+<details class="faq-item">
+<summary>What receptors are targeted in current multi-receptor research?</summary>
+The most advanced multi-receptor approaches target combinations of the GLP-1 receptor (GLP-1R), GIP receptor (GIPR), and glucagon receptor (GCGR). Emerging strategies also incorporate amylin receptors, the Y2 receptor (PYY), and other metabolic hormone receptors.
+</details>
+<details class="faq-item">
+<summary>What is retatrutide and how does it work?</summary>
+Retatrutide is a GLP-1/GIP/glucagon triple receptor agonist in clinical development. It activates all three receptors—each contributing distinct metabolic effects—to produce synergistic improvements in glycemic control, weight loss, and energy expenditure. Phase 2 trials have shown weight loss approaching bariatric surgery efficacy.
+</details>
+<details class="faq-item">
+<summary>How does glucagon receptor activation contribute to weight loss?</summary>
+Glucagon receptor activation increases energy expenditure through hepatic fatty acid oxidation, thermogenesis, and lipolysis. When combined with GLP-1 and GIP activity, these effects mobilize fat stores and increase caloric expenditure without causing the hyperglycemia that would occur with glucagon alone.
+</details>
+<details class="faq-item">
+<summary>Are multi-receptor peptides safe given they activate glucagon?</summary>
+Clinical trial data indicate that triple agonists are generally well-tolerated. The incretin components (GLP-1 and GIP) effectively counter-regulate glucagon-mediated glucose elevation through enhanced insulin secretion and glucagon suppression, preventing hyperglycemia. Adverse effects are primarily gastrointestinal, similar to GLP-1 receptor agonists.
+</details>
+<details class="faq-item">
+<summary>How do multi-receptor agonists compare to dual agonists?</summary>
+Head-to-head comparison is limited, but cross-trial evidence suggests triple agonists achieve greater weight loss than dual GLP-1/GIP agonists. The addition of glucagon agonism provides a mechanism for increasing energy expenditure beyond what dual incretin activation alone achieves, translating into superior weight reduction.
+</details>
+<details class="faq-item">
+<summary>What non-metabolic conditions might benefit from multi-receptor peptides?</summary>
+NASH is a particularly promising indication due to the combined effects on hepatic steatosis, inflammation, and potentially fibrosis. Cardiovascular disease, neurodegenerative conditions, and even substance use disorders are also being explored based on the anti-inflammatory and neuroprotective effects of incretin pathway activation.
+</details>
+<details class="faq-item">
+<summary>How are multi-receptor peptides engineered?</summary>
+Multi-receptor peptides are designed through systematic amino acid substitutions in a parent peptide scaffold, guided by structure-activity relationships and computational modeling. Cryo-electron microscopy structures of peptide-receptor complexes have become crucial for rational design. Fatty acid acylation provides sustained pharmacokinetics.
+</details>
+<details class="faq-item">
+<summary>Could there be tetra-agonists or even penta-agonists?</summary>
+Yes, research is already exploring quadruple and quintuple agonists incorporating receptors for amylin, PYY, and other metabolic peptides. The structural and pharmacological challenges increase with each additional target, but the potential for further enhanced efficacy continues to drive innovation in this area.
+</details>
+<details class="faq-item">
+<summary>What are the main challenges facing multi-receptor peptide research?</summary>
+Key challenges include: optimizing the relative potency ratio for each receptor to achieve the ideal metabolic profile while minimizing adverse effects; maintaining stability and favorable pharmacokinetics for increasingly complex peptide designs; managing gastrointestinal tolerability at efficacious doses; and addressing long-term safety considerations with sustained activation of multiple receptor systems.
+</details>
 </div>
 
 !!! info ""
@@ -137,43 +137,43 @@ Success in developing an oral multi-receptor agonist would dramatically expand p
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. doi:10.1038/s41573-021-00328-5
+- Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a>
   - Rosenstock J, Frias JP, Rodbard HW, et al.
 
-Retatrutide, a GIP/GLP-1/glucagon receptor triagonist, for type 2 diabetes: a phase 2 study. <em>The Lancet</em>. 2023;402(10415):1394-1405. doi:10.1016/S0140-6736(23)01822-6
+Retatrutide, a GIP/GLP-1/glucagon receptor triagonist, for type 2 diabetes: a phase 2 study. <em>The Lancet</em>. 2023;402(10415):1394-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901822-6">doi:10.1016/S0140-6736(23)01822-6</a>
   - Pocai A, Carrington PE, Adams JR, et al.
 
-Glucagon-like peptide 1/glucagon receptor dual agonism reverses obesity in mice. <em>Cell Metabolism</em>. 2009;9(5):435-444. doi:10.1016/j.cmet.2009.03.003
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. doi:10.1053/j.gastro.2007.03.054
+Glucagon-like peptide 1/glucagon receptor dual agonism reverses obesity in mice. <em>Cell Metabolism</em>. 2009;9(5):435-444. <a href="https://doi.org/10.1016%2Fj.cmet.2009.03.003">doi:10.1016/j.cmet.2009.03.003</a>
+  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
   - Campbell JE, Drucker DJ.
 
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
+Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
   - Capozzi ME, DiMarchi RD, Tschöp MH, et al.
 
-Multi-receptor peptide agonists for the treatment of metabolic disease. <em>Nature Reviews Endocrinology</em>. 2023;19(8):467-480. doi:10.1038/s41574-023-00856-5
+Multi-receptor peptide agonists for the treatment of metabolic disease. <em>Nature Reviews Endocrinology</em>. 2023;19(8):467-480. <a href="https://doi.org/10.1038%2Fs41574-023-00856-5">doi:10.1038/s41574-023-00856-5</a>
   - Samms RJ, Cody E, Sloop KW, et al.
 
-GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. doi:10.1016/j.molmet.2021.101285
+GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a>
   - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
 
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. doi:10.1056/NEJMoa2206038
-  - Tan T, Bloom SR. Peptide therapeutics for obesity and metabolic disease. <em>Annual Review of Medicine</em>. 2021;72:131-147. doi:10.1146/annurev-med-062319-120332
+Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
+  - Tan T, Bloom SR. Peptide therapeutics for obesity and metabolic disease. <em>Annual Review of Medicine</em>. 2021;72:131-147. <a href="https://doi.org/10.1146%2Fannurev-med-062319-120332">doi:10.1146/annurev-med-062319-120332</a>
   - Finan B, Yang B, Ottaway N, et al.
 
-A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-35. doi:10.1038/nm.3761
+A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-35. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a>
   - Drucker DJ.
 
-Mechanisms of action and therapeutic applications of GLP-1 and dual and triple incretin receptor agonists. <em>Nature Reviews Endocrinology</em>. 2024;20(1):23-38. doi:10.1038/s41574-023-00908-w
+Mechanisms of action and therapeutic applications of GLP-1 and dual and triple incretin receptor agonists. <em>Nature Reviews Endocrinology</em>. 2024;20(1):23-38. <a href="https://doi.org/10.1038%2Fs41574-023-00908-w">doi:10.1038/s41574-023-00908-w</a>
   - Clemmensen C, Finan B, Müller TD, et al.
 
-Emerging hormonal-based combination pharmacotherapies for the treatment of metabolic diseases. <em>Nature Reviews Endocrinology</em>. 2019;15(2):90-104. doi:10.1038/s41574-018-0122-7
+Emerging hormonal-based combination pharmacotherapies for the treatment of metabolic diseases. <em>Nature Reviews Endocrinology</em>. 2019;15(2):90-104. <a href="https://doi.org/10.1038%2Fs41574-018-0122-7">doi:10.1038/s41574-018-0122-7</a>
   - Holst JJ.
 
-The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. doi:10.1080/00365520902871076
-  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. doi:10.1111/dom.13129
+The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a>
+  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
 
 
 </ol>

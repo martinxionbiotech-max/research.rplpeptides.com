@@ -137,96 +137,46 @@ The integration of computational methods, including molecular dynamics simulatio
 
 
 ## Frequently Asked Questions
-  <div class="faq-item">
-<div class="faq-question">
-      What determines the three-dimensional shape of a peptide?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+  <details class="faq-item">
+<summary>What determines the three-dimensional shape of a peptide?</summary>
 A peptide's three-dimensional shape is determined primarily by its amino acid sequence (primary structure), with secondary structure arising from backbone hydrogen bonding (alpha-helices, beta-sheets, turns). Tertiary folding is stabilized by disulfide bonds, hydrophobic interactions, hydrogen bonds, and electrostatic interactions. The sequence encodes all the information necessary for folding, a principle known as the "Anfinsen dogma."
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Why are disulfide bonds important in peptide structure?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Why are disulfide bonds important in peptide structure?</summary>
 Disulfide bonds (covalent links between cysteine residues) constrain peptide conformation into a defined topology, dramatically increasing structural stability. They protect against proteolytic degradation, maintain bioactive conformation, and are essential for the function of numerous peptide hormones, including insulin, somatostatin, and oxytocin. Incorrect disulfide pairing generally leads to loss of biological activity.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is an amphipathic helix?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is an amphipathic helix?</summary>
 An amphipathic helix is an alpha-helix with hydrophobic amino acids concentrated on one face and hydrophilic (often charged) residues on the opposite face. This structure is critical for membrane interactions — the hydrophobic face inserts into lipid bilayers while the hydrophilic face remains in the aqueous environment. This motif is found in antimicrobial peptides, cell-penetrating peptides, and many peptide hormones.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How does a single amino acid change affect peptide function?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How does a single amino acid change affect peptide function?</summary>
 A single amino acid substitution can dramatically alter peptide function by changing charge, hydrophobicity, size, or conformational preference. For example, oxytocin and vasopressin differ by only two residues (positions 3 and 8) yet oxytocin primarily mediates uterine contraction and milk ejection while vasopressin regulates blood pressure and water balance. Alanine scanning — systematically replacing each residue with alanine — is used to identify residues critical for activity.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the difference between linear and cyclic peptides?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the difference between linear and cyclic peptides?</summary>
 Linear peptides have free N- and C-termini and are flexible in solution, while cyclic peptides have a continuous ring structure (either head-to-tail or via side-chain linkages). Cyclization constrains conformation, often improving metabolic stability (cyclization protects against exopeptidases), enhancing receptor binding affinity, and increasing membrane permeability. Many clinically successful peptides are cyclic or contain disulfide-stabilized loops.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Can peptides form alpha-helices?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Can peptides form alpha-helices?</summary>
 Yes, many peptides can form alpha-helices, particularly when interacting with membranes or receptors. Short peptides (10–20 residues) in solution often exist as a mixture of helical and random coil conformations due to the marginal stability of isolated helices. However, upon binding to their target (membrane or receptor), the helical conformation can be strongly stabilized. Hydrocarbon "stapling" is a technique that covalently stabilizes the helical conformation of peptides.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the role of proline in peptide structure?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the role of proline in peptide structure?</summary>
 Proline is unique among the 20 standard amino acids because its side chain cyclizes back onto the backbone nitrogen, creating a rigid ring that restricts backbone conformation. Proline is often called a "helix breaker" because it cannot donate a hydrogen bond in a regular alpha-helix. It is commonly found in beta-turns and at the start of helices. The cis-trans isomerization of proline peptide bonds can act as a conformational switch in peptide function.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How is peptide structure determined experimentally?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How is peptide structure determined experimentally?</summary>
 Peptide structure is determined primarily by NMR spectroscopy (in solution, providing an ensemble of conformations), X-ray crystallography (crystalline state, providing atomic-resolution coordinates), and circular dichroism (CD) spectroscopy (quick assessment of secondary structure content). Cryo-EM is increasingly used for peptide-receptor complexes. Computational methods including molecular dynamics simulations complement experimental approaches by exploring conformational dynamics.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are beta-turns and why are they important?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are beta-turns and why are they important?</summary>
 Beta-turns are reverse-turn structures where the peptide backbone folds back approximately 180 degrees over four consecutive residues, stabilized by a hydrogen bond between the CO of residue i and the NH of residue i+3. They are critically important because they allow peptides to adopt compact folded structures despite their short length. Beta-turns often serve as recognition elements in peptide-receptor interactions.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the relationship between peptide flexibility and function?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the relationship between peptide flexibility and function?</summary>
 Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides with multiple disulfide bonds) are highly rigid, which can confer pre-organization for receptor binding but also limited adaptability. Other peptides are highly flexible and fold only upon binding (induced fit), allowing a single sequence to potentially bind multiple targets. Optimal flexibility is context-dependent; therapeutic peptides often balance pre-organization for affinity with conformational adaptability for target engagement.
-</div>
-  </div>
+</details>
 
 
   
@@ -237,23 +187,23 @@ Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides w
 
 
 ## References
-  <ol class="references">
+  <ol class="references
 
 
-  <li id="ref1">Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain. <em>Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. <a href="https://doi.org/10.1073/pnas.37.4.205">https://doi.org/10.1073/pnas.37.4.205</a></li>
-  <li id="ref2">Pauling, L., & Corey, R. B. (1951). Configurations of polypeptide chains with favored orientations around single bonds: two new pleated sheets. <em>Proceedings of the National Academy of Sciences</em>, 37(11), 729–740. <a href="https://doi.org/10.1073/pnas.37.11.729">https://doi.org/10.1073/pnas.37.11.729</a></li>
-  <li id="ref3">Kaiser, E. T., & Kézdy, F. J. (1984). Amphiphilic secondary structure: design of peptide hormones. <em>Science</em>, 223(4633), 249–255. <a href="https://doi.org/10.1126/science.6322295">https://doi.org/10.1126/science.6322295</a></li>
-  <li id="ref4">Milner-White, E. J., & Poet, R. (1987). Loops, bulges, turns and hairpins in proteins. <em>Trends in Biochemical Sciences</em>, 12, 189–192. <a href="https://doi.org/10.1016/0968-0004(87">https://doi.org/10.1016/0968-0004(87)90091-0</a>90091-0)</li>
-  <li id="ref5">Rizo, J., & Gierasch, L. M. (1992). Constrained peptides: models of bioactive peptides and protein substructures. <em>Annual Review of Biochemistry</em>, 61, 387–418. <a href="https://doi.org/10.1146/annurev.bi.61.070192.002131">https://doi.org/10.1146/annurev.bi.61.070192.002131</a></li>
-  <li id="ref6">Kuliopulos, A., Nelson, D., & Walsh, C. T. (1994). Alanine scanning mutagenesis of parathyroid hormone: mapping the receptor-binding interface. <em>Biochemistry</em>, 33(32), 9591–9599. <a href="https://doi.org/10.1021/bi00198a028">https://doi.org/10.1021/bi00198a028</a></li>
-  <li id="ref7">Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. <em>Science</em>, 181(4096), 223–230. <a href="https://doi.org/10.1126/science.181.4096.223">https://doi.org/10.1126/science.181.4096.223</a></li>
-  <li id="ref8">Madison, V., & Kopple, K. D. (1980). Solvent-dependent conformational distributions of some dipeptides. <em>Journal of the American Chemical Society</em>, 102(15), 4855–4863. <a href="https://doi.org/10.1021/ja00535a009">https://doi.org/10.1021/ja00535a009</a></li>
-  <li id="ref9">Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. <em>Advances in Protein Chemistry</em>, 34, 167–339. <a href="https://doi.org/10.1016/S0065-3233(08">https://doi.org/10.1016/S0065-3233(08)60520-3</a>60520-3)</li>
-  <li id="ref10">Schafmeister, C. E., Po, J., & Verdine, G. L. (2000). An all-hydrocarbon cross-linking system for enhancing the helicity and metabolic stability of peptides. <em>Journal of the American Chemical Society</em>, 122(24), 5891–5892. <a href="https://doi.org/10.1021/ja000563a">https://doi.org/10.1021/ja000563a</a></li>
-  <li id="ref11">Johnson, W. C. Jr. (1990). Protein secondary structure and circular dichroism: a practical guide. <em>Proteins: Structure, Function, and Genetics</em>, 7(3), 205–214. <a href="https://doi.org/10.1002/prot.340070302">https://doi.org/10.1002/prot.340070302</a></li>
-  <li id="ref12">Dyson, H. J., & Wright, P. E. (2002). Coupling of folding and binding for unstructured proteins. <em>Current Opinion in Structural Biology</em>, 12(1), 54–60. <a href="https://doi.org/10.1016/S0959-440X(02">https://doi.org/10.1016/S0959-440X(02)00289-0</a>00289-0)</li>
-  <li id="ref13">Wüthrich, K. (1989). Protein structure determination in solution by nuclear magnetic resonance spectroscopy. <em>Science</em>, 243(4887), 45–50. <a href="https://doi.org/10.1126/science.2911719">https://doi.org/10.1126/science.2911719</a></li>
-  <li id="ref14">Kabsch, W., & Sander, C. (1983). Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. <em>Biopolymers</em>, 22(12), 2577–2637. <a href="https://doi.org/10.1002/bip.360221211">https://doi.org/10.1002/bip.360221211</a></li>
+  <li id="ref1Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: two hydrogen-bonded helical configurations of the polypeptide chain. <em>Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. https://doi.org/10.1073/pnas.37.4.205</li>
+  <li id="ref2Pauling, L., & Corey, R. B. (1951). Configurations of polypeptide chains with favored orientations around single bonds: two new pleated sheets. <em>Proceedings of the National Academy of Sciences</em>, 37(11), 729–740. https://doi.org/10.1073/pnas.37.11.729</li>
+  <li id="ref3Kaiser, E. T., & Kézdy, F. J. (1984). Amphiphilic secondary structure: design of peptide hormones. <em>Science</em>, 223(4633), 249–255. https://doi.org/10.1126/science.6322295</li>
+  <li id="ref4Milner-White, E. J., & Poet, R. (1987). Loops, bulges, turns and hairpins in proteins. <em>Trends in Biochemical Sciences</em>, 12, 189–192. https://doi.org/10.1016/0968-0004(87)90091-090091-0)</li>
+  <li id="ref5Rizo, J., & Gierasch, L. M. (1992). Constrained peptides: models of bioactive peptides and protein substructures. <em>Annual Review of Biochemistry</em>, 61, 387–418. https://doi.org/10.1146/annurev.bi.61.070192.002131</li>
+  <li id="ref6Kuliopulos, A., Nelson, D., & Walsh, C. T. (1994). Alanine scanning mutagenesis of parathyroid hormone: mapping the receptor-binding interface. <em>Biochemistry</em>, 33(32), 9591–9599. https://doi.org/10.1021/bi00198a028</li>
+  <li id="ref7Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. <em>Science</em>, 181(4096), 223–230. https://doi.org/10.1126/science.181.4096.223</li>
+  <li id="ref8Madison, V., & Kopple, K. D. (1980). Solvent-dependent conformational distributions of some dipeptides. <em>Journal of the American Chemical Society</em>, 102(15), 4855–4863. https://doi.org/10.1021/ja00535a009</li>
+  <li id="ref9Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. <em>Advances in Protein Chemistry</em>, 34, 167–339. https://doi.org/10.1016/S0065-3233(08)60520-360520-3)</li>
+  <li id="ref10Schafmeister, C. E., Po, J., & Verdine, G. L. (2000). An all-hydrocarbon cross-linking system for enhancing the helicity and metabolic stability of peptides. <em>Journal of the American Chemical Society</em>, 122(24), 5891–5892. https://doi.org/10.1021/ja000563a</li>
+  <li id="ref11Johnson, W. C. Jr. (1990). Protein secondary structure and circular dichroism: a practical guide. <em>Proteins: Structure, Function, and Genetics</em>, 7(3), 205–214. https://doi.org/10.1002/prot.340070302</li>
+  <li id="ref12Dyson, H. J., & Wright, P. E. (2002). Coupling of folding and binding for unstructured proteins. <em>Current Opinion in Structural Biology</em>, 12(1), 54–60. https://doi.org/10.1016/S0959-440X(02)00289-000289-0)</li>
+  <li id="ref13Wüthrich, K. (1989). Protein structure determination in solution by nuclear magnetic resonance spectroscopy. <em>Science</em>, 243(4887), 45–50. https://doi.org/10.1126/science.2911719</li>
+  <li id="ref14Kabsch, W., & Sander, C. (1983). Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. <em>Biopolymers</em>, 22(12), 2577–2637. https://doi.org/10.1002/bip.360221211</li>
 
 
 </ol>

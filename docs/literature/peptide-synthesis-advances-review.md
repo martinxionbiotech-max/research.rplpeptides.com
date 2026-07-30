@@ -140,38 +140,38 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>How does microwave irradiation accelerate SPPS?</h3>
-    Microwave energy causes rapid, uniform dielectric heating of the polar reaction mixture, increasing the kinetic energy of reactants. This accelerates both the deprotection (Fmoc removal by piperidine) and amide bond formation steps, reducing typical reaction times by 60–90%.
-  </div>
-  <div class="faq-item">
-    <h3>Does microwave SPPS increase racemization?</h3>
-    Controlled microwave SPPS with proper temperature management (<80°C for couplings, fiber-optic monitoring) limits racemization to levels comparable to room-temperature synthesis. The risk is sequence-dependent: cysteine, histidine, and aspartic acid are most susceptible.
-  </div>
-  <div class="faq-item">
-    <h3>What is the main advantage of flow peptide synthesis?</h3>
-    Flow synthesis reduces per-cycle time from ~45 minutes (conventional batch) to 40–90 seconds, enabling synthesis of a 50-residue peptide in under 2 hours. It also reduces solvent consumption by 80–90% and uses higher reagent excess for improved coupling efficiency.
-  </div>
-  <div class="faq-item">
-    <h3>What size of peptides can NCL assemble?</h3>
-    NCL enables assembly of proteins in the range of 100–300 residues, with the theoretical limit determined by the number of ligation sites and the handling efficiency of intermediate segments. Canonical proteins up to ~25 kDa have been chemically synthesized.
-  </div>
-  <div class="faq-item">
-    <h3>What green solvents are replacing DMF in peptide synthesis?</h3>
-    Promising DMF alternatives include 2-methyltetrahydrofuran (2-MeTHF), N-butylpyrrolidinone (NBP), dimethyl carbonate, diethyl carbonate, cyclopentyl methyl ether (CPME), and propylene carbonate. 2-MeTHF has advanced the furthest in practical implementation.
-  </div>
-  <div class="faq-item">
-    <h3>Can SPPS incorporate non-canonical amino acids?</h3>
-    Yes. SPPS is inherently compatible with non-canonical amino acids, including D-amino acids, N-methyl amino acids, β-amino acids, and side-chain-modified residues. The main consideration is the availability and cost of suitably protected versions of these building blocks.
-  </div>
-  <div class="faq-item">
-    <h3>How does enzymatic peptide synthesis work?</h3>
-    Enzymatic synthesis uses proteases or ligases under conditions where peptide bond formation (thermodynamically or kinetically controlled) is favored over hydrolysis. This often requires organic co-solvents, low water activity, or engineered enzymes. The approach offers stereospecificity and mild conditions.
-  </div>
-  <div class="faq-item">
-    <h3>What are the main coupling reagents used in modern SPPS?</h3>
-    Onium salt-based reagents dominate: HBTU, HATU, HCTU, PyBOP, and COMU are widely used. HATU is preferred for difficult couplings due to higher reactivity, while COMU offers improved solubility and stability. Carbodiimide-based activation (DIC with HOBt or Oxyma) is common in automated synthesis.
-  </div>
+<details class="faq-item">
+<summary>How does microwave irradiation accelerate SPPS?</summary>
+Microwave energy causes rapid, uniform dielectric heating of the polar reaction mixture, increasing the kinetic energy of reactants. This accelerates both the deprotection (Fmoc removal by piperidine) and amide bond formation steps, reducing typical reaction times by 60–90%.
+</details>
+<details class="faq-item">
+<summary>Does microwave SPPS increase racemization?</summary>
+Controlled microwave SPPS with proper temperature management (<80°C for couplings, fiber-optic monitoring) limits racemization to levels comparable to room-temperature synthesis. The risk is sequence-dependent: cysteine, histidine, and aspartic acid are most susceptible.
+</details>
+<details class="faq-item">
+<summary>What is the main advantage of flow peptide synthesis?</summary>
+Flow synthesis reduces per-cycle time from ~45 minutes (conventional batch) to 40–90 seconds, enabling synthesis of a 50-residue peptide in under 2 hours. It also reduces solvent consumption by 80–90% and uses higher reagent excess for improved coupling efficiency.
+</details>
+<details class="faq-item">
+<summary>What size of peptides can NCL assemble?</summary>
+NCL enables assembly of proteins in the range of 100–300 residues, with the theoretical limit determined by the number of ligation sites and the handling efficiency of intermediate segments. Canonical proteins up to ~25 kDa have been chemically synthesized.
+</details>
+<details class="faq-item">
+<summary>What green solvents are replacing DMF in peptide synthesis?</summary>
+Promising DMF alternatives include 2-methyltetrahydrofuran (2-MeTHF), N-butylpyrrolidinone (NBP), dimethyl carbonate, diethyl carbonate, cyclopentyl methyl ether (CPME), and propylene carbonate. 2-MeTHF has advanced the furthest in practical implementation.
+</details>
+<details class="faq-item">
+<summary>Can SPPS incorporate non-canonical amino acids?</summary>
+Yes. SPPS is inherently compatible with non-canonical amino acids, including D-amino acids, N-methyl amino acids, β-amino acids, and side-chain-modified residues. The main consideration is the availability and cost of suitably protected versions of these building blocks.
+</details>
+<details class="faq-item">
+<summary>How does enzymatic peptide synthesis work?</summary>
+Enzymatic synthesis uses proteases or ligases under conditions where peptide bond formation (thermodynamically or kinetically controlled) is favored over hydrolysis. This often requires organic co-solvents, low water activity, or engineered enzymes. The approach offers stereospecificity and mild conditions.
+</details>
+<details class="faq-item">
+<summary>What are the main coupling reagents used in modern SPPS?</summary>
+Onium salt-based reagents dominate: HBTU, HATU, HCTU, PyBOP, and COMU are widely used. HATU is preferred for difficult couplings due to higher reactivity, while COMU offers improved solubility and stability. Carbodiimide-based activation (DIC with HOBt or Oxyma) is common in automated synthesis.
+</details>
 </div>
 
 !!! info ""
@@ -179,18 +179,18 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
-  <li id="ref2">Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
-  <li id="ref3">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
-  <li id="ref4">Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
-  <li id="ref5">Mijalis AJ, Thomas DA III, Simon MD, et al. A fully automated flow-based approach for accelerated peptide synthesis. <em>Nat Chem Biol</em>. 2017;13(5):464-466.</li>
-  <li id="ref6">Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779.</li>
-  <li id="ref7">Inoue K, Albericio F. Greening peptide synthesis: Towards more sustainable peptide manufacturing. <em>Green Chem</em>. 2020;22(11):3534-3548.</li>
-  <li id="ref8">Alhassan M, Ojeda R, Kelly JW, et al. Advances in chemical ligation strategies for the synthesis of proteins. <em>Chem Rev</em>. 2020;120(11):5261-5347.</li>
-  <li id="ref9">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
-  <li id="ref10">Mäde V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis: from Merrifield to the 21st century. <em>J Pept Sci</em>. 2014;20(7):500-515.</li>
-  <li id="ref11">Pápai G, Roy N, Bárány G. Racemization in peptide synthesis: An overview. <em>J Pept Sci</em>. 2018;24(12):e3137.</li>
-  <li id="ref12">Lundberg H, Tinnis F, Selander N, Adolfsson H. Catalytic amide formation from non-activated carboxylic acids and amines. <em>Chem Soc Rev</em>. 2014;43(8):2714-2742.</li>
-  <li id="ref13">Yi S, Zheng B, Wang Y, et al. Recent advances in enzymatic peptide synthesis. <em>Bioorg Med Chem</em>. 2019;27(13):2817-2825.</li>
+<ol class="references
+  <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
+  <li id="ref2Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
+  <li id="ref3Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
+  <li id="ref4Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
+  <li id="ref5Mijalis AJ, Thomas DA III, Simon MD, et al. A fully automated flow-based approach for accelerated peptide synthesis. <em>Nat Chem Biol</em>. 2017;13(5):464-466.</li>
+  <li id="ref6Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779.</li>
+  <li id="ref7Inoue K, Albericio F. Greening peptide synthesis: Towards more sustainable peptide manufacturing. <em>Green Chem</em>. 2020;22(11):3534-3548.</li>
+  <li id="ref8Alhassan M, Ojeda R, Kelly JW, et al. Advances in chemical ligation strategies for the synthesis of proteins. <em>Chem Rev</em>. 2020;120(11):5261-5347.</li>
+  <li id="ref9El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
+  <li id="ref10Mäde V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis: from Merrifield to the 21st century. <em>J Pept Sci</em>. 2014;20(7):500-515.</li>
+  <li id="ref11Pápai G, Roy N, Bárány G. Racemization in peptide synthesis: An overview. <em>J Pept Sci</em>. 2018;24(12):e3137.</li>
+  <li id="ref12Lundberg H, Tinnis F, Selander N, Adolfsson H. Catalytic amide formation from non-activated carboxylic acids and amines. <em>Chem Soc Rev</em>. 2014;43(8):2714-2742.</li>
+  <li id="ref13Yi S, Zheng B, Wang Y, et al. Recent advances in enzymatic peptide synthesis. <em>Bioorg Med Chem</em>. 2019;27(13):2817-2825.</li>
 </ol>

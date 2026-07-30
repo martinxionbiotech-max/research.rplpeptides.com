@@ -78,64 +78,48 @@ For researchers conducting purity studies, the [RPL Peptides Research Tools](htt
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What is the difference between chemical purity and peptide content?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Chemical purity (measured by HPLC area normalization) reflects the percentage of the target peptide relative to all UV-absorbing components. Peptide content (measured by amino acid analysis) reflects the actual mass of peptide in a sample, accounting for water, salts, and counter-ions that contribute to the total mass.</div>
+<details class="faq-item">
+<summary>What is the difference between chemical purity and peptide content?</summary>
+Chemical purity (measured by HPLC area normalization) reflects the percentage of the target peptide relative to all UV-absorbing components. Peptide content (measured by amino acid analysis) reflects the actual mass of peptide in a sample, accounting for water, salts, and counter-ions that contribute to the total mass.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What are the most common peptide synthesis impurities?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">The most common impurities in SPPS include deletion sequences (missing amino acids due to incomplete coupling), truncation products (from incomplete deprotection), epimerization products (D-amino acid isomers), oxidation products (especially methionine and tryptophan oxidation), and diketopiperazine formation during Fmoc deprotection.</div>
+<details class="faq-item">
+<summary>What purity level is acceptable for research peptides?</summary>
+For most research applications, peptide purity of &ge;95% is considered acceptable. For definitive biological studies or pharmacological investigations, &ge;98% purity is preferred. Pharmaceutical development requires &ge;98% with individual impurities below specified ICH thresholds (&le;1.0% for &ge;0.1% reporting threshold).
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What purity level is acceptable for research peptides?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">For most research applications, peptide purity of &ge;95% is considered acceptable. For definitive biological studies or pharmacological investigations, &ge;98% purity is preferred. Pharmaceutical development requires &ge;98% with individual impurities below specified ICH thresholds (&le;1.0% for &ge;0.1% reporting threshold).</div>
+<details class="faq-item">
+<summary>Why is capillary electrophoresis useful for peptide purity testing?</summary>
+CE separates peptides based on their charge-to-size ratio, providing orthogonal selectivity to RP-HPLC. It is particularly effective at resolving charge variants, deamidation products, and impurities that co-elute by HPLC, making it a valuable orthogonal method for comprehensive impurity profiling.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How is peptide content determined quantitatively?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Amino acid analysis (AAA) determines peptide content by hydrolyzing the peptide (6 M HCl, 110 °C, 24 h), separating and quantifying the released amino acids, and calculating the molar amount of peptide from the recovered amino acids. An internal standard such as norleucine is used for quantification.</div>
+<details class="faq-item">
+<summary>What is a stability-indicating HPLC method?</summary>
+A stability-indicating method is validated to resolve the target peptide from all degradation products generated under forced degradation conditions (acid, base, heat, photolysis, oxidation). It ensures that the method accurately tracks purity loss during stability studies rather than underestimating degradation due to co-elution.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Why is capillary electrophoresis useful for peptide purity testing?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">CE separates peptides based on their charge-to-size ratio, providing orthogonal selectivity to RP-HPLC. It is particularly effective at resolving charge variants, deamidation products, and impurities that co-elute by HPLC, making it a valuable orthogonal method for comprehensive impurity profiling.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How are disulfide bond variants detected during purity testing?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Disulfide bond variants (mismatched or scrambled disulfides) are detected by LC-MS as a &minus;2 Da shift per disulfide bond relative to the reduced peptide. Isomers with different disulfide connectivity patterns may require enzymatic digestion followed by MS/MS mapping for definitive assignment.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is a stability-indicating HPLC method?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">A stability-indicating method is validated to resolve the target peptide from all degradation products generated under forced degradation conditions (acid, base, heat, photolysis, oxidation). It ensures that the method accurately tracks purity loss during stability studies rather than underestimating degradation due to co-elution.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What role does residual TFA play in peptide purity assessment?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Residual trifluoroacetic acid (TFA) from HPLC purification contributes significantly to the total mass of lyophilized peptides, typically comprising 5–15% of the total mass. The Ph. Eur. requires quantification of TFA content (by ion chromatography or <sup>19</sup>F NMR) to accurately determine peptide content.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Can HPLC purity at 214 nm overestimate actual peptide purity?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Yes. Impurities lacking strong UV absorbance at 214 nm (e.g., non-peptide contaminants, salts, residual solvents, or peptides with few aromatic residues) may contribute proportionally less to the total peak area, leading to overestimation. Comprehensive purity assessment requires orthogonal methods including LC-MS and AAA.</div>
-  </div>
-</div>
-
-!!! info ""
+<details class="faq-item">
+<summary>Can HPLC purity at 214 nm overestimate actual peptide purity?</summary>
+Yes. Impurities lacking strong UV absorbance at 214 nm (e.g., non-peptide contaminants, salts, residual solvents, or peptides with few aromatic residues) may contribute proportionally less to the total peak area, leading to overestimation. Comprehensive purity assessment requires orthogonal methods including LC-MS and AAA.
+</details>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">D'Hondt M, Bracke N, Taevernier L, et al. Related impurities in peptide medicines. <em>J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
-  <li id="ref2">Bracke N, Wynendaele E, D'Hondt M, et al. Impurity profiling of therapeutic peptides by liquid chromatography. <em>TrAC Trends Anal Chem</em>. 2015;72:13-24.</li>
-  <li id="ref3">Kaschak T, Hines K, DeLorenzo RA, Matz J. Characterization of peptide impurities by LC-MS/MS. <em>J Pept Sci</em>. 2011;17(5):367-374.</li>
-  <li id="ref4">Zhao Y, Dong Y, Hu X, et al. Capillary electrophoresis in the analysis of therapeutic peptides. <em>Electrophoresis</em>. 2018;39(15):1856-1872.</li>
-  <li id="ref5">Ernst T, O'Connell M, Dugan C, Heller M, Patel B. Amino acid analysis of peptide pharmaceuticals. <em>J Pharm Biomed Anal</em>. 2015;108:108-117.</li>
-  <li id="ref6">Kostelc JG. The analytical control of peptide impurities in GMP manufacturing. <em>Pharm Technol</em>. 2013;37(5):60-66.</li>
-  <li id="ref7">Mergler M, Dick F, Sax B, Weiler P, Scheffler R. Cost-effective and economic large-scale peptide synthesis. <em>Chim Oggi</em>. 2003;21(2):26-30.</li>
-  <li id="ref8">International Conference on Harmonisation. ICH Q2(R1): Validation of Analytical Procedures: Text and Methodology. 2005.</li>
-  <li id="ref9">Riter LS, Vitek O, Gooding KM, Hodge BD, Julian RK. Statistical design of experiments as a tool in mass spectrometry. <em>J Mass Spectrom</em>. 2005;40(5):565-579.</li>
-  <li id="ref10">Birdsall RE, Koshel BM, Hua Y, et al. Development of a 2D-LC-UV-MS method for the analysis of therapeutic peptides. <em>J Chromatogr B</em>. 2019;1120:25-34.</li>
+  <li id="ref1D'Hondt M, Bracke N, Taevernier L, et al. Related impurities in peptide medicines. <em>J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
+  <li id="ref2Bracke N, Wynendaele E, D'Hondt M, et al. Impurity profiling of therapeutic peptides by liquid chromatography. <em>TrAC Trends Anal Chem</em>. 2015;72:13-24.</li>
+  <li id="ref3Kaschak T, Hines K, DeLorenzo RA, Matz J. Characterization of peptide impurities by LC-MS/MS. <em>J Pept Sci</em>. 2011;17(5):367-374.</li>
+  <li id="ref4Zhao Y, Dong Y, Hu X, et al. Capillary electrophoresis in the analysis of therapeutic peptides. <em>Electrophoresis</em>. 2018;39(15):1856-1872.</li>
+  <li id="ref5Ernst T, O'Connell M, Dugan C, Heller M, Patel B. Amino acid analysis of peptide pharmaceuticals. <em>J Pharm Biomed Anal</em>. 2015;108:108-117.</li>
+  <li id="ref6Kostelc JG. The analytical control of peptide impurities in GMP manufacturing. <em>Pharm Technol</em>. 2013;37(5):60-66.</li>
+  <li id="ref7Mergler M, Dick F, Sax B, Weiler P, Scheffler R. Cost-effective and economic large-scale peptide synthesis. <em>Chim Oggi</em>. 2003;21(2):26-30.</li>
+  <li id="ref8International Conference on Harmonisation. ICH Q2(R1): Validation of Analytical Procedures: Text and Methodology. 2005.</li>
+  <li id="ref9Riter LS, Vitek O, Gooding KM, Hodge BD, Julian RK. Statistical design of experiments as a tool in mass spectrometry. <em>J Mass Spectrom</em>. 2005;40(5):565-579.</li>
+  <li id="ref10Birdsall RE, Koshel BM, Hua Y, et al. Development of a 2D-LC-UV-MS method for the analysis of therapeutic peptides. <em>J Chromatogr B</em>. 2019;1120:25-34.</li>
 
 
 </ol>

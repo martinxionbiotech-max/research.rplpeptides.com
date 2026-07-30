@@ -125,38 +125,38 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 
 ## FAQ
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Should peptides be stored lyophilized or in solution?</h3>
-    Lyophilized storage is always preferred for long-term stability. Hydrolytic degradation is essentially eliminated in the dry state. Reconstitute only the amount needed for immediate use. Never store a peptide long-term in solution if lyophilized material is available.
-  </div>
-  <div class="faq-item">
-    <h3>How many freeze-thaw cycles can a peptide tolerate?</h3>
-    Most peptides tolerate 3–5 freeze-thaw cycles before significant degradation occurs. To maximize stability, aliquot into single-use portions. Include cryoprotectants (trehalose, sucrose) for sensitive peptides.
-  </div>
-  <div class="faq-item">
-    <h3>Why does my peptide precipitate after thawing?</h3>
-    Precipitation upon thawing indicates aggregation during freeze-thaw. This is often caused by hydrophobic peptides or inappropriate buffer composition. Try adding a small amount (1–10%) of organic co-solvent (acetonitrile, DMSO), adjusting pH away from the pI, or adding a chaotropic agent.
-  </div>
-  <div class="faq-item">
-    <h3>What is the best solvent for reconstituting peptides?</h3>
-    Sterile water or PBS (pH 7.4) is suitable for most peptides. For hydrophobic peptides, 0.1% TFA in water, 10–30% acetonitrile/water, or dilute acetic acid (10–50% v/v) may be necessary to achieve complete dissolution. Avoid DMSO unless absolutely necessary, as it can oxidize Met and Cys residues.
-  </div>
-  <div class="faq-item">
-    <h3>Do peptides degrade at −80°C?</h3>
-    At −80°C, most chemical degradation pathways are kinetically arrested. Lyophilized peptides at −80°C typically degrade at <1% per year. Even in solution, −80°C provides excellent stability for most peptides for weeks to months.
-  </div>
-  <div class="faq-item">
-    <h3>How can I detect peptide degradation?</h3>
-    RP-HPLC with UV detection (214 nm) reveals new peaks corresponding to degradation products. Mass spectrometry identifies the modification (e.g., +16 Da for oxidation, −1 Da for deamidation, +18 Da for hydrolysis). Biological activity assays confirm whether degradation affects function.
-  </div>
-  <div class="faq-item">
-    <h3>Should I store peptides with desiccant?</h3>
-    Yes. Lyophilized peptides are hygroscopic. Storing a sealed vial with molecular sieve (3 Å) or silica gel desiccant prevents moisture absorption that would otherwise initiate degradation reactions.
-  </div>
-  <div class="faq-item">
-    <h3>Does light exposure affect peptide stability?</h3>
-    Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, Phe, Cys, Met). UV and fluorescent light can catalyze oxidation. Store peptides in amber vials or opaque containers, and minimize light exposure during handling.
-  </div>
+<details class="faq-item">
+<summary>Should peptides be stored lyophilized or in solution?</summary>
+Lyophilized storage is always preferred for long-term stability. Hydrolytic degradation is essentially eliminated in the dry state. Reconstitute only the amount needed for immediate use. Never store a peptide long-term in solution if lyophilized material is available.
+</details>
+<details class="faq-item">
+<summary>How many freeze-thaw cycles can a peptide tolerate?</summary>
+Most peptides tolerate 3–5 freeze-thaw cycles before significant degradation occurs. To maximize stability, aliquot into single-use portions. Include cryoprotectants (trehalose, sucrose) for sensitive peptides.
+</details>
+<details class="faq-item">
+<summary>Why does my peptide precipitate after thawing?</summary>
+Precipitation upon thawing indicates aggregation during freeze-thaw. This is often caused by hydrophobic peptides or inappropriate buffer composition. Try adding a small amount (1–10%) of organic co-solvent (acetonitrile, DMSO), adjusting pH away from the pI, or adding a chaotropic agent.
+</details>
+<details class="faq-item">
+<summary>What is the best solvent for reconstituting peptides?</summary>
+Sterile water or PBS (pH 7.4) is suitable for most peptides. For hydrophobic peptides, 0.1% TFA in water, 10–30% acetonitrile/water, or dilute acetic acid (10–50% v/v) may be necessary to achieve complete dissolution. Avoid DMSO unless absolutely necessary, as it can oxidize Met and Cys residues.
+</details>
+<details class="faq-item">
+<summary>Do peptides degrade at −80°C?</summary>
+At −80°C, most chemical degradation pathways are kinetically arrested. Lyophilized peptides at −80°C typically degrade at <1% per year. Even in solution, −80°C provides excellent stability for most peptides for weeks to months.
+</details>
+<details class="faq-item">
+<summary>How can I detect peptide degradation?</summary>
+RP-HPLC with UV detection (214 nm) reveals new peaks corresponding to degradation products. Mass spectrometry identifies the modification (e.g., +16 Da for oxidation, −1 Da for deamidation, +18 Da for hydrolysis). Biological activity assays confirm whether degradation affects function.
+</details>
+<details class="faq-item">
+<summary>Should I store peptides with desiccant?</summary>
+Yes. Lyophilized peptides are hygroscopic. Storing a sealed vial with molecular sieve (3 Å) or silica gel desiccant prevents moisture absorption that would otherwise initiate degradation reactions.
+</details>
+<details class="faq-item">
+<summary>Does light exposure affect peptide stability?</summary>
+Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, Phe, Cys, Met). UV and fluorescent light can catalyze oxidation. Store peptides in amber vials or opaque containers, and minimize light exposure during handling.
+</details>
 </div>
 
 !!! info ""
@@ -164,13 +164,13 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Oliyai C, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Res</em>. 1994;11(6):751-758.</li>
-  <li id="ref2">Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
-  <li id="ref3">Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
-  <li id="ref4">Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>
-  <li id="ref5">Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
-  <li id="ref6">Lundberg P, Griffin S, Ghosh P. Stability of peptide drugs in biological matrices. <em>Anal Biochem</em>. 2014;455:35-42.</li>
-  <li id="ref7">Jensen SS, Jensen KJ. Peptide stability and degradation. In: Peptide and Protein Design for Biopharmaceutical Applications. Wiley; 2009.</li>
-  <li id="ref8">Brange J, Langkjær L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
+<ol class="references
+  <li id="ref1Oliyai C, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Res</em>. 1994;11(6):751-758.</li>
+  <li id="ref2Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
+  <li id="ref3Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
+  <li id="ref4Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>
+  <li id="ref5Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
+  <li id="ref6Lundberg P, Griffin S, Ghosh P. Stability of peptide drugs in biological matrices. <em>Anal Biochem</em>. 2014;455:35-42.</li>
+  <li id="ref7Jensen SS, Jensen KJ. Peptide stability and degradation. In: Peptide and Protein Design for Biopharmaceutical Applications. Wiley; 2009.</li>
+  <li id="ref8Brange J, Langkjær L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
 </ol>

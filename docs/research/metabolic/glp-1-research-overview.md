@@ -86,46 +86,46 @@ Current research is investigating whether combination approaches—including GLP
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is GLP-1 and where is it produced?</h3>
-    GLP-1 (glucagon-like peptide-1) is a 30/31-amino acid incretin hormone produced primarily by intestinal L-cells in the distal small intestine and colon. It is also produced in the brainstem, where it functions as a neuropeptide regulating appetite and energy balance.
-  </div>
-  <div class="faq-item">
-    <h3>How does GLP-1 stimulate insulin secretion?</h3>
-    GLP-1 binds to the GLP-1 receptor on pancreatic beta cells, activating Gαs-mediated cAMP production. This signaling cascade potentiates glucose-stimulated insulin secretion through PKA and EPAC pathways, enhancing calcium mobilization and insulin granule exocytosis. Crucially, this effect is glucose-dependent.
-  </div>
-  <div class="faq-item">
-    <h3>Why is native GLP-1 not suitable as a therapeutic agent?</h3>
-    Native GLP-1 is rapidly degraded by the enzyme DPP-4, resulting in a plasma half-life of less than 2 minutes. This extremely short half-life renders native GLP-1 impractical for therapeutic use, motivating the development of DPP-4-resistant analogs.
-  </div>
-  <div class="faq-item">
-    <h3>What are the main GLP-1 receptor agonists used in research?</h3>
-    The principal GLP-1 receptor agonists include exenatide (derived from exendin-4), liraglutide (a fatty-acid acylated human GLP-1 analog), and semaglutide (a long-acting analog with once-weekly dosing available in both injectable and oral formulations).
-  </div>
-  <div class="faq-item">
-    <h3>Does GLP-1 affect body weight?</h3>
-    Yes. GLP-1 receptor agonists consistently reduce body weight through central mechanisms promoting satiety and reducing food intake, as well as peripheral effects on gastric emptying and energy expenditure. Semaglutide 2.4 mg produces mean weight reductions of approximately 15% in individuals with obesity.
-  </div>
-  <div class="faq-item">
-    <h3>What cardiovascular effects has GLP-1 research demonstrated?</h3>
-    GLP-1 receptor agonists reduce major adverse cardiovascular events, with semaglutide showing a 26% reduction in the composite cardiovascular endpoint in patients with type 2 diabetes. These effects appear to involve both direct cardioprotective mechanisms and improvements in cardiometabolic risk factors.
-  </div>
-  <div class="faq-item">
-    <h3>What is the role of GLP-1 in non-alcoholic steatohepatitis (NASH)?</h3>
-    Preclinical and clinical studies suggest that GLP-1 receptor agonists reduce hepatic steatosis, inflammation, and fibrosis, making them a subject of active investigation for NASH treatment. Semaglutide has shown beneficial effects on NASH resolution in phase 2 clinical trials.
-  </div>
-  <div class="faq-item">
-    <h3>Are there ongoing research efforts combining GLP-1 with other peptides?</h3>
-    Yes. Multi-receptor agonists combining GLP-1 with GIP, glucagon, and other metabolic peptides represent a major research frontier. Agents such as <a href="https://research.rplpeptides.com/research/metabolic/glp1-gip-dual-agonist/">tirzepatide (GIP/GLP-1 dual agonist)</a> and retatrutide (GIP/GLP-1/glucagon triagonist) demonstrate enhanced metabolic effects compared to GLP-1R agonists alone.
-  </div>
-  <div class="faq-item">
-    <h3>Does GLP-1 have effects in neurodegenerative disease?</h3>
-    Emerging evidence suggests that GLP-1 receptor agonists exert neuroprotective effects through reduced neuroinflammation and improved mitochondrial function. Clinical trials are ongoing in Parkinson's disease and Alzheimer's disease, with early results showing potential cognitive benefits.
-  </div>
-  <div class="faq-item">
-    <h3>What are the limitations of current GLP-1 research?</h3>
-    Current limitations include incomplete understanding of tissue-specific GLP-1 signaling contributions, inconsistent evidence regarding endogenous GLP-1 secretion deficits in type 2 diabetes, gastrointestinal side effects limiting tolerability, and residual uncertainty about long-term effects beyond the 2-5 year trial follow-up windows.
-  </div>
+<details class="faq-item">
+<summary>What is GLP-1 and where is it produced?</summary>
+GLP-1 (glucagon-like peptide-1) is a 30/31-amino acid incretin hormone produced primarily by intestinal L-cells in the distal small intestine and colon. It is also produced in the brainstem, where it functions as a neuropeptide regulating appetite and energy balance.
+</details>
+<details class="faq-item">
+<summary>How does GLP-1 stimulate insulin secretion?</summary>
+GLP-1 binds to the GLP-1 receptor on pancreatic beta cells, activating Gαs-mediated cAMP production. This signaling cascade potentiates glucose-stimulated insulin secretion through PKA and EPAC pathways, enhancing calcium mobilization and insulin granule exocytosis. Crucially, this effect is glucose-dependent.
+</details>
+<details class="faq-item">
+<summary>Why is native GLP-1 not suitable as a therapeutic agent?</summary>
+Native GLP-1 is rapidly degraded by the enzyme DPP-4, resulting in a plasma half-life of less than 2 minutes. This extremely short half-life renders native GLP-1 impractical for therapeutic use, motivating the development of DPP-4-resistant analogs.
+</details>
+<details class="faq-item">
+<summary>What are the main GLP-1 receptor agonists used in research?</summary>
+The principal GLP-1 receptor agonists include exenatide (derived from exendin-4), liraglutide (a fatty-acid acylated human GLP-1 analog), and semaglutide (a long-acting analog with once-weekly dosing available in both injectable and oral formulations).
+</details>
+<details class="faq-item">
+<summary>Does GLP-1 affect body weight?</summary>
+Yes. GLP-1 receptor agonists consistently reduce body weight through central mechanisms promoting satiety and reducing food intake, as well as peripheral effects on gastric emptying and energy expenditure. Semaglutide 2.4 mg produces mean weight reductions of approximately 15% in individuals with obesity.
+</details>
+<details class="faq-item">
+<summary>What cardiovascular effects has GLP-1 research demonstrated?</summary>
+GLP-1 receptor agonists reduce major adverse cardiovascular events, with semaglutide showing a 26% reduction in the composite cardiovascular endpoint in patients with type 2 diabetes. These effects appear to involve both direct cardioprotective mechanisms and improvements in cardiometabolic risk factors.
+</details>
+<details class="faq-item">
+<summary>What is the role of GLP-1 in non-alcoholic steatohepatitis (NASH)?</summary>
+Preclinical and clinical studies suggest that GLP-1 receptor agonists reduce hepatic steatosis, inflammation, and fibrosis, making them a subject of active investigation for NASH treatment. Semaglutide has shown beneficial effects on NASH resolution in phase 2 clinical trials.
+</details>
+<details class="faq-item">
+<summary>Are there ongoing research efforts combining GLP-1 with other peptides?</summary>
+Yes. Multi-receptor agonists combining GLP-1 with GIP, glucagon, and other metabolic peptides represent a major research frontier. Agents such as <a href="https://research.rplpeptides.com/research/metabolic/glp1-gip-dual-agonist/">tirzepatide (GIP/GLP-1 dual agonist)</a> and retatrutide (GIP/GLP-1/glucagon triagonist) demonstrate enhanced metabolic effects compared to GLP-1R agonists alone.
+</details>
+<details class="faq-item">
+<summary>Does GLP-1 have effects in neurodegenerative disease?</summary>
+Emerging evidence suggests that GLP-1 receptor agonists exert neuroprotective effects through reduced neuroinflammation and improved mitochondrial function. Clinical trials are ongoing in Parkinson's disease and Alzheimer's disease, with early results showing potential cognitive benefits.
+</details>
+<details class="faq-item">
+<summary>What are the limitations of current GLP-1 research?</summary>
+Current limitations include incomplete understanding of tissue-specific GLP-1 signaling contributions, inconsistent evidence regarding endogenous GLP-1 secretion deficits in type 2 diabetes, gastrointestinal side effects limiting tolerability, and residual uncertainty about long-term effects beyond the 2-5 year trial follow-up windows.
+</details>
 </div>
 
 !!! info ""
@@ -133,19 +133,19 @@ Current research is investigating whether combination approaches—including GLP
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. doi:10.1016/j.cmet.2006.01.004
-  - Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors in type 2 diabetes. <em>The Lancet</em>. 2006;368(9548):1696-1705. doi:10.1016/S0140-6736(06)69705-5
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. doi:10.1053/j.gastro.2007.03.054
-  - Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiological Reviews</em>. 2007;87(4):1409-1439. doi:10.1152/physrev.00034.2006
-  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. doi:10.1111/dom.13129
-  - Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. doi:10.1056/NEJMoa1607141
-  - Aroda VR, Rosenstock J, Terauchi Y, et al. Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide. <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. doi:10.1016/S2213-8587(17)30085-X
-  - Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
-  - Nauck MA, Homberger E, Siegel EG, et al. Incretin effects of increasing glucose loads in man from the intravenous route. <em>Diabetologia</em>. 1986;29(1):46-52. doi:10.1007/BF02427280
-  - Kreymann B, Williams G, Ghatei MA, Bloom SR. Glucagon-like peptide-1 7-36: a physiological incretin in man. <em>The Lancet</em>. 1987;2(8571):1300-1304. doi:10.1016/S0140-6736(87)91194-9
+  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a>
+  - Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors in type 2 diabetes. <em>The Lancet</em>. 2006;368(9548):1696-1705. <a href="https://doi.org/10.1016%2FS0140-6736%2806%2969705-5">doi:10.1016/S0140-6736(06)69705-5</a>
+  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
+  - Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiological Reviews</em>. 2007;87(4):1409-1439. <a href="https://doi.org/10.1152%2Fphysrev.00034.2006">doi:10.1152/physrev.00034.2006</a>
+  - Nauck MA, Meier JJ. Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
+  - Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a>
+  - Aroda VR, Rosenstock J, Terauchi Y, et al. Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide. <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a>
+  - Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
+  - Nauck MA, Homberger E, Siegel EG, et al. Incretin effects of increasing glucose loads in man from the intravenous route. <em>Diabetologia</em>. 1986;29(1):46-52. <a href="https://doi.org/10.1007%2FBF02427280">doi:10.1007/BF02427280</a>
+  - Kreymann B, Williams G, Ghatei MA, Bloom SR. Glucagon-like peptide-1 7-36: a physiological incretin in man. <em>The Lancet</em>. 1987;2(8571):1300-1304. <a href="https://doi.org/10.1016%2FS0140-6736%2887%2991194-9">doi:10.1016/S0140-6736(87)91194-9</a>
 
 
 </ol>

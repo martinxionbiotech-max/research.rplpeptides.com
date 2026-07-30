@@ -147,38 +147,38 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>How do GLP-1 receptor agonists work at the molecular level?</h3>
-    GLP-1 RAs bind to the GLP-1R (a class B GPCR), activating Gαs-mediated cAMP production, which activates PKA and EPAC signaling cascades. These pathways enhance glucose-stimulated insulin secretion, suppress glucagon, delay gastric emptying, and promote satiety through central and peripheral mechanisms.
-  </div>
-  <div class="faq-item">
-    <h3>What is the difference between GLP-1 RAs and DPP-4 inhibitors?</h3>
-    GLP-1 RAs are exogenous peptides that directly activate the GLP-1 receptor at supraphysiological levels, producing robust effects on glycemia and weight. DPP-4 inhibitors prevent degradation of endogenous GLP-1, yielding modest increases in active GLP-1 levels and more moderate metabolic effects, without weight loss.
-  </div>
-  <div class="faq-item">
-    <h3>Which GLP-1 receptor agonist has the strongest evidence for cardiovascular benefit?</h3>
-    Semaglutide and liraglutide have the most robust cardiovascular outcome trial data. In SUSTAIN-6, semaglutide reduced MACE-3 by 26%, while liraglutide (LEADER trial) showed a 13% reduction. Both demonstrated consistent benefits in patients with type 2 diabetes and established cardiovascular disease.
-  </div>
-  <div class="faq-item">
-    <h3>How does oral semaglutide achieve bioavailability?</h3>
-    Oral semaglutide is co-formulated with the absorption enhancer SNAC, which increases gastric mucosal permeability at the site of absorption. SNAC creates a microenvironment with elevated local pH and increased membrane fluidity, facilitating transcellular absorption of the peptide.
-  </div>
-  <div class="faq-item">
-    <h3>Are GLP-1 receptor agonists associated with pancreatitis risk?</h3>
-    Meta-analyses of randomized trials have not demonstrated a statistically significant increase in pancreatitis risk with GLP-1 RAs compared to placebo. However, isolated case reports have been noted, and current labeling includes a caution about history of pancreatitis.
-  </div>
-  <div class="faq-item">
-    <h3>What weight reductions can be expected with GLP-1 receptor agonists?</h3>
-    In obesity trials, semaglutide 2.4 mg once weekly produced mean weight reductions of ~15% in the STEP program. Liraglutide 3.0 mg (Saxenda) produces mean weight loss of ~8%. The effects are dose-dependent and are enhanced by lifestyle modification.
-  </div>
-  <div class="faq-item">
-    <h3>Do GLP-1 receptor agonists preserve beta cell function?</h3>
-    Preclinical studies consistently demonstrate that GLP-1R activation promotes beta cell survival, reduces apoptosis, and enhances proliferation in rodent models. Human data are more modest: GLP-1 RAs improve measures of beta cell function (HOMA-B, C-peptide) during treatment, but sustained preservation after discontinuation has not been firmly established.
-  </div>
-  <div class="faq-item">
-    <h3>Can GLP-1 receptor agonists be used in type 1 diabetes research?</h3>
-    GLP-1 RAs have been investigated in type 1 diabetes where residual beta cell function remains. Studies have shown reduced insulin requirements, improved glucose variability, and potential benefits on body weight, though they do not replace insulin therapy.
-  </div>
+<details class="faq-item">
+<summary>How do GLP-1 receptor agonists work at the molecular level?</summary>
+GLP-1 RAs bind to the GLP-1R (a class B GPCR), activating Gαs-mediated cAMP production, which activates PKA and EPAC signaling cascades. These pathways enhance glucose-stimulated insulin secretion, suppress glucagon, delay gastric emptying, and promote satiety through central and peripheral mechanisms.
+</details>
+<details class="faq-item">
+<summary>What is the difference between GLP-1 RAs and DPP-4 inhibitors?</summary>
+GLP-1 RAs are exogenous peptides that directly activate the GLP-1 receptor at supraphysiological levels, producing robust effects on glycemia and weight. DPP-4 inhibitors prevent degradation of endogenous GLP-1, yielding modest increases in active GLP-1 levels and more moderate metabolic effects, without weight loss.
+</details>
+<details class="faq-item">
+<summary>Which GLP-1 receptor agonist has the strongest evidence for cardiovascular benefit?</summary>
+Semaglutide and liraglutide have the most robust cardiovascular outcome trial data. In SUSTAIN-6, semaglutide reduced MACE-3 by 26%, while liraglutide (LEADER trial) showed a 13% reduction. Both demonstrated consistent benefits in patients with type 2 diabetes and established cardiovascular disease.
+</details>
+<details class="faq-item">
+<summary>How does oral semaglutide achieve bioavailability?</summary>
+Oral semaglutide is co-formulated with the absorption enhancer SNAC, which increases gastric mucosal permeability at the site of absorption. SNAC creates a microenvironment with elevated local pH and increased membrane fluidity, facilitating transcellular absorption of the peptide.
+</details>
+<details class="faq-item">
+<summary>Are GLP-1 receptor agonists associated with pancreatitis risk?</summary>
+Meta-analyses of randomized trials have not demonstrated a statistically significant increase in pancreatitis risk with GLP-1 RAs compared to placebo. However, isolated case reports have been noted, and current labeling includes a caution about history of pancreatitis.
+</details>
+<details class="faq-item">
+<summary>What weight reductions can be expected with GLP-1 receptor agonists?</summary>
+In obesity trials, semaglutide 2.4 mg once weekly produced mean weight reductions of ~15% in the STEP program. Liraglutide 3.0 mg (Saxenda) produces mean weight loss of ~8%. The effects are dose-dependent and are enhanced by lifestyle modification.
+</details>
+<details class="faq-item">
+<summary>Do GLP-1 receptor agonists preserve beta cell function?</summary>
+Preclinical studies consistently demonstrate that GLP-1R activation promotes beta cell survival, reduces apoptosis, and enhances proliferation in rodent models. Human data are more modest: GLP-1 RAs improve measures of beta cell function (HOMA-B, C-peptide) during treatment, but sustained preservation after discontinuation has not been firmly established.
+</details>
+<details class="faq-item">
+<summary>Can GLP-1 receptor agonists be used in type 1 diabetes research?</summary>
+GLP-1 RAs have been investigated in type 1 diabetes where residual beta cell function remains. Studies have shown reduced insulin requirements, improved glucose variability, and potential benefits on body weight, though they do not replace insulin therapy.
+</details>
 </div>
 
 !!! info ""
@@ -186,20 +186,20 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
-  <li id="ref2">Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
-  <li id="ref3">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
-  <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
-  <li id="ref5">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
-  <li id="ref6">Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
-  <li id="ref7">Aroda VR, Rosenstock J, Terauchi Y, et al. PIONEER 1: Oral semaglutide as monotherapy in type 2 diabetes. <em>Lancet Diabetes Endocrinol</em>. 2019;7(7):515-527.</li>
-  <li id="ref8">Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
-  <li id="ref9">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
-  <li id="ref10">Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
-  <li id="ref11">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
-  <li id="ref12">Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
-  <li id="ref13">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
-  <li id="ref14">Meier JJ. GLP-1 receptor agonists for individualized treatment of type 2 diabetes mellitus. <em>Nat Rev Endocrinol</em>. 2012;8(12):728-742.</li>
-  <li id="ref15">DeFronzo RA. Bromocriptine: a sympatholytic, D2-dopamine agonist for the treatment of type 2 diabetes. <em>Diabetes Care</em>. 2011;34(4):789-794.</li>
+<ol class="references
+  <li id="ref1Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
+  <li id="ref2Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
+  <li id="ref3Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+  <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
+  <li id="ref5Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
+  <li id="ref6Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
+  <li id="ref7Aroda VR, Rosenstock J, Terauchi Y, et al. PIONEER 1: Oral semaglutide as monotherapy in type 2 diabetes. <em>Lancet Diabetes Endocrinol</em>. 2019;7(7):515-527.</li>
+  <li id="ref8Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
+  <li id="ref9Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
+  <li id="ref10Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
+  <li id="ref11Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
+  <li id="ref12Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
+  <li id="ref13Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+  <li id="ref14Meier JJ. GLP-1 receptor agonists for individualized treatment of type 2 diabetes mellitus. <em>Nat Rev Endocrinol</em>. 2012;8(12):728-742.</li>
+  <li id="ref15DeFronzo RA. Bromocriptine: a sympatholytic, D2-dopamine agonist for the treatment of type 2 diabetes. <em>Diabetes Care</em>. 2011;34(4):789-794.</li>
 </ol>

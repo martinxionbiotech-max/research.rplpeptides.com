@@ -128,30 +128,30 @@ Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS an
 
 ## FAQ
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is the maximum peptide length achievable by SPPS?</h3>
-    Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.
-  </div>
-  <div class="faq-item">
-    <h3>What causes difficult sequences in SPPS?</h3>
-    Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.
-  </div>
-  <div class="faq-item">
-    <h3>How do I monitor coupling completion?</h3>
-    The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.
-  </div>
-  <div class="faq-item">
-    <h3>How is crude peptide purified after SPPS?</h3>
-    Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.
-  </div>
-  <div class="faq-item">
-    <h3>What are the most common side reactions in SPPS?</h3>
-    Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.
-  </div>
-  <div class="faq-item">
-    <h3>Which coupling reagent should I use?</h3>
-    For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.
-  </div>
+<details class="faq-item">
+<summary>What is the maximum peptide length achievable by SPPS?</summary>
+Routine SPPS reliably produces peptides up to 50 residues in useful yield. Peptides of 80–100 residues are possible with optimized protocols, microwave assistance, and specialist resins. Longer sequences require NCL or recombinant expression.
+</details>
+<details class="faq-item">
+<summary>What causes difficult sequences in SPPS?</summary>
+Difficult sequences typically involve β-sheet-forming stretches, multiple hydrophobic residues, or aggregation-prone motifs. These cause interchain hydrogen bonding that impedes reagent access to the N-terminus. Strategies include pseudoproline dipeptides, microwave heating, DMSO additives, and backbone N-alkylation.
+</details>
+<details class="faq-item">
+<summary>How do I monitor coupling completion?</summary>
+The Kaiser (ninhydrin) test is the standard colorimetric assay: blue color indicates free amine (incomplete coupling); colorless indicates complete coupling. Chloranil and TNBS tests are alternatives. Automated synthesizers use conductivity or UV monitoring of the deprotection step.
+</details>
+<details class="faq-item">
+<summary>How is crude peptide purified after SPPS?</summary>
+Preparative reversed-phase HPLC is the standard method, using C18 silica columns with water/MeCN gradients (0.1% TFA). Ion-exchange and size-exclusion chromatography are used for specific applications. After purification, peptides are desalted and lyophilized.
+</details>
+<details class="faq-item">
+<summary>What are the most common side reactions in SPPS?</summary>
+Common side reactions include aspartimide formation (Asp-Gly, Asp-Ser), racemization (particularly of Cys, His, and the C-terminal residue), deletion sequences (from incomplete coupling), and oxidation of Met, Cys, and Trp residues during synthesis or cleavage.
+</details>
+<details class="faq-item">
+<summary>Which coupling reagent should I use?</summary>
+For most routine couplings, HBTU/DIEA or DIC/HOBt is adequate. For difficult couplings, HATU, COMU, or DIC/Oxyma is recommended. PyOxim is preferred for sequences prone to aspartimide formation.
+</details>
 </div>
 
 !!! info ""
@@ -159,13 +159,13 @@ Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS an
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
-  <li id="ref2">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>
-  <li id="ref3">Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
-  <li id="ref4">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
-  <li id="ref5">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946.</li>
-  <li id="ref6">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc SPPS. <em>J Pept Sci</em>. 2007;13(3):143-148.</li>
-  <li id="ref7">Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency SPPS with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
-  <li id="ref8">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256.</li>
+<ol class="references
+  <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
+  <li id="ref2Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>
+  <li id="ref3Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
+  <li id="ref4El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
+  <li id="ref5Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946.</li>
+  <li id="ref6Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc SPPS. <em>J Pept Sci</em>. 2007;13(3):143-148.</li>
+  <li id="ref7Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency SPPS with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
+  <li id="ref8Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256.</li>
 </ol>

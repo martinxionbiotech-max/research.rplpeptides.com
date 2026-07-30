@@ -141,42 +141,42 @@ The development of transgenic mouse models expressing humanized receptors (e.g.,
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is the incretin effect?</h3>
-    The incretin effect is the phenomenon where oral glucose ingestion elicits a significantly greater insulin secretory response than intravenous glucose at equivalent plasma glucose levels. Incretin hormones (GLP-1 and GIP) mediate this effect, accounting for 50–70% of postprandial insulin release.
-  </div>
-  <div class="faq-item">
-    <h3>How do GLP-1 and GIP differ in their actions?</h3>
-    GLP-1 suppresses glucagon secretion, delays gastric emptying, and promotes satiety. GIP stimulates glucagon secretion (at normal/low glucose), promotes adipose tissue lipid uptake, and supports bone formation. Both stimulate insulin secretion in a glucose-dependent manner.
-  </div>
-  <div class="faq-item">
-    <h3>Why is GIP less effective in type 2 diabetes?</h3>
-    The insulinotropic effect of GIP is markedly reduced in individuals with type 2 diabetes, a phenomenon attributed to GIP receptor downregulation or desensitization on beta cells. The mechanism may involve chronic hyperglycemia-induced receptor internalization and reduced cAMP generation.
-  </div>
-  <div class="faq-item">
-    <h3>Do GLP-1 and GIP share the same receptor?</h3>
-    No. GLP-1 and GIP each bind to their own distinct class B GPCRs—GLP-1R and GIPR—which share ~40–50% sequence homology in the transmembrane domains but differ substantially in extracellular ligand-binding regions, allowing selective recognition of each incretin.
-  </div>
-  <div class="faq-item">
-    <h3>What cells produce incretin hormones?</h3>
-    GLP-1 is produced by enteroendocrine L-cells localized mainly in the distal ileum and colon. GIP is produced by enteroendocrine K-cells concentrated in the duodenum and proximal jejunum. Both cell types are distributed along the gastrointestinal tract with distinct density profiles.
-  </div>
-  <div class="faq-item">
-    <h3>How quickly are incretin hormones degraded?</h3>
-    Both GLP-1 and GIP are rapidly cleaved by the enzyme DPP-4, which removes the N-terminal dipeptide. Active GLP-1 has a half-life of approximately 1–2 minutes, while active GIP has a slightly longer half-life of about 5–7 minutes.
-  </div>
-  <div class="faq-item">
-    <h3>Can incretin hormones affect bone metabolism?</h3>
-    Yes. GIP receptors are expressed on osteoblasts and osteoclasts, and GIP has been shown to stimulate bone formation markers and inhibit bone resorption in both preclinical and human studies. GLP-1 may also influence bone metabolism, though the effects are less characterized.
-  </div>
-  <div class="faq-item">
-    <h3>What is the role of the incretin system in bariatric surgery outcomes?</h3>
-    Bariatric procedures, particularly Roux-en-Y gastric bypass, dramatically increase postprandial GLP-1 and GIP secretion. This enhanced incretin response is thought to contribute to the rapid glycemic improvement observed after surgery, often preceding significant weight loss.
-  </div>
-  <div class="faq-item">
-    <h3>Are there DPP-4-independent degradation pathways for incretins?</h3>
-    Yes, incretins can also be cleared through renal filtration and degraded by other peptidases including neprilysin (NEP) and insulin-degrading enzyme (IDE). These alternative pathways become more significant when DPP-4 activity is inhibited or saturated.
-  </div>
+<details class="faq-item">
+<summary>What is the incretin effect?</summary>
+The incretin effect is the phenomenon where oral glucose ingestion elicits a significantly greater insulin secretory response than intravenous glucose at equivalent plasma glucose levels. Incretin hormones (GLP-1 and GIP) mediate this effect, accounting for 50–70% of postprandial insulin release.
+</details>
+<details class="faq-item">
+<summary>How do GLP-1 and GIP differ in their actions?</summary>
+GLP-1 suppresses glucagon secretion, delays gastric emptying, and promotes satiety. GIP stimulates glucagon secretion (at normal/low glucose), promotes adipose tissue lipid uptake, and supports bone formation. Both stimulate insulin secretion in a glucose-dependent manner.
+</details>
+<details class="faq-item">
+<summary>Why is GIP less effective in type 2 diabetes?</summary>
+The insulinotropic effect of GIP is markedly reduced in individuals with type 2 diabetes, a phenomenon attributed to GIP receptor downregulation or desensitization on beta cells. The mechanism may involve chronic hyperglycemia-induced receptor internalization and reduced cAMP generation.
+</details>
+<details class="faq-item">
+<summary>Do GLP-1 and GIP share the same receptor?</summary>
+No. GLP-1 and GIP each bind to their own distinct class B GPCRs—GLP-1R and GIPR—which share ~40–50% sequence homology in the transmembrane domains but differ substantially in extracellular ligand-binding regions, allowing selective recognition of each incretin.
+</details>
+<details class="faq-item">
+<summary>What cells produce incretin hormones?</summary>
+GLP-1 is produced by enteroendocrine L-cells localized mainly in the distal ileum and colon. GIP is produced by enteroendocrine K-cells concentrated in the duodenum and proximal jejunum. Both cell types are distributed along the gastrointestinal tract with distinct density profiles.
+</details>
+<details class="faq-item">
+<summary>How quickly are incretin hormones degraded?</summary>
+Both GLP-1 and GIP are rapidly cleaved by the enzyme DPP-4, which removes the N-terminal dipeptide. Active GLP-1 has a half-life of approximately 1–2 minutes, while active GIP has a slightly longer half-life of about 5–7 minutes.
+</details>
+<details class="faq-item">
+<summary>Can incretin hormones affect bone metabolism?</summary>
+Yes. GIP receptors are expressed on osteoblasts and osteoclasts, and GIP has been shown to stimulate bone formation markers and inhibit bone resorption in both preclinical and human studies. GLP-1 may also influence bone metabolism, though the effects are less characterized.
+</details>
+<details class="faq-item">
+<summary>What is the role of the incretin system in bariatric surgery outcomes?</summary>
+Bariatric procedures, particularly Roux-en-Y gastric bypass, dramatically increase postprandial GLP-1 and GIP secretion. This enhanced incretin response is thought to contribute to the rapid glycemic improvement observed after surgery, often preceding significant weight loss.
+</details>
+<details class="faq-item">
+<summary>Are there DPP-4-independent degradation pathways for incretins?</summary>
+Yes, incretins can also be cleared through renal filtration and degraded by other peptidases including neprilysin (NEP) and insulin-degrading enzyme (IDE). These alternative pathways become more significant when DPP-4 activity is inhibited or saturated.
+</details>
 </div>
 
 !!! info ""
@@ -184,18 +184,18 @@ The development of transgenic mouse models expressing humanized receptors (e.g.,
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Creutzfeldt W. The incretin concept today. <em>Diabetologia</em>. 1979;16(2):75-85.</li>
-  <li id="ref2">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
-  <li id="ref3">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
-  <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
-  <li id="ref5">Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
-  <li id="ref6">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
-  <li id="ref7">Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
-  <li id="ref8">Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
-  <li id="ref9">Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
-  <li id="ref10">McIntosh CH, Wideman C, Kieffer TJ. GIP receptor antagonists: A new approach to type 2 diabetes. <em>Nat Rev Endocrinol</em>. 2012;8(5):272-281.</li>
-  <li id="ref11">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
-  <li id="ref12">Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
-  <li id="ref13">Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
+<ol class="references
+  <li id="ref1Creutzfeldt W. The incretin concept today. <em>Diabetologia</em>. 1979;16(2):75-85.</li>
+  <li id="ref2Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+  <li id="ref3Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+  <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
+  <li id="ref5Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
+  <li id="ref6Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
+  <li id="ref7Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
+  <li id="ref8Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
+  <li id="ref9Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
+  <li id="ref10McIntosh CH, Wideman C, Kieffer TJ. GIP receptor antagonists: A new approach to type 2 diabetes. <em>Nat Rev Endocrinol</em>. 2012;8(5):272-281.</li>
+  <li id="ref11Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
+  <li id="ref12Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
+  <li id="ref13Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
 </ol>

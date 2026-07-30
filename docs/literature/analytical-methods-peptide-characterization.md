@@ -139,42 +139,42 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is the most reliable method for determining peptide purity?</h3>
-    RP-HPLC with UV detection at 214 nm is the standard method for purity assessment. The peptide bond absorbs strongly at this wavelength, providing a near-universal detection method. Purity is reported as the area percent of the main peak relative to all integrated peaks.
-  </div>
-  <div class="faq-item">
-    <h3>How accurate is mass spectrometry for confirming peptide identity?</h3>
-    High-resolution mass spectrometry (HRMS) can determine monoisotopic mass to within 1–5 ppm of the theoretical value, providing definitive molecular weight confirmation. Combined with MS/MS sequencing, the identity (including sequence) of a peptide can be established with very high confidence.
-  </div>
-  <div class="faq-item">
-    <h3>What are the limitations of CD spectroscopy for peptide structure analysis?</h3>
-    CD spectra provide information about overall secondary structure content but cannot assign structure to specific residues. The technique requires optically transparent solutions (buffer absorbance below 200 nm limits the accessible range), and quantification of β-sheet content is less reliable than for α-helix.
-  </div>
-  <div class="faq-item">
-    <h3>When is NMR necessary for peptide characterization?</h3>
-    NMR is necessary when detailed three-dimensional structure information is required, such as for confirming the fold of a designed peptide, studying peptide-receptor interactions, or characterizing conformational dynamics in solution. For routine identity and purity assessment, HPLC and MS are sufficient.
-  </div>
-  <div class="faq-item">
-    <h3>Can amino acid analysis replace sequencing?</h3>
-    Amino acid analysis confirms the correct amino acid composition but does not provide sequence information. Two peptides with the same composition but different sequences are indistinguishable by composition analysis alone. Sequence verification requires MS/MS, Edman degradation, or NMR.
-  </div>
-  <div class="faq-item">
-    <h3>What is the difference between LC-MS and LC-MS/MS?</h3>
-    LC-MS measures the mass-to-charge ratio (m/z) of intact peptide ions. LC-MS/MS selects a precursor ion, fragments it by collision-induced dissociation, and analyzes the fragment ions. MS/MS provides sequence information that is not available from intact mass alone.
-  </div>
-  <div class="faq-item">
-    <h3>How do you detect disulfide bond formation in peptides?</h3>
-    Disulfide bond formation can be detected by mass spectrometry (a 2 Da mass decrease per bond formed, or by mass mapping after enzymatic digestion). Ellman's assay detects free thiols. NMR and X-ray crystallography provide bond localization.
-  </div>
-  <div class="faq-item">
-    <h3>What purity level is acceptable for research peptides?</h3>
-    For most research applications, >95% purity by HPLC is standard. For cell-based assays and in vivo studies, >98% is generally preferred. For clinical-grade therapeutic peptides, >99% with strict limits on specific impurities (truncations, epimers, oxidation products) is required.
-  </div>
-  <div class="faq-item">
-    <h3>How do you characterize cyclic peptides?</h3>
-    Cyclic peptides require additional analytical attention. MALDI-TOF MS can confirm the cyclic topology (cyclic peptides show distinct fragmentation patterns from linear counterparts). NMR is particularly valuable for determining cyclic peptide conformation. RP-HPLC retention times shift notably upon cyclization due to altered hydrophobicity.
-  </div>
+<details class="faq-item">
+<summary>What is the most reliable method for determining peptide purity?</summary>
+RP-HPLC with UV detection at 214 nm is the standard method for purity assessment. The peptide bond absorbs strongly at this wavelength, providing a near-universal detection method. Purity is reported as the area percent of the main peak relative to all integrated peaks.
+</details>
+<details class="faq-item">
+<summary>How accurate is mass spectrometry for confirming peptide identity?</summary>
+High-resolution mass spectrometry (HRMS) can determine monoisotopic mass to within 1–5 ppm of the theoretical value, providing definitive molecular weight confirmation. Combined with MS/MS sequencing, the identity (including sequence) of a peptide can be established with very high confidence.
+</details>
+<details class="faq-item">
+<summary>What are the limitations of CD spectroscopy for peptide structure analysis?</summary>
+CD spectra provide information about overall secondary structure content but cannot assign structure to specific residues. The technique requires optically transparent solutions (buffer absorbance below 200 nm limits the accessible range), and quantification of β-sheet content is less reliable than for α-helix.
+</details>
+<details class="faq-item">
+<summary>When is NMR necessary for peptide characterization?</summary>
+NMR is necessary when detailed three-dimensional structure information is required, such as for confirming the fold of a designed peptide, studying peptide-receptor interactions, or characterizing conformational dynamics in solution. For routine identity and purity assessment, HPLC and MS are sufficient.
+</details>
+<details class="faq-item">
+<summary>Can amino acid analysis replace sequencing?</summary>
+Amino acid analysis confirms the correct amino acid composition but does not provide sequence information. Two peptides with the same composition but different sequences are indistinguishable by composition analysis alone. Sequence verification requires MS/MS, Edman degradation, or NMR.
+</details>
+<details class="faq-item">
+<summary>What is the difference between LC-MS and LC-MS/MS?</summary>
+LC-MS measures the mass-to-charge ratio (m/z) of intact peptide ions. LC-MS/MS selects a precursor ion, fragments it by collision-induced dissociation, and analyzes the fragment ions. MS/MS provides sequence information that is not available from intact mass alone.
+</details>
+<details class="faq-item">
+<summary>How do you detect disulfide bond formation in peptides?</summary>
+Disulfide bond formation can be detected by mass spectrometry (a 2 Da mass decrease per bond formed, or by mass mapping after enzymatic digestion). Ellman's assay detects free thiols. NMR and X-ray crystallography provide bond localization.
+</details>
+<details class="faq-item">
+<summary>What purity level is acceptable for research peptides?</summary>
+For most research applications, >95% purity by HPLC is standard. For cell-based assays and in vivo studies, >98% is generally preferred. For clinical-grade therapeutic peptides, >99% with strict limits on specific impurities (truncations, epimers, oxidation products) is required.
+</details>
+<details class="faq-item">
+<summary>How do you characterize cyclic peptides?</summary>
+Cyclic peptides require additional analytical attention. MALDI-TOF MS can confirm the cyclic topology (cyclic peptides show distinct fragmentation patterns from linear counterparts). NMR is particularly valuable for determining cyclic peptide conformation. RP-HPLC retention times shift notably upon cyclization due to altered hydrophobicity.
+</details>
 </div>
 
 !!! info ""
@@ -182,17 +182,17 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
-  <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
-  <li id="ref3">Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
-  <li id="ref4">Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
-  <li id="ref5">Kelly SM, Jess TJ, Price NC. How to study proteins by circular dichroism. <em>Biochim Biophys Acta</em>. 2005;1751(2):119-139.</li>
-  <li id="ref6">Wüthrich K. NMR studies of structure and function of biological macromolecules. <em>Angew Chem Int Ed</em>. 2003;42(29):3340-3363.</li>
-  <li id="ref7">Greenwald RB, Choe YH, McGuire J, Conover CD. Effective drug delivery by PEGylated drug conjugates. <em>Adv Drug Deliv Rev</em>. 2003;55(2):217-250.</li>
-  <li id="ref8">Rücker G, Neugebauer EA, Willems AI. Capillary electrophoresis in peptide analysis. <em>Electrophoresis</em>. 2012;33(1):146-160.</li>
-  <li id="ref9">Steentoft C, Vakhrushev SY, Vester-Christensen MB, et al. Mining the O-glycoproteome using zinc-finger nuclease-glycoengineered SimpleCell lines. <em>Nat Methods</em>. 2011;8(11):977-982.</li>
-  <li id="ref10">Ibrahim G, Garad S, Schumacher A, et al. Ion mobility spectrometry-mass spectrometry of peptides. <em>Anal Chem</em>. 2014;86(5):2441-2450.</li>
-  <li id="ref11">Hernández B, Pfuller C, López-Méndez B, et al. Vibrational circular dichroism of proteins. <em>Angew Chem Int Ed</em>. 2019;58(19):6311-6315.</li>
-  <li id="ref12">Cristea IM, Gaskell SJ, Whetton AD. Proteomics techniques and their application to hematology. <em>Blood</em>. 2004;103(10):3624-3634.</li>
+<ol class="references
+  <li id="ref1Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
+  <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
+  <li id="ref3Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
+  <li id="ref4Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
+  <li id="ref5Kelly SM, Jess TJ, Price NC. How to study proteins by circular dichroism. <em>Biochim Biophys Acta</em>. 2005;1751(2):119-139.</li>
+  <li id="ref6Wüthrich K. NMR studies of structure and function of biological macromolecules. <em>Angew Chem Int Ed</em>. 2003;42(29):3340-3363.</li>
+  <li id="ref7Greenwald RB, Choe YH, McGuire J, Conover CD. Effective drug delivery by PEGylated drug conjugates. <em>Adv Drug Deliv Rev</em>. 2003;55(2):217-250.</li>
+  <li id="ref8Rücker G, Neugebauer EA, Willems AI. Capillary electrophoresis in peptide analysis. <em>Electrophoresis</em>. 2012;33(1):146-160.</li>
+  <li id="ref9Steentoft C, Vakhrushev SY, Vester-Christensen MB, et al. Mining the O-glycoproteome using zinc-finger nuclease-glycoengineered SimpleCell lines. <em>Nat Methods</em>. 2011;8(11):977-982.</li>
+  <li id="ref10Ibrahim G, Garad S, Schumacher A, et al. Ion mobility spectrometry-mass spectrometry of peptides. <em>Anal Chem</em>. 2014;86(5):2441-2450.</li>
+  <li id="ref11Hernández B, Pfuller C, López-Méndez B, et al. Vibrational circular dichroism of proteins. <em>Angew Chem Int Ed</em>. 2019;58(19):6311-6315.</li>
+  <li id="ref12Cristea IM, Gaskell SJ, Whetton AD. Proteomics techniques and their application to hematology. <em>Blood</em>. 2004;103(10):3624-3634.</li>
 </ol>

@@ -148,26 +148,26 @@ As the duration of exposure to dual and multi-receptor agonists extends in clini
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Which is more effective for weight loss: semaglutide or tirzepatide?</h3>
-    Clinical trials show tirzepatide produces superior weight loss: ~20–25% mean reduction with tirzepatide 15 mg vs ~15% with semaglutide 2.4 mg at similar study durations. The difference is attributed to tirzepatide's dual GIP/GLP-1 receptor activation.
-  </div>
-  <div class="faq-item">
-    <h3>Do semaglutide and tirzepatide have similar side effect profiles?</h3>
-    Both have similar gastrointestinal side effects (nausea, vomiting, diarrhea) that are dose-dependent and typically transient. The incidence and severity appear comparable when corrected for effect size, though some studies suggest tirzepatide may have a slightly lower GI side effect burden at equivalent efficacy.
-  </div>
-  <div class="faq-item">
-    <h3>Which has stronger cardiovascular outcome data?</h3>
-    Semaglutide has the more established cardiovascular evidence base, with positive results from SUSTAIN-6 (26% MACE reduction in T2D) and SELECT (20% MACE reduction in obesity without diabetes). Tirzepatide's large-scale CVOT (SURPASS-CVOT) is expected to report in 2024–2025.
-  </div>
-  <div class="faq-item">
-    <h3>Can semaglutide and tirzepatide be used together?</h3>
-    Combining semaglutide and tirzepatide is not recommended as both are incretin receptor agonists with overlapping mechanisms. The dual mechanism of tirzepatide already combines GLP-1 and GIP receptor activation in a single molecule.
-  </div>
-  <div class="faq-item">
-    <h3>What is the role of biased agonism in tirzepatide's mechanism?</h3>
-    Tirzepatide is a biased GLP-1R agonist that preferentially activates Gαs/cAMP over β-arrestin recruitment. This biased signaling may reduce receptor internalization, prolong signaling duration, and potentially contribute to favorable tolerability, though the clinical significance is still under investigation.
-  </div>
+<details class="faq-item">
+<summary>Which is more effective for weight loss: semaglutide or tirzepatide?</summary>
+Clinical trials show tirzepatide produces superior weight loss: ~20–25% mean reduction with tirzepatide 15 mg vs ~15% with semaglutide 2.4 mg at similar study durations. The difference is attributed to tirzepatide's dual GIP/GLP-1 receptor activation.
+</details>
+<details class="faq-item">
+<summary>Do semaglutide and tirzepatide have similar side effect profiles?</summary>
+Both have similar gastrointestinal side effects (nausea, vomiting, diarrhea) that are dose-dependent and typically transient. The incidence and severity appear comparable when corrected for effect size, though some studies suggest tirzepatide may have a slightly lower GI side effect burden at equivalent efficacy.
+</details>
+<details class="faq-item">
+<summary>Which has stronger cardiovascular outcome data?</summary>
+Semaglutide has the more established cardiovascular evidence base, with positive results from SUSTAIN-6 (26% MACE reduction in T2D) and SELECT (20% MACE reduction in obesity without diabetes). Tirzepatide's large-scale CVOT (SURPASS-CVOT) is expected to report in 2024–2025.
+</details>
+<details class="faq-item">
+<summary>Can semaglutide and tirzepatide be used together?</summary>
+Combining semaglutide and tirzepatide is not recommended as both are incretin receptor agonists with overlapping mechanisms. The dual mechanism of tirzepatide already combines GLP-1 and GIP receptor activation in a single molecule.
+</details>
+<details class="faq-item">
+<summary>What is the role of biased agonism in tirzepatide's mechanism?</summary>
+Tirzepatide is a biased GLP-1R agonist that preferentially activates Gαs/cAMP over β-arrestin recruitment. This biased signaling may reduce receptor internalization, prolong signaling duration, and potentially contribute to favorable tolerability, though the clinical significance is still under investigation.
+</details>
 </div>
 
 !!! info ""
@@ -175,15 +175,15 @@ As the duration of exposure to dual and multi-receptor agonists extends in clini
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes (SURPASS-2). <em>Lancet</em>. 2021;398(10295):143-155.</li>
-  <li id="ref2">Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
-  <li id="ref3">Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
-  <li id="ref4">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
-  <li id="ref5">Willard FS, Douros JD, Gabe MN, et al. Tirzepatide is a balanced GIPR/GLP-1R co-agonist that activates multiple signaling pathways. <em>Mol Metab</em>. 2020;48:101103.</li>
-  <li id="ref6">Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
-  <li id="ref7">Lau J, Bloch P, Schäffer L, et al. Discovery of tirzepatide as a once-weekly GIP/GLP-1R agonist. <em>J Med Chem</em>. 2022;65(17):11723-11737.</li>
-  <li id="ref8">Dahl D, Onishi Y, Norwood P, et al. Effect of tirzepatide vs placebo on glycemic control and weight in type 2 diabetes (SURPASS-1). <em>Lancet Diabetes Endocrinol</em>. 2021;9(7):373-384.</li>
-  <li id="ref9">Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
-  <li id="ref10">Grunberger G. The SURPASS program: tirzepatide as a novel dual GIP/GLP-1 receptor agonist. <em>J Diabetes Complications</em>. 2021;35(11):108027.</li>
+<ol class="references
+  <li id="ref1Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes (SURPASS-2). <em>Lancet</em>. 2021;398(10295):143-155.</li>
+  <li id="ref2Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
+  <li id="ref3Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
+  <li id="ref4Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
+  <li id="ref5Willard FS, Douros JD, Gabe MN, et al. Tirzepatide is a balanced GIPR/GLP-1R co-agonist that activates multiple signaling pathways. <em>Mol Metab</em>. 2020;48:101103.</li>
+  <li id="ref6Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
+  <li id="ref7Lau J, Bloch P, Schäffer L, et al. Discovery of tirzepatide as a once-weekly GIP/GLP-1R agonist. <em>J Med Chem</em>. 2022;65(17):11723-11737.</li>
+  <li id="ref8Dahl D, Onishi Y, Norwood P, et al. Effect of tirzepatide vs placebo on glycemic control and weight in type 2 diabetes (SURPASS-1). <em>Lancet Diabetes Endocrinol</em>. 2021;9(7):373-384.</li>
+  <li id="ref9Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
+  <li id="ref10Grunberger G. The SURPASS program: tirzepatide as a novel dual GIP/GLP-1 receptor agonist. <em>J Diabetes Complications</em>. 2021;35(11):108027.</li>
 </ol>

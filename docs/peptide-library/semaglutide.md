@@ -96,46 +96,46 @@ Finally, research into personalized medicine approaches may identify patient sub
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is the molecular basis for semaglutide's extended half-life?</h3>
-    Semaglutide incorporates a C18 fatty diacid attached via a glutamic acid linker to lysine at position 26. This fatty acid chain binds non-covalently to serum albumin, protecting the peptide from renal clearance and enzymatic degradation, extending the half-life to approximately 7 days.
-  </div>
-  <div class="faq-item">
-    <h3>How does semaglutide compare to native GLP-1?</h3>
-    Semaglutide shares 94% sequence homology with native human GLP-1(7-37) but incorporates two key modifications: substitution of alanine with Aib at position 8 (DPP-4 resistance) and substitution of lysine with arginine at position 34, along with a fatty acid acylation for albumin binding.
-  </div>
-  <div class="faq-item">
-    <h3>What body weight reduction has been demonstrated in clinical trials?</h3>
-    In the STEP-1 trial, semaglutide 2.4 mg once weekly produced a mean body weight reduction of 14.9% over 68 weeks compared to 2.4% with placebo. More than one third of participants lost 20% or more of their initial body weight.
-  </div>
-  <div class="faq-item">
-    <h3>How was semaglutide's cardiovascular benefit established?</h3>
-    The SUSTAIN-6 cardiovascular outcomes trial demonstrated a 26% reduction in the composite endpoint of cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke with semaglutide compared to placebo in patients with type 2 diabetes at high cardiovascular risk.
-  </div>
-  <div class="faq-item">
-    <h3>How does oral semaglutide achieve systemic absorption?</h3>
-    Oral semaglutide is co-formulated with SNAC (sodium N-(8-[2-hydroxybenzoyl]amino)caprylate), which increases local gastric pH to protect the peptide from proteolytic degradation and facilitates transcellular absorption across the gastric epithelium.
-  </div>
-  <div class="faq-item">
-    <h3>What are the most common adverse events?</h3>
-    Gastrointestinal adverse events—nausea, diarrhea, vomiting, and constipation—are the most commonly reported. These are dose-dependent and tend to diminish over time. Dose-escalation regimens are used to improve tolerability.
-  </div>
-  <div class="faq-item">
-    <h3>Is semaglutide being studied for neurodegenerative diseases?</h3>
-    Yes. Preclinical studies suggest GLP-1 receptor agonists exert neuroprotective effects. Clinical trials are evaluating semaglutide in early Alzheimer's disease, with the EVOKE and EVOKE+ trials investigating effects on cognitive decline.
-  </div>
-  <div class="faq-item">
-    <h3>What is the SELECT trial, and what did it find?</h3>
-    SELECT (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity) evaluated semaglutide 2.4 mg in patients with established cardiovascular disease and overweight or obesity without diabetes. Positive results demonstrated cardiovascular benefit in this population, expanding semaglutide's potential application beyond diabetes.
-  </div>
-  <div class="faq-item">
-    <h3>Does semaglutide affect kidney function?</h3>
-    The FLOW trial evaluated semaglutide in patients with type 2 diabetes and chronic kidney disease, showing beneficial effects on kidney function outcomes. Mechanisms may include reduced inflammation, improved glycemic control, and hemodynamic effects.
-  </div>
-  <div class="faq-item">
-    <h3>What are the limitations of current semaglutide research?</h3>
-    Limitations include the need for long-term safety data beyond 5 years, incomplete understanding of tissue-specific contributions to cardiovascular benefit, the potential for lean body mass loss in addition to fat loss, and the phenomenon of weight regain upon treatment discontinuation.
-  </div>
+<details class="faq-item">
+<summary>What is the molecular basis for semaglutide's extended half-life?</summary>
+Semaglutide incorporates a C18 fatty diacid attached via a glutamic acid linker to lysine at position 26. This fatty acid chain binds non-covalently to serum albumin, protecting the peptide from renal clearance and enzymatic degradation, extending the half-life to approximately 7 days.
+</details>
+<details class="faq-item">
+<summary>How does semaglutide compare to native GLP-1?</summary>
+Semaglutide shares 94% sequence homology with native human GLP-1(7-37) but incorporates two key modifications: substitution of alanine with Aib at position 8 (DPP-4 resistance) and substitution of lysine with arginine at position 34, along with a fatty acid acylation for albumin binding.
+</details>
+<details class="faq-item">
+<summary>What body weight reduction has been demonstrated in clinical trials?</summary>
+In the STEP-1 trial, semaglutide 2.4 mg once weekly produced a mean body weight reduction of 14.9% over 68 weeks compared to 2.4% with placebo. More than one third of participants lost 20% or more of their initial body weight.
+</details>
+<details class="faq-item">
+<summary>How was semaglutide's cardiovascular benefit established?</summary>
+The SUSTAIN-6 cardiovascular outcomes trial demonstrated a 26% reduction in the composite endpoint of cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke with semaglutide compared to placebo in patients with type 2 diabetes at high cardiovascular risk.
+</details>
+<details class="faq-item">
+<summary>How does oral semaglutide achieve systemic absorption?</summary>
+Oral semaglutide is co-formulated with SNAC (sodium N-(8-[2-hydroxybenzoyl]amino)caprylate), which increases local gastric pH to protect the peptide from proteolytic degradation and facilitates transcellular absorption across the gastric epithelium.
+</details>
+<details class="faq-item">
+<summary>What are the most common adverse events?</summary>
+Gastrointestinal adverse events—nausea, diarrhea, vomiting, and constipation—are the most commonly reported. These are dose-dependent and tend to diminish over time. Dose-escalation regimens are used to improve tolerability.
+</details>
+<details class="faq-item">
+<summary>Is semaglutide being studied for neurodegenerative diseases?</summary>
+Yes. Preclinical studies suggest GLP-1 receptor agonists exert neuroprotective effects. Clinical trials are evaluating semaglutide in early Alzheimer's disease, with the EVOKE and EVOKE+ trials investigating effects on cognitive decline.
+</details>
+<details class="faq-item">
+<summary>What is the SELECT trial, and what did it find?</summary>
+SELECT (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity) evaluated semaglutide 2.4 mg in patients with established cardiovascular disease and overweight or obesity without diabetes. Positive results demonstrated cardiovascular benefit in this population, expanding semaglutide's potential application beyond diabetes.
+</details>
+<details class="faq-item">
+<summary>Does semaglutide affect kidney function?</summary>
+The FLOW trial evaluated semaglutide in patients with type 2 diabetes and chronic kidney disease, showing beneficial effects on kidney function outcomes. Mechanisms may include reduced inflammation, improved glycemic control, and hemodynamic effects.
+</details>
+<details class="faq-item">
+<summary>What are the limitations of current semaglutide research?</summary>
+Limitations include the need for long-term safety data beyond 5 years, incomplete understanding of tissue-specific contributions to cardiovascular benefit, the potential for lean body mass loss in addition to fat loss, and the phenomenon of weight regain upon treatment discontinuation.
+</details>
 </div>
 
 !!! info ""
@@ -143,37 +143,37 @@ Finally, research into personalized medicine approaches may identify patient sub
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. doi:10.1056/NEJMoa1607141
+- Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2016;375(19):1834-1844. <a href="https://doi.org/10.1056%2FNEJMoa1607141">doi:10.1056/NEJMoa1607141</a>
   - Wilding JPH, Batterham RL, Calanna S, et al.
 
-Once-Weekly Semaglutide in Adults with Overweight or Obesity. <em>New England Journal of Medicine</em>. 2021;384(11):989-1002. doi:10.1056/NEJMoa2032183
+Once-Weekly Semaglutide in Adults with Overweight or Obesity. <em>New England Journal of Medicine</em>. 2021;384(11):989-1002. <a href="https://doi.org/10.1056%2FNEJMoa2032183">doi:10.1056/NEJMoa2032183</a>
   - Aroda VR, Rosenstock J, Terauchi Y, et al.
 
-Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide as add-on to metformin in patients with type 2 diabetes (SUSTAIN 7). <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. doi:10.1016/S2213-8587(17)30085-X
+Efficacy and safety of once-weekly semaglutide versus once-daily liraglutide as add-on to metformin in patients with type 2 diabetes (SUSTAIN 7). <em>The Lancet Diabetes &amp; Endocrinology</em>. 2017;5(5):355-366. <a href="https://doi.org/10.1016%2FS2213-8587%2817%2930085-X">doi:10.1016/S2213-8587(17)30085-X</a>
   - Marx N, Husain M, Ofstad AP, et al.
 
-Semaglutide and cardiovascular outcomes in patients with type 2 diabetes and prior cardiovascular disease: a post hoc analysis of SUSTAIN 6. <em>Diabetes Care</em>. 2018;41(11):e153-e154. doi:10.2337/dc18-1014
+Semaglutide and cardiovascular outcomes in patients with type 2 diabetes and prior cardiovascular disease: a post hoc analysis of SUSTAIN 6. <em>Diabetes Care</em>. 2018;41(11):e153-e154. <a href="https://doi.org/10.2337%2Fdc18-1014">doi:10.2337/dc18-1014</a>
   - Rubino D, Abrahamsson N, Davies M, et al.
 
-Effect of continued weekly subcutaneous semaglutide vs placebo on weight loss maintenance in adults with overweight or obesity: the STEP 4 randomized clinical trial. <em>JAMA</em>. 2021;325(14):1414-1425. doi:10.1001/jama.2021.3224
+Effect of continued weekly subcutaneous semaglutide vs placebo on weight loss maintenance in adults with overweight or obesity: the STEP 4 randomized clinical trial. <em>JAMA</em>. 2021;325(14):1414-1425. <a href="https://doi.org/10.1001%2Fjama.2021.3224">doi:10.1001/jama.2021.3224</a>
   - Davies M, Pieber TR, Hartoft-Nielsen ML, et al.
 
-Effect of oral semaglutide compared with placebo and subcutaneous semaglutide on glycemic control in patients with type 2 diabetes: a randomized clinical trial. <em>JAMA</em>. 2017;318(15):1460-1470. doi:10.1001/jama.2017.14752
+Effect of oral semaglutide compared with placebo and subcutaneous semaglutide on glycemic control in patients with type 2 diabetes: a randomized clinical trial. <em>JAMA</em>. 2017;318(15):1460-1470. <a href="https://doi.org/10.1001%2Fjama.2017.14752">doi:10.1001/jama.2017.14752</a>
   - Kosiborod M, Cavender MA, Fu AZ, et al.
 
-Lower risk of heart failure and death in patients initiated on sodium-glucose cotransporter-2 inhibitors versus other glucose-lowering drugs: the CVD-REAL study. <em>Circulation</em>. 2017;136(3):249-259. doi:10.1161/CIRCULATIONAHA.116.025943
+Lower risk of heart failure and death in patients initiated on sodium-glucose cotransporter-2 inhibitors versus other glucose-lowering drugs: the CVD-REAL study. <em>Circulation</em>. 2017;136(3):249-259. <a href="https://doi.org/10.1161%2FCIRCULATIONAHA.116.025943">doi:10.1161/CIRCULATIONAHA.116.025943</a>
   - Pratley R, Amod A, Hoff ST, et al.
 
-Oral semaglutide versus subcutaneous liraglutide and placebo in type 2 diabetes (PIONEER 4): a randomised, double-blind, phase 3a trial. <em>The Lancet</em>. 2019;394(10192):39-50. doi:10.1016/S0140-6736(19)31271-1
+Oral semaglutide versus subcutaneous liraglutide and placebo in type 2 diabetes (PIONEER 4): a randomised, double-blind, phase 3a trial. <em>The Lancet</em>. 2019;394(10192):39-50. <a href="https://doi.org/10.1016%2FS0140-6736%2819%2931271-1">doi:10.1016/S0140-6736(19)31271-1</a>
   - Rubino DM, Greenway FL, Khalid U, et al.
 
-Effect of weekly subcutaneous semaglutide vs daily liraglutide on body weight in adults with overweight or obesity without diabetes: the STEP 8 randomized clinical trial. <em>JAMA</em>. 2022;327(2):138-150. doi:10.1001/jama.2021.23619
+Effect of weekly subcutaneous semaglutide vs daily liraglutide on body weight in adults with overweight or obesity without diabetes: the STEP 8 randomized clinical trial. <em>JAMA</em>. 2022;327(2):138-150. <a href="https://doi.org/10.1001%2Fjama.2021.23619">doi:10.1001/jama.2021.23619</a>
   - Kusminski CM, Bickel PE, Scherer PE.
 
-Targeting adipose tissue in the treatment of obesity-associated diabetes. <em>Nature Reviews Drug Discovery</em>. 2016;15(9):639-660. doi:10.1038/nrd.2016.75
+Targeting adipose tissue in the treatment of obesity-associated diabetes. <em>Nature Reviews Drug Discovery</em>. 2016;15(9):639-660. <a href="https://doi.org/10.1038%2Fnrd.2016.75">doi:10.1038/nrd.2016.75</a>
 
 
 </ol>

@@ -124,42 +124,42 @@ For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is BPC-157 and where is it derived from?</h3>
-    BPC-157 is a synthetic 15-amino acid peptide (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val) derived from a protein found in human gastric juice. It is manufactured synthetically, not extracted from biological sources.
-  </div>
-  <div class="faq-item">
-    <h3>What are the primary mechanisms of BPC-157?</h3>
-    The primary mechanisms include promotion of angiogenesis via VEGF and bFGF upregulation, modulation of the NO system, anti-inflammatory effects through cytokine regulation, cytoprotection through heat shock protein induction, and maintenance of mucosal barrier function.
-  </div>
-  <div class="faq-item">
-    <h3>What is the evidence for BPC-157 in tendon healing?</h3>
-    Multiple rat studies demonstrate that BPC-157 accelerates Achilles tendon healing with 50–70% improved biomechanical strength at 1–2 weeks post-injury compared to controls, with histological evidence of better collagen organization and vascularization.
-  </div>
-  <div class="faq-item">
-    <h3>Is BPC-157 stable in the gastrointestinal tract?</h3>
-    Yes. BPC-157 exhibits remarkable stability in gastric juice, attributed to its unique amino acid sequence that resists proteolytic degradation. This distinguishes it from most other peptide therapeutic candidates, which are rapidly degraded in the GI tract.
-  </div>
-  <div class="faq-item">
-    <h3>What is the evidence for BPC-157's effect on inflammatory bowel disease?</h3>
-    In rodent colitis models (TNBS- and DSS-induced), BPC-157 treatment significantly reduced mucosal inflammation, decreased ulceration, and improved histological scores compared to untreated controls, with effects comparable to standard therapies.
-  </div>
-  <div class="faq-item">
-    <h3>Has BPC-157 been tested in humans?</h3>
-    Limited human studies have been conducted, primarily for inflammatory bowel disease indications. The evidence base remains predominantly preclinical, and larger well-controlled clinical trials are needed to establish safety and efficacy in humans.
-  </div>
-  <div class="faq-item">
-    <h3>How does BPC-157 interact with the NO system?</h3>
-    BPC-157 modulates NO production: many of its effects are blocked by NOS inhibitors and mimicked by NO donors. It appears to enhance protective eNOS-mediated NO production while suppressing excessive iNOS activity in inflammatory contexts.
-  </div>
-  <div class="faq-item">
-    <h3>At what doses has BPC-157 been effective in animal studies?</h3>
-    Effective doses range from 10 ng/kg to 10 µg/kg in various animal models, depending on the route of administration and the tissue being studied. The low effective dose reflects the peptide's potency and stability.
-  </div>
-  <div class="faq-item">
-    <h3>What are the main limitations of the BPC-157 research literature?</h3>
-    The literature is dominated by a single research group (Sikiric and colleagues), the molecular target remains unidentified, human clinical trial data are limited, and independent replication studies are needed to confirm the breadth of reported effects.
-  </div>
+<details class="faq-item">
+<summary>What is BPC-157 and where is it derived from?</summary>
+BPC-157 is a synthetic 15-amino acid peptide (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val) derived from a protein found in human gastric juice. It is manufactured synthetically, not extracted from biological sources.
+</details>
+<details class="faq-item">
+<summary>What are the primary mechanisms of BPC-157?</summary>
+The primary mechanisms include promotion of angiogenesis via VEGF and bFGF upregulation, modulation of the NO system, anti-inflammatory effects through cytokine regulation, cytoprotection through heat shock protein induction, and maintenance of mucosal barrier function.
+</details>
+<details class="faq-item">
+<summary>What is the evidence for BPC-157 in tendon healing?</summary>
+Multiple rat studies demonstrate that BPC-157 accelerates Achilles tendon healing with 50–70% improved biomechanical strength at 1–2 weeks post-injury compared to controls, with histological evidence of better collagen organization and vascularization.
+</details>
+<details class="faq-item">
+<summary>Is BPC-157 stable in the gastrointestinal tract?</summary>
+Yes. BPC-157 exhibits remarkable stability in gastric juice, attributed to its unique amino acid sequence that resists proteolytic degradation. This distinguishes it from most other peptide therapeutic candidates, which are rapidly degraded in the GI tract.
+</details>
+<details class="faq-item">
+<summary>What is the evidence for BPC-157's effect on inflammatory bowel disease?</summary>
+In rodent colitis models (TNBS- and DSS-induced), BPC-157 treatment significantly reduced mucosal inflammation, decreased ulceration, and improved histological scores compared to untreated controls, with effects comparable to standard therapies.
+</details>
+<details class="faq-item">
+<summary>Has BPC-157 been tested in humans?</summary>
+Limited human studies have been conducted, primarily for inflammatory bowel disease indications. The evidence base remains predominantly preclinical, and larger well-controlled clinical trials are needed to establish safety and efficacy in humans.
+</details>
+<details class="faq-item">
+<summary>How does BPC-157 interact with the NO system?</summary>
+BPC-157 modulates NO production: many of its effects are blocked by NOS inhibitors and mimicked by NO donors. It appears to enhance protective eNOS-mediated NO production while suppressing excessive iNOS activity in inflammatory contexts.
+</details>
+<details class="faq-item">
+<summary>At what doses has BPC-157 been effective in animal studies?</summary>
+Effective doses range from 10 ng/kg to 10 µg/kg in various animal models, depending on the route of administration and the tissue being studied. The low effective dose reflects the peptide's potency and stability.
+</details>
+<details class="faq-item">
+<summary>What are the main limitations of the BPC-157 research literature?</summary>
+The literature is dominated by a single research group (Sikiric and colleagues), the molecular target remains unidentified, human clinical trial data are limited, and independent replication studies are needed to confirm the breadth of reported effects.
+</details>
 </div>
 
 !!! info ""
@@ -167,17 +167,17 @@ For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), 
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Sikiric P, Seiwerth S, Brcic L, et al. Stable gastric pentadecapeptide BPC 157-NO-system relation. <em>Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>
-  <li id="ref2">Sikiric P, Seiwerth S, Brcic L, et al. BPC 157 as therapy for gastrointestinal ulcer and other lesions. <em>Dig Dis Sci</em>. 2010;55(11):3081-3097.</li>
-  <li id="ref3">Sikiric P, Seiwerth S, Brcic L, et al. Central and peripheral modulation of pain and GI motility by stable gastric pentadecapeptide BPC 157. <em>Curr Med Chem</em>. 2012;19(9):1268-1280.</li>
-  <li id="ref4">Staresinic M, Petrovic I, Novinscak T, et al. Effective therapy of transected quadriceps muscle in rat: BPC 157 vs. control. <em>J Orthop Res</em>. 2006;24(8):1663-1673.</li>
-  <li id="ref5">Mikus D, Sikiric P, Seiwerth S, et al. BPC 157 accelerates the healing of transected Achilles tendon. <em>J Orthop Res</em>. 2001;19(5):887-893.</li>
-  <li id="ref6">Gjurasin M, Mikus D, Sikiric P, et al. BPC 157 and the healing of the transected Achilles tendon in the rat. <em>Knee Surg Sports Traumatol Arthrosc</em>. 2002;10(5):320-326.</li>
-  <li id="ref7">Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 effect on healing of pressure ulcers and chronic wounds. <em>Wound Repair Regen</em>. 2015;23(4):500-506.</li>
-  <li id="ref8">Bilic M, Bumber Z, Batelja L, et al. BPC 157: A potential new therapeutic agent for inflammatory bowel disease. <em>Eur J Gastroenterol Hepatol</em>. 2010;22(5):579-587.</li>
-  <li id="ref9">Sikiric P, Seiwerth S, Grabarevic Z, et al. The beneficial effect of BPC 157 on the healing of colon-colon anastomoses. <em>Dig Dis Sci</em>. 2002;47(2):414-419.</li>
-  <li id="ref10">Sikiric P, Seiwerth S, Ručman R, et al. BPC 157 increases the survival of rats with acute myocardial infarction. <em>J Cardiovasc Pharmacol Ther</em>. 1999;4(4):239-246.</li>
-  <li id="ref11">Bilic V, Boric M, Klicek R, et al. BPC 157 and angiogenesis in the healing of ligaments. <em>Bone Joint Res</em>. 2013;2(8):150-156.</li>
-  <li id="ref12">Keremi B, Lohinai Z, Komora P, et al. BPC 157 and the healing of oral mucosal wounds. <em>J Oral Pathol Med</em>. 2009;38(6):509-515.</li>
+<ol class="references
+  <li id="ref1Sikiric P, Seiwerth S, Brcic L, et al. Stable gastric pentadecapeptide BPC 157-NO-system relation. <em>Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>
+  <li id="ref2Sikiric P, Seiwerth S, Brcic L, et al. BPC 157 as therapy for gastrointestinal ulcer and other lesions. <em>Dig Dis Sci</em>. 2010;55(11):3081-3097.</li>
+  <li id="ref3Sikiric P, Seiwerth S, Brcic L, et al. Central and peripheral modulation of pain and GI motility by stable gastric pentadecapeptide BPC 157. <em>Curr Med Chem</em>. 2012;19(9):1268-1280.</li>
+  <li id="ref4Staresinic M, Petrovic I, Novinscak T, et al. Effective therapy of transected quadriceps muscle in rat: BPC 157 vs. control. <em>J Orthop Res</em>. 2006;24(8):1663-1673.</li>
+  <li id="ref5Mikus D, Sikiric P, Seiwerth S, et al. BPC 157 accelerates the healing of transected Achilles tendon. <em>J Orthop Res</em>. 2001;19(5):887-893.</li>
+  <li id="ref6Gjurasin M, Mikus D, Sikiric P, et al. BPC 157 and the healing of the transected Achilles tendon in the rat. <em>Knee Surg Sports Traumatol Arthrosc</em>. 2002;10(5):320-326.</li>
+  <li id="ref7Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 effect on healing of pressure ulcers and chronic wounds. <em>Wound Repair Regen</em>. 2015;23(4):500-506.</li>
+  <li id="ref8Bilic M, Bumber Z, Batelja L, et al. BPC 157: A potential new therapeutic agent for inflammatory bowel disease. <em>Eur J Gastroenterol Hepatol</em>. 2010;22(5):579-587.</li>
+  <li id="ref9Sikiric P, Seiwerth S, Grabarevic Z, et al. The beneficial effect of BPC 157 on the healing of colon-colon anastomoses. <em>Dig Dis Sci</em>. 2002;47(2):414-419.</li>
+  <li id="ref10Sikiric P, Seiwerth S, Ručman R, et al. BPC 157 increases the survival of rats with acute myocardial infarction. <em>J Cardiovasc Pharmacol Ther</em>. 1999;4(4):239-246.</li>
+  <li id="ref11Bilic V, Boric M, Klicek R, et al. BPC 157 and angiogenesis in the healing of ligaments. <em>Bone Joint Res</em>. 2013;2(8):150-156.</li>
+  <li id="ref12Keremi B, Lohinai Z, Komora P, et al. BPC 157 and the healing of oral mucosal wounds. <em>J Oral Pathol Med</em>. 2009;38(6):509-515.</li>
 </ol>

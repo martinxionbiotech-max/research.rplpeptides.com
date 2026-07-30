@@ -93,46 +93,30 @@ Several frontiers in peptide synthesis research are actively being explored:
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the difference between Boc and Fmoc solid-phase peptide synthesis?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.</div>
+<details class="faq-item">
+<summary></summary>
+Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How long does it take to synthesize a peptide by SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Synthesis time depends on peptide length, coupling conditions, and instrumentation. Manual synthesis of a 15-residue peptide typically requires 8–24 hours. Automated synthesizers can produce the same sequence in 2–6 hours, and advanced flow-based systems can complete a cycle in 1–2 minutes per residue.</div>
+<details class="faq-item">
+<summary></summary>
+Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is native chemical ligation and when is it used?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.</div>
+<details class="faq-item">
+<summary></summary>
+Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>Can all peptides be synthesized chemically?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Most peptides up to ~50 residues can be synthesized chemically with good yields. Longer sequences, aggregation-prone sequences, and peptides requiring specific disulfide patterns or post-translational modifications may require specialized strategies including pseudoproline insertions, backbone protection, or segment ligation approaches.</div>
+<details class="faq-item">
+<summary></summary>
+Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the typical purity of crude synthetic peptides?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How are protecting groups used in peptide synthesis?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Protecting groups prevent unwanted reactions at side-chain functional groups (amines, thiols, carboxylic acids, etc.) during synthesis. N<sup>α</sup>-amino groups use temporary protection removed each cycle (Fmoc or Boc), while side chains use semi-permanent groups removed only at final cleavage. Orthogonal protecting group schemes allow selective deprotection for specific applications.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What are the advantages of biological peptide production?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the role of coupling reagents in SPPS?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Coupling reagents activate the carboxyl group of the incoming amino acid, enabling amide bond formation under mild conditions. Common reagents include carbodiimides (DIC, DCC) with racemization suppressants (HOBt, Oxyma), and onium salts (HBTU, HATU, PyBOP) that form active ester intermediates. The choice of coupling reagent significantly affects coupling rate, yield, and racemization levels.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How has automated synthesis changed peptide research?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What are the limitations of current peptide synthesis technology?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Key limitations include: (1) decreasing coupling yield with increasing chain length, limiting practical SPPS to ~50 residues; (2) aggregation during synthesis, particularly for β-sheet-forming sequences; (3) racemization at histidine and cysteine residues; (4) difficulties with certain sequences containing multiple consecutive sterically hindered amino acids; and (5) environmental concerns regarding solvent usage in large-scale manufacturing.</div>
+<details class="faq-item">
+<summary></summary>
+Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.
+</details>
   </div>
 </div>
 
@@ -141,18 +125,18 @@ Several frontiers in peptide synthesis research are actively being explored:
 
 
 ## References
-<div class="references">
+<div class="references
   <ol>
-    <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. doi:10.1021/ja00897a025</li>
-    <li id="ref2">Carpino LA, Han GY. The 9-fluorenylmethoxycarbonyl amino-protecting group. <em>J Org Chem</em>. 1972;37(22):3404-3409. doi:10.1021/jo00795a005</li>
-    <li id="ref3">Kent SBH. Chemical synthesis of peptides and proteins. <em>Annu Rev Biochem</em>. 1988;57:957-989. doi:10.1146/annurev.bi.57.070188.004521</li>
-    <li id="ref4">Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779. doi:10.1126/science.7973629</li>
-    <li id="ref5">Merrifield RB. Solid-phase peptide synthesis. <em>Science</em>. 1986;232(4748):341-347. doi:10.1126/science.3961484</li>
-    <li id="ref6">Lloyd-Williams P, Albericio F, Giralt E. <em>Chemical Approaches to the Synthesis of Peptides and Proteins</em>. CRC Press; 1997. ISBN: 9780849391422</li>
-    <li id="ref7">Hackeng TM, Griffin JH, Dawson PE. Protein synthesis by native chemical ligation: expanded scope by using straightforward methodology. <em>Proc Natl Acad Sci USA</em>. 1999;96(18):10068-10073. doi:10.1073/pnas.96.18.10068</li>
-    <li id="ref8">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. doi:10.1021/cr100048w</li>
-    <li id="ref9">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. doi:10.1038/nprot.2007.454</li>
-    <li id="ref10">Made V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis to obtain therapeutic peptides. <em>Beilstein J Org Chem</em>. 2014;10:1197-1212. doi:10.3762/bjoc.10.118</li>
+    <li id="ref1Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+    <li id="ref2Carpino LA, Han GY. The 9-fluorenylmethoxycarbonyl amino-protecting group. <em>J Org Chem</em>. 1972;37(22):3404-3409. <a href="https://doi.org/10.1021%2Fjo00795a005">doi:10.1021/jo00795a005</a></li>
+    <li id="ref3Kent SBH. Chemical synthesis of peptides and proteins. <em>Annu Rev Biochem</em>. 1988;57:957-989. <a href="https://doi.org/10.1146%2Fannurev.bi.57.070188.004521">doi:10.1146/annurev.bi.57.070188.004521</a></li>
+    <li id="ref4Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779. <a href="https://doi.org/10.1126%2Fscience.7973629">doi:10.1126/science.7973629</a></li>
+    <li id="ref5Merrifield RB. Solid-phase peptide synthesis. <em>Science</em>. 1986;232(4748):341-347. <a href="https://doi.org/10.1126%2Fscience.3961484">doi:10.1126/science.3961484</a></li>
+    <li id="ref6Lloyd-Williams P, Albericio F, Giralt E. <em>Chemical Approaches to the Synthesis of Peptides and Proteins</em>. CRC Press; 1997. ISBN: 9780849391422</li>
+    <li id="ref7Hackeng TM, Griffin JH, Dawson PE. Protein synthesis by native chemical ligation: expanded scope by using straightforward methodology. <em>Proc Natl Acad Sci USA</em>. 1999;96(18):10068-10073. <a href="https://doi.org/10.1073%2Fpnas.96.18.10068">doi:10.1073/pnas.96.18.10068</a></li>
+    <li id="ref8El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602. <a href="https://doi.org/10.1021%2Fcr100048w">doi:10.1021/cr100048w</a></li>
+    <li id="ref9Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to the synthesis of difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256. <a href="https://doi.org/10.1038%2Fnprot.2007.454">doi:10.1038/nprot.2007.454</a></li>
+    <li id="ref10Made V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis to obtain therapeutic peptides. <em>Beilstein J Org Chem</em>. 2014;10:1197-1212. <a href="https://doi.org/10.3762%2Fbjoc.10.118">doi:10.3762/bjoc.10.118</a></li>
 </ol>
 </div>
 

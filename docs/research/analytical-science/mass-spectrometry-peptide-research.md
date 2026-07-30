@@ -77,46 +77,30 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What is the difference between MALDI-TOF and ESI-MS for peptide analysis?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.</div>
+<details class="faq-item">
+<summary>What is the difference between MALDI-TOF and ESI-MS for peptide analysis?</summary>
+MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How does tandem mass spectrometry enable peptide sequencing?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">In MS/MS, a precursor peptide ion is isolated and fragmented, producing b-ions (N-terminal) and y-ions (C-terminal) through collision-induced dissociation. The mass differences between consecutive ions in these series correspond to amino acid residue masses, allowing the sequence to be read directly from the fragment ion spectrum.</div>
+<details class="faq-item">
+<summary>What is the difference between CID, HCD, and ETD fragmentation?</summary>
+CID (collision-induced dissociation) and HCD (higher-energy collisional dissociation) produce b- and y-ions through vibrational excitation. HCD provides better low-mass ion transmission. ETD (electron transfer dissociation) generates c- and z-ions via radical-mediated fragmentation and preserves labile PTMs like phosphorylation that would be lost during CID.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the difference between CID, HCD, and ETD fragmentation?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">CID (collision-induced dissociation) and HCD (higher-energy collisional dissociation) produce b- and y-ions through vibrational excitation. HCD provides better low-mass ion transmission. ETD (electron transfer dissociation) generates c- and z-ions via radical-mediated fragmentation and preserves labile PTMs like phosphorylation that would be lost during CID.</div>
+<details class="faq-item">
+<summary>Can mass spectrometry detect post-translational modifications on peptides?</summary>
+Yes. PTMs are detected as characteristic mass shifts from the unmodified residue mass (e.g., +80 Da for phosphorylation, +162 Da for hexose glycosylation). MS/MS fragmentation localizes the modification to a specific residue, and ETD fragmentation preserves labile modifications during analysis.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How is peptide identification confidence assessed in MS-based proteomics?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Confidence is assessed through target-decoy database searching, where the false discovery rate (FDR) is estimated by matching spectra against a decoy (reversed or randomized) database. Peptide identifications are typically filtered at 1% FDR at the peptide level and 1% at the protein level.</div>
+<details class="faq-item">
+<summary>What mass accuracy is required for confident peptide identification?</summary>
+High-resolution instruments (Orbitrap, FT-ICR) routinely achieve sub-1 ppm mass accuracy, substantially reducing the number of candidate peptides and increasing identification confidence. Instruments with 10–50 ppm accuracy can still provide confident identifications when combined with retention time and fragmentation data.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Can mass spectrometry detect post-translational modifications on peptides?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Yes. PTMs are detected as characteristic mass shifts from the unmodified residue mass (e.g., +80 Da for phosphorylation, +162 Da for hexose glycosylation). MS/MS fragmentation localizes the modification to a specific residue, and ETD fragmentation preserves labile modifications during analysis.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is peptide mass fingerprinting (PMF)?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">PMF is a MALDI-TOF-based technique where a protein is digested with a specific protease (typically trypsin), and the masses of the resulting peptide fragments are measured. The peptide mass list is compared against theoretical digests in protein databases for identification. PMF is rapid but less specific than MS/MS-based approaches.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What mass accuracy is required for confident peptide identification?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">High-resolution instruments (Orbitrap, FT-ICR) routinely achieve sub-1 ppm mass accuracy, substantially reducing the number of candidate peptides and increasing identification confidence. Instruments with 10–50 ppm accuracy can still provide confident identifications when combined with retention time and fragmentation data.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How are quantitative MS experiments performed for peptides?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Quantification uses either label-free approaches (spectral counting or precursor ion intensity) or stable isotope labeling methods such as SILAC (metabolic labeling), TMT, or iTRAQ (chemical labeling). Labeling enables multiplexed analysis with up to 16-plex comparisons using TMTpro reagents.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the limit of detection for peptide mass spectrometry?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Modern mass spectrometers routinely achieve detection limits in the low femtomole range, with state-of-the-art instruments reaching attomole sensitivity for purified peptides. Single-cell proteomics approaches are pushing toward zeptomole (10<sup>-21</sup> mol) detection limits.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How does LC-MS/MS improve peptide analysis over direct infusion MS?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">LC separation prior to MS analysis reduces sample complexity by fractionating peptides based on hydrophobicity, minimizing ion suppression, increasing dynamic range, providing retention time as an additional identification dimension, and enabling analysis of complex mixtures containing thousands of peptides.</div>
+<details class="faq-item">
+<summary>What is the limit of detection for peptide mass spectrometry?</summary>
+Modern mass spectrometers routinely achieve detection limits in the low femtomole range, with state-of-the-art instruments reaching attomole sensitivity for purified peptides. Single-cell proteomics approaches are pushing toward zeptomole (10<sup>-21</sup> mol) detection limits.
+</details>
   </div>
 </div>
 
@@ -125,22 +109,22 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
-  <li id="ref2">Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
-  <li id="ref3">Mann M, Wilm M. Error-tolerant identification of peptides in sequence databases by peptide sequence tags. <em>Anal Chem</em>. 1994;66(24):4390-4399.</li>
-  <li id="ref4">Steen H, Mann M. The abc's (and xyz's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
-  <li id="ref5">Cox J, Mann M. MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. <em>Nat Biotechnol</em>. 2008;26(12):1367-1372.</li>
-  <li id="ref6">Aebersold R, Mann M. Mass-spectrometric exploration of proteome structure and function. <em>Nature</em>. 2016;537(7620):347-355.</li>
-  <li id="ref7">Yates JR 3rd, Ruse CI, Nakorchevsky A. Proteomics by mass spectrometry: approaches, advances, and applications. <em>Annu Rev Biomed Eng</em>. 2009;11:49-79.</li>
-  <li id="ref8">Eng JK, McCormack AL, Yates JR. An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database. <em>J Am Soc Mass Spectrom</em>. 1994;5(11):976-989.</li>
-  <li id="ref9">Olsen JV, Blagoev B, Gnad F, et al. Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. <em>Cell</em>. 2006;127(3):635-648.</li>
-  <li id="ref10">Cravatt BF, Simon GM, Yates JR 3rd. The biological impact of mass-spectrometry-based proteomics. <em>Nature</em>. 2007;450(7172):991-1000.</li>
-  <li id="ref11">Zhang Y, Fonslow BR, Shan B, Baek MC, Yates JR 3rd. Protein analysis by shotgun/bottom-up proteomics. <em>Chem Rev</em>. 2013;113(4):2343-2394.</li>
-  <li id="ref12">Mann M. Functional and quantitative proteomics using SILAC. <em>Nat Rev Mol Cell Biol</em>. 2006;7(12):952-958.</li>
+  <li id="ref1Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
+  <li id="ref2Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
+  <li id="ref3Mann M, Wilm M. Error-tolerant identification of peptides in sequence databases by peptide sequence tags. <em>Anal Chem</em>. 1994;66(24):4390-4399.</li>
+  <li id="ref4Steen H, Mann M. The abc's (and xyz's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
+  <li id="ref5Cox J, Mann M. MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. <em>Nat Biotechnol</em>. 2008;26(12):1367-1372.</li>
+  <li id="ref6Aebersold R, Mann M. Mass-spectrometric exploration of proteome structure and function. <em>Nature</em>. 2016;537(7620):347-355.</li>
+  <li id="ref7Yates JR 3rd, Ruse CI, Nakorchevsky A. Proteomics by mass spectrometry: approaches, advances, and applications. <em>Annu Rev Biomed Eng</em>. 2009;11:49-79.</li>
+  <li id="ref8Eng JK, McCormack AL, Yates JR. An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database. <em>J Am Soc Mass Spectrom</em>. 1994;5(11):976-989.</li>
+  <li id="ref9Olsen JV, Blagoev B, Gnad F, et al. Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. <em>Cell</em>. 2006;127(3):635-648.</li>
+  <li id="ref10Cravatt BF, Simon GM, Yates JR 3rd. The biological impact of mass-spectrometry-based proteomics. <em>Nature</em>. 2007;450(7172):991-1000.</li>
+  <li id="ref11Zhang Y, Fonslow BR, Shan B, Baek MC, Yates JR 3rd. Protein analysis by shotgun/bottom-up proteomics. <em>Chem Rev</em>. 2013;113(4):2343-2394.</li>
+  <li id="ref12Mann M. Functional and quantitative proteomics using SILAC. <em>Nat Rev Mol Cell Biol</em>. 2006;7(12):952-958.</li>
 
 
 </ol>

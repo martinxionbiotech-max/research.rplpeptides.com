@@ -95,46 +95,46 @@ Finally, comparative effectiveness research against bariatric surgery and other 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What distinguishes retatrutide from tirzepatide?</h3>
-    Retatrutide adds glucagon receptor agonism to the GIP/GLP-1 dual agonism of tirzepatide. This triple-receptor approach is designed to further increase energy expenditure and hepatic lipid oxidation beyond what dual agonism alone can achieve, potentially resulting in greater weight loss and improved liver fat reduction.
-  </div>
-  <div class="faq-item">
-    <h3>How does retatrutide achieve once-weekly dosing?</h3>
-    Retatrutide incorporates a fatty acid side chain that binds non-covalently to serum albumin. This albumin binding slows renal clearance and enzymatic degradation, extending the peptide's half-life to approximately 6–7 days and enabling therapeutic concentrations with once-weekly subcutaneous administration.
-  </div>
-  <div class="faq-item">
-    <h3>What weight reduction has been observed with retatrutide?</h3>
-    In the phase 2 obesity trial, participants receiving retatrutide 12 mg once weekly experienced mean body weight reductions of up to 24.2% at 48 weeks. Notably, weight loss had not plateaued at the end of the treatment period, suggesting potential for further reduction with extended treatment duration.
-  </div>
-  <div class="faq-item">
-    <h3>What are the primary adverse effects reported?</h3>
-    Gastrointestinal adverse effects including nausea, diarrhea, and vomiting are the most commonly reported events, consistent with the GLP-1 receptor agonist class. These effects are primarily mild to moderate in severity and tend to diminish with continued dosing as tolerance develops.
-  </div>
-  <div class="faq-item">
-    <h3>Is retatrutide being studied for non-alcoholic steatohepatitis (NASH)?</h3>
-    Yes. The glucagon receptor agonism component is hypothesized to reduce hepatic steatosis through increased fatty acid oxidation and mitochondrial function in hepatocytes. Phase 2 and phase 3 clinical programs are evaluating retatrutide for the treatment of NASH with fibrosis.
-  </div>
-  <div class="faq-item">
-    <h3>How does glucagon receptor agonism contribute to weight loss?</h3>
-    Glucagon receptor activation increases energy expenditure through enhanced thermogenesis and fatty acid oxidation. While glucagon alone would raise blood glucose, concurrent GLP-1R activation mitigates this hyperglycemic effect, allowing the energy expenditure benefits of GCGR stimulation to be realized without net glucose elevation.
-  </div>
-  <div class="faq-item">
-    <h3>What is the dosing schedule used in clinical trials?</h3>
-    Clinical trials have employed a dose-escalation regimen over several weeks to improve gastrointestinal tolerability, starting at low doses (2 mg) and titrating up to target doses (4 mg, 8 mg, or 12 mg) administered once weekly via subcutaneous injection.
-  </div>
-  <div class="faq-item">
-    <h3>Does retatrutide have effects on cardiovascular risk factors?</h3>
-    Phase 2 data have demonstrated improvements in blood pressure, lipid profiles (reduced triglycerides, LDL cholesterol), and inflammatory markers in addition to glycemic and weight effects. A dedicated cardiovascular outcomes trial (phase 3) is ongoing to evaluate MACE reduction.
-  </div>
-  <div class="faq-item">
-    <h3>What are the limitations of current retatrutide research?</h3>
-    Current limitations include the relatively short duration of clinical studies (≤48 weeks), the need for larger and more diverse participant populations, and the absence of long-term cardiovascular outcomes data. Additionally, the durability of weight loss after treatment cessation and the effects of retatrutide on lean body mass require further investigation.
-  </div>
-  <div class="faq-item">
-    <h3>How does retatrutide compare to bariatric surgery in terms of efficacy?</h3>
-    The 24.2% mean weight reduction observed with retatrutide approaches the range typically reported after bariatric surgical procedures such as sleeve gastrectomy (25–30%), representing a substantial advancement in non-surgical obesity pharmacotherapy. Direct comparative trials between retatrutide and bariatric surgery have not yet been conducted.
-  </div>
+<details class="faq-item">
+<summary>What distinguishes retatrutide from tirzepatide?</summary>
+Retatrutide adds glucagon receptor agonism to the GIP/GLP-1 dual agonism of tirzepatide. This triple-receptor approach is designed to further increase energy expenditure and hepatic lipid oxidation beyond what dual agonism alone can achieve, potentially resulting in greater weight loss and improved liver fat reduction.
+</details>
+<details class="faq-item">
+<summary>How does retatrutide achieve once-weekly dosing?</summary>
+Retatrutide incorporates a fatty acid side chain that binds non-covalently to serum albumin. This albumin binding slows renal clearance and enzymatic degradation, extending the peptide's half-life to approximately 6–7 days and enabling therapeutic concentrations with once-weekly subcutaneous administration.
+</details>
+<details class="faq-item">
+<summary>What weight reduction has been observed with retatrutide?</summary>
+In the phase 2 obesity trial, participants receiving retatrutide 12 mg once weekly experienced mean body weight reductions of up to 24.2% at 48 weeks. Notably, weight loss had not plateaued at the end of the treatment period, suggesting potential for further reduction with extended treatment duration.
+</details>
+<details class="faq-item">
+<summary>What are the primary adverse effects reported?</summary>
+Gastrointestinal adverse effects including nausea, diarrhea, and vomiting are the most commonly reported events, consistent with the GLP-1 receptor agonist class. These effects are primarily mild to moderate in severity and tend to diminish with continued dosing as tolerance develops.
+</details>
+<details class="faq-item">
+<summary>Is retatrutide being studied for non-alcoholic steatohepatitis (NASH)?</summary>
+Yes. The glucagon receptor agonism component is hypothesized to reduce hepatic steatosis through increased fatty acid oxidation and mitochondrial function in hepatocytes. Phase 2 and phase 3 clinical programs are evaluating retatrutide for the treatment of NASH with fibrosis.
+</details>
+<details class="faq-item">
+<summary>How does glucagon receptor agonism contribute to weight loss?</summary>
+Glucagon receptor activation increases energy expenditure through enhanced thermogenesis and fatty acid oxidation. While glucagon alone would raise blood glucose, concurrent GLP-1R activation mitigates this hyperglycemic effect, allowing the energy expenditure benefits of GCGR stimulation to be realized without net glucose elevation.
+</details>
+<details class="faq-item">
+<summary>What is the dosing schedule used in clinical trials?</summary>
+Clinical trials have employed a dose-escalation regimen over several weeks to improve gastrointestinal tolerability, starting at low doses (2 mg) and titrating up to target doses (4 mg, 8 mg, or 12 mg) administered once weekly via subcutaneous injection.
+</details>
+<details class="faq-item">
+<summary>Does retatrutide have effects on cardiovascular risk factors?</summary>
+Phase 2 data have demonstrated improvements in blood pressure, lipid profiles (reduced triglycerides, LDL cholesterol), and inflammatory markers in addition to glycemic and weight effects. A dedicated cardiovascular outcomes trial (phase 3) is ongoing to evaluate MACE reduction.
+</details>
+<details class="faq-item">
+<summary>What are the limitations of current retatrutide research?</summary>
+Current limitations include the relatively short duration of clinical studies (≤48 weeks), the need for larger and more diverse participant populations, and the absence of long-term cardiovascular outcomes data. Additionally, the durability of weight loss after treatment cessation and the effects of retatrutide on lean body mass require further investigation.
+</details>
+<details class="faq-item">
+<summary>How does retatrutide compare to bariatric surgery in terms of efficacy?</summary>
+The 24.2% mean weight reduction observed with retatrutide approaches the range typically reported after bariatric surgical procedures such as sleeve gastrectomy (25–30%), representing a substantial advancement in non-surgical obesity pharmacotherapy. Direct comparative trials between retatrutide and bariatric surgery have not yet been conducted.
+</details>
 </div>
 
 !!! info ""
@@ -142,37 +142,37 @@ Finally, comparative effectiveness research against bariatric surgery and other 
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
 - Coskun T, Urva S, Roell WC, et al.
 
-LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. doi:10.1016/S0140-6736(22)02033-5
+LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. <a href="https://doi.org/10.1016%2FS0140-6736%2822%2902033-5">doi:10.1016/S0140-6736(22)02033-5</a>
   - Jastreboff AM, Kaplan LM, Frías JP, et al.
 
-Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. doi:10.1056/NEJMoa2301972
+Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. <a href="https://doi.org/10.1056%2FNEJMoa2301972">doi:10.1056/NEJMoa2301972</a>
   - Rosenstock J, Frias J, Jastreboff AM, et al.
 
-Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. doi:10.1016/S0140-6736(23)01553-2
+Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. <a href="https://doi.org/10.1016%2FS0140-6736%2823%2901553-2">doi:10.1016/S0140-6736(23)01553-2</a>
   - Coskun T, Sloop KW, Loghin C, et al.
 
-LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. doi:10.1111/dom.14629
+LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. <a href="https://doi.org/10.1111%2Fdom.14629">doi:10.1111/dom.14629</a>
   - Finan B, Yang B, Ottaway N, et al.
 
-A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. doi:10.1038/nm.3761
+A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. <a href="https://doi.org/10.1038%2Fnm.3761">doi:10.1038/nm.3761</a>
   - Galsgaard KD, Pedersen J, Knop FK, et al.
 
-Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. doi:10.3389/fphys.2019.00413
+Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. <a href="https://doi.org/10.3389%2Ffphys.2019.00413">doi:10.3389/fphys.2019.00413</a>
   - Capozzi ME, DiMarchi RD, Tschöp MH, et al.
 
-Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. doi:10.1210/er.2018-00117
+Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. <a href="https://doi.org/10.1210%2Fer.2018-00117">doi:10.1210/er.2018-00117</a>
   - Samms RJ, Coghlan MP, Sloop KW.
 
-How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
+How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a>
   - Tschöp MH, DiMarchi RD.
 
-Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. doi:10.2337/dbi16-0086
-  - Sonne DP, Hemmingsen B, Faber J, et al. Pharmacology and physiology of glucagon receptor signaling. <em>Molecular Metabolism</em>. 2021;46:101169. doi:10.1016/j.molmet.2021.101169
+Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a>
+  - Sonne DP, Hemmingsen B, Faber J, et al. Pharmacology and physiology of glucagon receptor signaling. <em>Molecular Metabolism</em>. 2021;46:101169. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101169">doi:10.1016/j.molmet.2021.101169</a>
 
 
 </ol>

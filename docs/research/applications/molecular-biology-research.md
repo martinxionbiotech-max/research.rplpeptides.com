@@ -84,66 +84,56 @@ The integration of peptides with next-generation sequencing platforms represents
 
 ## Frequently Asked Questions
 <div class="faq-list">
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What is a peptide nucleic acid (PNA) and how does it differ from DNA?</h3>
-    <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What is a peptide nucleic acid (PNA) and how does it differ from DNA?</summary>
+<div class="faq-answer" style="display:none;">
       Peptide nucleic acid (PNA) is a synthetic molecule in which the deoxyribose-phosphate backbone of DNA is replaced by a pseudopeptide backbone of N-(2-aminoethyl)glycine units. Unlike DNA, PNA is uncharged, more stable to nucleases and proteases, and forms tighter and more sequence-specific duplexes with complementary DNA or RNA. PNA cannot be replicated by polymerases and is not naturally occurring <a href="#ref-2">[2]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What are peptide epitope tags and how are they used in molecular biology?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What are peptide epitope tags and how are they used in molecular biology?</summary>
+<div class="faq-answer" style="display:none;">
       Peptide epitope tags are short synthetic peptide sequences genetically fused to target proteins through recombinant DNA. They are recognized by commercial high-affinity antibodies, enabling protein detection without target-specific antibodies. Common tags include FLAG (DYKDDDDK), HA (YPYDVPDYA), c-Myc (EQKLISEEDL), and His<sub>6</sub> (HHHHHH). Uses include Western blotting, immunoprecipitation, immunofluorescence, and affinity purification <a href="#ref-1">[1]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> How are peptide arrays constructed and what are they used for?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> How are peptide arrays constructed and what are they used for?</summary>
+<div class="faq-answer" style="display:none;">
       Peptide arrays are high-density collections of peptides immobilized on a solid support (usually a glass slide or membrane). They are constructed by in situ SPPS using photolithographic methods or by spotting pre-synthesized peptides. Applications include epitope mapping (identifying antibody binding sites), enzyme substrate profiling (identifying which sequences are phosphorylated or cleaved by a specific enzyme), and screening peptide-protein interactions <a href="#ref-6">[6]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What is PCR clamping and how does PNA enable it?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What is PCR clamping and how does PNA enable it?</summary>
+<div class="faq-answer" style="display:none;">
       PCR clamping is a technique for selectively suppressing amplification of a specific DNA sequence. PNA probes are designed to bind to the wild-type sequence with high affinity, physically blocking primer annealing or polymerase elongation. Because PNA-DNA duplexes are more stable than DNA-DNA duplexes and highly sensitive to single mismatches, mutant sequences (which contain mismatches with the PNA probe) are preferentially amplified. This allows detection of rare mutant alleles in a background of excess wild-type DNA <a href="#ref-5">[5]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> How are peptide substrates used to study enzyme activity?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> How are peptide substrates used to study enzyme activity?</summary>
+<div class="faq-answer" style="display:none;">
       Peptide substrates are short synthetic peptides containing the recognition sequence of a specific enzyme. For proteases, fluorogenic peptides with donor-quencher pairs release a fluorescent signal upon cleavage. For kinases, peptides containing phosphorylation sites (e.g., kemptide for PKA) are incubated with the enzyme and radioactive or fluorescent ATP. The incorporation of phosphate into the peptide is then measured. This provides quantitative, kinetic information about enzyme activity <a href="#ref-7">[7]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What are glycine-serine (GS) linkers and why are they commonly used in fusion proteins?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What are glycine-serine (GS) linkers and why are they commonly used in fusion proteins?</summary>
+<div class="faq-answer" style="display:none;">
       GS linkers, typically with the repeating sequence (GGGGS)<sub>n</sub>, are flexible peptide linkers used to connect protein domains in engineered fusion constructs. Glycine provides conformational flexibility due to its small size, while serine improves solubility. The lack of large hydrophobic side chains reduces aggregation risk. GS linkers allow connected domains to fold independently and maintain their biological activity <a href="#ref-8">[8]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What is a nuclear localization signal (NLS) and how is it used experimentally?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What is a nuclear localization signal (NLS) and how is it used experimentally?</summary>
+<div class="faq-answer" style="display:none;">
       A nuclear localization signal (NLS) is a short peptide sequence (typically basic amino acids) that directs proteins into the cell nucleus through the importin-α/β transport pathway. The prototypical NLS is PKKKRKV from SV40 large T-antigen. In molecular biology, NLS sequences are genetically fused to heterologous proteins to target them to the nucleus for studying nuclear functions, gene regulation experiments, or delivering genome-editing proteins <a href="#ref-9">[9]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> How are peptides used in fluorescence in situ hybridization (FISH)?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> How are peptides used in fluorescence in situ hybridization (FISH)?</summary>
+<div class="faq-answer" style="display:none;">
       PNA probes are used in FISH (PNA-FISH) in place of traditional DNA probes. PNA probes offer advantages including higher binding affinity, superior mismatch discrimination, and resistance to degradation under harsh wash conditions. PNA-FISH is particularly useful for telomere length measurement (using PNA probes specific for telomeric repeats) and detecting chromosomal abnormalities in cytogenetics <a href="#ref-10">[10]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> Can peptides be used for targeted gene regulation?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> Can peptides be used for targeted gene regulation?</summary>
+<div class="faq-answer" style="display:none;">
       Yes. PNA can be used for targeted gene regulation through antisense mechanisms—binding to mRNA to block translation or splicing. PNA conjugated to cell-penetrating peptides can enter cells and inhibit gene expression with high sequence specificity. Additionally, PNA can induce transcriptional arrest by binding to genomic DNA through strand invasion. Progressively, peptide-based synthetic transcription factors composed of DNA-binding peptide domains fused to activation domains are being developed <a href="#ref-12">[12]</a>.
-    </div>
-  </div>
-  <div class="faq-item">
-    <h3 class="faq-question"><span class="faq-toggle">+</span> What are the limitations of using peptides in molecular biology experiments?</h3>
-    <div class="faq-answer" style="display:none;">
+</details>
+<details class="faq-item">
+<summary><span class="faq-toggle">+</span> What are the limitations of using peptides in molecular biology experiments?</summary>
+<div class="faq-answer" style="display:none;">
       Limitations include: (1) Synthetic peptides, especially long or hydrophobic ones, can be difficult to synthesize in high purity; (2) Peptide tags may occasionally interfere with protein folding or function depending on the fusion position; (3) PNA has limited water solubility and can be expensive to synthesize; (4) Peptide arrays may not capture post-translational modification effects; (5) Uncharged PNA tends to aggregate and can have poor cellular uptake without delivery systems <a href="#ref-3">[3]</a>.
-    </div>
-  </div>
+</details>
 </div>
 
 <!-- References -->
@@ -152,20 +142,20 @@ The integration of peptides with next-generation sequencing platforms represents
 
 
 ## References
-<ol class="references">
+<ol class="references
 
-  <li id="ref-1">Terpe K. Overview of tag protein fusions: from molecular and biochemical fundamentals to commercial systems. <em>Appl Microbiol Biotechnol</em>. 2003;60(5):523–533. doi:10.1007/s00253-002-1158-6</li>
-  <li id="ref-2">Nielsen PE, Egholm M, Berg RH, et al. Sequence-selective recognition of DNA by strand displacement with a thymine-substituted polyamide. <em>Science</em>. 1991;254(5037):1497–1500. doi:10.1126/science.1962210</li>
-  <li id="ref-3">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. doi:10.1021/ja00897a025</li>
-  <li id="ref-4">Egholm M, Buchardt O, Christensen L, et al. PNA hybridizes to complementary oligonucleotides obeying the Watson-Crick hydrogen-bonding rules. <em>Nature</em>. 1993;365(6446):566–568. doi:10.1038/365566a0</li>
-  <li id="ref-5">Ørum H, Nielsen PE, Egholm M, et al. Single base pair mutation analysis by PNA directed PCR clamping. <em>Nucleic Acids Res</em>. 1993;21(23):5332–5336. doi:10.1093/nar/21.23.5332</li>
-  <li id="ref-6">Hilpert K, Winkler DF, Hancock RE. Peptide arrays on cellulose support: SPOT synthesis, a time and cost efficient method for synthesis of large numbers of peptides in a parallel and addressable fashion. <em>Nat Protoc</em>. 2007;2(6):1333–1349. doi:10.1038/nprot.2007.160</li>
-  <li id="ref-7">Hutti JE, Jarrell ET, Chang JD, et al. A rapid method for determining protein kinase phosphorylation specificity. <em>Nat Methods</em>. 2004;1(1):27–29. doi:10.1038/nmeth708</li>
-  <li id="ref-8">Chen X, Zaro JL, Shen WC. Fusion protein linkers: property, design and functionality. <em>Adv Drug Deliv Rev</em>. 2013;65(10):1357–1369. doi:10.1016/j.addr.2012.09.039</li>
-  <li id="ref-9">Lange A, Mills RE, Lange CJ, et al. Classical nuclear localization signals: definition, function, and interaction with importin α. <em>J Biol Chem</em>. 2007;282(8):5101–5105. doi:10.1074/jbc.R600026200</li>
-  <li id="ref-10">Pellestor F, Paulasova P. The peptide nucleic acids (PNAs), powerful tools for molecular genetics and cytogenetics. <em>Eur J Hum Genet</em>. 2004;12(9):694–700. doi:10.1038/sj.ejhg.5201226</li>
-  <li id="ref-11">Rapireddy S, He G, Roy S, et al. Strand invasion of mixed-sequence B-form DNA by gamma-substituted peptide nucleic acids. <em>J Am Chem Soc</em>. 2007;129(50):15596–15600. doi:10.1021/ja074886j</li>
-  <li id="ref-12">Bashor CJ, Horwitz AA, Peisajovich SG, et al. Rewiring cells: synthetic biology as a tool to interrogate the organizational principles of living systems. <em>Annu Rev Biophys</em>. 2010;39:515–537. doi:10.1146/annurev.biophys.050708.133652</li>
-  <li id="ref-13">MacBeath G, Schreiber SL. Printing proteins as microarrays for high-throughput function determination. <em>Science</em>. 2000;289(5485):1760–1763. doi:10.1126/science.289.5485.1760</li>
+  <li id="ref-1Terpe K. Overview of tag protein fusions: from molecular and biochemical fundamentals to commercial systems. <em>Appl Microbiol Biotechnol</em>. 2003;60(5):523–533. <a href="https://doi.org/10.1007%2Fs00253-002-1158-6">doi:10.1007/s00253-002-1158-6</a></li>
+  <li id="ref-2Nielsen PE, Egholm M, Berg RH, et al. Sequence-selective recognition of DNA by strand displacement with a thymine-substituted polyamide. <em>Science</em>. 1991;254(5037):1497–1500. <a href="https://doi.org/10.1126%2Fscience.1962210">doi:10.1126/science.1962210</a></li>
+  <li id="ref-3Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+  <li id="ref-4Egholm M, Buchardt O, Christensen L, et al. PNA hybridizes to complementary oligonucleotides obeying the Watson-Crick hydrogen-bonding rules. <em>Nature</em>. 1993;365(6446):566–568. <a href="https://doi.org/10.1038%2F365566a0">doi:10.1038/365566a0</a></li>
+  <li id="ref-5Ørum H, Nielsen PE, Egholm M, et al. Single base pair mutation analysis by PNA directed PCR clamping. <em>Nucleic Acids Res</em>. 1993;21(23):5332–5336. <a href="https://doi.org/10.1093%2Fnar%2F21.23.5332">doi:10.1093/nar/21.23.5332</a></li>
+  <li id="ref-6Hilpert K, Winkler DF, Hancock RE. Peptide arrays on cellulose support: SPOT synthesis, a time and cost efficient method for synthesis of large numbers of peptides in a parallel and addressable fashion. <em>Nat Protoc</em>. 2007;2(6):1333–1349. <a href="https://doi.org/10.1038%2Fnprot.2007.160">doi:10.1038/nprot.2007.160</a></li>
+  <li id="ref-7Hutti JE, Jarrell ET, Chang JD, et al. A rapid method for determining protein kinase phosphorylation specificity. <em>Nat Methods</em>. 2004;1(1):27–29. <a href="https://doi.org/10.1038%2Fnmeth708">doi:10.1038/nmeth708</a></li>
+  <li id="ref-8Chen X, Zaro JL, Shen WC. Fusion protein linkers: property, design and functionality. <em>Adv Drug Deliv Rev</em>. 2013;65(10):1357–1369. <a href="https://doi.org/10.1016%2Fj.addr.2012.09.039">doi:10.1016/j.addr.2012.09.039</a></li>
+  <li id="ref-9Lange A, Mills RE, Lange CJ, et al. Classical nuclear localization signals: definition, function, and interaction with importin α. <em>J Biol Chem</em>. 2007;282(8):5101–5105. <a href="https://doi.org/10.1074%2Fjbc.R600026200">doi:10.1074/jbc.R600026200</a></li>
+  <li id="ref-10Pellestor F, Paulasova P. The peptide nucleic acids (PNAs), powerful tools for molecular genetics and cytogenetics. <em>Eur J Hum Genet</em>. 2004;12(9):694–700. <a href="https://doi.org/10.1038%2Fsj.ejhg.5201226">doi:10.1038/sj.ejhg.5201226</a></li>
+  <li id="ref-11Rapireddy S, He G, Roy S, et al. Strand invasion of mixed-sequence B-form DNA by gamma-substituted peptide nucleic acids. <em>J Am Chem Soc</em>. 2007;129(50):15596–15600. <a href="https://doi.org/10.1021%2Fja074886j">doi:10.1021/ja074886j</a></li>
+  <li id="ref-12Bashor CJ, Horwitz AA, Peisajovich SG, et al. Rewiring cells: synthetic biology as a tool to interrogate the organizational principles of living systems. <em>Annu Rev Biophys</em>. 2010;39:515–537. <a href="https://doi.org/10.1146%2Fannurev.biophys.050708.133652">doi:10.1146/annurev.biophys.050708.133652</a></li>
+  <li id="ref-13MacBeath G, Schreiber SL. Printing proteins as microarrays for high-throughput function determination. <em>Science</em>. 2000;289(5485):1760–1763. <a href="https://doi.org/10.1126%2Fscience.289.5485.1760">doi:10.1126/science.289.5485.1760</a></li>
 
 </ol>

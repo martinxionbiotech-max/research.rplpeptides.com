@@ -117,58 +117,45 @@ For research planning and experimental design support, the [RPL Peptides Researc
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What is the relationship between Epithalon and epithalamin? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Epithalamin is a peptide complex originally isolated from the bovine pineal gland by Russian researchers. Epithalon (AEDG) is a synthetic tetrapeptide representing the minimal active fragment of epithalamin. The tetrapeptide was developed to provide a chemically defined, reproducible molecule that retains the biological activities of the parent complex.</div>
+<details class="faq-item">
+<summary>What is the relationship between Epithalon and epithalamin?</summary>
+Epithalamin is a peptide complex originally isolated from the bovine pineal gland by Russian researchers. Epithalon (AEDG) is a synthetic tetrapeptide representing the minimal active fragment of epithalamin. The tetrapeptide was developed to provide a chemically defined, reproducible molecule that retains the biological activities of the parent complex.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Does Epithalon activate telomerase? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Some published studies have reported that Epithalon treatment can increase telomerase activity in cultured human cells. Research by Khavinson and colleagues demonstrated that Epithalon could activate telomerase in human fibroblasts and increase the expression of the telomerase catalytic subunit (hTERT). However, these findings require further independent replication and the molecular mechanism of this effect remains to be fully characterized.</div>
+<details class="faq-item">
+<summary>Has Epithalon been studied in human clinical trials?</summary>
+Epithalon has been studied in clinical settings primarily in Russia and Eastern Europe. Studies have reported effects on immune function, endocrine parameters, and measures of biological age in human subjects. However, these studies have generally been small in scale and do not meet the rigorous standards of randomized controlled trials required for regulatory approval in Western jurisdictions.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Has Epithalon been studied in human clinical trials? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Epithalon has been studied in clinical settings primarily in Russia and Eastern Europe. Studies have reported effects on immune function, endocrine parameters, and measures of biological age in human subjects. However, these studies have generally been small in scale and do not meet the rigorous standards of randomized controlled trials required for regulatory approval in Western jurisdictions.</div>
+<details class="faq-item">
+<summary>What is the significance of the AEDG sequence?</summary>
+The AEDG sequence (alanine-glutamic acid-aspartic acid-glycine) was identified as the minimal active fragment of the epithalamin peptide complex. Structure-activity studies determined that this tetrapeptide sequence retains the biological activity of the larger parent molecule. The C-terminal glycine residue appears to be particularly important for biological activity.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How does Epithalon affect circadian rhythms? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Epithalon has been reported to normalize age-related disruptions in melatonin production and circadian rhythm patterns. In animal models, treatment with Epithalon has been shown to restore melatonin levels and improve circadian patterns of locomotor activity in aged animals. The peptide is thought to act on pinealocytes to support normal melatonin synthesis.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the significance of the AEDG sequence? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The AEDG sequence (alanine-glutamic acid-aspartic acid-glycine) was identified as the minimal active fragment of the epithalamin peptide complex. Structure-activity studies determined that this tetrapeptide sequence retains the biological activity of the larger parent molecule. The C-terminal glycine residue appears to be particularly important for biological activity.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the peptide bioregulator concept? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The peptide bioregulator concept, developed by Russian scientists Vladimir Khavinson and colleagues, proposes that short peptides derived from tissue-specific protein hydrolysates can regulate cellular function and gene expression in a tissue-specific manner. Epithalon is one of several peptides developed within this framework, which also includes peptides derived from the thymus, cartilage, and other tissues.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Does Epithalon affect immune function? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Some research has suggested that Epithalon may have immunomodulatory effects. Studies in animal models have reported changes in T-cell数量和功能 after Epithalon treatment, particularly in aged animals. These immune effects may be secondary to the peptide's effects on the neuroendocrine axis, given the close relationship between the pineal gland and the immune system.</div>
-  </div>
-</div>
-
-<!-- About RPL Peptides -->
+<details class="faq-item">
+<summary>Does Epithalon affect immune function?</summary>
+Some research has suggested that Epithalon may have immunomodulatory effects. Studies in animal models have reported changes in T-cell数量和功能 after Epithalon treatment, particularly in aged animals. These immune effects may be secondary to the peptide's effects on the neuroendocrine axis, given the close relationship between the pineal gland and the immune system.
+</details>
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Khavinson VK, Malinin VV. Gerontological aspects of genome peptide regulation. <em>Biochemistry (Moscow)</em>. 2005;70(4):404-413. doi:10.1007/s10541-005-0138-1</li>
-  <li id="ref2">Khavinson VK, Morozov VG, Malinin VV, et al. Effect of epithalon on the function of the pineal gland in elderly humans. <em>Advances in Gerontology</em>. 2002;9:101-109.</li>
-  <li id="ref3">Khavinson VK, Bondarev IE, Butyugov AA, et al. Peptide promotes overcoming of the division limit in human somatic cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2003;135(5):503-506. doi:10.1023/A:1024946820347</li>
-  <li id="ref4">Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. <em>Advances in Gerontology</em>. 2011;24(4):555-565.</li>
-  <li id="ref5">Korkushko OV, Khavinson VK, Shatilo VB, et al. The effect of epithalon on the circadian rhythm of melatonin secretion in elderly humans. <em>Neuroendocrinology Letters</em>. 2004;25(4):259-262.</li>
-  <li id="ref6">Khavinson VK, Solovyov AY, Zhilinskaya IN, et al. Epithalon peptide as a telomerase activator. <em>Bulletin of Experimental Biology and Medicine</em>. 2012;152(5):601-604. doi:10.1007/s10517-012-1586-4</li>
-  <li id="ref7">Khavinson VK, Kuznik BI, Linkova NS, et al. Peptide regulation of the expression of genes involved in cell cycle regulation. <em>Molecular Biology</em>. 2013;47(6):857-864. doi:10.1134/S0026893313060035</li>
-  <li id="ref8">Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in retinal pigment epithelium cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2011;151(5):640-642. doi:10.1007/s10517-011-1395-1</li>
-  <li id="ref9">Khavinson VK, Zemchikhina VN, Trofimov AV. Peptide regulation of pineal gland function in aging. <em>Neuroendocrinology Letters</em>. 2003;24(Suppl 1):53-56.</li>
-  <li id="ref10">Khavinson VK, Popovich IG, Linkova NS, et al. Peptide regulation of aging: the role of the pineal gland and thymus. <em>Advances in Gerontology</em>. 2015;5(2):77-83. doi:10.1134/S207905701502007X</li>
+  <li id="ref1Khavinson VK, Malinin VV. Gerontological aspects of genome peptide regulation. <em>Biochemistry (Moscow)</em>. 2005;70(4):404-413. <a href="https://doi.org/10.1007%2Fs10541-005-0138-1">doi:10.1007/s10541-005-0138-1</a></li>
+  <li id="ref2Khavinson VK, Morozov VG, Malinin VV, et al. Effect of epithalon on the function of the pineal gland in elderly humans. <em>Advances in Gerontology</em>. 2002;9:101-109.</li>
+  <li id="ref3Khavinson VK, Bondarev IE, Butyugov AA, et al. Peptide promotes overcoming of the division limit in human somatic cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2003;135(5):503-506. <a href="https://doi.org/10.1023%2FA%3A1024946820347">doi:10.1023/A:1024946820347</a></li>
+  <li id="ref4Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. <em>Advances in Gerontology</em>. 2011;24(4):555-565.</li>
+  <li id="ref5Korkushko OV, Khavinson VK, Shatilo VB, et al. The effect of epithalon on the circadian rhythm of melatonin secretion in elderly humans. <em>Neuroendocrinology Letters</em>. 2004;25(4):259-262.</li>
+  <li id="ref6Khavinson VK, Solovyov AY, Zhilinskaya IN, et al. Epithalon peptide as a telomerase activator. <em>Bulletin of Experimental Biology and Medicine</em>. 2012;152(5):601-604. <a href="https://doi.org/10.1007%2Fs10517-012-1586-4">doi:10.1007/s10517-012-1586-4</a></li>
+  <li id="ref7Khavinson VK, Kuznik BI, Linkova NS, et al. Peptide regulation of the expression of genes involved in cell cycle regulation. <em>Molecular Biology</em>. 2013;47(6):857-864. <a href="https://doi.org/10.1134%2FS0026893313060035">doi:10.1134/S0026893313060035</a></li>
+  <li id="ref8Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in retinal pigment epithelium cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2011;151(5):640-642. <a href="https://doi.org/10.1007%2Fs10517-011-1395-1">doi:10.1007/s10517-011-1395-1</a></li>
+  <li id="ref9Khavinson VK, Zemchikhina VN, Trofimov AV. Peptide regulation of pineal gland function in aging. <em>Neuroendocrinology Letters</em>. 2003;24(Suppl 1):53-56.</li>
+  <li id="ref10Khavinson VK, Popovich IG, Linkova NS, et al. Peptide regulation of aging: the role of the pineal gland and thymus. <em>Advances in Gerontology</em>. 2015;5(2):77-83. <a href="https://doi.org/10.1134%2FS207905701502007X">doi:10.1134/S207905701502007X</a></li>
 
 
 </ol>

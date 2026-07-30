@@ -140,30 +140,30 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 
 ## FAQ
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Why is TFA used as an ion-pairing agent in peptide HPLC?</h3>
-    TFA suppresses ionization of silanol groups on the silica stationary phase and forms ion pairs with protonated peptide amines. This reduces secondary interactions, improves peak shape, and enhances retention reproducibility.
-  </div>
-  <div class="faq-item">
-    <h3>What gradient conditions should I use for a new peptide?</h3>
-    Start with a broad gradient (5–65% B over 20–30 min). If the peptide elutes early, reduce the initial %B. If late, reduce the final %B. Optimize gradient slope for resolution: 0.5–1.0% B/min for complex samples, 1.5–2.5% B/min for routine purity checks.
-  </div>
-  <div class="faq-item">
-    <h3>How do I choose between C18 and C8 columns?</h3>
-    C18 provides stronger retention and is preferred for most peptides. C8 is recommended for highly hydrophobic peptides that show excessive retention on C18, or to change selectivity when peaks co-elute on C18.
-  </div>
-  <div class="faq-item">
-    <h3>What is considered acceptable peptide purity by HPLC?</h3>
-    For research-grade peptides, >95% is standard. For in vivo studies, >98% is required. Therapeutic peptides typically require >99% purity with strict limits on specific impurities.
-  </div>
-  <div class="faq-item">
-    <h3>Why do I see multiple peaks for a supposedly pure peptide?</h3>
-    Multiple peaks may indicate: impurities (truncation sequences, epimers), conformational isomers (cis/trans proline isomerization), peptide aggregation, degradation products (oxidation of Met), or disulfide scrambling. LC-MS analysis can identify each peak.
-  </div>
-  <div class="faq-item">
-    <h3>Can I use LC-MS with TFA-containing mobile phases?</h3>
-    TFA causes ion suppression in ESI-MS. For LC-MS, use 0.1% formic acid instead of TFA, or use low TFA concentrations (0.01–0.05%) with post-column make-up flow to improve ionization.
-  </div>
+<details class="faq-item">
+<summary>Why is TFA used as an ion-pairing agent in peptide HPLC?</summary>
+TFA suppresses ionization of silanol groups on the silica stationary phase and forms ion pairs with protonated peptide amines. This reduces secondary interactions, improves peak shape, and enhances retention reproducibility.
+</details>
+<details class="faq-item">
+<summary>What gradient conditions should I use for a new peptide?</summary>
+Start with a broad gradient (5–65% B over 20–30 min). If the peptide elutes early, reduce the initial %B. If late, reduce the final %B. Optimize gradient slope for resolution: 0.5–1.0% B/min for complex samples, 1.5–2.5% B/min for routine purity checks.
+</details>
+<details class="faq-item">
+<summary>How do I choose between C18 and C8 columns?</summary>
+C18 provides stronger retention and is preferred for most peptides. C8 is recommended for highly hydrophobic peptides that show excessive retention on C18, or to change selectivity when peaks co-elute on C18.
+</details>
+<details class="faq-item">
+<summary>What is considered acceptable peptide purity by HPLC?</summary>
+For research-grade peptides, >95% is standard. For in vivo studies, >98% is required. Therapeutic peptides typically require >99% purity with strict limits on specific impurities.
+</details>
+<details class="faq-item">
+<summary>Why do I see multiple peaks for a supposedly pure peptide?</summary>
+Multiple peaks may indicate: impurities (truncation sequences, epimers), conformational isomers (cis/trans proline isomerization), peptide aggregation, degradation products (oxidation of Met), or disulfide scrambling. LC-MS analysis can identify each peak.
+</details>
+<details class="faq-item">
+<summary>Can I use LC-MS with TFA-containing mobile phases?</summary>
+TFA causes ion suppression in ESI-MS. For LC-MS, use 0.1% formic acid instead of TFA, or use low TFA concentrations (0.01–0.05%) with post-column make-up flow to improve ionization.
+</details>
 </div>
 
 !!! info ""
@@ -171,12 +171,12 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
-  <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
-  <li id="ref3">Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
-  <li id="ref4">Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>
-  <li id="ref5">Gilar M, Olivova P, Chakraborty AB, et al. Comparison of 1-D and 2-D LC-MS methods for proteomics. <em>J Sep Sci</em>. 2005;28(13):1554-1565.</li>
-  <li id="ref6">Stanton P. Preparative purification of peptides. <em>Methods Mol Biol</em>. 2014;1175:197-214.</li>
-  <li id="ref7">Shukla AK, Majors RE, eds. Liquid Chromatography for the Analysis of Peptides. Elsevier; 2011.</li>
+<ol class="references
+  <li id="ref1Mant CT, Chen Y, Yan Z, et al. HPLC analysis and purification of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
+  <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
+  <li id="ref3Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
+  <li id="ref4Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>
+  <li id="ref5Gilar M, Olivova P, Chakraborty AB, et al. Comparison of 1-D and 2-D LC-MS methods for proteomics. <em>J Sep Sci</em>. 2005;28(13):1554-1565.</li>
+  <li id="ref6Stanton P. Preparative purification of peptides. <em>Methods Mol Biol</em>. 2014;1175:197-214.</li>
+  <li id="ref7Shukla AK, Majors RE, eds. Liquid Chromatography for the Analysis of Peptides. Elsevier; 2011.</li>
 </ol>

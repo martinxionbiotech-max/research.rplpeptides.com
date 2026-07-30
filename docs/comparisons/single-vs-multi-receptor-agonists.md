@@ -123,30 +123,30 @@ Combinations with leptin, FGF21, and other metabolic hormones are in earlier sta
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is the advantage of multi-receptor over single-receptor agonists?</h3>
-    Multi-receptor agonists harness complementary biological mechanisms for additive or synergistic metabolic benefits. For example, GLP-1R provides insulin secretion and appetite suppression, while GIPR improves energy expenditure and lipid metabolism. The combined effect produces superior HbA1c reduction and weight loss.
-  </div>
-  <div class="faq-item">
-    <h3>Why not simply combine two separate agonists?</h3>
-    Unimolecular multi-receptor agonists ensure coordinated pharmacokinetics and target engagement: each molecule activates all receptors simultaneously with a fixed activity ratio. Combination therapy requires two separate injections or formulations, and the receptors may be engaged with different temporal profiles.
-  </div>
-  <div class="faq-item">
-    <h3>What are the risks of multi-receptor agonists?</h3>
-    The primary concern is the potential for adverse effects from multiple receptor activation, particularly with GCGR agonism (increased heart rate, potential for increased glucose in susceptible individuals). Long-term safety is still being established for the newer multi-receptor agents, especially regarding cardiovascular and pancreatic safety.
-  </div>
-  <div class="faq-item">
-    <h3>How are multi-receptor agonists engineered?</h3>
-    Peptide sequences are rationally designed by incorporating elements from native ligands for each target receptor. For example, tirzepatide uses a GIP backbone with modifications that enhance GLP-1R activity. The sequence is optimized through structure-activity relationship studies to achieve desired potency ratios at each receptor.
-  </div>
-  <div class="faq-item">
-    <h3>Which multi-receptor agonist is the most advanced in development?</h3>
-    Tirzepatide (Mounjaro/Zepbound) is the most advanced, with approvals for type 2 diabetes and obesity. Retatrutide (triple agonist) and survodutide (GLP-1R/GCGR dual) have completed Phase 2 trials with promising results and are advancing to Phase 3.
-  </div>
-  <div class="faq-item">
-    <h3>Do multi-receptor agonists have worse gastrointestinal side effects?</h3>
-    Clinical trial data suggest that multi-receptor agonists (tirzepatide) have GI tolerability comparable to or slightly better than high-dose GLP-1R-selective agonists at equivalent glycemic efficacy. The mechanistic basis may involve GIPR-mediated reduction of nausea signals, though this requires further study.
-  </div>
+<details class="faq-item">
+<summary>What is the advantage of multi-receptor over single-receptor agonists?</summary>
+Multi-receptor agonists harness complementary biological mechanisms for additive or synergistic metabolic benefits. For example, GLP-1R provides insulin secretion and appetite suppression, while GIPR improves energy expenditure and lipid metabolism. The combined effect produces superior HbA1c reduction and weight loss.
+</details>
+<details class="faq-item">
+<summary>Why not simply combine two separate agonists?</summary>
+Unimolecular multi-receptor agonists ensure coordinated pharmacokinetics and target engagement: each molecule activates all receptors simultaneously with a fixed activity ratio. Combination therapy requires two separate injections or formulations, and the receptors may be engaged with different temporal profiles.
+</details>
+<details class="faq-item">
+<summary>What are the risks of multi-receptor agonists?</summary>
+The primary concern is the potential for adverse effects from multiple receptor activation, particularly with GCGR agonism (increased heart rate, potential for increased glucose in susceptible individuals). Long-term safety is still being established for the newer multi-receptor agents, especially regarding cardiovascular and pancreatic safety.
+</details>
+<details class="faq-item">
+<summary>How are multi-receptor agonists engineered?</summary>
+Peptide sequences are rationally designed by incorporating elements from native ligands for each target receptor. For example, tirzepatide uses a GIP backbone with modifications that enhance GLP-1R activity. The sequence is optimized through structure-activity relationship studies to achieve desired potency ratios at each receptor.
+</details>
+<details class="faq-item">
+<summary>Which multi-receptor agonist is the most advanced in development?</summary>
+Tirzepatide (Mounjaro/Zepbound) is the most advanced, with approvals for type 2 diabetes and obesity. Retatrutide (triple agonist) and survodutide (GLP-1R/GCGR dual) have completed Phase 2 trials with promising results and are advancing to Phase 3.
+</details>
+<details class="faq-item">
+<summary>Do multi-receptor agonists have worse gastrointestinal side effects?</summary>
+Clinical trial data suggest that multi-receptor agonists (tirzepatide) have GI tolerability comparable to or slightly better than high-dose GLP-1R-selective agonists at equivalent glycemic efficacy. The mechanistic basis may involve GIPR-mediated reduction of nausea signals, though this requires further study.
+</details>
 </div>
 
 !!! info ""
@@ -154,15 +154,15 @@ Combinations with leptin, FGF21, and other metabolic hormones are in earlier sta
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
-  <li id="ref2">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
-  <li id="ref3">Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for type 2 diabetes. <em>Diabetes</em>. 2018;67(Suppl 1):1109-P.</li>
-  <li id="ref4">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
-  <li id="ref5">Knerr PJ, Mowery SA, Finan B, et al. Multi-receptor agonists for metabolic disease. <em>J Clin Invest</em>. 2021;131(3):e144797.</li>
-  <li id="ref6">Tschöp MH, Patterson JT, Chen X, et al. Research progress in single- and multi-receptor metabolic peptide therapeutics. <em>Nat Rev Drug Discov</em>. 2020;19(9):619-637.</li>
-  <li id="ref7">Hope DCD, Vincent ML, Pham HT, et al. Multi-receptor targeting for obesity and type 2 diabetes. <em>Peptides</em>. 2022;157:170872.</li>
-  <li id="ref8">Gillespie RJ, Lodaya RN, Skwarczynski M, et al. The future of multi-targeting peptides in metabolic disease. <em>Nat Rev Endocrinol</em>. 2023;19(6):348-361.</li>
-  <li id="ref9">Heppner KM, Bjeldbak JA, Bhatt DK, et al. Multi-receptor peptide drugs: mechanisms and clinical outcomes. <em>Nat Rev Endocrinol</em>. 2023;19(4):220-238.</li>
-  <li id="ref10">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+<ol class="references
+  <li id="ref1Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
+  <li id="ref2Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
+  <li id="ref3Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for type 2 diabetes. <em>Diabetes</em>. 2018;67(Suppl 1):1109-P.</li>
+  <li id="ref4Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
+  <li id="ref5Knerr PJ, Mowery SA, Finan B, et al. Multi-receptor agonists for metabolic disease. <em>J Clin Invest</em>. 2021;131(3):e144797.</li>
+  <li id="ref6Tschöp MH, Patterson JT, Chen X, et al. Research progress in single- and multi-receptor metabolic peptide therapeutics. <em>Nat Rev Drug Discov</em>. 2020;19(9):619-637.</li>
+  <li id="ref7Hope DCD, Vincent ML, Pham HT, et al. Multi-receptor targeting for obesity and type 2 diabetes. <em>Peptides</em>. 2022;157:170872.</li>
+  <li id="ref8Gillespie RJ, Lodaya RN, Skwarczynski M, et al. The future of multi-targeting peptides in metabolic disease. <em>Nat Rev Endocrinol</em>. 2023;19(6):348-361.</li>
+  <li id="ref9Heppner KM, Bjeldbak JA, Bhatt DK, et al. Multi-receptor peptide drugs: mechanisms and clinical outcomes. <em>Nat Rev Endocrinol</em>. 2023;19(4):220-238.</li>
+  <li id="ref10Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
 </ol>

@@ -79,64 +79,48 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What is the primary HPLC method for peptide analysis?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.</div>
+<details class="faq-item">
+<summary>What is the primary HPLC method for peptide analysis?</summary>
+Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Why is detection at 214 nm preferred for peptide analysis?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">The peptide bond exhibits strong absorbance at approximately 214 nm, providing universal detection for all peptides regardless of aromatic amino acid content. This wavelength offers approximately 10-fold higher sensitivity than detection at 280 nm.</div>
+<details class="faq-item">
+<summary>How is peptide purity determined by HPLC?</summary>
+Purity is determined by area normalization, where the peak area of the target peptide is expressed as a percentage of the total integrated peak area from all detected components. Research-grade peptides typically require >95% purity, while >98% is expected for pharmaceutical applications.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How is peptide purity determined by HPLC?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Purity is determined by area normalization, where the peak area of the target peptide is expressed as a percentage of the total integrated peak area from all detected components. Research-grade peptides typically require >95% purity, while >98% is expected for pharmaceutical applications.</div>
+<details class="faq-item">
+<summary>Can HPLC distinguish between peptide impurities and degradation products?</summary>
+Yes, when coupled with mass spectrometry detection (LC-MS), HPLC can identify and characterize individual impurities and degradation products based on their mass-to-charge ratios. This is essential for understanding peptide stability and degradation pathways.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the role of trifluoroacetic acid in peptide HPLC?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">TFA serves as an ion-pairing agent that protonates basic amino acid residues, suppresses silanol ionization on the stationary phase, and forms ion pairs with positively charged peptide groups, resulting in improved peak shape and resolution.</div>
+<details class="faq-item">
+<summary>What stationary phases are best for hydrophobic versus hydrophilic peptides?</summary>
+Hydrophobic peptides are well separated on C18 columns, while moderately hydrophobic peptides benefit from C8 or C4 phases. For hydrophilic peptides, HILIC (hydrophilic interaction liquid chromatography) is often preferred as it provides retention and separation based on polarity rather than hydrophobicity.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Can HPLC distinguish between peptide impurities and degradation products?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Yes, when coupled with mass spectrometry detection (LC-MS), HPLC can identify and characterize individual impurities and degradation products based on their mass-to-charge ratios. This is essential for understanding peptide stability and degradation pathways.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the difference between HPLC and UHPLC for peptide analysis?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Ultra-high-performance liquid chromatography (UHPLC) uses sub-2 micron particle columns and operates at pressures exceeding 1000 bar, providing faster separations (3–5 minutes versus 20–30 minutes), higher resolution, and improved sensitivity compared to conventional HPLC.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What stationary phases are best for hydrophobic versus hydrophilic peptides?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Hydrophobic peptides are well separated on C18 columns, while moderately hydrophobic peptides benefit from C8 or C4 phases. For hydrophilic peptides, HILIC (hydrophilic interaction liquid chromatography) is often preferred as it provides retention and separation based on polarity rather than hydrophobicity.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How does elevated temperature affect peptide HPLC separations?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Elevated temperatures (40–60 °C) improve mass transfer kinetics, reduce mobile phase viscosity, decrease backpressure, and minimize secondary interactions with the stationary phase, leading to sharper peaks and faster analysis times.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is peptide mapping and why is it important?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.</div>
-  </div>
-</div>
-
-!!! info ""
+<details class="faq-item">
+<summary>What is peptide mapping and why is it important?</summary>
+Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.
+</details>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Mant CT, Hodges RS. High-performance liquid chromatography of peptides and proteins: separation analysis and conformation. <em>Methods Enzymol</em>. 1996;271:3-50.</li>
-  <li id="ref2">Aguilar MI. Reversed-phase high-performance liquid chromatography of peptides. <em>Methods Mol Biol</em>. 2004;251:9-22.</li>
-  <li id="ref3">Bobaly B, Beck A, Fekete J, Guillarme D, Fekete S. Recent advances in reversed-phase liquid chromatographic separations of therapeutic peptides. <em>J Chromatogr A</em>. 2015;1384:29-40.</li>
-  <li id="ref4">Hancock WS, Bishop CA, Prestidge RL, Harding DR, Hearn MT. High-pressure liquid chromatography of peptides. <em>J Chromatogr</em>. 1976;125(1):215-222.</li>
-  <li id="ref5">Van Dongen WD, Niessen WM. Analysis of peptide mixtures by liquid chromatography-mass spectrometry. <em>J Chromatogr B Biomed Sci Appl</em>. 2000;739(1):137-153.</li>
-  <li id="ref6">D'Atri V, Fekete S, Clarke A, Veuthey JL, Guillarme D. Hydrophilic interaction liquid chromatography for the analysis of peptides. <em>J Sep Sci</em>. 2015;38(5):725-735.</li>
-  <li id="ref7">McCalley DV. The challenges of the analysis of basic compounds by high performance liquid chromatography. <em>J Chromatogr A</em>. 2010;1217(6):858-880.</li>
-  <li id="ref8">Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010.</li>
-  <li id="ref9">Heftmann E, ed. Chromatography: fundamentals and applications of chromatography and related differential migration methods. <em>J Chromatogr Libr</em>. 2004;69A.</li>
-  <li id="ref10">Joshi R, Ghosh A. High performance liquid chromatography in the analysis of peptides. <em>J Chromatogr Sci</em>. 2011;49(7):497-506.</li>
+  <li id="ref1Mant CT, Hodges RS. High-performance liquid chromatography of peptides and proteins: separation analysis and conformation. <em>Methods Enzymol</em>. 1996;271:3-50.</li>
+  <li id="ref2Aguilar MI. Reversed-phase high-performance liquid chromatography of peptides. <em>Methods Mol Biol</em>. 2004;251:9-22.</li>
+  <li id="ref3Bobaly B, Beck A, Fekete J, Guillarme D, Fekete S. Recent advances in reversed-phase liquid chromatographic separations of therapeutic peptides. <em>J Chromatogr A</em>. 2015;1384:29-40.</li>
+  <li id="ref4Hancock WS, Bishop CA, Prestidge RL, Harding DR, Hearn MT. High-pressure liquid chromatography of peptides. <em>J Chromatogr</em>. 1976;125(1):215-222.</li>
+  <li id="ref5Van Dongen WD, Niessen WM. Analysis of peptide mixtures by liquid chromatography-mass spectrometry. <em>J Chromatogr B Biomed Sci Appl</em>. 2000;739(1):137-153.</li>
+  <li id="ref6D'Atri V, Fekete S, Clarke A, Veuthey JL, Guillarme D. Hydrophilic interaction liquid chromatography for the analysis of peptides. <em>J Sep Sci</em>. 2015;38(5):725-735.</li>
+  <li id="ref7McCalley DV. The challenges of the analysis of basic compounds by high performance liquid chromatography. <em>J Chromatogr A</em>. 2010;1217(6):858-880.</li>
+  <li id="ref8Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010.</li>
+  <li id="ref9Heftmann E, ed. Chromatography: fundamentals and applications of chromatography and related differential migration methods. <em>J Chromatogr Libr</em>. 2004;69A.</li>
+  <li id="ref10Joshi R, Ghosh A. High performance liquid chromatography in the analysis of peptides. <em>J Chromatogr Sci</em>. 2011;49(7):497-506.</li>
 
 
 </ol>

@@ -100,55 +100,42 @@ The mitochondrial-derived peptide field continues to expand, with several relate
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What does MOTS-c stand for? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">MOTS-c stands for Mitochondrial Open Reading Frame of the 12S rRNA-c. The name reflects its origin as a peptide encoded within the mitochondrial 12S ribosomal RNA gene.</div>
+<details class="faq-item">
+<summary>What does MOTS-c stand for?</summary>
+MOTS-c stands for Mitochondrial Open Reading Frame of the 12S rRNA-c. The name reflects its origin as a peptide encoded within the mitochondrial 12S ribosomal RNA gene.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How is MOTS-c different from nuclear-encoded peptides? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">MOTS-c is encoded by mitochondrial DNA and translated within mitochondria using the mitochondrial genetic code, which differs from the standard nuclear genetic code. Most peptides are encoded by nuclear DNA, synthesized in the cytoplasm, and then targeted to various cellular locations. MOTS-c represents a direct signaling pathway from mitochondria to other cellular compartments.</div>
+<details class="faq-item">
+<summary>What is the primary research focus for MOTS-c?</summary>
+The primary research focus is metabolic regulation, including insulin sensitivity, glucose metabolism, and lipid oxidation. MOTS-c has also been investigated as an exercise mimetic, with studies showing it can activate AMPK signaling pathways similar to those activated by physical exercise.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the primary research focus for MOTS-c? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The primary research focus is metabolic regulation, including insulin sensitivity, glucose metabolism, and lipid oxidation. MOTS-c has also been investigated as an exercise mimetic, with studies showing it can activate AMPK signaling pathways similar to those activated by physical exercise.</div>
+<details class="faq-item">
+<summary>Does MOTS-c interact with other mitochondrial-derived peptides?</summary>
+Research has shown that MOTS-c belongs to a broader family of mitochondrial-derived peptides that includes Humanin and the SHLP peptides. These peptides may have overlapping or complementary functions, and some studies suggest they can act synergistically in regulating cellular metabolism and stress responses.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Has MOTS-c been studied in human clinical trials? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">As of 2026, most MOTS-c research has been conducted in cell culture and animal models. Limited human data exist, primarily from observational studies examining correlations between circulating MOTS-c levels and metabolic parameters. Rigorous human clinical trials have not yet been published.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Does MOTS-c interact with other mitochondrial-derived peptides? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Research has shown that MOTS-c belongs to a broader family of mitochondrial-derived peptides that includes Humanin and the SHLP peptides. These peptides may have overlapping or complementary functions, and some studies suggest they can act synergistically in regulating cellular metabolism and stress responses.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the significance of MOTS-c in exercise research? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">MOTS-c has been described as an exercise mimetic because it activates metabolic pathways—particularly AMPK signaling—that are also activated during physical exercise. Studies have shown that MOTS-c treatment can improve exercise capacity in aged mice and induce metabolic adaptations similar to those observed with regular physical training, including enhanced fatty acid oxidation and mitochondrial biogenesis.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How does MOTS-c regulate AMPK activation? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">MOTS-c activates AMPK indirectly through modulation of one-carbon metabolism. It interacts with the folate-methionine cycle, leading to increased levels of AICAR (5-aminoimidazole-4-carboxamide ribonucleotide), a well-characterized endogenous AMPK activator. This mechanism links mitochondrial peptide signaling to nucleotide metabolism and cellular energy sensing.</div>
-  </div>
-</div>
-
-<!-- References -->
+<details class="faq-item">
+<summary>How does MOTS-c regulate AMPK activation?</summary>
+MOTS-c activates AMPK indirectly through modulation of one-carbon metabolism. It interacts with the folate-methionine cycle, leading to increased levels of AICAR (5-aminoimidazole-4-carboxamide ribonucleotide), a well-characterized endogenous AMPK activator. This mechanism links mitochondrial peptide signaling to nucleotide metabolism and cellular energy sensing.
+</details>
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. <em>Cell Metabolism</em>. 2015;21(3):443-454. doi:10.1016/j.cmet.2015.02.009</li>
-  <li id="ref2">Kim KH, Son JM, Benayoun BA, et al. The mitochondrial-encoded peptide MOTS-c is a regulator of age-related metabolic dysfunction. <em>Nature Communications</em>. 2019;10(1):1104. doi:10.1038/s41467-019-08933-0</li>
-  <li id="ref3">Lu L, Li J, Jiang J, et al. MOTS-c peptide regulates mitochondrial function and metabolic homeostasis in skeletal muscle. <em>Molecular Metabolism</em>. 2019;27:1-9. doi:10.1016/j.molmet.2019.06.012</li>
-  <li id="ref4">Zapata RC, Singh A, Bhatt D, et al. Mitochondrial-derived peptides in energy metabolism and metabolic diseases. <em>Trends in Endocrinology & Metabolism</em>. 2021;32(7):467-479. doi:10.1016/j.tem.2021.04.007</li>
-  <li id="ref5">Zeng J, Lee C, Cohen P. Mitochondrial-encoded peptide MOTS-c mediates exercise-induced metabolic benefits. <em>Cell Reports</em>. 2018;25(10):2852-2862. doi:10.1016/j.celrep.2018.11.034</li>
-  <li id="ref6">Reynolds JC, Bwiza CP, Lee C. Mitonuclear genomics and aging. <em>Human Genetics</em>. 2020;139(3):381-399. doi:10.1007/s00439-020-02147-9</li>
-  <li id="ref7">Kim SJ, Xiao J, Wan J, et al. The mitochondrial-derived peptide MOTS-c protects against oxidative stress-induced endothelial dysfunction. <em>Biochemical and Biophysical Research Communications</em>. 2020;527(4):889-895. doi:10.1016/j.bbrc.2020.04.147</li>
-  <li id="ref8">Ming W, Lu G, Xin S, et al. Mitochondria-related peptide MOTS-c suppresses reactive oxygen species generation and attenuates inflammation. <em>Peptides</em>. 2021;143:170595. doi:10.1016/j.peptides.2021.170595</li>
+  <li id="ref1Lee C, Zeng J, Drew BG, et al. The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance. <em>Cell Metabolism</em>. 2015;21(3):443-454. <a href="https://doi.org/10.1016%2Fj.cmet.2015.02.009">doi:10.1016/j.cmet.2015.02.009</a></li>
+  <li id="ref2Kim KH, Son JM, Benayoun BA, et al. The mitochondrial-encoded peptide MOTS-c is a regulator of age-related metabolic dysfunction. <em>Nature Communications</em>. 2019;10(1):1104. <a href="https://doi.org/10.1038%2Fs41467-019-08933-0">doi:10.1038/s41467-019-08933-0</a></li>
+  <li id="ref3Lu L, Li J, Jiang J, et al. MOTS-c peptide regulates mitochondrial function and metabolic homeostasis in skeletal muscle. <em>Molecular Metabolism</em>. 2019;27:1-9. <a href="https://doi.org/10.1016%2Fj.molmet.2019.06.012">doi:10.1016/j.molmet.2019.06.012</a></li>
+  <li id="ref4Zapata RC, Singh A, Bhatt D, et al. Mitochondrial-derived peptides in energy metabolism and metabolic diseases. <em>Trends in Endocrinology & Metabolism</em>. 2021;32(7):467-479. <a href="https://doi.org/10.1016%2Fj.tem.2021.04.007">doi:10.1016/j.tem.2021.04.007</a></li>
+  <li id="ref5Zeng J, Lee C, Cohen P. Mitochondrial-encoded peptide MOTS-c mediates exercise-induced metabolic benefits. <em>Cell Reports</em>. 2018;25(10):2852-2862. <a href="https://doi.org/10.1016%2Fj.celrep.2018.11.034">doi:10.1016/j.celrep.2018.11.034</a></li>
+  <li id="ref6Reynolds JC, Bwiza CP, Lee C. Mitonuclear genomics and aging. <em>Human Genetics</em>. 2020;139(3):381-399. <a href="https://doi.org/10.1007%2Fs00439-020-02147-9">doi:10.1007/s00439-020-02147-9</a></li>
+  <li id="ref7Kim SJ, Xiao J, Wan J, et al. The mitochondrial-derived peptide MOTS-c protects against oxidative stress-induced endothelial dysfunction. <em>Biochemical and Biophysical Research Communications</em>. 2020;527(4):889-895. <a href="https://doi.org/10.1016%2Fj.bbrc.2020.04.147">doi:10.1016/j.bbrc.2020.04.147</a></li>
+  <li id="ref8Ming W, Lu G, Xin S, et al. Mitochondria-related peptide MOTS-c suppresses reactive oxygen species generation and attenuates inflammation. <em>Peptides</em>. 2021;143:170595. <a href="https://doi.org/10.1016%2Fj.peptides.2021.170595">doi:10.1016/j.peptides.2021.170595</a></li>
 
 
 </ol>

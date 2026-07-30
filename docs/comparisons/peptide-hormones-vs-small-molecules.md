@@ -171,30 +171,30 @@ The peptide component can also be used to target nanoparticles, where the peptid
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Why are most peptide drugs injectable?</h3>
-    Peptides are poorly absorbed orally due to proteolytic degradation in the GI tract and poor permeability across the intestinal epithelium. Their high molecular weight and polar nature prevent passive transcellular absorption, and tight junctions limit paracellular transport.
-  </div>
-  <div class="faq-item">
-    <h3>Can small molecules replace peptide hormones in metabolic disease?</h3>
-    Non-peptide GLP-1R agonists are in development, but reproducing the full efficacy of peptide agonists in GPCR systems with extended binding interfaces remains challenging. Small molecules may find applications as oral options, but are unlikely to fully replace peptide agonists for all indications.
-  </div>
-  <div class="faq-item">
-    <h3>Which class has lower immunogenicity risk?</h3>
-    Small molecules have negligible immunogenicity risk. Peptides have low-to-moderate risk depending on sequence homology to endogenous peptides, aggregation state, and impurities. Peptides with >50% homology to human sequences generally have low immunogenicity.
-  </div>
-  <div class="faq-item">
-    <h3>How are peptide half-lives extended for therapeutic use?</h3>
-    Strategies include: fatty acid acylation (albumin binding), PEGylation, Fc fusion, amino acid substitutions that confer DPP-4 resistance, cyclization, and conjugation to larger carrier proteins. Some modifications increase half-life from minutes to days.
-  </div>
-  <div class="faq-item">
-    <h3>Do peptides or small molecules have better blood-brain barrier penetration?</h3>
-    Small molecules generally exhibit far superior BBB penetration. Most peptides cannot cross the BBB in significant quantities unless modified with cell-penetrating sequences or transported via carrier-mediated mechanisms. This limits peptide application in CNS disorders.
-  </div>
-  <div class="faq-item">
-    <h3>What are the manufacturing cost differences?</h3>
-    Small molecule synthesis is typically less expensive at scale ($50–500/g) compared to peptide synthesis ($200–5,000/g depending on length and complexity). However, improved synthetic methods, enzymatic synthesis, and recombinant production are reducing peptide manufacturing costs.
-  </div>
+<details class="faq-item">
+<summary>Why are most peptide drugs injectable?</summary>
+Peptides are poorly absorbed orally due to proteolytic degradation in the GI tract and poor permeability across the intestinal epithelium. Their high molecular weight and polar nature prevent passive transcellular absorption, and tight junctions limit paracellular transport.
+</details>
+<details class="faq-item">
+<summary>Can small molecules replace peptide hormones in metabolic disease?</summary>
+Non-peptide GLP-1R agonists are in development, but reproducing the full efficacy of peptide agonists in GPCR systems with extended binding interfaces remains challenging. Small molecules may find applications as oral options, but are unlikely to fully replace peptide agonists for all indications.
+</details>
+<details class="faq-item">
+<summary>Which class has lower immunogenicity risk?</summary>
+Small molecules have negligible immunogenicity risk. Peptides have low-to-moderate risk depending on sequence homology to endogenous peptides, aggregation state, and impurities. Peptides with >50% homology to human sequences generally have low immunogenicity.
+</details>
+<details class="faq-item">
+<summary>How are peptide half-lives extended for therapeutic use?</summary>
+Strategies include: fatty acid acylation (albumin binding), PEGylation, Fc fusion, amino acid substitutions that confer DPP-4 resistance, cyclization, and conjugation to larger carrier proteins. Some modifications increase half-life from minutes to days.
+</details>
+<details class="faq-item">
+<summary>Do peptides or small molecules have better blood-brain barrier penetration?</summary>
+Small molecules generally exhibit far superior BBB penetration. Most peptides cannot cross the BBB in significant quantities unless modified with cell-penetrating sequences or transported via carrier-mediated mechanisms. This limits peptide application in CNS disorders.
+</details>
+<details class="faq-item">
+<summary>What are the manufacturing cost differences?</summary>
+Small molecule synthesis is typically less expensive at scale ($50–500/g) compared to peptide synthesis ($200–5,000/g depending on length and complexity). However, improved synthetic methods, enzymatic synthesis, and recombinant production are reducing peptide manufacturing costs.
+</details>
 </div>
 
 !!! info ""
@@ -202,14 +202,14 @@ The peptide component can also be used to target nanoparticles, where the peptid
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Craik DJ, Fairlie DP, Liras S, Price DA. The future of peptide-based drugs. <em>Chem Biol Drug Des</em>. 2013;81(1):136-147.</li>
-  <li id="ref2">Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. <em>Drug Discov Today</em>. 2015;20(1):122-128.</li>
-  <li id="ref3">Lau JL, Dunn MK. Therapeutic peptides: Historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700-2707.</li>
-  <li id="ref4">Leader B, Baca QJ, Golan DE. Protein therapeutics: a summary and pharmacological classification. <em>Nat Rev Drug Discov</em>. 2008;7(1):21-39.</li>
-  <li id="ref5">Otvos L Jr, Wade JD. Current challenges in peptide-based drug discovery. <em>Front Chem</em>. 2014;2:62.</li>
-  <li id="ref6">Hemmer A, Bailey J, Meutermans W, et al. Therapeutic peptides vs small molecules: A comparison. <em>Pept Sci</em>. 2018;110(5):e24055.</li>
-  <li id="ref7">Diez-Sampedro A, Lushnikova T, Martiskainen H, et al. The expanding role of therapeutic peptides. <em>Br J Pharmacol</em>. 2021;178(12):2356-2375.</li>
-  <li id="ref8">Uhlig T, Kyprianou T, Martin FG, et al. The emergence of peptides in the pharmaceutical business. <em>EuPA Open Proteom</em>. 2014;4:58-69.</li>
-  <li id="ref9">Muttenthaler M, King GF, Adams DJ, Alewood PF. Trends in peptide drug discovery. <em>Nat Rev Drug Discov</em>. 2021;20(4):309-325.</li>
+<ol class="references
+  <li id="ref1Craik DJ, Fairlie DP, Liras S, Price DA. The future of peptide-based drugs. <em>Chem Biol Drug Des</em>. 2013;81(1):136-147.</li>
+  <li id="ref2Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. <em>Drug Discov Today</em>. 2015;20(1):122-128.</li>
+  <li id="ref3Lau JL, Dunn MK. Therapeutic peptides: Historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700-2707.</li>
+  <li id="ref4Leader B, Baca QJ, Golan DE. Protein therapeutics: a summary and pharmacological classification. <em>Nat Rev Drug Discov</em>. 2008;7(1):21-39.</li>
+  <li id="ref5Otvos L Jr, Wade JD. Current challenges in peptide-based drug discovery. <em>Front Chem</em>. 2014;2:62.</li>
+  <li id="ref6Hemmer A, Bailey J, Meutermans W, et al. Therapeutic peptides vs small molecules: A comparison. <em>Pept Sci</em>. 2018;110(5):e24055.</li>
+  <li id="ref7Diez-Sampedro A, Lushnikova T, Martiskainen H, et al. The expanding role of therapeutic peptides. <em>Br J Pharmacol</em>. 2021;178(12):2356-2375.</li>
+  <li id="ref8Uhlig T, Kyprianou T, Martin FG, et al. The emergence of peptides in the pharmaceutical business. <em>EuPA Open Proteom</em>. 2014;4:58-69.</li>
+  <li id="ref9Muttenthaler M, King GF, Adams DJ, Alewood PF. Trends in peptide drug discovery. <em>Nat Rev Drug Discov</em>. 2021;20(4):309-325.</li>
 </ol>

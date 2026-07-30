@@ -93,75 +93,40 @@ Contemporary research on tesamorelin extends beyond HIV-associated lipodystrophy
 
 ## Frequently Asked Questions
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **What distinguishes tesamorelin from endogenous GHRH?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>What distinguishes tesamorelin from endogenous GHRH?</summary>
 Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Is tesamorelin a growth hormone secretagogue?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Is tesamorelin a growth hormone secretagogue?</summary>
 Yes, tesamorelin acts as a growth hormone secretagogue through stimulation of the GHRH receptor. However, unlike ghrelin mimetics (e.g., ipamorelin) that act on the GHS-R1a receptor, tesamorelin directly mimics the action of endogenous GHRH by binding to the GHRHR on pituitary somatotroph cells.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **What is the regulatory status of tesamorelin?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>What is the regulatory status of tesamorelin?</summary>
 Tesamorelin (Egrifta) is FDA-approved for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy. It has also received marketing authorization in Canada. It remains an investigational compound for other indications.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Does tesamorelin affect blood glucose levels?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Does tesamorelin affect blood glucose levels?</summary>
 Clinical studies indicate that tesamorelin does not adversely affect glycemic control. Some evidence points to modest improvements in insulin sensitivity, likely due to GH-induced lipolysis and reduction of visceral adiposity. However, GH can induce transient insulin resistance, and glucose monitoring remains standard in clinical trials.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **What are the most common adverse events associated with tesamorelin?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>What are the most common adverse events associated with tesamorelin?</summary>
 The most frequently reported adverse events in clinical trials include injection-site reactions (erythema, pruritus), arthralgias, myalgias, and peripheral edema. These are generally mild to moderate and are consistent with the known effects of GH axis stimulation.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Can tesamorelin be administered orally?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Can tesamorelin be administered orally?</summary>
 No. Like most peptides of its size, tesamorelin undergoes rapid proteolytic degradation in the gastrointestinal tract and has negligible oral bioavailability. It is formulated exclusively for subcutaneous injection.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **How does tesamorelin compare with systemic GH therapy?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>How does tesamorelin compare with systemic GH therapy?</summary>
 Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimulating the pituitary's natural feedback mechanisms, whereas exogenous GH administration delivers supraphysiological, non-pulsatile GH levels. The pulsatile profile achieved with tesamorelin may offer a more physiologic approach with a potentially more favorable safety profile.
-  </div>
-</div>
+</details>
 
 <!-- References -->
 !!! info ""
@@ -169,29 +134,29 @@ Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimul
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. <em>N Engl J Med.</em> 2007;357(23):2359-2370. doi:10.1056/NEJMoa072664
+- Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. <em>N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a>
   - Stanley TL, Feldpausch MN, Oh J, et al.
 
-Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. <em>AIDS.</em> 2014;28(9):1299-1307. doi:10.1097/QAD.0000000000000256
+Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. <em>AIDS.</em> 2014;28(9):1299-1307. <a href="https://doi.org/10.1097%2FQAD.0000000000000256">doi:10.1097/QAD.0000000000000256</a>
   - Falutz J, Potvin D, Mamputu JC, et al.
 
-Long-term safety and effects of tesamorelin in HIV patients with abdominal fat accumulation. <em>AIDS.</em> 2008;22(13):1665-1676. doi:10.1097/QAD.0b013e3283030d91
+Long-term safety and effects of tesamorelin in HIV patients with abdominal fat accumulation. <em>AIDS.</em> 2008;22(13):1665-1676. <a href="https://doi.org/10.1097%2FQAD.0b013e3283030d91">doi:10.1097/QAD.0b013e3283030d91</a>
   - Grunfeld C, Dobs AS, Engelson E, et al.
 
-Effects of tesamorelin on visceral adiposity in HIV-infected patients with abdominal fat accumulation. <em>J Clin Endocrinol Metab.</em> 2009;94(11):4286-4294. doi:10.1210/jc.2009-1330
+Effects of tesamorelin on visceral adiposity in HIV-infected patients with abdominal fat accumulation. <em>J Clin Endocrinol Metab.</em> 2009;94(11):4286-4294. <a href="https://doi.org/10.1210%2Fjc.2009-1330">doi:10.1210/jc.2009-1330</a>
   - Koutkia P, Canavan B, Breu J, et al.
 
-Growth hormone-releasing hormone (GHRH) administration in HIV-infected men: effects on body composition. <em>J Clin Endocrinol Metab.</em> 2005;90(5):2795-2800. doi:10.1210/jc.2004-2099
+Growth hormone-releasing hormone (GHRH) administration in HIV-infected men: effects on body composition. <em>J Clin Endocrinol Metab.</em> 2005;90(5):2795-2800. <a href="https://doi.org/10.1210%2Fjc.2004-2099">doi:10.1210/jc.2004-2099</a>
   - Dhillon S.
 
-Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. <em>Drugs.</em> 2011;71(8):1071-1091. doi:10.2165/11207480-000000000-00000
+Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. <em>Drugs.</em> 2011;71(8):1071-1091. <a href="https://doi.org/10.2165%2F11207480-000000000-00000">doi:10.2165/11207480-000000000-00000</a>
   - Suh HS, Zhao Y, Smith N, et al.
 
-Tesamorelin for HIV-associated lipodystrophy: a systematic review. <em>Clin Ther.</em> 2014;36(10):1509-1522. doi:10.1016/j.clinthera.2014.08.004
-  - Lo J, You SM, Liebau J, et al. Effects of tesamorelin on coronary vascular function in HIV-infected patients. <em>HIV Med.</em> 2016;17(8):580-588. doi:10.1111/hiv.12381
+Tesamorelin for HIV-associated lipodystrophy: a systematic review. <em>Clin Ther.</em> 2014;36(10):1509-1522. <a href="https://doi.org/10.1016%2Fj.clinthera.2014.08.004">doi:10.1016/j.clinthera.2014.08.004</a>
+  - Lo J, You SM, Liebau J, et al. Effects of tesamorelin on coronary vascular function in HIV-infected patients. <em>HIV Med.</em> 2016;17(8):580-588. <a href="https://doi.org/10.1111%2Fhiv.12381">doi:10.1111/hiv.12381</a>
 
 
 </ol>

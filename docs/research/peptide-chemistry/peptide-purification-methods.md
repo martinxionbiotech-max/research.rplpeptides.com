@@ -95,46 +95,30 @@ Lyophilization of pooled pure fractions yields the final product as a fluffy, am
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question"><span>What purity levels are typically required for research peptides?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">For most in vitro biological assays, >95% purity is sufficient. For in vivo studies, >98% is standard. For structural biology applications (NMR, X-ray crystallography), >99% may be required. Therapeutic peptides intended for clinical use require >99.5% purity with specific impurity profiling.</div>
+<details class="faq-item">
+<summary></summary>
+For most in vitro biological assays, >95% purity is sufficient. For in vivo studies, >98% is standard. For structural biology applications (NMR, X-ray crystallography), >99% may be required. Therapeutic peptides intended for clinical use require >99.5% purity with specific impurity profiling.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>Why is TFA used in HPLC peptide purification?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Trifluoroacetic acid (TFA) serves three roles: (1) as an ion-pairing agent that masks the positive charge on protonated amino groups, enhancing hydrophobic retention and improving peak shape; (2) as a volatile acid that can be completely removed by lyophilization; and (3) as a pH modifier maintaining low pH (≈2) that suppresses silanol ionization and maximizes peptide protonation.</div>
+<details class="faq-item">
+<summary></summary>
+C18 columns offer maximum retention and are suitable for most peptides (2–40 residues). C8 columns provide slightly less retention and may be preferred for moderately hydrophobic peptides where C18 retention is excessive. C4 columns are used for very hydrophobic or long peptides (>40 residues) that bind too strongly to C18 phases.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How do I choose between C4, C8, and C18 columns?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">C18 columns offer maximum retention and are suitable for most peptides (2–40 residues). C8 columns provide slightly less retention and may be preferred for moderately hydrophobic peptides where C18 retention is excessive. C4 columns are used for very hydrophobic or long peptides (>40 residues) that bind too strongly to C18 phases.</div>
+<details class="faq-item">
+<summary></summary>
+For some applications, alternative methods such as preparative thin-layer chromatography, flash chromatography, or pH-controlled precipitation may suffice, though resolution is generally inferior to HPLC. Dialysis or centrifugal filtration can remove small-molecule impurities. For high-purity requirements (>90%), HPLC remains the gold standard.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What are common impurities found in crude synthetic peptides?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">The most common impurities are deletion sequences (missing one or more amino acids), truncated peptides (incomplete Fmoc removal), aspartimide/Haspi byproducts (especially at Asp-Gly and Asp-Ser motifs), oxidation products (Met(O), Cys sulfenic/cysteic acid), racemized diastereomers, and scavenger adducts from the TFA cleavage mixture. These can be identified by LC-MS analysis.</div>
+<details class="faq-item">
+<summary></summary>
+Analytical RP-HPLC at 214 nm (amide bond absorbance) is the primary method, typically using a shallower gradient than the preparative method. Mass spectrometry confirms molecular identity. Amino acid analysis provides quantitative composition verification. For comprehensive characterization, additional methods include capillary electrophoresis (CE), NMR spectroscopy, and circular dichroism (CD). See our <a href="/research/peptide-chemistry/analytical-characterization/">Analytical Characterization</a> article for details.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>Can peptides be purified without HPLC?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">For some applications, alternative methods such as preparative thin-layer chromatography, flash chromatography, or pH-controlled precipitation may suffice, though resolution is generally inferior to HPLC. Dialysis or centrifugal filtration can remove small-molecule impurities. For high-purity requirements (>90%), HPLC remains the gold standard.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the typical recovery yield from preparative HPLC?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Recovery yields from preparative RP-HPLC typically range from 50–80% of the crude peptide mass depending on resolution requirements. Tighter pooling (narrower peak collection) increases purity but reduces yield. Losses occur from non-target fraction exclusion, irreversible column binding, and sample handling between steps.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How is the purity of a purified peptide verified?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Analytical RP-HPLC at 214 nm (amide bond absorbance) is the primary method, typically using a shallower gradient than the preparative method. Mass spectrometry confirms molecular identity. Amino acid analysis provides quantitative composition verification. For comprehensive characterization, additional methods include capillary electrophoresis (CE), NMR spectroscopy, and circular dichroism (CD). See our <a href="/research/peptide-chemistry/analytical-characterization/">Analytical Characterization</a> article for details.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What factors affect peptide recovery during lyophilization?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Peptide loss during lyophilization can occur from aerosolization (fine particles carried away during vacuum), adsorption to container surfaces (especially at low peptide concentrations), and incomplete redissolution. Adding a small amount of TFA or acetic acid to the solution before freezing can improve recovery. Concentrations above 1 mg/mL typically show >90% recovery.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>What is the difference between analytical and preparative HPLC?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Analytical HPLC uses small-diameter columns (2.1–4.6 mm ID) with 3–5 µm particles for high-resolution analysis of microgram quantities. Preparative HPLC uses larger columns (10–50+ mm ID) with 5–10 µm particles to separate milligram-to-gram quantities. Preparative columns sacrifice some theoretical plates for higher loading capacity. Method development is first performed analytically, then scaled up to preparative dimensions using flow rate and gradient volume scaling factors.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question"><span>How should purified peptides be stored?</span><span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Lyophilized peptides should be stored desiccated at -20°C or -80°C in sealed, low-protein-binding vials. For aqueous solutions, storage at -80°C in single-use aliquots with 0.1% BSA or other stabilizers is recommended to minimize freeze-thaw losses. Peptides containing methionine or cysteine are particularly susceptible to oxidation and benefit from storage under inert gas (argon or nitrogen).</div>
+<details class="faq-item">
+<summary></summary>
+Analytical HPLC uses small-diameter columns (2.1–4.6 mm ID) with 3–5 µm particles for high-resolution analysis of microgram quantities. Preparative HPLC uses larger columns (10–50+ mm ID) with 5–10 µm particles to separate milligram-to-gram quantities. Preparative columns sacrifice some theoretical plates for higher loading capacity. Method development is first performed analytically, then scaled up to preparative dimensions using flow rate and gradient volume scaling factors.
+</details>
   </div>
 </div>
 
@@ -143,18 +127,18 @@ Lyophilization of pooled pure fractions yields the final product as a fluffy, am
 
 
 ## References
-<div class="references">
+<div class="references
   <ol>
-    <li id="ref1">Bennett HPJ, Browne CA, Solomon S. Purification of the two major forms of rat pituitary corticotropin using only reverse-phase liquid chromatography. <em>Biochemistry</em>. 1981;20(16):4530-4538. doi:10.1021/bi00519a005</li>
-    <li id="ref2">Mant CT, Hodges RS. <em>High-Performance Liquid Chromatography of Peptides and Proteins: Separation, Analysis, and Conformation</em>. CRC Press; 1991. ISBN: 9780849356421</li>
-    <li id="ref3">Rivier J, McClintock R, Galyean R, Anderson H. Reversed-phase high-performance liquid chromatography: preparative purification of synthetic peptides. <em>J Chromatogr</em>. 1984;288:303-328. doi:10.1016/S0021-9673(01)93703-X</li>
-    <li id="ref4">Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010. ISBN: 9780470167540</li>
-    <li id="ref5">Böhm G, Muhr P, Jaenicke R. Quantitative analysis of protein far UV circular dichroism spectra by neural networks. <em>Protein Eng</em>. 1992;5(3):191-195. doi:10.1093/protein/5.3.191</li>
-    <li id="ref6">Aguilar MI. <em>HPLC of Peptides and Proteins: Methods and Protocols</em>. Humana Press; 2004. ISBN: 9781588293522</li>
-    <li id="ref7">Visser J, Kamerling JP, Gerard J, Vliegenthart FG. Ion-exchange chromatography of peptides and proteins. <em>J Chromatogr</em>. 1983;272:173-188. doi:10.1016/S0021-9673(01)94466-4</li>
-    <li id="ref8">Stulik K, Pacakova V, Ticha M. Some potentialities and pitfalls of high-performance liquid chromatography of peptides. <em>J Chromatogr</em>. 1990;500:423-438. doi:10.1016/S0021-9673(00)96084-7</li>
-    <li id="ref9">Lacourse WR, Dasenbrock CO. Column liquid chromatography of peptides and proteins. <em>Anal Chem</em>. 1998;70(12):37R-52R. doi:10.1021/a1980005t</li>
-    <li id="ref10">Carr D. The handbook of analysis and purification of peptides and proteins by reverse-phase HPLC. <em>Vydac Publication</em>. 2003.</li>
+    <li id="ref1Bennett HPJ, Browne CA, Solomon S. Purification of the two major forms of rat pituitary corticotropin using only reverse-phase liquid chromatography. <em>Biochemistry</em>. 1981;20(16):4530-4538. <a href="https://doi.org/10.1021%2Fbi00519a005">doi:10.1021/bi00519a005</a></li>
+    <li id="ref2Mant CT, Hodges RS. <em>High-Performance Liquid Chromatography of Peptides and Proteins: Separation, Analysis, and Conformation</em>. CRC Press; 1991. ISBN: 9780849356421</li>
+    <li id="ref3Rivier J, McClintock R, Galyean R, Anderson H. Reversed-phase high-performance liquid chromatography: preparative purification of synthetic peptides. <em>J Chromatogr</em>. 1984;288:303-328. <a href="https://doi.org/10.1016%2FS0021-9673%2801%2993703-X">doi:10.1016/S0021-9673(01)93703-X</a></li>
+    <li id="ref4Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010. ISBN: 9780470167540</li>
+    <li id="ref5Böhm G, Muhr P, Jaenicke R. Quantitative analysis of protein far UV circular dichroism spectra by neural networks. <em>Protein Eng</em>. 1992;5(3):191-195. <a href="https://doi.org/10.1093%2Fprotein%2F5.3.191">doi:10.1093/protein/5.3.191</a></li>
+    <li id="ref6Aguilar MI. <em>HPLC of Peptides and Proteins: Methods and Protocols</em>. Humana Press; 2004. ISBN: 9781588293522</li>
+    <li id="ref7Visser J, Kamerling JP, Gerard J, Vliegenthart FG. Ion-exchange chromatography of peptides and proteins. <em>J Chromatogr</em>. 1983;272:173-188. <a href="https://doi.org/10.1016%2FS0021-9673%2801%2994466-4">doi:10.1016/S0021-9673(01)94466-4</a></li>
+    <li id="ref8Stulik K, Pacakova V, Ticha M. Some potentialities and pitfalls of high-performance liquid chromatography of peptides. <em>J Chromatogr</em>. 1990;500:423-438. <a href="https://doi.org/10.1016%2FS0021-9673%2800%2996084-7">doi:10.1016/S0021-9673(00)96084-7</a></li>
+    <li id="ref9Lacourse WR, Dasenbrock CO. Column liquid chromatography of peptides and proteins. <em>Anal Chem</em>. 1998;70(12):37R-52R. <a href="https://doi.org/10.1021%2Fa1980005t">doi:10.1021/a1980005t</a></li>
+    <li id="ref10Carr D. The handbook of analysis and purification of peptides and proteins by reverse-phase HPLC. <em>Vydac Publication</em>. 2003.</li>
 </ol>
 </div>
 

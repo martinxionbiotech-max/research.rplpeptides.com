@@ -170,96 +170,46 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 
 
 ## Frequently Asked Questions
-  <div class="faq-item">
-<div class="faq-question">
-      What is the difference between ribosomal and non-ribosomal peptides?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+  <details class="faq-item">
+<summary>What is the difference between ribosomal and non-ribosomal peptides?</summary>
 Ribosomal peptides are synthesized on the ribosome via mRNA translation, use only the 20 standard L-amino acids, and often require post-translational modifications. Non-ribosomal peptides are synthesized by large enzyme complexes (NRPSs) without mRNA templates and can incorporate D-amino acids, N-methylated residues, and other non-standard building blocks. Non-ribosomal peptides are more common in bacteria and fungi and include many clinically important antibiotics like cyclosporine and vancomycin.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How are antimicrobial peptides classified?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How are antimicrobial peptides classified?</summary>
 Antimicrobial peptides are classified by secondary structure (α-helical, β-sheet, extended, mixed), amino acid composition (cationic, anionic, proline-rich), biological source (mammalian, amphibian, insect, bacterial), and mechanism of action (membrane-disrupting, intracellular-targeting). The Antimicrobial Peptide Database (APD3) catalogs over 3,000 natural AMPs and provides a standardized classification framework.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are the major classes of peptide hormones?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are the major classes of peptide hormones?</summary>
 Major peptide hormone families include the insulin/IGF family, glucagon/secretin family (including GLP-1, GIP, secretin, VIP, PACAP), somatostatin family, hypothalamic releasing hormones (GHRH, CRH, TRH, GnRH), pituitary hormones (ACTH, MSH, growth hormone), and the natriuretic peptide family (ANP, BNP, CNP). These are further classified by receptor type (GPCR vs. receptor tyrosine kinase) and physiological function.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the difference between a neuropeptide and a neurotransmitter?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the difference between a neuropeptide and a neurotransmitter?</summary>
 Classical neurotransmitters (e.g., glutamate, GABA, acetylcholine) are small molecules stored in synaptic vesicles and released at synapses for rapid, short-lived signaling. Neuropeptides are larger (3–40 amino acids), stored in dense-core vesicles, released at lower concentrations often from non-synaptic sites, and mediate slower, longer-lasting modulatory effects. Many neurons co-release both classical transmitters and neuropeptides for integrated signaling.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How are venom peptides classified?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How are venom peptides classified?</summary>
 Venom peptides are classified by their biological source (conotoxins from cone snails, scorpion toxins, snake toxins, spider toxins, bee venom peptides), by their molecular target (ion channels, GPCRs, enzymes), by structural scaffold (disulfide-rich frameworks are classified using the CC motif system), and by pharmacological activity (analgesic, paralytic, hemolytic, neurotoxic).
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Can a peptide belong to multiple functional categories?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Can a peptide belong to multiple functional categories?</summary>
 Yes, peptide functional moonlighting is well documented. For example, certain antimicrobial peptides also function as chemoattractants (immunomodulation), some peptide hormones exhibit antimicrobial activity, and neuropeptides like substance P also regulate immune responses. This multifunctionality is increasingly recognized as a general principle rather than an exception, reflecting the evolutionary economy of peptide signaling.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What makes a peptide "bioactive"?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What makes a peptide "bioactive"?</summary>
 A bioactive peptide is one that exerts a measurable biological effect through interaction with a receptor, enzyme, or structural component of a cell or tissue. This includes peptides involved in signaling (hormones, neurotransmitters), host defense (antimicrobial peptides, defensins), regulation (growth factors, cytokines), and toxicity (venom peptides). Bioactive peptides can be endogenous (produced in the body) or exogenous (derived from food, venoms, or microorganisms).
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are food-derived bioactive peptides?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are food-derived bioactive peptides?</summary>
 Food-derived bioactive peptides are peptide sequences encrypted within dietary proteins that are released during digestion or food processing. These peptides can exhibit antihypertensive (ACE-inhibitory), antioxidant, antimicrobial, immunomodulatory, or opioid-like activities. Examples include lactotripeptides (Val-Pro-Pro, Ile-Pro-Pro) from milk proteins, which have demonstrated blood pressure-lowering effects in clinical studies.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How many peptides have been discovered to date?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How many peptides have been discovered to date?</summary>
 The exact number is difficult to determine due to different definitions, but major peptide databases catalog tens of thousands of sequences. The Antimicrobial Peptide Database (APD3) contains over 3,000 unique AMPs. UniProt lists over 100,000 annotated peptide entries. Non-ribosomal peptides number in the thousands. Venom peptide diversity is estimated at over 10 million, most of which remain uncharacterized. The full "dark peptidome" of cryptic peptides from non-canonical genome regions is believed to be substantially larger.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the RiPP classification system?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the RiPP classification system?</summary>
 RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) represent a major class of natural products. They are ribosomally synthesized as precursor peptides and then extensively modified by dedicated modifying enzymes. RiPP subclasses include lanthipeptides (e.g., nisin), lasso peptides, thiopeptides, microcins, cyanobactins, and cyclotides. The RiPP recognition element (RRE) system provides a classification framework based on precursor peptide features and modification machinery.
-</div>
-  </div>
+</details>
 
 
   
@@ -270,23 +220,23 @@ RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) repre
 
 
 ## References
-  <ol class="references">
+  <ol class="references
 
 
-  <li id="ref1">Boonen, K., Landuyt, B., Bag german, G., Husson, S. J., Huybrechts, J., & Schoofs, L. (2019). Peptidomics: the integrated approach of MS, hyphenated techniques and bioinformatics for neuropeptide analysis. <em>Journal of Proteomics</em>, 188, 1–17. <a href="https://doi.org/10.1016/j.jprot.2018.01.008">https://doi.org/10.1016/j.jprot.2018.01.008</a></li>
-  <li id="ref2">Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. <a href="https://doi.org/10.1016/S1474-4422(03">https://doi.org/10.1016/S1474-4422(03)00482-4</a>00482-4)</li>
-  <li id="ref3">Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. <a href="https://doi.org/10.1093/nar/gkv1278">https://doi.org/10.1093/nar/gkv1278</a></li>
-  <li id="ref4">Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. <a href="https://doi.org/10.1146/annurev.micro.58.030603.123615">https://doi.org/10.1146/annurev.micro.58.030603.123615</a></li>
-  <li id="ref5">King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. <em>Expert Opinion on Biological Therapy</em>, 11(11), 1469–1484. <a href="https://doi.org/10.1517/14712598.2011.621935">https://doi.org/10.1517/14712598.2011.621935</a></li>
-  <li id="ref6">Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... & van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. <em>Natural Product Reports</em>, 30(1), 108–160. <a href="https://doi.org/10.1039/c2np20085f">https://doi.org/10.1039/c2np20085f</a></li>
-  <li id="ref7">Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. <a href="https://doi.org/10.1038/415389a">https://doi.org/10.1038/415389a</a></li>
-  <li id="ref8">Boman, H. G. (2000). Innate immunity and the normal microflora. <em>Immunological Reviews</em>, 173, 5–16. <a href="https://doi.org/10.1034/j.1600-065X.2000.917307.x">https://doi.org/10.1034/j.1600-065X.2000.917307.x</a></li>
-  <li id="ref9">Sato, A. K., Viswanathan, M., Kent, R. B., & Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. <em>Biotechnology and Bioengineering</em>, 93(1), 1–7. <a href="https://doi.org/10.1002/bit.20759">https://doi.org/10.1002/bit.20759</a></li>
-  <li id="ref10">Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metabolism</em>, 27(4), 740–756. <a href="https://doi.org/10.1016/j.cmet.2018.03.001">https://doi.org/10.1016/j.cmet.2018.03.001</a></li>
-  <li id="ref11">Hancock, R. E. W., & Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. <em>Trends in Biotechnology</em>, 16(2), 82–88. <a href="https://doi.org/10.1016/S0167-7799(97">https://doi.org/10.1016/S0167-7799(97)01156-6</a>01156-6)</li>
-  <li id="ref12">Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. <em>Biotechnology Advances</em>, 37(7), 107403. <a href="https://doi.org/10.1016/j.biotechadv.2019.06.012">https://doi.org/10.1016/j.biotechadv.2019.06.012</a></li>
-  <li id="ref13">Fjell, C. D., Hiss, J. A., Hancock, R. E. W., & Schneider, G. (2012). Designing antimicrobial peptides: form follows function. <em>Nature Reviews Drug Discovery</em>, 11(1), 37–51. <a href="https://doi.org/10.1038/nrd3591">https://doi.org/10.1038/nrd3591</a></li>
-  <li id="ref14">Moll, G. N., Konings, W. N., & Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. <em>Antonie van Leeuwenhoek</em>, 76(1–4), 185–198.</li>
+  <li id="ref1Boonen, K., Landuyt, B., Bag german, G., Husson, S. J., Huybrechts, J., & Schoofs, L. (2019). Peptidomics: the integrated approach of MS, hyphenated techniques and bioinformatics for neuropeptide analysis. <em>Journal of Proteomics</em>, 188, 1–17. https://doi.org/10.1016/j.jprot.2018.01.008</li>
+  <li id="ref2Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. https://doi.org/10.1016/S1474-4422(03)00482-400482-4)</li>
+  <li id="ref3Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278</li>
+  <li id="ref4Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. https://doi.org/10.1146/annurev.micro.58.030603.123615</li>
+  <li id="ref5King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. <em>Expert Opinion on Biological Therapy</em>, 11(11), 1469–1484. https://doi.org/10.1517/14712598.2011.621935</li>
+  <li id="ref6Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... & van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. <em>Natural Product Reports</em>, 30(1), 108–160. https://doi.org/10.1039/c2np20085f</li>
+  <li id="ref7Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
+  <li id="ref8Boman, H. G. (2000). Innate immunity and the normal microflora. <em>Immunological Reviews</em>, 173, 5–16. https://doi.org/10.1034/j.1600-065X.2000.917307.x</li>
+  <li id="ref9Sato, A. K., Viswanathan, M., Kent, R. B., & Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. <em>Biotechnology and Bioengineering</em>, 93(1), 1–7. https://doi.org/10.1002/bit.20759</li>
+  <li id="ref10Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metabolism</em>, 27(4), 740–756. https://doi.org/10.1016/j.cmet.2018.03.001</li>
+  <li id="ref11Hancock, R. E. W., & Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. <em>Trends in Biotechnology</em>, 16(2), 82–88. https://doi.org/10.1016/S0167-7799(97)01156-601156-6)</li>
+  <li id="ref12Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. <em>Biotechnology Advances</em>, 37(7), 107403. https://doi.org/10.1016/j.biotechadv.2019.06.012</li>
+  <li id="ref13Fjell, C. D., Hiss, J. A., Hancock, R. E. W., & Schneider, G. (2012). Designing antimicrobial peptides: form follows function. <em>Nature Reviews Drug Discovery</em>, 11(1), 37–51. https://doi.org/10.1038/nrd3591</li>
+  <li id="ref14Moll, G. N., Konings, W. N., & Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. <em>Antonie van Leeuwenhoek</em>, 76(1–4), 185–198.</li>
 
 
 </ol>

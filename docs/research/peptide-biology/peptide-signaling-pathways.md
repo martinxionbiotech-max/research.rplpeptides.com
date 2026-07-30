@@ -157,96 +157,46 @@ Mathematical modeling of signaling cascades — incorporating reaction kinetics,
 
 
 ## Frequently Asked Questions
-  <div class="faq-item">
-<div class="faq-question">
-      What is a second messenger in peptide signaling?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+  <details class="faq-item">
+<summary>What is a second messenger in peptide signaling?</summary>
 A second messenger is an intracellular signaling molecule produced or released in response to an extracellular first messenger (the peptide). Examples include cyclic AMP (cAMP), IP₃, DAG, and calcium ions. Second messengers amplify the initial signal — a single activated receptor can produce thousands of second messenger molecules — and propagate it to downstream effector proteins such as protein kinases.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What are the main types of receptors that bind peptides?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What are the main types of receptors that bind peptides?</summary>
 The primary receptor classes for peptide signaling are: (1) G protein-coupled receptors (GPCRs) — the largest family, mediating hormone, neuropeptide, and chemokine signaling; (2) Receptor tyrosine kinases (RTKs) — mediating growth factor and insulin signaling; (3) Cytokine receptors — associating with JAKs to activate STAT pathways; (4) Serine/threonine kinase receptors — mediating TGF-β family signaling; and (5) Ion channels — directly modulated by some venom peptides and neuropeptides.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How does cAMP mediate peptide signaling?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How does cAMP mediate peptide signaling?</summary>
 Cyclic AMP is generated from ATP by adenylyl cyclase, which is activated by Gα~s~ and inhibited by Gα~i~. cAMP binds to and activates two main effectors: (1) Protein kinase A (PKA), which phosphorylates numerous substrates including transcription factors (CREB), ion channels, and metabolic enzymes; and (2) Exchange proteins directly activated by cAMP (EPACs), which activate Rap GTPases. cAMP is degraded by phosphodiesterases (PDEs), providing a mechanism for signal termination.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is biased agonism in GPCR signaling?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is biased agonism in GPCR signaling?</summary>
 Biased agonism (functional selectivity) occurs when different ligands binding to the same receptor stabilize distinct receptor conformations, preferentially activating some downstream pathways over others. For example, a G protein-biased agonist activates G protein signaling but not β-arrestin recruitment, while a β-arrestin-biased agonist does the opposite. This concept is therapeutically important because different pathways downstream of the same receptor can mediate distinct (sometimes opposing) biological effects.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How does insulin signaling regulate glucose uptake?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How does insulin signaling regulate glucose uptake?</summary>
 Insulin binding to its RTK activates the PI3K/Akt pathway, which phosphorylates TBC1D4 (AS160), inactivating it. This inactivation allows Rab GTPases to promote the translocation of GLUT4-containing vesicles to the plasma membrane, increasing cell surface GLUT4 levels and facilitating glucose uptake. This process occurs within minutes in insulin-sensitive tissues (muscle, adipose tissue) and is impaired in insulin resistance.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is receptor desensitization and why is it important?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is receptor desensitization and why is it important?</summary>
 Receptor desensitization is the process by which prolonged or repeated agonist exposure reduces receptor responsiveness. For GPCRs, this involves GRK-mediated phosphorylation of the activated receptor, followed by β-arrestin binding that uncouples the receptor from G proteins and promotes internalization. Desensitization prevents overstimulation and is clinically important — for example, GnRH receptor desensitization (from continuous agonist administration) is used therapeutically to suppress sex hormone production in prostate cancer and endometriosis.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How do peptides achieve signaling specificity?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How do peptides achieve signaling specificity?</summary>
 Signaling specificity arises from multiple mechanisms: (1) Receptor expression patterns — a peptide only affects cells expressing its receptor; (2) Ligand-receptor selectivity — specific amino acid sequences determine which receptors a peptide binds; (3) Subcellular compartmentalization — signaling components are organized in membrane nanodomains and scaffold complexes; (4) Temporal encoding — the frequency and duration of signaling events carry information; and (5) Cross-talk inhibition — pathways can mutually suppress each other to enforce binary signaling outcomes.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      What is the role of calcium in peptide signaling?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>What is the role of calcium in peptide signaling?</summary>
 Calcium ions (Ca²⁺) function as a universal second messenger in peptide signaling. Gα~q~-coupled receptors activate PLC, generating IP₃, which binds to IP₃ receptors on the endoplasmic reticulum to release stored Ca²⁺. Cytosolic Ca²⁺ then activates calcium-binding proteins, particularly calmodulin, which regulates many targets including CaMKII, calcineurin, and MLCK. Calcium signaling exhibits complex spatiotemporal dynamics, including oscillations and waves, that encode specific information.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      Can a single peptide activate multiple signaling pathways?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>Can a single peptide activate multiple signaling pathways?</summary>
 Yes. A single peptide can activate multiple signaling pathways through several mechanisms: (1) Binding to multiple receptor subtypes with different signaling preferences; (2) Activating a single receptor that couples to multiple G protein subtypes (e.g., some GLP-1 responses involve both Gα~s~ and Gα~q~ signaling); (3) Receptor-mediated recruitment of β-arrestin as a signaling scaffold independently of G proteins; and (4) Receptor transactivation — peptide binding to one receptor can indirectly activate other receptor systems.
-</div>
-  </div>
-  <div class="faq-item">
-<div class="faq-question">
-      How do peptide-receptor interactions differ from small molecule-receptor interactions?
-  <span class="faq-toggle">+</span>
-</div>
-<div class="faq-answer" style="display:none;">
+</details>
+  <details class="faq-item">
+<summary>How do peptide-receptor interactions differ from small molecule-receptor interactions?</summary>
 Peptide-receptor interactions typically involve a larger contact surface area (500–1500 Å²) compared to small molecules (200–500 Å²). Peptides engage their receptors through multiple, distributed contacts — hydrogen bonds, ionic interactions, and hydrophobic packing — across an extended binding interface. This larger interface generally confers higher specificity (peptides tend to have fewer off-target effects) but also creates greater challenges for achieving oral bioavailability and metabolic stability compared to small molecule drugs.
-</div>
-  </div>
+</details>
 
 
   
@@ -257,23 +207,23 @@ Peptide-receptor interactions typically involve a larger contact surface area (5
 
 
 ## References
-  <ol class="references">
+  <ol class="references
 
 
-  <li id="ref1">Rosenbaum, D. M., Rasmussen, S. G. F., & Kobilka, B. K. (2009). The structure and function of G-protein-coupled receptors. <em>Nature</em>, 459(7245), 356–363. <a href="https://doi.org/10.1038/nature08144">https://doi.org/10.1038/nature08144</a></li>
-  <li id="ref2">Wettschureck, N., & Offermanns, S. (2005). Mammalian G proteins and their cell type specific functions. <em>Physiological Reviews</em>, 85(4), 1159–1204. <a href="https://doi.org/10.1152/physrev.00003.2005">https://doi.org/10.1152/physrev.00003.2005</a></li>
-  <li id="ref3">Berridge, M. J. (2009). Inositol trisphosphate and calcium signalling mechanisms. <em>Biochimica et Biophysica Acta</em>, 1793(6), 933–940. <a href="https://doi.org/10.1016/j.bbamcr.2008.10.005">https://doi.org/10.1016/j.bbamcr.2008.10.005</a></li>
-  <li id="ref4">Lemmon, M. A., & Schlessinger, J. (2010). Cell signaling by receptor tyrosine kinases. <em>Cell</em>, 141(7), 1117–1134. <a href="https://doi.org/10.1016/j.cell.2010.06.011">https://doi.org/10.1016/j.cell.2010.06.011</a></li>
-  <li id="ref5">O'Shea, J. J., Gadina, M., & Schreiber, R. D. (2002). Cytokine signaling in 2002: new surprises in the Jak/Stat pathway. <em>Cell</em>, 109(Suppl), S121–S131. <a href="https://doi.org/10.1016/S0092-8674(02">https://doi.org/10.1016/S0092-8674(02)00701-8</a>00701-8)</li>
-  <li id="ref6">Massagué, J. (2012). TGFβ signalling in context. <em>Nature Reviews Molecular Cell Biology</em>, 13(10), 616–630. <a href="https://doi.org/10.1038/nrm3434">https://doi.org/10.1038/nrm3434</a></li>
-  <li id="ref7">Kobilka, B. K. (2007). G protein coupled receptor structure and activation. <em>Biochimica et Biophysica Acta</em>, 1768(4), 794–807. <a href="https://doi.org/10.1016/j.bbamem.2006.10.021">https://doi.org/10.1016/j.bbamem.2006.10.021</a></li>
-  <li id="ref8">Pierce, K. L., Premont, R. T., & Lefkowitz, R. J. (2002). Seven-transmembrane receptors. <em>Nature Reviews Molecular Cell Biology</em>, 3(9), 639–650. <a href="https://doi.org/10.1038/nrm908">https://doi.org/10.1038/nrm908</a></li>
-  <li id="ref9">Gurevich, V. V., & Gurevich, E. V. (2019). GPCR signaling regulation: the role of GRKs and arrestins. <em>Frontiers in Pharmacology</em>, 10, 125. <a href="https://doi.org/10.3389/fphar.2019.00125">https://doi.org/10.3389/fphar.2019.00125</a></li>
-  <li id="ref10">Tan, Q., Zhu, Y., Li, J., Chen, Z., Han, G. W., Kufareva, I., ... & Wu, B. (2013). Structure of the CCR5 chemokine receptor-HIV entry inhibitor maraviroc complex. <em>Science</em>, 341(6152), 1387–1390. <a href="https://doi.org/10.1126/science.1241475">https://doi.org/10.1126/science.1241475</a></li>
-  <li id="ref11">Rajagopal, S., Rajagopal, K., & Lefkowitz, R. J. (2010). Teaching old receptors new tricks: biasing seven-transmembrane receptors. <em>Nature Reviews Drug Discovery</em>, 9(5), 373–386. <a href="https://doi.org/10.1038/nrd3024">https://doi.org/10.1038/nrd3024</a></li>
-  <li id="ref12">Salzman, D. W., & Weigel, R. J. (2012). EGF receptor family: structure and signaling. <em>Reviews in Cell Biology and Molecular Medicine</em>. <a href="https://doi.org/10.1002/3527600906.mcb.200200005">https://doi.org/10.1002/3527600906.mcb.200200005</a></li>
-  <li id="ref13">Manning, B. D., & Toker, A. (2017). AKT/PKB signaling: navigating the network. <em>Cell</em>, 169(3), 381–405. <a href="https://doi.org/10.1016/j.cell.2017.04.001">https://doi.org/10.1016/j.cell.2017.04.001</a></li>
-  <li id="ref14">Calebiro, D., Nikolaev, V. O., Gagliani, M. C., de Filippis, T., Dees, C., Tacchetti, C., ... & Lohse, M. J. (2009). Persistent cAMP-signals triggered by internalized G-protein-coupled receptors. <em>PLoS Biology</em>, 7(8), e1000172. <a href="https://doi.org/10.1371/journal.pbio.1000172">https://doi.org/10.1371/journal.pbio.1000172</a></li>
+  <li id="ref1Rosenbaum, D. M., Rasmussen, S. G. F., & Kobilka, B. K. (2009). The structure and function of G-protein-coupled receptors. <em>Nature</em>, 459(7245), 356–363. https://doi.org/10.1038/nature08144</li>
+  <li id="ref2Wettschureck, N., & Offermanns, S. (2005). Mammalian G proteins and their cell type specific functions. <em>Physiological Reviews</em>, 85(4), 1159–1204. https://doi.org/10.1152/physrev.00003.2005</li>
+  <li id="ref3Berridge, M. J. (2009). Inositol trisphosphate and calcium signalling mechanisms. <em>Biochimica et Biophysica Acta</em>, 1793(6), 933–940. https://doi.org/10.1016/j.bbamcr.2008.10.005</li>
+  <li id="ref4Lemmon, M. A., & Schlessinger, J. (2010). Cell signaling by receptor tyrosine kinases. <em>Cell</em>, 141(7), 1117–1134. https://doi.org/10.1016/j.cell.2010.06.011</li>
+  <li id="ref5O'Shea, J. J., Gadina, M., & Schreiber, R. D. (2002). Cytokine signaling in 2002: new surprises in the Jak/Stat pathway. <em>Cell</em>, 109(Suppl), S121–S131. https://doi.org/10.1016/S0092-8674(02)00701-800701-8)</li>
+  <li id="ref6Massagué, J. (2012). TGFβ signalling in context. <em>Nature Reviews Molecular Cell Biology</em>, 13(10), 616–630. https://doi.org/10.1038/nrm3434</li>
+  <li id="ref7Kobilka, B. K. (2007). G protein coupled receptor structure and activation. <em>Biochimica et Biophysica Acta</em>, 1768(4), 794–807. https://doi.org/10.1016/j.bbamem.2006.10.021</li>
+  <li id="ref8Pierce, K. L., Premont, R. T., & Lefkowitz, R. J. (2002). Seven-transmembrane receptors. <em>Nature Reviews Molecular Cell Biology</em>, 3(9), 639–650. https://doi.org/10.1038/nrm908</li>
+  <li id="ref9Gurevich, V. V., & Gurevich, E. V. (2019). GPCR signaling regulation: the role of GRKs and arrestins. <em>Frontiers in Pharmacology</em>, 10, 125. https://doi.org/10.3389/fphar.2019.00125</li>
+  <li id="ref10Tan, Q., Zhu, Y., Li, J., Chen, Z., Han, G. W., Kufareva, I., ... & Wu, B. (2013). Structure of the CCR5 chemokine receptor-HIV entry inhibitor maraviroc complex. <em>Science</em>, 341(6152), 1387–1390. https://doi.org/10.1126/science.1241475</li>
+  <li id="ref11Rajagopal, S., Rajagopal, K., & Lefkowitz, R. J. (2010). Teaching old receptors new tricks: biasing seven-transmembrane receptors. <em>Nature Reviews Drug Discovery</em>, 9(5), 373–386. https://doi.org/10.1038/nrd3024</li>
+  <li id="ref12Salzman, D. W., & Weigel, R. J. (2012). EGF receptor family: structure and signaling. <em>Reviews in Cell Biology and Molecular Medicine</em>. https://doi.org/10.1002/3527600906.mcb.200200005</li>
+  <li id="ref13Manning, B. D., & Toker, A. (2017). AKT/PKB signaling: navigating the network. <em>Cell</em>, 169(3), 381–405. https://doi.org/10.1016/j.cell.2017.04.001</li>
+  <li id="ref14Calebiro, D., Nikolaev, V. O., Gagliani, M. C., de Filippis, T., Dees, C., Tacchetti, C., ... & Lohse, M. J. (2009). Persistent cAMP-signals triggered by internalized G-protein-coupled receptors. <em>PLoS Biology</em>, 7(8), e1000172. https://doi.org/10.1371/journal.pbio.1000172</li>
 
 
 </ol>

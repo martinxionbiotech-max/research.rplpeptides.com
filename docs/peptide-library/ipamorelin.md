@@ -99,85 +99,45 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 
 ## Frequently Asked Questions
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **How does ipamorelin differ from other growth hormone secretagogues?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>How does ipamorelin differ from other growth hormone secretagogues?</summary>
 Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Does ipamorelin work through the same mechanism as GHRH?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Does ipamorelin work through the same mechanism as GHRH?</summary>
 No. Ipamorelin acts on the GHS-R1a receptor (the ghrelin receptor), which is distinct from the GHRH receptor. GHS-R1a signals primarily through the phospholipase C–IP₃–calcium pathway, whereas GHRH signals through the adenylyl cyclase–cAMP–PKA pathway. Both converge on GH release from pituitary somatotrophs and can produce additive or synergistic effects when combined.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Is ipamorelin FDA-approved?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Is ipamorelin FDA-approved?</summary>
 No. Ipamorelin is not FDA-approved for any clinical indication. It is a research compound used in preclinical and early-phase clinical studies to investigate GH axis physiology and potential therapeutic applications.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **What is the significance of the modified amino acids in ipamorelin?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>What is the significance of the modified amino acids in ipamorelin?</summary>
 The inclusion of Aib (α-aminoisobutyric acid) and d-amino acids (d-2-Nal, d-Phe) confers resistance to proteolytic cleavage by endo- and exopeptidases, significantly improving the peptide's in vivo stability compared to all-L-amino-acid peptides. This is a common strategy in peptide drug design to enhance pharmacokinetic properties.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **What are the reported effects of ipamorelin on bone?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>What are the reported effects of ipamorelin on bone?</summary>
 In preclinical and early clinical studies, ipamorelin has been shown to stimulate bone formation markers such as osteocalcin and P1NP. The effect is thought to be mediated through GH–IGF-1 axis activation, which promotes osteoblast differentiation and activity. However, large-scale clinical trials for bone indications have not been conducted.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Can ipamorelin be taken orally?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Can ipamorelin be taken orally?</summary>
 While ipamorelin is more resistant to proteolysis than linear all-L-peptides, its oral bioavailability remains negligible. It is administered by subcutaneous or intravenous injection in research settings. Oral formulation approaches (e.g., permeation enhancers) have not been clinically validated for this peptide.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **How long does the GH response to ipamorelin last?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>How long does the GH response to ipamorelin last?</summary>
 Following subcutaneous administration, peak GH levels are typically achieved within 30–60 minutes, with GH levels returning to baseline by approximately 2–3 hours post-injection. The total GH secretory pulse magnitude is dose-dependent and has been characterized in several human pharmacokinetic/pharmacodynamic studies.
-  </div>
-</div>
+</details>
 
-<div class="faq-item">
-  <div class="faq-question" role="button" tabindex="0">
-    <span class="faq-toggle">+</span>
-    **Does ipamorelin affect appetite?**
-  </div>
-  <div class="faq-answer" style="display:none;">
+<details class="faq-item">
+<summary>Does ipamorelin affect appetite?</summary>
 Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.
-  </div>
-</div>
+</details>
 
 <!-- References -->
 !!! info ""
@@ -185,27 +145,27 @@ Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a act
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. <em>Eur J Endocrinol.</em> 1998;139(5):552-561. doi:10.1530/eje.0.1390552
+- Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. <em>Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a>
   - Karsdal MA, Byrjalsen I, Riis BJ, et al.
 
-Effect of the growth hormone secretagogue ipamorelin on markers of bone turnover in healthy volunteers. <em>Bone.</em> 2011;49(4):702-708. doi:10.1016/j.bone.2011.06.010
+Effect of the growth hormone secretagogue ipamorelin on markers of bone turnover in healthy volunteers. <em>Bone.</em> 2011;49(4):702-708. <a href="https://doi.org/10.1016%2Fj.bone.2011.06.010">doi:10.1016/j.bone.2011.06.010</a>
   - Svensson J, Lönn L, Jansson JO, et al.
 
-Two-month treatment of obese subjects with the oral growth hormone secretagogue ipamorelin. <em>Obes Res.</em> 2000;8(2):186-192. doi:10.1038/oby.2000.19
+Two-month treatment of obese subjects with the oral growth hormone secretagogue ipamorelin. <em>Obes Res.</em> 2000;8(2):186-192. <a href="https://doi.org/10.1038%2Foby.2000.19">doi:10.1038/oby.2000.19</a>
   - Hansen TK, Møller J, Khalaf N, et al.
 
-Intravenous growth hormone secretagogue ipamorelin stimulates GH secretion in healthy humans. <em>Clin Endocrinol (Oxf).</em> 1999;51(2):185-191. doi:10.1046/j.1365-2265.1999.00739.x
+Intravenous growth hormone secretagogue ipamorelin stimulates GH secretion in healthy humans. <em>Clin Endocrinol (Oxf).</em> 1999;51(2):185-191. <a href="https://doi.org/10.1046%2Fj.1365-2265.1999.00739.x">doi:10.1046/j.1365-2265.1999.00739.x</a>
   - Jørgensen JO, Møller N, Wolthers T, et al.
 
-Growth hormone secretagogues: a new class of compounds. <em>Growth Horm IGF Res.</em> 1998;8 Suppl A:21-26. doi:10.1016/s1096-6374(98)80005-3
-  - Bowers CY. Growth hormone-releasing peptide (GHRP). <em>Cell Mol Life Sci.</em> 1998;54(12):1316-1329. doi:10.1007/s000180050257
+Growth hormone secretagogues: a new class of compounds. <em>Growth Horm IGF Res.</em> 1998;8 Suppl A:21-26. <a href="https://doi.org/10.1016%2Fs1096-6374%2898%2980005-3">doi:10.1016/s1096-6374(98)80005-3</a>
+  - Bowers CY. Growth hormone-releasing peptide (GHRP). <em>Cell Mol Life Sci.</em> 1998;54(12):1316-1329. <a href="https://doi.org/10.1007%2Fs000180050257">doi:10.1007/s000180050257</a>
   - Kojima M, Hosoda H, Date Y, et al.
 
-Ghrelin is a growth-hormone-releasing acylated peptide from stomach. <em>Nature.</em> 1999;402(6762):656-660. doi:10.1038/45230
-  - Nass R, Pezzoli SS, Chapman IM, et al. GH secretagogues and bone. <em>Endocr Rev.</em> 2011;32(3):376-397. doi:10.1210/er.2010-0007
+Ghrelin is a growth-hormone-releasing acylated peptide from stomach. <em>Nature.</em> 1999;402(6762):656-660. <a href="https://doi.org/10.1038%2F45230">doi:10.1038/45230</a>
+  - Nass R, Pezzoli SS, Chapman IM, et al. GH secretagogues and bone. <em>Endocr Rev.</em> 2011;32(3):376-397. <a href="https://doi.org/10.1210%2Fer.2010-0007">doi:10.1210/er.2010-0007</a>
 
 
 </ol>

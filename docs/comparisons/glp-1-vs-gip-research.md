@@ -144,26 +144,26 @@ These sex-specific aspects of incretin biology warrant dedicated investigation, 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Why is GLP-1 more effective in type 2 diabetes than GIP?</h3>
-    The insulinotropic effect of GIP is blunted in type 2 diabetes due to GIP receptor downregulation on beta cells. In contrast, the GLP-1 receptor remains responsive. The mechanism involves chronic hyperglycemia-induced desensitization of GIPR signaling.
-  </div>
-  <div class="faq-item">
-    <h3>Does GIP or GLP-1 have a greater effect on body weight?</h3>
-    GLP-1 has a stronger direct effect on body weight through central appetite suppression and delayed gastric emptying. However, GIP contributes to weight loss in the context of dual agonism, possibly through enhanced energy expenditure and improved adipose tissue function.
-  </div>
-  <div class="faq-item">
-    <h3>How does glucagon regulation differ between GLP-1 and GIP?</h3>
-    GLP-1 suppresses glucagon secretion in a glucose-dependent manner, reducing hepatic glucose output. GIP stimulates glucagon secretion under euglycemic and hypoglycemic conditions, which may serve as a counterregulatory mechanism.
-  </div>
-  <div class="faq-item">
-    <h3>Are GIP and GLP-1 receptors co-expressed in the same tissues?</h3>
-    Both receptors are expressed on pancreatic beta cells and in the brain, but with distinct distribution patterns. GIPR is highly expressed on adipocytes and bone, where GLP-1R is minimally expressed. The receptors may form heterodimers with unique signaling properties.
-  </div>
-  <div class="faq-item">
-    <h3>What explains the superior efficacy of dual GIP/GLP-1 agonists?</h3>
-    Dual agonists produce complementary actions: GLP-1 provides insulin stimulation and appetite suppression, while GIP contributes through enhanced energy expenditure, improved adipose tissue function, and potential restoration of GIP sensitivity in the presence of GLP-1R activation.
-  </div>
+<details class="faq-item">
+<summary>Why is GLP-1 more effective in type 2 diabetes than GIP?</summary>
+The insulinotropic effect of GIP is blunted in type 2 diabetes due to GIP receptor downregulation on beta cells. In contrast, the GLP-1 receptor remains responsive. The mechanism involves chronic hyperglycemia-induced desensitization of GIPR signaling.
+</details>
+<details class="faq-item">
+<summary>Does GIP or GLP-1 have a greater effect on body weight?</summary>
+GLP-1 has a stronger direct effect on body weight through central appetite suppression and delayed gastric emptying. However, GIP contributes to weight loss in the context of dual agonism, possibly through enhanced energy expenditure and improved adipose tissue function.
+</details>
+<details class="faq-item">
+<summary>How does glucagon regulation differ between GLP-1 and GIP?</summary>
+GLP-1 suppresses glucagon secretion in a glucose-dependent manner, reducing hepatic glucose output. GIP stimulates glucagon secretion under euglycemic and hypoglycemic conditions, which may serve as a counterregulatory mechanism.
+</details>
+<details class="faq-item">
+<summary>Are GIP and GLP-1 receptors co-expressed in the same tissues?</summary>
+Both receptors are expressed on pancreatic beta cells and in the brain, but with distinct distribution patterns. GIPR is highly expressed on adipocytes and bone, where GLP-1R is minimally expressed. The receptors may form heterodimers with unique signaling properties.
+</details>
+<details class="faq-item">
+<summary>What explains the superior efficacy of dual GIP/GLP-1 agonists?</summary>
+Dual agonists produce complementary actions: GLP-1 provides insulin stimulation and appetite suppression, while GIP contributes through enhanced energy expenditure, improved adipose tissue function, and potential restoration of GIP sensitivity in the presence of GLP-1R activation.
+</details>
 </div>
 
 !!! info ""
@@ -171,15 +171,15 @@ These sex-specific aspects of incretin biology warrant dedicated investigation, 
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
-  <li id="ref2">Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
-  <li id="ref3">Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
-  <li id="ref4">Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
-  <li id="ref5">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
-  <li id="ref6">Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
-  <li id="ref7">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
-  <li id="ref8">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
-  <li id="ref9">Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
-  <li id="ref10">Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
+<ol class="references
+  <li id="ref1Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+  <li id="ref2Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
+  <li id="ref3Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
+  <li id="ref4Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
+  <li id="ref5Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
+  <li id="ref6Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
+  <li id="ref7Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
+  <li id="ref8Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
+  <li id="ref9Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
+  <li id="ref10Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
 </ol>

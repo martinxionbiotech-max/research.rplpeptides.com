@@ -96,46 +96,46 @@ Importantly, the regulatory framework for dual agonists recognizes that these mo
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What is a GLP-1/GIP dual agonist?</h3>
-    A GLP-1/GIP dual agonist is a single peptide molecule engineered to activate both the glucagon-like peptide-1 receptor (GLP-1R) and the glucose-dependent insulinotropic polypeptide receptor (GIPR). Unlike combining two separate drugs, a unimolecular dual agonist ensures coordinated activity at both receptors with optimized pharmacokinetics.
-  </div>
-  <div class="faq-item">
-    <h3>How does tirzepatide work as a dual agonist?</h3>
-    Tirzepatide is a 39-amino acid synthetic peptide derived from the native GIP sequence with modifications that confer balanced dual agonist activity at GIPR and GLP-1R. A C-terminal fatty acid moiety enables albumin binding and once-weekly dosing. The molecule activates both receptors to produce synergistic effects on insulin secretion, appetite, and energy balance.
-  </div>
-  <div class="faq-item">
-    <h3>What advantages do dual agonists have over GLP-1 receptor agonists alone?</h3>
-    Dual GLP-1/GIP agonists demonstrate superior glycemic control and weight reduction compared to selective GLP-1 receptor agonists based on head-to-head clinical trials. The synergy between GLP-1 and GIP pathways produces greater insulin secretion, improved central appetite regulation, and potentially better gastrointestinal tolerability.
-  </div>
-  <div class="faq-item">
-    <h3>What were the key findings from the SURPASS clinical trials?</h3>
-    The SURPASS trials in type 2 diabetes showed that tirzepatide 5-15 mg reduced HbA1c by 1.9-2.4% and was superior to semaglutide 1 mg, insulin degludec, and insulin glargine. Up to 62% of patients achieved normoglycemia (HbA1c &lt;5.7%) at the highest dose.
-  </div>
-  <div class="faq-item">
-    <h3>What weight loss results were seen in the SURMOUNT trials?</h3>
-    In SURMOUNT-1, tirzepatide produced mean weight reductions of 15-22.5% from baseline in adults with obesity, with 57% of patients at the highest dose achieving ≥25% weight loss. These results represent efficacy comparable to bariatric surgery outcomes.
-  </div>
-  <div class="faq-item">
-    <h3>Are GLP-1/GIP dual agonists associated with fewer gastrointestinal side effects?</h3>
-    Clinical trial data suggest that the gastrointestinal tolerability profile of tirzepatide is comparable to or potentially improved compared to selective GLP-1 receptor agonists, despite greater efficacy. This is hypothesized to involve GIP-mediated counter-regulation of GLP-1-induced gastric emptying delay.
-  </div>
-  <div class="faq-item">
-    <h3>What receptor activation ratio is optimal for dual agonists?</h3>
-    Tirzepatide has approximately balanced activity at GIPR and GLP-1R, with a slight GIPR preference. The optimal ratio for different clinical objectives remains an active research question, and next-generation dual agonists with altered potency ratios are being developed.
-  </div>
-  <div class="faq-item">
-    <h3>Could dual agonists be combined with other peptide hormones?</h3>
-    Yes. GLP-1/GIP dual agonism is being combined with glucagon receptor activation in triple agonists such as retatrutide, and with amylin, PYY, or other peptide signals. These multi-receptor approaches may further enhance efficacy for specific metabolic indications.
-  </div>
-  <div class="faq-item">
-    <h3>What cardiovascular effects have been observed with dual agonists?</h3>
-    Cardiovascular outcome trials for tirzepatide (SURPASS-CVOT) are ongoing, but available data suggest that dual agonists produce beneficial effects on blood pressure, lipid profile, and inflammatory markers consistent with or exceeding those of GLP-1 receptor agonists.
-  </div>
-  <div class="faq-item">
-    <h3>What are the main challenges in dual agonist research?</h3>
-    Key challenges include: optimizing the receptor potency ratio for different therapeutic goals, understanding the molecular basis of GLP-1R-GIPR signal integration, managing gastrointestinal tolerability in sensitive populations, and determining long-term safety and efficacy beyond available 2-3 year trial data.
-  </div>
+<details class="faq-item">
+<summary>What is a GLP-1/GIP dual agonist?</summary>
+A GLP-1/GIP dual agonist is a single peptide molecule engineered to activate both the glucagon-like peptide-1 receptor (GLP-1R) and the glucose-dependent insulinotropic polypeptide receptor (GIPR). Unlike combining two separate drugs, a unimolecular dual agonist ensures coordinated activity at both receptors with optimized pharmacokinetics.
+</details>
+<details class="faq-item">
+<summary>How does tirzepatide work as a dual agonist?</summary>
+Tirzepatide is a 39-amino acid synthetic peptide derived from the native GIP sequence with modifications that confer balanced dual agonist activity at GIPR and GLP-1R. A C-terminal fatty acid moiety enables albumin binding and once-weekly dosing. The molecule activates both receptors to produce synergistic effects on insulin secretion, appetite, and energy balance.
+</details>
+<details class="faq-item">
+<summary>What advantages do dual agonists have over GLP-1 receptor agonists alone?</summary>
+Dual GLP-1/GIP agonists demonstrate superior glycemic control and weight reduction compared to selective GLP-1 receptor agonists based on head-to-head clinical trials. The synergy between GLP-1 and GIP pathways produces greater insulin secretion, improved central appetite regulation, and potentially better gastrointestinal tolerability.
+</details>
+<details class="faq-item">
+<summary>What were the key findings from the SURPASS clinical trials?</summary>
+The SURPASS trials in type 2 diabetes showed that tirzepatide 5-15 mg reduced HbA1c by 1.9-2.4% and was superior to semaglutide 1 mg, insulin degludec, and insulin glargine. Up to 62% of patients achieved normoglycemia (HbA1c &lt;5.7%) at the highest dose.
+</details>
+<details class="faq-item">
+<summary>What weight loss results were seen in the SURMOUNT trials?</summary>
+In SURMOUNT-1, tirzepatide produced mean weight reductions of 15-22.5% from baseline in adults with obesity, with 57% of patients at the highest dose achieving ≥25% weight loss. These results represent efficacy comparable to bariatric surgery outcomes.
+</details>
+<details class="faq-item">
+<summary>Are GLP-1/GIP dual agonists associated with fewer gastrointestinal side effects?</summary>
+Clinical trial data suggest that the gastrointestinal tolerability profile of tirzepatide is comparable to or potentially improved compared to selective GLP-1 receptor agonists, despite greater efficacy. This is hypothesized to involve GIP-mediated counter-regulation of GLP-1-induced gastric emptying delay.
+</details>
+<details class="faq-item">
+<summary>What receptor activation ratio is optimal for dual agonists?</summary>
+Tirzepatide has approximately balanced activity at GIPR and GLP-1R, with a slight GIPR preference. The optimal ratio for different clinical objectives remains an active research question, and next-generation dual agonists with altered potency ratios are being developed.
+</details>
+<details class="faq-item">
+<summary>Could dual agonists be combined with other peptide hormones?</summary>
+Yes. GLP-1/GIP dual agonism is being combined with glucagon receptor activation in triple agonists such as retatrutide, and with amylin, PYY, or other peptide signals. These multi-receptor approaches may further enhance efficacy for specific metabolic indications.
+</details>
+<details class="faq-item">
+<summary>What cardiovascular effects have been observed with dual agonists?</summary>
+Cardiovascular outcome trials for tirzepatide (SURPASS-CVOT) are ongoing, but available data suggest that dual agonists produce beneficial effects on blood pressure, lipid profile, and inflammatory markers consistent with or exceeding those of GLP-1 receptor agonists.
+</details>
+<details class="faq-item">
+<summary>What are the main challenges in dual agonist research?</summary>
+Key challenges include: optimizing the receptor potency ratio for different therapeutic goals, understanding the molecular basis of GLP-1R-GIPR signal integration, managing gastrointestinal tolerability in sensitive populations, and determining long-term safety and efficacy beyond available 2-3 year trial data.
+</details>
 </div>
 
 !!! info ""
@@ -143,37 +143,37 @@ Importantly, the regulatory framework for dual agonists recognizes that these mo
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Frias JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. doi:10.1056/NEJMoa2107519
+- Frias JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a>
   - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
 
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. doi:10.1056/NEJMoa2206038
+Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
   - Müller TD, Finan B, Bloom SR, et al.
 
-Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. doi:10.1038/s41573-021-00328-5
+Glucagon-like peptide 1 (GLP-1) receptor agonists and dual and triple incretin receptor agonists. <em>Nature Reviews Drug Discovery</em>. 2022;21(3):183-198. <a href="https://doi.org/10.1038%2Fs41573-021-00328-5">doi:10.1038/s41573-021-00328-5</a>
   - Samms RJ, Cody E, Sloop KW, et al.
 
-GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. doi:10.1016/j.molmet.2021.101285
+GIP receptor agonism improves metabolic outcomes in diet-induced obese mice. <em>Molecular Metabolism</em>. 2021;53:101285. <a href="https://doi.org/10.1016%2Fj.molmet.2021.101285">doi:10.1016/j.molmet.2021.101285</a>
   - Campbell JE, Drucker DJ.
 
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. doi:10.1053/j.gastro.2007.03.054
+Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
+  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
   - Killion EA, Chen M, Falsey JR, et al.
 
-Chronic GIPR agonism desensitizes adipocyte GIPR activity. <em>Nature Communications</em>. 2020;11:2981. doi:10.1038/s41467-020-16751-8
+Chronic GIPR agonism desensitizes adipocyte GIPR activity. <em>Nature Communications</em>. 2020;11:2981. <a href="https://doi.org/10.1038%2Fs41467-020-16751-8">doi:10.1038/s41467-020-16751-8</a>
   - Rosenstock J, Wysham C, Frias JP, et al.
 
-Efficacy and safety of tirzepatide in patients with type 2 diabetes. <em>The Lancet</em>. 2021;398(10295):143-155. doi:10.1016/S0140-6736(21)01324-6
-  - Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of tirzepatide on weight loss. <em>Nature Medicine</em>. 2023;29(7):1713-1722. doi:10.1038/s41591-023-02441-3
+Efficacy and safety of tirzepatide in patients with type 2 diabetes. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a>
+  - Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of tirzepatide on weight loss. <em>Nature Medicine</em>. 2023;29(7):1713-1722. <a href="https://doi.org/10.1038%2Fs41591-023-02441-3">doi:10.1038/s41591-023-02441-3</a>
   - Nauck MA, Meier JJ.
 
-Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. doi:10.1111/dom.13129
-  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. doi:10.1016/j.cmet.2006.01.004
+Incretin hormones: their role in health and disease. <em>Diabetes, Obesity and Metabolism</em>. 2018;20(Suppl 1):5-21. <a href="https://doi.org/10.1111%2Fdom.13129">doi:10.1111/dom.13129</a>
+  - Drucker DJ. The biology of incretin hormones. <em>Cell Metabolism</em>. 2006;3(3):153-165. <a href="https://doi.org/10.1016%2Fj.cmet.2006.01.004">doi:10.1016/j.cmet.2006.01.004</a>
   - Holst JJ.
 
-The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. doi:10.1080/00365520902871076
+The incretin system in healthy humans and in type 2 diabetes. <em>Scandinavian Journal of Gastroenterology</em>. 2009;44(8):892-899. <a href="https://doi.org/10.1080%2F00365520902871076">doi:10.1080/00365520902871076</a>
 
 
 </ol>

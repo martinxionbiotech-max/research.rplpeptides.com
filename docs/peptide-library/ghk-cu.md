@@ -116,58 +116,45 @@ For experimental planning and research support, the [RPL Peptides Research Tools
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">Is GHK-Cu found naturally in the human body? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Yes, GHK-Cu is a naturally occurring peptide-copper complex found in human plasma. It is generated through the proteolytic degradation of larger proteins, particularly albumin and SPARC (secreted protein acidic and rich in cysteine). Plasma levels of GHK-Cu are approximately 200 μg/L in healthy young adults but decline significantly with age.</div>
+<details class="faq-item">
+<summary>Is GHK-Cu found naturally in the human body?</summary>
+Yes, GHK-Cu is a naturally occurring peptide-copper complex found in human plasma. It is generated through the proteolytic degradation of larger proteins, particularly albumin and SPARC (secreted protein acidic and rich in cysteine). Plasma levels of GHK-Cu are approximately 200 μg/L in healthy young adults but decline significantly with age.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How does GHK-Cu bind to copper? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">GHK binds copper(II) with high affinity through a square-planar coordination geometry. The copper ion is coordinated by three nitrogen donors: the N-terminal amino group of glycine, the deprotonated amide nitrogen of the first peptide bond, and the imidazole side chain of histidine. This creates a very stable complex with a dissociation constant in the femtomolar range.</div>
+<details class="faq-item">
+<summary>What is the primary research focus for GHK-Cu?</summary>
+The primary research focus is wound healing and tissue regeneration. GHK-Cu has been extensively studied for its ability to stimulate collagen synthesis, promote fibroblast and keratinocyte migration, enhance angiogenesis, and modulate extracellular matrix remodeling. It is also investigated for its antioxidant properties and its role as a physiological copper transport system.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the primary research focus for GHK-Cu? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">The primary research focus is wound healing and tissue regeneration. GHK-Cu has been extensively studied for its ability to stimulate collagen synthesis, promote fibroblast and keratinocyte migration, enhance angiogenesis, and modulate extracellular matrix remodeling. It is also investigated for its antioxidant properties and its role as a physiological copper transport system.</div>
+<details class="faq-item">
+<summary>Is GHK-Cu activity the same with and without copper?</summary>
+No, the biological activity of GHK-Cu differs significantly from the free GHK peptide. The copper-bound form is generally considered the biologically active species, and the metal coordination is essential for many of the peptide's reported biological effects, including its wound-healing and gene-modulating activities. The free peptide (without copper) has different properties and lower activity in most biological assays.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">Does GHK-Cu affect gene expression? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Yes, GHK-Cu has been shown to modulate the expression of a large number of genes. Microarray studies have reported that GHK-Cu can influence the expression of over 4,000 genes in human dermal fibroblasts. The general pattern is suppression of pro-inflammatory genes and upregulation of genes involved in extracellular matrix synthesis, antioxidant defense, and tissue remodeling.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Is GHK-Cu activity the same with and without copper? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">No, the biological activity of GHK-Cu differs significantly from the free GHK peptide. The copper-bound form is generally considered the biologically active species, and the metal coordination is essential for many of the peptide's reported biological effects, including its wound-healing and gene-modulating activities. The free peptide (without copper) has different properties and lower activity in most biological assays.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">Has GHK-Cu been studied in humans? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">Yes, GHK-Cu has been studied in human research, primarily in the context of topical application for dermatological purposes. Clinical studies have examined its effects on skin appearance, wound healing, and hair growth. However, GHK-Cu has not been approved as a pharmaceutical drug for any medical indication and is primarily classified as a research chemical and cosmetic ingredient.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is GHK-Cu's role in copper transport? <span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display: none;">GHK-Cu functions as a physiological copper delivery system in the body. It can bind and transport copper ions to cells, where the copper is incorporated into essential cuproenzymes such as superoxide dismutase (SOD1), lysyl oxidase (required for collagen and elastin crosslinking), and cytochrome c oxidase (involved in mitochondrial respiration). This copper-delivery function is a key part of GHK-Cu's biological mechanism.</div>
-  </div>
-</div>
-
-<!-- About RPL Peptides -->
+<details class="faq-item">
+<summary>What is GHK-Cu's role in copper transport?</summary>
+GHK-Cu functions as a physiological copper delivery system in the body. It can bind and transport copper ions to cells, where the copper is incorporated into essential cuproenzymes such as superoxide dismutase (SOD1), lysyl oxidase (required for collagen and elastin crosslinking), and cytochrome c oxidase (involved in mitochondrial respiration). This copper-delivery function is a key part of GHK-Cu's biological mechanism.
+</details>
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Pickart L, Thaler MM. Tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver. <em>Nature New Biology</em>. 1973;243(126):87-88. doi:10.1038/newbio243085a0</li>
-  <li id="ref2">Pickart L, Vasquez-Soltero JM, Margolina A. The human tripeptide GHK-Cu in prevention of oxidative stress and degenerative conditions of aging: implications for cognitive decline. <em>Oxidative Medicine and Cellular Longevity</em>. 2012;2012:324832. doi:10.1155/2012/324832</li>
-  <li id="ref3">Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. <em>International Journal of Molecular Sciences</em>. 2015;16(12):28568-28579. doi:10.3390/ijms161226114</li>
-  <li id="ref4">Gruber JV, Holtz R, Kadla JE, et al. Effects of the copper tripeptide complex (GHK-Cu) on gene expression in adult human dermal fibroblasts. <em>Journal of the American Academy of Dermatology</em>. 2006;54(3):AB44.</li>
-  <li id="ref5">Maquart FX, Pickart L, Laurent M, et al. Stimulation of collagen synthesis in fibroblast cultures by a tripeptide-copper complex. <em>FEBS Letters</em>. 1988;238(2):343-346. doi:10.1016/0014-5793(88)80509-4</li>
-  <li id="ref6">Lau SJ, Sarkar B. Ternary coordination complex between human serum albumin, copper(II), and L-histidine. <em>Journal of Biological Chemistry</em>. 1975;250(12):4592-4596.</li>
-  <li id="ref7">Arul V, Kartha R, Jayakumar R. A therapeutic approach for diabetic wound healing using biopolymers and GHK-Cu. <em>Biomaterials</em>. 2007;28(2):332-340. doi:10.1016/j.biomaterials.2006.08.037</li>
-  <li id="ref8">Pickart L. The human tripeptide GHK-Cu and cellular signaling. <em>Advances in Wound Care</em>. 2015;4(1):41-52. doi:10.1089/wound.2014.0542</li>
-  <li id="ref9">Wayner MJ, Nozik-Grayck E, Piantadosi CA. The copper-binding peptide GHK as a superoxide dismutase mimic. <em>Free Radical Biology and Medicine</em>. 2001;31(5):656-666. doi:10.1016/S0891-5849(01)00636-5</li>
-  <li id="ref10">Hutchinson LB, McClinton R, Hagger C, et al. The copper-binding tripeptide GHK-Cu promotes wound healing in murine models. <em>Wound Repair and Regeneration</em>. 2004;12(1):A2.</li>
+  <li id="ref1Pickart L, Thaler MM. Tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver. <em>Nature New Biology</em>. 1973;243(126):87-88. <a href="https://doi.org/10.1038%2Fnewbio243085a0">doi:10.1038/newbio243085a0</a></li>
+  <li id="ref2Pickart L, Vasquez-Soltero JM, Margolina A. The human tripeptide GHK-Cu in prevention of oxidative stress and degenerative conditions of aging: implications for cognitive decline. <em>Oxidative Medicine and Cellular Longevity</em>. 2012;2012:324832. <a href="https://doi.org/10.1155%2F2012%2F324832">doi:10.1155/2012/324832</a></li>
+  <li id="ref3Pickart L, Margolina A. Regenerative and protective actions of the GHK-Cu peptide in the light of the new gene data. <em>International Journal of Molecular Sciences</em>. 2015;16(12):28568-28579. <a href="https://doi.org/10.3390%2Fijms161226114">doi:10.3390/ijms161226114</a></li>
+  <li id="ref4Gruber JV, Holtz R, Kadla JE, et al. Effects of the copper tripeptide complex (GHK-Cu) on gene expression in adult human dermal fibroblasts. <em>Journal of the American Academy of Dermatology</em>. 2006;54(3):AB44.</li>
+  <li id="ref5Maquart FX, Pickart L, Laurent M, et al. Stimulation of collagen synthesis in fibroblast cultures by a tripeptide-copper complex. <em>FEBS Letters</em>. 1988;238(2):343-346. <a href="https://doi.org/10.1016%2F0014-5793%2888%2980509-4">doi:10.1016/0014-5793(88)80509-4</a></li>
+  <li id="ref6Lau SJ, Sarkar B. Ternary coordination complex between human serum albumin, copper(II), and L-histidine. <em>Journal of Biological Chemistry</em>. 1975;250(12):4592-4596.</li>
+  <li id="ref7Arul V, Kartha R, Jayakumar R. A therapeutic approach for diabetic wound healing using biopolymers and GHK-Cu. <em>Biomaterials</em>. 2007;28(2):332-340. <a href="https://doi.org/10.1016%2Fj.biomaterials.2006.08.037">doi:10.1016/j.biomaterials.2006.08.037</a></li>
+  <li id="ref8Pickart L. The human tripeptide GHK-Cu and cellular signaling. <em>Advances in Wound Care</em>. 2015;4(1):41-52. <a href="https://doi.org/10.1089%2Fwound.2014.0542">doi:10.1089/wound.2014.0542</a></li>
+  <li id="ref9Wayner MJ, Nozik-Grayck E, Piantadosi CA. The copper-binding peptide GHK as a superoxide dismutase mimic. <em>Free Radical Biology and Medicine</em>. 2001;31(5):656-666. <a href="https://doi.org/10.1016%2FS0891-5849%2801%2900636-5">doi:10.1016/S0891-5849(01)00636-5</a></li>
+  <li id="ref10Hutchinson LB, McClinton R, Hagger C, et al. The copper-binding tripeptide GHK-Cu promotes wound healing in murine models. <em>Wound Repair and Regeneration</em>. 2004;12(1):A2.</li>
 
 
 </ol>

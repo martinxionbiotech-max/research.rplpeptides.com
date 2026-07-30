@@ -90,67 +90,51 @@ The growing therapeutic interest in peptides continues to drive innovation in st
 
 
 ## Frequently Asked Questions
-<div class="faq-list">
-  <div class="faq-item">
-    <div class="faq-question">What is the most common peptide degradation pathway?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Deamidation of asparagine residues is the most common non-enzymatic degradation pathway for peptides under neutral to basic conditions. The Asn-Gly sequence is particularly labile, with deamidation rates up to 100-fold faster than the most stable Asn-containing sequences.</div>
+<details class="faq-item">
+<summary>What is the most common peptide degradation pathway?</summary>
+Deamidation of asparagine residues is the most common non-enzymatic degradation pathway for peptides under neutral to basic conditions. The Asn-Gly sequence is particularly labile, with deamidation rates up to 100-fold faster than the most stable Asn-containing sequences.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What pH range provides maximum peptide stability?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Most peptides exhibit maximum stability in the pH range of 4.0 to 6.0. At lower pH, acid-catalyzed hydrolysis of peptide bonds dominates, while at higher pH, base-catalyzed deamidation and racemization become the primary degradation pathways.</div>
+<details class="faq-item">
+<summary>How should lyophilized peptides be stored for long-term stability?</summary>
+Lyophilized peptides should be stored at &le;−20 &deg;C (preferably −80 &deg;C for long-term storage) in desiccated, light-protected conditions. The container should have low moisture permeability, and exposure to atmospheric moisture during reconstitution should be minimized.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How should lyophilized peptides be stored for long-term stability?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Lyophilized peptides should be stored at &le;−20 &deg;C (preferably −80 &deg;C for long-term storage) in desiccated, light-protected conditions. The container should have low moisture permeability, and exposure to atmospheric moisture during reconstitution should be minimized.</div>
+<details class="faq-item">
+<summary>How does methionine oxidation affect peptide stability and activity?</summary>
+Methionine oxidation to methionine sulfoxide (+16 Da) can alter peptide conformation and reduce biological activity. The oxidation rate is influenced by methionine solvent accessibility, proximity to other residues, and the presence of metal ions or light. Inclusion of free methionine as an antioxidant in formulations can protect against oxidation.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">What is a forced degradation study and why is it important?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">A forced degradation study (stress testing) exposes the peptide to exaggerated conditions including acid, base, heat, light, and oxidant to accelerate degradation. It identifies degradation pathways, establishes the stability-indicating capability of analytical methods, and reveals degradation products that may form during long-term storage.</div>
+<details class="faq-item">
+<summary>What is the Arrhenius equation's role in stability prediction?</summary>
+The Arrhenius equation (k = A &middot; e<sup>−Ea/RT</sup>) models the temperature dependence of degradation rates, enabling prediction of shelf life at intended storage conditions from accelerated stability data at elevated temperatures. However, caution is required as degradation mechanisms may change at high temperatures.
+</details>
   </div>
-  <div class="faq-item">
-    <div class="faq-question">How does methionine oxidation affect peptide stability and activity?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Methionine oxidation to methionine sulfoxide (+16 Da) can alter peptide conformation and reduce biological activity. The oxidation rate is influenced by methionine solvent accessibility, proximity to other residues, and the presence of metal ions or light. Inclusion of free methionine as an antioxidant in formulations can protect against oxidation.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the role of lyophilization in peptide stability?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Lyophilization (freeze-drying) removes water, the essential reaction medium for most chemical degradation pathways. The resulting solid peptide typically exhibits dramatically improved stability, with shelf lives extended from weeks or months in solution to years in the lyophilized state when stored appropriately.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What is the Arrhenius equation's role in stability prediction?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">The Arrhenius equation (k = A &middot; e<sup>−Ea/RT</sup>) models the temperature dependence of degradation rates, enabling prediction of shelf life at intended storage conditions from accelerated stability data at elevated temperatures. However, caution is required as degradation mechanisms may change at high temperatures.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">How do disulfide bonds affect peptide stability?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Disulfide bonds constrain peptide conformation and generally enhance chemical stability by reducing conformational flexibility. However, they are susceptible to reduction and disulfide exchange, particularly at alkaline pH and in the presence of reducing agents. Thiol-disulfide exchange can lead to misfolded or aggregated species.</div>
-  </div>
-  <div class="faq-item">
-    <div class="faq-question">What excipients are commonly used to stabilize peptides in solution?<span class="faq-toggle">+</span></div>
-    <div class="faq-answer" style="display:none;">Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes; polyols (mannitol, sorbitol) to reduce water activity; amino acids (methionine, histidine) as antioxidants; chelating agents (EDTA) to sequester metal ions; surfactants (polysorbate 80) to prevent surface-induced aggregation; and buffers to maintain optimal pH.</div>
-  </div>
-</div>
-
-!!! info ""
+<details class="faq-item">
+<summary>What excipients are commonly used to stabilize peptides in solution?</summary>
+Common solution stabilizers include: sugars (sucrose, trehalose) as kosmotropes; polyols (mannitol, sorbitol) to reduce water activity; amino acids (methionine, histidine) as antioxidants; chelating agents (EDTA) to sequester metal ions; surfactants (polysorbate 80) to prevent surface-induced aggregation; and buffers to maintain optimal pH.
+</details>
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 
 
 ## References
-<div class="references">
-  <ol class="references">
+<div class="references
+  <ol class="references
 
 
-  <li id="ref1">Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
-  <li id="ref2">Clarke S, Williams KR, Watanabe H. The deamidation of asparagine and glutamine residues in proteins. <em>J Biol Chem</em>. 1988;263(12):5778-5781.</li>
-  <li id="ref3">Li B, Borchardt RT, Topp EM. Chemical instability of protein pharmaceuticals: mechanisms, detection, and stabilization. <em>J Pharm Sci</em>. 2010;99(3):1139-1154.</li>
-  <li id="ref4">Robinson NE, Robinson AB. <em>Molecular Clocks: Deamidation of Asparaginyl and Glutaminyl Residues in Peptides and Proteins</em>. Althouse Press; 2004.</li>
-  <li id="ref5">Powell MF, Stewart T, Otvos L Jr, et al. Peptide stability in drug development. <em>Pharm Res</em>. 1993;10(9):1268-1273.</li>
-  <li id="ref6">Bhatt NP, Patel M, Trivedi N. Stability studies of peptide pharmaceuticals: a regulatory perspective. <em>J Pharm Biomed Anal</em>. 2020;180:113046.</li>
-  <li id="ref7">Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. <em>Int J Pharm</em>. 1999;185(2):129-188.</li>
-  <li id="ref8">Patel H, Patel B, Chotai N. Stability-indicating analytical methods for peptides. <em>Anal Methods</em>. 2016;8(28):5608-5621.</li>
-  <li id="ref9">Tyler-Cross R, Schirch V. Effects of amino acid sequence, buffers, and ionic strength on the rate and mechanism of deamidation of asparagine residues in small peptides. <em>J Biol Chem</em>. 1991;266(33):22549-22556.</li>
-  <li id="ref10">Carpenter JF, Crowe JH, Arakawa T. Comparison of solute-induced protein stabilization in aqueous solution and in the frozen and dried states. <em>J Dairy Sci</em>. 1990;73(12):3627-3636.</li>
-  <li id="ref11">Goolcharran C, Khossravi M, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Biotechnol</em>. 2000;13:55-98.</li>
-  <li id="ref12">Brange J, Langkjaer L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
-  <li id="ref13">Creighton TE. <em>Proteins: Structures and Molecular Properties</em>. 2nd ed. Freeman; 1993.</li>
+  <li id="ref1Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
+  <li id="ref2Clarke S, Williams KR, Watanabe H. The deamidation of asparagine and glutamine residues in proteins. <em>J Biol Chem</em>. 1988;263(12):5778-5781.</li>
+  <li id="ref3Li B, Borchardt RT, Topp EM. Chemical instability of protein pharmaceuticals: mechanisms, detection, and stabilization. <em>J Pharm Sci</em>. 2010;99(3):1139-1154.</li>
+  <li id="ref4Robinson NE, Robinson AB. <em>Molecular Clocks: Deamidation of Asparaginyl and Glutaminyl Residues in Peptides and Proteins</em>. Althouse Press; 2004.</li>
+  <li id="ref5Powell MF, Stewart T, Otvos L Jr, et al. Peptide stability in drug development. <em>Pharm Res</em>. 1993;10(9):1268-1273.</li>
+  <li id="ref6Bhatt NP, Patel M, Trivedi N. Stability studies of peptide pharmaceuticals: a regulatory perspective. <em>J Pharm Biomed Anal</em>. 2020;180:113046.</li>
+  <li id="ref7Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. <em>Int J Pharm</em>. 1999;185(2):129-188.</li>
+  <li id="ref8Patel H, Patel B, Chotai N. Stability-indicating analytical methods for peptides. <em>Anal Methods</em>. 2016;8(28):5608-5621.</li>
+  <li id="ref9Tyler-Cross R, Schirch V. Effects of amino acid sequence, buffers, and ionic strength on the rate and mechanism of deamidation of asparagine residues in small peptides. <em>J Biol Chem</em>. 1991;266(33):22549-22556.</li>
+  <li id="ref10Carpenter JF, Crowe JH, Arakawa T. Comparison of solute-induced protein stabilization in aqueous solution and in the frozen and dried states. <em>J Dairy Sci</em>. 1990;73(12):3627-3636.</li>
+  <li id="ref11Goolcharran C, Khossravi M, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Biotechnol</em>. 2000;13:55-98.</li>
+  <li id="ref12Brange J, Langkjaer L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
+  <li id="ref13Creighton TE. <em>Proteins: Structures and Molecular Properties</em>. 2nd ed. Freeman; 1993.</li>
 
 
 </ol>

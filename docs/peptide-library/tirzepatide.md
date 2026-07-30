@@ -96,46 +96,46 @@ Future applications may include prediabetes, metabolic syndrome, and combination
 
 ## Frequently Asked Questions
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>What makes tirzepatide different from selective GLP-1 receptor agonists?</h3>
-    Tirzepatide simultaneously activates both GIP and GLP-1 receptors, whereas selective GLP-1 receptor agonists (such as semaglutide) activate only GLP-1R. The addition of GIPR agonism is hypothesized to provide complementary metabolic benefits, including improved lipid metabolism and enhanced insulin sensitivity, while potentially mitigating GLP-1-related gastrointestinal adverse effects.
-  </div>
-  <div class="faq-item">
-    <h3>What is tirzepatide's molecular structure?</h3>
-    Tirzepatide is a 39-amino acid peptide based on a modified GIP backbone with multiple amino acid substitutions optimized for balanced GIPR and GLP-1R activity. It includes a C20 fatty diacid moiety at lysine 20 for albumin binding, extending its half-life to approximately 5 days.
-  </div>
-  <div class="faq-item">
-    <h3>How does tirzepatide compare to semaglutide for glycemic control?</h3>
-    In the SURPASS-2 head-to-head trial, all doses of tirzepatide (5, 10, 15 mg weekly) demonstrated superior HbA1c reduction compared to semaglutide 1.0 mg weekly, with the highest tirzepatide dose achieving a mean HbA1c reduction of 2.37% versus 1.86% for semaglutide.
-  </div>
-  <div class="faq-item">
-    <h3>What weight reductions have been observed with tirzepatide?</h3>
-    In SURMOUNT-1, tirzepatide produced mean body weight reductions of 15.0% (5 mg), 19.5% (10 mg), and 20.9% (15 mg) compared to 3.1% with placebo. Subsequent analyses of the 15 mg group showed up to 22.5% mean weight reduction at 72 weeks.
-  </div>
-  <div class="faq-item">
-    <h3>Why include GIP agonism if GIP resistance was reported in diabetes?</h3>
-    The concept of "GIP resistance" in type 2 diabetes described reduced insulinotropic response to physiological GIP levels. However, pharmacological levels of GIP agonism, especially in combination with GLP-1R activation, appear to overcome this resistance and provide distinct metabolic benefits, including improved lipid metabolism and adipose tissue function.
-  </div>
-  <div class="faq-item">
-    <h3>Does tirzepatide have cardiovascular benefits?</h3>
-    The SURPASS-4 trial demonstrated a favorable cardiovascular safety profile, with a trend toward reduced major adverse cardiovascular events. The dedicated SURPASS-CVOT cardiovascular outcomes trial is ongoing to definitively evaluate cardiovascular efficacy.
-  </div>
-  <div class="faq-item">
-    <h3>What are the primary adverse events?</h3>
-    Gastrointestinal adverse events, including nausea, diarrhea, vomiting, and decreased appetite, are the most commonly reported. Notably, the rates of gastrointestinal adverse events with tirzepatide are comparable to or lower than those observed with selective GLP-1R agonists at equivalent levels of GLP-1R activation, potentially reflecting a GIP-mediated tolerability benefit.
-  </div>
-  <div class="faq-item">
-    <h3>Is tirzepatide being studied for NASH?</h3>
-    Yes. GIPR activation is hypothesized to influence hepatic lipid metabolism and insulin sensitivity. Clinical trials are evaluating tirzepatide for non-alcoholic steatohepatitis, with the SYNERGY-NASH program assessing effects on liver histology, hepatic steatosis, and fibrosis.
-  </div>
-  <div class="faq-item">
-    <h3>How does the dosing schedule work?</h3>
-    Tirzepatide is initiated at 2.5 mg once weekly for 4 weeks, then escalated to 5 mg. Further escalation to 10 mg or 15 mg is guided by therapeutic response and tolerability, with dose increases occurring at 4-week intervals. The dose-escalation schedule is designed to minimize gastrointestinal adverse effects.
-  </div>
-  <div class="faq-item">
-    <h3>What are the limitations of tirzepatide research?</h3>
-    Current limitations include the absence of completed long-term cardiovascular outcome data, limited data on effects in diverse global populations, uncertainty about optimal treatment duration, and the need for studies on weight regain and metabolic changes upon treatment cessation. The relative contributions of GIPR versus GLP-1R activation to the overall clinical effects also require further mechanistic elucidation.
-  </div>
+<details class="faq-item">
+<summary>What makes tirzepatide different from selective GLP-1 receptor agonists?</summary>
+Tirzepatide simultaneously activates both GIP and GLP-1 receptors, whereas selective GLP-1 receptor agonists (such as semaglutide) activate only GLP-1R. The addition of GIPR agonism is hypothesized to provide complementary metabolic benefits, including improved lipid metabolism and enhanced insulin sensitivity, while potentially mitigating GLP-1-related gastrointestinal adverse effects.
+</details>
+<details class="faq-item">
+<summary>What is tirzepatide's molecular structure?</summary>
+Tirzepatide is a 39-amino acid peptide based on a modified GIP backbone with multiple amino acid substitutions optimized for balanced GIPR and GLP-1R activity. It includes a C20 fatty diacid moiety at lysine 20 for albumin binding, extending its half-life to approximately 5 days.
+</details>
+<details class="faq-item">
+<summary>How does tirzepatide compare to semaglutide for glycemic control?</summary>
+In the SURPASS-2 head-to-head trial, all doses of tirzepatide (5, 10, 15 mg weekly) demonstrated superior HbA1c reduction compared to semaglutide 1.0 mg weekly, with the highest tirzepatide dose achieving a mean HbA1c reduction of 2.37% versus 1.86% for semaglutide.
+</details>
+<details class="faq-item">
+<summary>What weight reductions have been observed with tirzepatide?</summary>
+In SURMOUNT-1, tirzepatide produced mean body weight reductions of 15.0% (5 mg), 19.5% (10 mg), and 20.9% (15 mg) compared to 3.1% with placebo. Subsequent analyses of the 15 mg group showed up to 22.5% mean weight reduction at 72 weeks.
+</details>
+<details class="faq-item">
+<summary>Why include GIP agonism if GIP resistance was reported in diabetes?</summary>
+The concept of "GIP resistance" in type 2 diabetes described reduced insulinotropic response to physiological GIP levels. However, pharmacological levels of GIP agonism, especially in combination with GLP-1R activation, appear to overcome this resistance and provide distinct metabolic benefits, including improved lipid metabolism and adipose tissue function.
+</details>
+<details class="faq-item">
+<summary>Does tirzepatide have cardiovascular benefits?</summary>
+The SURPASS-4 trial demonstrated a favorable cardiovascular safety profile, with a trend toward reduced major adverse cardiovascular events. The dedicated SURPASS-CVOT cardiovascular outcomes trial is ongoing to definitively evaluate cardiovascular efficacy.
+</details>
+<details class="faq-item">
+<summary>What are the primary adverse events?</summary>
+Gastrointestinal adverse events, including nausea, diarrhea, vomiting, and decreased appetite, are the most commonly reported. Notably, the rates of gastrointestinal adverse events with tirzepatide are comparable to or lower than those observed with selective GLP-1R agonists at equivalent levels of GLP-1R activation, potentially reflecting a GIP-mediated tolerability benefit.
+</details>
+<details class="faq-item">
+<summary>Is tirzepatide being studied for NASH?</summary>
+Yes. GIPR activation is hypothesized to influence hepatic lipid metabolism and insulin sensitivity. Clinical trials are evaluating tirzepatide for non-alcoholic steatohepatitis, with the SYNERGY-NASH program assessing effects on liver histology, hepatic steatosis, and fibrosis.
+</details>
+<details class="faq-item">
+<summary>How does the dosing schedule work?</summary>
+Tirzepatide is initiated at 2.5 mg once weekly for 4 weeks, then escalated to 5 mg. Further escalation to 10 mg or 15 mg is guided by therapeutic response and tolerability, with dose increases occurring at 4-week intervals. The dose-escalation schedule is designed to minimize gastrointestinal adverse effects.
+</details>
+<details class="faq-item">
+<summary>What are the limitations of tirzepatide research?</summary>
+Current limitations include the absence of completed long-term cardiovascular outcome data, limited data on effects in diverse global populations, uncertainty about optimal treatment duration, and the need for studies on weight regain and metabolic changes upon treatment cessation. The relative contributions of GIPR versus GLP-1R activation to the overall clinical effects also require further mechanistic elucidation.
+</details>
 </div>
 
 !!! info ""
@@ -143,33 +143,33 @@ Future applications may include prediabetes, metabolic syndrome, and combination
 
 
 ## References
-<ol class="references">
+<ol class="references
 
 
-- Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. doi:10.1056/NEJMoa2107519
+- Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. <a href="https://doi.org/10.1056%2FNEJMoa2107519">doi:10.1056/NEJMoa2107519</a>
   - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
 
-Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. doi:10.1056/NEJMoa2206038
+Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. <a href="https://doi.org/10.1056%2FNEJMoa2206038">doi:10.1056/NEJMoa2206038</a>
   - Rosenstock J, Wysham C, Frías JP, et al.
 
-Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. doi:10.1016/S0140-6736(21)01324-6
+Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901324-6">doi:10.1016/S0140-6736(21)01324-6</a>
   - Ludvik B, Giorgino F, Jódar E, et al.
 
-Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. doi:10.1016/S0140-6736(21)01443-4
+Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2901443-4">doi:10.1016/S0140-6736(21)01443-4</a>
   - Del Prato S, Kahn SE, Pavo I, et al.
 
-Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. doi:10.1016/S0140-6736(21)02188-7
+Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. <a href="https://doi.org/10.1016%2FS0140-6736%2821%2902188-7">doi:10.1016/S0140-6736(21)02188-7</a>
   - Coskun T, Sloop KW, Loghin C, et al.
 
-LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. doi:10.1038/s42255-018-0007-6
+LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. <a href="https://doi.org/10.1038%2Fs42255-018-0007-6">doi:10.1038/s42255-018-0007-6</a>
   - Samms RJ, Coghlan MP, Sloop KW.
 
-How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
-  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. doi:10.1053/j.gastro.2007.03.054
+How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. <a href="https://doi.org/10.1016%2Fj.tem.2020.02.006">doi:10.1016/j.tem.2020.02.006</a>
+  - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. <a href="https://doi.org/10.1053%2Fj.gastro.2007.03.054">doi:10.1053/j.gastro.2007.03.054</a>
   - Campbell JE, Drucker DJ.
 
-Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
-  - Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. doi:10.2337/dbi16-0086
+Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. <a href="https://doi.org/10.1016%2Fj.cmet.2013.04.008">doi:10.1016/j.cmet.2013.04.008</a>
+  - Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. <a href="https://doi.org/10.2337%2Fdbi16-0086">doi:10.2337/dbi16-0086</a>
 
 
 </ol>

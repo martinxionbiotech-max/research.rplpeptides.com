@@ -161,30 +161,30 @@ For laboratory-scale lyophilization, the simpler Pirani/capacitance manometer co
 
 ## FAQ
 <div class="faq-section">
-  <div class="faq-item">
-    <h3>Can I lyophilize a peptide in any buffer?</h3>
-    No. Avoid phosphate buffers as they can experience severe pH shifts during freezing. Use histidine, citrate, Tris, or acetate buffers instead. The buffer concentration should be kept low (10–50 mM) to minimize eutectic formation issues.
-  </div>
-  <div class="faq-item">
-    <h3>What is cake collapse and why is it bad?</h3>
-    Cake collapse occurs when the product temperature exceeds the collapse temperature (T<sub>c</sub>) during primary drying. The porous matrix loses structural integrity, resulting in a shrunken, dense cake that is difficult to reconstitute and provides poor stability.
-  </div>
-  <div class="faq-item">
-    <h3>What is the best lyoprotectant for peptides?</h3>
-    Trehalose is widely considered the best lyoprotectant due to its high T<sub>g</sub>, low hygroscopicity, and lack of internal hydrogen bonds. Sucrose is nearly as effective and is more economical. Mannitol can be used as a bulking agent but has poor lyoprotective properties.
-  </div>
-  <div class="faq-item">
-    <h3>How do I determine when primary drying is complete?</h3>
-    The product temperature rises toward the shelf temperature when ice sublimation finishes, because the drying front reaches the bottom of the vial. Pressure rise testing (Pirani vs. capacitance manometer divergence) is the most reliable method for production-scale equipment.
-  </div>
-  <div class="faq-item">
-    <h3>What residual moisture level is optimal for peptide stability?</h3>
-    0.5–2.0% residual moisture is the optimal range. Below 0.5%, the formulation may be over-dried and essential hydration water may be removed. Above 3%, molecular mobility is sufficient to support hydrolytic degradation reactions.
-  </div>
-  <div class="faq-item">
-    <h3>Can lyophilization damage peptides?</h3>
-    Freezing and drying stresses can cause conformational changes and aggregation if the formulation is not properly designed. Cryoprotectants and lyoprotectants are essential to prevent damage. In properly formulated systems, peptides retain full potency after lyophilization.
-  </div>
+<details class="faq-item">
+<summary>Can I lyophilize a peptide in any buffer?</summary>
+No. Avoid phosphate buffers as they can experience severe pH shifts during freezing. Use histidine, citrate, Tris, or acetate buffers instead. The buffer concentration should be kept low (10–50 mM) to minimize eutectic formation issues.
+</details>
+<details class="faq-item">
+<summary>What is cake collapse and why is it bad?</summary>
+Cake collapse occurs when the product temperature exceeds the collapse temperature (T<sub>c</sub>) during primary drying. The porous matrix loses structural integrity, resulting in a shrunken, dense cake that is difficult to reconstitute and provides poor stability.
+</details>
+<details class="faq-item">
+<summary>What is the best lyoprotectant for peptides?</summary>
+Trehalose is widely considered the best lyoprotectant due to its high T<sub>g</sub>, low hygroscopicity, and lack of internal hydrogen bonds. Sucrose is nearly as effective and is more economical. Mannitol can be used as a bulking agent but has poor lyoprotective properties.
+</details>
+<details class="faq-item">
+<summary>How do I determine when primary drying is complete?</summary>
+The product temperature rises toward the shelf temperature when ice sublimation finishes, because the drying front reaches the bottom of the vial. Pressure rise testing (Pirani vs. capacitance manometer divergence) is the most reliable method for production-scale equipment.
+</details>
+<details class="faq-item">
+<summary>What residual moisture level is optimal for peptide stability?</summary>
+0.5–2.0% residual moisture is the optimal range. Below 0.5%, the formulation may be over-dried and essential hydration water may be removed. Above 3%, molecular mobility is sufficient to support hydrolytic degradation reactions.
+</details>
+<details class="faq-item">
+<summary>Can lyophilization damage peptides?</summary>
+Freezing and drying stresses can cause conformational changes and aggregation if the formulation is not properly designed. Cryoprotectants and lyoprotectants are essential to prevent damage. In properly formulated systems, peptides retain full potency after lyophilization.
+</details>
 </div>
 
 !!! info ""
@@ -192,13 +192,13 @@ For laboratory-scale lyophilization, the simpler Pirani/capacitance manometer co
 
 
 ## References
-<ol class="references">
-  <li id="ref1">Franks F. Freeze-drying of bioproducts: putting principles into practice. <em>Eur J Pharm Biopharm</em>. 1998;45(3):221-229.</li>
-  <li id="ref2">Pikal MJ. Freeze-drying of proteins. Part I: process design. <em>Pharm Technol</em>. 2002;15(1):78-92.</li>
-  <li id="ref3">Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. <em>Pharm Res</em>. 2004;21(2):191-200.</li>
-  <li id="ref4">Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations. <em>Pharm Res</em>. 1997;14(8):969-975.</li>
-  <li id="ref5">Rey L, May JC. Freeze-Drying/Lyophilization of Pharmaceutical and Biological Products. 3rd ed. CRC Press; 2010.</li>
-  <li id="ref6">Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
-  <li id="ref7">Franks F, Auffret T. Freeze-Drying of Pharmaceuticals and Biopharmaceuticals. RSC Publishing; 2007.</li>
-  <li id="ref8">Jameel F, Hershenson S. Formulation and Process Development Strategies for Manufacturing Biopharmaceuticals. Wiley; 2010.</li>
+<ol class="references
+  <li id="ref1Franks F. Freeze-drying of bioproducts: putting principles into practice. <em>Eur J Pharm Biopharm</em>. 1998;45(3):221-229.</li>
+  <li id="ref2Pikal MJ. Freeze-drying of proteins. Part I: process design. <em>Pharm Technol</em>. 2002;15(1):78-92.</li>
+  <li id="ref3Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. <em>Pharm Res</em>. 2004;21(2):191-200.</li>
+  <li id="ref4Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations. <em>Pharm Res</em>. 1997;14(8):969-975.</li>
+  <li id="ref5Rey L, May JC. Freeze-Drying/Lyophilization of Pharmaceutical and Biological Products. 3rd ed. CRC Press; 2010.</li>
+  <li id="ref6Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
+  <li id="ref7Franks F, Auffret T. Freeze-Drying of Pharmaceuticals and Biopharmaceuticals. RSC Publishing; 2007.</li>
+  <li id="ref8Jameel F, Hershenson S. Formulation and Process Development Strategies for Manufacturing Biopharmaceuticals. Wiley; 2010.</li>
 </ol>
