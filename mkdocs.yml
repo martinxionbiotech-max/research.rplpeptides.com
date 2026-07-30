@@ -1,0 +1,139 @@
+site_name: RPL Peptides Research Knowledge Center
+site_url: https://research.rplpeptides.com/
+site_description: A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies. Optimized for AI search and research reference.
+site_author: RPL Scientific Editorial Team
+copyright: Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+  favicon: assets/favicon.ico
+  logo: assets/logo.svg
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/solid/flask
+      link: https://rplpeptides.com
+      name: RPL Peptides Main Website
+    - icon: fontawesome/solid/database
+      link: https://data.rplpeptides.com
+      name: Peptide Data Center
+    - icon: fontawesome/solid/wrench
+      link: https://tool.rplpeptides.com
+      name: Research Tools
+
+nav:
+  - Home: index.md
+  - Research:
+    - Overview: research/index.md
+    - Peptide Biology:
+      - Overview: research/peptide-biology/index.md
+      - What Are Peptides: research/peptide-biology/what-are-peptides.md
+      - Peptide Classification: research/peptide-biology/peptide-classification.md
+      - Peptide Structure and Function: research/peptide-biology/peptide-structure-function.md
+      - Peptide Signaling Pathways: research/peptide-biology/peptide-signaling-pathways.md
+    - Peptide Chemistry:
+      - Overview: research/peptide-chemistry/index.md
+      - Peptide Synthesis Overview: research/peptide-chemistry/peptide-synthesis-overview.md
+      - Solid-Phase Peptide Synthesis: research/peptide-chemistry/solid-phase-peptide-synthesis.md
+      - Peptide Purification Methods: research/peptide-chemistry/peptide-purification-methods.md
+      - Analytical Characterization: research/peptide-chemistry/analytical-characterization.md
+    - Analytical Science:
+      - Overview: research/analytical-science/index.md
+      - HPLC Analysis of Peptides: research/analytical-science/hplc-analysis-peptides.md
+      - Mass Spectrometry: research/analytical-science/mass-spectrometry-peptide-research.md
+      - Peptide Stability Studies: research/analytical-science/peptide-stability-studies.md
+      - Purity Testing Methods: research/analytical-science/purity-testing-methods.md
+    - Metabolic Research:
+      - Overview: research/metabolic/index.md
+      - GLP-1 Research Overview: research/metabolic/glp-1-research-overview.md
+      - GIP Research: research/metabolic/gip-research.md
+      - GLP-1/GIP Dual Agonists: research/metabolic/glp1-gip-dual-agonist.md
+      - Multi-Receptor Peptide Research: research/metabolic/multi-receptor-peptide-research.md
+    - Research Applications:
+      - Overview: research/applications/index.md
+      - Metabolic Research: research/applications/metabolic-research.md
+      - Cell Biology Research: research/applications/cell-biology-research.md
+      - Molecular Biology Research: research/applications/molecular-biology-research.md
+      - Biotechnology Applications: research/applications/biotechnology-applications.md
+  - Peptide Library:
+    - Overview: peptide-library/index.md
+    - Semaglutide: peptide-library/semaglutide.md
+    - Tirzepatide: peptide-library/tirzepatide.md
+    - Retatrutide: peptide-library/retatrutide.md
+    - BPC-157: peptide-library/bpc-157.md
+    - TB-500: peptide-library/tb-500.md
+    - MOTS-c: peptide-library/mots-c.md
+    - SS-31: peptide-library/ss-31.md
+    - Ipamorelin: peptide-library/ipamorelin.md
+    - Tesamorelin: peptide-library/tesamorelin.md
+    - AOD9604: peptide-library/aod9604.md
+    - GHK-Cu: peptide-library/ghk-cu.md
+    - Epithalon: peptide-library/epithalon.md
+    - PT-141: peptide-library/pt-141.md
+    - FOXO4-DRI: peptide-library/foxo4-dri.md
+  - Literature Reviews:
+    - Overview: literature/index.md
+    - GLP-1 Receptor Agonists Review: literature/glp-1-receptor-agonists-review.md
+    - BPC-157 Tissue Protection: literature/bpc-157-tissue-protection-mechanisms.md
+    - Incretin Hormones and Metabolic Regulation: literature/incretin-hormones-metabolic-regulation.md
+    - Peptide Synthesis Advances: literature/peptide-synthesis-advances-review.md
+    - Analytical Methods for Peptide Characterization: literature/analytical-methods-peptide-characterization.md
+  - Research Methods:
+    - Overview: methods/index.md
+    - Solid-Phase Peptide Synthesis (SPPS): methods/solid-phase-peptide-synthesis-method.md
+    - RP-HPLC Peptide Analysis: methods/rpp-hplc-peptide-analysis.md
+    - Mass Spectrometry Methods: methods/mass-spec-peptide-method.md
+    - Lyophilization of Peptides: methods/lyophilization-peptides.md
+    - Peptide Storage and Stability: methods/peptide-storage-stability.md
+  - Comparisons:
+    - Overview: comparisons/index.md
+    - GLP-1 vs GIP: comparisons/glp-1-vs-gip-research.md
+    - Semaglutide vs Tirzepatide: comparisons/semaglutide-vs-tirzepatide.md
+    - Peptide Hormones vs Small Molecules: comparisons/peptide-hormones-vs-small-molecules.md
+    - Single vs Multi-Receptor Agonists: comparisons/single-vs-multi-receptor-agonists.md
+  - RPL Peptides Ecosystem: rpl-peptides-ecosystem.md
+  - Authors: authors/index.md

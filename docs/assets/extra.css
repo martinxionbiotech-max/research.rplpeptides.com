@@ -1,0 +1,180 @@
+/* RPL Peptides Research Knowledge Center - Custom Styles */
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1a56db 100%);
+  color: white;
+  padding: 4rem 0;
+  margin: -1.5rem -1.5rem 2rem -1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(59,130,246,0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(6,182,212,0.1) 0%, transparent 50%);
+}
+.hero-content { position: relative; z-index: 1; text-align: center; max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; color: white; font-weight: 700; }
+.hero p { font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto 2rem; }
+.hero-stats { display: flex; justify-content: center; gap: 3rem; margin-top: 2rem; }
+.hero-stat { text-align: center; }
+.hero-stat-value { font-size: 1.75rem; font-weight: 800; color: white; }
+.hero-stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.6); }
+
+/* Grid cards on homepage */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+/* Fix hero for narrow screens */
+@media (max-width: 768px) {
+  .hero { padding: 3rem 0; margin: -1rem -1rem 1.5rem -1rem; }
+  .hero h1 { font-size: 1.75rem; }
+  .hero-stats { flex-wrap: wrap; gap: 1.5rem; }
+}
+
+/* Quick facts tables - inline style from peptide pages */
+.quick-facts {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.quick-facts td {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: top;
+}
+.quick-facts tr:nth-child(even) {
+  background: var(--md-code-bg-color);
+}
+
+/* Info boxes */
+.info-box {
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+}
+.info-box.info {
+  background: #eff6ff;
+  border-color: #93c5fd;
+}
+.info-box.info p { color: #1e40af; }
+.info-box.warning {
+  background: #fffbeb;
+  border-color: #fcd34d;
+}
+.info-box.warning p { color: #92400e; }
+.info-box.tip {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+.info-box.tip p { color: #166534; }
+
+/* Card grid (for Related Research sections) */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.card-grid-3 {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s;
+}
+.card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.07);
+}
+.card h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  font-size: 0.875rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0;
+}
+.card-meta {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--lighter);
+  margin-top: 0.75rem;
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background: var(--md-primary-fg-color--lightest);
+  color: var(--md-primary-fg-color);
+}
+
+/* FAQ - inline accordion from Astro */
+.faq-list { margin: 1.5rem 0; }
+.faq-item {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+.faq-question {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--md-default-fg-color--lightest);
+  user-select: none;
+}
+.faq-question:hover {
+  background: var(--md-primary-fg-color--lightest);
+}
+.faq-answer {
+  padding: 0 1rem 0.75rem;
+  font-size: 0.9rem;
+}
+.faq-toggle {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* References */
+.references { margin: 2rem 0; }
+.references ol { padding-left: 1.5rem; }
+.references li {
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* Admonition style titles */
+h2.doc-heading {
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Breadcrumb style override - make it subtle */
+.md-breadcrumb {
+  font-size: 0.75rem;
+}
