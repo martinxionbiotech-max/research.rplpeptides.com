@@ -87,52 +87,52 @@ The integration of synthetic biology and peptide chemistry is enabling the desig
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What are cell-penetrating peptides (CPPs) and how are they used in research?</h3>
 <div class="faq-answer" style="display:none;">
-      Cell-penetrating peptides are short cationic or amphipathic peptides (typically 5–30 amino acids) that can traverse cell membranes. They are used as molecular delivery vehicles to transport conjugated cargo such as other peptides, proteins, nucleic acids, drugs, or nanoparticles into cells. Common CPPs include Tat peptide (derived from HIV-1), penetratin (from Antennapedia), and oligoarginine sequences <a href="#ref-7">[7]</a>.
+      Cell-penetrating peptides are short cationic or amphipathic peptides (typically 5–30 amino acids) that can traverse cell membranes. They are used as molecular delivery vehicles to transport conjugated cargo such as other peptides, proteins, nucleic acids, drugs, or nanoparticles into cells. Common CPPs include Tat peptide (derived from HIV-1), penetratin (from Antennapedia), and oligoarginine sequences <a href="#ref7">[7]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> How does BPC-157 promote cell migration and tissue repair at the molecular level?</h3>
 <div class="faq-answer" style="display:none;">
-      BPC-157 upregulates early growth response factor-1 (Egr-1) and activates the FAK-paxillin signaling pathway, which coordinates focal adhesion dynamics and cytoskeletal reorganization required for cell migration. It also modulates nitric oxide synthase activity and upregulates VEGF and VEGFR2 expression, promoting angiogenesis and endothelial cell proliferation <a href="#ref-8">[8]</a>.
+      BPC-157 upregulates early growth response factor-1 (Egr-1) and activates the FAK-paxillin signaling pathway, which coordinates focal adhesion dynamics and cytoskeletal reorganization required for cell migration. It also modulates nitric oxide synthase activity and upregulates VEGF and VEGFR2 expression, promoting angiogenesis and endothelial cell proliferation <a href="#ref8">[8]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What is the role of the RGD peptide motif in cell adhesion research?</h3>
 <div class="faq-answer" style="display:none;">
-      The Arg-Gly-Asp (RGD) tripeptide sequence, found in fibronectin and other extracellular matrix proteins, is the minimal recognition motif for integrin-mediated cell adhesion. Synthetic RGD peptides and RGD-functionalized surfaces are used extensively to study cell-matrix interactions, focal adhesion formation, and mechanotransduction. RGD-based research tools have also been applied to investigate cell migration, differentiation, and tissue engineering <a href="#ref-5">[5]</a>.
+      The Arg-Gly-Asp (RGD) tripeptide sequence, found in fibronectin and other extracellular matrix proteins, is the minimal recognition motif for integrin-mediated cell adhesion. Synthetic RGD peptides and RGD-functionalized surfaces are used extensively to study cell-matrix interactions, focal adhesion formation, and mechanotransduction. RGD-based research tools have also been applied to investigate cell migration, differentiation, and tissue engineering <a href="#ref5">[5]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> How do peptides regulate cellular senescence?</h3>
 <div class="faq-answer" style="display:none;">
-      Peptides can regulate senescence through multiple mechanisms. FOXO4-DRI induces apoptosis in senescent cells by disrupting the FOXO4-p53 interaction, freeing p53 to activate pro-apoptotic gene expression. Other peptides involved in senescence regulation include those derived from insulin-like growth factor binding proteins, matrix-derived peptides, and mitochondrial-derived peptides that influence the senescence-associated secretory phenotype (SASP) <a href="#ref-6">[6]</a>.
+      Peptides can regulate senescence through multiple mechanisms. FOXO4-DRI induces apoptosis in senescent cells by disrupting the FOXO4-p53 interaction, freeing p53 to activate pro-apoptotic gene expression. Other peptides involved in senescence regulation include those derived from insulin-like growth factor binding proteins, matrix-derived peptides, and mitochondrial-derived peptides that influence the senescence-associated secretory phenotype (SASP) <a href="#ref6">[6]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What is TB-500 (thymosin beta-4) and what cellular processes does it affect?</h3>
 <div class="faq-answer" style="display:none;">
-      Thymosin beta-4 (TB-500) is a 43-amino acid peptide that sequesters G-actin, thereby regulating actin polymerization and cytoskeletal dynamics. It influences cell migration, adhesion, and survival through its effects on the actin cytoskeleton. TB-500 also activates Akt signaling, upregulates anti-apoptotic Bcl-2, and promotes angiogenesis through enhanced endothelial cell migration <a href="#ref-9">[9]</a>.
+      Thymosin beta-4 (TB-500) is a 43-amino acid peptide that sequesters G-actin, thereby regulating actin polymerization and cytoskeletal dynamics. It influences cell migration, adhesion, and survival through its effects on the actin cytoskeleton. TB-500 also activates Akt signaling, upregulates anti-apoptotic Bcl-2, and promotes angiogenesis through enhanced endothelial cell migration <a href="#ref9">[9]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> How does GHK-Cu modulate gene expression in cells?</h3>
 <div class="faq-answer" style="display:none;">
-      GHK-Cu (glycyl-L-histidyl-L-lysine-copper) modulates the expression of over 200 genes in human dermal fibroblasts. It upregulates collagen types I and III, decorin, TGF-β, and antioxidant enzymes, while downregulating matrix metalloproteinases and pro-inflammatory cytokines. These effects are mediated in part through activation of the MAPK/ERK signaling pathway <a href="#ref-10">[10]</a>.
+      GHK-Cu (glycyl-L-histidyl-L-lysine-copper) modulates the expression of over 200 genes in human dermal fibroblasts. It upregulates collagen types I and III, decorin, TGF-β, and antioxidant enzymes, while downregulating matrix metalloproteinases and pro-inflammatory cytokines. These effects are mediated in part through activation of the MAPK/ERK signaling pathway <a href="#ref10">[10]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What are stapled peptides and why are they significant for cell biology research?</h3>
 <div class="faq-answer" style="display:none;">
-      Stapled peptides are synthetic peptides stabilized by a hydrocarbon bridge (typically an all-hydrocarbon cross-link between amino acid side chains) that locks the peptide into its bioactive alpha-helical conformation. This stabilization increases proteolytic resistance, cell permeability, and target binding affinity. Stapled peptides enable the targeting of intracellular protein-protein interactions—such as the p53-MDM2 interaction—that were previously inaccessible to conventional peptides <a href="#ref-11">[11]</a>.
+      Stapled peptides are synthetic peptides stabilized by a hydrocarbon bridge (typically an all-hydrocarbon cross-link between amino acid side chains) that locks the peptide into its bioactive alpha-helical conformation. This stabilization increases proteolytic resistance, cell permeability, and target binding affinity. Stapled peptides enable the targeting of intracellular protein-protein interactions—such as the p53-MDM2 interaction—that were previously inaccessible to conventional peptides <a href="#ref11">[11]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> Can peptides be used to study apoptosis in cell biology?</h3>
 <div class="faq-answer" style="display:none;">
-      Yes, peptides are extensively used in apoptosis research. Caspase substrate peptides (e.g., DEVD for caspase-3, IETD for caspase-8) are used to measure protease activity in cell lysates. Peptide inhibitors of apoptosis, such as z-VAD-fmk, are used to block caspase activity. Additionally, BH3 domain peptides from Bcl-2 family proteins are employed to study mitochondrial apoptosis pathways by analyzing Bak/Bax activation <a href="#ref-4">[4]</a>.
+      Yes, peptides are extensively used in apoptosis research. Caspase substrate peptides (e.g., DEVD for caspase-3, IETD for caspase-8) are used to measure protease activity in cell lysates. Peptide inhibitors of apoptosis, such as z-VAD-fmk, are used to block caspase activity. Additionally, BH3 domain peptides from Bcl-2 family proteins are employed to study mitochondrial apoptosis pathways by analyzing Bak/Bax activation <a href="#ref4">[4]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> What are the limitations of using peptides in cell biology experiments?</h3>
 <div class="faq-answer" style="display:none;">
-      Limitations include rapid proteolytic degradation in culture medium and within cells, limited cell permeability (unless CPP-tagged), potential for aggregation at high concentrations, batch-to-batch variability in synthetic quality, and the possibility of non-specific receptor interactions. Researchers typically address these through peptide stabilization strategies, controlled purity standards, and careful dose-response characterization <a href="#ref-3">[3]</a>.
+      Limitations include rapid proteolytic degradation in culture medium and within cells, limited cell permeability (unless CPP-tagged), potential for aggregation at high concentrations, batch-to-batch variability in synthetic quality, and the possibility of non-specific receptor interactions. Researchers typically address these through peptide stabilization strategies, controlled purity standards, and careful dose-response characterization <a href="#ref3">[3]</a>.
 </div>
 <div class="faq-item">
 <h3 class="faq-question"><span class="faq-toggle">+</span> How are peptides used to study cell-cell communication?</h3>
 <div class="faq-answer" style="display:none;">
-      Peptides are fundamental to the study of paracrine and autocrine signaling. Synthetic versions of native signaling peptides (e.g., growth factors, cytokines, chemokines) are used to stimulate cells and analyze downstream pathways. Antagonist peptides that block receptor binding help identify the role of specific signaling molecules in complex systems. Peptide-based reporter systems also enable real-time monitoring of signaling events in co-culture models <a href="#ref-12">[12]</a>.
+      Peptides are fundamental to the study of paracrine and autocrine signaling. Synthetic versions of native signaling peptides (e.g., growth factors, cytokines, chemokines) are used to stimulate cells and analyze downstream pathways. Antagonist peptides that block receptor binding help identify the role of specific signaling molecules in complex systems. Peptide-based reporter systems also enable real-time monitoring of signaling events in co-culture models <a href="#ref12">[12]</a>.
 </div>
 </div>
 
@@ -143,18 +143,18 @@ The integration of synthetic biology and peptide chemistry is enabling the desig
 
 ## References
 <ol class="references">
-Science</em>. 1987;237(4819):1154–1162. <a href="https://doi.org/10.1126%2Fscience.3306916">doi:10.1126/science.3306916</a></li>
-  <li id="ref-2Maquart FX, Pasco S, Ramont L, et al. An introduction to matrikines: extracellular matrix-derived peptides which regulate cell activity. <em>Crit Rev Oncol Hematol</em>. 2004;49(3):199–202. <a href="https://doi.org/10.1016%2Fj.critrevonc.2003.06.007">doi:10.1016/j.critrevonc.2003.06.007</a></li>
-  <li id="ref-3Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
-  <li id="ref-4Schlessinger J. Cell signaling by receptor tyrosine kinases. <em>Cell</em>. 2000;103(2):211–225. <a href="https://doi.org/10.1016%2FS0092-8674%2800%2900114-8">doi:10.1016/S0092-8674(00)00114-8</a></li>
-  <li id="ref-5Hsu SL, Cheng CC, Shi YR, et al. RGD-containing peptides activate Src, Crk, and Rac to mediate cell spreading. <em>Exp Cell Res</em>. 2011;317(7):1052–1064. <a href="https://doi.org/10.1016%2Fj.yexcr.2011.01.022">doi:10.1016/j.yexcr.2011.01.022</a></li>
-  <li id="ref-6Baar MP, Brandt RMC, Putavet DA, et al. Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. <em>Cell</em>. 2017;169(1):132–147.e16. <a href="https://doi.org/10.1016%2Fj.cell.2017.02.031">doi:10.1016/j.cell.2017.02.031</a></li>
-  <li id="ref-7Guidotti G, Brambilla L, Rossi D. Cell-penetrating peptides: from basic research to clinics. <em>Trends Pharmacol Sci</em>. 2017;38(4):406–424. <a href="https://doi.org/10.1016%2Fj.tips.2017.01.003">doi:10.1016/j.tips.2017.01.003</a></li>
-  <li id="ref-8Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 and angiogenesis. <em>Front Pharmacol</em>. 2018;9:1434. <a href="https://doi.org/10.3389%2Ffphar.2018.01434">doi:10.3389/fphar.2018.01434</a></li>
-  <li id="ref-9Sosne G, Qiu P, Kurpakus-Wheater M. Thymosin beta-4 and the cornea: the role of thymosin beta-4 in corneal wound healing and innate immunity. <em>Ann N Y Acad Sci</em>. 2007;1112:227–237. <a href="https://doi.org/10.1196%2Fannals.1415.012">doi:10.1196/annals.1415.012</a></li>
-  <li id="ref-10Pickart L, Vasquez-Soltero JM, Margolina A. GHK and DNA: resetting the human genome to health. <em>Biomed Res Int</em>. 2014;2014:351479. <a href="https://doi.org/10.1155%2F2014%2F351479">doi:10.1155/2014/351479</a></li>
-  <li id="ref-11Bird GH, Madani N, Perry AF, et al. Hydrocarbon double-stapling remedies the proteolytic instability of a lengthy peptide therapeutic. <em>Proc Natl Acad Sci USA</em>. 2010;107(32):14093–14098. <a href="https://doi.org/10.1073%2Fpnas.1002713107">doi:10.1073/pnas.1002713107</a></li>
-  <li id="ref-12Morris MC. Fluorescent biosensors of intracellular targets from genetically encoded reporters to modular polypeptide probes. <em>FEBS Lett</em>. 2012;586(17):2742–2750. <a href="https://doi.org/10.1016%2Fj.febslet.2012.05.001">doi:10.1016/j.febslet.2012.05.001</a></li>
-  <li id="ref-13Lau JL, Dunn MK. Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700–2707. <a href="https://doi.org/10.1016%2Fj.bmc.2017.06.052">doi:10.1016/j.bmc.2017.06.052</a></li>
+<li id="ref-1">Science</em>. 1987;237(4819):1154–1162. <a href="https://doi.org/10.1126%2Fscience.3306916">doi:10.1126/science.3306916</a></li>
+  <li id="ref-2">Maquart FX, Pasco S, Ramont L, et al. An introduction to matrikines: extracellular matrix-derived peptides which regulate cell activity. <em>Crit Rev Oncol Hematol</em>. 2004;49(3):199–202. <a href="https://doi.org/10.1016%2Fj.critrevonc.2003.06.007">doi:10.1016/j.critrevonc.2003.06.007</a></li>
+  <li id="ref-3">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149–2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>
+  <li id="ref-4">Schlessinger J. Cell signaling by receptor tyrosine kinases. <em>Cell</em>. 2000;103(2):211–225. <a href="https://doi.org/10.1016%2FS0092-8674%2800%2900114-8">doi:10.1016/S0092-8674(00)00114-8</a></li>
+  <li id="ref-5">Hsu SL, Cheng CC, Shi YR, et al. RGD-containing peptides activate Src, Crk, and Rac to mediate cell spreading. <em>Exp Cell Res</em>. 2011;317(7):1052–1064. <a href="https://doi.org/10.1016%2Fj.yexcr.2011.01.022">doi:10.1016/j.yexcr.2011.01.022</a></li>
+  <li id="ref-6">Baar MP, Brandt RMC, Putavet DA, et al. Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. <em>Cell</em>. 2017;169(1):132–147.e16. <a href="https://doi.org/10.1016%2Fj.cell.2017.02.031">doi:10.1016/j.cell.2017.02.031</a></li>
+  <li id="ref-7">Guidotti G, Brambilla L, Rossi D. Cell-penetrating peptides: from basic research to clinics. <em>Trends Pharmacol Sci</em>. 2017;38(4):406–424. <a href="https://doi.org/10.1016%2Fj.tips.2017.01.003">doi:10.1016/j.tips.2017.01.003</a></li>
+  <li id="ref-8">Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 and angiogenesis. <em>Front Pharmacol</em>. 2018;9:1434. <a href="https://doi.org/10.3389%2Ffphar.2018.01434">doi:10.3389/fphar.2018.01434</a></li>
+  <li id="ref-9">Sosne G, Qiu P, Kurpakus-Wheater M. Thymosin beta-4 and the cornea: the role of thymosin beta-4 in corneal wound healing and innate immunity. <em>Ann N Y Acad Sci</em>. 2007;1112:227–237. <a href="https://doi.org/10.1196%2Fannals.1415.012">doi:10.1196/annals.1415.012</a></li>
+  <li id="ref-10">Pickart L, Vasquez-Soltero JM, Margolina A. GHK and DNA: resetting the human genome to health. <em>Biomed Res Int</em>. 2014;2014:351479. <a href="https://doi.org/10.1155%2F2014%2F351479">doi:10.1155/2014/351479</a></li>
+  <li id="ref-11">Bird GH, Madani N, Perry AF, et al. Hydrocarbon double-stapling remedies the proteolytic instability of a lengthy peptide therapeutic. <em>Proc Natl Acad Sci USA</em>. 2010;107(32):14093–14098. <a href="https://doi.org/10.1073%2Fpnas.1002713107">doi:10.1073/pnas.1002713107</a></li>
+  <li id="ref-12">Morris MC. Fluorescent biosensors of intracellular targets from genetically encoded reporters to modular polypeptide probes. <em>FEBS Lett</em>. 2012;586(17):2742–2750. <a href="https://doi.org/10.1016%2Fj.febslet.2012.05.001">doi:10.1016/j.febslet.2012.05.001</a></li>
+  <li id="ref-13">Lau JL, Dunn MK. Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700–2707. <a href="https://doi.org/10.1016%2Fj.bmc.2017.06.052">doi:10.1016/j.bmc.2017.06.052</a></li>
 
 </ol>

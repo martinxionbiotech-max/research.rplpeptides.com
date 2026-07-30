@@ -194,11 +194,11 @@ For laboratory-scale lyophilization, the simpler Pirani/capacitance manometer co
 ## References
 <ol class="references">
 Eur J Pharm Biopharm</em>. 1998;45(3):221-229.</li>
-  <li id="ref2Pikal MJ. Freeze-drying of proteins. Part I: process design. <em>Pharm Technol</em>. 2002;15(1):78-92.</li>
-  <li id="ref3Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. <em>Pharm Res</em>. 2004;21(2):191-200.</li>
-  <li id="ref4Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations. <em>Pharm Res</em>. 1997;14(8):969-975.</li>
-  <li id="ref5Rey L, May JC. Freeze-Drying/Lyophilization of Pharmaceutical and Biological Products. 3rd ed. CRC Press; 2010.</li>
-  <li id="ref6Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
-  <li id="ref7Franks F, Auffret T. Freeze-Drying of Pharmaceuticals and Biopharmaceuticals. RSC Publishing; 2007.</li>
-  <li id="ref8Jameel F, Hershenson S. Formulation and Process Development Strategies for Manufacturing Biopharmaceuticals. Wiley; 2010.</li>
+  <li id="ref2">Pikal MJ. Freeze-drying of proteins. Part I: process design. <em>Pharm Technol</em>. 2002;15(1):78-92.</li>
+  <li id="ref3">Tang X, Pikal MJ. Design of freeze-drying processes for pharmaceuticals: practical advice. <em>Pharm Res</em>. 2004;21(2):191-200.</li>
+  <li id="ref4">Carpenter JF, Pikal MJ, Chang BS, Randolph TW. Rational design of stable lyophilized protein formulations. <em>Pharm Res</em>. 1997;14(8):969-975.</li>
+  <li id="ref5">Rey L, May JC. Freeze-Drying/Lyophilization of Pharmaceutical and Biological Products. 3rd ed. CRC Press; 2010.</li>
+  <li id="ref6">Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
+  <li id="ref7">Franks F, Auffret T. Freeze-Drying of Pharmaceuticals and Biopharmaceuticals. RSC Publishing; 2007.</li>
+  <li id="ref8">Jameel F, Hershenson S. Formulation and Process Development Strategies for Manufacturing Biopharmaceuticals. Wiley; 2010.</li>
 </ol>

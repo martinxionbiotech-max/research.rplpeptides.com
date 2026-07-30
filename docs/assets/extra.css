@@ -157,24 +157,41 @@
   color: var(--md-primary-fg-color);
 }
 
-/* ===== FAQ (visible, no fold) ===== */
-div.faq-item {
+/* ===== FAQ (native <details><summary> format) ===== */
+details.faq-item {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   overflow: hidden;
   width: 100%;
 }
-div.faq-item h3.faq-question {
-  padding: 0.75rem 1rem;
-  margin: 0;
-  font-size: 0.95rem;
+details.faq-item summary {
+  padding: 0.75rem 1rem 0.75rem 2.2rem;
   font-weight: 600;
+  cursor: pointer;
   background: var(--md-default-fg-color--lightest);
-  cursor: default;
+  user-select: none;
+  position: relative;
+  list-style: none;
+  color: var(--md-typeset-color);
 }
-div.faq-item p {
-  padding: 0.75rem 1rem;
+/* Remove default marker */
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::marker { display: none; content: ''; }
+/* Custom marker */
+details.faq-item summary::before {
+  content: '+';
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+details.faq-item[open] summary::before { content: '−'; }
+details.faq-item summary:hover { background: var(--md-primary-fg-color--lightest); }
+/* FAQ body content */
+details.faq-item p {
+  padding: 0 1rem 0.5rem 1rem;
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.6;

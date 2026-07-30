@@ -189,19 +189,19 @@ The integration of computational methods, including molecular dynamics simulatio
 ## References
   <ol class="references">
 Proceedings of the National Academy of Sciences</em>, 37(4), 205–211. https://doi.org/10.1073/pnas.37.4.205</li>
-  <li id="ref2Pauling, L., & Corey, R. B. (1951). Configurations of polypeptide chains with favored orientations around single bonds: two new pleated sheets. <em>Proceedings of the National Academy of Sciences</em>, 37(11), 729–740. https://doi.org/10.1073/pnas.37.11.729</li>
-  <li id="ref3Kaiser, E. T., & Kézdy, F. J. (1984). Amphiphilic secondary structure: design of peptide hormones. <em>Science</em>, 223(4633), 249–255. https://doi.org/10.1126/science.6322295</li>
-  <li id="ref4Milner-White, E. J., & Poet, R. (1987). Loops, bulges, turns and hairpins in proteins. <em>Trends in Biochemical Sciences</em>, 12, 189–192. https://doi.org/10.1016/0968-0004(87)90091-090091-0)</li>
-  <li id="ref5Rizo, J., & Gierasch, L. M. (1992). Constrained peptides: models of bioactive peptides and protein substructures. <em>Annual Review of Biochemistry</em>, 61, 387–418. https://doi.org/10.1146/annurev.bi.61.070192.002131</li>
-  <li id="ref6Kuliopulos, A., Nelson, D., & Walsh, C. T. (1994). Alanine scanning mutagenesis of parathyroid hormone: mapping the receptor-binding interface. <em>Biochemistry</em>, 33(32), 9591–9599. https://doi.org/10.1021/bi00198a028</li>
-  <li id="ref7Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. <em>Science</em>, 181(4096), 223–230. https://doi.org/10.1126/science.181.4096.223</li>
-  <li id="ref8Madison, V., & Kopple, K. D. (1980). Solvent-dependent conformational distributions of some dipeptides. <em>Journal of the American Chemical Society</em>, 102(15), 4855–4863. https://doi.org/10.1021/ja00535a009</li>
-  <li id="ref9Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. <em>Advances in Protein Chemistry</em>, 34, 167–339. https://doi.org/10.1016/S0065-3233(08)60520-360520-3)</li>
-  <li id="ref10Schafmeister, C. E., Po, J., & Verdine, G. L. (2000). An all-hydrocarbon cross-linking system for enhancing the helicity and metabolic stability of peptides. <em>Journal of the American Chemical Society</em>, 122(24), 5891–5892. https://doi.org/10.1021/ja000563a</li>
-  <li id="ref11Johnson, W. C. Jr. (1990). Protein secondary structure and circular dichroism: a practical guide. <em>Proteins: Structure, Function, and Genetics</em>, 7(3), 205–214. https://doi.org/10.1002/prot.340070302</li>
-  <li id="ref12Dyson, H. J., & Wright, P. E. (2002). Coupling of folding and binding for unstructured proteins. <em>Current Opinion in Structural Biology</em>, 12(1), 54–60. https://doi.org/10.1016/S0959-440X(02)00289-000289-0)</li>
-  <li id="ref13Wüthrich, K. (1989). Protein structure determination in solution by nuclear magnetic resonance spectroscopy. <em>Science</em>, 243(4887), 45–50. https://doi.org/10.1126/science.2911719</li>
-  <li id="ref14Kabsch, W., & Sander, C. (1983). Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. <em>Biopolymers</em>, 22(12), 2577–2637. https://doi.org/10.1002/bip.360221211</li>
+  <li id="ref2">Pauling, L., & Corey, R. B. (1951). Configurations of polypeptide chains with favored orientations around single bonds: two new pleated sheets. <em>Proceedings of the National Academy of Sciences</em>, 37(11), 729–740. https://doi.org/10.1073/pnas.37.11.729</li>
+  <li id="ref3">Kaiser, E. T., & Kézdy, F. J. (1984). Amphiphilic secondary structure: design of peptide hormones. <em>Science</em>, 223(4633), 249–255. https://doi.org/10.1126/science.6322295</li>
+  <li id="ref4">Milner-White, E. J., & Poet, R. (1987). Loops, bulges, turns and hairpins in proteins. <em>Trends in Biochemical Sciences</em>, 12, 189–192. https://doi.org/10.1016/0968-0004(87)90091-090091-0)</li>
+  <li id="ref5">Rizo, J., & Gierasch, L. M. (1992). Constrained peptides: models of bioactive peptides and protein substructures. <em>Annual Review of Biochemistry</em>, 61, 387–418. https://doi.org/10.1146/annurev.bi.61.070192.002131</li>
+  <li id="ref6">Kuliopulos, A., Nelson, D., & Walsh, C. T. (1994). Alanine scanning mutagenesis of parathyroid hormone: mapping the receptor-binding interface. <em>Biochemistry</em>, 33(32), 9591–9599. https://doi.org/10.1021/bi00198a028</li>
+  <li id="ref7">Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. <em>Science</em>, 181(4096), 223–230. https://doi.org/10.1126/science.181.4096.223</li>
+  <li id="ref8">Madison, V., & Kopple, K. D. (1980). Solvent-dependent conformational distributions of some dipeptides. <em>Journal of the American Chemical Society</em>, 102(15), 4855–4863. https://doi.org/10.1021/ja00535a009</li>
+  <li id="ref9">Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. <em>Advances in Protein Chemistry</em>, 34, 167–339. https://doi.org/10.1016/S0065-3233(08)60520-360520-3)</li>
+  <li id="ref10">Schafmeister, C. E., Po, J., & Verdine, G. L. (2000). An all-hydrocarbon cross-linking system for enhancing the helicity and metabolic stability of peptides. <em>Journal of the American Chemical Society</em>, 122(24), 5891–5892. https://doi.org/10.1021/ja000563a</li>
+  <li id="ref11">Johnson, W. C. Jr. (1990). Protein secondary structure and circular dichroism: a practical guide. <em>Proteins: Structure, Function, and Genetics</em>, 7(3), 205–214. https://doi.org/10.1002/prot.340070302</li>
+  <li id="ref12">Dyson, H. J., & Wright, P. E. (2002). Coupling of folding and binding for unstructured proteins. <em>Current Opinion in Structural Biology</em>, 12(1), 54–60. https://doi.org/10.1016/S0959-440X(02)00289-000289-0)</li>
+  <li id="ref13">Wüthrich, K. (1989). Protein structure determination in solution by nuclear magnetic resonance spectroscopy. <em>Science</em>, 243(4887), 45–50. https://doi.org/10.1126/science.2911719</li>
+  <li id="ref14">Kabsch, W., & Sander, C. (1983). Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. <em>Biopolymers</em>, 22(12), 2577–2637. https://doi.org/10.1002/bip.360221211</li>
 
 
 </ol>

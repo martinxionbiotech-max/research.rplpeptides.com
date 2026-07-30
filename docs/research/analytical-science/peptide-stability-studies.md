@@ -121,18 +121,18 @@ The growing therapeutic interest in peptides continues to drive innovation in st
 <div class="references
   <ol class="references">
 Pharm Res</em>. 1989;6(11):903-918.</li>
-  <li id="ref2Clarke S, Williams KR, Watanabe H. The deamidation of asparagine and glutamine residues in proteins. <em>J Biol Chem</em>. 1988;263(12):5778-5781.</li>
-  <li id="ref3Li B, Borchardt RT, Topp EM. Chemical instability of protein pharmaceuticals: mechanisms, detection, and stabilization. <em>J Pharm Sci</em>. 2010;99(3):1139-1154.</li>
-  <li id="ref4Robinson NE, Robinson AB. <em>Molecular Clocks: Deamidation of Asparaginyl and Glutaminyl Residues in Peptides and Proteins</em>. Althouse Press; 2004.</li>
-  <li id="ref5Powell MF, Stewart T, Otvos L Jr, et al. Peptide stability in drug development. <em>Pharm Res</em>. 1993;10(9):1268-1273.</li>
-  <li id="ref6Bhatt NP, Patel M, Trivedi N. Stability studies of peptide pharmaceuticals: a regulatory perspective. <em>J Pharm Biomed Anal</em>. 2020;180:113046.</li>
-  <li id="ref7Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. <em>Int J Pharm</em>. 1999;185(2):129-188.</li>
-  <li id="ref8Patel H, Patel B, Chotai N. Stability-indicating analytical methods for peptides. <em>Anal Methods</em>. 2016;8(28):5608-5621.</li>
-  <li id="ref9Tyler-Cross R, Schirch V. Effects of amino acid sequence, buffers, and ionic strength on the rate and mechanism of deamidation of asparagine residues in small peptides. <em>J Biol Chem</em>. 1991;266(33):22549-22556.</li>
-  <li id="ref10Carpenter JF, Crowe JH, Arakawa T. Comparison of solute-induced protein stabilization in aqueous solution and in the frozen and dried states. <em>J Dairy Sci</em>. 1990;73(12):3627-3636.</li>
-  <li id="ref11Goolcharran C, Khossravi M, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Biotechnol</em>. 2000;13:55-98.</li>
-  <li id="ref12Brange J, Langkjaer L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
-  <li id="ref13Creighton TE. <em>Proteins: Structures and Molecular Properties</em>. 2nd ed. Freeman; 1993.</li>
+  <li id="ref2">Clarke S, Williams KR, Watanabe H. The deamidation of asparagine and glutamine residues in proteins. <em>J Biol Chem</em>. 1988;263(12):5778-5781.</li>
+  <li id="ref3">Li B, Borchardt RT, Topp EM. Chemical instability of protein pharmaceuticals: mechanisms, detection, and stabilization. <em>J Pharm Sci</em>. 2010;99(3):1139-1154.</li>
+  <li id="ref4">Robinson NE, Robinson AB. <em>Molecular Clocks: Deamidation of Asparaginyl and Glutaminyl Residues in Peptides and Proteins</em>. Althouse Press; 2004.</li>
+  <li id="ref5">Powell MF, Stewart T, Otvos L Jr, et al. Peptide stability in drug development. <em>Pharm Res</em>. 1993;10(9):1268-1273.</li>
+  <li id="ref6">Bhatt NP, Patel M, Trivedi N. Stability studies of peptide pharmaceuticals: a regulatory perspective. <em>J Pharm Biomed Anal</em>. 2020;180:113046.</li>
+  <li id="ref7">Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. <em>Int J Pharm</em>. 1999;185(2):129-188.</li>
+  <li id="ref8">Patel H, Patel B, Chotai N. Stability-indicating analytical methods for peptides. <em>Anal Methods</em>. 2016;8(28):5608-5621.</li>
+  <li id="ref9">Tyler-Cross R, Schirch V. Effects of amino acid sequence, buffers, and ionic strength on the rate and mechanism of deamidation of asparagine residues in small peptides. <em>J Biol Chem</em>. 1991;266(33):22549-22556.</li>
+  <li id="ref10">Carpenter JF, Crowe JH, Arakawa T. Comparison of solute-induced protein stabilization in aqueous solution and in the frozen and dried states. <em>J Dairy Sci</em>. 1990;73(12):3627-3636.</li>
+  <li id="ref11">Goolcharran C, Khossravi M, Borchardt RT. Chemical pathways of peptide degradation. <em>Pharm Biotechnol</em>. 2000;13:55-98.</li>
+  <li id="ref12">Brange J, Langkjaer L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
+  <li id="ref13">Creighton TE. <em>Proteins: Structures and Molecular Properties</em>. 2nd ed. Freeman; 1993.</li>
 
 
 </ol>

@@ -188,18 +188,18 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 ## References
 <ol class="references">
 N Engl J Med</em>. 2016;375:1834-1844.</li>
-  <li id="ref2Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
-  <li id="ref3Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
-  <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
-  <li id="ref5Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
-  <li id="ref6Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
-  <li id="ref7Aroda VR, Rosenstock J, Terauchi Y, et al. PIONEER 1: Oral semaglutide as monotherapy in type 2 diabetes. <em>Lancet Diabetes Endocrinol</em>. 2019;7(7):515-527.</li>
-  <li id="ref8Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
-  <li id="ref9Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
-  <li id="ref10Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
-  <li id="ref11Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
-  <li id="ref12Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
-  <li id="ref13Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
-  <li id="ref14Meier JJ. GLP-1 receptor agonists for individualized treatment of type 2 diabetes mellitus. <em>Nat Rev Endocrinol</em>. 2012;8(12):728-742.</li>
-  <li id="ref15DeFronzo RA. Bromocriptine: a sympatholytic, D2-dopamine agonist for the treatment of type 2 diabetes. <em>Diabetes Care</em>. 2011;34(4):789-794.</li>
+  <li id="ref2">Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
+  <li id="ref3">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+  <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
+  <li id="ref5">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
+  <li id="ref6">Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
+  <li id="ref7">Aroda VR, Rosenstock J, Terauchi Y, et al. PIONEER 1: Oral semaglutide as monotherapy in type 2 diabetes. <em>Lancet Diabetes Endocrinol</em>. 2019;7(7):515-527.</li>
+  <li id="ref8">Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. <em>N Engl J Med</em>. 2021;384:989-1002.</li>
+  <li id="ref9">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
+  <li id="ref10">Knudsen LB, Lau J. The discovery and development of liraglutide and semaglutide. <em>Front Endocrinol</em>. 2019;10:155.</li>
+  <li id="ref11">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
+  <li id="ref12">Nauck MA, Quast DR, Wefers J, Meier JJ. GLP-1 receptor agonists in the treatment of type 2 diabetes – state-of-the-art. <em>Mol Metab</em>. 2021;46:101102.</li>
+  <li id="ref13">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+  <li id="ref14">Meier JJ. GLP-1 receptor agonists for individualized treatment of type 2 diabetes mellitus. <em>Nat Rev Endocrinol</em>. 2012;8(12):728-742.</li>
+  <li id="ref15">DeFronzo RA. Bromocriptine: a sympatholytic, D2-dopamine agonist for the treatment of type 2 diabetes. <em>Diabetes Care</em>. 2011;34(4):789-794.</li>
 </ol>

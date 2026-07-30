@@ -161,11 +161,11 @@ Correct connectivity is confirmed by enzymatic digestion followed by LC-MS/MS an
 ## References
 <ol class="references">
 J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
-  <li id="ref2Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>
-  <li id="ref3Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
-  <li id="ref4El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
-  <li id="ref5Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946.</li>
-  <li id="ref6Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc SPPS. <em>J Pept Sci</em>. 2007;13(3):143-148.</li>
-  <li id="ref7Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency SPPS with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
-  <li id="ref8Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256.</li>
+  <li id="ref2">Fields GB, Noble RL. Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>Int J Pept Protein Res</em>. 1990;35(3):161-214.</li>
+  <li id="ref3">Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
+  <li id="ref4">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
+  <li id="ref5">Barlos K, Gatos D, Kallitsis J, et al. Darstellung geschützter Peptidfragmente unter Einsatz substituierter Triphenylmethylharze. <em>Tetrahedron Lett</em>. 1989;30(30):3943-3946.</li>
+  <li id="ref6">Palasek SA, Cox ZJ, Collins JM. Limiting racemization and aspartimide formation in microwave-enhanced Fmoc SPPS. <em>J Pept Sci</em>. 2007;13(3):143-148.</li>
+  <li id="ref7">Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency SPPS with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
+  <li id="ref8">Coin I, Beyermann M, Bienert M. Solid-phase peptide synthesis: from standard procedures to difficult sequences. <em>Nat Protoc</em>. 2007;2(12):3247-3256.</li>
 </ol>

@@ -166,11 +166,11 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 ## References
 <ol class="references">
 Pharm Res</em>. 1994;11(6):751-758.</li>
-  <li id="ref2Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
-  <li id="ref3Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
-  <li id="ref4Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>
-  <li id="ref5Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
-  <li id="ref6Lundberg P, Griffin S, Ghosh P. Stability of peptide drugs in biological matrices. <em>Anal Biochem</em>. 2014;455:35-42.</li>
-  <li id="ref7Jensen SS, Jensen KJ. Peptide stability and degradation. In: Peptide and Protein Design for Biopharmaceutical Applications. Wiley; 2009.</li>
-  <li id="ref8Brange J, Langkjær L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
+  <li id="ref2">Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
+  <li id="ref3">Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
+  <li id="ref4">Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>
+  <li id="ref5">Shah AJ, Amin AF, Patel KR, et al. Solid state stability issues in peptide pharmaceuticals. <em>J Pharm Sci</em>. 2008;97(10):4716-4730.</li>
+  <li id="ref6">Lundberg P, Griffin S, Ghosh P. Stability of peptide drugs in biological matrices. <em>Anal Biochem</em>. 2014;455:35-42.</li>
+  <li id="ref7">Jensen SS, Jensen KJ. Peptide stability and degradation. In: Peptide and Protein Design for Biopharmaceutical Applications. Wiley; 2009.</li>
+  <li id="ref8">Brange J, Langkjær L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
 </ol>

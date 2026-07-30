@@ -109,15 +109,15 @@ For researchers conducting purity studies, the [RPL Peptides Research Tools](htt
 <div class="references
   <ol class="references">
 J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
-  <li id="ref2Bracke N, Wynendaele E, D'Hondt M, et al. Impurity profiling of therapeutic peptides by liquid chromatography. <em>TrAC Trends Anal Chem</em>. 2015;72:13-24.</li>
-  <li id="ref3Kaschak T, Hines K, DeLorenzo RA, Matz J. Characterization of peptide impurities by LC-MS/MS. <em>J Pept Sci</em>. 2011;17(5):367-374.</li>
-  <li id="ref4Zhao Y, Dong Y, Hu X, et al. Capillary electrophoresis in the analysis of therapeutic peptides. <em>Electrophoresis</em>. 2018;39(15):1856-1872.</li>
-  <li id="ref5Ernst T, O'Connell M, Dugan C, Heller M, Patel B. Amino acid analysis of peptide pharmaceuticals. <em>J Pharm Biomed Anal</em>. 2015;108:108-117.</li>
-  <li id="ref6Kostelc JG. The analytical control of peptide impurities in GMP manufacturing. <em>Pharm Technol</em>. 2013;37(5):60-66.</li>
-  <li id="ref7Mergler M, Dick F, Sax B, Weiler P, Scheffler R. Cost-effective and economic large-scale peptide synthesis. <em>Chim Oggi</em>. 2003;21(2):26-30.</li>
-  <li id="ref8International Conference on Harmonisation. ICH Q2(R1): Validation of Analytical Procedures: Text and Methodology. 2005.</li>
-  <li id="ref9Riter LS, Vitek O, Gooding KM, Hodge BD, Julian RK. Statistical design of experiments as a tool in mass spectrometry. <em>J Mass Spectrom</em>. 2005;40(5):565-579.</li>
-  <li id="ref10Birdsall RE, Koshel BM, Hua Y, et al. Development of a 2D-LC-UV-MS method for the analysis of therapeutic peptides. <em>J Chromatogr B</em>. 2019;1120:25-34.</li>
+  <li id="ref2">Bracke N, Wynendaele E, D'Hondt M, et al. Impurity profiling of therapeutic peptides by liquid chromatography. <em>TrAC Trends Anal Chem</em>. 2015;72:13-24.</li>
+  <li id="ref3">Kaschak T, Hines K, DeLorenzo RA, Matz J. Characterization of peptide impurities by LC-MS/MS. <em>J Pept Sci</em>. 2011;17(5):367-374.</li>
+  <li id="ref4">Zhao Y, Dong Y, Hu X, et al. Capillary electrophoresis in the analysis of therapeutic peptides. <em>Electrophoresis</em>. 2018;39(15):1856-1872.</li>
+  <li id="ref5">Ernst T, O'Connell M, Dugan C, Heller M, Patel B. Amino acid analysis of peptide pharmaceuticals. <em>J Pharm Biomed Anal</em>. 2015;108:108-117.</li>
+  <li id="ref6">Kostelc JG. The analytical control of peptide impurities in GMP manufacturing. <em>Pharm Technol</em>. 2013;37(5):60-66.</li>
+  <li id="ref7">Mergler M, Dick F, Sax B, Weiler P, Scheffler R. Cost-effective and economic large-scale peptide synthesis. <em>Chim Oggi</em>. 2003;21(2):26-30.</li>
+  <li id="ref8">International Conference on Harmonisation. ICH Q2(R1): Validation of Analytical Procedures: Text and Methodology. 2005.</li>
+  <li id="ref9">Riter LS, Vitek O, Gooding KM, Hodge BD, Julian RK. Statistical design of experiments as a tool in mass spectrometry. <em>J Mass Spectrom</em>. 2005;40(5):565-579.</li>
+  <li id="ref10">Birdsall RE, Koshel BM, Hua Y, et al. Development of a 2D-LC-UV-MS method for the analysis of therapeutic peptides. <em>J Chromatogr B</em>. 2019;1120:25-34.</li>
 
 
 </ol>

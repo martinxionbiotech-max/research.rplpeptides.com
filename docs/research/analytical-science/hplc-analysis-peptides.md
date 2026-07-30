@@ -110,15 +110,15 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 <div class="references
   <ol class="references">
 Methods Enzymol</em>. 1996;271:3-50.</li>
-  <li id="ref2Aguilar MI. Reversed-phase high-performance liquid chromatography of peptides. <em>Methods Mol Biol</em>. 2004;251:9-22.</li>
-  <li id="ref3Bobaly B, Beck A, Fekete J, Guillarme D, Fekete S. Recent advances in reversed-phase liquid chromatographic separations of therapeutic peptides. <em>J Chromatogr A</em>. 2015;1384:29-40.</li>
-  <li id="ref4Hancock WS, Bishop CA, Prestidge RL, Harding DR, Hearn MT. High-pressure liquid chromatography of peptides. <em>J Chromatogr</em>. 1976;125(1):215-222.</li>
-  <li id="ref5Van Dongen WD, Niessen WM. Analysis of peptide mixtures by liquid chromatography-mass spectrometry. <em>J Chromatogr B Biomed Sci Appl</em>. 2000;739(1):137-153.</li>
-  <li id="ref6D'Atri V, Fekete S, Clarke A, Veuthey JL, Guillarme D. Hydrophilic interaction liquid chromatography for the analysis of peptides. <em>J Sep Sci</em>. 2015;38(5):725-735.</li>
-  <li id="ref7McCalley DV. The challenges of the analysis of basic compounds by high performance liquid chromatography. <em>J Chromatogr A</em>. 2010;1217(6):858-880.</li>
-  <li id="ref8Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010.</li>
-  <li id="ref9Heftmann E, ed. Chromatography: fundamentals and applications of chromatography and related differential migration methods. <em>J Chromatogr Libr</em>. 2004;69A.</li>
-  <li id="ref10Joshi R, Ghosh A. High performance liquid chromatography in the analysis of peptides. <em>J Chromatogr Sci</em>. 2011;49(7):497-506.</li>
+  <li id="ref2">Aguilar MI. Reversed-phase high-performance liquid chromatography of peptides. <em>Methods Mol Biol</em>. 2004;251:9-22.</li>
+  <li id="ref3">Bobaly B, Beck A, Fekete J, Guillarme D, Fekete S. Recent advances in reversed-phase liquid chromatographic separations of therapeutic peptides. <em>J Chromatogr A</em>. 2015;1384:29-40.</li>
+  <li id="ref4">Hancock WS, Bishop CA, Prestidge RL, Harding DR, Hearn MT. High-pressure liquid chromatography of peptides. <em>J Chromatogr</em>. 1976;125(1):215-222.</li>
+  <li id="ref5">Van Dongen WD, Niessen WM. Analysis of peptide mixtures by liquid chromatography-mass spectrometry. <em>J Chromatogr B Biomed Sci Appl</em>. 2000;739(1):137-153.</li>
+  <li id="ref6">D'Atri V, Fekete S, Clarke A, Veuthey JL, Guillarme D. Hydrophilic interaction liquid chromatography for the analysis of peptides. <em>J Sep Sci</em>. 2015;38(5):725-735.</li>
+  <li id="ref7">McCalley DV. The challenges of the analysis of basic compounds by high performance liquid chromatography. <em>J Chromatogr A</em>. 2010;1217(6):858-880.</li>
+  <li id="ref8">Snyder LR, Kirkland JJ, Dolan JW. <em>Introduction to Modern Liquid Chromatography</em>. 3rd ed. Wiley; 2010.</li>
+  <li id="ref9">Heftmann E, ed. Chromatography: fundamentals and applications of chromatography and related differential migration methods. <em>J Chromatogr Libr</em>. 2004;69A.</li>
+  <li id="ref10">Joshi R, Ghosh A. High performance liquid chromatography in the analysis of peptides. <em>J Chromatogr Sci</em>. 2011;49(7):497-506.</li>
 
 
 </ol>

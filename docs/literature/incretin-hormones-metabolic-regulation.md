@@ -186,16 +186,16 @@ The development of transgenic mouse models expressing humanized receptors (e.g.,
 ## References
 <ol class="references">
 Diabetologia</em>. 1979;16(2):75-85.</li>
-  <li id="ref2Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
-  <li id="ref3Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
-  <li id="ref4Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
-  <li id="ref5Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
-  <li id="ref6Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
-  <li id="ref7Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
-  <li id="ref8Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
-  <li id="ref9Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
-  <li id="ref10McIntosh CH, Wideman C, Kieffer TJ. GIP receptor antagonists: A new approach to type 2 diabetes. <em>Nat Rev Endocrinol</em>. 2012;8(5):272-281.</li>
-  <li id="ref11Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
-  <li id="ref12Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
-  <li id="ref13Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
+  <li id="ref2">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+  <li id="ref3">Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157.</li>
+  <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>
+  <li id="ref5">Nauck MA, Meier JJ. Incretin hormones: Their role in health and disease. <em>Diabetes Obes Metab</em>. 2018;20(Suppl 1):5-21.</li>
+  <li id="ref6">Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metab</em>. 2013;17(6):819-837.</li>
+  <li id="ref7">Cho YM, Kieffer TJ. New aspects of GIP biology. <em>Endocr Rev</em>. 2021;42(3):267-293.</li>
+  <li id="ref8">Kim W, Egan JM. The role of incretins in glucose homeostasis and diabetes treatment. <em>Pharmacol Rev</em>. 2008;60(4):470-512.</li>
+  <li id="ref9">Seino Y, Fukushima M, Yabe D. GIP and GLP-1, the two incretin hormones: Similarities and differences. <em>J Diabetes Investig</em>. 2010;1(1-2):8-23.</li>
+  <li id="ref10">McIntosh CH, Wideman C, Kieffer TJ. GIP receptor antagonists: A new approach to type 2 diabetes. <em>Nat Rev Endocrinol</em>. 2012;8(5):272-281.</li>
+  <li id="ref11">Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nat Med</em>. 2015;21(1):27-36.</li>
+  <li id="ref12">Gasbjerg LS, Helsted MM, Hartmann B, et al. GIP and GLP-1 receptor co-agonism: A new era in metabolic pharmacotherapy. <em>Peptides</em>. 2020;130:170293.</li>
+  <li id="ref13">Klein T, Bischoff M, Bhatt DK, et al. Targeting the GIP receptor for the treatment of obesity and type 2 diabetes. <em>Peptides</em>. 2022;149:170719.</li>
 </ol>

@@ -204,12 +204,12 @@ The peptide component can also be used to target nanoparticles, where the peptid
 ## References
 <ol class="references">
 Chem Biol Drug Des</em>. 2013;81(1):136-147.</li>
-  <li id="ref2Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. <em>Drug Discov Today</em>. 2015;20(1):122-128.</li>
-  <li id="ref3Lau JL, Dunn MK. Therapeutic peptides: Historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700-2707.</li>
-  <li id="ref4Leader B, Baca QJ, Golan DE. Protein therapeutics: a summary and pharmacological classification. <em>Nat Rev Drug Discov</em>. 2008;7(1):21-39.</li>
-  <li id="ref5Otvos L Jr, Wade JD. Current challenges in peptide-based drug discovery. <em>Front Chem</em>. 2014;2:62.</li>
-  <li id="ref6Hemmer A, Bailey J, Meutermans W, et al. Therapeutic peptides vs small molecules: A comparison. <em>Pept Sci</em>. 2018;110(5):e24055.</li>
-  <li id="ref7Diez-Sampedro A, Lushnikova T, Martiskainen H, et al. The expanding role of therapeutic peptides. <em>Br J Pharmacol</em>. 2021;178(12):2356-2375.</li>
-  <li id="ref8Uhlig T, Kyprianou T, Martin FG, et al. The emergence of peptides in the pharmaceutical business. <em>EuPA Open Proteom</em>. 2014;4:58-69.</li>
-  <li id="ref9Muttenthaler M, King GF, Adams DJ, Alewood PF. Trends in peptide drug discovery. <em>Nat Rev Drug Discov</em>. 2021;20(4):309-325.</li>
+  <li id="ref2">Fosgerau K, Hoffmann T. Peptide therapeutics: current status and future directions. <em>Drug Discov Today</em>. 2015;20(1):122-128.</li>
+  <li id="ref3">Lau JL, Dunn MK. Therapeutic peptides: Historical perspectives, current development trends, and future directions. <em>Bioorg Med Chem</em>. 2018;26(10):2700-2707.</li>
+  <li id="ref4">Leader B, Baca QJ, Golan DE. Protein therapeutics: a summary and pharmacological classification. <em>Nat Rev Drug Discov</em>. 2008;7(1):21-39.</li>
+  <li id="ref5">Otvos L Jr, Wade JD. Current challenges in peptide-based drug discovery. <em>Front Chem</em>. 2014;2:62.</li>
+  <li id="ref6">Hemmer A, Bailey J, Meutermans W, et al. Therapeutic peptides vs small molecules: A comparison. <em>Pept Sci</em>. 2018;110(5):e24055.</li>
+  <li id="ref7">Diez-Sampedro A, Lushnikova T, Martiskainen H, et al. The expanding role of therapeutic peptides. <em>Br J Pharmacol</em>. 2021;178(12):2356-2375.</li>
+  <li id="ref8">Uhlig T, Kyprianou T, Martin FG, et al. The emergence of peptides in the pharmaceutical business. <em>EuPA Open Proteom</em>. 2014;4:58-69.</li>
+  <li id="ref9">Muttenthaler M, King GF, Adams DJ, Alewood PF. Trends in peptide drug discovery. <em>Nat Rev Drug Discov</em>. 2021;20(4):309-325.</li>
 </ol>

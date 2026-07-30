@@ -156,13 +156,13 @@ Combinations with leptin, FGF21, and other metabolic hormones are in earlier sta
 ## References
 <ol class="references">
 Nat Med</em>. 2015;21(1):27-36.</li>
-  <li id="ref2Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
-  <li id="ref3Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for type 2 diabetes. <em>Diabetes</em>. 2018;67(Suppl 1):1109-P.</li>
-  <li id="ref4Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
-  <li id="ref5Knerr PJ, Mowery SA, Finan B, et al. Multi-receptor agonists for metabolic disease. <em>J Clin Invest</em>. 2021;131(3):e144797.</li>
-  <li id="ref6Tschöp MH, Patterson JT, Chen X, et al. Research progress in single- and multi-receptor metabolic peptide therapeutics. <em>Nat Rev Drug Discov</em>. 2020;19(9):619-637.</li>
-  <li id="ref7Hope DCD, Vincent ML, Pham HT, et al. Multi-receptor targeting for obesity and type 2 diabetes. <em>Peptides</em>. 2022;157:170872.</li>
-  <li id="ref8Gillespie RJ, Lodaya RN, Skwarczynski M, et al. The future of multi-targeting peptides in metabolic disease. <em>Nat Rev Endocrinol</em>. 2023;19(6):348-361.</li>
-  <li id="ref9Heppner KM, Bjeldbak JA, Bhatt DK, et al. Multi-receptor peptide drugs: mechanisms and clinical outcomes. <em>Nat Rev Endocrinol</em>. 2023;19(4):220-238.</li>
-  <li id="ref10Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
+  <li id="ref2">Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide once weekly for the treatment of obesity. <em>N Engl J Med</em>. 2022;387:205-216.</li>
+  <li id="ref3">Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for type 2 diabetes. <em>Diabetes</em>. 2018;67(Suppl 1):1109-P.</li>
+  <li id="ref4">Müller TD, Finan B, Bloom SR, et al. Glucagon-like peptide 1 (GLP-1). <em>Mol Metab</em>. 2019;30:72-130.</li>
+  <li id="ref5">Knerr PJ, Mowery SA, Finan B, et al. Multi-receptor agonists for metabolic disease. <em>J Clin Invest</em>. 2021;131(3):e144797.</li>
+  <li id="ref6">Tschöp MH, Patterson JT, Chen X, et al. Research progress in single- and multi-receptor metabolic peptide therapeutics. <em>Nat Rev Drug Discov</em>. 2020;19(9):619-637.</li>
+  <li id="ref7">Hope DCD, Vincent ML, Pham HT, et al. Multi-receptor targeting for obesity and type 2 diabetes. <em>Peptides</em>. 2022;157:170872.</li>
+  <li id="ref8">Gillespie RJ, Lodaya RN, Skwarczynski M, et al. The future of multi-targeting peptides in metabolic disease. <em>Nat Rev Endocrinol</em>. 2023;19(6):348-361.</li>
+  <li id="ref9">Heppner KM, Bjeldbak JA, Bhatt DK, et al. Multi-receptor peptide drugs: mechanisms and clinical outcomes. <em>Nat Rev Endocrinol</em>. 2023;19(4):220-238.</li>
+  <li id="ref10">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
 </ol>

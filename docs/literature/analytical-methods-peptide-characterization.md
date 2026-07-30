@@ -184,15 +184,15 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 ## References
 <ol class="references">
 Methods Mol Biol</em>. 2007;386:3-55.</li>
-  <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
-  <li id="ref3Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
-  <li id="ref4Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
-  <li id="ref5Kelly SM, Jess TJ, Price NC. How to study proteins by circular dichroism. <em>Biochim Biophys Acta</em>. 2005;1751(2):119-139.</li>
-  <li id="ref6Wüthrich K. NMR studies of structure and function of biological macromolecules. <em>Angew Chem Int Ed</em>. 2003;42(29):3340-3363.</li>
-  <li id="ref7Greenwald RB, Choe YH, McGuire J, Conover CD. Effective drug delivery by PEGylated drug conjugates. <em>Adv Drug Deliv Rev</em>. 2003;55(2):217-250.</li>
-  <li id="ref8Rücker G, Neugebauer EA, Willems AI. Capillary electrophoresis in peptide analysis. <em>Electrophoresis</em>. 2012;33(1):146-160.</li>
-  <li id="ref9Steentoft C, Vakhrushev SY, Vester-Christensen MB, et al. Mining the O-glycoproteome using zinc-finger nuclease-glycoengineered SimpleCell lines. <em>Nat Methods</em>. 2011;8(11):977-982.</li>
-  <li id="ref10Ibrahim G, Garad S, Schumacher A, et al. Ion mobility spectrometry-mass spectrometry of peptides. <em>Anal Chem</em>. 2014;86(5):2441-2450.</li>
-  <li id="ref11Hernández B, Pfuller C, López-Méndez B, et al. Vibrational circular dichroism of proteins. <em>Angew Chem Int Ed</em>. 2019;58(19):6311-6315.</li>
-  <li id="ref12Cristea IM, Gaskell SJ, Whetton AD. Proteomics techniques and their application to hematology. <em>Blood</em>. 2004;103(10):3624-3634.</li>
+  <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
+  <li id="ref3">Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
+  <li id="ref4">Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
+  <li id="ref5">Kelly SM, Jess TJ, Price NC. How to study proteins by circular dichroism. <em>Biochim Biophys Acta</em>. 2005;1751(2):119-139.</li>
+  <li id="ref6">Wüthrich K. NMR studies of structure and function of biological macromolecules. <em>Angew Chem Int Ed</em>. 2003;42(29):3340-3363.</li>
+  <li id="ref7">Greenwald RB, Choe YH, McGuire J, Conover CD. Effective drug delivery by PEGylated drug conjugates. <em>Adv Drug Deliv Rev</em>. 2003;55(2):217-250.</li>
+  <li id="ref8">Rücker G, Neugebauer EA, Willems AI. Capillary electrophoresis in peptide analysis. <em>Electrophoresis</em>. 2012;33(1):146-160.</li>
+  <li id="ref9">Steentoft C, Vakhrushev SY, Vester-Christensen MB, et al. Mining the O-glycoproteome using zinc-finger nuclease-glycoengineered SimpleCell lines. <em>Nat Methods</em>. 2011;8(11):977-982.</li>
+  <li id="ref10">Ibrahim G, Garad S, Schumacher A, et al. Ion mobility spectrometry-mass spectrometry of peptides. <em>Anal Chem</em>. 2014;86(5):2441-2450.</li>
+  <li id="ref11">Hernández B, Pfuller C, López-Méndez B, et al. Vibrational circular dichroism of proteins. <em>Angew Chem Int Ed</em>. 2019;58(19):6311-6315.</li>
+  <li id="ref12">Cristea IM, Gaskell SJ, Whetton AD. Proteomics techniques and their application to hematology. <em>Blood</em>. 2004;103(10):3624-3634.</li>
 </ol>

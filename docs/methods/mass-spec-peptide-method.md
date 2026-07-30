@@ -194,13 +194,13 @@ For synthetic peptides, top-down analysis is the preferred first-line approach, 
 ## References
 <ol class="references">
 Science</em>. 1989;246(4926):64-71.</li>
-  <li id="ref2Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
-  <li id="ref3Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
-  <li id="ref4Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
-  <li id="ref5Steen H, Mann M. The ABC's (and XYZ's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
-  <li id="ref6Aebersold R, Mann M. Mass spectrometry-based proteomics. <em>Nature</em>. 2003;422(6928):198-207.</li>
-  <li id="ref7Domon B, Aebersold R. Mass spectrometry and protein analysis. <em>Science</em>. 2006;312(5771):212-217.</li>
-  <li id="ref8Yates JR III, Eng JK, McCormack AL, Schieltz D. Method to correlate tandem mass spectra of modified peptides. <em>Anal Chem</em>. 1995;67(8):1426-1436.</li>
-  <li id="ref9Mann M, Jensen ON. Proteomic analysis of post-translational modifications. <em>Nat Biotechnol</em>. 2003;21(3):255-261.</li>
-  <li id="ref10Glish GL, Vachet RW. The basics of mass spectrometry in the twenty-first century. <em>Nat Rev Drug Discov</em>. 2003;2(2):140-150.</li>
+  <li id="ref2">Karas M, Hillenkamp F. Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. <em>Anal Chem</em>. 1988;60(20):2299-2301.</li>
+  <li id="ref3">Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
+  <li id="ref4">Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>
+  <li id="ref5">Steen H, Mann M. The ABC's (and XYZ's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
+  <li id="ref6">Aebersold R, Mann M. Mass spectrometry-based proteomics. <em>Nature</em>. 2003;422(6928):198-207.</li>
+  <li id="ref7">Domon B, Aebersold R. Mass spectrometry and protein analysis. <em>Science</em>. 2006;312(5771):212-217.</li>
+  <li id="ref8">Yates JR III, Eng JK, McCormack AL, Schieltz D. Method to correlate tandem mass spectra of modified peptides. <em>Anal Chem</em>. 1995;67(8):1426-1436.</li>
+  <li id="ref9">Mann M, Jensen ON. Proteomic analysis of post-translational modifications. <em>Nat Biotechnol</em>. 2003;21(3):255-261.</li>
+  <li id="ref10">Glish GL, Vachet RW. The basics of mass spectrometry in the twenty-first century. <em>Nat Rev Drug Discov</em>. 2003;2(2):140-150.</li>
 </ol>

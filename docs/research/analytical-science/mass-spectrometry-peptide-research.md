@@ -112,17 +112,17 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 <div class="references
   <ol class="references">
 Anal Chem</em>. 1988;60(20):2299-2301.</li>
-  <li id="ref2Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
-  <li id="ref3Mann M, Wilm M. Error-tolerant identification of peptides in sequence databases by peptide sequence tags. <em>Anal Chem</em>. 1994;66(24):4390-4399.</li>
-  <li id="ref4Steen H, Mann M. The abc's (and xyz's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
-  <li id="ref5Cox J, Mann M. MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. <em>Nat Biotechnol</em>. 2008;26(12):1367-1372.</li>
-  <li id="ref6Aebersold R, Mann M. Mass-spectrometric exploration of proteome structure and function. <em>Nature</em>. 2016;537(7620):347-355.</li>
-  <li id="ref7Yates JR 3rd, Ruse CI, Nakorchevsky A. Proteomics by mass spectrometry: approaches, advances, and applications. <em>Annu Rev Biomed Eng</em>. 2009;11:49-79.</li>
-  <li id="ref8Eng JK, McCormack AL, Yates JR. An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database. <em>J Am Soc Mass Spectrom</em>. 1994;5(11):976-989.</li>
-  <li id="ref9Olsen JV, Blagoev B, Gnad F, et al. Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. <em>Cell</em>. 2006;127(3):635-648.</li>
-  <li id="ref10Cravatt BF, Simon GM, Yates JR 3rd. The biological impact of mass-spectrometry-based proteomics. <em>Nature</em>. 2007;450(7172):991-1000.</li>
-  <li id="ref11Zhang Y, Fonslow BR, Shan B, Baek MC, Yates JR 3rd. Protein analysis by shotgun/bottom-up proteomics. <em>Chem Rev</em>. 2013;113(4):2343-2394.</li>
-  <li id="ref12Mann M. Functional and quantitative proteomics using SILAC. <em>Nat Rev Mol Cell Biol</em>. 2006;7(12):952-958.</li>
+  <li id="ref2">Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. Electrospray ionization for mass spectrometry of large biomolecules. <em>Science</em>. 1989;246(4926):64-71.</li>
+  <li id="ref3">Mann M, Wilm M. Error-tolerant identification of peptides in sequence databases by peptide sequence tags. <em>Anal Chem</em>. 1994;66(24):4390-4399.</li>
+  <li id="ref4">Steen H, Mann M. The abc's (and xyz's) of peptide sequencing. <em>Nat Rev Mol Cell Biol</em>. 2004;5(9):699-711.</li>
+  <li id="ref5">Cox J, Mann M. MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. <em>Nat Biotechnol</em>. 2008;26(12):1367-1372.</li>
+  <li id="ref6">Aebersold R, Mann M. Mass-spectrometric exploration of proteome structure and function. <em>Nature</em>. 2016;537(7620):347-355.</li>
+  <li id="ref7">Yates JR 3rd, Ruse CI, Nakorchevsky A. Proteomics by mass spectrometry: approaches, advances, and applications. <em>Annu Rev Biomed Eng</em>. 2009;11:49-79.</li>
+  <li id="ref8">Eng JK, McCormack AL, Yates JR. An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database. <em>J Am Soc Mass Spectrom</em>. 1994;5(11):976-989.</li>
+  <li id="ref9">Olsen JV, Blagoev B, Gnad F, et al. Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. <em>Cell</em>. 2006;127(3):635-648.</li>
+  <li id="ref10">Cravatt BF, Simon GM, Yates JR 3rd. The biological impact of mass-spectrometry-based proteomics. <em>Nature</em>. 2007;450(7172):991-1000.</li>
+  <li id="ref11">Zhang Y, Fonslow BR, Shan B, Baek MC, Yates JR 3rd. Protein analysis by shotgun/bottom-up proteomics. <em>Chem Rev</em>. 2013;113(4):2343-2394.</li>
+  <li id="ref12">Mann M. Functional and quantitative proteomics using SILAC. <em>Nat Rev Mol Cell Biol</em>. 2006;7(12):952-958.</li>
 
 
 </ol>

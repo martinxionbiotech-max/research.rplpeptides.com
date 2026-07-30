@@ -169,15 +169,15 @@ For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), 
 ## References
 <ol class="references">
 Curr Pharm Des</em>. 2014;20(7):1126-1135.</li>
-  <li id="ref2Sikiric P, Seiwerth S, Brcic L, et al. BPC 157 as therapy for gastrointestinal ulcer and other lesions. <em>Dig Dis Sci</em>. 2010;55(11):3081-3097.</li>
-  <li id="ref3Sikiric P, Seiwerth S, Brcic L, et al. Central and peripheral modulation of pain and GI motility by stable gastric pentadecapeptide BPC 157. <em>Curr Med Chem</em>. 2012;19(9):1268-1280.</li>
-  <li id="ref4Staresinic M, Petrovic I, Novinscak T, et al. Effective therapy of transected quadriceps muscle in rat: BPC 157 vs. control. <em>J Orthop Res</em>. 2006;24(8):1663-1673.</li>
-  <li id="ref5Mikus D, Sikiric P, Seiwerth S, et al. BPC 157 accelerates the healing of transected Achilles tendon. <em>J Orthop Res</em>. 2001;19(5):887-893.</li>
-  <li id="ref6Gjurasin M, Mikus D, Sikiric P, et al. BPC 157 and the healing of the transected Achilles tendon in the rat. <em>Knee Surg Sports Traumatol Arthrosc</em>. 2002;10(5):320-326.</li>
-  <li id="ref7Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 effect on healing of pressure ulcers and chronic wounds. <em>Wound Repair Regen</em>. 2015;23(4):500-506.</li>
-  <li id="ref8Bilic M, Bumber Z, Batelja L, et al. BPC 157: A potential new therapeutic agent for inflammatory bowel disease. <em>Eur J Gastroenterol Hepatol</em>. 2010;22(5):579-587.</li>
-  <li id="ref9Sikiric P, Seiwerth S, Grabarevic Z, et al. The beneficial effect of BPC 157 on the healing of colon-colon anastomoses. <em>Dig Dis Sci</em>. 2002;47(2):414-419.</li>
-  <li id="ref10Sikiric P, Seiwerth S, Ručman R, et al. BPC 157 increases the survival of rats with acute myocardial infarction. <em>J Cardiovasc Pharmacol Ther</em>. 1999;4(4):239-246.</li>
-  <li id="ref11Bilic V, Boric M, Klicek R, et al. BPC 157 and angiogenesis in the healing of ligaments. <em>Bone Joint Res</em>. 2013;2(8):150-156.</li>
-  <li id="ref12Keremi B, Lohinai Z, Komora P, et al. BPC 157 and the healing of oral mucosal wounds. <em>J Oral Pathol Med</em>. 2009;38(6):509-515.</li>
+  <li id="ref2">Sikiric P, Seiwerth S, Brcic L, et al. BPC 157 as therapy for gastrointestinal ulcer and other lesions. <em>Dig Dis Sci</em>. 2010;55(11):3081-3097.</li>
+  <li id="ref3">Sikiric P, Seiwerth S, Brcic L, et al. Central and peripheral modulation of pain and GI motility by stable gastric pentadecapeptide BPC 157. <em>Curr Med Chem</em>. 2012;19(9):1268-1280.</li>
+  <li id="ref4">Staresinic M, Petrovic I, Novinscak T, et al. Effective therapy of transected quadriceps muscle in rat: BPC 157 vs. control. <em>J Orthop Res</em>. 2006;24(8):1663-1673.</li>
+  <li id="ref5">Mikus D, Sikiric P, Seiwerth S, et al. BPC 157 accelerates the healing of transected Achilles tendon. <em>J Orthop Res</em>. 2001;19(5):887-893.</li>
+  <li id="ref6">Gjurasin M, Mikus D, Sikiric P, et al. BPC 157 and the healing of the transected Achilles tendon in the rat. <em>Knee Surg Sports Traumatol Arthrosc</em>. 2002;10(5):320-326.</li>
+  <li id="ref7">Seiwerth S, Brcic L, Vuletic LB, et al. BPC 157 effect on healing of pressure ulcers and chronic wounds. <em>Wound Repair Regen</em>. 2015;23(4):500-506.</li>
+  <li id="ref8">Bilic M, Bumber Z, Batelja L, et al. BPC 157: A potential new therapeutic agent for inflammatory bowel disease. <em>Eur J Gastroenterol Hepatol</em>. 2010;22(5):579-587.</li>
+  <li id="ref9">Sikiric P, Seiwerth S, Grabarevic Z, et al. The beneficial effect of BPC 157 on the healing of colon-colon anastomoses. <em>Dig Dis Sci</em>. 2002;47(2):414-419.</li>
+  <li id="ref10">Sikiric P, Seiwerth S, Ručman R, et al. BPC 157 increases the survival of rats with acute myocardial infarction. <em>J Cardiovasc Pharmacol Ther</em>. 1999;4(4):239-246.</li>
+  <li id="ref11">Bilic V, Boric M, Klicek R, et al. BPC 157 and angiogenesis in the healing of ligaments. <em>Bone Joint Res</em>. 2013;2(8):150-156.</li>
+  <li id="ref12">Keremi B, Lohinai Z, Komora P, et al. BPC 157 and the healing of oral mucosal wounds. <em>J Oral Pathol Med</em>. 2009;38(6):509-515.</li>
 </ol>

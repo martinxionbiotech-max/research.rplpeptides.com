@@ -173,10 +173,10 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 ## References
 <ol class="references">
 Methods Mol Biol</em>. 2007;386:3-55.</li>
-  <li id="ref2Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
-  <li id="ref3Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
-  <li id="ref4Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>
-  <li id="ref5Gilar M, Olivova P, Chakraborty AB, et al. Comparison of 1-D and 2-D LC-MS methods for proteomics. <em>J Sep Sci</em>. 2005;28(13):1554-1565.</li>
-  <li id="ref6Stanton P. Preparative purification of peptides. <em>Methods Mol Biol</em>. 2014;1175:197-214.</li>
-  <li id="ref7Shukla AK, Majors RE, eds. Liquid Chromatography for the Analysis of Peptides. Elsevier; 2011.</li>
+  <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
+  <li id="ref3">Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
+  <li id="ref4">Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>
+  <li id="ref5">Gilar M, Olivova P, Chakraborty AB, et al. Comparison of 1-D and 2-D LC-MS methods for proteomics. <em>J Sep Sci</em>. 2005;28(13):1554-1565.</li>
+  <li id="ref6">Stanton P. Preparative purification of peptides. <em>Methods Mol Biol</em>. 2014;1175:197-214.</li>
+  <li id="ref7">Shukla AK, Majors RE, eds. Liquid Chromatography for the Analysis of Peptides. Elsevier; 2011.</li>
 </ol>

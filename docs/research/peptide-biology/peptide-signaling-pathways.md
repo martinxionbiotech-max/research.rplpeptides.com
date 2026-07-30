@@ -209,19 +209,19 @@ Mathematical modeling of signaling cascades — incorporating reaction kinetics,
 ## References
   <ol class="references">
 Nature</em>, 459(7245), 356–363. https://doi.org/10.1038/nature08144</li>
-  <li id="ref2Wettschureck, N., & Offermanns, S. (2005). Mammalian G proteins and their cell type specific functions. <em>Physiological Reviews</em>, 85(4), 1159–1204. https://doi.org/10.1152/physrev.00003.2005</li>
-  <li id="ref3Berridge, M. J. (2009). Inositol trisphosphate and calcium signalling mechanisms. <em>Biochimica et Biophysica Acta</em>, 1793(6), 933–940. https://doi.org/10.1016/j.bbamcr.2008.10.005</li>
-  <li id="ref4Lemmon, M. A., & Schlessinger, J. (2010). Cell signaling by receptor tyrosine kinases. <em>Cell</em>, 141(7), 1117–1134. https://doi.org/10.1016/j.cell.2010.06.011</li>
-  <li id="ref5O'Shea, J. J., Gadina, M., & Schreiber, R. D. (2002). Cytokine signaling in 2002: new surprises in the Jak/Stat pathway. <em>Cell</em>, 109(Suppl), S121–S131. https://doi.org/10.1016/S0092-8674(02)00701-800701-8)</li>
-  <li id="ref6Massagué, J. (2012). TGFβ signalling in context. <em>Nature Reviews Molecular Cell Biology</em>, 13(10), 616–630. https://doi.org/10.1038/nrm3434</li>
-  <li id="ref7Kobilka, B. K. (2007). G protein coupled receptor structure and activation. <em>Biochimica et Biophysica Acta</em>, 1768(4), 794–807. https://doi.org/10.1016/j.bbamem.2006.10.021</li>
-  <li id="ref8Pierce, K. L., Premont, R. T., & Lefkowitz, R. J. (2002). Seven-transmembrane receptors. <em>Nature Reviews Molecular Cell Biology</em>, 3(9), 639–650. https://doi.org/10.1038/nrm908</li>
-  <li id="ref9Gurevich, V. V., & Gurevich, E. V. (2019). GPCR signaling regulation: the role of GRKs and arrestins. <em>Frontiers in Pharmacology</em>, 10, 125. https://doi.org/10.3389/fphar.2019.00125</li>
-  <li id="ref10Tan, Q., Zhu, Y., Li, J., Chen, Z., Han, G. W., Kufareva, I., ... & Wu, B. (2013). Structure of the CCR5 chemokine receptor-HIV entry inhibitor maraviroc complex. <em>Science</em>, 341(6152), 1387–1390. https://doi.org/10.1126/science.1241475</li>
-  <li id="ref11Rajagopal, S., Rajagopal, K., & Lefkowitz, R. J. (2010). Teaching old receptors new tricks: biasing seven-transmembrane receptors. <em>Nature Reviews Drug Discovery</em>, 9(5), 373–386. https://doi.org/10.1038/nrd3024</li>
-  <li id="ref12Salzman, D. W., & Weigel, R. J. (2012). EGF receptor family: structure and signaling. <em>Reviews in Cell Biology and Molecular Medicine</em>. https://doi.org/10.1002/3527600906.mcb.200200005</li>
-  <li id="ref13Manning, B. D., & Toker, A. (2017). AKT/PKB signaling: navigating the network. <em>Cell</em>, 169(3), 381–405. https://doi.org/10.1016/j.cell.2017.04.001</li>
-  <li id="ref14Calebiro, D., Nikolaev, V. O., Gagliani, M. C., de Filippis, T., Dees, C., Tacchetti, C., ... & Lohse, M. J. (2009). Persistent cAMP-signals triggered by internalized G-protein-coupled receptors. <em>PLoS Biology</em>, 7(8), e1000172. https://doi.org/10.1371/journal.pbio.1000172</li>
+  <li id="ref2">Wettschureck, N., & Offermanns, S. (2005). Mammalian G proteins and their cell type specific functions. <em>Physiological Reviews</em>, 85(4), 1159–1204. https://doi.org/10.1152/physrev.00003.2005</li>
+  <li id="ref3">Berridge, M. J. (2009). Inositol trisphosphate and calcium signalling mechanisms. <em>Biochimica et Biophysica Acta</em>, 1793(6), 933–940. https://doi.org/10.1016/j.bbamcr.2008.10.005</li>
+  <li id="ref4">Lemmon, M. A., & Schlessinger, J. (2010). Cell signaling by receptor tyrosine kinases. <em>Cell</em>, 141(7), 1117–1134. https://doi.org/10.1016/j.cell.2010.06.011</li>
+  <li id="ref5">O'Shea, J. J., Gadina, M., & Schreiber, R. D. (2002). Cytokine signaling in 2002: new surprises in the Jak/Stat pathway. <em>Cell</em>, 109(Suppl), S121–S131. https://doi.org/10.1016/S0092-8674(02)00701-800701-8)</li>
+  <li id="ref6">Massagué, J. (2012). TGFβ signalling in context. <em>Nature Reviews Molecular Cell Biology</em>, 13(10), 616–630. https://doi.org/10.1038/nrm3434</li>
+  <li id="ref7">Kobilka, B. K. (2007). G protein coupled receptor structure and activation. <em>Biochimica et Biophysica Acta</em>, 1768(4), 794–807. https://doi.org/10.1016/j.bbamem.2006.10.021</li>
+  <li id="ref8">Pierce, K. L., Premont, R. T., & Lefkowitz, R. J. (2002). Seven-transmembrane receptors. <em>Nature Reviews Molecular Cell Biology</em>, 3(9), 639–650. https://doi.org/10.1038/nrm908</li>
+  <li id="ref9">Gurevich, V. V., & Gurevich, E. V. (2019). GPCR signaling regulation: the role of GRKs and arrestins. <em>Frontiers in Pharmacology</em>, 10, 125. https://doi.org/10.3389/fphar.2019.00125</li>
+  <li id="ref10">Tan, Q., Zhu, Y., Li, J., Chen, Z., Han, G. W., Kufareva, I., ... & Wu, B. (2013). Structure of the CCR5 chemokine receptor-HIV entry inhibitor maraviroc complex. <em>Science</em>, 341(6152), 1387–1390. https://doi.org/10.1126/science.1241475</li>
+  <li id="ref11">Rajagopal, S., Rajagopal, K., & Lefkowitz, R. J. (2010). Teaching old receptors new tricks: biasing seven-transmembrane receptors. <em>Nature Reviews Drug Discovery</em>, 9(5), 373–386. https://doi.org/10.1038/nrd3024</li>
+  <li id="ref12">Salzman, D. W., & Weigel, R. J. (2012). EGF receptor family: structure and signaling. <em>Reviews in Cell Biology and Molecular Medicine</em>. https://doi.org/10.1002/3527600906.mcb.200200005</li>
+  <li id="ref13">Manning, B. D., & Toker, A. (2017). AKT/PKB signaling: navigating the network. <em>Cell</em>, 169(3), 381–405. https://doi.org/10.1016/j.cell.2017.04.001</li>
+  <li id="ref14">Calebiro, D., Nikolaev, V. O., Gagliani, M. C., de Filippis, T., Dees, C., Tacchetti, C., ... & Lohse, M. J. (2009). Persistent cAMP-signals triggered by internalized G-protein-coupled receptors. <em>PLoS Biology</em>, 7(8), e1000172. https://doi.org/10.1371/journal.pbio.1000172</li>
 
 
 </ol>

@@ -145,15 +145,15 @@ For research planning and experimental design support, the [RPL Peptides Researc
 <div class="references
   <ol class="references">
 Biochemistry (Moscow)</em>. 2005;70(4):404-413. <a href="https://doi.org/10.1007%2Fs10541-005-0138-1">doi:10.1007/s10541-005-0138-1</a></li>
-  <li id="ref2Khavinson VK, Morozov VG, Malinin VV, et al. Effect of epithalon on the function of the pineal gland in elderly humans. <em>Advances in Gerontology</em>. 2002;9:101-109.</li>
-  <li id="ref3Khavinson VK, Bondarev IE, Butyugov AA, et al. Peptide promotes overcoming of the division limit in human somatic cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2003;135(5):503-506. <a href="https://doi.org/10.1023%2FA%3A1024946820347">doi:10.1023/A:1024946820347</a></li>
-  <li id="ref4Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. <em>Advances in Gerontology</em>. 2011;24(4):555-565.</li>
-  <li id="ref5Korkushko OV, Khavinson VK, Shatilo VB, et al. The effect of epithalon on the circadian rhythm of melatonin secretion in elderly humans. <em>Neuroendocrinology Letters</em>. 2004;25(4):259-262.</li>
-  <li id="ref6Khavinson VK, Solovyov AY, Zhilinskaya IN, et al. Epithalon peptide as a telomerase activator. <em>Bulletin of Experimental Biology and Medicine</em>. 2012;152(5):601-604. <a href="https://doi.org/10.1007%2Fs10517-012-1586-4">doi:10.1007/s10517-012-1586-4</a></li>
-  <li id="ref7Khavinson VK, Kuznik BI, Linkova NS, et al. Peptide regulation of the expression of genes involved in cell cycle regulation. <em>Molecular Biology</em>. 2013;47(6):857-864. <a href="https://doi.org/10.1134%2FS0026893313060035">doi:10.1134/S0026893313060035</a></li>
-  <li id="ref8Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in retinal pigment epithelium cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2011;151(5):640-642. <a href="https://doi.org/10.1007%2Fs10517-011-1395-1">doi:10.1007/s10517-011-1395-1</a></li>
-  <li id="ref9Khavinson VK, Zemchikhina VN, Trofimov AV. Peptide regulation of pineal gland function in aging. <em>Neuroendocrinology Letters</em>. 2003;24(Suppl 1):53-56.</li>
-  <li id="ref10Khavinson VK, Popovich IG, Linkova NS, et al. Peptide regulation of aging: the role of the pineal gland and thymus. <em>Advances in Gerontology</em>. 2015;5(2):77-83. <a href="https://doi.org/10.1134%2FS207905701502007X">doi:10.1134/S207905701502007X</a></li>
+  <li id="ref2">Khavinson VK, Morozov VG, Malinin VV, et al. Effect of epithalon on the function of the pineal gland in elderly humans. <em>Advances in Gerontology</em>. 2002;9:101-109.</li>
+  <li id="ref3">Khavinson VK, Bondarev IE, Butyugov AA, et al. Peptide promotes overcoming of the division limit in human somatic cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2003;135(5):503-506. <a href="https://doi.org/10.1023%2FA%3A1024946820347">doi:10.1023/A:1024946820347</a></li>
+  <li id="ref4">Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in bronchial epithelium. <em>Advances in Gerontology</em>. 2011;24(4):555-565.</li>
+  <li id="ref5">Korkushko OV, Khavinson VK, Shatilo VB, et al. The effect of epithalon on the circadian rhythm of melatonin secretion in elderly humans. <em>Neuroendocrinology Letters</em>. 2004;25(4):259-262.</li>
+  <li id="ref6">Khavinson VK, Solovyov AY, Zhilinskaya IN, et al. Epithalon peptide as a telomerase activator. <em>Bulletin of Experimental Biology and Medicine</em>. 2012;152(5):601-604. <a href="https://doi.org/10.1007%2Fs10517-012-1586-4">doi:10.1007/s10517-012-1586-4</a></li>
+  <li id="ref7">Khavinson VK, Kuznik BI, Linkova NS, et al. Peptide regulation of the expression of genes involved in cell cycle regulation. <em>Molecular Biology</em>. 2013;47(6):857-864. <a href="https://doi.org/10.1134%2FS0026893313060035">doi:10.1134/S0026893313060035</a></li>
+  <li id="ref8">Khavinson VK, Linkova NS, Kornev AB, et al. Peptide regulation of gene expression and protein synthesis in retinal pigment epithelium cells. <em>Bulletin of Experimental Biology and Medicine</em>. 2011;151(5):640-642. <a href="https://doi.org/10.1007%2Fs10517-011-1395-1">doi:10.1007/s10517-011-1395-1</a></li>
+  <li id="ref9">Khavinson VK, Zemchikhina VN, Trofimov AV. Peptide regulation of pineal gland function in aging. <em>Neuroendocrinology Letters</em>. 2003;24(Suppl 1):53-56.</li>
+  <li id="ref10">Khavinson VK, Popovich IG, Linkova NS, et al. Peptide regulation of aging: the role of the pineal gland and thymus. <em>Advances in Gerontology</em>. 2015;5(2):77-83. <a href="https://doi.org/10.1134%2FS207905701502007X">doi:10.1134/S207905701502007X</a></li>
 
 
 </ol>

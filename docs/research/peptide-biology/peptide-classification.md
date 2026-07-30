@@ -222,19 +222,19 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 ## References
   <ol class="references">
 Journal of Proteomics</em>, 188, 1–17. https://doi.org/10.1016/j.jprot.2018.01.008</li>
-  <li id="ref2Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. https://doi.org/10.1016/S1474-4422(03)00482-400482-4)</li>
-  <li id="ref3Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278</li>
-  <li id="ref4Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. https://doi.org/10.1146/annurev.micro.58.030603.123615</li>
-  <li id="ref5King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. <em>Expert Opinion on Biological Therapy</em>, 11(11), 1469–1484. https://doi.org/10.1517/14712598.2011.621935</li>
-  <li id="ref6Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... & van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. <em>Natural Product Reports</em>, 30(1), 108–160. https://doi.org/10.1039/c2np20085f</li>
-  <li id="ref7Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
-  <li id="ref8Boman, H. G. (2000). Innate immunity and the normal microflora. <em>Immunological Reviews</em>, 173, 5–16. https://doi.org/10.1034/j.1600-065X.2000.917307.x</li>
-  <li id="ref9Sato, A. K., Viswanathan, M., Kent, R. B., & Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. <em>Biotechnology and Bioengineering</em>, 93(1), 1–7. https://doi.org/10.1002/bit.20759</li>
-  <li id="ref10Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metabolism</em>, 27(4), 740–756. https://doi.org/10.1016/j.cmet.2018.03.001</li>
-  <li id="ref11Hancock, R. E. W., & Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. <em>Trends in Biotechnology</em>, 16(2), 82–88. https://doi.org/10.1016/S0167-7799(97)01156-601156-6)</li>
-  <li id="ref12Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. <em>Biotechnology Advances</em>, 37(7), 107403. https://doi.org/10.1016/j.biotechadv.2019.06.012</li>
-  <li id="ref13Fjell, C. D., Hiss, J. A., Hancock, R. E. W., & Schneider, G. (2012). Designing antimicrobial peptides: form follows function. <em>Nature Reviews Drug Discovery</em>, 11(1), 37–51. https://doi.org/10.1038/nrd3591</li>
-  <li id="ref14Moll, G. N., Konings, W. N., & Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. <em>Antonie van Leeuwenhoek</em>, 76(1–4), 185–198.</li>
+  <li id="ref2">Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. https://doi.org/10.1016/S1474-4422(03)00482-400482-4)</li>
+  <li id="ref3">Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. https://doi.org/10.1093/nar/gkv1278</li>
+  <li id="ref4">Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. https://doi.org/10.1146/annurev.micro.58.030603.123615</li>
+  <li id="ref5">King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. <em>Expert Opinion on Biological Therapy</em>, 11(11), 1469–1484. https://doi.org/10.1517/14712598.2011.621935</li>
+  <li id="ref6">Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... & van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. <em>Natural Product Reports</em>, 30(1), 108–160. https://doi.org/10.1039/c2np20085f</li>
+  <li id="ref7">Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
+  <li id="ref8">Boman, H. G. (2000). Innate immunity and the normal microflora. <em>Immunological Reviews</em>, 173, 5–16. https://doi.org/10.1034/j.1600-065X.2000.917307.x</li>
+  <li id="ref9">Sato, A. K., Viswanathan, M., Kent, R. B., & Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. <em>Biotechnology and Bioengineering</em>, 93(1), 1–7. https://doi.org/10.1002/bit.20759</li>
+  <li id="ref10">Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metabolism</em>, 27(4), 740–756. https://doi.org/10.1016/j.cmet.2018.03.001</li>
+  <li id="ref11">Hancock, R. E. W., & Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. <em>Trends in Biotechnology</em>, 16(2), 82–88. https://doi.org/10.1016/S0167-7799(97)01156-601156-6)</li>
+  <li id="ref12">Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. <em>Biotechnology Advances</em>, 37(7), 107403. https://doi.org/10.1016/j.biotechadv.2019.06.012</li>
+  <li id="ref13">Fjell, C. D., Hiss, J. A., Hancock, R. E. W., & Schneider, G. (2012). Designing antimicrobial peptides: form follows function. <em>Nature Reviews Drug Discovery</em>, 11(1), 37–51. https://doi.org/10.1038/nrd3591</li>
+  <li id="ref14">Moll, G. N., Konings, W. N., & Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. <em>Antonie van Leeuwenhoek</em>, 76(1–4), 185–198.</li>
 
 
 </ol>

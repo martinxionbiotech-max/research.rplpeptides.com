@@ -181,16 +181,16 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
 ## References
 <ol class="references">
 J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
-  <li id="ref2Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
-  <li id="ref3Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
-  <li id="ref4Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
-  <li id="ref5Mijalis AJ, Thomas DA III, Simon MD, et al. A fully automated flow-based approach for accelerated peptide synthesis. <em>Nat Chem Biol</em>. 2017;13(5):464-466.</li>
-  <li id="ref6Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779.</li>
-  <li id="ref7Inoue K, Albericio F. Greening peptide synthesis: Towards more sustainable peptide manufacturing. <em>Green Chem</em>. 2020;22(11):3534-3548.</li>
-  <li id="ref8Alhassan M, Ojeda R, Kelly JW, et al. Advances in chemical ligation strategies for the synthesis of proteins. <em>Chem Rev</em>. 2020;120(11):5261-5347.</li>
-  <li id="ref9El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
-  <li id="ref10Mäde V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis: from Merrifield to the 21st century. <em>J Pept Sci</em>. 2014;20(7):500-515.</li>
-  <li id="ref11Pápai G, Roy N, Bárány G. Racemization in peptide synthesis: An overview. <em>J Pept Sci</em>. 2018;24(12):e3137.</li>
-  <li id="ref12Lundberg H, Tinnis F, Selander N, Adolfsson H. Catalytic amide formation from non-activated carboxylic acids and amines. <em>Chem Soc Rev</em>. 2014;43(8):2714-2742.</li>
-  <li id="ref13Yi S, Zheng B, Wang Y, et al. Recent advances in enzymatic peptide synthesis. <em>Bioorg Med Chem</em>. 2019;27(13):2817-2825.</li>
+  <li id="ref2">Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
+  <li id="ref3">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
+  <li id="ref4">Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
+  <li id="ref5">Mijalis AJ, Thomas DA III, Simon MD, et al. A fully automated flow-based approach for accelerated peptide synthesis. <em>Nat Chem Biol</em>. 2017;13(5):464-466.</li>
+  <li id="ref6">Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779.</li>
+  <li id="ref7">Inoue K, Albericio F. Greening peptide synthesis: Towards more sustainable peptide manufacturing. <em>Green Chem</em>. 2020;22(11):3534-3548.</li>
+  <li id="ref8">Alhassan M, Ojeda R, Kelly JW, et al. Advances in chemical ligation strategies for the synthesis of proteins. <em>Chem Rev</em>. 2020;120(11):5261-5347.</li>
+  <li id="ref9">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
+  <li id="ref10">Mäde V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis: from Merrifield to the 21st century. <em>J Pept Sci</em>. 2014;20(7):500-515.</li>
+  <li id="ref11">Pápai G, Roy N, Bárány G. Racemization in peptide synthesis: An overview. <em>J Pept Sci</em>. 2018;24(12):e3137.</li>
+  <li id="ref12">Lundberg H, Tinnis F, Selander N, Adolfsson H. Catalytic amide formation from non-activated carboxylic acids and amines. <em>Chem Soc Rev</em>. 2014;43(8):2714-2742.</li>
+  <li id="ref13">Yi S, Zheng B, Wang Y, et al. Recent advances in enzymatic peptide synthesis. <em>Bioorg Med Chem</em>. 2019;27(13):2817-2825.</li>
 </ol>

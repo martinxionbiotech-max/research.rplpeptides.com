@@ -174,18 +174,18 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 ## References
   <ol class="references">
 Nature</em>, 415(6870), 389–395. https://doi.org/10.1038/415389a</li>
-  <li id="ref2Hancock, R. E. W., & Sahl, H. G. (2006). Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. <em>Nature Biotechnology</em>, 24(12), 1551–1557. https://doi.org/10.1038/nbt1267</li>
-  <li id="ref3Fosgerau, K., & Hoffmann, T. (2015). Peptide therapeutics: current status and future directions. <em>Drug Discovery Today</em>, 20(1), 122–128. https://doi.org/10.1016/j.drudis.2014.10.003</li>
-  <li id="ref4Lau, J. L., & Dunn, M. K. (2018). Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorganic & Medicinal Chemistry</em>, 26(10), 2700–2707. https://doi.org/10.1016/j.bmc.2017.06.052</li>
-  <li id="ref5Muttenthaler, M., King, G. F., Adams, D. J., & Alewood, P. F. (2021). Trends in peptide drug discovery. <em>Nature Reviews Drug Discovery</em>, 20(4), 309–325. https://doi.org/10.1038/s41573-020-00135-8</li>
-  <li id="ref6Wang, L., Wang, N., Zhang, W., Cheng, X., Yan, Z., Shao, G., Wang, X., Wang, R., & Fu, C. (2022). Therapeutic peptides: current applications and future directions. <em>Signal Transduction and Targeted Therapy</em>, 7, 48. https://doi.org/10.1038/s41392-022-00904-4</li>
-  <li id="ref7Craik, D. J., Fairlie, D. P., Liras, S., & Price, D. (2013). The future of peptide-based drugs. <em>Chemical Biology & Drug Design</em>, 81(1), 136–147. https://doi.org/10.1111/cbdd.12055</li>
-  <li id="ref8Henninot, A., Collins, J. C., & Nuss, J. M. (2018). The current state of peptide drug discovery: back to the future? <em>Journal of Medicinal Chemistry</em>, 61(4), 1382–1414. https://doi.org/10.1021/acs.jmedchem.7b00318</li>
-  <li id="ref9Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>Journal of the American Chemical Society</em>, 85(14), 2149–2154. https://doi.org/10.1021/ja00897a025</li>
-  <li id="ref10Uhlig, T., Kyprianou, T., Martinelli, F. G., Oppici, C. A., Heiligers, D., Hills, D., Calvo, X. R., & Verhaert, P. (2014). The emergence of peptides in the pharmaceutical business: from exploration to exploitation. <em>EuPA Open Proteomics</em>, 4, 58–69. https://doi.org/10.1016/j.euprot.2014.05.003</li>
-  <li id="ref11Ganz, T. (2003). Defensins: antimicrobial peptides of innate immunity. <em>Nature Reviews Immunology</em>, 3(9), 710–720. https://doi.org/10.1038/nri1180</li>
-  <li id="ref12Boman, H. G. (2003). Antibacterial peptides: basic facts and emerging concepts. <em>Journal of Internal Medicine</em>, 254(3), 197–215. https://doi.org/10.1046/j.1365-2796.2003.01228.x</li>
-  <li id="ref13Fields, G. B., & Noble, R. L. (1990). Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>International Journal of Peptide and Protein Research</em>, 35(3), 161–214. https://doi.org/10.1111/j.1399-3011.1990.tb00939.x</li>
+  <li id="ref2">Hancock, R. E. W., & Sahl, H. G. (2006). Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. <em>Nature Biotechnology</em>, 24(12), 1551–1557. https://doi.org/10.1038/nbt1267</li>
+  <li id="ref3">Fosgerau, K., & Hoffmann, T. (2015). Peptide therapeutics: current status and future directions. <em>Drug Discovery Today</em>, 20(1), 122–128. https://doi.org/10.1016/j.drudis.2014.10.003</li>
+  <li id="ref4">Lau, J. L., & Dunn, M. K. (2018). Therapeutic peptides: historical perspectives, current development trends, and future directions. <em>Bioorganic & Medicinal Chemistry</em>, 26(10), 2700–2707. https://doi.org/10.1016/j.bmc.2017.06.052</li>
+  <li id="ref5">Muttenthaler, M., King, G. F., Adams, D. J., & Alewood, P. F. (2021). Trends in peptide drug discovery. <em>Nature Reviews Drug Discovery</em>, 20(4), 309–325. https://doi.org/10.1038/s41573-020-00135-8</li>
+  <li id="ref6">Wang, L., Wang, N., Zhang, W., Cheng, X., Yan, Z., Shao, G., Wang, X., Wang, R., & Fu, C. (2022). Therapeutic peptides: current applications and future directions. <em>Signal Transduction and Targeted Therapy</em>, 7, 48. https://doi.org/10.1038/s41392-022-00904-4</li>
+  <li id="ref7">Craik, D. J., Fairlie, D. P., Liras, S., & Price, D. (2013). The future of peptide-based drugs. <em>Chemical Biology & Drug Design</em>, 81(1), 136–147. https://doi.org/10.1111/cbdd.12055</li>
+  <li id="ref8">Henninot, A., Collins, J. C., & Nuss, J. M. (2018). The current state of peptide drug discovery: back to the future? <em>Journal of Medicinal Chemistry</em>, 61(4), 1382–1414. https://doi.org/10.1021/acs.jmedchem.7b00318</li>
+  <li id="ref9">Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>Journal of the American Chemical Society</em>, 85(14), 2149–2154. https://doi.org/10.1021/ja00897a025</li>
+  <li id="ref10">Uhlig, T., Kyprianou, T., Martinelli, F. G., Oppici, C. A., Heiligers, D., Hills, D., Calvo, X. R., & Verhaert, P. (2014). The emergence of peptides in the pharmaceutical business: from exploration to exploitation. <em>EuPA Open Proteomics</em>, 4, 58–69. https://doi.org/10.1016/j.euprot.2014.05.003</li>
+  <li id="ref11">Ganz, T. (2003). Defensins: antimicrobial peptides of innate immunity. <em>Nature Reviews Immunology</em>, 3(9), 710–720. https://doi.org/10.1038/nri1180</li>
+  <li id="ref12">Boman, H. G. (2003). Antibacterial peptides: basic facts and emerging concepts. <em>Journal of Internal Medicine</em>, 254(3), 197–215. https://doi.org/10.1046/j.1365-2796.2003.01228.x</li>
+  <li id="ref13">Fields, G. B., & Noble, R. L. (1990). Solid phase peptide synthesis utilizing 9-fluorenylmethoxycarbonyl amino acids. <em>International Journal of Peptide and Protein Research</em>, 35(3), 161–214. https://doi.org/10.1111/j.1399-3011.1990.tb00939.x</li>
 
 
 </ol>
