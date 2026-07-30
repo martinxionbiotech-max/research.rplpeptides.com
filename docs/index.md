@@ -2,6 +2,7 @@
 title: RPL Peptides Research Knowledge Center
 description: A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies. Explore 50+ research articles, 14 peptide profiles, and scientific comparisons.
 hide:
+
   - navigation
   - toc
 ---
@@ -67,10 +68,13 @@ Comprehensive guides to peptide research methods, from synthesis to characteriza
 
 -   **Solid-Phase Peptide Synthesis** — SPPS methodology and best practices
     [:octicons-arrow-right-24: Read](methods/solid-phase-peptide-synthesis-method.md)
+
 -   **RP-HPLC Peptide Analysis** — Reversed-phase chromatography for peptides
     [:octicons-arrow-right-24: Read](methods/rpp-hplc-peptide-analysis.md)
+
 -   **Mass Spectrometry Methods** — MS characterization of peptides
     [:octicons-arrow-right-24: Read](methods/mass-spec-peptide-method.md)
+
 -   **Lyophilization of Peptides** — Freeze-drying principles and protocols
     [:octicons-arrow-right-24: Read](methods/lyophilization-peptides.md)
 
@@ -84,10 +88,13 @@ Evidence-based comparisons of different peptide classes, mechanisms, and researc
 
 -   **GLP-1 vs GIP** — Incretin hormone comparison
     [:octicons-arrow-right-24: Read](comparisons/glp-1-vs-gip-research.md)
+
 -   **Semaglutide vs Tirzepatide** — GLP-1 vs dual agonist comparison
     [:octicons-arrow-right-24: Read](comparisons/semaglutide-vs-tirzepatide.md)
+
 -   **Peptide Hormones vs Small Molecules** — Pharmacological comparison
     [:octicons-arrow-right-24: Read](comparisons/peptide-hormones-vs-small-molecules.md)
+
 -   **Single vs Multi-Receptor Agonists** — Receptor targeting strategies
     [:octicons-arrow-right-24: Read](comparisons/single-vs-multi-receptor-agonists.md)
 

@@ -37,13 +37,15 @@ The RPL Peptides scientific ecosystem comprises four interconnected web resource
     
 ## Interconnecting the Ecosystem
 These four resources work together to provide researchers with a complete workflow:
+
 - **Research** the scientific background on [research.rplpeptides.com](https://research.rplpeptides.com)
 - **Browse and order** products on [rplpeptides.com](https://rplpeptides.com)
 - **Verify quality** with analytical data on [data.rplpeptides.com](https://data.rplpeptides.com)
 - **Calculate** dosages and reconstitution volumes on [tool.rplpeptides.com](https://tool.rplpeptides.com)
 
-    
-All resources are maintained by RPL Peptides and are freely accessible to the research community. For questions about any of these resources, please contact the RPL Peptides team through the main website.
+All resources are maintained by RPL Peptides and are freely accessible to the research community.
+
+For questions about any of these resources, please contact the RPL Peptides team through the main website.
     
 ## Related Research
 <div class="card-grid card-grid-3">

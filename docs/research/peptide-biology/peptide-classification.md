@@ -7,14 +7,14 @@ description: "A comprehensive taxonomy of peptides classified by length, biologi
 
 
 ## Executive Summary
-Peptides constitute an extraordinarily diverse class of biomolecules that can be classified along multiple axes: by length (oligopeptides, polypeptides), by biological function (hormones, antimicrobials, neuropeptides, growth factors, cytokines, toxins), by structural features (linear, cyclic, disulfide-rich, amphipathic), by source (endogenous, exogenous, synthetic), and by biosynthesis mechanism (ribosomal, non-ribosomal, or proteolytic). Each classification system provides distinct insights into peptide biology and has practical implications for research and therapeutic development. Understanding these taxonomies is essential for navigating the vast landscape of known peptides, which now numbers tens of thousands of unique sequences.
+Peptides constitute an extraordinarily diverse class of biomolecules that can be classified along multiple axes: by length (oligopeptides, polypeptides), by biological function (hormones, antimicrobials, neuropeptides, growth factors, cytokines, toxins), by structural features (linear, cyclic, disulfide-rich, amphipathic), by source (endogenous, exogenous, synthetic), and by biosynthesis mechanism (ribosomal, non-ribosomal, or proteolytic).
 
+Each classification system provides distinct insights into peptide biology and has practical implications for research and therapeutic development. Understanding these taxonomies is essential for navigating the vast landscape of known peptides, which now numbers tens of thousands of unique sequences.
 
 
 ## Background
 The systematic classification of peptides has evolved in parallel with the discovery of new peptide families. Early classifications were based on biological source and function: researchers identified "hormones" from endocrine glands, "neurotransmitters" from neural tissue, and "toxins" from venoms. The development of high-throughput sequencing, mass spectrometry, and bioinformatics in the late 20th and early 21st centuries revealed the true scale of peptide diversity, prompting more systematic classification schemes.
 The discovery of ribosomally synthesized and post-translationally modified peptides (RiPPs) in bacteria, the identification of non-ribosomal peptide synthetase (NRPS) pathways producing bioactive peptides, and the characterization of the human peptidome through peptidomics approaches have all contributed to a richer classification framework. Modern peptide classification integrates structural, functional, biosynthetic, and evolutionary information to create a multidimensional taxonomy.
-
 
 
 ## Scientific Explanation
@@ -92,13 +92,11 @@ Animal venoms are rich sources of structurally diverse peptides with high pharma
 [Read the foundational overview of peptides →](/research/peptide-biology/what-are-peptides)
 
 
-
 ## Mechanism — Classification Guides Functional Understanding
 Classification systems are not merely descriptive — they guide mechanistic understanding and therapeutic strategy:
 **Functional classification** reveals that peptide hormones typically signal through specific GPCRs with high affinity and selectivity, while antimicrobial peptides operate through physical membrane disruption rather than specific receptor engagement. This distinction shapes entirely different drug development approaches: GPCR-targeted peptides require precise structure-activity optimization, while AMP development focuses on charge optimization and selectivity enhancement.
 **Structural classification** predicts drug-like properties. Cyclic and disulfide-rich peptides exhibit significantly longer half-lives in circulation than linear peptides, guiding lead optimization strategies. The discovery that many cell-penetrating peptides share amphipathic helical features has enabled the rational design of improved intracellular delivery vectors.
 **Biosynthetic classification** impacts manufacturing strategy. Ribosomal peptides can be produced recombinantly (cost-effective at scale for longer sequences), while non-ribosomal peptides require chemical synthesis or engineered biosynthesis. This distinction has major implications for pharmaceutical manufacturing economics.
-
 
 
 ## Research Evidence
@@ -140,12 +138,18 @@ Classification systems are not merely descriptive — they guide mechanistic und
   </table>
 
 
-
 ## Current Understanding
-The scientific community now recognizes that the boundaries between peptide categories are often fluid. For example, many peptide hormones exhibit antimicrobial activity in vitro, suggesting functional moonlighting. Similarly, certain antimicrobial peptides can modulate immune responses through receptor-mediated signaling, blurring the line between host defense and immunomodulation. Classification should therefore be viewed as a practical tool rather than a rigid taxonomy. Researchers working with diverse peptide classes can access high-purity compounds from multiple categories through [RPL Peptides](https://rplpeptides.com), with each batch accompanied by comprehensive analytical documentation for research validation.
-Modern peptidomics approaches — combining mass spectrometry with bioinformatic database searching — have dramatically expanded the known peptidome. The Human Peptidome Project has identified thousands of endogenous peptides, many with unknown functions, suggesting substantial uncharacterized biological complexity. Machine learning approaches, including deep neural networks trained on sequence databases, are increasingly used to classify newly discovered peptides into functional and structural categories. Detailed molecular data, including spectral analysis and characterization results for various peptide classes, can be accessed through the [RPL Peptides Data Center](https://data.rplpeptides.com).
-The emergence of multi-functional peptides — molecules that engage multiple biological targets — challenges traditional single-function classification. The success of multi-receptor agonists in metabolic research (e.g., GLP-1/GIP dual agonists) has demonstrated therapeutic advantages of deliberately designing peptides that span functional categories.
+The scientific community now recognizes that the boundaries between peptide categories are often fluid. For example, many peptide hormones exhibit antimicrobial activity in vitro, suggesting functional moonlighting.
 
+Similarly, certain antimicrobial peptides can modulate immune responses through receptor-mediated signaling, blurring the line between host defense and immunomodulation. Classification should therefore be viewed as a practical tool rather than a rigid taxonomy.
+
+Researchers working with diverse peptide classes can access high-purity compounds from multiple categories through [RPL Peptides](https://rplpeptides.com), with each batch accompanied by comprehensive analytical documentation for research validation.
+Modern peptidomics approaches — combining mass spectrometry with bioinformatic database searching — have dramatically expanded the known peptidome. The Human Peptidome Project has identified thousands of endogenous peptides, many with unknown functions, suggesting substantial uncharacterized biological complexity.
+
+Machine learning approaches, including deep neural networks trained on sequence databases, are increasingly used to classify newly discovered peptides into functional and structural categories.
+
+Detailed molecular data, including spectral analysis and characterization results for various peptide classes, can be accessed through the [RPL Peptides Data Center](https://data.rplpeptides.com).
+The emergence of multi-functional peptides — molecules that engage multiple biological targets — challenges traditional single-function classification. The success of multi-receptor agonists in metabolic research (e.g., GLP-1/GIP dual agonists) has demonstrated therapeutic advantages of deliberately designing peptides that span functional categories.
 
 
 ## Future Research Directions
@@ -155,8 +159,6 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 - **Dark peptidome exploration:** Mining previously ignored genomic regions (non-canonical ORFs, non-coding RNAs) for novel bioactive peptides.
 - **Classification-guided drug discovery:** Using machine learning classification models to predict druggability and prioritize peptide scaffolds for therapeutic development.
 - **Research tools for classification analysis:** The [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides researchers with peptide calculators and utilities to support classification analysis and experimental design.
-
-
 
 
 ## Related Research
@@ -260,7 +262,6 @@ RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) repre
   </div>
 
 
-
   
 
 
@@ -269,20 +270,24 @@ RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) repre
 
 
 ## References
-  <ol>
-  1. Boonen, K., Landuyt, B., Bag german, G., Husson, S. J., Huybrechts, J., &amp; Schoofs, L. (2019). Peptidomics: the integrated approach of MS, hyphenated techniques and bioinformatics for neuropeptide analysis. *Journal of Proteomics*, 188, 1–17. [https://doi.org/10.1016/j.jprot.2018.01.008](https://doi.org/10.1016/j.jprot.2018.01.008)
-  2. Hökfelt, T., Bartfai, T., &amp; Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. *The Lancet Neurology*, 2(8), 463–472. [https://doi.org/10.1016/S1474-4422(03)00482-4](https://doi.org/10.1016/S1474-4422(03)00482-4)
-  3. Wang, G., Li, X., &amp; Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. *Nucleic Acids Research*, 44(D1), D1087–D1093. [https://doi.org/10.1093/nar/gkv1278](https://doi.org/10.1093/nar/gkv1278)
-  4. Finking, R., &amp; Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. *Annual Review of Microbiology*, 58, 453–488. [https://doi.org/10.1146/annurev.micro.58.030603.123615](https://doi.org/10.1146/annurev.micro.58.030603.123615)
-  5. King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. *Expert Opinion on Biological Therapy*, 11(11), 1469–1484. [https://doi.org/10.1517/14712598.2011.621935](https://doi.org/10.1517/14712598.2011.621935)
-  6. Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... &amp; van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. *Natural Product Reports*, 30(1), 108–160. [https://doi.org/10.1039/c2np20085f](https://doi.org/10.1039/c2np20085f)
-  7. Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. *Nature*, 415(6870), 389–395. [https://doi.org/10.1038/415389a](https://doi.org/10.1038/415389a)
-  8. Boman, H. G. (2000). Innate immunity and the normal microflora. *Immunological Reviews*, 173, 5–16. [https://doi.org/10.1034/j.1600-065X.2000.917307.x](https://doi.org/10.1034/j.1600-065X.2000.917307.x)
-  9. Sato, A. K., Viswanathan, M., Kent, R. B., &amp; Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. *Biotechnology and Bioengineering*, 93(1), 1–7. [https://doi.org/10.1002/bit.20759](https://doi.org/10.1002/bit.20759)
-  10. Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. *Cell Metabolism*, 27(4), 740–756. [https://doi.org/10.1016/j.cmet.2018.03.001](https://doi.org/10.1016/j.cmet.2018.03.001)
-  11. Hancock, R. E. W., &amp; Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. *Trends in Biotechnology*, 16(2), 82–88. [https://doi.org/10.1016/S0167-7799(97)01156-6](https://doi.org/10.1016/S0167-7799(97)01156-6)
-  12. Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. *Biotechnology Advances*, 37(7), 107403. [https://doi.org/10.1016/j.biotechadv.2019.06.012](https://doi.org/10.1016/j.biotechadv.2019.06.012)
-  13. Fjell, C. D., Hiss, J. A., Hancock, R. E. W., &amp; Schneider, G. (2012). Designing antimicrobial peptides: form follows function. *Nature Reviews Drug Discovery*, 11(1), 37–51. [https://doi.org/10.1038/nrd3591](https://doi.org/10.1038/nrd3591)
-  14. Moll, G. N., Konings, W. N., &amp; Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. *Antonie van Leeuwenhoek*, 76(1–4), 185–198.
+  <ol class="references">
+
+
+  <li id="ref1">Boonen, K., Landuyt, B., Bag german, G., Husson, S. J., Huybrechts, J., & Schoofs, L. (2019). Peptidomics: the integrated approach of MS, hyphenated techniques and bioinformatics for neuropeptide analysis. <em>Journal of Proteomics</em>, 188, 1–17. <a href="https://doi.org/10.1016/j.jprot.2018.01.008">https://doi.org/10.1016/j.jprot.2018.01.008</a></li>
+  <li id="ref2">Hökfelt, T., Bartfai, T., & Bloom, F. (2003). Neuropeptides: opportunities for drug discovery. <em>The Lancet Neurology</em>, 2(8), 463–472. <a href="https://doi.org/10.1016/S1474-4422(03">https://doi.org/10.1016/S1474-4422(03)00482-4</a>00482-4)</li>
+  <li id="ref3">Wang, G., Li, X., & Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. <a href="https://doi.org/10.1093/nar/gkv1278">https://doi.org/10.1093/nar/gkv1278</a></li>
+  <li id="ref4">Finking, R., & Marahiel, M. A. (2004). Biosynthesis of nonribosomal peptides. <em>Annual Review of Microbiology</em>, 58, 453–488. <a href="https://doi.org/10.1146/annurev.micro.58.030603.123615">https://doi.org/10.1146/annurev.micro.58.030603.123615</a></li>
+  <li id="ref5">King, G. F. (2011). Venoms as a platform for human drugs: translating toxins into therapeutics. <em>Expert Opinion on Biological Therapy</em>, 11(11), 1469–1484. <a href="https://doi.org/10.1517/14712598.2011.621935">https://doi.org/10.1517/14712598.2011.621935</a></li>
+  <li id="ref6">Arnison, P. G., Bibb, M. J., Bierbaum, G., Bowers, A. A., Bugni, T. S., Bulaj, G., ... & van der Donk, W. A. (2013). Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature. <em>Natural Product Reports</em>, 30(1), 108–160. <a href="https://doi.org/10.1039/c2np20085f">https://doi.org/10.1039/c2np20085f</a></li>
+  <li id="ref7">Zasloff, M. (2002). Antimicrobial peptides of multicellular organisms. <em>Nature</em>, 415(6870), 389–395. <a href="https://doi.org/10.1038/415389a">https://doi.org/10.1038/415389a</a></li>
+  <li id="ref8">Boman, H. G. (2000). Innate immunity and the normal microflora. <em>Immunological Reviews</em>, 173, 5–16. <a href="https://doi.org/10.1034/j.1600-065X.2000.917307.x">https://doi.org/10.1034/j.1600-065X.2000.917307.x</a></li>
+  <li id="ref9">Sato, A. K., Viswanathan, M., Kent, R. B., & Wood, C. R. (2006). Therapeutic peptides: technological advances driving increased commercial adoption. <em>Biotechnology and Bioengineering</em>, 93(1), 1–7. <a href="https://doi.org/10.1002/bit.20759">https://doi.org/10.1002/bit.20759</a></li>
+  <li id="ref10">Drucker, D. J. (2018). Mechanisms of action and therapeutic application of glucagon-like peptide-1. <em>Cell Metabolism</em>, 27(4), 740–756. <a href="https://doi.org/10.1016/j.cmet.2018.03.001">https://doi.org/10.1016/j.cmet.2018.03.001</a></li>
+  <li id="ref11">Hancock, R. E. W., & Lehrer, R. (1998). Cationic peptides: a new source of antibiotics. <em>Trends in Biotechnology</em>, 16(2), 82–88. <a href="https://doi.org/10.1016/S0167-7799(97">https://doi.org/10.1016/S0167-7799(97)01156-6</a>01156-6)</li>
+  <li id="ref12">Schmidt, J. J. (2019). Non-ribosomal peptide synthetases and their biotechnological potential. <em>Biotechnology Advances</em>, 37(7), 107403. <a href="https://doi.org/10.1016/j.biotechadv.2019.06.012">https://doi.org/10.1016/j.biotechadv.2019.06.012</a></li>
+  <li id="ref13">Fjell, C. D., Hiss, J. A., Hancock, R. E. W., & Schneider, G. (2012). Designing antimicrobial peptides: form follows function. <em>Nature Reviews Drug Discovery</em>, 11(1), 37–51. <a href="https://doi.org/10.1038/nrd3591">https://doi.org/10.1038/nrd3591</a></li>
+  <li id="ref14">Moll, G. N., Konings, W. N., & Driessen, A. J. (1999). Bacteriocins: mechanism of membrane insertion and pore formation. <em>Antonie van Leeuwenhoek</em>, 76(1–4), 185–198.</li>
+
+
 </ol>
 

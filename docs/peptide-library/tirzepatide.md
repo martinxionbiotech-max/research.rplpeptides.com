@@ -6,6 +6,7 @@ description: "Tirzepatide (LY3298176) is a synthetic 39-amino acid peptide engin
 # Tirzepatide — Dual GIP/GLP-1 Receptor Agonist
 
 <!-- Quick Facts Table -->
+
 ## Quick Facts
 <table class="quick-facts">
   <tbody>
@@ -21,33 +22,69 @@ description: "Tirzepatide (LY3298176) is a synthetic 39-amino acid peptide engin
 </table>
 
 ## Executive Summary
-Tirzepatide (LY3298176) is a synthetic 39-amino acid peptide engineered as a first-in-class dual agonist of the glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptors. Developed by Eli Lilly and Company, tirzepatide represents a paradigm shift in incretin-based pharmacology by simultaneously activating two complementary incretin pathways. The SURPASS clinical program demonstrated superior glycemic control and body weight reduction compared to selective GLP-1 receptor agonists, including semaglutide 1.0 mg. The SURMOUNT program established tirzepatide's efficacy for obesity, with mean body weight reductions of up to 22.5% at the highest dose (15 mg). Tirzepatide was the first dual incretin agonist to receive regulatory approval for type 2 diabetes and has subsequently been approved for chronic weight management.
+Tirzepatide (LY3298176) is a synthetic 39-amino acid peptide engineered as a first-in-class dual agonist of the glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptors.
+
+Developed by Eli Lilly and Company, tirzepatide represents a paradigm shift in incretin-based pharmacology by simultaneously activating two complementary incretin pathways. The SURPASS clinical program demonstrated superior glycemic control and body weight reduction compared to selective GLP-1 receptor agonists, including semaglutide 1.0 mg.
+
+The SURMOUNT program established tirzepatide's efficacy for obesity, with mean body weight reductions of up to 22.5% at the highest dose (15 mg). Tirzepatide was the first dual incretin agonist to receive regulatory approval for type 2 diabetes and has subsequently been approved for chronic weight management.
 
 ## Background
-The development of tirzepatide was grounded in the recognition that GIP, the first incretin hormone identified, had been underexploited therapeutically. While GIP was known to potentiate insulin secretion similarly to GLP-1, early observations suggesting GIP resistance in type 2 diabetes had dampened enthusiasm for GIP-based therapies. However, emerging evidence by the 2010s suggested that pharmacological levels of GIP agonism, particularly in combination with GLP-1R activation, could overcome this apparent resistance and provide unique metabolic benefits, including positive effects on lipid metabolism and adipose tissue function.
-Tirzepatide's chemical design is built on a modified GIP backbone with amino acid substitutions that confer balanced activity at both GIP and GLP-1 receptors. The GIPR agonism is preserved at near-native potency, while GLP-1R activity was optimized through systematic structure-activity relationship studies to produce a balanced dual action profile. A C20 fatty diacid moiety attached at lysine 20 enables albumin binding and extends the half-life to approximately 5 days, supporting once-weekly subcutaneous dosing. Importantly, the relative GIPR-to-GLP-1R potency ratio was selected based on preclinical data suggesting that strong GIPR agonism relative to GLP-1R agonism might improve tolerability while maintaining or enhancing efficacy.
+The development of tirzepatide was grounded in the recognition that GIP, the first incretin hormone identified, had been underexploited therapeutically. While GIP was known to potentiate insulin secretion similarly to GLP-1, early observations suggesting GIP resistance in type 2 diabetes had dampened enthusiasm for GIP-based therapies.
+
+However, emerging evidence by the 2010s suggested that pharmacological levels of GIP agonism, particularly in combination with GLP-1R activation, could overcome this apparent resistance and provide unique metabolic benefits, including positive effects on lipid metabolism and adipose tissue function.
+
+Tirzepatide's chemical design is built on a modified GIP backbone with amino acid substitutions that confer balanced activity at both GIP and GLP-1 receptors. The GIPR agonism is preserved at near-native potency, while GLP-1R activity was optimized through systematic structure-activity relationship studies to produce a balanced dual action profile.
+
+A C20 fatty diacid moiety attached at lysine 20 enables albumin binding and extends the half-life to approximately 5 days, supporting once-weekly subcutaneous dosing.
+
+Importantly, the relative GIPR-to-GLP-1R potency ratio was selected based on preclinical data suggesting that strong GIPR agonism relative to GLP-1R agonism might improve tolerability while maintaining or enhancing efficacy.
 
 ## Scientific Explanation
-Tirzepatide is structurally based on native human GIP but incorporates several critical modifications. The peptide backbone includes a C-terminally amidated 39-amino acid sequence with specific amino acid substitutions at positions 1, 2, 12, 13, 17, 19, 21, 23, 24, 27, 30, 32, 33, and 35 relative to native GIP. These modifications collectively optimize receptor binding and activation at both GIPR and GLP-1R. The most distinctive structural feature is the C20 fatty diacid moiety conjugated via a glutamic acid linker to the lysine at position 20, which drives albumin binding and pharmacokinetic extension.
-At the receptor level, tirzepatide binds to the extracellular domain of both GIPR and GLP-1R with high affinity. The peptide shows a modest preference for GIPR over GLP-1R in terms of binding affinity, but activates both receptors at pharmacologically relevant concentrations. This balanced dual activation distinguishes tirzepatide from earlier unigonal GLP-1R agonists and from synthetic peptides that primarily targeted GIPR alone.
+Tirzepatide is structurally based on native human GIP but incorporates several critical modifications. The peptide backbone includes a C-terminally amidated 39-amino acid sequence with specific amino acid substitutions at positions 1, 2, 12, 13, 17, 19, 21, 23, 24, 27, 30, 32, 33, and 35 relative to native GIP.
+
+These modifications collectively optimize receptor binding and activation at both GIPR and GLP-1R. The most distinctive structural feature is the C20 fatty diacid moiety conjugated via a glutamic acid linker to the lysine at position 20, which drives albumin binding and pharmacokinetic extension.
+
+At the receptor level, tirzepatide binds to the extracellular domain of both GIPR and GLP-1R with high affinity. The peptide shows a modest preference for GIPR over GLP-1R in terms of binding affinity, but activates both receptors at pharmacologically relevant concentrations.
+
+This balanced dual activation distinguishes tirzepatide from earlier unigonal GLP-1R agonists and from synthetic peptides that primarily targeted GIPR alone.
 
 ## Mechanism
 Tirzepatide exerts its biological effects through coordinated activation of both the GIP and GLP-1 receptor signaling cascades:
 **GIP Receptor Activation:** GIPR is expressed on pancreatic beta cells, adipose tissue, bone, and the central nervous system. GIPR activation in beta cells stimulates glucose-dependent insulin secretion, similar to GLP-1R. However, GIP signaling also exerts distinct effects on lipid metabolism: GIP promotes lipid uptake and storage in adipose tissue, modulates bone turnover, and has been suggested to improve beta cell survival. In the central nervous system, GIP receptor activation may contribute to appetite regulation, although the precise role remains under investigation.
 **GLP-1 Receptor Activation:** GLP-1R signaling potentiates insulin secretion, suppresses glucagon release, delays gastric emptying, and reduces appetite through central mechanisms. These effects are well-characterized through extensive research on selective GLP-1R agonists. In the context of dual agonism, the GLP-1R component provides the core incretin and anorectic effects, while GIPR activation contributes complementary metabolic actions.
-The synergy between GIPR and GLP-1R activation produces several emergent properties. Preclinical studies suggest that GIPR activation may attenuate the gastrointestinal adverse effects associated with GLP-1R activation, potentially through direct effects on GIP receptors in the gut or through modulation of central emetic pathways. Additionally, the combination of incretin pathways may produce greater improvements in insulin sensitivity and lipid metabolism than either pathway alone. The net effect of balanced dual agonism is superior glycemic control and body weight reduction compared to selective GLP-1R agonists, as demonstrated in head-to-head clinical trials.
+The synergy between GIPR and GLP-1R activation produces several emergent properties. Preclinical studies suggest that GIPR activation may attenuate the gastrointestinal adverse effects associated with GLP-1R activation, potentially through direct effects on GIP receptors in the gut or through modulation of central emetic pathways.
+
+Additionally, the combination of incretin pathways may produce greater improvements in insulin sensitivity and lipid metabolism than either pathway alone. The net effect of balanced dual agonism is superior glycemic control and body weight reduction compared to selective GLP-1R agonists, as demonstrated in head-to-head clinical trials.
 
 ## Research Evidence
-The clinical evidence for tirzepatide is derived from the comprehensive **SURPASS** (type 2 diabetes) and **SURMOUNT** (obesity) phase 3 clinical trial programs. The SURPASS program comprised multiple global trials encompassing a diverse participant population. In SURPASS-2, tirzepatide 5 mg, 10 mg, and 15 mg were compared to semaglutide 1.0 mg once weekly. All tirzepatide doses demonstrated superior HbA1c reduction (least-squares mean reductions ranging from 2.09% to 2.37%) compared to semaglutide (1.86%), with tirzepatide 15 mg achieving the greatest effect. Additionally, tirzepatide produced significantly greater body weight reductions (7.0–11.2 kg) compared to semaglutide (5.7 kg) over 40 weeks.
+The clinical evidence for tirzepatide is derived from the comprehensive **SURPASS** (type 2 diabetes) and **SURMOUNT** (obesity) phase 3 clinical trial programs. The SURPASS program comprised multiple global trials encompassing a diverse participant population.
+
+In SURPASS-2, tirzepatide 5 mg, 10 mg, and 15 mg were compared to semaglutide 1.0 mg once weekly. All tirzepatide doses demonstrated superior HbA1c reduction (least-squares mean reductions ranging from 2.09% to 2.37%) compared to semaglutide (1.86%), with tirzepatide 15 mg achieving the greatest effect.
+
+Additionally, tirzepatide produced significantly greater body weight reductions (7.0–11.2 kg) compared to semaglutide (5.7 kg) over 40 weeks.
+
 The SURPASS-4 trial evaluated tirzepatide in patients with type 2 diabetes at high cardiovascular risk and compared it to insulin glargine, demonstrating superior glycemic control and weight reduction with a favorable cardiovascular safety profile. The SURPASS-5 and SURPASS-6 trials further established efficacy in combination with insulin regimens.
-The **SURMOUNT** program evaluated tirzepatide for obesity. SURMOUNT-1, published in *The New England Journal of Medicine*, enrolled 2,539 adults with obesity and reported mean body weight reductions of 15.0%, 19.5%, and 20.9% with tirzepatide 5 mg, 10 mg, and 15 mg, respectively, compared to 3.1% with placebo over 72 weeks. A subsequent analysis of SURMOUNT-1 participants treated with tirzepatide 15 mg showed mean weight reduction of 22.5%, approaching the efficacy of bariatric surgery. The SURMOUNT-3 and SURMOUNT-4 trials demonstrated efficacy in combination with lifestyle intervention and for weight loss maintenance, respectively.
+
+The **SURMOUNT** program evaluated tirzepatide for obesity. SURMOUNT-1, published in *The New England Journal of Medicine*, enrolled 2,539 adults with obesity and reported mean body weight reductions of 15.0%, 19.5%, and 20.9% with tirzepatide 5 mg, 10 mg, and 15 mg, respectively, compared to 3.1% with placebo over 72 weeks.
+
+A subsequent analysis of SURMOUNT-1 participants treated with tirzepatide 15 mg showed mean weight reduction of 22.5%, approaching the efficacy of bariatric surgery. The SURMOUNT-3 and SURMOUNT-4 trials demonstrated efficacy in combination with lifestyle intervention and for weight loss maintenance, respectively.
 
 ## Current Understanding
 The scientific consensus recognizes tirzepatide as a transformative advance in incretin-based therapy. The dual GIP/GLP-1 receptor agonism approach has been validated through the consistent superiority of tirzepatide over selective GLP-1R agonists across multiple metabolic endpoints. The magnitude of body weight reduction achieved with tirzepatide 15 mg (22.5%) represents a new benchmark for non-surgical obesity pharmacotherapy.
-Key mechanistic questions remain regarding the relative contributions of GIPR and GLP-1R activation to the overall metabolic phenotype. The extent to which GIPR agonism directly contributes to improvements in insulin sensitivity, lipid metabolism, and adipose tissue function in humans is an active area of investigation. The observation that GIPR activation may improve gastrointestinal tolerability of GLP-1R agonists is supported by the lower rates of nausea and vomiting observed with tirzepatide compared to dose-equivalent GLP-1R agonism, though the mechanistic basis requires further elucidation.
+Key mechanistic questions remain regarding the relative contributions of GIPR and GLP-1R activation to the overall metabolic phenotype. The extent to which GIPR agonism directly contributes to improvements in insulin sensitivity, lipid metabolism, and adipose tissue function in humans is an active area of investigation.
+
+The observation that GIPR activation may improve gastrointestinal tolerability of GLP-1R agonists is supported by the lower rates of nausea and vomiting observed with tirzepatide compared to dose-equivalent GLP-1R agonism, though the mechanistic basis requires further elucidation.
 
 ## Future Research
-Several important research directions for tirzepatide are underway or anticipated. The SURPASS-CVOT cardiovascular outcomes trial is evaluating the effects of tirzepatide on major adverse cardiovascular events. The SURMOUNT-2 trial in patients with obesity and type 2 diabetes, and the SURMOUNT-5 head-to-head trial against semaglutide 2.4 mg, will further clarify the comparative efficacy of tirzepatide in specific populations. NASH-focused trials are evaluating tirzepatide for non-alcoholic steatohepatitis, leveraging the potential benefits of GIPR activation on hepatic lipid metabolism. Additionally, research into tirzepatide's effects on heart failure with preserved ejection fraction (HFpEF), chronic kidney disease, and obstructive sleep apnea is expanding the clinical investigation of this dual agonist. Future applications may include prediabetes, metabolic syndrome, and combination approaches with other metabolic peptide classes such as glucagon receptor agonists and amylin analogs.
+Several important research directions for tirzepatide are underway or anticipated. The SURPASS-CVOT cardiovascular outcomes trial is evaluating the effects of tirzepatide on major adverse cardiovascular events.
+
+The SURMOUNT-2 trial in patients with obesity and type 2 diabetes, and the SURMOUNT-5 head-to-head trial against semaglutide 2.4 mg, will further clarify the comparative efficacy of tirzepatide in specific populations.
+
+NASH-focused trials are evaluating tirzepatide for non-alcoholic steatohepatitis, leveraging the potential benefits of GIPR activation on hepatic lipid metabolism.
+
+Additionally, research into tirzepatide's effects on heart failure with preserved ejection fraction (HFpEF), chronic kidney disease, and obstructive sleep apnea is expanding the clinical investigation of this dual agonist.
+
+Future applications may include prediabetes, metabolic syndrome, and combination approaches with other metabolic peptide classes such as glucagon receptor agonists and amylin analogs.
 
 ## Related Research
 <div class="card-grid card-grid-3">
@@ -106,17 +143,35 @@ Several important research directions for tirzepatide are underway or anticipate
 
 
 ## References
-<ol class="references-list">
-  - Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. doi:10.1056/NEJMoa2107519
-  - Jastreboff AM, Aronne LJ, Ahmad NN, et al. Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. doi:10.1056/NEJMoa2206038
-  - Rosenstock J, Wysham C, Frías JP, et al. Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. doi:10.1016/S0140-6736(21)01324-6
-  - Ludvik B, Giorgino F, Jódar E, et al. Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. doi:10.1016/S0140-6736(21)01443-4
-  - Del Prato S, Kahn SE, Pavo I, et al. Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. doi:10.1016/S0140-6736(21)02188-7
-  - Coskun T, Sloop KW, Loghin C, et al. LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. doi:10.1038/s42255-018-0007-6
-  - Samms RJ, Coghlan MP, Sloop KW. How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
+<ol class="references">
+
+
+- Frías JP, Davies MJ, Rosenstock J, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. <em>New England Journal of Medicine</em>. 2021;385(6):503-515. doi:10.1056/NEJMoa2107519
+  - Jastreboff AM, Aronne LJ, Ahmad NN, et al.
+
+Tirzepatide Once Weekly for the Treatment of Obesity. <em>New England Journal of Medicine</em>. 2022;387(3):205-216. doi:10.1056/NEJMoa2206038
+  - Rosenstock J, Wysham C, Frías JP, et al.
+
+Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial. <em>The Lancet</em>. 2021;398(10295):143-155. doi:10.1016/S0140-6736(21)01324-6
+  - Ludvik B, Giorgino F, Jódar E, et al.
+
+Once-weekly tirzepatide versus once-daily insulin degludec as add-on to metformin with or without SGLT2 inhibitors in patients with type 2 diabetes (SURPASS-3): a randomised, open-label, parallel-group, phase 3 trial. <em>The Lancet</em>. 2021;398(10300):583-598. doi:10.1016/S0140-6736(21)01443-4
+  - Del Prato S, Kahn SE, Pavo I, et al.
+
+Tirzepatide versus insulin glargine in type 2 diabetes and increased cardiovascular risk (SURPASS-4): a randomised, open-label, parallel-group, multicentre, phase 3 trial. <em>The Lancet</em>. 2021;398(10313):1811-1824. doi:10.1016/S0140-6736(21)02188-7
+  - Coskun T, Sloop KW, Loghin C, et al.
+
+LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: from discovery to clinical proof of concept. <em>Nature Metabolism</em>. 2018;1(4):439-449. doi:10.1038/s42255-018-0007-6
+  - Samms RJ, Coghlan MP, Sloop KW.
+
+How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
   - Baggio LL, Drucker DJ. Biology of incretins: GLP-1 and GIP. <em>Gastroenterology</em>. 2007;132(6):2131-2157. doi:10.1053/j.gastro.2007.03.054
-  - Campbell JE, Drucker DJ. Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
+  - Campbell JE, Drucker DJ.
+
+Pharmacology, physiology, and mechanisms of incretin hormone action. <em>Cell Metabolism</em>. 2013;17(6):819-837. doi:10.1016/j.cmet.2013.04.008
   - Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. doi:10.2337/dbi16-0086
+
+
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated July 2025*

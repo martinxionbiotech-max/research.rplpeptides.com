@@ -6,6 +6,7 @@ description: "Retatrutide (LY3437943) is an investigational synthetic peptide en
 # Retatrutide (LY3437943) — Triple GLP-1/GIP/Glucagon Receptor Agonist
 
 <!-- Quick Facts Table -->
+
 ## Quick Facts
 <table class="quick-facts">
   <tbody>
@@ -22,11 +23,25 @@ description: "Retatrutide (LY3437943) is an investigational synthetic peptide en
 </table>
 
 ## Executive Summary
-Retatrutide (LY3437943) is an investigational synthetic peptide engineered as a triple agonist at the glucagon-like peptide-1 receptor (GLP-1R), glucose-dependent insulinotropic polypeptide receptor (GIPR), and glucagon receptor (GCGR). Developed by Eli Lilly and Company, retatrutide represents a further evolution of multi-receptor metabolic peptide pharmacology beyond the dual agonism of tirzepatide. By simultaneously activating three metabolically relevant receptor pathways, retatrutide aims to achieve enhanced glycemic control, superior body weight reduction, and beneficial effects on hepatic steatosis through complementary and synergistic mechanisms. Phase 2 clinical data published in *The New England Journal of Medicine* and *The Lancet* have demonstrated substantial efficacy in both type 2 diabetes and obesity, with some participants achieving body weight reductions exceeding 24%.
+Retatrutide (LY3437943) is an investigational synthetic peptide engineered as a triple agonist at the glucagon-like peptide-1 receptor (GLP-1R), glucose-dependent insulinotropic polypeptide receptor (GIPR), and glucagon receptor (GCGR).
+
+Developed by Eli Lilly and Company, retatrutide represents a further evolution of multi-receptor metabolic peptide pharmacology beyond the dual agonism of tirzepatide.
+
+By simultaneously activating three metabolically relevant receptor pathways, retatrutide aims to achieve enhanced glycemic control, superior body weight reduction, and beneficial effects on hepatic steatosis through complementary and synergistic mechanisms.
+
+Phase 2 clinical data published in *The New England Journal of Medicine* and *The Lancet* have demonstrated substantial efficacy in both type 2 diabetes and obesity, with some participants achieving body weight reductions exceeding 24%.
 
 ## Background
-The development of retatrutide emerged from the recognition that the coordinated actions of multiple nutrient-regulated hormones—GLP-1, GIP, and glucagon—produce more robust metabolic effects than any single pathway alone. Native GLP-1 and GIP are incretin hormones secreted from intestinal cells that stimulate glucose-dependent insulin secretion, while glucagon (secreted from pancreatic alpha cells) primarily acts to raise blood glucose through hepatic gluconeogenesis and glycogenolysis. However, when combined in a balanced pharmacological context, glucagon receptor activation can complement GLP-1 and GIP activity by increasing energy expenditure and hepatic lipid oxidation.
-Rational multi-receptor agonist design requires precise balancing of relative receptor potencies to maximize therapeutic benefit while minimizing adverse effects. Coskun and colleagues reported the preclinical pharmacology of LY3437943, demonstrating that an optimized ratio of GIPR/GLP-1R/GCGR activation produces superior weight loss and glycemic improvement compared to dual agonists in preclinical models. The GIP receptor agonism component was noted to potentially mitigate gastrointestinal tolerability issues associated with strong GLP-1R activation, while the glucagon receptor agonism component contributes to increased energy expenditure and hepatic fat reduction.
+The development of retatrutide emerged from the recognition that the coordinated actions of multiple nutrient-regulated hormones—GLP-1, GIP, and glucagon—produce more robust metabolic effects than any single pathway alone.
+
+Native GLP-1 and GIP are incretin hormones secreted from intestinal cells that stimulate glucose-dependent insulin secretion, while glucagon (secreted from pancreatic alpha cells) primarily acts to raise blood glucose through hepatic gluconeogenesis and glycogenolysis.
+
+However, when combined in a balanced pharmacological context, glucagon receptor activation can complement GLP-1 and GIP activity by increasing energy expenditure and hepatic lipid oxidation.
+Rational multi-receptor agonist design requires precise balancing of relative receptor potencies to maximize therapeutic benefit while minimizing adverse effects.
+
+Coskun and colleagues reported the preclinical pharmacology of LY3437943, demonstrating that an optimized ratio of GIPR/GLP-1R/GCGR activation produces superior weight loss and glycemic improvement compared to dual agonists in preclinical models.
+
+The GIP receptor agonism component was noted to potentially mitigate gastrointestinal tolerability issues associated with strong GLP-1R activation, while the glucagon receptor agonism component contributes to increased energy expenditure and hepatic fat reduction.
 
 ## Scientific Explanation
 Retatrutide is a synthetic 39-amino acid peptide engineered through systematic structure-activity relationship optimization of native peptide hormone sequences. The peptide incorporates fatty acid acylation to enable albumin binding and extend its circulating half-life to approximately 6–7 days, permitting once-weekly subcutaneous administration. The molecular structure is designed to activate all three class B G protein-coupled receptors—GLP-1R, GIPR, and GCGR—with balanced potencies that reflect the physiological interplay of these hormone systems.
@@ -40,15 +55,35 @@ Retatrutide exerts its metabolic effects through the coordinated activation of t
 
 ## Research Evidence
 Preclinical pharmacology studies by Coskun et al. characterized retatrutide's in vitro potency and in vivo efficacy. In diet-induced obese mouse models, retatrutide produced dose-dependent body weight reductions exceeding those of selective GLP-1R agonists and GLP-1R/GIPR dual agonists, with concurrent improvements in glycemic control and hepatic steatosis. The triple agonist approach demonstrated a favorable therapeutic index with acceptable gastrointestinal tolerability in animal models.
-Phase 1 clinical trials established the safety and pharmacokinetic profile of retatrutide in healthy volunteers and participants with type 2 diabetes. The phase 2 trial for type 2 diabetes enrolled 281 participants across multiple dose cohorts and demonstrated significant reductions in HbA1c (up to −2.02% from baseline) and body weight (up to −16.5% from baseline) over 48 weeks. The phase 2 obesity trial, published in *The New England Journal of Medicine* by Jastreboff and colleagues, enrolled 338 adults with obesity and reported mean body weight reductions of up to 24.2% at 48 weeks with the highest dose (12 mg), the largest weight reduction reported for any pharmacotherapeutic intervention to date.
-Notably, the weight reduction trajectory had not plateaued at 48 weeks in the highest-dose group, suggesting the potential for even greater efficacy with longer treatment duration. The most common adverse events were gastrointestinal (nausea, diarrhea, vomiting), consistent with the GLP-1R agonist class, and were predominantly mild to moderate in severity and diminished over time.
+Phase 1 clinical trials established the safety and pharmacokinetic profile of retatrutide in healthy volunteers and participants with type 2 diabetes.
+
+The phase 2 trial for type 2 diabetes enrolled 281 participants across multiple dose cohorts and demonstrated significant reductions in HbA1c (up to −2.02% from baseline) and body weight (up to −16.5% from baseline) over 48 weeks.
+
+The phase 2 obesity trial, published in *The New England Journal of Medicine* by Jastreboff and colleagues, enrolled 338 adults with obesity and reported mean body weight reductions of up to 24.2% at 48 weeks with the highest dose (12 mg), the largest weight reduction reported for any pharmacotherapeutic intervention to date.
+
+Notably, the weight reduction trajectory had not plateaued at 48 weeks in the highest-dose group, suggesting the potential for even greater efficacy with longer treatment duration.
+
+The most common adverse events were gastrointestinal (nausea, diarrhea, vomiting), consistent with the GLP-1R agonist class, and were predominantly mild to moderate in severity and diminished over time.
 
 ## Current Understanding
-The scientific community recognizes retatrutide as a pioneering triple-receptor agonist that validates the multi-hormone pharmacological approach for metabolic disease. The clinical evidence demonstrates that coordinated activation of GLP-1R, GIPR, and GCGR can achieve weight reductions approaching the range typically associated with bariatric surgery, suggesting a major advance in obesity pharmacotherapy. The triple agonism approach appears to engage complementary mechanisms of action—appetite suppression via GLP-1R, enhanced incretin effects via GIPR, and increased energy expenditure via GCGR—to produce the observed metabolic benefits.
-Ongoing phase 3 clinical trials are evaluating retatrutide in larger populations for type 2 diabetes, obesity, and NASH. The NASH program is of particular interest given the potential for glucagon receptor-mediated hepatic lipid oxidation to reduce liver fat content and improve histological outcomes in non-alcoholic steatohepatitis. Important research questions remain, including the long-term cardiovascular safety and efficacy profile, optimal dosing strategies, durability of weight loss, and potential for rebound metabolic effects upon treatment discontinuation.
+The scientific community recognizes retatrutide as a pioneering triple-receptor agonist that validates the multi-hormone pharmacological approach for metabolic disease.
+
+The clinical evidence demonstrates that coordinated activation of GLP-1R, GIPR, and GCGR can achieve weight reductions approaching the range typically associated with bariatric surgery, suggesting a major advance in obesity pharmacotherapy.
+
+The triple agonism approach appears to engage complementary mechanisms of action—appetite suppression via GLP-1R, enhanced incretin effects via GIPR, and increased energy expenditure via GCGR—to produce the observed metabolic benefits.
+
+Ongoing phase 3 clinical trials are evaluating retatrutide in larger populations for type 2 diabetes, obesity, and NASH. The NASH program is of particular interest given the potential for glucagon receptor-mediated hepatic lipid oxidation to reduce liver fat content and improve histological outcomes in non-alcoholic steatohepatitis.
+
+Important research questions remain, including the long-term cardiovascular safety and efficacy profile, optimal dosing strategies, durability of weight loss, and potential for rebound metabolic effects upon treatment discontinuation.
 
 ## Future Research
-Several critical research directions for retatrutide warrant attention. First, the phase 3 cardiovascular outcomes trial will assess the impact of triple-receptor agonism on major adverse cardiovascular events (MACE), building on the cardioprotective effects established for GLP-1 receptor agonists. Second, the NASH program will evaluate whether the glucagon receptor component translates into improved histological outcomes for non-alcoholic steatohepatitis, a condition with limited pharmacotherapeutic options. Third, long-term extension studies will provide essential data on the durability of weight loss maintenance, metabolic adaptation, and safety beyond 2 years of treatment. Fourth, investigations into potential applications in prediabetes, metabolic syndrome, and cardiovascular risk reduction are anticipated. Finally, comparative effectiveness research against bariatric surgery and other intensive lifestyle interventions will help establish the clinical positioning of triple-receptor agonism in the treatment spectrum of obesity.
+Several critical research directions for retatrutide warrant attention. First, the phase 3 cardiovascular outcomes trial will assess the impact of triple-receptor agonism on major adverse cardiovascular events (MACE), building on the cardioprotective effects established for GLP-1 receptor agonists.
+
+Second, the NASH program will evaluate whether the glucagon receptor component translates into improved histological outcomes for non-alcoholic steatohepatitis, a condition with limited pharmacotherapeutic options.
+
+Third, long-term extension studies will provide essential data on the durability of weight loss maintenance, metabolic adaptation, and safety beyond 2 years of treatment. Fourth, investigations into potential applications in prediabetes, metabolic syndrome, and cardiovascular risk reduction are anticipated.
+
+Finally, comparative effectiveness research against bariatric surgery and other intensive lifestyle interventions will help establish the clinical positioning of triple-receptor agonism in the treatment spectrum of obesity.
 
 ## Related Research
 <div class="card-grid card-grid-3">
@@ -107,17 +142,39 @@ Several critical research directions for retatrutide warrant attention. First, t
 
 
 ## References
-<ol class="references-list">
-  - Coskun T, Urva S, Roell WC, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. doi:10.1016/S0140-6736(22)02033-5
-  - Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. doi:10.1056/NEJMoa2301972
-  - Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. doi:10.1016/S0140-6736(23)01553-2
-  - Coskun T, Sloop KW, Loghin C, et al. LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. doi:10.1111/dom.14629
-  - Finan B, Yang B, Ottaway N, et al. A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. doi:10.1038/nm.3761
-  - Galsgaard KD, Pedersen J, Knop FK, et al. Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. doi:10.3389/fphys.2019.00413
-  - Capozzi ME, DiMarchi RD, Tschöp MH, et al. Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. doi:10.1210/er.2018-00117
-  - Samms RJ, Coghlan MP, Sloop KW. How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
-  - Tschöp MH, DiMarchi RD. Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. doi:10.2337/dbi16-0086
+<ol class="references">
+
+
+- Coskun T, Urva S, Roell WC, et al.
+
+LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending-dose trial. <em>The Lancet</em>. 2022;400(10357):1869-1881. doi:10.1016/S0140-6736(22)02033-5
+  - Jastreboff AM, Kaplan LM, Frías JP, et al.
+
+Triple-hormone-receptor agonist retatrutide for obesity. <em>New England Journal of Medicine</em>. 2023;389(6):514-526. doi:10.1056/NEJMoa2301972
+  - Rosenstock J, Frias J, Jastreboff AM, et al.
+
+Retatrutide, a GIP/GLP-1/glucagon triple-receptor agonist, for type 2 diabetes: a randomised, double-blind, placebo-controlled, phase 2 trial. <em>The Lancet</em>. 2023;402(10411):1393-1405. doi:10.1016/S0140-6736(23)01553-2
+  - Coskun T, Sloop KW, Loghin C, et al.
+
+LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist for the treatment of obesity and diabetes. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(4):684-693. doi:10.1111/dom.14629
+  - Finan B, Yang B, Ottaway N, et al.
+
+A rationally designed monomeric peptide triagonist corrects obesity and diabetes in rodents. <em>Nature Medicine</em>. 2015;21(1):27-36. doi:10.1038/nm.3761
+  - Galsgaard KD, Pedersen J, Knop FK, et al.
+
+Glucagon receptor signaling and lipid metabolism. <em>Frontiers in Physiology</em>. 2019;10:413. doi:10.3389/fphys.2019.00413
+  - Capozzi ME, DiMarchi RD, Tschöp MH, et al.
+
+Targeting the incretin/glucagon system with triagonists to treat diabetes. <em>Endocrine Reviews</em>. 2018;39(5):719-738. doi:10.1210/er.2018-00117
+  - Samms RJ, Coghlan MP, Sloop KW.
+
+How may GIP enhance the therapeutic efficacy of GLP-1? <em>Trends in Endocrinology &amp; Metabolism</em>. 2020;31(6):410-420. doi:10.1016/j.tem.2020.02.006
+  - Tschöp MH, DiMarchi RD.
+
+Single-molecule combinatorial therapeutics for treating obesity and diabetes. <em>Diabetes</em>. 2017;66(7):1766-1769. doi:10.2337/dbi16-0086
   - Sonne DP, Hemmingsen B, Faber J, et al. Pharmacology and physiology of glucagon receptor signaling. <em>Molecular Metabolism</em>. 2021;46:101169. doi:10.1016/j.molmet.2021.101169
+
+
 </ol>
 
 *— Written by the [RPL Scientific Editorial Team](https://research.rplpeptides.com/authors/) | Last updated July 2025*

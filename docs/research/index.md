@@ -4,13 +4,12 @@ description: "Explore our comprehensive research categories, each with in-depth 
 ---
 
 
-
 # Peptide Research Knowledge Base
 Explore our comprehensive research categories, each with in-depth articles on fundamental concepts and cutting-edge developments in peptide science.
 
 <div class="card-grid card-grid-3" style="margin-top:1.5rem;">
 
-<a href="peptide-biology/index.md" class="card" style="display:flex; flex-direction:column;">
+<a href="peptide-biology/" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">🧬</div>
 <h3>Peptide Biology</h3>
 <p style="flex:1;">Fundamentals of peptide structure, classification, sequence-function relationships, and signaling mechanisms in biological systems.
@@ -22,7 +21,7 @@ Explore our comprehensive research categories, each with in-depth articles on fu
 </div>
 </a>
 
-<a href="peptide-chemistry/index.md" class="card" style="display:flex; flex-direction:column;">
+<a href="peptide-chemistry/" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">⚗️</div>
 <h3>Peptide Chemistry</h3>
 <p style="flex:1;">Synthesis methods, purification strategies, and analytical characterization techniques for peptide research.
@@ -34,7 +33,7 @@ Explore our comprehensive research categories, each with in-depth articles on fu
 </div>
 </a>
 
-<a href="analytical-science/index.md" class="card" style="display:flex; flex-direction:column;">
+<a href="analytical-science/" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">🔬</div>
 <h3>Analytical Science</h3>
 <p style="flex:1;">HPLC, mass spectrometry, stability testing, and purity assessment methodologies for peptide characterization.
@@ -46,7 +45,7 @@ Explore our comprehensive research categories, each with in-depth articles on fu
 </div>
 </a>
 
-<a href="metabolic/index.md" class="card" style="display:flex; flex-direction:column;">
+<a href="metabolic/" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">❤️</div>
 <h3>Metabolic Research</h3>
 <p style="flex:1;">GLP-1, GIP, incretin biology, and multi-receptor peptide research for metabolic applications.
@@ -58,7 +57,7 @@ Explore our comprehensive research categories, each with in-depth articles on fu
 </div>
 </a>
 
-<a href="applications/index.md" class="card" style="display:flex; flex-direction:column;">
+<a href="applications/" class="card" style="display:flex; flex-direction:column;">
 <div style="font-size:2rem; margin-bottom:1rem;">💊</div>
 <h3>Research Applications</h3>
 <p style="flex:1;">Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology.

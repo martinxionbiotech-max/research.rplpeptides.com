@@ -4,7 +4,6 @@ description: "Our commitment to accuracy, authority, and educational integrity i
 ---
 
 
-
 # Editorial Team and Scientific Review
 Our commitment to accuracy, authority, and educational integrity in peptide science communication.
 
@@ -42,21 +41,26 @@ Dr. Patel specializes in peptide signaling pathways and molecular endocrinology.
 
 <h2 style="margin-top:3rem;">Technical Review Process</h2>
 <div style="margin-top:1.5rem;">
-<ol style="list-style:decimal; padding-left:1.5rem; color:#475569; line-height:2;">
-  1. Topic identification and scoping based on current scientific literature and research trends.
-  2. Drafting by subject-matter expert with comprehensive literature review.
-  3. Peer review by at least one additional member of the editorial team.
-  4. Factual verification of all citations against original peer-reviewed sources.
-  5. Technical accuracy review by the Peptide Research Advisory Team.
-  6. Style and clarity editing for consistency with platform standards.
-  7. Publication with DOI-style citation and permanent archive reference.
-  8. Quarterly review for updates reflecting scientific advances.
+<ol class="references">
+
+
+  <li id="ref1">Topic identification and scoping based on current scientific literature and research trends.</li>
+  <li id="ref2">Drafting by subject-matter expert with comprehensive literature review.</li>
+  <li id="ref3">Peer review by at least one additional member of the editorial team.</li>
+  <li id="ref4">Factual verification of all citations against original peer-reviewed sources.</li>
+  <li id="ref5">Technical accuracy review by the Peptide Research Advisory Team.</li>
+  <li id="ref6">Style and clarity editing for consistency with platform standards.</li>
+  <li id="ref7">Publication with DOI-style citation and permanent archive reference.</li>
+  <li id="ref8">Quarterly review for updates reflecting scientific advances.</li>
+
+
 </ol>
 </div>
 
 <h2 style="margin-top:3rem;">Content Standards</h2>
 !!! info ""
     The RPL Peptides Research Knowledge Center adheres to the following content principles:
+
     - All scientific claims are supported by citations from peer-reviewed literature.
     - Content is reviewed regularly to reflect advances in scientific understanding.
     - We distinguish between established scientific knowledge and emerging research areas.
