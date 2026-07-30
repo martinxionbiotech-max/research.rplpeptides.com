@@ -144,26 +144,26 @@ These sex-specific aspects of incretin biology warrant dedicated investigation, 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>Why is GLP-1 more effective in type 2 diabetes than GIP?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Why is GLP-1 more effective in type 2 diabetes than GIP?</h3>
 <p>The insulinotropic effect of GIP is blunted in type 2 diabetes due to GIP receptor downregulation on beta cells. In contrast, the GLP-1 receptor remains responsive. The mechanism involves chronic hyperglycemia-induced desensitization of GIPR signaling.</p>
-</details>
-<details class="faq-item">
-<summary>Does GIP or GLP-1 have a greater effect on body weight?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Does GIP or GLP-1 have a greater effect on body weight?</h3>
 <p>GLP-1 has a stronger direct effect on body weight through central appetite suppression and delayed gastric emptying. However, GIP contributes to weight loss in the context of dual agonism, possibly through enhanced energy expenditure and improved adipose tissue function.</p>
-</details>
-<details class="faq-item">
-<summary>How does glucagon regulation differ between GLP-1 and GIP?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does glucagon regulation differ between GLP-1 and GIP?</h3>
 <p>GLP-1 suppresses glucagon secretion in a glucose-dependent manner, reducing hepatic glucose output. GIP stimulates glucagon secretion under euglycemic and hypoglycemic conditions, which may serve as a counterregulatory mechanism.</p>
-</details>
-<details class="faq-item">
-<summary>Are GIP and GLP-1 receptors co-expressed in the same tissues?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Are GIP and GLP-1 receptors co-expressed in the same tissues?</h3>
 <p>Both receptors are expressed on pancreatic beta cells and in the brain, but with distinct distribution patterns. GIPR is highly expressed on adipocytes and bone, where GLP-1R is minimally expressed. The receptors may form heterodimers with unique signaling properties.</p>
-</details>
-<details class="faq-item">
-<summary>What explains the superior efficacy of dual GIP/GLP-1 agonists?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What explains the superior efficacy of dual GIP/GLP-1 agonists?</h3>
 <p>Dual agonists produce complementary actions: GLP-1 provides insulin stimulation and appetite suppression, while GIP contributes through enhanced energy expenditure, improved adipose tissue function, and potential restoration of GIP sensitivity in the presence of GLP-1R activation.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

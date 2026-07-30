@@ -122,46 +122,46 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 
 
 ## Frequently Asked Questions
-  <details class="faq-item">
-<summary>What is the difference between a peptide and a protein?</summary>
+  <div class="faq-item">
+<h3 class="faq-question">What is the difference between a peptide and a protein?</h3>
 <p>Peptides are shorter (typically fewer than 50 amino acids) while proteins are longer. This distinction is primarily operational; many biologically active molecules exist near this boundary. Practically, peptides are more synthetically accessible, penetrate tissues more readily, and elicit fewer immune responses than larger proteins.</p>
-</details>
-  <details class="faq-item">
-<summary>How many amino acids make up a peptide?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How many amino acids make up a peptide?</h3>
 <p>Peptides range from dipeptides (2 amino acids) to polypeptides (up to approximately 50 amino acids). Common categories include dipeptides (2), tripeptides (3), tetrapeptides (4), pentapeptides (5), and oligopeptides (generally 2–20). The most bioactive signaling peptides in humans are typically in the 3–40 amino acid range.</p>
-</details>
-  <details class="faq-item">
-<summary>How are peptides synthesized in the laboratory?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How are peptides synthesized in the laboratory?</h3>
 <p>Most peptides are produced via solid-phase peptide synthesis (SPPS), a method pioneered by Bruce Merrifield in 1963. Amino acids are sequentially coupled to a solid resin support, with protecting groups preventing unwanted side reactions. After assembly, the peptide is cleaved from the resin and purified, typically by preparative HPLC. Recombinant expression in microbial systems is also used for longer peptides.</p>
-</details>
-  <details class="faq-item">
-<summary>Are peptides naturally occurring in the human body?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Are peptides naturally occurring in the human body?</h3>
 <p>Yes. The human body produces thousands of naturally occurring peptides that function as hormones (insulin, glucagon), growth factors, neurotransmitters (substance P), antimicrobial agents (defensins), and regulatory molecules. Endogenous peptides are typically encoded by specific genes and produced through proteolytic processing of larger precursor proteins.</p>
-</details>
-  <details class="faq-item">
-<summary>What are the main advantages of peptides as therapeutic agents?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are the main advantages of peptides as therapeutic agents?</h3>
 <p>Peptides offer high target specificity and potency, low toxicity profiles, minimal drug-drug interactions, and the ability to engage targets (such as protein-protein interfaces) that are difficult to modulate with small molecules. They also tend to have rapid onset of action and predictable metabolism to amino acids, reducing the risk of toxic metabolite accumulation.</p>
-</details>
-  <details class="faq-item">
-<summary>What are the limitations of peptide-based drugs?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are the limitations of peptide-based drugs?</h3>
 <p>The principal limitations include poor oral bioavailability (most peptides require injection), rapid enzymatic degradation in plasma and tissues, short circulating half-lives, and challenges with large-scale manufacturing. However, significant progress has been made through formulation strategies, amino acid modifications, and conjugation to half-life-extending moieties such as polyethylene glycol or fatty acids.</p>
-</details>
-  <details class="faq-item">
-<summary>How are peptides classified?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How are peptides classified?</h3>
 <p>Peptides can be classified by length (oligopeptides, polypeptides), source (endogenous, exogenous), biological function (hormones, antimicrobials, neuropeptides, growth factors), structural features (linear, cyclic, disulfide-rich), or biosynthesis mechanism (ribosomal, non-ribosomal). Multiple classification systems often overlap for any given peptide.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the peptide bond and why is it important?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the peptide bond and why is it important?</h3>
 <p>The peptide bond is an amide linkage (—CO—NH—) formed between the carboxyl group of one amino acid and the amino group of another. It has partial double-bond character due to resonance, making it planar and rigid. This planarity constrains the possible conformations of the peptide backbone and is the fundamental structural determinant of peptide and protein folding.</p>
-</details>
-  <details class="faq-item">
-<summary>Can peptides cross the blood-brain barrier?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Can peptides cross the blood-brain barrier?</h3>
 <p>Most peptides do not readily cross the blood-brain barrier (BBB) due to their hydrophilicity, molecular weight, and susceptibility to enzymatic degradation. However, certain small peptides (e.g., thyrotropin-releasing hormone, TRH) can cross to some extent. Strategies including conjugation to BBB-penetrating vectors, nanoparticle encapsulation, and intranasal administration are being actively investigated to enhance brain delivery.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the history of peptide drug discovery?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the history of peptide drug discovery?</h3>
 <p>Peptide-based therapeutics began with insulin (1922), the first peptide drug. The field advanced through oxytocin synthesis (1953, du Vigneaud), SPPS development (1963, Merrifield), recombinant insulin production (1982), and the approval of the first peptide GPCR antagonist (2003). As of 2025, over 80 peptide drugs are approved, predominantly for metabolic, oncologic, and endocrine indications.</p>
-</details>
+</div>
 
 
   

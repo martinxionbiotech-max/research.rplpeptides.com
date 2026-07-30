@@ -99,45 +99,45 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 
 ## Frequently Asked Questions
 
-<details class="faq-item">
-<summary>How does ipamorelin differ from other growth hormone secretagogues?</summary>
+<div class="faq-item">
+<h3 class="faq-question">How does ipamorelin differ from other growth hormone secretagogues?</h3>
 <p>Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>Does ipamorelin work through the same mechanism as GHRH?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Does ipamorelin work through the same mechanism as GHRH?</h3>
 <p>No. Ipamorelin acts on the GHS-R1a receptor (the ghrelin receptor), which is distinct from the GHRH receptor. GHS-R1a signals primarily through the phospholipase C–IP₃–calcium pathway, whereas GHRH signals through the adenylyl cyclase–cAMP–PKA pathway. Both converge on GH release from pituitary somatotrophs and can produce additive or synergistic effects when combined.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>Is ipamorelin FDA-approved?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Is ipamorelin FDA-approved?</h3>
 <p>No. Ipamorelin is not FDA-approved for any clinical indication. It is a research compound used in preclinical and early-phase clinical studies to investigate GH axis physiology and potential therapeutic applications.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>What is the significance of the modified amino acids in ipamorelin?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the significance of the modified amino acids in ipamorelin?</h3>
 <p>The inclusion of Aib (α-aminoisobutyric acid) and d-amino acids (d-2-Nal, d-Phe) confers resistance to proteolytic cleavage by endo- and exopeptidases, significantly improving the peptide's in vivo stability compared to all-L-amino-acid peptides. This is a common strategy in peptide drug design to enhance pharmacokinetic properties.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>What are the reported effects of ipamorelin on bone?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What are the reported effects of ipamorelin on bone?</h3>
 <p>In preclinical and early clinical studies, ipamorelin has been shown to stimulate bone formation markers such as osteocalcin and P1NP. The effect is thought to be mediated through GH–IGF-1 axis activation, which promotes osteoblast differentiation and activity. However, large-scale clinical trials for bone indications have not been conducted.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>Can ipamorelin be taken orally?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Can ipamorelin be taken orally?</h3>
 <p>While ipamorelin is more resistant to proteolysis than linear all-L-peptides, its oral bioavailability remains negligible. It is administered by subcutaneous or intravenous injection in research settings. Oral formulation approaches (e.g., permeation enhancers) have not been clinically validated for this peptide.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>How long does the GH response to ipamorelin last?</summary>
+<div class="faq-item">
+<h3 class="faq-question">How long does the GH response to ipamorelin last?</h3>
 <p>Following subcutaneous administration, peak GH levels are typically achieved within 30–60 minutes, with GH levels returning to baseline by approximately 2–3 hours post-injection. The total GH secretory pulse magnitude is dose-dependent and has been characterized in several human pharmacokinetic/pharmacodynamic studies.</p>
-</details>
+</div>
 
-<details class="faq-item">
-<summary>Does ipamorelin affect appetite?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Does ipamorelin affect appetite?</h3>
 <p>Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.</p>
-</details>
+</div>
 
 <!-- References -->
 !!! info ""

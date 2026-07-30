@@ -98,56 +98,56 @@ The integration of peptides into biomanufacturing processes—including cell-fre
 
 ## Frequently Asked Questions
 <div class="faq-list">
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are self-assembling peptides and how are they used in biotechnology?</summary>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are self-assembling peptides and how are they used in biotechnology?</h3>
 <div class="faq-answer" style="display:none;">
       Self-assembling peptides are short peptide sequences that spontaneously form ordered nanostructures (nanofibers, nanotubes, or hydrogels) through non-covalent interactions. In biotechnology, they are used as scaffolds for 3D cell culture, injectable hydrogels for tissue engineering, enzyme immobilization matrices, and controlled drug release systems. The mechanical properties and bioactivity of these materials can be tuned by modifying the peptide sequence <a href="#ref-2">[2]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How do antimicrobial peptides (AMPs) kill bacteria?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How do antimicrobial peptides (AMPs) kill bacteria?</h3>
 <div class="faq-answer" style="display:none;">
       Most AMPs kill bacteria by disrupting their cell membranes through electrostatic attraction followed by membrane insertion. Their cationic nature targets them to negatively charged bacterial membranes (which contain anionic phospholipids and lipopolysaccharide), while their hydrophobic regions insert into the lipid bilayer. This causes membrane permeabilization, loss of membrane potential, and leakage of cellular contents. Some AMPs also act on intracellular targets including DNA, RNA, and protein synthesis <a href="#ref-5">[5]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What is phage display and how is it used to discover peptide ligands?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What is phage display and how is it used to discover peptide ligands?</h3>
 <div class="faq-answer" style="display:none;">
       Phage display is a molecular biology technique in which DNA sequences encoding random peptides (typically 7–12 residues) are inserted into a bacteriophage coat protein gene, resulting in the peptide being displayed on the phage surface. Libraries containing >10<sup>9</sup> variants are panned against immobilized targets: non-binding phages are washed away, and bound phages are eluted and amplified in bacteria. After 3–5 rounds of selection, the enriched peptide sequences are identified by DNA sequencing <a href="#ref-4">[4]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are the advantages of peptide ligands over antibodies in bioprocessing?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are the advantages of peptide ligands over antibodies in bioprocessing?</h3>
 <div class="faq-answer" style="display:none;">
       Peptide ligands offer several advantages: (1) Chemical stability—they withstand harsh cleaning conditions (high pH, organic solvents) that denature antibodies; (2) Low production cost through chemical synthesis; (3) Defined structure and consistent batch quality; (4) Small size enables high-density immobilization on chromatography resins; (5) Resistance to microbial and enzymatic degradation. However, they may have lower binding affinity for complex targets compared to antibodies <a href="#ref-9">[9]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How are peptides used in drug delivery systems?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How are peptides used in drug delivery systems?</h3>
 <div class="faq-answer" style="display:none;">
       Peptides serve multiple roles in drug delivery: (1) Targeting ligands that bind specifically to cell surface receptors for tissue-specific delivery; (2) Cell-penetrating peptides (CPPs) that enable intracellular cargo delivery; (3) Self-assembling peptide carriers that encapsulate drugs in nanofibers or hydrogels; (4) Responsive linkers that release drugs at target sites in response to enzymes (e.g., MMP-cleavable sequences) or pH changes <a href="#ref-8">[8]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are peptide hydrogels and what properties make them useful for tissue engineering?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are peptide hydrogels and what properties make them useful for tissue engineering?</h3>
 <div class="faq-answer" style="display:none;">
       Peptide hydrogels are water-swollen networks formed by self-assembly of peptide nanofibers. Key properties include: (1) High water content (99%+) mimicking native ECM; (2) Tunable mechanical properties (modulus from Pa to kPa) matching soft tissues; (3) Bioactivity through incorporated signaling motifs (RGD, IKVAV, YIGSR); (4) Injectability as low-viscosity solutions that gel in situ; (5) Biodegradability through natural proteolysis; (6) Optical transparency for imaging <a href="#ref-7">[7]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> Can peptides be used to detect disease biomarkers?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> Can peptides be used to detect disease biomarkers?</h3>
 <div class="faq-answer" style="display:none;">
       Yes. Peptide-based biosensors detect biomarkers by using synthetic peptides as recognition elements coupled to signal-transducing platforms. Peptides are selected for specific binding to target biomarkers (e.g., cancer antigens, viral proteins, cardiac markers) through phage display or rational design. Detection methods include electrochemical impedance spectroscopy, surface-enhanced Raman scattering (SERS), fluorescence, and quartz crystal microbalance. Peptide sensors can achieve sensitivity comparable to ELISA with faster response times <a href="#ref-6">[6]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are the limitations of using peptides in industrial biotechnology?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are the limitations of using peptides in industrial biotechnology?</h3>
 <div class="faq-answer" style="display:none;">
       Limitations include: (1) Proteolytic instability in complex biological environments; (2) High production costs for peptides longer than 40–50 amino acids; (3) Potential immunogenicity with repeated administration; (4) Conformational flexibility can reduce binding specificity compared to more rigid scaffolds; (5) Limited chemical diversity compared to small molecules; (6) Poor oral bioavailability requiring alternative delivery routes <a href="#ref-14">[14]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How are peptides used to engineer responsive biomaterials?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How are peptides used to engineer responsive biomaterials?</h3>
 <div class="faq-answer" style="display:none;">
       Peptide sequences that undergo conformational changes in response to specific stimuli are incorporated into biomaterials to create responsive behavior. Common strategies include: (1) pH-responsive peptides with histidine or glutamic acid residues that change charge/assembly near their pKa; (2) Temperature-responsive sequences such as elastin-like peptides (VPGXG repeats); (3) Enzyme-responsive peptides incorporating protease cleavage sites; (4) Light-responsive peptides containing azobenzene or photocleavable groups <a href="#ref-12">[12]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are macrocyclic peptides and why are they important for biotechnology?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are macrocyclic peptides and why are they important for biotechnology?</h3>
 <div class="faq-answer" style="display:none;">
       Macrocyclic peptides are synthetic peptides constrained into ring structures, typically through a covalent linkage between side chains or the peptide termini. The cyclic constraint reduces conformational flexibility, improving target binding affinity, proteolytic stability, and cell membrane permeability compared with linear peptides. They can target challenging biological targets including intracellular protein-protein interactions. Recent advances in mRNA display enable selection of macrocyclic peptides from very large libraries (>10<sup>13</sup> members) <a href="#ref-13">[13]</a>.
-</details>
+</div>
 </div>
 
 <!-- References -->

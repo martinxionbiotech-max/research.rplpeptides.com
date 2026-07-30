@@ -84,56 +84,56 @@ The integration of synthetic biology and peptide chemistry is enabling the desig
 
 ## Frequently Asked Questions
 <div class="faq-list">
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are cell-penetrating peptides (CPPs) and how are they used in research?</summary>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are cell-penetrating peptides (CPPs) and how are they used in research?</h3>
 <div class="faq-answer" style="display:none;">
       Cell-penetrating peptides are short cationic or amphipathic peptides (typically 5–30 amino acids) that can traverse cell membranes. They are used as molecular delivery vehicles to transport conjugated cargo such as other peptides, proteins, nucleic acids, drugs, or nanoparticles into cells. Common CPPs include Tat peptide (derived from HIV-1), penetratin (from Antennapedia), and oligoarginine sequences <a href="#ref-7">[7]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How does BPC-157 promote cell migration and tissue repair at the molecular level?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How does BPC-157 promote cell migration and tissue repair at the molecular level?</h3>
 <div class="faq-answer" style="display:none;">
       BPC-157 upregulates early growth response factor-1 (Egr-1) and activates the FAK-paxillin signaling pathway, which coordinates focal adhesion dynamics and cytoskeletal reorganization required for cell migration. It also modulates nitric oxide synthase activity and upregulates VEGF and VEGFR2 expression, promoting angiogenesis and endothelial cell proliferation <a href="#ref-8">[8]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What is the role of the RGD peptide motif in cell adhesion research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What is the role of the RGD peptide motif in cell adhesion research?</h3>
 <div class="faq-answer" style="display:none;">
       The Arg-Gly-Asp (RGD) tripeptide sequence, found in fibronectin and other extracellular matrix proteins, is the minimal recognition motif for integrin-mediated cell adhesion. Synthetic RGD peptides and RGD-functionalized surfaces are used extensively to study cell-matrix interactions, focal adhesion formation, and mechanotransduction. RGD-based research tools have also been applied to investigate cell migration, differentiation, and tissue engineering <a href="#ref-5">[5]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How do peptides regulate cellular senescence?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How do peptides regulate cellular senescence?</h3>
 <div class="faq-answer" style="display:none;">
       Peptides can regulate senescence through multiple mechanisms. FOXO4-DRI induces apoptosis in senescent cells by disrupting the FOXO4-p53 interaction, freeing p53 to activate pro-apoptotic gene expression. Other peptides involved in senescence regulation include those derived from insulin-like growth factor binding proteins, matrix-derived peptides, and mitochondrial-derived peptides that influence the senescence-associated secretory phenotype (SASP) <a href="#ref-6">[6]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What is TB-500 (thymosin beta-4) and what cellular processes does it affect?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What is TB-500 (thymosin beta-4) and what cellular processes does it affect?</h3>
 <div class="faq-answer" style="display:none;">
       Thymosin beta-4 (TB-500) is a 43-amino acid peptide that sequesters G-actin, thereby regulating actin polymerization and cytoskeletal dynamics. It influences cell migration, adhesion, and survival through its effects on the actin cytoskeleton. TB-500 also activates Akt signaling, upregulates anti-apoptotic Bcl-2, and promotes angiogenesis through enhanced endothelial cell migration <a href="#ref-9">[9]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How does GHK-Cu modulate gene expression in cells?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How does GHK-Cu modulate gene expression in cells?</h3>
 <div class="faq-answer" style="display:none;">
       GHK-Cu (glycyl-L-histidyl-L-lysine-copper) modulates the expression of over 200 genes in human dermal fibroblasts. It upregulates collagen types I and III, decorin, TGF-β, and antioxidant enzymes, while downregulating matrix metalloproteinases and pro-inflammatory cytokines. These effects are mediated in part through activation of the MAPK/ERK signaling pathway <a href="#ref-10">[10]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are stapled peptides and why are they significant for cell biology research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are stapled peptides and why are they significant for cell biology research?</h3>
 <div class="faq-answer" style="display:none;">
       Stapled peptides are synthetic peptides stabilized by a hydrocarbon bridge (typically an all-hydrocarbon cross-link between amino acid side chains) that locks the peptide into its bioactive alpha-helical conformation. This stabilization increases proteolytic resistance, cell permeability, and target binding affinity. Stapled peptides enable the targeting of intracellular protein-protein interactions—such as the p53-MDM2 interaction—that were previously inaccessible to conventional peptides <a href="#ref-11">[11]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> Can peptides be used to study apoptosis in cell biology?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> Can peptides be used to study apoptosis in cell biology?</h3>
 <div class="faq-answer" style="display:none;">
       Yes, peptides are extensively used in apoptosis research. Caspase substrate peptides (e.g., DEVD for caspase-3, IETD for caspase-8) are used to measure protease activity in cell lysates. Peptide inhibitors of apoptosis, such as z-VAD-fmk, are used to block caspase activity. Additionally, BH3 domain peptides from Bcl-2 family proteins are employed to study mitochondrial apoptosis pathways by analyzing Bak/Bax activation <a href="#ref-4">[4]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are the limitations of using peptides in cell biology experiments?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are the limitations of using peptides in cell biology experiments?</h3>
 <div class="faq-answer" style="display:none;">
       Limitations include rapid proteolytic degradation in culture medium and within cells, limited cell permeability (unless CPP-tagged), potential for aggregation at high concentrations, batch-to-batch variability in synthetic quality, and the possibility of non-specific receptor interactions. Researchers typically address these through peptide stabilization strategies, controlled purity standards, and careful dose-response characterization <a href="#ref-3">[3]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How are peptides used to study cell-cell communication?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How are peptides used to study cell-cell communication?</h3>
 <div class="faq-answer" style="display:none;">
       Peptides are fundamental to the study of paracrine and autocrine signaling. Synthetic versions of native signaling peptides (e.g., growth factors, cytokines, chemokines) are used to stimulate cells and analyze downstream pathways. Antagonist peptides that block receptor binding help identify the role of specific signaling molecules in complex systems. Peptide-based reporter systems also enable real-time monitoring of signaling events in co-culture models <a href="#ref-12">[12]</a>.
-</details>
+</div>
 </div>
 
 <!-- References -->

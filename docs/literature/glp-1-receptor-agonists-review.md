@@ -147,38 +147,38 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>How do GLP-1 receptor agonists work at the molecular level?</summary>
+<div class="faq-item">
+<h3 class="faq-question">How do GLP-1 receptor agonists work at the molecular level?</h3>
 <p>GLP-1 RAs bind to the GLP-1R (a class B GPCR), activating Gαs-mediated cAMP production, which activates PKA and EPAC signaling cascades. These pathways enhance glucose-stimulated insulin secretion, suppress glucagon, delay gastric emptying, and promote satiety through central and peripheral mechanisms.</p>
-</details>
-<details class="faq-item">
-<summary>What is the difference between GLP-1 RAs and DPP-4 inhibitors?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the difference between GLP-1 RAs and DPP-4 inhibitors?</h3>
 <p>GLP-1 RAs are exogenous peptides that directly activate the GLP-1 receptor at supraphysiological levels, producing robust effects on glycemia and weight. DPP-4 inhibitors prevent degradation of endogenous GLP-1, yielding modest increases in active GLP-1 levels and more moderate metabolic effects, without weight loss.</p>
-</details>
-<details class="faq-item">
-<summary>Which GLP-1 receptor agonist has the strongest evidence for cardiovascular benefit?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Which GLP-1 receptor agonist has the strongest evidence for cardiovascular benefit?</h3>
 <p>Semaglutide and liraglutide have the most robust cardiovascular outcome trial data. In SUSTAIN-6, semaglutide reduced MACE-3 by 26%, while liraglutide (LEADER trial) showed a 13% reduction. Both demonstrated consistent benefits in patients with type 2 diabetes and established cardiovascular disease.</p>
-</details>
-<details class="faq-item">
-<summary>How does oral semaglutide achieve bioavailability?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does oral semaglutide achieve bioavailability?</h3>
 <p>Oral semaglutide is co-formulated with the absorption enhancer SNAC, which increases gastric mucosal permeability at the site of absorption. SNAC creates a microenvironment with elevated local pH and increased membrane fluidity, facilitating transcellular absorption of the peptide.</p>
-</details>
-<details class="faq-item">
-<summary>Are GLP-1 receptor agonists associated with pancreatitis risk?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Are GLP-1 receptor agonists associated with pancreatitis risk?</h3>
 <p>Meta-analyses of randomized trials have not demonstrated a statistically significant increase in pancreatitis risk with GLP-1 RAs compared to placebo. However, isolated case reports have been noted, and current labeling includes a caution about history of pancreatitis.</p>
-</details>
-<details class="faq-item">
-<summary>What weight reductions can be expected with GLP-1 receptor agonists?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What weight reductions can be expected with GLP-1 receptor agonists?</h3>
 <p>In obesity trials, semaglutide 2.4 mg once weekly produced mean weight reductions of ~15% in the STEP program. Liraglutide 3.0 mg (Saxenda) produces mean weight loss of ~8%. The effects are dose-dependent and are enhanced by lifestyle modification.</p>
-</details>
-<details class="faq-item">
-<summary>Do GLP-1 receptor agonists preserve beta cell function?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Do GLP-1 receptor agonists preserve beta cell function?</h3>
 <p>Preclinical studies consistently demonstrate that GLP-1R activation promotes beta cell survival, reduces apoptosis, and enhances proliferation in rodent models. Human data are more modest: GLP-1 RAs improve measures of beta cell function (HOMA-B, C-peptide) during treatment, but sustained preservation after discontinuation has not been firmly established.</p>
-</details>
-<details class="faq-item">
-<summary>Can GLP-1 receptor agonists be used in type 1 diabetes research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can GLP-1 receptor agonists be used in type 1 diabetes research?</h3>
 <p>GLP-1 RAs have been investigated in type 1 diabetes where residual beta cell function remains. Studies have shown reduced insulin requirements, improved glucose variability, and potential benefits on body weight, though they do not replace insulin therapy.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

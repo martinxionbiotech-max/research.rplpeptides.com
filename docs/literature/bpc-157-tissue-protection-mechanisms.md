@@ -124,42 +124,42 @@ For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What is BPC-157 and where is it derived from?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is BPC-157 and where is it derived from?</h3>
 <p>BPC-157 is a synthetic 15-amino acid peptide (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val) derived from a protein found in human gastric juice. It is manufactured synthetically, not extracted from biological sources.</p>
-</details>
-<details class="faq-item">
-<summary>What are the primary mechanisms of BPC-157?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the primary mechanisms of BPC-157?</h3>
 <p>The primary mechanisms include promotion of angiogenesis via VEGF and bFGF upregulation, modulation of the NO system, anti-inflammatory effects through cytokine regulation, cytoprotection through heat shock protein induction, and maintenance of mucosal barrier function.</p>
-</details>
-<details class="faq-item">
-<summary>What is the evidence for BPC-157 in tendon healing?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the evidence for BPC-157 in tendon healing?</h3>
 <p>Multiple rat studies demonstrate that BPC-157 accelerates Achilles tendon healing with 50–70% improved biomechanical strength at 1–2 weeks post-injury compared to controls, with histological evidence of better collagen organization and vascularization.</p>
-</details>
-<details class="faq-item">
-<summary>Is BPC-157 stable in the gastrointestinal tract?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Is BPC-157 stable in the gastrointestinal tract?</h3>
 <p>Yes. BPC-157 exhibits remarkable stability in gastric juice, attributed to its unique amino acid sequence that resists proteolytic degradation. This distinguishes it from most other peptide therapeutic candidates, which are rapidly degraded in the GI tract.</p>
-</details>
-<details class="faq-item">
-<summary>What is the evidence for BPC-157's effect on inflammatory bowel disease?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the evidence for BPC-157's effect on inflammatory bowel disease?</h3>
 <p>In rodent colitis models (TNBS- and DSS-induced), BPC-157 treatment significantly reduced mucosal inflammation, decreased ulceration, and improved histological scores compared to untreated controls, with effects comparable to standard therapies.</p>
-</details>
-<details class="faq-item">
-<summary>Has BPC-157 been tested in humans?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Has BPC-157 been tested in humans?</h3>
 <p>Limited human studies have been conducted, primarily for inflammatory bowel disease indications. The evidence base remains predominantly preclinical, and larger well-controlled clinical trials are needed to establish safety and efficacy in humans.</p>
-</details>
-<details class="faq-item">
-<summary>How does BPC-157 interact with the NO system?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does BPC-157 interact with the NO system?</h3>
 <p>BPC-157 modulates NO production: many of its effects are blocked by NOS inhibitors and mimicked by NO donors. It appears to enhance protective eNOS-mediated NO production while suppressing excessive iNOS activity in inflammatory contexts.</p>
-</details>
-<details class="faq-item">
-<summary>At what doses has BPC-157 been effective in animal studies?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">At what doses has BPC-157 been effective in animal studies?</h3>
 <p>Effective doses range from 10 ng/kg to 10 µg/kg in various animal models, depending on the route of administration and the tissue being studied. The low effective dose reflects the peptide's potency and stability.</p>
-</details>
-<details class="faq-item">
-<summary>What are the main limitations of the BPC-157 research literature?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the main limitations of the BPC-157 research literature?</h3>
 <p>The literature is dominated by a single research group (Sikiric and colleagues), the molecular target remains unidentified, human clinical trial data are limited, and independent replication studies are needed to confirm the breadth of reported effects.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

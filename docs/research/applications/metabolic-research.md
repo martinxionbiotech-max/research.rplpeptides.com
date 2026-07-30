@@ -82,56 +82,56 @@ Mitochondrial peptide biology is an emerging area with substantial potential. Un
 
 ## Frequently Asked Questions
 <div class="faq-list">
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What is the incretin effect and why is it important in metabolic research?</summary>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What is the incretin effect and why is it important in metabolic research?</h3>
 <div class="faq-answer" style="display:none;">
       The incretin effect refers to the observation that oral glucose stimulates a greater insulin response than intravenous glucose at equivalent blood glucose levels. This phenomenon is mediated by the incretin hormones GLP-1 and GIP, which are released from intestinal enteroendocrine cells. Understanding this effect is fundamental to metabolic research because it reveals the gut-pancreas axis as a key regulatory system in glucose homeostasis <a href="#ref-1">[1]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How do GLP-1 receptor agonists differ from native GLP-1?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How do GLP-1 receptor agonists differ from native GLP-1?</h3>
 <div class="faq-answer" style="display:none;">
       Synthetic GLP-1 receptor agonists are modified versions of the native peptide designed to resist DPP-4-mediated degradation and extend pharmacokinetic half-life. Modifications include amino acid substitutions (e.g., Ala<sup>8</sup>→Gly in semaglutide), fatty acid acylation for albumin binding, and fusion to immunoglobulin Fc domains. These modifications preserve receptor activation properties while enabling sustained exposure <a href="#ref-5">[5]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are multi-receptor peptide agonists?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are multi-receptor peptide agonists?</h3>
 <div class="faq-answer" style="display:none;">
       Multi-receptor peptide agonists are engineered peptide sequences that activate two or more distinct hormone receptors. For example, tirzepatide activates both GIP and GLP-1 receptors, while retatrutide activates GLP-1, GIP, and glucagon receptors. These are created by optimizing native peptide sequences to incorporate receptor-specific residues from multiple hormones, creating a single molecule with multi-target pharmacology <a href="#ref-6">[6]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What are mitochondrial-derived peptides (MDPs)?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What are mitochondrial-derived peptides (MDPs)?</h3>
 <div class="faq-answer" style="display:none;">
       Mitochondrial-derived peptides are small bioactive peptides encoded by short open reading frames within mitochondrial DNA. Examples include MOTS-c (mitochondrial open reading frame of the 12S rRNA type-c) and humanin. These peptides are translated within mitochondria and function in inter-organelle communication, regulating nuclear gene expression, cellular metabolism, and stress responses. Their discovery has opened new avenues in metabolic research <a href="#ref-10">[10]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How does GIP pharmacology differ from GLP-1 pharmacology?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How does GIP pharmacology differ from GLP-1 pharmacology?</h3>
 <div class="faq-answer" style="display:none;">
       GIP and GLP-1 share overlapping but distinct pharmacological profiles. Both potentiate glucose-stimulated insulin secretion, but GIP additionally promotes lipid storage in adipose tissue, stimulates bone formation, and may enhance glucagon secretion at low glucose concentrations. GLP-1 suppresses glucagon, delays gastric emptying, and produces more pronounced appetite suppression. Recent evidence suggests GIP may enhance the metabolic effects of GLP-1 when co-administered <a href="#ref-6">[6]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What role does glucagon receptor activation play in metabolic peptide research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What role does glucagon receptor activation play in metabolic peptide research?</h3>
 <div class="faq-answer" style="display:none;">
       Glucagon receptor activation promotes hepatic glucose output (counteracting hypoglycemia), stimulates lipolysis, increases energy expenditure, and reduces food intake through central mechanisms. In multi-receptor agonists, controlled glucagon activity is leveraged to enhance energy expenditure and lipid metabolism while the concurrent GLP-1 activity prevents hyperglycemia. This balanced triple-agonist strategy is an area of active investigation <a href="#ref-7">[7]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> Can metabolic peptides be administered orally?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> Can metabolic peptides be administered orally?</h3>
 <div class="faq-answer" style="display:none;">
       Most metabolic peptides require parenteral administration (subcutaneous injection) due to gastrointestinal degradation and poor intestinal permeability. However, oral formulations have been developed using absorption enhancers such as SNAC (sodium N-(8-[2-hydroxybenzoyl]amino)caprylate), which facilitates transcellular absorption. Semaglutide is available as an oral formulation, though bioavailability remains low at approximately 0.4–1.0% <a href="#ref-5">[5]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What is the significance of SS-31 (elamipretide) in mitochondrial research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What is the significance of SS-31 (elamipretide) in mitochondrial research?</h3>
 <div class="faq-answer" style="display:none;">
       SS-31 is a mitochondria-targeted tetrapeptide that binds to cardiolipin in the inner mitochondrial membrane, stabilizing electron transport chain supercomplexes and optimizing oxidative phosphorylation. By reducing electron leak and reactive oxygen species production, SS-31 improves mitochondrial efficiency. It serves as a research tool for studying mitochondrial dysfunction and has been investigated in models of ischemia-reperfusion injury and metabolic disorders <a href="#ref-11">[11]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> How do research peptides compare to small-molecule metabolic compounds?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> How do research peptides compare to small-molecule metabolic compounds?</h3>
 <div class="faq-answer" style="display:none;">
       Peptide-based metabolic compounds offer high receptor specificity and generally low off-target toxicity compared to small molecules. However, peptides face challenges with oral bioavailability, metabolic stability, and manufacturing cost. Small molecules can target intracellular and nuclear receptors more easily. The choice between peptide and small-molecule approaches depends on the specific receptor target, desired pharmacokinetics, and route of administration <a href="#ref-4">[4]</a>.
-</details>
-<details class="faq-item">
-<summary><span class="faq-toggle">+</span> What safety considerations apply to metabolic peptide research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question"><span class="faq-toggle">+</span> What safety considerations apply to metabolic peptide research?</h3>
 <div class="faq-answer" style="display:none;">
       Key safety considerations include gastrointestinal tolerability (nausea, vomiting, diarrhea), which is dose-dependent and typically transient; potential for pancreatic enzyme elevation; thyroid C-cell hyperplasia risk observed in rodent studies; and injection site reactions. Hypoglycemia risk is low due to the glucose-dependent mechanism of insulin secretion. Long-term safety data for multi-receptor agonists are still accumulating <a href="#ref-12">[12]</a>.
-</details>
+</div>
 </div>
 
 <!-- References -->

@@ -157,46 +157,46 @@ Mathematical modeling of signaling cascades — incorporating reaction kinetics,
 
 
 ## Frequently Asked Questions
-  <details class="faq-item">
-<summary>What is a second messenger in peptide signaling?</summary>
+  <div class="faq-item">
+<h3 class="faq-question">What is a second messenger in peptide signaling?</h3>
 <p>A second messenger is an intracellular signaling molecule produced or released in response to an extracellular first messenger (the peptide). Examples include cyclic AMP (cAMP), IP₃, DAG, and calcium ions. Second messengers amplify the initial signal — a single activated receptor can produce thousands of second messenger molecules — and propagate it to downstream effector proteins such as protein kinases.</p>
-</details>
-  <details class="faq-item">
-<summary>What are the main types of receptors that bind peptides?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are the main types of receptors that bind peptides?</h3>
 <p>The primary receptor classes for peptide signaling are: (1) G protein-coupled receptors (GPCRs) — the largest family, mediating hormone, neuropeptide, and chemokine signaling; (2) Receptor tyrosine kinases (RTKs) — mediating growth factor and insulin signaling; (3) Cytokine receptors — associating with JAKs to activate STAT pathways; (4) Serine/threonine kinase receptors — mediating TGF-β family signaling; and (5) Ion channels — directly modulated by some venom peptides and neuropeptides.</p>
-</details>
-  <details class="faq-item">
-<summary>How does cAMP mediate peptide signaling?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How does cAMP mediate peptide signaling?</h3>
 <p>Cyclic AMP is generated from ATP by adenylyl cyclase, which is activated by Gα~s~ and inhibited by Gα~i~. cAMP binds to and activates two main effectors: (1) Protein kinase A (PKA), which phosphorylates numerous substrates including transcription factors (CREB), ion channels, and metabolic enzymes; and (2) Exchange proteins directly activated by cAMP (EPACs), which activate Rap GTPases. cAMP is degraded by phosphodiesterases (PDEs), providing a mechanism for signal termination.</p>
-</details>
-  <details class="faq-item">
-<summary>What is biased agonism in GPCR signaling?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is biased agonism in GPCR signaling?</h3>
 <p>Biased agonism (functional selectivity) occurs when different ligands binding to the same receptor stabilize distinct receptor conformations, preferentially activating some downstream pathways over others. For example, a G protein-biased agonist activates G protein signaling but not β-arrestin recruitment, while a β-arrestin-biased agonist does the opposite. This concept is therapeutically important because different pathways downstream of the same receptor can mediate distinct (sometimes opposing) biological effects.</p>
-</details>
-  <details class="faq-item">
-<summary>How does insulin signaling regulate glucose uptake?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How does insulin signaling regulate glucose uptake?</h3>
 <p>Insulin binding to its RTK activates the PI3K/Akt pathway, which phosphorylates TBC1D4 (AS160), inactivating it. This inactivation allows Rab GTPases to promote the translocation of GLUT4-containing vesicles to the plasma membrane, increasing cell surface GLUT4 levels and facilitating glucose uptake. This process occurs within minutes in insulin-sensitive tissues (muscle, adipose tissue) and is impaired in insulin resistance.</p>
-</details>
-  <details class="faq-item">
-<summary>What is receptor desensitization and why is it important?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is receptor desensitization and why is it important?</h3>
 <p>Receptor desensitization is the process by which prolonged or repeated agonist exposure reduces receptor responsiveness. For GPCRs, this involves GRK-mediated phosphorylation of the activated receptor, followed by β-arrestin binding that uncouples the receptor from G proteins and promotes internalization. Desensitization prevents overstimulation and is clinically important — for example, GnRH receptor desensitization (from continuous agonist administration) is used therapeutically to suppress sex hormone production in prostate cancer and endometriosis.</p>
-</details>
-  <details class="faq-item">
-<summary>How do peptides achieve signaling specificity?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How do peptides achieve signaling specificity?</h3>
 <p>Signaling specificity arises from multiple mechanisms: (1) Receptor expression patterns — a peptide only affects cells expressing its receptor; (2) Ligand-receptor selectivity — specific amino acid sequences determine which receptors a peptide binds; (3) Subcellular compartmentalization — signaling components are organized in membrane nanodomains and scaffold complexes; (4) Temporal encoding — the frequency and duration of signaling events carry information; and (5) Cross-talk inhibition — pathways can mutually suppress each other to enforce binary signaling outcomes.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the role of calcium in peptide signaling?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the role of calcium in peptide signaling?</h3>
 <p>Calcium ions (Ca²⁺) function as a universal second messenger in peptide signaling. Gα~q~-coupled receptors activate PLC, generating IP₃, which binds to IP₃ receptors on the endoplasmic reticulum to release stored Ca²⁺. Cytosolic Ca²⁺ then activates calcium-binding proteins, particularly calmodulin, which regulates many targets including CaMKII, calcineurin, and MLCK. Calcium signaling exhibits complex spatiotemporal dynamics, including oscillations and waves, that encode specific information.</p>
-</details>
-  <details class="faq-item">
-<summary>Can a single peptide activate multiple signaling pathways?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Can a single peptide activate multiple signaling pathways?</h3>
 <p>Yes. A single peptide can activate multiple signaling pathways through several mechanisms: (1) Binding to multiple receptor subtypes with different signaling preferences; (2) Activating a single receptor that couples to multiple G protein subtypes (e.g., some GLP-1 responses involve both Gα~s~ and Gα~q~ signaling); (3) Receptor-mediated recruitment of β-arrestin as a signaling scaffold independently of G proteins; and (4) Receptor transactivation — peptide binding to one receptor can indirectly activate other receptor systems.</p>
-</details>
-  <details class="faq-item">
-<summary>How do peptide-receptor interactions differ from small molecule-receptor interactions?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How do peptide-receptor interactions differ from small molecule-receptor interactions?</h3>
 <p>Peptide-receptor interactions typically involve a larger contact surface area (500–1500 Å²) compared to small molecules (200–500 Å²). Peptides engage their receptors through multiple, distributed contacts — hydrogen bonds, ionic interactions, and hydrophobic packing — across an extended binding interface. This larger interface generally confers higher specificity (peptides tend to have fewer off-target effects) but also creates greater challenges for achieving oral bioavailability and metabolic stability compared to small molecule drugs.</p>
-</details>
+</div>
 
 
   

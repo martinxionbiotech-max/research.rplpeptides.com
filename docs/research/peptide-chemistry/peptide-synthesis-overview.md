@@ -93,30 +93,30 @@ Several frontiers in peptide synthesis research are actively being explored:
 
 
 ## Frequently Asked Questions
-<details class="faq-item">
-<summary>What is the difference between Boc and Fmoc SPPS strategies?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the difference between Boc and Fmoc SPPS strategies?</h3>
 <p>Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>What is native chemical ligation and why is it important?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is native chemical ligation and why is it important?</h3>
 <p>Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>What purity can be expected after standard SPPS and cleavage?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What purity can be expected after standard SPPS and cleavage?</h3>
 <p>Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>When is recombinant production preferred over chemical synthesis?</summary>
+<div class="faq-item">
+<h3 class="faq-question">When is recombinant production preferred over chemical synthesis?</h3>
 <p>Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>What are the advantages of automated peptide synthesizers?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What are the advantages of automated peptide synthesizers?</h3>
 <p>Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.</p>
-</details>
+</div>
   </div>
 </div>
 

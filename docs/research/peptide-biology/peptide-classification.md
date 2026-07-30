@@ -170,46 +170,46 @@ The emergence of multi-functional peptides — molecules that engage multiple bi
 
 
 ## Frequently Asked Questions
-  <details class="faq-item">
-<summary>What is the difference between ribosomal and non-ribosomal peptides?</summary>
+  <div class="faq-item">
+<h3 class="faq-question">What is the difference between ribosomal and non-ribosomal peptides?</h3>
 <p>Ribosomal peptides are synthesized on the ribosome via mRNA translation, use only the 20 standard L-amino acids, and often require post-translational modifications. Non-ribosomal peptides are synthesized by large enzyme complexes (NRPSs) without mRNA templates and can incorporate D-amino acids, N-methylated residues, and other non-standard building blocks. Non-ribosomal peptides are more common in bacteria and fungi and include many clinically important antibiotics like cyclosporine and vancomycin.</p>
-</details>
-  <details class="faq-item">
-<summary>How are antimicrobial peptides classified?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How are antimicrobial peptides classified?</h3>
 <p>Antimicrobial peptides are classified by secondary structure (α-helical, β-sheet, extended, mixed), amino acid composition (cationic, anionic, proline-rich), biological source (mammalian, amphibian, insect, bacterial), and mechanism of action (membrane-disrupting, intracellular-targeting). The Antimicrobial Peptide Database (APD3) catalogs over 3,000 natural AMPs and provides a standardized classification framework.</p>
-</details>
-  <details class="faq-item">
-<summary>What are the major classes of peptide hormones?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are the major classes of peptide hormones?</h3>
 <p>Major peptide hormone families include the insulin/IGF family, glucagon/secretin family (including GLP-1, GIP, secretin, VIP, PACAP), somatostatin family, hypothalamic releasing hormones (GHRH, CRH, TRH, GnRH), pituitary hormones (ACTH, MSH, growth hormone), and the natriuretic peptide family (ANP, BNP, CNP). These are further classified by receptor type (GPCR vs. receptor tyrosine kinase) and physiological function.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the difference between a neuropeptide and a neurotransmitter?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the difference between a neuropeptide and a neurotransmitter?</h3>
 <p>Classical neurotransmitters (e.g., glutamate, GABA, acetylcholine) are small molecules stored in synaptic vesicles and released at synapses for rapid, short-lived signaling. Neuropeptides are larger (3–40 amino acids), stored in dense-core vesicles, released at lower concentrations often from non-synaptic sites, and mediate slower, longer-lasting modulatory effects. Many neurons co-release both classical transmitters and neuropeptides for integrated signaling.</p>
-</details>
-  <details class="faq-item">
-<summary>How are venom peptides classified?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How are venom peptides classified?</h3>
 <p>Venom peptides are classified by their biological source (conotoxins from cone snails, scorpion toxins, snake toxins, spider toxins, bee venom peptides), by their molecular target (ion channels, GPCRs, enzymes), by structural scaffold (disulfide-rich frameworks are classified using the CC motif system), and by pharmacological activity (analgesic, paralytic, hemolytic, neurotoxic).</p>
-</details>
-  <details class="faq-item">
-<summary>Can a peptide belong to multiple functional categories?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Can a peptide belong to multiple functional categories?</h3>
 <p>Yes, peptide functional moonlighting is well documented. For example, certain antimicrobial peptides also function as chemoattractants (immunomodulation), some peptide hormones exhibit antimicrobial activity, and neuropeptides like substance P also regulate immune responses. This multifunctionality is increasingly recognized as a general principle rather than an exception, reflecting the evolutionary economy of peptide signaling.</p>
-</details>
-  <details class="faq-item">
-<summary>What makes a peptide "bioactive"?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What makes a peptide "bioactive"?</h3>
 <p>A bioactive peptide is one that exerts a measurable biological effect through interaction with a receptor, enzyme, or structural component of a cell or tissue. This includes peptides involved in signaling (hormones, neurotransmitters), host defense (antimicrobial peptides, defensins), regulation (growth factors, cytokines), and toxicity (venom peptides). Bioactive peptides can be endogenous (produced in the body) or exogenous (derived from food, venoms, or microorganisms).</p>
-</details>
-  <details class="faq-item">
-<summary>What are food-derived bioactive peptides?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are food-derived bioactive peptides?</h3>
 <p>Food-derived bioactive peptides are peptide sequences encrypted within dietary proteins that are released during digestion or food processing. These peptides can exhibit antihypertensive (ACE-inhibitory), antioxidant, antimicrobial, immunomodulatory, or opioid-like activities. Examples include lactotripeptides (Val-Pro-Pro, Ile-Pro-Pro) from milk proteins, which have demonstrated blood pressure-lowering effects in clinical studies.</p>
-</details>
-  <details class="faq-item">
-<summary>How many peptides have been discovered to date?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How many peptides have been discovered to date?</h3>
 <p>The exact number is difficult to determine due to different definitions, but major peptide databases catalog tens of thousands of sequences. The Antimicrobial Peptide Database (APD3) contains over 3,000 unique AMPs. UniProt lists over 100,000 annotated peptide entries. Non-ribosomal peptides number in the thousands. Venom peptide diversity is estimated at over 10 million, most of which remain uncharacterized. The full "dark peptidome" of cryptic peptides from non-canonical genome regions is believed to be substantially larger.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the RiPP classification system?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the RiPP classification system?</h3>
 <p>RiPPs (Ribosomally synthesized and Post-translationally modified Peptides) represent a major class of natural products. They are ribosomally synthesized as precursor peptides and then extensively modified by dedicated modifying enzymes. RiPP subclasses include lanthipeptides (e.g., nisin), lasso peptides, thiopeptides, microcins, cyanobactins, and cyclotides. The RiPP recognition element (RRE) system provides a classification framework based on precursor peptide features and modification machinery.</p>
-</details>
+</div>
 
 
   

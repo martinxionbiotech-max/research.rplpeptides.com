@@ -137,46 +137,46 @@ The integration of computational methods, including molecular dynamics simulatio
 
 
 ## Frequently Asked Questions
-  <details class="faq-item">
-<summary>What determines the three-dimensional shape of a peptide?</summary>
+  <div class="faq-item">
+<h3 class="faq-question">What determines the three-dimensional shape of a peptide?</h3>
 <p>A peptide's three-dimensional shape is determined primarily by its amino acid sequence (primary structure), with secondary structure arising from backbone hydrogen bonding (alpha-helices, beta-sheets, turns). Tertiary folding is stabilized by disulfide bonds, hydrophobic interactions, hydrogen bonds, and electrostatic interactions. The sequence encodes all the information necessary for folding, a principle known as the "Anfinsen dogma."</p>
-</details>
-  <details class="faq-item">
-<summary>Why are disulfide bonds important in peptide structure?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Why are disulfide bonds important in peptide structure?</h3>
 <p>Disulfide bonds (covalent links between cysteine residues) constrain peptide conformation into a defined topology, dramatically increasing structural stability. They protect against proteolytic degradation, maintain bioactive conformation, and are essential for the function of numerous peptide hormones, including insulin, somatostatin, and oxytocin. Incorrect disulfide pairing generally leads to loss of biological activity.</p>
-</details>
-  <details class="faq-item">
-<summary>What is an amphipathic helix?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is an amphipathic helix?</h3>
 <p>An amphipathic helix is an alpha-helix with hydrophobic amino acids concentrated on one face and hydrophilic (often charged) residues on the opposite face. This structure is critical for membrane interactions — the hydrophobic face inserts into lipid bilayers while the hydrophilic face remains in the aqueous environment. This motif is found in antimicrobial peptides, cell-penetrating peptides, and many peptide hormones.</p>
-</details>
-  <details class="faq-item">
-<summary>How does a single amino acid change affect peptide function?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How does a single amino acid change affect peptide function?</h3>
 <p>A single amino acid substitution can dramatically alter peptide function by changing charge, hydrophobicity, size, or conformational preference. For example, oxytocin and vasopressin differ by only two residues (positions 3 and 8) yet oxytocin primarily mediates uterine contraction and milk ejection while vasopressin regulates blood pressure and water balance. Alanine scanning — systematically replacing each residue with alanine — is used to identify residues critical for activity.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the difference between linear and cyclic peptides?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the difference between linear and cyclic peptides?</h3>
 <p>Linear peptides have free N- and C-termini and are flexible in solution, while cyclic peptides have a continuous ring structure (either head-to-tail or via side-chain linkages). Cyclization constrains conformation, often improving metabolic stability (cyclization protects against exopeptidases), enhancing receptor binding affinity, and increasing membrane permeability. Many clinically successful peptides are cyclic or contain disulfide-stabilized loops.</p>
-</details>
-  <details class="faq-item">
-<summary>Can peptides form alpha-helices?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">Can peptides form alpha-helices?</h3>
 <p>Yes, many peptides can form alpha-helices, particularly when interacting with membranes or receptors. Short peptides (10–20 residues) in solution often exist as a mixture of helical and random coil conformations due to the marginal stability of isolated helices. However, upon binding to their target (membrane or receptor), the helical conformation can be strongly stabilized. Hydrocarbon "stapling" is a technique that covalently stabilizes the helical conformation of peptides.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the role of proline in peptide structure?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the role of proline in peptide structure?</h3>
 <p>Proline is unique among the 20 standard amino acids because its side chain cyclizes back onto the backbone nitrogen, creating a rigid ring that restricts backbone conformation. Proline is often called a "helix breaker" because it cannot donate a hydrogen bond in a regular alpha-helix. It is commonly found in beta-turns and at the start of helices. The cis-trans isomerization of proline peptide bonds can act as a conformational switch in peptide function.</p>
-</details>
-  <details class="faq-item">
-<summary>How is peptide structure determined experimentally?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">How is peptide structure determined experimentally?</h3>
 <p>Peptide structure is determined primarily by NMR spectroscopy (in solution, providing an ensemble of conformations), X-ray crystallography (crystalline state, providing atomic-resolution coordinates), and circular dichroism (CD) spectroscopy (quick assessment of secondary structure content). Cryo-EM is increasingly used for peptide-receptor complexes. Computational methods including molecular dynamics simulations complement experimental approaches by exploring conformational dynamics.</p>
-</details>
-  <details class="faq-item">
-<summary>What are beta-turns and why are they important?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What are beta-turns and why are they important?</h3>
 <p>Beta-turns are reverse-turn structures where the peptide backbone folds back approximately 180 degrees over four consecutive residues, stabilized by a hydrogen bond between the CO of residue i and the NH of residue i+3. They are critically important because they allow peptides to adopt compact folded structures despite their short length. Beta-turns often serve as recognition elements in peptide-receptor interactions.</p>
-</details>
-  <details class="faq-item">
-<summary>What is the relationship between peptide flexibility and function?</summary>
+</div>
+  <div class="faq-item">
+<h3 class="faq-question">What is the relationship between peptide flexibility and function?</h3>
 <p>Peptide flexibility exists on a spectrum. Some peptides (e.g., cyclic peptides with multiple disulfide bonds) are highly rigid, which can confer pre-organization for receptor binding but also limited adaptability. Other peptides are highly flexible and fold only upon binding (induced fit), allowing a single sequence to potentially bind multiple targets. Optimal flexibility is context-dependent; therapeutic peptides often balance pre-organization for affinity with conformational adaptability for target engagement.</p>
-</details>
+</div>
 
 
   

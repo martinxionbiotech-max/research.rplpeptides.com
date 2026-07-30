@@ -141,42 +141,42 @@ The development of transgenic mouse models expressing humanized receptors (e.g.,
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What is the incretin effect?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the incretin effect?</h3>
 <p>The incretin effect is the phenomenon where oral glucose ingestion elicits a significantly greater insulin secretory response than intravenous glucose at equivalent plasma glucose levels. Incretin hormones (GLP-1 and GIP) mediate this effect, accounting for 50–70% of postprandial insulin release.</p>
-</details>
-<details class="faq-item">
-<summary>How do GLP-1 and GIP differ in their actions?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do GLP-1 and GIP differ in their actions?</h3>
 <p>GLP-1 suppresses glucagon secretion, delays gastric emptying, and promotes satiety. GIP stimulates glucagon secretion (at normal/low glucose), promotes adipose tissue lipid uptake, and supports bone formation. Both stimulate insulin secretion in a glucose-dependent manner.</p>
-</details>
-<details class="faq-item">
-<summary>Why is GIP less effective in type 2 diabetes?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Why is GIP less effective in type 2 diabetes?</h3>
 <p>The insulinotropic effect of GIP is markedly reduced in individuals with type 2 diabetes, a phenomenon attributed to GIP receptor downregulation or desensitization on beta cells. The mechanism may involve chronic hyperglycemia-induced receptor internalization and reduced cAMP generation.</p>
-</details>
-<details class="faq-item">
-<summary>Do GLP-1 and GIP share the same receptor?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Do GLP-1 and GIP share the same receptor?</h3>
 <p>No. GLP-1 and GIP each bind to their own distinct class B GPCRs—GLP-1R and GIPR—which share ~40–50% sequence homology in the transmembrane domains but differ substantially in extracellular ligand-binding regions, allowing selective recognition of each incretin.</p>
-</details>
-<details class="faq-item">
-<summary>What cells produce incretin hormones?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What cells produce incretin hormones?</h3>
 <p>GLP-1 is produced by enteroendocrine L-cells localized mainly in the distal ileum and colon. GIP is produced by enteroendocrine K-cells concentrated in the duodenum and proximal jejunum. Both cell types are distributed along the gastrointestinal tract with distinct density profiles.</p>
-</details>
-<details class="faq-item">
-<summary>How quickly are incretin hormones degraded?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How quickly are incretin hormones degraded?</h3>
 <p>Both GLP-1 and GIP are rapidly cleaved by the enzyme DPP-4, which removes the N-terminal dipeptide. Active GLP-1 has a half-life of approximately 1–2 minutes, while active GIP has a slightly longer half-life of about 5–7 minutes.</p>
-</details>
-<details class="faq-item">
-<summary>Can incretin hormones affect bone metabolism?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can incretin hormones affect bone metabolism?</h3>
 <p>Yes. GIP receptors are expressed on osteoblasts and osteoclasts, and GIP has been shown to stimulate bone formation markers and inhibit bone resorption in both preclinical and human studies. GLP-1 may also influence bone metabolism, though the effects are less characterized.</p>
-</details>
-<details class="faq-item">
-<summary>What is the role of the incretin system in bariatric surgery outcomes?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the role of the incretin system in bariatric surgery outcomes?</h3>
 <p>Bariatric procedures, particularly Roux-en-Y gastric bypass, dramatically increase postprandial GLP-1 and GIP secretion. This enhanced incretin response is thought to contribute to the rapid glycemic improvement observed after surgery, often preceding significant weight loss.</p>
-</details>
-<details class="faq-item">
-<summary>Are there DPP-4-independent degradation pathways for incretins?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Are there DPP-4-independent degradation pathways for incretins?</h3>
 <p>Yes, incretins can also be cleared through renal filtration and degraded by other peptidases including neprilysin (NEP) and insulin-degrading enzyme (IDE). These alternative pathways become more significant when DPP-4 activity is inhibited or saturated.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

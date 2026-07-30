@@ -140,30 +140,30 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 
 ## FAQ
 <div class="faq-section">
-<details class="faq-item">
-<summary>Why is TFA used as an ion-pairing agent in peptide HPLC?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Why is TFA used as an ion-pairing agent in peptide HPLC?</h3>
 <p>TFA suppresses ionization of silanol groups on the silica stationary phase and forms ion pairs with protonated peptide amines. This reduces secondary interactions, improves peak shape, and enhances retention reproducibility.</p>
-</details>
-<details class="faq-item">
-<summary>What gradient conditions should I use for a new peptide?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What gradient conditions should I use for a new peptide?</h3>
 <p>Start with a broad gradient (5–65% B over 20–30 min). If the peptide elutes early, reduce the initial %B. If late, reduce the final %B. Optimize gradient slope for resolution: 0.5–1.0% B/min for complex samples, 1.5–2.5% B/min for routine purity checks.</p>
-</details>
-<details class="faq-item">
-<summary>How do I choose between C18 and C8 columns?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do I choose between C18 and C8 columns?</h3>
 <p>C18 provides stronger retention and is preferred for most peptides. C8 is recommended for highly hydrophobic peptides that show excessive retention on C18, or to change selectivity when peaks co-elute on C18.</p>
-</details>
-<details class="faq-item">
-<summary>What is considered acceptable peptide purity by HPLC?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is considered acceptable peptide purity by HPLC?</h3>
 <p>For research-grade peptides, >95% is standard. For in vivo studies, >98% is required. Therapeutic peptides typically require >99% purity with strict limits on specific impurities.</p>
-</details>
-<details class="faq-item">
-<summary>Why do I see multiple peaks for a supposedly pure peptide?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Why do I see multiple peaks for a supposedly pure peptide?</h3>
 <p>Multiple peaks may indicate: impurities (truncation sequences, epimers), conformational isomers (cis/trans proline isomerization), peptide aggregation, degradation products (oxidation of Met), or disulfide scrambling. LC-MS analysis can identify each peak.</p>
-</details>
-<details class="faq-item">
-<summary>Can I use LC-MS with TFA-containing mobile phases?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can I use LC-MS with TFA-containing mobile phases?</h3>
 <p>TFA causes ion suppression in ESI-MS. For LC-MS, use 0.1% formic acid instead of TFA, or use low TFA concentrations (0.01–0.05%) with post-column make-up flow to improve ionization.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

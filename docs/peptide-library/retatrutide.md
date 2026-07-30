@@ -95,46 +95,46 @@ Finally, comparative effectiveness research against bariatric surgery and other 
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What distinguishes retatrutide from tirzepatide?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What distinguishes retatrutide from tirzepatide?</h3>
 <p>Retatrutide adds glucagon receptor agonism to the GIP/GLP-1 dual agonism of tirzepatide. This triple-receptor approach is designed to further increase energy expenditure and hepatic lipid oxidation beyond what dual agonism alone can achieve, potentially resulting in greater weight loss and improved liver fat reduction.</p>
-</details>
-<details class="faq-item">
-<summary>How does retatrutide achieve once-weekly dosing?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does retatrutide achieve once-weekly dosing?</h3>
 <p>Retatrutide incorporates a fatty acid side chain that binds non-covalently to serum albumin. This albumin binding slows renal clearance and enzymatic degradation, extending the peptide's half-life to approximately 6–7 days and enabling therapeutic concentrations with once-weekly subcutaneous administration.</p>
-</details>
-<details class="faq-item">
-<summary>What weight reduction has been observed with retatrutide?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What weight reduction has been observed with retatrutide?</h3>
 <p>In the phase 2 obesity trial, participants receiving retatrutide 12 mg once weekly experienced mean body weight reductions of up to 24.2% at 48 weeks. Notably, weight loss had not plateaued at the end of the treatment period, suggesting potential for further reduction with extended treatment duration.</p>
-</details>
-<details class="faq-item">
-<summary>What are the primary adverse effects reported?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the primary adverse effects reported?</h3>
 <p>Gastrointestinal adverse effects including nausea, diarrhea, and vomiting are the most commonly reported events, consistent with the GLP-1 receptor agonist class. These effects are primarily mild to moderate in severity and tend to diminish with continued dosing as tolerance develops.</p>
-</details>
-<details class="faq-item">
-<summary>Is retatrutide being studied for non-alcoholic steatohepatitis (NASH)?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Is retatrutide being studied for non-alcoholic steatohepatitis (NASH)?</h3>
 <p>Yes. The glucagon receptor agonism component is hypothesized to reduce hepatic steatosis through increased fatty acid oxidation and mitochondrial function in hepatocytes. Phase 2 and phase 3 clinical programs are evaluating retatrutide for the treatment of NASH with fibrosis.</p>
-</details>
-<details class="faq-item">
-<summary>How does glucagon receptor agonism contribute to weight loss?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does glucagon receptor agonism contribute to weight loss?</h3>
 <p>Glucagon receptor activation increases energy expenditure through enhanced thermogenesis and fatty acid oxidation. While glucagon alone would raise blood glucose, concurrent GLP-1R activation mitigates this hyperglycemic effect, allowing the energy expenditure benefits of GCGR stimulation to be realized without net glucose elevation.</p>
-</details>
-<details class="faq-item">
-<summary>What is the dosing schedule used in clinical trials?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the dosing schedule used in clinical trials?</h3>
 <p>Clinical trials have employed a dose-escalation regimen over several weeks to improve gastrointestinal tolerability, starting at low doses (2 mg) and titrating up to target doses (4 mg, 8 mg, or 12 mg) administered once weekly via subcutaneous injection.</p>
-</details>
-<details class="faq-item">
-<summary>Does retatrutide have effects on cardiovascular risk factors?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Does retatrutide have effects on cardiovascular risk factors?</h3>
 <p>Phase 2 data have demonstrated improvements in blood pressure, lipid profiles (reduced triglycerides, LDL cholesterol), and inflammatory markers in addition to glycemic and weight effects. A dedicated cardiovascular outcomes trial (phase 3) is ongoing to evaluate MACE reduction.</p>
-</details>
-<details class="faq-item">
-<summary>What are the limitations of current retatrutide research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the limitations of current retatrutide research?</h3>
 <p>Current limitations include the relatively short duration of clinical studies (≤48 weeks), the need for larger and more diverse participant populations, and the absence of long-term cardiovascular outcomes data. Additionally, the durability of weight loss after treatment cessation and the effects of retatrutide on lean body mass require further investigation.</p>
-</details>
-<details class="faq-item">
-<summary>How does retatrutide compare to bariatric surgery in terms of efficacy?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does retatrutide compare to bariatric surgery in terms of efficacy?</h3>
 <p>The 24.2% mean weight reduction observed with retatrutide approaches the range typically reported after bariatric surgical procedures such as sleeve gastrectomy (25–30%), representing a substantial advancement in non-surgical obesity pharmacotherapy. Direct comparative trials between retatrutide and bariatric surgery have not yet been conducted.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

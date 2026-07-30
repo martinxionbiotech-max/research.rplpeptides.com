@@ -165,26 +165,26 @@ For synthetic peptides, top-down analysis is the preferred first-line approach, 
 
 ## FAQ
 <div class="faq-section">
-<details class="faq-item">
-<summary>Which ionization method is best for my peptide?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Which ionization method is best for my peptide?</h3>
 <p>ESI is preferred for LC-MS workflows, quantitative analysis, and analyzing peptide mixtures. MALDI is better for rapid purity screening, analyzing stable samples, and situations where salt tolerance is important. For most synthetic peptide characterization, ESI-LC-MS is the standard.</p>
-</details>
-<details class="faq-item">
-<summary>What mass accuracy do I need for peptide identification?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What mass accuracy do I need for peptide identification?</h3>
 <p>For routine molecular weight confirmation of synthetic peptides, unit resolution (±0.5 Da) is usually sufficient. For detection of modifications, identification of unknowns, or proteomics, high resolution (<5 ppm mass accuracy) is required. Orbitrap and FT-ICR instruments provide the highest accuracy.</p>
-</details>
-<details class="faq-item">
-<summary>How do I interpret an MS/MS spectrum for peptide sequencing?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do I interpret an MS/MS spectrum for peptide sequencing?</h3>
 <p>Identify the y-ion series (often the most abundant in CID) and b-ion series. The mass difference between consecutive y-ions indicates the amino acid residue at that position. Coverage of >80% of theoretical fragment ions with appropriate mass accuracy confirms the sequence.</p>
-</details>
-<details class="faq-item">
-<summary>Can mass spectrometry detect all post-translational modifications?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can mass spectrometry detect all post-translational modifications?</h3>
 <p>Mass spectrometry can detect most PTMs that produce a mass shift: phosphorylation (+80 Da), oxidation (+16 Da), glycosylation (variable), acetylation (+42 Da), methylation (+14 Da). Some PTMs produce no mass change (e.g., citrullination, +1 Da difficult to distinguish). ETD fragmentation is preferred for labile PTMs.</p>
-</details>
-<details class="faq-item">
-<summary>What is the difference between CID, HCD, and ETD fragmentation?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the difference between CID, HCD, and ETD fragmentation?</h3>
 <p>CID and HCD produce b/y ions through backbone cleavage; HCD occurs at higher energy and is free of the low-mass cutoff limitation of ion trap CID. ETD produces c/z ions and preserves labile PTMs. CID/HCD is preferred for standard peptide sequencing; ETD is preferred for phosphopeptides and glycopeptides.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

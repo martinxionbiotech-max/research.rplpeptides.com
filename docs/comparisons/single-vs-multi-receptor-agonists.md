@@ -123,30 +123,30 @@ Combinations with leptin, FGF21, and other metabolic hormones are in earlier sta
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What is the advantage of multi-receptor over single-receptor agonists?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the advantage of multi-receptor over single-receptor agonists?</h3>
 <p>Multi-receptor agonists harness complementary biological mechanisms for additive or synergistic metabolic benefits. For example, GLP-1R provides insulin secretion and appetite suppression, while GIPR improves energy expenditure and lipid metabolism. The combined effect produces superior HbA1c reduction and weight loss.</p>
-</details>
-<details class="faq-item">
-<summary>Why not simply combine two separate agonists?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Why not simply combine two separate agonists?</h3>
 <p>Unimolecular multi-receptor agonists ensure coordinated pharmacokinetics and target engagement: each molecule activates all receptors simultaneously with a fixed activity ratio. Combination therapy requires two separate injections or formulations, and the receptors may be engaged with different temporal profiles.</p>
-</details>
-<details class="faq-item">
-<summary>What are the risks of multi-receptor agonists?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the risks of multi-receptor agonists?</h3>
 <p>The primary concern is the potential for adverse effects from multiple receptor activation, particularly with GCGR agonism (increased heart rate, potential for increased glucose in susceptible individuals). Long-term safety is still being established for the newer multi-receptor agents, especially regarding cardiovascular and pancreatic safety.</p>
-</details>
-<details class="faq-item">
-<summary>How are multi-receptor agonists engineered?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How are multi-receptor agonists engineered?</h3>
 <p>Peptide sequences are rationally designed by incorporating elements from native ligands for each target receptor. For example, tirzepatide uses a GIP backbone with modifications that enhance GLP-1R activity. The sequence is optimized through structure-activity relationship studies to achieve desired potency ratios at each receptor.</p>
-</details>
-<details class="faq-item">
-<summary>Which multi-receptor agonist is the most advanced in development?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Which multi-receptor agonist is the most advanced in development?</h3>
 <p>Tirzepatide (Mounjaro/Zepbound) is the most advanced, with approvals for type 2 diabetes and obesity. Retatrutide (triple agonist) and survodutide (GLP-1R/GCGR dual) have completed Phase 2 trials with promising results and are advancing to Phase 3.</p>
-</details>
-<details class="faq-item">
-<summary>Do multi-receptor agonists have worse gastrointestinal side effects?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Do multi-receptor agonists have worse gastrointestinal side effects?</h3>
 <p>Clinical trial data suggest that multi-receptor agonists (tirzepatide) have GI tolerability comparable to or slightly better than high-dose GLP-1R-selective agonists at equivalent glycemic efficacy. The mechanistic basis may involve GIPR-mediated reduction of nausea signals, though this requires further study.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

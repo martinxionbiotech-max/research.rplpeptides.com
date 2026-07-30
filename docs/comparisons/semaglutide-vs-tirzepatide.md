@@ -148,26 +148,26 @@ As the duration of exposure to dual and multi-receptor agonists extends in clini
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>Which is more effective for weight loss: semaglutide or tirzepatide?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Which is more effective for weight loss: semaglutide or tirzepatide?</h3>
 <p>Clinical trials show tirzepatide produces superior weight loss: ~20–25% mean reduction with tirzepatide 15 mg vs ~15% with semaglutide 2.4 mg at similar study durations. The difference is attributed to tirzepatide's dual GIP/GLP-1 receptor activation.</p>
-</details>
-<details class="faq-item">
-<summary>Do semaglutide and tirzepatide have similar side effect profiles?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Do semaglutide and tirzepatide have similar side effect profiles?</h3>
 <p>Both have similar gastrointestinal side effects (nausea, vomiting, diarrhea) that are dose-dependent and typically transient. The incidence and severity appear comparable when corrected for effect size, though some studies suggest tirzepatide may have a slightly lower GI side effect burden at equivalent efficacy.</p>
-</details>
-<details class="faq-item">
-<summary>Which has stronger cardiovascular outcome data?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Which has stronger cardiovascular outcome data?</h3>
 <p>Semaglutide has the more established cardiovascular evidence base, with positive results from SUSTAIN-6 (26% MACE reduction in T2D) and SELECT (20% MACE reduction in obesity without diabetes). Tirzepatide's large-scale CVOT (SURPASS-CVOT) is expected to report in 2024–2025.</p>
-</details>
-<details class="faq-item">
-<summary>Can semaglutide and tirzepatide be used together?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can semaglutide and tirzepatide be used together?</h3>
 <p>Combining semaglutide and tirzepatide is not recommended as both are incretin receptor agonists with overlapping mechanisms. The dual mechanism of tirzepatide already combines GLP-1 and GIP receptor activation in a single molecule.</p>
-</details>
-<details class="faq-item">
-<summary>What is the role of biased agonism in tirzepatide's mechanism?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the role of biased agonism in tirzepatide's mechanism?</h3>
 <p>Tirzepatide is a biased GLP-1R agonist that preferentially activates Gαs/cAMP over β-arrestin recruitment. This biased signaling may reduce receptor internalization, prolong signaling duration, and potentially contribute to favorable tolerability, though the clinical significance is still under investigation.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

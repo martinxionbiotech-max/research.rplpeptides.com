@@ -161,30 +161,30 @@ For laboratory-scale lyophilization, the simpler Pirani/capacitance manometer co
 
 ## FAQ
 <div class="faq-section">
-<details class="faq-item">
-<summary>Can I lyophilize a peptide in any buffer?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Can I lyophilize a peptide in any buffer?</h3>
 <p>No. Avoid phosphate buffers as they can experience severe pH shifts during freezing. Use histidine, citrate, Tris, or acetate buffers instead. The buffer concentration should be kept low (10–50 mM) to minimize eutectic formation issues.</p>
-</details>
-<details class="faq-item">
-<summary>What is cake collapse and why is it bad?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is cake collapse and why is it bad?</h3>
 <p>Cake collapse occurs when the product temperature exceeds the collapse temperature (T<sub>c</sub>) during primary drying. The porous matrix loses structural integrity, resulting in a shrunken, dense cake that is difficult to reconstitute and provides poor stability.</p>
-</details>
-<details class="faq-item">
-<summary>What is the best lyoprotectant for peptides?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the best lyoprotectant for peptides?</h3>
 <p>Trehalose is widely considered the best lyoprotectant due to its high T<sub>g</sub>, low hygroscopicity, and lack of internal hydrogen bonds. Sucrose is nearly as effective and is more economical. Mannitol can be used as a bulking agent but has poor lyoprotective properties.</p>
-</details>
-<details class="faq-item">
-<summary>How do I determine when primary drying is complete?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do I determine when primary drying is complete?</h3>
 <p>The product temperature rises toward the shelf temperature when ice sublimation finishes, because the drying front reaches the bottom of the vial. Pressure rise testing (Pirani vs. capacitance manometer divergence) is the most reliable method for production-scale equipment.</p>
-</details>
-<details class="faq-item">
-<summary>What residual moisture level is optimal for peptide stability?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What residual moisture level is optimal for peptide stability?</h3>
 <p>0.5–2.0% residual moisture is the optimal range. Below 0.5%, the formulation may be over-dried and essential hydration water may be removed. Above 3%, molecular mobility is sufficient to support hydrolytic degradation reactions.</p>
-</details>
-<details class="faq-item">
-<summary>Can lyophilization damage peptides?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can lyophilization damage peptides?</h3>
 <p>Freezing and drying stresses can cause conformational changes and aggregation if the formulation is not properly designed. Cryoprotectants and lyoprotectants are essential to prevent damage. In properly formulated systems, peptides retain full potency after lyophilization.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

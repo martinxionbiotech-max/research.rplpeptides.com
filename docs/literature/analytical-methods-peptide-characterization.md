@@ -139,42 +139,42 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What is the most reliable method for determining peptide purity?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the most reliable method for determining peptide purity?</h3>
 <p>RP-HPLC with UV detection at 214 nm is the standard method for purity assessment. The peptide bond absorbs strongly at this wavelength, providing a near-universal detection method. Purity is reported as the area percent of the main peak relative to all integrated peaks.</p>
-</details>
-<details class="faq-item">
-<summary>How accurate is mass spectrometry for confirming peptide identity?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How accurate is mass spectrometry for confirming peptide identity?</h3>
 <p>High-resolution mass spectrometry (HRMS) can determine monoisotopic mass to within 1–5 ppm of the theoretical value, providing definitive molecular weight confirmation. Combined with MS/MS sequencing, the identity (including sequence) of a peptide can be established with very high confidence.</p>
-</details>
-<details class="faq-item">
-<summary>What are the limitations of CD spectroscopy for peptide structure analysis?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the limitations of CD spectroscopy for peptide structure analysis?</h3>
 <p>CD spectra provide information about overall secondary structure content but cannot assign structure to specific residues. The technique requires optically transparent solutions (buffer absorbance below 200 nm limits the accessible range), and quantification of β-sheet content is less reliable than for α-helix.</p>
-</details>
-<details class="faq-item">
-<summary>When is NMR necessary for peptide characterization?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">When is NMR necessary for peptide characterization?</h3>
 <p>NMR is necessary when detailed three-dimensional structure information is required, such as for confirming the fold of a designed peptide, studying peptide-receptor interactions, or characterizing conformational dynamics in solution. For routine identity and purity assessment, HPLC and MS are sufficient.</p>
-</details>
-<details class="faq-item">
-<summary>Can amino acid analysis replace sequencing?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Can amino acid analysis replace sequencing?</h3>
 <p>Amino acid analysis confirms the correct amino acid composition but does not provide sequence information. Two peptides with the same composition but different sequences are indistinguishable by composition analysis alone. Sequence verification requires MS/MS, Edman degradation, or NMR.</p>
-</details>
-<details class="faq-item">
-<summary>What is the difference between LC-MS and LC-MS/MS?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the difference between LC-MS and LC-MS/MS?</h3>
 <p>LC-MS measures the mass-to-charge ratio (m/z) of intact peptide ions. LC-MS/MS selects a precursor ion, fragments it by collision-induced dissociation, and analyzes the fragment ions. MS/MS provides sequence information that is not available from intact mass alone.</p>
-</details>
-<details class="faq-item">
-<summary>How do you detect disulfide bond formation in peptides?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do you detect disulfide bond formation in peptides?</h3>
 <p>Disulfide bond formation can be detected by mass spectrometry (a 2 Da mass decrease per bond formed, or by mass mapping after enzymatic digestion). Ellman's assay detects free thiols. NMR and X-ray crystallography provide bond localization.</p>
-</details>
-<details class="faq-item">
-<summary>What purity level is acceptable for research peptides?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What purity level is acceptable for research peptides?</h3>
 <p>For most research applications, >95% purity by HPLC is standard. For cell-based assays and in vivo studies, >98% is generally preferred. For clinical-grade therapeutic peptides, >99% with strict limits on specific impurities (truncations, epimers, oxidation products) is required.</p>
-</details>
-<details class="faq-item">
-<summary>How do you characterize cyclic peptides?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How do you characterize cyclic peptides?</h3>
 <p>Cyclic peptides require additional analytical attention. MALDI-TOF MS can confirm the cyclic topology (cyclic peptides show distinct fragmentation patterns from linear counterparts). NMR is particularly valuable for determining cyclic peptide conformation. RP-HPLC retention times shift notably upon cyclization due to altered hydrophobicity.</p>
-</details>
+</div>
 </div>
 
 !!! info ""

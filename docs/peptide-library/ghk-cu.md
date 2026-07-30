@@ -116,25 +116,25 @@ For experimental planning and research support, the [RPL Peptides Research Tools
 
 
 ## Frequently Asked Questions
-<details class="faq-item">
-<summary>Is GHK-Cu found naturally in the human body?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Is GHK-Cu found naturally in the human body?</h3>
 <p>Yes, GHK-Cu is a naturally occurring peptide-copper complex found in human plasma. It is generated through the proteolytic degradation of larger proteins, particularly albumin and SPARC (secreted protein acidic and rich in cysteine). Plasma levels of GHK-Cu are approximately 200 μg/L in healthy young adults but decline significantly with age.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>What is the primary research focus for GHK-Cu?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the primary research focus for GHK-Cu?</h3>
 <p>The primary research focus is wound healing and tissue regeneration. GHK-Cu has been extensively studied for its ability to stimulate collagen synthesis, promote fibroblast and keratinocyte migration, enhance angiogenesis, and modulate extracellular matrix remodeling. It is also investigated for its antioxidant properties and its role as a physiological copper transport system.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>Is GHK-Cu activity the same with and without copper?</summary>
+<div class="faq-item">
+<h3 class="faq-question">Is GHK-Cu activity the same with and without copper?</h3>
 <p>No, the biological activity of GHK-Cu differs significantly from the free GHK peptide. The copper-bound form is generally considered the biologically active species, and the metal coordination is essential for many of the peptide's reported biological effects, including its wound-healing and gene-modulating activities. The free peptide (without copper) has different properties and lower activity in most biological assays.</p>
-</details>
+</div>
   </div>
-<details class="faq-item">
-<summary>What is GHK-Cu's role in copper transport?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is GHK-Cu's role in copper transport?</h3>
 <p>GHK-Cu functions as a physiological copper delivery system in the body. It can bind and transport copper ions to cells, where the copper is incorporated into essential cuproenzymes such as superoxide dismutase (SOD1), lysyl oxidase (required for collagen and elastin crosslinking), and cytochrome c oxidase (involved in mitochondrial respiration). This copper-delivery function is a key part of GHK-Cu's biological mechanism.</p>
-</details>
+</div>
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).

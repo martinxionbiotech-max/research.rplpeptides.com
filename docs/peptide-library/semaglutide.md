@@ -96,46 +96,46 @@ Finally, research into personalized medicine approaches may identify patient sub
 
 ## Frequently Asked Questions
 <div class="faq-section">
-<details class="faq-item">
-<summary>What is the molecular basis for semaglutide's extended half-life?</summary>
+<div class="faq-item">
+<h3 class="faq-question">What is the molecular basis for semaglutide's extended half-life?</h3>
 <p>Semaglutide incorporates a C18 fatty diacid attached via a glutamic acid linker to lysine at position 26. This fatty acid chain binds non-covalently to serum albumin, protecting the peptide from renal clearance and enzymatic degradation, extending the half-life to approximately 7 days.</p>
-</details>
-<details class="faq-item">
-<summary>How does semaglutide compare to native GLP-1?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does semaglutide compare to native GLP-1?</h3>
 <p>Semaglutide shares 94% sequence homology with native human GLP-1(7-37) but incorporates two key modifications: substitution of alanine with Aib at position 8 (DPP-4 resistance) and substitution of lysine with arginine at position 34, along with a fatty acid acylation for albumin binding.</p>
-</details>
-<details class="faq-item">
-<summary>What body weight reduction has been demonstrated in clinical trials?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What body weight reduction has been demonstrated in clinical trials?</h3>
 <p>In the STEP-1 trial, semaglutide 2.4 mg once weekly produced a mean body weight reduction of 14.9% over 68 weeks compared to 2.4% with placebo. More than one third of participants lost 20% or more of their initial body weight.</p>
-</details>
-<details class="faq-item">
-<summary>How was semaglutide's cardiovascular benefit established?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How was semaglutide's cardiovascular benefit established?</h3>
 <p>The SUSTAIN-6 cardiovascular outcomes trial demonstrated a 26% reduction in the composite endpoint of cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke with semaglutide compared to placebo in patients with type 2 diabetes at high cardiovascular risk.</p>
-</details>
-<details class="faq-item">
-<summary>How does oral semaglutide achieve systemic absorption?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does oral semaglutide achieve systemic absorption?</h3>
 <p>Oral semaglutide is co-formulated with SNAC (sodium N-(8-[2-hydroxybenzoyl]amino)caprylate), which increases local gastric pH to protect the peptide from proteolytic degradation and facilitates transcellular absorption across the gastric epithelium.</p>
-</details>
-<details class="faq-item">
-<summary>What are the most common adverse events?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the most common adverse events?</h3>
 <p>Gastrointestinal adverse events—nausea, diarrhea, vomiting, and constipation—are the most commonly reported. These are dose-dependent and tend to diminish over time. Dose-escalation regimens are used to improve tolerability.</p>
-</details>
-<details class="faq-item">
-<summary>Is semaglutide being studied for neurodegenerative diseases?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Is semaglutide being studied for neurodegenerative diseases?</h3>
 <p>Yes. Preclinical studies suggest GLP-1 receptor agonists exert neuroprotective effects. Clinical trials are evaluating semaglutide in early Alzheimer's disease, with the EVOKE and EVOKE+ trials investigating effects on cognitive decline.</p>
-</details>
-<details class="faq-item">
-<summary>What is the SELECT trial, and what did it find?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the SELECT trial, and what did it find?</h3>
 <p>SELECT (Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity) evaluated semaglutide 2.4 mg in patients with established cardiovascular disease and overweight or obesity without diabetes. Positive results demonstrated cardiovascular benefit in this population, expanding semaglutide's potential application beyond diabetes.</p>
-</details>
-<details class="faq-item">
-<summary>Does semaglutide affect kidney function?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">Does semaglutide affect kidney function?</h3>
 <p>The FLOW trial evaluated semaglutide in patients with type 2 diabetes and chronic kidney disease, showing beneficial effects on kidney function outcomes. Mechanisms may include reduced inflammation, improved glycemic control, and hemodynamic effects.</p>
-</details>
-<details class="faq-item">
-<summary>What are the limitations of current semaglutide research?</summary>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What are the limitations of current semaglutide research?</h3>
 <p>Limitations include the need for long-term safety data beyond 5 years, incomplete understanding of tissue-specific contributions to cardiovascular benefit, the potential for lean body mass loss in addition to fat loss, and the phenomenon of weight regain upon treatment discontinuation.</p>
-</details>
+</div>
 </div>
 
 !!! info ""
