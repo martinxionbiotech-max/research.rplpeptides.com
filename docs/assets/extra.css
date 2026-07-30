@@ -1,6 +1,37 @@
 /* RPL Peptides Research Knowledge Center - Custom Styles */
 
-/* Hero section */
+/* ===== LAYOUT: Wide page ===== */
+.md-grid {
+  max-width: 90rem !important; /* 1440px, up from default 61rem (976px) */
+}
+.md-sidebar--primary {
+  width: 12rem !important;
+}
+.md-content__inner {
+  max-width: 100% !important;
+}
+.md-content {
+  max-width: 100% !important;
+}
+.md-typeset {
+  max-width: 100% !important;
+}
+.md-typeset p,
+.md-typeset li,
+.md-typeset ol,
+.md-typeset ul,
+.md-typeset table,
+.md-typeset div {
+  max-width: 100% !important;
+}
+
+/* Prevent long links/DOIs from overflowing */
+.md-typeset a {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+/* ===== HERO SECTION ===== */
 .hero {
   background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1a56db 100%);
   color: white;
@@ -25,21 +56,13 @@
 .hero-stat-value { font-size: 1.75rem; font-weight: 800; color: white; }
 .hero-stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.6); }
 
-/* Grid cards on homepage */
-.grid.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1rem;
-}
-
-/* Fix hero for narrow screens */
 @media (max-width: 768px) {
   .hero { padding: 3rem 0; margin: -1rem -1rem 1.5rem -1rem; }
   .hero h1 { font-size: 1.75rem; }
   .hero-stats { flex-wrap: wrap; gap: 1.5rem; }
 }
 
-/* Quick facts tables - inline style from peptide pages */
+/* ===== QUICK FACTS TABLE ===== */
 .quick-facts {
   width: 100%;
   border-collapse: collapse;
@@ -57,7 +80,7 @@
   background: var(--md-code-bg-color);
 }
 
-/* Info boxes */
+/* ===== INFO BOXES ===== */
 .info-box {
   border-radius: 8px;
   padding: 1.25rem;
@@ -80,7 +103,7 @@
 }
 .info-box.tip p { color: #166534; }
 
-/* Card grid (for Related Research sections) */
+/* ===== CARD GRID ===== */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -89,6 +112,11 @@
 }
 .card-grid-3 {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
 }
 
 .card {
@@ -118,7 +146,7 @@
   margin-top: 0.75rem;
 }
 
-/* Tags */
+/* ===== TAGS ===== */
 .tag {
   display: inline-block;
   padding: 0.2rem 0.6rem;
@@ -129,78 +157,74 @@
   color: var(--md-primary-fg-color);
 }
 
-/* FAQ - inline accordion from Astro */
-.faq-list { margin: 1.5rem 0; }
-.faq-item {
+/* ===== FAQ (native <details><summary> format) ===== */
+details.faq-item {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
   margin-bottom: 0.5rem;
   overflow: hidden;
+  display: block;
+  width: 100%;
 }
-.faq-question {
+details.faq-item summary {
   padding: 0.75rem 1rem;
   font-weight: 600;
   cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background: var(--md-default-fg-color--lightest);
   user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  color: var(--md-typeset-color);
 }
-.faq-question:hover {
-  background: var(--md-primary-fg-color--lightest);
-}
-.faq-answer {
-  padding: 0 1rem 0.75rem;
-  font-size: 0.9rem;
-}
-.faq-toggle {
+/* Remove default marker on all browsers */
+details.faq-item summary::-webkit-details-marker { display: none; }
+details.faq-item summary::marker { display: none; content: ''; }
+/* Add custom "+" marker */
+details.faq-item summary::before {
+  content: '+';
   font-weight: 700;
   font-size: 1.2rem;
+  flex-shrink: 0;
+  width: 1.2rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+details.faq-item[open] summary::before {
+  content: '−';
+}
+details.faq-item summary:hover {
+  background: var(--md-primary-fg-color--lightest);
+}
+details.faq-item > .faq-answer,
+details.faq-item > p:not(:first-child),
+details.faq-item > *:not(summary) {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
 }
 
-/* References */
-.references { margin: 2rem 0; }
-.references ol { padding-left: 1.5rem; }
-.references li {
+/* ===== REFERENCES ===== */
+ol.references {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+ol.references li {
   margin-bottom: 0.75rem;
   font-size: 0.85rem;
   line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+ol.references li a {
+  word-break: break-all;
 }
 
-/* Admonition style titles */
+/* ===== MISC ===== */
 h2.doc-heading {
   border-bottom: 2px solid var(--md-primary-fg-color);
   padding-bottom: 0.5rem;
 }
-
-/* Breadcrumb style override - make it subtle */
 .md-breadcrumb {
   font-size: 0.75rem;
-}
-
-/* Increase page width for better readability */
-.md-grid {
-  max-width: 90rem !important; /* 1440px, up from default 61rem (976px) */
-}
-
-.md-sidebar--primary {
-  width: 12rem !important;
-}
-
-.md-content__inner {
-  max-width: 100% !important;
-}
-
-.md-content {
-  max-width: 100% !important;
-}
-
-/* Ensure article content fills the wide space without right-column squeeze */
-.md-typeset {
-  max-width: 100% !important;
-}
-
-.md-typeset p, .md-typeset li, .md-typeset table, .md-typeset div {
-  max-width: 100%;
 }
