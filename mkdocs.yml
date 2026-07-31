@@ -75,6 +75,9 @@ nav:
       - Peptide Classification: research/peptide-biology/peptide-classification.md
       - Peptide Structure and Function: research/peptide-biology/peptide-structure-function.md
       - Peptide Signaling Pathways: research/peptide-biology/peptide-signaling-pathways.md
+      - Peptide Self-Assembly: research/peptide-biology/peptide-self-assembly.md
+      - Peptide Transport and Uptake: research/peptide-biology/peptide-transport-and-uptake.md
+      - Peptide Immunopeptidomics: research/peptide-biology/peptide-immunopeptidomics.md
     - Peptide Chemistry:
       - Overview: research/peptide-chemistry/index.md
       - Peptide Synthesis Overview: research/peptide-chemistry/peptide-synthesis-overview.md
@@ -99,6 +102,8 @@ nav:
       - Cell Biology Research: research/applications/cell-biology-research.md
       - Molecular Biology Research: research/applications/molecular-biology-research.md
       - Biotechnology Applications: research/applications/biotechnology-applications.md
+      - Peptide Vaccines: research/applications/peptide-vaccines.md
+      - Peptide Radiolabeling: research/applications/peptide-radiolabeling.md
   - Peptide Library:
     - Overview: peptide-library/index.md
     - Semaglutide: peptide-library/semaglutide.md

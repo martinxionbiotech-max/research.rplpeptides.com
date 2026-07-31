@@ -138,6 +138,13 @@ The collected fractions are analyzed by analytical HPLC, and those meeting the p
 
 Multi-step purification—combining initial preparative HPLC with a second orthogonal chromatographic step (e.g., ion exchange or size exclusion)—is used when a single RP-HPLC step is insufficient to achieve the target purity, particularly for long peptides (>30 residues) where the impurity profile is complex.
 
+## Current Understanding and Emerging Trends
+Method transfer between conventional HPLC and ultra-high-performance liquid chromatography (U/HPLC) systems has become a critical topic as laboratories upgrade their instrumentation. The transition requires careful consideration of gradient scaling to maintain equivalent separation selectivity. Geometrically transferring a method from a 4.6 × 250 mm, 5 µm column to a 2.1 × 100 mm, 1.7 µm column involves scaling the column volume ratio, adjusting the flow rate proportionally to the column cross-sectional area, and recalculating the gradient time segments to deliver the same number of column volumes of each mobile phase composition. When scaled correctly, UHPLC methods can achieve equivalent or superior resolution in one-third to one-fifth of the analysis time. The increased resolution afforded by smaller particle columns also improves the separation of closely eluting impurities, including epimers and truncation sequences that may co-elute under conventional HPLC conditions.
+
+Orthogonal separation mechanisms provide a powerful strategy for resolving complex peptide mixtures where a single RP-HPLC method is insufficient. The most common orthogonal approaches combine ion-exchange chromatography (IEX) in the first dimension with RP-HPLC in the second dimension, exploiting charge-based separation in IEX and hydrophobicity-based separation in RP-HPLC. For peptides with similar hydrophobicity but different charge states, this combination can resolve species that co-elute in a one-dimensional RP-HPLC separation. Other orthogonal mechanisms include hydrophilic interaction liquid chromatography (HILIC), which separates based on polarity and is complementary to RP-HPLC, and size-exclusion chromatography (SEC), which separates based on hydrodynamic volume and provides information about aggregation state. The orthogonality of two separation methods can be quantified by calculating the geometric distribution of peaks in the two-dimensional separation space, with a correlation coefficient (r²) below 0.3 indicating good orthogonality.
+
+Two-dimensional liquid chromatography (2D-LC) has emerged as a powerful tool for comprehensive peptide analysis, particularly for complex mixtures encountered in proteomics, impurity profiling of synthetic peptides, and characterization of post-translational modifications. In comprehensive 2D-LC (LC×LC), the entire effluent from the first dimension is sampled and transferred to the second dimension at regular intervals (typically 30–60 seconds), generating a two-dimensional contour plot with significantly increased peak capacity. The peak capacity of an optimized 2D-LC system can reach several thousand, compared to 200–500 for a typical one-dimensional RP-HPLC method. For online 2D-LC, the first dimension is operated at low flow rate (5–50 µL/min) with small inner diameter columns (0.3–1.0 mm ID), while the second dimension uses fast gradients (30–60 seconds) at high flow rates (1–4 mL/min). Heart-cutting 2D-LC (LC–LC) is an alternative approach where only specific regions of the first-dimension separation are transferred to the second dimension, making it more practical for targeted impurity profiling where only one or two critical peak clusters require additional resolution.
+
 ## FAQ
 <div class="faq-container">
 <div class="faq-container">
@@ -166,6 +173,18 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 <h3 class="faq-question">Can I use LC-MS with TFA-containing mobile phases?</h3>
 <p>TFA causes ion suppression in ESI-MS. For LC-MS, use 0.1% formic acid instead of TFA, or use low TFA concentrations (0.01–0.05%) with post-column make-up flow to improve ionization.</p>
 </div>
+<div class="faq-item">
+<h3 class="faq-question">How do I transfer an HPLC method to UHPLC conditions?</h3>
+<p>Method transfer from conventional HPLC to UHPLC requires geometric scaling of column dimensions, particle size, flow rate, and gradient program. The key principle is maintaining a constant column volume-based gradient (same number of column volumes across the gradient). Scale the flow rate proportionally to the square of the column inner diameter ratio, and adjust the gradient time proportionally to the column volume ratio. The injection volume should also be scaled to maintain the same column loading. When properly scaled, UHPLC typically achieves equivalent separation in 20–30% of the original analysis time, with potential improvements in resolution due to reduced longitudinal diffusion and lower eddy dispersion with sub-2 µm particles.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is orthogonal separation and when is it needed?</h3>
+<p>Orthogonal separation uses two or more chromatographic methods that exploit different physicochemical properties for separation (e.g., RP-HPLC separates by hydrophobicity, IEX separates by charge, HILIC separates by polarity). Orthogonal methods are needed when a one-dimensional RP-HPLC method cannot resolve all critical impurities—particularly common in crude SPPS products containing closely related sequences, epimers, and deletion peptides. The orthogonality between two methods can be quantified by the correlation coefficient (r²) of retention times; values below 0.3 indicate good orthogonality. Combining orthogonal methods, either through sequential purification steps or online 2D-LC, significantly increases the effective peak capacity and ensures comprehensive impurity coverage.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">When should I consider using two-dimensional liquid chromatography (2D-LC) for peptide analysis?</h3>
+<p>2D-LC is recommended when: (1) one-dimensional separations cannot resolve co-eluting critical impurities, (2) the sample contains a complex mixture of 20+ components requiring comprehensive profiling, (3) post-translational modifications or degradation products must be mapped across the entire separation space, or (4) very high peak capacity (>2000) is needed for impurity profiling in regulatory-quality submissions. For routine purity assessment of well-characterized peptides, 2D-LC is generally unnecessary; it becomes valuable during method development, root-cause investigations of unexpected impurities, and characterization of complex starting materials.</p>
+</div>
 </div>
 
 !!! info ""
@@ -174,11 +193,17 @@ Multi-step purification—combining initial preparative HPLC with a second ortho
 </div>
 ## References
 <ol class="references">
-Methods Mol Biol</em>. 2007;386:3-55.</li>
+  <li id="ref1">Mant CT, Chen Y, Yan Z, Popa TV. HPLC analysis of peptides. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
   <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in RP-LC separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
   <li id="ref3">Snyder LR, Kirkland JJ, Dolan JW. Introduction to Modern Liquid Chromatography. 3rd ed. Wiley; 2009.</li>
   <li id="ref4">Carr D. The handbook of analysis and purification of peptides and proteins. Vydac; 1997.</li>
   <li id="ref5">Gilar M, Olivova P, Chakraborty AB, et al. Comparison of 1-D and 2-D LC-MS methods for proteomics. <em>J Sep Sci</em>. 2005;28(13):1554-1565.</li>
   <li id="ref6">Stanton P. Preparative purification of peptides. <em>Methods Mol Biol</em>. 2014;1175:197-214.</li>
   <li id="ref7">Shukla AK, Majors RE, eds. Liquid Chromatography for the Analysis of Peptides. Elsevier; 2011.</li>
+  <li id="ref8">Guillarme D, Nguyen DTT, Rudaz S, Veuthey JL. Method transfer for fast liquid chromatography in pharmaceutical analysis: application to short columns packed with small particle. Part I: isocratic separation. <em>J Chromatogr A</em>. 2007;1149(1):20-29. <a href="https://doi.org/10.1016%2Fj.chroma.2007.02.080">doi:10.1016/j.chroma.2007.02.080</a></li>
+  <li id="ref9">Gilar M, Olivova P, Daly AE, Gebler JC. Orthogonality of separation in two-dimensional liquid chromatography. <em>Anal Chem</em>. 2005;77(19):6426-6434. <a href="https://doi.org/10.1021%2Fac050923i">doi:10.1021/ac050923i</a></li>
+  <li id="ref10">François I, Sandra K, Sandra P. Comprehensive liquid chromatography: fundamental aspects and practical considerations—a review. <em>Anal Chim Acta</em>. 2009;641(1-2):14-31. <a href="https://doi.org/10.1016%2Fj.aca.2009.03.024">doi:10.1016/j.aca.2009.03.024</a></li>
+  <li id="ref11">Stoll DR, Li X, Wang X, et al. Fast, comprehensive two-dimensional liquid chromatography. <em>J Chromatogr A</em>. 2007;1168(1-2):3-43. <a href="https://doi.org/10.1016%2Fj.chroma.2007.08.054">doi:10.1016/j.chroma.2007.08.054</a></li>
+  <li id="ref12">Horváth K, Fairchild JN, Guiochon G. Detection in comprehensive two-dimensional liquid chromatography. <em>J Chromatogr A</em>. 2009;1216(9):1385-1395. <a href="https://doi.org/10.1016%2Fj.chroma.2008.12.093">doi:10.1016/j.chroma.2008.12.093</a></li>
+  <li id="ref13">Vanhoenacker G, Sandra P. High temperature liquid chromatography (HTLC) of peptides and proteins. <em>J Sep Sci</em>. 2006;29(12):1822-1835. <a href="https://doi.org/10.1002%2Fjssc.200600123">doi:10.1002/jssc.200600123</a></li>
 </ol>

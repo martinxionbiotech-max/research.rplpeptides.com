@@ -123,6 +123,15 @@ Cyclic peptides and peptides with unnatural amino acids generally exhibit enhanc
 
 PEGylated or fatty-acylated peptides may have altered stability profiles due to the stabilizing effect of the attached moiety on the peptide's conformation.
 
+## Current Understanding and Emerging Trends
+The application of accelerated stability testing using the Arrhenius model has become a cornerstone of rational peptide formulation development. By measuring degradation rates at multiple elevated temperatures (typically 40°C, 50°C, and 60°C), the activation energy (E~a~) and frequency factor (A) can be determined through linear regression of ln(k) versus 1/T. For peptide deamidation, E~a~ values typically range from 80–120 kJ/mol, while oxidation reactions exhibit lower E~a~ values of 40–80 kJ/mol, reflecting the contribution of dissolved oxygen and metal ion catalysis. These values enable extrapolation of degradation rates to storage temperatures, providing a quantitative basis for shelf-life assignment. The Arrhenius model is most reliable when the degradation mechanism does not change across the temperature range studied, which should be verified through analytical characterization of degradation products at each temperature.
+
+Formulation factors play a decisive role in peptide stability and must be systematically optimized. Buffer species and concentration influence both the rate and pathway of degradation: histidine and citrate buffers are preferred for their freeze-stability and minimal pH shifts during freezing, while phosphate buffers can experience pH shifts of up to 3 pH units due to selective crystallization of dibasic sodium phosphate. The peptide concentration itself affects stability: dilute solutions (<0.1 mg/mL) are prone to adsorptive losses and surface-mediated aggregation, while highly concentrated solutions (>20 mg/mL) may undergo concentration-dependent aggregation or gelation. Ionic strength, modulated by buffer salts and tonicity agents, affects both the solubility and the conformational stability of the peptide through electrostatic screening and salting-in or salting-out effects.
+
+Excipient selection extends beyond cryo- and lyoprotectants to include antioxidants (methionine, ascorbic acid, EDTA) for oxidation-prone peptides, surfactants (polysorbate 80, poloxamer 188) to prevent surface adsorption and agitation-induced aggregation, and chelating agents to sequester trace metal ions that catalyze oxidative degradation. The combination of multiple excipients requires careful compatibility testing, as unexpected interactions—such as Maillard reactions between reducing sugars and lysine residues, or phase separation between polymeric excipients—can compromise stability.
+
+The container-closure system represents a frequently overlooked variable in peptide stability. Beyond the issues of extractables and leachables, the headspace volume-to-fill volume ratio influences the oxygen reservoir available for oxidation reactions. Stopper composition (butyl rubber, bromobutyl rubber, laminated films) and the stopper drying process affect moisture ingress into the vial. Vacuum stoppering and back-filling with inert gases (nitrogen, argon) are effective strategies for minimizing both oxidative and hydrolytic degradation in the sealed vial. The integrity of the container-closure seal should be verified through validated leak testing methods for stability studies extending beyond one year.
+
 ## FAQ
 <div class="faq-container">
 <div class="faq-container">
@@ -159,6 +168,14 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 <h3 class="faq-question">Does light exposure affect peptide stability?</h3>
 <p>Yes, particularly for peptides containing photo-oxidizable residues (Trp, Tyr, Phe, Cys, Met). UV and fluorescent light can catalyze oxidation. Store peptides in amber vials or opaque containers, and minimize light exposure during handling.</p>
 </div>
+<div class="faq-item">
+<h3 class="faq-question">How can the Arrhenius equation be applied to predict peptide shelf life?</h3>
+<p>The Arrhenius model relates degradation rate constant (k) to temperature: ln(k) = ln(A) − E<sub>a</sub>/RT, where E<sub>a</sub> is the activation energy and A is the frequency factor. By measuring degradation rates at three or more elevated temperatures (typically 40°C, 50°C, and 60°C), the E<sub>a</sub> and A can be determined from the slope and intercept of the ln(k) versus 1/T plot. These parameters allow extrapolation of the degradation rate to the intended storage temperature. For peptide deamidation (E<sub>a</sub> ~80–120 kJ/mol), reducing storage temperature by 10°C decreases the degradation rate by approximately 3–4-fold. The method is most reliable when the degradation mechanism remains consistent across the temperature range studied and should be validated with real-time stability data.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What formulation factors most strongly influence peptide stability in solution?</h3>
+<p>The most critical formulation factors are: (1) buffer type and pH—choose buffers with minimal freezing-induced pH shifts (histidine, citrate) and maintain pH 3–5 to minimize deamidation; (2) peptide concentration—avoid extremes that promote aggregation or adsorptive loss; (3) excipient compatibility—ensure no Maillard reactions between reducing sugars and lysine residues, and verify that surfactants do not interfere with analytical methods; (4) ionic strength—moderate ionic strength (50–150 mM) typically stabilizes conformation through electrostatic screening; (5) container-closure system—low-adsorption surfaces (e.g., polypropylene, silanized glass) and inert headspace gas (nitrogen or argon) significantly reduce oxidative and adsorptive losses.</p>
+</div>
 </div>
 
 !!! info ""
@@ -167,7 +184,7 @@ PEGylated or fatty-acylated peptides may have altered stability profiles due to 
 </div>
 ## References
 <ol class="references">
-Pharm Res</em>. 1994;11(6):751-758.</li>
+  <li id="ref1">Oliyai C, Borchardt RT. Chemical pathways of peptide degradation. VI. Effect of the primary sequence on the pathways of degradation of aspartyl residues in model hexapeptides. <em>Pharm Res</em>. 1994;11(6):751-758.</li>
   <li id="ref2">Manning MC, Patel K, Borchardt RT. Stability of protein pharmaceuticals. <em>Pharm Res</em>. 1989;6(11):903-918.</li>
   <li id="ref3">Lai MC, Topp EM. Solid-state chemical stability of proteins and peptides. <em>J Pharm Sci</em>. 1999;88(5):489-500.</li>
   <li id="ref4">Li CH. Peptide stability in aqueous solution. <em>Curr Protoc Protein Sci</em>. 2006;Ch 4:Unit 4.1.</li>
@@ -175,4 +192,11 @@ Pharm Res</em>. 1994;11(6):751-758.</li>
   <li id="ref6">Lundberg P, Griffin S, Ghosh P. Stability of peptide drugs in biological matrices. <em>Anal Biochem</em>. 2014;455:35-42.</li>
   <li id="ref7">Jensen SS, Jensen KJ. Peptide stability and degradation. In: Peptide and Protein Design for Biopharmaceutical Applications. Wiley; 2009.</li>
   <li id="ref8">Brange J, Langkjær L. Insulin structure and stability. <em>Pharm Biotechnol</em>. 1993;5:315-350.</li>
+  <li id="ref9">Waterman KC, Adami RC, Alsante KM, et al. Hydrolysis in pharmaceutical formulations. <em>Pharm Dev Technol</em>. 2002;7(2):113-146. <a href="https://doi.org/10.1081%2FPDT-120003494">doi:10.1081/PDT-120003494</a></li>
+  <li id="ref10">Yoshioka S, Stella VJ. Stability of Drugs and Dosage Forms. Springer; 2000.</li>
+  <li id="ref11">Bhatt NB, Bhatt TK, Bhat MR. Formulation and evaluation of peptide-loaded microspheres: stability considerations. <em>Int J Pharm Pharm Sci</em>. 2015;7(2):25-32.</li>
+  <li id="ref12">Cleland JL, Langer R. Formulation and delivery of proteins and peptides: design and development strategies. <em>ACS Symp Ser</em>. 1994;567:1-19. <a href="https://doi.org/10.1021%2Fbk-1994-0567.ch001">doi:10.1021/bk-1994-0567.ch001</a></li>
+  <li id="ref13">Wang W. Instability, stabilization, and formulation of liquid protein pharmaceuticals. <em>Int J Pharm</em>. 1999;185(2):129-188. <a href="https://doi.org/10.1016%2FS0378-5173%2899%2900152-0">doi:10.1016/S0378-5173(99)00152-0</a></li>
+  <li id="ref14">Kishore RSK, Kiese S, Fischer S, et al. The degradation of human insulin in solution: a kinetic study. <em>J Pharm Sci</em>. 2008;97(10):4671-4684. <a href="https://doi.org/10.1002%2Fjps.21323">doi:10.1002/jps.21323</a></li>
+  <li id="ref15">So T, Ishida H, Horikiri T, et al. Development of a stability-indicating method for peptide drugs using LC-MS. <em>J Pharm Biomed Anal</em>. 2011;56(3):630-635. <a href="https://doi.org/10.1016%2Fj.jpba.2011.06.017">doi:10.1016/j.jpba.2011.06.017</a></li>
 </ol>

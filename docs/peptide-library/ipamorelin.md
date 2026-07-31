@@ -86,6 +86,14 @@ Ipamorelin research continues across several fronts:
 Ipamorelin's GH-mediated lipolytic effects are of interest in the context of metabolic syndrome.
 - **Gastrointestinal motility:** Given ghrelin's role as a prokinetic hormone, GHS-R1a agonists are being explored for gastroparesis and postoperative ileus, though ipamorelin is less studied in this context than other ghrelin mimetics.
 
+## Current Understanding and Emerging Trends
+The structure-activity relationships among the GHRP family of peptides provide important context for understanding ipamorelin's unique selectivity profile. Among the most studied GHRPs are GHRP-2 (pralmorelin), GHRP-6, hexarelin, and ipamorelin. While all share the ability to activate GHS-R1a and stimulate GH release, they differ substantially in their effects on the hypothalamic-pituitary-adrenal (HPA) axis. GHRP-6 and hexarelin produce significant elevations in ACTH and cortisol (30–60% of the GH response magnitude), while ipamorelin elicits minimal (<5%) activation of the HPA axis. This difference is attributed to subtle variations in receptor binding kinetics and downstream signaling bias at the GHS-R1a receptor.
+
+The molecular basis for ipamorelin's selectivity as a GHS-R1a agonist has been elucidated through receptor mutagenesis and molecular modeling studies. The GHS-R1a receptor is a G~q/11~-coupled GPCR with a deep binding pocket that accommodates the ghrelin octanoyl chain and the core peptide sequence. Ipamorelin, with its compact pentapeptide structure incorporating unnatural amino acids (Aib, d-2-Nal, d-Phe), occupies a distinct subset of the binding pocket compared to the larger GHRP-6 or the endogenous ligand ghrelin. Computational docking studies suggest that ipamorelin's binding mode preferentially stabilizes a receptor conformation that couples efficiently to G~q/11~ while displaying reduced efficacy for β-arrestin recruitment and G protein-independent signaling pathways. This biased agonism at the molecular level explains the dissociation between GH-releasing activity and stress-axis activation observed with ipamorelin.
+
+The clinical development history of ipamorelin provides valuable insights into its pharmacological profile. The peptide has been evaluated in Phase I and Phase II clinical studies for conditions involving GH deficiency and catabolic states. In healthy volunteers, subcutaneous administration of ipamorelin at doses of 0.03–0.3 mg/kg produced dose-dependent increases in serum GH, with peak levels at 30–60 minutes and return to baseline by 3 hours. Importantly, serial measurements of ACTH, cortisol, and prolactin showed no significant changes across the dose range studied, confirming the selectivity profile observed in preclinical models. A Phase II study in obese subjects (Svensson et al., 2000) reported that 2 months of ipamorelin treatment reduced total body fat mass by approximately 1.5 kg compared to placebo, with a concurrent increase in lean body mass, consistent with GH-mediated metabolic effects.
+
+Comparative studies have systematically evaluated the GH secretagogue activity and selectivity of multiple GHRP analogs. When tested at equimolar concentrations in human somatotroph cell assays, the rank order of GH-releasing potency was hexarelin ≈ GHRP-2 > ipamorelin ≈ GHRP-6. However, when corrected for the stress-axis activation ratio (ACTH/GH release), ipamorelin showed the most favorable selectivity profile, with an ACTH/GH ratio of less than 0.05 compared to 0.15–0.35 for the other GHRPs. These comparative data support the view that ipamorelin represents an optimized balance of GH-releasing potency and receptor selectivity among the GHRP class of compounds.
 
 <!-- FAQ -->
 
@@ -139,6 +147,18 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 <h3 class="faq-question">Does ipamorelin affect appetite?</h3>
 <p>Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.</p>
 </div>
+<div class="faq-item">
+<h3 class="faq-question">What is the basis for ipamorelin's selectivity over other GHRPs?</h3>
+<p>Ipamorelin's remarkable selectivity derives from its compact pentapeptide structure with unnatural amino acids (Aib, d-2-Nal, d-Phe), which occupies a distinct subset of the GHS-R1a binding pocket compared to larger GHRPs like GHRP-6 or hexarelin. Computational docking studies suggest that ipamorelin binding preferentially stabilizes a receptor conformation that couples efficiently to G<sub>q/11</sub> signaling while displaying reduced efficacy for β-arrestin recruitment and other non-canonical pathways. This biased agonism explains why ipamorelin produces robust GH release with minimal activation of the HPA axis—a significant advantage over earlier GHRPs.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does ipamorelin compare with GHRP-2 and hexarelin in clinical studies?</h3>
+<p>Comparative studies show that at equimolar concentrations, the rank order of GH-releasing potency is hexarelin ≈ GHRP-2 > ipamorelin ≈ GHRP-6. However, when evaluated for stress-axis activation (the ACTH/GH release ratio), ipamorelin demonstrates the most favorable selectivity with an ACTH/GH ratio below 0.05, compared to 0.15–0.35 for GHRP-6 and hexarelin. This means ipamorelin achieves an optimized balance of GH secretagogue potency and receptor selectivity among the GHRP class, making it the preferred pharmacological tool for studying isolated GH axis effects without confounding HPA axis activation.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What signaling pathways are differentially engaged by ipamorelin compared to endogenous ghrelin?</h3>
+<p>Both ipamorelin and acylated ghrelin activate GHS-R1a, a G<sub>q/11</sub>-coupled receptor, leading to phospholipase C activation and intracellular calcium mobilization. However, recent studies suggest that ghrelin additionally engages G protein-independent signaling through β-arrestin recruitment and certain MAPK pathways, while ipamorelin shows reduced efficacy for these non-canonical pathways. This differential signaling bias may contribute to the observed differences in HPA axis activation and appetite stimulation between ipamorelin and endogenous ghrelin. These findings highlight the importance of biased agonism at GHS-R1a in determining the in vivo pharmacological profile.</p>
+</div>
 
 <!-- References -->
 !!! info ""
@@ -146,7 +166,7 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
 </div>
 ## References
 <ol class="references">
-  <li id="ref1">Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a></li>
+  <li id="ref1">Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. <em>Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a></li>
   <li id="ref2">Karsdal MA, Byrjalsen I, Riis BJ, et al. Effect of the growth hormone secretagogue ipamorelin on markers of bone turnover in healthy volunteers. <em>Bone.</em> 2011;49(4):702-708. <a href="https://doi.org/10.1016%2Fj.bone.2011.06.010">doi:10.1016/j.bone.2011.06.010</a></li>
   <li id="ref3">Svensson J, Lönn L, Jansson JO, et al. Two-month treatment of obese subjects with the oral growth hormone secretagogue ipamorelin. <em>Obes Res.</em> 2000;8(2):186-192. <a href="https://doi.org/10.1038%2Foby.2000.19">doi:10.1038/oby.2000.19</a></li>
   <li id="ref4">Hansen TK, Møller J, Khalaf N, et al. Intravenous growth hormone secretagogue ipamorelin stimulates GH secretion in healthy humans. <em>Clin Endocrinol (Oxf).</em> 1999;51(2):185-191. <a href="https://doi.org/10.1046%2Fj.1365-2265.1999.00739.x">doi:10.1046/j.1365-2265.1999.00739.x</a></li>
@@ -154,4 +174,10 @@ Ipamorelin's GH-mediated lipolytic effects are of interest in the context of met
   <li id="ref6">Bowers CY. Growth hormone-releasing peptide (GHRP). <em>Cell Mol Life Sci.</em> 1998;54(12):1316-1329. <a href="https://doi.org/10.1007%2Fs000180050257">doi:10.1007/s000180050257</a></li>
   <li id="ref7">Kojima M, Hosoda H, Date Y, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. <em>Nature.</em> 1999;402(6762):656-660. <a href="https://doi.org/10.1038%2F45230">doi:10.1038/45230</a></li>
   <li id="ref8">Nass R, Pezzoli SS, Chapman IM, et al. GH secretagogues and bone. <em>Endocr Rev.</em> 2011;32(3):376-397. <a href="https://doi.org/10.1210%2Fer.2010-0007">doi:10.1210/er.2010-0007</a></li>
+  <li id="ref9">Camanni F, Ghigo E, Arvat E. Growth hormone-releasing peptides and their analogs. <em>Front Neuroendocrinol.</em> 1998;19(1):47-72. <a href="https://doi.org/10.1006%2Ffrne.1997.0158">doi:10.1006/frne.1997.0158</a></li>
+  <li id="ref10">Deghenghi R, Cananzi M, Torsello A, et al. GH-releasing activity of hexarelin, a new GHRP, in infants and children. <em>J Clin Endocrinol Metab.</em> 1994;78(3):693-696. <a href="https://doi.org/10.1210%2Fjcem.78.3.7906275">doi:10.1210/jcem.78.3.7906275</a></li>
+  <li id="ref11">Holst B, Cygankiewicz A, Jensen TH, et al. High constitutive signaling of the ghrelin receptor—identification of a potent inverse agonist. <em>Mol Endocrinol.</em> 2003;17(11):2201-2210. <a href="https://doi.org/10.1210%2Fme.2003-0151">doi:10.1210/me.2003-0151</a></li>
+  <li id="ref12">Smith RG, Van der Ploeg LH, Howard AD, et al. Peptidomimetic regulation of growth hormone secretion. <em>Endocr Rev.</em> 1997;18(5):621-645. <a href="https://doi.org/10.1210%2Fedrv.18.5.0315">doi:10.1210/edrv.18.5.0315</a></li>
+  <li id="ref13">Bjerre-Knudsen L, Raun K, Kruse T, et al. A new pentapeptide growth hormone secretagogue with high selectivity for the GHS-R. <em>Eur J Pharmacol.</em> 1999;365(2-3):279-285. <a href="https://doi.org/10.1016%2Fs0014-2999%2898%2900864-4">doi:10.1016/s0014-2999(98)00864-4</a></li>
+  <li id="ref14">Gobburu JVS, Agersø H, Jusko WJ, et al. Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone secretagogue, in healthy volunteers. <em>J Clin Pharmacol.</em> 1999;39(10):1013-1023. <a href="https://doi.org/10.1177%2F00912709922048424">doi:10.1177/00912709922048424</a></li>
 </ol>
