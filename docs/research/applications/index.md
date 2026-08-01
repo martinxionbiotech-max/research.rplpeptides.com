@@ -1,13 +1,15 @@
 ---
-title: "Research Applications of Peptides"
-description: "Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology."
+title: Research Applications
+description: Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology.
 ---
 
-# Research Applications
 
-- [Metabolic Research Applications](metabolic-research.md)
-- [Cell Biology Research](cell-biology-research.md)
-- [Molecular Biology Research](molecular-biology-research.md)
-- [Biotechnology Applications](biotechnology-applications.md)
-- [Peptide Vaccines](peptide-vaccines.md)
-- [Peptide Radiolabeling](peptide-radiolabeling.md)
+# Research Applications
+Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology.
+
+<div class="list-grid" style="margin-top:1.5rem;">
+<div class="list-item"><h3><a href="metabolic-research/">Peptides in Metabolic Research</a></h3>Role of peptide hormones in metabolic regulation and therapeutic research.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Research Applications</span></div></div>
+<div class="list-item"><h3><a href="cell-biology-research/">Peptides in Cell Biology Research</a></h3>Applications of peptides as tools for studying cellular processes and signaling.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Research Applications</span></div></div>
+<div class="list-item"><h3><a href="molecular-biology-research/">Peptides in Molecular Biology Research</a></h3>Molecular tools and techniques employing peptides in gene expression and protein studies.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Research Applications</span></div></div>
+<div class="list-item"><h3><a href="biotechnology-applications/">Peptide Biotechnology Applications</a></h3>Industrial and biotechnological applications of engineered peptides.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Research Applications</span></div></div>
+</div>

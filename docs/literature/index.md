@@ -1,12 +1,16 @@
 ---
-title: "Scientific Literature Reviews"
-description: "Evidence-based literature reviews synthesizing peer-reviewed research on key peptide topics."
+title: Scientific Literature Reviews
+description: Comprehensive literature reviews synthesizing findings from peer-reviewed journals on key peptide research topics.
 ---
 
-# Scientific Literature Reviews
 
-- [GLP-1 Receptor Agonists Review](glp-1-receptor-agonists-review.md)
-- [BPC-157 Tissue Protection Mechanisms](bpc-157-tissue-protection-mechanisms.md)
-- [Incretin Hormones & Metabolic Regulation](incretin-hormones-metabolic-regulation.md)
-- [Peptide Synthesis Advances Review](peptide-synthesis-advances-review.md)
-- [Analytical Methods for Peptide Characterization](analytical-methods-peptide-characterization.md)
+# Scientific Literature Reviews
+Comprehensive literature reviews on key topics in peptide research. Each review synthesizes findings from peer-reviewed journals to provide an evidence-based overview of current scientific understanding.
+
+<div class="list-grid" style="margin-top:1.5rem;">
+<div class="list-item"><div class="tags" style="margin-bottom:0.5rem;"><span class="tag">Incretin Biology</span></div><h3><a href="glp-1-receptor-agonists-review/">GLP-1 Receptor Agonists Review</a></h3>Literature review with academic citations from peer-reviewed sources on GLP-1 receptor agonist mechanisms and clinical evidence.</p></div>
+<div class="list-item"><div class="tags" style="margin-bottom:0.5rem;"><span class="tag">Tissue Protection</span></div><h3><a href="bpc-157-tissue-protection-mechanisms/">BPC-157 Tissue Protection Mechanisms</a></h3>Literature review with academic citations from peer-reviewed sources on BPC-157 research.</p></div>
+<div class="list-item"><div class="tags" style="margin-bottom:0.5rem;"><span class="tag">Metabolic Regulation</span></div><h3><a href="incretin-hormones-metabolic-regulation/">Incretin Hormones and Metabolic Regulation</a></h3>Literature review with academic citations from peer-reviewed sources on incretin hormone biology.</p></div>
+<div class="list-item"><div class="tags" style="margin-bottom:0.5rem;"><span class="tag">Chemical Synthesis</span></div><h3><a href="peptide-synthesis-advances-review/">Peptide Synthesis Advances Review</a></h3>Literature review with academic citations from peer-reviewed sources on peptide synthesis methodology.</p></div>
+<div class="list-item"><div class="tags" style="margin-bottom:0.5rem;"><span class="tag">Analytical Methods</span></div><h3><a href="analytical-methods-peptide-characterization/">Analytical Methods for Peptide Characterization</a></h3>Literature review with academic citations from peer-reviewed sources on peptide analytical methods.</p></div>
+</div>

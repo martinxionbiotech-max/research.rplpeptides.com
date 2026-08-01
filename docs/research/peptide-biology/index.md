@@ -1,13 +1,15 @@
 ---
-title: "Peptide Biology Overview"
-description: "Fundamentals of peptide structure, classification, sequence-function relationships, and signaling pathways."
+title: Peptide Biology
+description: Fundamentals of peptide structure, classification, sequence-function relationships, and signaling mechanisms in biological systems.
 ---
 
-# Peptide Biology
 
-- [What Are Peptides?](what-are-peptides.md)
-- [Peptide Classification](peptide-classification.md)
-- [Peptide Structure and Function](peptide-structure-function.md)
-- [Peptide Signaling Pathways](peptide-signaling-pathways.md)
-- [Peptide Transport and Uptake](peptide-transport-and-uptake.md)
-- [Peptide Immunopeptidomics](peptide-immunopeptidomics.md)
+# Peptide Biology
+Fundamentals of peptide structure, classification, sequence-function relationships, and signaling mechanisms in biological systems.
+
+<div class="list-grid" style="margin-top:1.5rem;">
+<div class="list-item"><h3><a href="what-are-peptides/">What Are Peptides?</a></h3>Comprehensive overview of peptide structure, biological significance, and research applications.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Peptide Biology</span></div></div>
+<div class="list-item"><h3><a href="peptide-classification/">Peptide Classification</a></h3>Scientific classification systems for peptides based on size, structure, synthesis, and biological function.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Peptide Biology</span></div></div>
+<div class="list-item"><h3><a href="peptide-structure-function/">Peptide Structure and Function</a></h3>Relationship between peptide primary sequence, secondary structure, and biological activity.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Peptide Biology</span></div></div>
+<div class="list-item"><h3><a href="peptide-signaling-pathways/">Peptide Signaling Pathways</a></h3>Mechanisms of peptide-mediated signal transduction in cellular systems.</p><div class="tags" style="margin-top:0.5rem;"><span class="tag">Peptide Biology</span></div></div>
+</div>

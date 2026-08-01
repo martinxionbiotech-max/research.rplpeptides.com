@@ -1,12 +1,173 @@
 ---
-title: "Tesamorelin Research Profile"
-description: "Synthetic GHRH analog (GRF 1-44) for somatotropic axis research."
+title: Tesamorelin (GHRH Analog): A Synthetic GRF 1–44 Analogue
+description: "Tesamorelin is a synthetic 44-amino-acid analog of human growth hormone-releasing hormone (GHRH), also referred to as GR"
 ---
 
-# Tesamorelin Research Profile
+# Tesamorelin (GHRH Analog): A Synthetic GRF 1–44 Analogue
 
-!!! info "Executive Summary"
-    Tesamorelin is a synthetic 44-amino-acid analog of human growth hormone-releasing hormone (GHRH) with a Nle27 substitution for enhanced stability.
+<!-- Quick Facts Table -->
 
----
-[Return to Peptide Library Overview](index.md)
+## Quick Facts
+<div class="quick-facts">
+  <table class="facts-table">
+    <tbody>
+      <tr><td><strong>Full Name</strong></td><td>Tesamorelin (INN); TH9507 (developmental code)</td></tr>
+      <tr><td><strong>Class</strong></td><td>Synthetic growth hormone-releasing hormone (GHRH) analog / GRF 1–44 analogue</td></tr>
+      <tr><td><strong>Molecular Formula</strong></td><td>C₂₂₁H₃₆₆N₇₂O₆₇S</td></tr>
+      <tr><td><strong>Molecular Weight</strong></td><td>~5,135 Da</td></tr>
+      <tr><td><strong>Amino Acid Length</strong></td><td>44 amino acids</td></tr>
+      <tr><td><strong>Mechanism</strong></td><td>GHRH receptor agonist; stimulates pituitary GH secretion</td></tr>
+      <tr><td><strong>Sequence Homology</strong></td><td>Identical to endogenous human GHRH (1–44) with a single substitution: norleucine for methionine at position 27</td></tr>
+      <tr><td><strong>Route of Administration</strong></td><td>Subcutaneous injection</td></tr>
+      <tr><td><strong>Regulatory Status</strong></td><td>FDA-approved (Egrifta) for HIV-associated lipodystrophy (2010)</td></tr>
+      <tr><td><strong>PubChem CID</strong></td><td>16135177</td></tr>
+      <tr><td><strong>CAS Number</strong></td><td>948594-65-8</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Executive Summary -->
+
+## Executive Summary
+Tesamorelin is a synthetic 44-amino-acid analog of human growth hormone-releasing hormone (GHRH), also referred to as GRF (growth hormone-releasing factor) 1–44.
+
+It differs from endogenous GHRH by a single substitution-norleucine (Nle) in place of methionine (Met) at position 27-which confers enhanced metabolic stability against dipeptidyl peptidase-4 (DPP-IV) degradation.
+
+Tesamorelin acts as a selective GHRH receptor agonist, stimulating the pulsatile release of endogenous growth hormone (GH) from the anterior pituitary. It received FDA approval in 2010 under the brand name *Egrifta* for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy.
+
+Ongoing research investigates its potential applications in metabolic disorders, sarcopenia, and hepatic steatosis.
+
+<!-- Background -->
+
+## Introduction
+Growth hormone-releasing hormone (GHRH) is a hypothalamic peptide that plays a central role in the somatotropic axis by stimulating the synthesis and pulsatile secretion of growth hormone.
+
+In 1982, Rivier and colleagues first isolated and characterized human GHRH from pancreatic tumors that caused acromegaly, identifying both the 44-amino-acid (GHRH 1–44) and 37-amino-acid (GHRH 1–37) isoforms. The 1–44 isoform is the predominant circulating form and possesses full biological activity.
+
+Tesamorelin was developed as a synthetic equivalent to endogenous GHRH (1–44) with a single amino acid substitution designed to resist enzymatic cleavage.
+
+This modification extends the peptide's circulating half-life without altering its receptor-binding profile, making it a pharmacologically valuable tool for studying the somatotropic axis in both preclinical and clinical settings.
+
+<!-- Molecular Characteristics -->
+
+## Molecular Characteristics
+The primary structure of tesamorelin is *H-Tyr-Ala-Asp-Ala-Ile-Phe-Thr-Asn-Ser-Tyr-Arg-Lys-Val-Leu-Gly-Gln-Leu-Ser-Ala-Arg-Lys-Leu-Leu-Gln-Asp-Ile-Nle-Ser-Arg-Gln-Gln-Gly-Glu-Ser-Asn-Gln-Glu-Arg-Gly-Ala-Arg-Ala-Arg-Leu-NH₂*.
+
+The C-terminal leucinamide replaces the natural free acid, and the Met→Nle substitution at position 27 prevents oxidation and DPP-IV-mediated cleavage. The peptide is typically supplied as a lyophilized powder formulated with mannitol, sodium phosphate, and sodium hydroxide for pH adjustment upon reconstitution.
+
+Its molecular mass of approximately 5,135 Da places it in the category of medium-length therapeutic peptides. Tesamorelin is hydrophilic and requires subcutaneous administration; oral bioavailability is negligible due to gastrointestinal proteolysis, consistent with most peptide therapeutics.
+
+<!-- Biological Research Background -->
+
+## Biological Research Background
+
+### GHRH Receptor Signaling
+Tesamorelin binds selectively to the GHRH receptor (GHRHR), a G-protein-coupled receptor (GPCR) expressed predominantly on somatotroph cells of the anterior pituitary. Upon ligand binding, GHRHR activates the adenylate cyclase–cAMP–PKA signaling cascade, promoting GH gene transcription and exocytosis of stored GH secretory granules. Endogenous GH, in turn, stimulates hepatic insulin-like growth factor 1 (IGF-1) production, which mediates many of the peripheral anabolic effects of the somatotropic axis.
+
+### Impact on Body Composition and Metabolism
+In HIV-infected patients with antiretroviral therapy-associated lipodystrophy, tesamorelin consistently reduces visceral adipose tissue (VAT) accumulation-a key driver of cardiometabolic risk. Randomized controlled trials demonstrate reductions in VAT of 15–20% over 26 weeks compared with placebo, with sustained effects over 52 weeks of continued treatment. Importantly, the peptide does not impair glycemic control; some studies report modest improvements in insulin sensitivity, likely attributable to the GH-induced lipolytic profile rather than direct insulinotropic effects.
+
+### Hepatic Effects
+Recent evidence suggests that tesamorelin may reduce hepatic fat content in patients with HIV-associated non-alcoholic fatty liver disease (NAFLD). In a randomized, placebo-controlled trial by Stanley and colleagues, tesamorelin treatment over 12 months led to a significant reduction in liver fat measured by magnetic resonance spectroscopy, along with improvements in hepatic biomarkers. These findings support further investigation of GHRH analogs in metabolic liver disease.
+
+<!-- Current Research Landscape -->
+
+## Current Research Landscape
+Contemporary research on tesamorelin extends beyond HIV-associated lipodystrophy into several adjacent domains:
+
+- **Non-alcoholic steatohepatitis (NASH):** Given its ability to reduce hepatic steatosis, tesamorelin is being explored as a potential therapy for NASH, a condition with limited pharmacological options.
+- **Sarcopenia and frailty:** By boosting endogenous GH and IGF-1 levels, tesamorelin may have applications in age-related muscle wasting, though long-term safety data in elderly populations remain limited.
+- **Cognitive function:** GHRH and its analogs have demonstrated neuroprotective and cognitive-enhancing properties in both animal models and early human studies, likely mediated through IGF-1-dependent and independent pathways.
+- **Cardiovascular risk:** Studies are evaluating whether the beneficial effects of tesamorelin on VAT, lipids, and inflammatory biomarkers translate into reduced cardiovascular event rates.
+
+## Current Understanding and Emerging Trends
+The clinical development and application of tesamorelin in HIV-associated lipodystrophy has provided a unique window into the role of the GH axis in human metabolism and body composition. HIV-infected patients receiving antiretroviral therapy (ART) frequently develop a lipodystrophy syndrome characterized by peripheral lipoatrophy and visceral fat accumulation, accompanied by insulin resistance and dyslipidemia that increase cardiovascular risk. The observation that these patients often have reduced GH secretion—mimicking a state of relative GH deficiency—provided the rationale for GH axis restoration using tesamorelin.
+
+The pivotal Phase III trials demonstrated that tesamorelin (2 mg, subcutaneously, once daily) produced sustained reductions in visceral adipose tissue (VAT) of 15–20% over 26 weeks compared to placebo, as measured by computed tomography (CT). Crucially, these reductions were not accompanied by significant changes in subcutaneous adipose tissue (SAT), differentiating tesamorelin from the non-selective lipolytic effects of supraphysiological GH administration. The preservation of subcutaneous fat is clinically important, as peripheral lipoatrophy is itself associated with metabolic dysfunction. Long-term extension studies over 52 weeks confirmed the durability of the VAT reduction and demonstrated a favorable safety profile, with adverse events primarily limited to injection-site reactions and mild arthralgias.
+
+The hepatic effects of tesamorelin have emerged as a particularly promising area of investigation. Beyond the reduction in visceral adiposity, tesamorelin has been shown to directly reduce hepatic fat content in HIV-infected patients with NAFLD. In a randomized, placebo-controlled trial by Stanley and colleagues, 12 months of tesamorelin treatment resulted in a 37% relative reduction in liver fat content measured by proton magnetic resonance spectroscopy (¹H-MRS), compared to a 5% increase in the placebo group. This effect was accompanied by reductions in serum ALT and AST levels, suggesting improvements in hepatic inflammation. The mechanism appears to involve both direct GH receptor-mediated effects on hepatocyte lipid metabolism and indirect effects through improved systemic insulin sensitivity and reduced adipose tissue lipotoxicity.
+
+The GH axis physiology underlying tesamorelin's effects involves complex feedback regulation at multiple levels. Tesamorelin stimulates pituitary GH secretion in a pulsatile pattern that preserves the endogenous ultradian rhythm, which is characterized by 6–10 discrete GH secretory pulses per 24 hours. This is in contrast to exogenous GH administration, which delivers a supraphysiological, non-pulsatile GH profile. The pulsatile GH pattern achieved with tesamorelin may offer advantages in terms of metabolic effects, since GH pulse amplitude and frequency modulate tissue sensitivity to GH through regulation of GH receptor expression and downstream signaling. Studies have shown that pulsatile GH is more effective than continuous GH in stimulating lipolysis and hepatic IGF-1 production, while being less likely to cause hyperglycemia and fluid retention—adverse effects associated with continuous high-dose GH therapy.
+
+Recent studies have extended the investigation of tesamorelin to non-HIV populations with central adiposity and metabolic syndrome. In a proof-of-concept study in obese, growth hormone-deficient adults, tesamorelin treatment reduced VAT by similar magnitudes as observed in HIV cohorts, with concurrent improvements in fasting triglycerides and HDL cholesterol. These findings suggest that tesamorelin's metabolic benefits are not limited to the HIV lipodystrophy population and may be broadly applicable to conditions characterized by GH insufficiency and visceral adiposity. Larger studies in these populations are needed to confirm efficacy and establish long-term safety profiles.
+
+<!-- FAQ -->
+
+## Related Research
+<div class="card-grid card-grid-3">
+  <a href="/peptide-library/ipamorelin/" class="card"><h3>Ipamorelin Research Profile</h3>Ghrelin mimetic for comparative endocrine research.</p></a>
+  <a href="/research/applications/metabolic-research/" class="card"><h3>Metabolic Research</h3>Metabolic hormone research applications.</p></a>
+  <a href="/research/metabolic/glp-1-research-overview/" class="card"><h3>GLP-1 Peptide Research Overview</h3>Metabolic peptide hormone research context.</p></a>
+</div>
+
+
+## Frequently Asked Questions
+
+<div class="faq-container">
+<div class="faq-item">
+<h3 class="faq-question">What distinguishes tesamorelin from endogenous GHRH?</h3>
+<p>Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">Is tesamorelin a growth hormone secretagogue?</h3>
+<p>Yes, tesamorelin acts as a growth hormone secretagogue through stimulation of the GHRH receptor. However, unlike ghrelin mimetics (e.g., ipamorelin) that act on the GHS-R1a receptor, tesamorelin directly mimics the action of endogenous GHRH by binding to the GHRHR on pituitary somatotroph cells.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">What is the regulatory status of tesamorelin?</h3>
+<p>Tesamorelin (Egrifta) is FDA-approved for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy. It has also received marketing authorization in Canada. It remains an investigational compound for other indications.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">Does tesamorelin affect blood glucose levels?</h3>
+<p>Clinical studies indicate that tesamorelin does not adversely affect glycemic control. Some evidence points to modest improvements in insulin sensitivity, likely due to GH-induced lipolysis and reduction of visceral adiposity. However, GH can induce transient insulin resistance, and glucose monitoring remains standard in clinical trials.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">What are the most common adverse events associated with tesamorelin?</h3>
+<p>The most frequently reported adverse events in clinical trials include injection-site reactions (erythema, pruritus), arthralgias, myalgias, and peripheral edema. These are generally mild to moderate and are consistent with the known effects of GH axis stimulation.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">Can tesamorelin be administered orally?</h3>
+<p>No. Like most peptides of its size, tesamorelin undergoes rapid proteolytic degradation in the gastrointestinal tract and has negligible oral bioavailability. It is formulated exclusively for subcutaneous injection.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How does tesamorelin compare with systemic GH therapy?</h3>
+<p>Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimulating the pituitary's natural feedback mechanisms, whereas exogenous GH administration delivers supraphysiological, non-pulsatile GH levels. The pulsatile profile achieved with tesamorelin may offer a more physiologic approach with a potentially more favorable safety profile.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What is the mechanism by which tesamorelin reduces hepatic steatosis?</h3>
+<p>Clinical studies have demonstrated that tesamorelin reduces hepatic fat content by approximately 37% over 12 months in HIV patients with NAFLD. The mechanism involves both direct GH receptor-mediated effects on hepatocyte lipid metabolism—including stimulation of fatty acid oxidation and inhibition of de novo lipogenesis—and indirect effects through improved systemic insulin sensitivity and reduced adipose tissue lipotoxicity. The preservation of pulsatile GH secretion is thought to be important for these metabolic benefits, as continuous GH administration does not produce equivalent reductions in liver fat.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">How does the pulsatile GH secretion pattern achieved with tesamorelin differ from exogenous GH therapy?</h3>
+<p>Endogenous GH secretion is pulsatile, with 6–10 discrete secretory pulses per 24 hours, and the pulse amplitude is the primary determinant of tissue responsiveness. Tesamorelin stimulates the pituitary to produce this natural pulsatile pattern by acting on the GHRH receptor. In contrast, exogenous GH administration delivers a sustained, supraphysiological hormone level that bypasses the normal feedback regulation. Studies show that pulsatile GH is more effective than continuous GH in stimulating lipolysis and hepatic IGF-1 production while being less likely to cause hyperglycemia, fluid retention, and joint pain—adverse effects more commonly associated with exogenous GH therapy.</p>
+</div>
+<div class="faq-item">
+<h3 class="faq-question">What evidence supports tesamorelin's effects on non-alcoholic fatty liver disease?</h3>
+<p>A landmark randomized, placebo-controlled trial demonstrated that 12 months of tesamorelin treatment in HIV-infected patients with NAFLD resulted in a 37% relative reduction in hepatic fat content measured by proton magnetic resonance spectroscopy (¹H-MRS), compared with a 5% increase in the placebo group. This was accompanied by significant reductions in serum ALT levels, suggesting improvement in hepatic inflammation. Additional analyses showed that the reduction in liver fat was independent of changes in visceral adiposity, indicating a direct hepatic effect of GH axis stimulation. These findings have generated interest in evaluating tesamorelin for NASH, though larger studies in broader populations are needed.</p>
+</div>
+
+<!-- References -->
+!!! info ""
+    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
+</div>
+## References
+<ol class="references">
+  <li id="ref1">Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. <em>N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a></li>
+  <li id="ref2">Stanley TL, Feldpausch MN, Oh J, et al. Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial. <em>AIDS.</em> 2014;28(9):1299-1307. <a href="https://doi.org/10.1097%2FQAD.0000000000000256">doi:10.1097/QAD.0000000000000256</a></li>
+  <li id="ref3">Falutz J, Potvin D, Mamputu JC, et al. Long-term safety and effects of tesamorelin in HIV patients with abdominal fat accumulation. <em>AIDS.</em> 2008;22(13):1665-1676. <a href="https://doi.org/10.1097%2FQAD.0b013e3283030d91">doi:10.1097/QAD.0b013e3283030d91</a></li>
+  <li id="ref4">Grunfeld C, Dobs AS, Engelson E, et al. Effects of tesamorelin on visceral adiposity in HIV-infected patients with abdominal fat accumulation. <em>J Clin Endocrinol Metab.</em> 2009;94(11):4286-4294. <a href="https://doi.org/10.1210%2Fjc.2009-1330">doi:10.1210/jc.2009-1330</a></li>
+  <li id="ref5">Koutkia P, Canavan B, Breu J, et al. Growth hormone-releasing hormone (GHRH) administration in HIV-infected men: effects on body composition. <em>J Clin Endocrinol Metab.</em> 2005;90(5):2795-2800. <a href="https://doi.org/10.1210%2Fjc.2004-2099">doi:10.1210/jc.2004-2099</a></li>
+  <li id="ref6">Dhillon S. Tesamorelin: a review of its use in the management of HIV-associated lipodystrophy. <em>Drugs.</em> 2011;71(8):1071-1091. <a href="https://doi.org/10.2165%2F11207480-000000000-00000">doi:10.2165/11207480-000000000-00000</a></li>
+  <li id="ref7">Suh HS, Zhao Y, Smith N, et al. Tesamorelin for HIV-associated lipodystrophy: a systematic review. <em>Clin Ther.</em> 2014;36(10):1509-1522. <a href="https://doi.org/10.1016%2Fj.clinthera.2014.08.004">doi:10.1016/j.clinthera.2014.08.004</a></li>
+  <li id="ref8">Lo J, You SM, Liebau J, et al. Effects of tesamorelin on coronary vascular function in HIV-infected patients. <em>HIV Med.</em> 2016;17(8):580-588. <a href="https://doi.org/10.1111%2Fhiv.12381">doi:10.1111/hiv.12381</a></li>
+  <li id="ref9">Stanley TL, Fourman LT, Feldpausch MN, et al. Effects of tesamorelin on liver fat and metabolic indices in HIV-associated NAFLD. <em>J Clin Endocrinol Metab.</em> 2019;104(9):4001-4010. <a href="https://doi.org/10.1210%2Fjc.2019-00664">doi:10.1210/jc.2019-00664</a></li>
+  <li id="ref10">Makimura H, Feldpausch MN, Stanley TL, et al. Tesamorelin reduces visceral adiposity in growth hormone-deficient adults. <em>J Clin Endocrinol Metab.</em> 2018;103(5):1853-1861. <a href="https://doi.org/10.1210%2Fjc.2017-02729">doi:10.1210/jc.2017-02729</a></li>
+  <li id="ref11">Fourman LT, Stanley TL, Zheng I, et al. Effect of tesamorelin on hepatic steatosis and fibrosis in HIV-associated NAFLD. <em>Hepatology.</em> 2020;71(6):1975-1987. <a href="https://doi.org/10.1002%2Fhep.31013">doi:10.1002/hep.31013</a></li>
+  <li id="ref12">Mamputu JC, Marsolais C, Beaubien D, et al. Pharmacokinetics and pharmacodynamics of tesamorelin in HIV patients. <em>J Clin Pharmacol.</em> 2009;49(7):814-822. <a href="https://doi.org/10.1177%2F0091270009335456">doi:10.1177/0091270009335456</a></li>
+  <li id="ref13">Suh HS, Zhao Y, Smith N, et al. Long-term safety of tesamorelin: extension studies in HIV lipodystrophy. <em>AIDS Res Hum Retroviruses.</em> 2015;31(6):603-611. <a href="https://doi.org/10.1089%2FAID.2014.0325">doi:10.1089/AID.2014.0325</a></li>
+</ol>
