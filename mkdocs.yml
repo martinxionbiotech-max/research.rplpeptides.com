@@ -46,9 +46,14 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_css:
   - assets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
   - search
@@ -127,6 +132,24 @@ nav:
     - Incretin Hormones and Metabolic Regulation: literature/incretin-hormones-metabolic-regulation.md
     - Peptide Synthesis Advances: literature/peptide-synthesis-advances-review.md
     - Analytical Methods for Peptide Characterization: literature/analytical-methods-peptide-characterization.md
+  - COA Guide:
+    - How to Read a Peptide COA: coa-guide/index.md
+    - Understanding LC-MS Reports: coa-guide/01-understanding-lc-ms-reports.md
+    - HPLC Chromatogram Interpretation: coa-guide/02-hplc-chromatogram-interpretation.md
+    - Peak Area vs Peak Height: coa-guide/03-peak-area-vs-peak-height.md
+    - Retention Time Explained: coa-guide/04-retention-time-explained.md
+    - Common Peptide Impurities: coa-guide/05-common-peptide-impurities.md
+    - USP <621> Chromatography Guide: coa-guide/06-usp-621-chromatography-guide.md
+    - ICH Q2(R2) Explained: coa-guide/07-ich-q2r2-explained.md
+    - HPLC Method Validation: coa-guide/08-hplc-method-validation.md
+    - System Suitability Testing: coa-guide/09-system-suitability-testing.md
+    - Analytical Method Transfer: coa-guide/10-analytical-method-transfer.md
+    - Reverse Phase HPLC for Peptides: coa-guide/11-reverse-phase-hplc-for-peptides.md
+    - Tailing Factor Explained: coa-guide/12-tailing-factor-explained.md
+    - Resolution in Chromatography: coa-guide/13-resolution-in-chromatography.md
+    - Deletion Peptides Explained: coa-guide/14-deletion-peptides-explained.md
+    - Oxidized Peptide Impurities: coa-guide/15-oxidized-peptide-impurities.md
+    - How Laboratories Calculate HPLC Purity: coa-guide/16-how-laboratories-calculate-hplc-purity.md
   - Research Methods:
     - Overview: methods/index.md
     - Solid-Phase Peptide Synthesis (SPPS): methods/solid-phase-peptide-synthesis-method.md
