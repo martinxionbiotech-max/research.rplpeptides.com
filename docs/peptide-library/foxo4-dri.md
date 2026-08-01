@@ -84,7 +84,7 @@ This mechanism has generated substantial research interest in the context of age
 <!-- Current Research Landscape -->
 
 ## Current Research Landscape
-The publication of the FOXO4-DRI study in 2017 generated considerable interest in the senescence research community. While the original findings were highly impactful, subsequent research has explored the reproducibility, specificity, and broader applicability of FOXO4-DRI as a research tool. Researchers exploring peptide-based approaches to cellular senescence may also find relevant information in the [Epithalon profile](/peptide-library/epithalon/), a tetrapeptide investigated in telomere and aging research. Current research areas include:
+The publication of the FOXO4-DRI study in 2017 generated considerable interest in the senescence research community. While the original findings were highly impactful, subsequent research has explored the reproducibility, specificity, and broader applicability of FOXO4-DRI as a research tool. Researchers exploring peptide-based approaches to cellular senescence may also find relevant information in the [Epithalon profile](epithalon.md), a tetrapeptide investigated in telomere and aging research. Current research areas include:
 
 - **Senescence Research:** Studies examining the role of FOXO4-p53 interactions in various models of cellular senescence, including replicative senescence, stress-induced premature senescence, and oncogene-induced senescence (Demaria et al., 2017).
 - **Age-Related Disease Models:** Investigation of FOXO4-DRI in animal models of age-related conditions, including renal fibrosis, pulmonary fibrosis, neurodegenerative disease, and sarcopenia.

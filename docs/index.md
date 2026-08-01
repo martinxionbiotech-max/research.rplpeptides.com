@@ -2,8 +2,6 @@
 title: RPL Peptides Research Knowledge Center
 description: A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies. Explore 50+ research articles, 14 peptide profiles, and scientific comparisons.
 hide:
-
-  - navigation
   - toc
 ---
 <!-- Hero -->

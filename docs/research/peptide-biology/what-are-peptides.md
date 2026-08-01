@@ -32,7 +32,7 @@ The human genome encodes thousands of bioactive peptides, including over 100 pep
 Peptides are defined by their length. While no rigid boundary exists, peptides are generally classified as short chains of amino acids containing fewer than 50 residues. Oligopeptides contain 2–20 amino acids, while polypeptides range from 20–50 residues. Chains exceeding 50 amino acids are conventionally considered proteins. The distinction is practical rather than fundamental — many biologically active molecules cross these boundaries.
 The fundamental chemistry of peptides centers on the **peptide bond**, an amide linkage formed between the carboxyl group of one amino acid and the amino group of another through a condensation reaction. This bond exhibits partial double-bond character due to resonance stabilization, rendering it planar and restricting rotation. The resulting backbone rigidity influences peptide folding and secondary structure formation, including alpha-helices, beta-sheets, and turns.
 Each peptide chain has directionality: an N-terminus (free amino group) and a C-terminus (free carboxyl group). By convention, sequences are written from N-terminus to C-terminus. The amino acid sequence — known as the **primary structure** — dictates the peptide's three-dimensional conformation and, ultimately, its biological function. Even single amino acid substitutions can dramatically alter activity, as exemplified by the difference between oxytocin and vasopressin, two nonapeptides that differ by only two residues yet mediate entirely distinct physiological functions.
-[Learn more about peptide structure and function →](/research/peptide-biology/peptide-structure-function)
+[Learn more about peptide structure and function →](peptide-structure-function.md)
 
 
 ## Mechanism — Biological and Molecular Functions of Peptides
@@ -49,7 +49,7 @@ Several naturally occurring peptides function as enzyme inhibitors. For example,
 
 ### Carrier and Transport Functions
 Certain peptides facilitate the transport of ions, metals, or other molecules across biological membranes. Glutathione (a tripeptide of glutamate, cysteine, and glycine) serves as a critical antioxidant and detoxification agent, while metallothioneins — cysteine-rich peptides — chelate heavy metals and regulate zinc homeostasis.
-[Explore peptide signaling pathways in detail →](/research/peptide-biology/peptide-signaling-pathways)
+[Explore peptide signaling pathways in detail →](peptide-signaling-pathways.md)
 
 
 ## Research Evidence
@@ -110,7 +110,7 @@ For researchers investigating specific peptide candidates, the [RPL Peptides pro
 - **AI-driven peptide design:** Machine learning algorithms trained on vast peptide sequence-activity databases are accelerating the discovery of novel bioactive peptides with optimized properties.
 - **Research tools and calculations:** Researchers can access peptide research calculators, including reconstitution calculators and dosage estimation tools, at the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform to support experimental planning and data analysis.
 
-[Continue reading about peptide classification →](/research/peptide-biology/peptide-classification)
+[Continue reading about peptide classification →](peptide-classification.md)
 
 
 ## Related Research

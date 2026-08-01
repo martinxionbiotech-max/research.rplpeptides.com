@@ -76,7 +76,7 @@ Preparative RP-HPLC with TFA/acetonitrile gradients on C18 silica is the standar
 
 The development of monolithic columns, core-shell particles, and ultra-high-performance liquid chromatography (UHPLC) has improved resolution and reduced run times at both analytical and preparative scales.
 
-Lyophilization of pooled pure fractions yields the final product as a fluffy, amorphous powder with good storage stability when stored desiccated at -20°C. [Analytical characterization](/research/peptide-chemistry/analytical-characterization/) of the purified product by HPLC, MS, and optionally amino acid analysis is essential for quality assurance.
+Lyophilization of pooled pure fractions yields the final product as a fluffy, amorphous powder with good storage stability when stored desiccated at -20°C. [Analytical characterization](analytical-characterization.md) of the purified product by HPLC, MS, and optionally amino acid analysis is essential for quality assurance.
 
 ## Future Research
 - **Continuous purification:** Multi-column continuous chromatography (e.g., simulated moving bed) for higher throughput in pharmaceutical peptide manufacturing.

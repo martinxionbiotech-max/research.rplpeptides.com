@@ -44,7 +44,7 @@ Disulfide bridges are particularly important structural elements in peptides. Th
 ### Quaternary Structure
 Some peptides assemble into **quaternary structures** — multimeric complexes of two or more peptide chains. Insulin exists as a hexamer in the presence of zinc ions, a storage form that stabilizes the hormone in pancreatic beta-cells. Many antimicrobial peptides oligomerize in membranes to form pores or channels.
 
-[Continue reading about peptide classification →](/research/peptide-biology/peptide-classification)
+[Continue reading about peptide classification →](peptide-classification.md)
 
 
 ## Mechanism — Structure-Activity Relationships
@@ -62,7 +62,7 @@ Cyclization — either backbone cyclization (head-to-tail) or side-chain cycliza
 ### Dynamic Structure and Induced Fit
 Many peptides are intrinsically disordered in solution and fold only upon binding to their target — a mechanism termed **induced fit**. This conformational flexibility allows a single peptide to potentially interact with multiple receptors, a property exploited in multi-receptor agonist design for metabolic research.
 
-[Explore peptide signaling pathways →](/research/peptide-biology/peptide-signaling-pathways)
+[Explore peptide signaling pathways →](peptide-signaling-pathways.md)
 
 
 ## Research Evidence

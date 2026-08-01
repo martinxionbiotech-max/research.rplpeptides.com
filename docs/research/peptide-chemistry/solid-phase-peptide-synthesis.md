@@ -91,7 +91,7 @@ Microwave-assisted SPPS has been documented to reduce coupling times by 50–80%
 ## Current Understanding
 Fmoc/tBu SPPS on automated synthesizers is the standard method for routine peptide synthesis in research laboratories worldwide.
 
-The technique reliably produces peptides of up to ~50 residues at sufficient purity for most biological assays and research applications. [Purification by preparative HPLC](/research/peptide-chemistry/peptide-purification-methods/) and analytical characterization by mass spectrometry are standard accompaniments.
+The technique reliably produces peptides of up to ~50 residues at sufficient purity for most biological assays and research applications. [Purification by preparative HPLC](peptide-purification-methods.md) and analytical characterization by mass spectrometry are standard accompaniments.
 
 The ongoing development of greener solvents, more efficient coupling reagents, and improved resin technologies continues to extend the reach and reduce the environmental footprint of SPPS.
 

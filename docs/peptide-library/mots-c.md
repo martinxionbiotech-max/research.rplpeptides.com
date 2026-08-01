@@ -59,7 +59,7 @@ Mechanistically, the peptide was shown to activate AMP-activated protein kinase 
 
 For research planning support, the [RPL Peptides Research Tools](https://tool.rplpeptides.com) platform provides peptide calculators and utilities to support metabolic research experimental design.
 
-Researchers investigating related metabolic peptides may also find relevant information in the [AOD9604 profile](/peptide-library/aod9604/), another peptide studied for metabolic regulation and lipolytic activity. Subsequent research has expanded the understanding of MOTS-c biology.
+Researchers investigating related metabolic peptides may also find relevant information in the [AOD9604 profile](aod9604.md), another peptide studied for metabolic regulation and lipolytic activity. Subsequent research has expanded the understanding of MOTS-c biology.
 
 Studies have shown that MOTS-c treatment can prevent age-dependent and high-fat-diet-induced insulin resistance, reduce adiposity, and improve exercise capacity in aged mice (Kim et al., 2019).
 

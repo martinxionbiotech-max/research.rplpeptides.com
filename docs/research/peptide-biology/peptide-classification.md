@@ -89,7 +89,7 @@ Animal venoms are rich sources of structurally diverse peptides with high pharma
 **Non-ribosomal peptides:** Synthesized by large, multi-modular enzyme complexes called non-ribosomal peptide synthetases (NRPSs). These peptides often contain non-standard amino acids (D-amino acids, N-methylated residues) and unusual modifications. Examples include cyclosporine, vancomycin, and bacitracin.
 **Proteolysis-derived peptides:** Some bioactive peptides are released from larger proteins through controlled proteolysis. The classic example is angiotensin II, produced from angiotensinogen through sequential cleavage by renin and ACE.
 
-[Read the foundational overview of peptides →](/research/peptide-biology/what-are-peptides)
+[Read the foundational overview of peptides →](what-are-peptides.md)
 
 
 ## Mechanism — Classification Guides Functional Understanding

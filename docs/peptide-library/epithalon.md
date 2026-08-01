@@ -85,7 +85,7 @@ Research in animal models has reported that Epithalon can restore age-related de
 <!-- Current Research Landscape -->
 
 ## Current Research Landscape
-The research landscape for Epithalon is characterized by a substantial body of work from Russian and Eastern European research groups, with increasing international interest in recent years. Researchers exploring peptide bioregulators and aging research may also find relevant information in the [FOXO4-DRI profile](/peptide-library/foxo4-dri/), another peptide investigated in cellular senescence research. Key research areas include:
+The research landscape for Epithalon is characterized by a substantial body of work from Russian and Eastern European research groups, with increasing international interest in recent years. Researchers exploring peptide bioregulators and aging research may also find relevant information in the [FOXO4-DRI profile](foxo4-dri.md), another peptide investigated in cellular senescence research. Key research areas include:
 
 - **Cellular Senescence Models:** Studies examining the effects of Epithalon on replicative senescence in cultured cells.
 

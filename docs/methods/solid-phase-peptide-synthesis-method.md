@@ -85,7 +85,7 @@ SPPS reliability is supported by decades of usage and systematic optimization st
 
 Microwave-assisted SPPS has been shown to produce comparable or superior crude purity to conventional room-temperature synthesis while reducing cycle times by 60–80% (Collins et al., 2014).
 
-Typical crude peptide purity ranges from 60–85% for 10–30 residue peptides; purification by [preparative RP-HPLC](/methods/rpp-hplc-peptide-analysis/) yields final purity >95–99%.
+Typical crude peptide purity ranges from 60–85% for 10–30 residue peptides; purification by [preparative RP-HPLC](rpp-hplc-peptide-analysis.md) yields final purity >95–99%.
 The systematic optimization of coupling conditions for difficult sequences has been a major focus of SPPS methodology research. Pseudoproline dipeptides—oxazolidine derivatives of Ser/Thr and adjacent residues that disrupt β-sheet aggregation—act as reversible backbone protectants.
 
 Their incorporation at sites of predicted aggregation (identified by predictive algorithms such as Agadir and TANGO) can dramatically improve crude product quality.

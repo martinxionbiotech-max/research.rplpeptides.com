@@ -88,7 +88,7 @@ This activity contributes to its cytoprotective effects in various cellular stre
 <!-- Current Research Landscape -->
 
 ## Current Research Landscape
-Research on GHK-Cu continues to be active across multiple disciplines, reflecting the peptide's diverse biological activities. Researchers investigating tissue regeneration and wound healing may also find relevant information in the [peptide stability studies](/research/analytical-science/peptide-stability-studies/) and related analytical methods. Current research areas include:
+Research on GHK-Cu continues to be active across multiple disciplines, reflecting the peptide's diverse biological activities. Researchers investigating tissue regeneration and wound healing may also find relevant information in the [peptide stability studies](../research/analytical-science/peptide-stability-studies.md) and related analytical methods. Current research areas include:
 
 - **Wound Healing and Regenerative Medicine:** Ongoing studies continue to explore GHK-Cu's effects on wound closure, angiogenesis, and tissue repair in various wound models, including diabetic wounds and chronic ulcers (Arul et al., 2007).
 - **Dermal Biology:** Research on GHK-Cu in skin biology has expanded to include studies on dermal fibroblast function, extracellular matrix remodeling, and photoaging.

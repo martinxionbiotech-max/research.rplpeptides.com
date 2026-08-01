@@ -63,14 +63,14 @@ EGF binding to its RTK (EGFR/ErbB1) triggers receptor dimerization and trans-aut
 **Cytokine receptors:** Peptide cytokines (e.g., interleukins, interferons) signal through receptors that associate with Janus kinases (JAKs). Ligand binding activates JAKs, which phosphorylate STAT transcription factors, which then dimerize and translocate to the nucleus to regulate gene expression.
 **TGF-β receptor superfamily:** TGF-β family members (including activins, inhibins, and bone morphogenetic proteins) signal through serine/threonine kinase receptors that phosphorylate Smad transcription factors.
 
-[Return to the fundamentals of peptide biology →](/research/peptide-biology/what-are-peptides)
+[Return to the fundamentals of peptide biology →](what-are-peptides.md)
 
 
 ## Mechanism — Signal Amplification and Integration
 Peptide signaling pathways are characterized by remarkable amplification. A single peptide-receptor binding event activates multiple G proteins, each of which can activate an adenylyl cyclase molecule that generates hundreds of cAMP molecules per second. cAMP then activates PKA, each of which can phosphorylate thousands of substrate molecules. This cascade provides signal amplification of 10⁶–10⁸ between the initial binding event and the final cellular response.
 Signal integration occurs at multiple levels. A single cell typically expresses dozens of different peptide receptors, and the balance of signals determines the net cellular response. Cross-talk between pathways — for example, PKA phosphorylation of Raf modulating MAPK signaling — creates a complex signaling network that allows cells to respond appropriately to combinatorial inputs. The concept of **signaling hubs** — proteins that integrate inputs from multiple pathways — has emerged as a central organizing principle of cellular signal processing.
 The temporal dynamics of signaling also encode information. Pulsatile signaling — as observed with GnRH, where the frequency of hormone pulses determines which downstream transcription factors are activated — represents a mechanism by which a single peptide can produce different cellular outcomes depending on the pattern of receptor engagement. This principle is exploited therapeutically: continuous GnRH receptor activation desensitizes the receptor (used for hormone suppression in prostate cancer), while pulsatile activation maintains physiological gonadotropin secretion.
-[Learn how peptide structure determines signaling outcomes →](/research/peptide-biology/peptide-structure-function)
+[Learn how peptide structure determines signaling outcomes →](peptide-structure-function.md)
 
 
 ## Research Evidence
