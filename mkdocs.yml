@@ -1,6 +1,6 @@
 site_name: RPL Peptides Research Knowledge Center
 site_url: https://research.rplpeptides.com/
-site_description: A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies. Optimized for AI search and research reference.
+site_description: A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies.
 site_author: RPL Scientific Editorial Team
 copyright: Copyright &copy; 2026 RPL Peptides — All Rights Reserved
 
@@ -8,160 +8,158 @@ theme:
   name: material
   language: en
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
     - toc.integrate
-  favicon: assets/favicon.ico
-  logo: assets/logo.svg
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
 
 markdown_extensions:
-  - toc:
-      permalink: true
-      toc_depth: 3
-  - tables
-  - admonition
-  - footnotes
-  - attr_list
-  - md_in_html
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - tables
+  - attr_list
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
 
 extra_css:
   - assets/extra.css
 
 extra_javascript:
+  - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
   - search
 
-extra:
-  social:
-    - icon: fontawesome/solid/flask
-      link: https://rplpeptides.com
-      name: RPL Peptides Main Website
-    - icon: fontawesome/solid/database
-      link: https://data.rplpeptides.com
-      name: Peptide Data Center
-    - icon: fontawesome/solid/wrench
-      link: https://tool.rplpeptides.com
-      name: Research Tools
-
 nav:
   - Home: index.md
   - Research:
-    - Overview: research/index.md
-    - Peptide Biology:
-      - Overview: research/peptide-biology/index.md
-      - What Are Peptides: research/peptide-biology/what-are-peptides.md
-      - Peptide Classification: research/peptide-biology/peptide-classification.md
-      - Peptide Structure and Function: research/peptide-biology/peptide-structure-function.md
-      - Peptide Signaling Pathways: research/peptide-biology/peptide-signaling-pathways.md
-      - Peptide Self-Assembly: research/peptide-biology/peptide-self-assembly.md
-      - Peptide Transport and Uptake: research/peptide-biology/peptide-transport-and-uptake.md
-      - Peptide Immunopeptidomics: research/peptide-biology/peptide-immunopeptidomics.md
-    - Peptide Chemistry:
-      - Overview: research/peptide-chemistry/index.md
-      - Peptide Synthesis Overview: research/peptide-chemistry/peptide-synthesis-overview.md
-      - Solid-Phase Peptide Synthesis: research/peptide-chemistry/solid-phase-peptide-synthesis.md
-      - Peptide Purification Methods: research/peptide-chemistry/peptide-purification-methods.md
-      - Analytical Characterization: research/peptide-chemistry/analytical-characterization.md
-    - Analytical Science:
-      - Overview: research/analytical-science/index.md
-      - HPLC Analysis of Peptides: research/analytical-science/hplc-analysis-peptides.md
-      - Mass Spectrometry: research/analytical-science/mass-spectrometry-peptide-research.md
-      - Peptide Stability Studies: research/analytical-science/peptide-stability-studies.md
-      - Purity Testing Methods: research/analytical-science/purity-testing-methods.md
-    - Metabolic Research:
-      - Overview: research/metabolic/index.md
-      - GLP-1 Research Overview: research/metabolic/glp-1-research-overview.md
-      - GIP Research: research/metabolic/gip-research.md
-      - GLP-1/GIP Dual Agonists: research/metabolic/glp1-gip-dual-agonist.md
-      - Multi-Receptor Peptide Research: research/metabolic/multi-receptor-peptide-research.md
-    - Research Applications:
-      - Overview: research/applications/index.md
-      - Metabolic Research: research/applications/metabolic-research.md
-      - Cell Biology Research: research/applications/cell-biology-research.md
-      - Molecular Biology Research: research/applications/molecular-biology-research.md
-      - Biotechnology Applications: research/applications/biotechnology-applications.md
-      - Peptide Vaccines: research/applications/peptide-vaccines.md
-      - Peptide Radiolabeling: research/applications/peptide-radiolabeling.md
+      - Overview: research/index.md
+      - Peptide Biology:
+          - Overview: research/peptide-biology/index.md
+          - What Are Peptides: research/peptide-biology/what-are-peptides.md
+          - Peptide Classification: research/peptide-biology/peptide-classification.md
+          - Peptide Structure and Function: research/peptide-biology/peptide-structure-function.md
+          - Peptide Signaling Pathways: research/peptide-biology/peptide-signaling-pathways.md
+          - Peptide Transport and Uptake: research/peptide-biology/peptide-transport-and-uptake.md
+          - Peptide Immunopeptidomics: research/peptide-biology/peptide-immunopeptidomics.md
+      - Peptide Chemistry:
+          - Overview: research/peptide-chemistry/index.md
+          - Peptide Synthesis Overview: research/peptide-chemistry/peptide-synthesis-overview.md
+          - Solid-Phase Peptide Synthesis: research/peptide-chemistry/solid-phase-peptide-synthesis.md
+          - Peptide Purification Methods: research/peptide-chemistry/peptide-purification-methods.md
+          - Analytical Characterization: research/peptide-chemistry/analytical-characterization.md
+      - Analytical Science:
+          - Overview: research/analytical-science/index.md
+          - HPLC Analysis of Peptides: research/analytical-science/hplc-analysis-peptides.md
+          - Mass Spectrometry: research/analytical-science/mass-spectrometry-peptide-research.md
+          - Peptide Stability Studies: research/analytical-science/peptide-stability-studies.md
+          - Purity Testing Methods: research/analytical-science/purity-testing-methods.md
+      - Metabolic Research:
+          - Overview: research/metabolic/index.md
+          - GLP-1 Research Overview: research/metabolic/glp-1-research-overview.md
+          - GIP Research: research/metabolic/gip-research.md
+          - GLP-1/GIP Dual Agonists: research/metabolic/glp1-gip-dual-agonist.md
+          - Multi-Receptor Peptide Research: research/metabolic/multi-receptor-peptide-research.md
+      - Research Applications:
+          - Overview: research/applications/index.md
+          - Metabolic Research: research/applications/metabolic-research.md
+          - Cell Biology Research: research/applications/cell-biology-research.md
+          - Molecular Biology Research: research/applications/molecular-biology-research.md
+          - Biotechnology Applications: research/applications/biotechnology-applications.md
+          - Peptide Vaccines: research/applications/peptide-vaccines.md
+          - Peptide Radiolabeling: research/applications/peptide-radiolabeling.md
   - Peptide Library:
-    - Overview: peptide-library/index.md
-    - Semaglutide: peptide-library/semaglutide.md
-    - Tirzepatide: peptide-library/tirzepatide.md
-    - Retatrutide: peptide-library/retatrutide.md
-    - BPC-157: peptide-library/bpc-157.md
-    - TB-500: peptide-library/tb-500.md
-    - MOTS-c: peptide-library/mots-c.md
-    - SS-31: peptide-library/ss-31.md
-    - Ipamorelin: peptide-library/ipamorelin.md
-    - Tesamorelin: peptide-library/tesamorelin.md
-    - AOD9604: peptide-library/aod9604.md
-    - GHK-Cu: peptide-library/ghk-cu.md
-    - Epithalon: peptide-library/epithalon.md
-    - PT-141: peptide-library/pt-141.md
-    - FOXO4-DRI: peptide-library/foxo4-dri.md
+      - Overview: peptide-library/index.md
+      - Semaglutide: peptide-library/semaglutide.md
+      - Tirzepatide: peptide-library/tirzepatide.md
+      - Retatrutide: peptide-library/retatrutide.md
+      - BPC-157: peptide-library/bpc-157.md
+      - TB-500: peptide-library/tb-500.md
+      - MOTS-c: peptide-library/mots-c.md
+      - SS-31: peptide-library/ss-31.md
+      - Ipamorelin: peptide-library/ipamorelin.md
+      - Tesamorelin: peptide-library/tesamorelin.md
+      - AOD9604: peptide-library/aod9604.md
+      - GHK-Cu: peptide-library/ghk-cu.md
+      - Epithalon: peptide-library/epithalon.md
+      - PT-141: peptide-library/pt-141.md
+      - FOXO4-DRI: peptide-library/foxo4-dri.md
   - Literature Reviews:
-    - Overview: literature/index.md
-    - GLP-1 Receptor Agonists Review: literature/glp-1-receptor-agonists-review.md
-    - BPC-157 Tissue Protection: literature/bpc-157-tissue-protection-mechanisms.md
-    - Incretin Hormones and Metabolic Regulation: literature/incretin-hormones-metabolic-regulation.md
-    - Peptide Synthesis Advances: literature/peptide-synthesis-advances-review.md
-    - Analytical Methods for Peptide Characterization: literature/analytical-methods-peptide-characterization.md
+      - Overview: literature/index.md
+      - GLP-1 Receptor Agonists Review: literature/glp-1-receptor-agonists-review.md
+      - BPC-157 Tissue Protection: literature/bpc-157-tissue-protection-mechanisms.md
+      - Incretin Hormones & Metabolic Regulation: literature/incretin-hormones-metabolic-regulation.md
+      - Peptide Synthesis Advances: literature/peptide-synthesis-advances-review.md
+      - Analytical Methods for Peptide Characterization: literature/analytical-methods-peptide-characterization.md
   - COA Guide:
-    - How to Read a Peptide COA: coa-guide/index.md
-    - Understanding LC-MS Reports: coa-guide/01-understanding-lc-ms-reports.md
-    - HPLC Chromatogram Interpretation: coa-guide/02-hplc-chromatogram-interpretation.md
-    - Peak Area vs Peak Height: coa-guide/03-peak-area-vs-peak-height.md
-    - Retention Time Explained: coa-guide/04-retention-time-explained.md
-    - Common Peptide Impurities: coa-guide/05-common-peptide-impurities.md
-    - USP <621> Chromatography Guide: coa-guide/06-usp-621-chromatography-guide.md
-    - ICH Q2(R2) Explained: coa-guide/07-ich-q2r2-explained.md
-    - HPLC Method Validation: coa-guide/08-hplc-method-validation.md
-    - System Suitability Testing: coa-guide/09-system-suitability-testing.md
-    - Analytical Method Transfer: coa-guide/10-analytical-method-transfer.md
-    - Reverse Phase HPLC for Peptides: coa-guide/11-reverse-phase-hplc-for-peptides.md
-    - Tailing Factor Explained: coa-guide/12-tailing-factor-explained.md
-    - Resolution in Chromatography: coa-guide/13-resolution-in-chromatography.md
-    - Deletion Peptides Explained: coa-guide/14-deletion-peptides-explained.md
-    - Oxidized Peptide Impurities: coa-guide/15-oxidized-peptide-impurities.md
-    - How Laboratories Calculate HPLC Purity: coa-guide/16-how-laboratories-calculate-hplc-purity.md
+      - How to Read a Peptide COA: coa-guide/index.md
+      - 1. Understanding LC-MS Reports: coa-guide/01-understanding-lc-ms-reports.md
+      - 2. HPLC Chromatogram Interpretation: coa-guide/02-hplc-chromatogram-interpretation.md
+      - 3. Peak Area vs Peak Height: coa-guide/03-peak-area-vs-peak-height.md
+      - 4. Retention Time Explained: coa-guide/04-retention-time-explained.md
+      - 5. Common Peptide Impurities: coa-guide/05-common-peptide-impurities.md
+      - 6. USP <621> Chromatography Guide: coa-guide/06-usp-621-chromatography-guide.md
+      - 7. ICH Q2(R2) Explained: coa-guide/07-ich-q2r2-explained.md
+      - 8. HPLC Method Validation: coa-guide/08-hplc-method-validation.md
+      - 9. System Suitability Testing: coa-guide/09-system-suitability-testing.md
+      - 10. Analytical Method Transfer: coa-guide/10-analytical-method-transfer.md
+      - 11. Reverse Phase HPLC for Peptides: coa-guide/11-reverse-phase-hplc-for-peptides.md
+      - 12. Tailing Factor Explained: coa-guide/12-tailing-factor-explained.md
+      - 13. Resolution in Chromatography: coa-guide/13-resolution-in-chromatography.md
+      - 14. Deletion Peptides Explained: coa-guide/14-deletion-peptides-explained.md
+      - 15. Oxidized Peptide Impurities: coa-guide/15-oxidized-peptide-impurities.md
+      - 16. How Laboratories Calculate HPLC Purity: coa-guide/16-how-laboratories-calculate-hplc-purity.md
   - Research Methods:
-    - Overview: methods/index.md
-    - Solid-Phase Peptide Synthesis (SPPS): methods/solid-phase-peptide-synthesis-method.md
-    - RP-HPLC Peptide Analysis: methods/rpp-hplc-peptide-analysis.md
-    - Mass Spectrometry Methods: methods/mass-spec-peptide-method.md
-    - Lyophilization of Peptides: methods/lyophilization-peptides.md
-    - Peptide Storage and Stability: methods/peptide-storage-stability.md
+      - Overview: methods/index.md
+      - Solid-Phase Peptide Synthesis (SPPS): methods/solid-phase-peptide-synthesis-method.md
+      - RP-HPLC Peptide Analysis: methods/rpp-hplc-peptide-analysis.md
+      - Mass Spectrometry Methods: methods/mass-spec-peptide-method.md
+      - Lyophilization of Peptides: methods/lyophilization-peptides.md
+      - Peptide Storage and Stability: methods/peptide-storage-stability.md
   - Comparisons:
-    - Overview: comparisons/index.md
-    - GLP-1 vs GIP: comparisons/glp-1-vs-gip-research.md
-    - Semaglutide vs Tirzepatide: comparisons/semaglutide-vs-tirzepatide.md
-    - Peptide Hormones vs Small Molecules: comparisons/peptide-hormones-vs-small-molecules.md
-    - Single vs Multi-Receptor Agonists: comparisons/single-vs-multi-receptor-agonists.md
-  - RPL Peptides Ecosystem: rpl-peptides-ecosystem.md
+      - Overview: comparisons/index.md
+      - GLP-1 vs GIP: comparisons/glp-1-vs-gip-research.md
+      - Semaglutide vs Tirzepatide: comparisons/semaglutide-vs-tirzepatide.md
+      - Peptide Hormones vs Small Molecules: comparisons/peptide-hormones-vs-small-molecules.md
+      - Single vs Multi-Receptor Agonists: comparisons/single-vs-multi-receptor-agonists.md
+  - Ecosystem: rpl-peptides-ecosystem.md
   - Authors: authors/index.md
