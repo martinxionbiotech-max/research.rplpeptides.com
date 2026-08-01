@@ -80,32 +80,30 @@ For practical research support, the [RPL Peptides Research Tools](https://tool.r
 
 ## Frequently Asked Questions
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is the primary HPLC method for peptide analysis?</h3>
 <p>Reversed-phase high-performance liquid chromatography (RP-HPLC) is the primary method, typically using C18 or C4 stationary phases with gradients of acetonitrile in water containing 0.05–0.1% trifluoroacetic acid as an ion-pairing agent.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">How is peptide purity determined by HPLC?</h3>
 <p>Purity is determined by area normalization, where the peak area of the target peptide is expressed as a percentage of the total integrated peak area from all detected components. Research-grade peptides typically require >95% purity, while >98% is expected for pharmaceutical applications.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">Can HPLC distinguish between peptide impurities and degradation products?</h3>
 <p>Yes, when coupled with mass spectrometry detection (LC-MS), HPLC can identify and characterize individual impurities and degradation products based on their mass-to-charge ratios. This is essential for understanding peptide stability and degradation pathways.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What stationary phases are best for hydrophobic versus hydrophilic peptides?</h3>
 <p>Hydrophobic peptides are well separated on C18 columns, while moderately hydrophobic peptides benefit from C8 or C4 phases. For hydrophilic peptides, HILIC (hydrophilic interaction liquid chromatography) is often preferred as it provides retention and separation based on polarity rather than hydrophobicity.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is peptide mapping and why is it important?</h3>
 <p>Peptide mapping involves enzymatic digestion of a peptide or protein followed by HPLC separation of the resulting fragments. It serves as a fingerprint for identity confirmation, detects post-translational modifications, and characterizes structural changes induced by chemical degradation.</p>
 </div>
-    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 </div>
+</div>
+
 ## References
 <div class="references
   <ol class="references">
@@ -122,6 +120,5 @@ Methods Enzymol</em>. 1996;271:3-50.</li>
 
 
 </ol>
-</div>
 
 *Disclaimer: This article is for educational and research informational purposes only. It does not provide medical advice.*

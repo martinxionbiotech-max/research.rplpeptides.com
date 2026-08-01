@@ -112,21 +112,19 @@ Emerging research has also identified MOTS-c's role in regulating the cellular s
 
 ## Frequently Asked Questions
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What does MOTS-c stand for?</h3>
 <p>MOTS-c stands for Mitochondrial Open Reading Frame of the 12S rRNA-c. The name reflects its origin as a peptide encoded within the mitochondrial 12S ribosomal RNA gene.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is the primary research focus for MOTS-c?</h3>
 <p>The primary research focus is metabolic regulation, including insulin sensitivity, glucose metabolism, and lipid oxidation. MOTS-c has also been investigated as an exercise mimetic, with studies showing it can activate AMPK signaling pathways similar to those activated by physical exercise.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">Does MOTS-c interact with other mitochondrial-derived peptides?</h3>
 <p>Research has shown that MOTS-c belongs to a broader family of mitochondrial-derived peptides that includes Humanin and the SHLP peptides. These peptides may have overlapping or complementary functions, and some studies suggest they can act synergistically in regulating cellular metabolism and stress responses.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">How does MOTS-c regulate AMPK activation?</h3>
 <p>MOTS-c activates AMPK indirectly through modulation of one-carbon metabolism. It interacts with the folate-methionine cycle, leading to increased levels of AICAR (5-aminoimidazole-4-carboxamide ribonucleotide), a well-characterized endogenous AMPK activator. This mechanism links mitochondrial peptide signaling to nucleotide metabolism and cellular energy sensing.</p>
@@ -143,9 +141,9 @@ Emerging research has also identified MOTS-c's role in regulating the cellular s
 <h3 class="faq-question">What is the relationship between MOTS-c and AICAR signaling?</h3>
 <p>MOTS-c regulates cellular AICAR levels by modulating the flux through the folate-methionine cycle, a key one-carbon metabolism pathway. AICAR is an endogenous AMPK activator that has been extensively studied for its insulin-sensitizing and exercise-mimetic properties. The discovery that MOTS-c endogenously regulates AICAR levels provides a physiological framework for understanding AMPK activation in response to mitochondrial signals. This connection also explains how MOTS-c can reproduce many of the metabolic benefits of exercise through an endogenous, mitochondrial-initiated signaling cascade.</p>
 </div>
-!!! info ""
-    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 </div>
+</div>
+
 ## References
 <div class="references
   <ol class="references">
@@ -164,4 +162,3 @@ Cell Metabolism</em>. 2015;21(3):443-454. <a href="https://doi.org/10.1016%2Fj.c
   <li id="ref13">Quiros PM, Mottis A, Auwerx J. Mitonuclear communication in homeostasis and stress. <em>Nat Rev Mol Cell Biol</em>. 2016;17(4):213-226. <a href="https://doi.org/10.1038%2Fnrm.2016.6">doi:10.1038/nrm.2016.6</a></li>
   <li id="ref14">Hashimoto Y, Niikura T, Tajima H, et al. Role of mitochondrial-encoded peptides in cellular stress response. <em>J Clin Invest</em>. 2001;108(8):1175-1184. <a href="https://doi.org/10.1172%2FJCI200113256">doi:10.1172/JCI200113256</a></li>
 </ol>
-</div>

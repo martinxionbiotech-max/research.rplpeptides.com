@@ -79,32 +79,30 @@ For researchers conducting purity studies, the [RPL Peptides Research Tools](htt
 
 ## Frequently Asked Questions
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between chemical purity and peptide content?</h3>
 <p>Chemical purity (measured by HPLC area normalization) reflects the percentage of the target peptide relative to all UV-absorbing components. Peptide content (measured by amino acid analysis) reflects the actual mass of peptide in a sample, accounting for water, salts, and counter-ions that contribute to the total mass.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What purity level is acceptable for research peptides?</h3>
 <p>For most research applications, peptide purity of &ge;95% is considered acceptable. For definitive biological studies or pharmacological investigations, &ge;98% purity is preferred. Pharmaceutical development requires &ge;98% with individual impurities below specified ICH thresholds (&le;1.0% for &ge;0.1% reporting threshold).</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">Why is capillary electrophoresis useful for peptide purity testing?</h3>
 <p>CE separates peptides based on their charge-to-size ratio, providing orthogonal selectivity to RP-HPLC. It is particularly effective at resolving charge variants, deamidation products, and impurities that co-elute by HPLC, making it a valuable orthogonal method for comprehensive impurity profiling.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is a stability-indicating HPLC method?</h3>
 <p>A stability-indicating method is validated to resolve the target peptide from all degradation products generated under forced degradation conditions (acid, base, heat, photolysis, oxidation). It ensures that the method accurately tracks purity loss during stability studies rather than underestimating degradation due to co-elution.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">Can HPLC purity at 214 nm overestimate actual peptide purity?</h3>
 <p>Yes. Impurities lacking strong UV absorbance at 214 nm (e.g., non-peptide contaminants, salts, residual solvents, or peptides with few aromatic residues) may contribute proportionally less to the total peak area, leading to overestimation. Comprehensive purity assessment requires orthogonal methods including LC-MS and AAA.</p>
 </div>
-    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 </div>
+</div>
+
 ## References
 <div class="references
   <ol class="references">
@@ -121,6 +119,5 @@ J Pharm Biomed Anal</em>. 2014;101:2-30.</li>
 
 
 </ol>
-</div>
 
 *Disclaimer: This article is for educational and research informational purposes only. It does not provide medical advice.*

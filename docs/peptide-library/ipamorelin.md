@@ -106,43 +106,36 @@ Comparative studies have systematically evaluated the GH secretagogue activity a
 
 
 ## Frequently Asked Questions
-
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">How does ipamorelin differ from other growth hormone secretagogues?</h3>
 <p>Ipamorelin is distinguished by its high selectivity for GHS-R1a and minimal activation of the stress axis. Unlike GHRP-6, hexarelin, or other earlier secretagogues, ipamorelin causes negligible increases in ACTH, cortisol, and prolactin. It is also one of the smallest GHSs, comprising only five amino acids.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Does ipamorelin work through the same mechanism as GHRH?</h3>
 <p>No. Ipamorelin acts on the GHS-R1a receptor (the ghrelin receptor), which is distinct from the GHRH receptor. GHS-R1a signals primarily through the phospholipase C–IP₃–calcium pathway, whereas GHRH signals through the adenylyl cyclase–cAMP–PKA pathway. Both converge on GH release from pituitary somatotrophs and can produce additive or synergistic effects when combined.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Is ipamorelin FDA-approved?</h3>
 <p>No. Ipamorelin is not FDA-approved for any clinical indication. It is a research compound used in preclinical and early-phase clinical studies to investigate GH axis physiology and potential therapeutic applications.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">What is the significance of the modified amino acids in ipamorelin?</h3>
 <p>The inclusion of Aib (α-aminoisobutyric acid) and d-amino acids (d-2-Nal, d-Phe) confers resistance to proteolytic cleavage by endo- and exopeptidases, significantly improving the peptide's in vivo stability compared to all-L-amino-acid peptides. This is a common strategy in peptide drug design to enhance pharmacokinetic properties.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">What are the reported effects of ipamorelin on bone?</h3>
 <p>In preclinical and early clinical studies, ipamorelin has been shown to stimulate bone formation markers such as osteocalcin and P1NP. The effect is thought to be mediated through GH–IGF-1 axis activation, which promotes osteoblast differentiation and activity. However, large-scale clinical trials for bone indications have not been conducted.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Can ipamorelin be taken orally?</h3>
 <p>While ipamorelin is more resistant to proteolysis than linear all-L-peptides, its oral bioavailability remains negligible. It is administered by subcutaneous or intravenous injection in research settings. Oral formulation approaches (e.g., permeation enhancers) have not been clinically validated for this peptide.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">How long does the GH response to ipamorelin last?</h3>
 <p>Following subcutaneous administration, peak GH levels are typically achieved within 30–60 minutes, with GH levels returning to baseline by approximately 2–3 hours post-injection. The total GH secretory pulse magnitude is dose-dependent and has been characterized in several human pharmacokinetic/pharmacodynamic studies.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Does ipamorelin affect appetite?</h3>
 <p>Ghrelin is known as the "hunger hormone" and stimulates appetite via GHS-R1a activation in the hypothalamus. While ipamorelin is a potent GHS-R1a agonist, its effect on appetite in human studies appears to be less pronounced than that of acylated ghrelin itself, possibly due to differences in pharmacokinetics or CNS penetration.</p>
@@ -159,11 +152,12 @@ Comparative studies have systematically evaluated the GH secretagogue activity a
 <h3 class="faq-question">What signaling pathways are differentially engaged by ipamorelin compared to endogenous ghrelin?</h3>
 <p>Both ipamorelin and acylated ghrelin activate GHS-R1a, a G<sub>q/11</sub>-coupled receptor, leading to phospholipase C activation and intracellular calcium mobilization. However, recent studies suggest that ghrelin additionally engages G protein-independent signaling through β-arrestin recruitment and certain MAPK pathways, while ipamorelin shows reduced efficacy for these non-canonical pathways. This differential signaling bias may contribute to the observed differences in HPA axis activation and appetite stimulation between ipamorelin and endogenous ghrelin. These findings highlight the importance of biased agonism at GHS-R1a in determining the in vivo pharmacological profile.</p>
 </div>
+</div>
+</div>
 
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-</div>
 ## References
 <ol class="references">
   <li id="ref1">Raun K, Hansen BS, Johansen NL, et al. Ipamorelin, the first selective growth hormone secretagogue. <em>Eur J Endocrinol.</em> 1998;139(5):552-561. <a href="https://doi.org/10.1530%2Feje.0.1390552">doi:10.1530/eje.0.1390552</a></li>

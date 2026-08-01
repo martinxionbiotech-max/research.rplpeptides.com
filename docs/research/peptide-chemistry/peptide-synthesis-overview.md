@@ -94,36 +94,30 @@ Several frontiers in peptide synthesis research are actively being explored:
 
 ## Frequently Asked Questions
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between Boc and Fmoc SPPS strategies?</h3>
 <p>Boc SPPS uses acid-labile Boc protection for the N<sup>α</sup>-amino group and requires strong acid (HF) for final cleavage. Fmoc SPPS uses base-labile Fmoc protection and milder TFA-mediated cleavage, making it the preferred modern method due to reduced handling hazards and better compatibility with acid-sensitive residues.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is native chemical ligation and why is it important?</h3>
 <p>Native chemical ligation (NCL) is a chemoselective reaction between a C-terminal peptide thioester and an N-terminal cysteine residue, forming a native peptide bond. It is used to assemble large peptides and proteins (>50 residues) from synthetic segments, enabling the chemical construction of proteins that would be impractical to synthesize by stepwise SPPS alone.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What purity can be expected after standard SPPS and cleavage?</h3>
 <p>Crude purity after SPPS and cleavage typically ranges from 50% to 85%, depending on peptide length and sequence complexity. Common impurities include deletion sequences (from incomplete coupling), truncated peptides, and side-reaction byproducts. Preparative HPLC purification typically yields final purities of >95% or >98%.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">When is recombinant production preferred over chemical synthesis?</h3>
 <p>Recombinant production in microorganisms enables cost-effective synthesis of longer peptides and proteins (>50 residues), supports uniform isotopic labeling for NMR studies, and can incorporate natural biosynthetic machinery for disulfide bond formation and other post-translational modifications. The main disadvantages are limitations on non-canonical amino acid incorporation and the need for extensive purification from cellular lysates.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What are the advantages of automated peptide synthesizers?</h3>
 <p>Automated peptide synthesizers have democratized SPPS by reducing hands-on time, improving reproducibility, and enabling parallel synthesis of multiple peptides simultaneously. Modern instruments offer microwave assistance, real-time monitoring, and programmable synthesis cycles that optimize coupling efficiency. This has accelerated research in peptide-based drug discovery, epitope mapping, and structure-activity relationship studies.</p>
 </div>
-  </div>
+</div>
 </div>
 
-!!! info ""
-    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-</div>
 ## References
 <ol class="references">
     <li id="ref1">Merrifield RB. Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. <em>J Am Chem Soc</em>. 1963;85(14):2149-2154. <a href="https://doi.org/10.1021%2Fja00897a025">doi:10.1021/ja00897a025</a></li>

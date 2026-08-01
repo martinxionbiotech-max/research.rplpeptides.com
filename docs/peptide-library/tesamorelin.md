@@ -102,38 +102,32 @@ Recent studies have extended the investigation of tesamorelin to non-HIV populat
 
 
 ## Frequently Asked Questions
-
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What distinguishes tesamorelin from endogenous GHRH?</h3>
 <p>Tesamorelin differs from endogenous human GHRH (1–44) by a single amino acid substitution: norleucine replaces methionine at position 27. This modification increases resistance to dipeptidyl peptidase-4 (DPP-IV) enzymatic degradation, extending the peptide's circulating half-life while maintaining full receptor-binding affinity.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Is tesamorelin a growth hormone secretagogue?</h3>
 <p>Yes, tesamorelin acts as a growth hormone secretagogue through stimulation of the GHRH receptor. However, unlike ghrelin mimetics (e.g., ipamorelin) that act on the GHS-R1a receptor, tesamorelin directly mimics the action of endogenous GHRH by binding to the GHRHR on pituitary somatotroph cells.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">What is the regulatory status of tesamorelin?</h3>
 <p>Tesamorelin (Egrifta) is FDA-approved for the reduction of excess visceral abdominal fat in HIV-infected patients with lipodystrophy. It has also received marketing authorization in Canada. It remains an investigational compound for other indications.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Does tesamorelin affect blood glucose levels?</h3>
 <p>Clinical studies indicate that tesamorelin does not adversely affect glycemic control. Some evidence points to modest improvements in insulin sensitivity, likely due to GH-induced lipolysis and reduction of visceral adiposity. However, GH can induce transient insulin resistance, and glucose monitoring remains standard in clinical trials.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">What are the most common adverse events associated with tesamorelin?</h3>
 <p>The most frequently reported adverse events in clinical trials include injection-site reactions (erythema, pruritus), arthralgias, myalgias, and peripheral edema. These are generally mild to moderate and are consistent with the known effects of GH axis stimulation.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">Can tesamorelin be administered orally?</h3>
 <p>No. Like most peptides of its size, tesamorelin undergoes rapid proteolytic degradation in the gastrointestinal tract and has negligible oral bioavailability. It is formulated exclusively for subcutaneous injection.</p>
 </div>
-
 <div class="faq-item">
 <h3 class="faq-question">How does tesamorelin compare with systemic GH therapy?</h3>
 <p>Tesamorelin preserves the endogenous pulsatile pattern of GH secretion by stimulating the pituitary's natural feedback mechanisms, whereas exogenous GH administration delivers supraphysiological, non-pulsatile GH levels. The pulsatile profile achieved with tesamorelin may offer a more physiologic approach with a potentially more favorable safety profile.</p>
@@ -150,11 +144,12 @@ Recent studies have extended the investigation of tesamorelin to non-HIV populat
 <h3 class="faq-question">What evidence supports tesamorelin's effects on non-alcoholic fatty liver disease?</h3>
 <p>A landmark randomized, placebo-controlled trial demonstrated that 12 months of tesamorelin treatment in HIV-infected patients with NAFLD resulted in a 37% relative reduction in hepatic fat content measured by proton magnetic resonance spectroscopy (¹H-MRS), compared with a 5% increase in the placebo group. This was accompanied by significant reductions in serum ALT levels, suggesting improvement in hepatic inflammation. Additional analyses showed that the reduction in liver fat was independent of changes in visceral adiposity, indicating a direct hepatic effect of GH axis stimulation. These findings have generated interest in evaluating tesamorelin for NASH, though larger studies in broader populations are needed.</p>
 </div>
+</div>
+</div>
 
 <!-- References -->
 !!! info ""
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-</div>
 ## References
 <ol class="references">
   <li id="ref1">Falutz J, Allas S, Blot K, et al. Metabolic effects of a growth hormone-releasing factor in patients with HIV. <em>N Engl J Med.</em> 2007;357(23):2359-2370. <a href="https://doi.org/10.1056%2FNEJMoa072664">doi:10.1056/NEJMoa072664</a></li>

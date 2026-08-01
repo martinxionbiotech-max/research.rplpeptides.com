@@ -78,36 +78,30 @@ For researchers conducting mass spectrometry studies, the [RPL Peptides Research
 
 ## Frequently Asked Questions
 <div class="faq-container">
+<div class="faq-section">
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between MALDI-TOF and ESI-MS for peptide analysis?</h3>
 <p>MALDI-TOF predominantly produces singly charged ions, providing simple spectra ideal for rapid molecular weight confirmation and peptide mass fingerprinting. ESI-MS generates multiply charged ions, enabling analysis on instruments with limited m/z range, and integrates naturally with LC separation for complex mixture analysis.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is the difference between CID, HCD, and ETD fragmentation?</h3>
 <p>CID (collision-induced dissociation) and HCD (higher-energy collisional dissociation) produce b- and y-ions through vibrational excitation. HCD provides better low-mass ion transmission. ETD (electron transfer dissociation) generates c- and z-ions via radical-mediated fragmentation and preserves labile PTMs like phosphorylation that would be lost during CID.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">Can mass spectrometry detect post-translational modifications on peptides?</h3>
 <p>Yes. PTMs are detected as characteristic mass shifts from the unmodified residue mass (e.g., +80 Da for phosphorylation, +162 Da for hexose glycosylation). MS/MS fragmentation localizes the modification to a specific residue, and ETD fragmentation preserves labile modifications during analysis.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What mass accuracy is required for confident peptide identification?</h3>
 <p>High-resolution instruments (Orbitrap, FT-ICR) routinely achieve sub-1 ppm mass accuracy, substantially reducing the number of candidate peptides and increasing identification confidence. Instruments with 10–50 ppm accuracy can still provide confident identifications when combined with retention time and fragmentation data.</p>
 </div>
-  </div>
 <div class="faq-item">
 <h3 class="faq-question">What is the limit of detection for peptide mass spectrometry?</h3>
 <p>Modern mass spectrometers routinely achieve detection limits in the low femtomole range, with state-of-the-art instruments reaching attomole sensitivity for purified peptides. Single-cell proteomics approaches are pushing toward zeptomole (10<sup>-21</sup> mol) detection limits.</p>
 </div>
-  </div>
+</div>
 </div>
 
-!!! info ""
-    **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
-</div>
 ## References
 <div class="references
   <ol class="references">
@@ -126,6 +120,5 @@ Anal Chem</em>. 1988;60(20):2299-2301.</li>
 
 
 </ol>
-</div>
 
 *Disclaimer: This article is for educational and research informational purposes only. It does not provide medical advice.*
