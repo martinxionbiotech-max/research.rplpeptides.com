@@ -137,6 +137,22 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 </div>
 
 
+## Research Evidence
+
+| Finding | Data | Source |
+|---------|------|--------|
+| RP-HPLC with sub-2-µm UHPLC particles resolves peptides differing by single amino acid substitutions | Resolution of deletion sequences and epimerization products undetectable on conventional columns | Fekete et al., *J. Pharm. Biomed. Anal.* (2012) |
+| ESI-MS achieves mass accuracy of 1–5 ppm for intact peptides using high-resolution instruments | Definitive molecular weight confirmation from femtomole sample quantities | Chait, *Annu. Rev. Biochem.* (2011) |
+| MALDI-TOF MS generates predominantly [M+H]⁺ ions, simplifying mixture analysis | Single-charge spectra enable detection of peptide impurities at <0.1% abundance | Biemann, *Biomed. Environ. Mass Spectrom.* (1988) |
+| CD spectroscopy achieves ~80% accuracy in secondary structure content prediction for peptides | α-helical minima at 208/222 nm; β-sheet minimum at 216–218 nm | Kelly et al., *Biochim. Biophys. Acta* (2005) |
+| Multi-dimensional NMR yields high-resolution solution structures for peptides up to ~5 kDa | Structures validated for hundreds of peptides deposited in the Protein Data Bank | Wüthrich, *Angew. Chem. Int. Ed.* (2003) |
+| UHPLC-UV-MS platforms provide simultaneous purity, identity, and impurity identification in a single injection | Combines chromatographic separation (RP-HPLC), UV detection, and mass-based identification | Fekete et al., *J. Pharm. Biomed. Anal.* (2012) |
+| Tandem MS (MS/MS) with collision-induced dissociation enables de novo peptide sequencing | b-ion and y-ion series from N-terminal and C-terminal fragmentation, respectively | Biemann, *Biomed. Environ. Mass Spectrom.* (1988) |
+| ICH Q6B guidelines mandate orthogonal analytical methods for therapeutic peptide characterization | Five-method panel: HPLC + MS + amino acid analysis + water content + bioassay required | ICH Q6B; *J. Pharm. Biomed. Anal.* (2012) |
+| Capillary electrophoresis provides charge-based separation orthogonal to RP-HPLC hydrophobicity-based separation | Detects charged impurities undetectable by RP-HPLC alone; particularly valuable for highly charged peptides | Rücker et al., *Electrophoresis* (2012) |
+| Ion mobility spectrometry-MS adds gas-phase shape and charge separation, resolving conformers and isobaric peptides | Collision cross-section (CCS) values serve as additional molecular identifiers  | Ibrahim et al., *Anal. Chem.* (2014) |
+
+
 ## Frequently Asked Questions
 <div class="faq-container">
 <div class="faq-section">
@@ -183,7 +199,7 @@ Modern quality management systems incorporate inter-laboratory comparison scheme
 </div>
 ## References
 <ol class="references">
-Methods Mol Biol</em>. 2007;386:3-55.</li>
+  <li id="ref1">Mant CT, Hodges RS. High-Performance Liquid Chromatography of Peptides and Proteins: Separation, Analysis, and Conformation. <em>Methods Mol Biol</em>. 2007;386:3-55.</li>
   <li id="ref2">Fekete S, Veuthey JL, Guillarme D. New trends in reversed-phase liquid chromatographic separations of therapeutic peptides and proteins. <em>J Pharm Biomed Anal</em>. 2012;69:9-27.</li>
   <li id="ref3">Chait BT. Mass spectrometry in the postgenomic era. <em>Annu Rev Biochem</em>. 2011;80:239-269.</li>
   <li id="ref4">Biemann K. Contributions of mass spectrometry to peptide and protein structure. <em>Biomed Environ Mass Spectrom</em>. 1988;16(1-12):99-111.</li>

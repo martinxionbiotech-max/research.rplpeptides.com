@@ -1,0 +1,7449 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Comprehensive review of machine learning applications in peptide research including SVM, random forest, XGBoost, CNNs, RNNs, transformers, AMP prediction, toxicity classification, binding affinity, generative models, and model interpretability.">
+      
+      
+        <meta name="author" content="RPL Scientific Editorial Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/bioinformatics/machine-learning-peptide-science/">
+      
+      
+        <link rel="prev" href="../molecular-docking-peptides/">
+      
+      
+        <link rel="next" href="../peptide-database-resources/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Machine Learning in Peptide Science — SVM, Deep Learning & Predictive Models - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#machine-learning-in-peptide-science-svm-deep-learning-predictive-models" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Machine Learning in Peptide Science — SVM, Deep Learning & Predictive Models
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/circular-dichroism-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../molecular-docking-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classical-machine-learning-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classical Machine Learning Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classical Machine Learning Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-vector-machines-svm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support Vector Machines (SVM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#random-forest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Forest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xgboost-extreme-gradient-boosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XGBoost (Extreme Gradient Boosting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-encoding-for-classical-ml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Encoding for Classical ML
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deep-learning-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deep Learning Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deep Learning Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#convolutional-neural-networks-cnns-for-peptides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convolutional Neural Networks (CNNs) for Peptides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recurrent-neural-networks-rnns-and-lstms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurrent Neural Networks (RNNs) and LSTMs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformer-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformer Architectures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#antimicrobial-peptide-amp-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antimicrobial Peptide (AMP) Prediction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Antimicrobial Peptide (AMP) Prediction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-amp-prediction-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AMP Prediction Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-of-the-art-amp-predictors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State-of-the-Art AMP Predictors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations-and-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations and Caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toxicity-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toxicity Classification
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toxicity Classification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hemolysis-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hemolysis Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cytotoxicity-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cytotoxicity Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#therapeutic-index-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Therapeutic Index Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binding-affinity-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binding Affinity Prediction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Binding Affinity Prediction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#peptide-mhc-binding-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peptide-MHC Binding Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-peptide-protein-binding-affinity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Peptide-Protein Binding Affinity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generative-models-for-peptide-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generative Models for Peptide Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generative Models for Peptide Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variational-autoencoders-vaes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variational Autoencoders (VAEs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generative-adversarial-networks-gans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generative Adversarial Networks (GANs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autoregressive-language-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoregressive Language Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reinforcement-learning-for-peptide-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reinforcement Learning for Peptide Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Datasets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-interpretability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Interpretability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Interpretability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shap-shapley-additive-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SHAP (SHapley Additive exPlanations)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attention-weight-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attention Weight Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrated-gradients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrated Gradients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saliency-maps-for-peptide-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saliency Maps for Peptide Sequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-database-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/clinical-data-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/09-system-suitability-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classical-machine-learning-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classical Machine Learning Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classical Machine Learning Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-vector-machines-svm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support Vector Machines (SVM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#random-forest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Forest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xgboost-extreme-gradient-boosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XGBoost (Extreme Gradient Boosting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-encoding-for-classical-ml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Encoding for Classical ML
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deep-learning-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deep Learning Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deep Learning Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#convolutional-neural-networks-cnns-for-peptides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convolutional Neural Networks (CNNs) for Peptides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recurrent-neural-networks-rnns-and-lstms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurrent Neural Networks (RNNs) and LSTMs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformer-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transformer Architectures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#antimicrobial-peptide-amp-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antimicrobial Peptide (AMP) Prediction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Antimicrobial Peptide (AMP) Prediction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-amp-prediction-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The AMP Prediction Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-of-the-art-amp-predictors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        State-of-the-Art AMP Predictors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations-and-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations and Caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toxicity-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toxicity Classification
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Toxicity Classification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hemolysis-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hemolysis Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cytotoxicity-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cytotoxicity Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#therapeutic-index-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Therapeutic Index Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#binding-affinity-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Binding Affinity Prediction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Binding Affinity Prediction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#peptide-mhc-binding-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peptide-MHC Binding Prediction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-peptide-protein-binding-affinity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Peptide-Protein Binding Affinity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generative-models-for-peptide-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generative Models for Peptide Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Generative Models for Peptide Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variational-autoencoders-vaes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variational Autoencoders (VAEs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generative-adversarial-networks-gans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Generative Adversarial Networks (GANs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autoregressive-language-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Autoregressive Language Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reinforcement-learning-for-peptide-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reinforcement Learning for Peptide Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benchmark-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Datasets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-interpretability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Interpretability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Interpretability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shap-shapley-additive-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SHAP (SHapley Additive exPlanations)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attention-weight-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attention Weight Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrated-gradients" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrated Gradients
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saliency-maps-for-peptide-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Saliency Maps for Peptide Sequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="machine-learning-in-peptide-science-svm-deep-learning-predictive-models">Machine Learning in Peptide Science — SVM, Deep Learning &amp; Predictive Models<a class="headerlink" href="#machine-learning-in-peptide-science-svm-deep-learning-predictive-models" title="Permanent link">&para;</a></h1>
+<div class="quick-fact">
+  <strong>Key Summary:</strong> Machine learning has revolutionized peptide science by enabling accurate prediction of peptide properties from sequence alone. From classical algorithms (SVM, Random Forest, XGBoost) to deep learning architectures (CNNs, RNNs, transformers) and generative models, ML approaches now predict antimicrobial activity, toxicity, binding affinity, and other functional properties with accuracy approaching experimental validation. This article covers the full spectrum of ML applications in peptide research, benchmark datasets, and methods for model interpretability.
+</div>
+
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>The intersection of machine learning and peptide science represents one of the most productive areas of modern computational biology. Peptide sequences, as linear strings of amino acids with well-defined alphabets, are naturally amenable to sequence-based machine learning. This article provides a comprehensive survey of machine learning applications across the peptide research landscape. We begin with classical ML algorithms — support vector machines (SVM), random forest, and gradient boosting (XGBoost) — examining their applications in antimicrobial peptide (AMP) prediction, toxicity classification, and functional property regression. We then explore deep learning architectures: convolutional neural networks (CNNs) for motif detection in peptide sequences, recurrent neural networks (RNNs) and long short-term memory (LSTM) networks for sequence modeling, and transformer architectures that leverage attention mechanisms to capture long-range dependencies in peptide sequences. The application of these methods to critical peptide prediction tasks is reviewed in depth: AMP prediction from sequence, hemolytic and cytotoxic toxicity classification, peptide-protein binding affinity prediction, and generative models for novel peptide design. We survey benchmark datasets that enable rigorous evaluation of ML methods and discuss the critical issue of model interpretability — understanding why models make specific predictions — through SHAP values, attention weight visualization, and integrated gradients. For researchers integrating ML into their peptide discovery pipelines, resources at <a href="https://rplpeptides.com">RPL Peptides</a> provide additional guidance and curated datasets.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<p>The application of machine learning to peptide science is motivated by a fundamental observation: amino acid sequence encodes functional information. The biophysical properties that determine whether a peptide will be antimicrobial, hemolytic, cell-penetrating, or toxic are encoded in its sequence — but in ways that are often too complex for humans to discern through inspection alone. Machine learning excels at discovering these sequence-function relationships from data.</p>
+<p>The roots of ML in peptide science trace back to the 1990s with early applications of neural networks to signal peptide prediction (SignalP) and secondary structure prediction. The explosion of peptide sequence data in the 2000s — driven by high-throughput sequencing, mass spectrometry-based peptidomics, and systematic screening of synthetic peptide libraries — created the training data necessary for modern ML approaches. The Antimicrobial Peptide Database (APD), established in 2004, provided one of the first systematically curated datasets enabling statistical analysis of AMP sequence features (<a href="https://doi.org/10.1093/nar/gkh148">Wang &amp; Wang, 2004</a>).</p>
+<p>The 2010s saw the adoption of ensemble methods — random forest and gradient boosting machines — that improved prediction accuracy through model averaging. Tools such as CAMP_R3 (Collection of Anti-Microbial Peptides) integrated multiple ML classifiers for AMP prediction (<a href="https://doi.org/10.1093/nar/gkv1153">Waghu et al., 2016</a>), while ToxinPred used SVM to classify peptide toxins (<a href="https://doi.org/10.1371/journal.pone.0073957">Gupta et al., 2013</a>).</p>
+<p>The deep learning revolution that transformed computer vision and natural language processing reached peptide science in the late 2010s. Convolutional neural networks applied to peptide sequences proved effective at detecting local sequence motifs characteristic of functional peptides. Recurrent neural networks captured sequential dependencies along the peptide chain. The transformer architecture, introduced in 2017, enabled models to attend to all positions in a peptide sequence simultaneously, capturing long-range interactions critical for structure and function (<a href="https://doi.org/10.48550/arXiv.1706.03762">Vaswani et al., 2017</a>).</p>
+<p>Most recently, protein language models — large-scale transformers pre-trained on hundreds of millions of protein sequences — have been adapted for peptide prediction tasks through transfer learning. Models such as ProtBERT and ESM-2 provide rich sequence representations (embeddings) that capture evolutionary and structural information, dramatically improving performance on downstream prediction tasks with limited labeled data (<a href="https://doi.org/10.1109/TPAMI.2021.3095381">Elnaggar et al., 2022</a>).</p>
+<h2 id="classical-machine-learning-methods">Classical Machine Learning Methods<a class="headerlink" href="#classical-machine-learning-methods" title="Permanent link">&para;</a></h2>
+<h3 id="support-vector-machines-svm">Support Vector Machines (SVM)<a class="headerlink" href="#support-vector-machines-svm" title="Permanent link">&para;</a></h3>
+<p>Support vector machines construct hyperplanes in high-dimensional feature spaces that optimally separate different classes of peptides. SVMs have been the workhorse of peptide classification for two decades due to their effectiveness with moderate-sized datasets and their ability to handle high-dimensional feature spaces through kernel functions.</p>
+<p><strong>SVM applications in peptide science:</strong>
+- <strong>AMP prediction:</strong> SVM classifiers trained on amino acid composition, dipeptide composition, and physicochemical descriptors achieve 85-92% accuracy for AMP vs. non-AMP classification.
+- <strong>Toxin prediction:</strong> ToxinPred uses SVM with dipeptide composition features to distinguish toxic peptides from non-toxic ones with &gt;90% accuracy (<a href="https://doi.org/10.1371/journal.pone.0073957">Gupta et al., 2013</a>).
+- <strong>Hemolysis prediction:</strong> HemoPI and HLPpred-Fuse employ SVM classifiers to predict hemolytic activity from sequence features.
+- <strong>Subcellular localization:</strong> TargetP and MultiLoc2 use SVM to predict peptide targeting to organelles, membranes, or secretion.</p>
+<p><strong>Feature engineering for SVM peptide models:</strong>
+SVM performance depends critically on feature representation. Common feature sets include:
+- <strong>Amino acid composition (AAC):</strong> 20-dimensional vector of amino acid frequencies
+- <strong>Dipeptide composition (DPC):</strong> 400-dimensional vector of dipeptide frequencies
+- <strong>Pseudo amino acid composition (PseAAC):</strong> AAC augmented with sequence-order descriptors (hydrophobicity, charge correlations)
+- <strong>Physicochemical properties:</strong> Aggregated values of hydrophobicity, net charge, isoelectric point, molecular weight, instability index, aliphatic index
+- <strong>Composition/Transition/Distribution (CTD):</strong> Descriptors capturing amino acid property composition, transitions between property classes, and distribution patterns</p>
+<p><strong>Kernel selection:</strong>
+The radial basis function (RBF) kernel is most commonly used for peptide classification, as it can capture nonlinear sequence-function relationships. For very high-dimensional feature spaces (e.g., 400-dimensional dipeptide composition), linear kernels often perform comparably and are computationally more efficient.</p>
+<h3 id="random-forest">Random Forest<a class="headerlink" href="#random-forest" title="Permanent link">&para;</a></h3>
+<p>Random forest constructs an ensemble of decision trees, each trained on a bootstrap sample of the training data with a random subset of features considered at each split. The ensemble prediction is the majority vote (classification) or mean (regression) of individual tree predictions.</p>
+<p><strong>Advantages for peptide applications:</strong>
+- <strong>Feature importance:</strong> Random forest provides built-in feature importance scores, identifying which sequence features most influence predictions — valuable for generating mechanistic hypotheses.
+- <strong>Robustness to irrelevant features:</strong> Random forest tolerates noisy or irrelevant features, making it suitable for feature-rich peptide representations (e.g., 400-dimensional dipeptide composition + physicochemical properties).
+- <strong>Nonlinear relationships:</strong> Decision trees capture complex, non-additive relationships between sequence features and functional properties.
+- <strong>Minimal hyperparameter tuning:</strong> Random forest performs well with default parameters, reducing the risk of overfitting in small datasets.</p>
+<p><strong>Peptide applications:</strong>
+- <strong>Antimicrobial activity regression:</strong> Predicting minimum inhibitory concentration (MIC) values from sequence features.
+- <strong>Peptide solubility prediction:</strong> CamSol and Protein-Sol use random forest classifiers for solubility prediction.
+- <strong>AMP family classification:</strong> Distinguishing between defensins, cathelicidins, bacteriocins, and other AMP families.
+- <strong>Cell-penetrating peptide prediction:</strong> Identifying sequences likely to translocate across cell membranes.</p>
+<h3 id="xgboost-extreme-gradient-boosting">XGBoost (Extreme Gradient Boosting)<a class="headerlink" href="#xgboost-extreme-gradient-boosting" title="Permanent link">&para;</a></h3>
+<p>XGBoost is a gradient boosting implementation that sequentially builds decision trees, with each new tree correcting the errors of the previous ensemble. Regularization terms prevent overfitting, making XGBoost particularly effective for structured (tabular) peptide feature data.</p>
+<p><strong>XGBoost advantages:</strong>
+- <strong>State-of-the-art accuracy:</strong> XGBoost consistently outperforms random forest and SVM on structured peptide datasets in benchmark comparisons.
+- <strong>Regularization:</strong> Built-in L1 and L2 regularization reduces overfitting, critical when peptide training sets are small (&lt;1000 examples).
+- <strong>Missing value handling:</strong> XGBoost naturally handles missing features, useful when combining heterogeneous data sources.
+- <strong>Speed:</strong> Optimized implementation enables rapid hyperparameter tuning through cross-validation.</p>
+<p><strong>Peptide applications:</strong>
+- <strong>iAMPpred:</strong> Uses XGBoost among an ensemble of classifiers for AMP prediction.
+- <strong>ToxinPred2:</strong> Updated toxin prediction with XGBoost integration.
+- <strong>Multi-label peptide classification:</strong> Peptides with multiple functional annotations (e.g., antimicrobial AND anti-inflammatory).</p>
+<h3 id="feature-encoding-for-classical-ml">Feature Encoding for Classical ML<a class="headerlink" href="#feature-encoding-for-classical-ml" title="Permanent link">&para;</a></h3>
+<p>The quality of feature representation is the single most important determinant of classical ML performance for peptide prediction:</p>
+<table>
+<thead>
+<tr>
+<th>Encoding Method</th>
+<th>Dimensionality</th>
+<th>Information Captured</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amino Acid Composition (AAC)</td>
+<td>20</td>
+<td>Global residue frequencies</td>
+<td>Baseline models, small datasets</td>
+</tr>
+<tr>
+<td>Dipeptide Composition (DPC)</td>
+<td>400</td>
+<td>Adjacent residue pairs</td>
+<td>Sequence motifs, AMP prediction</td>
+</tr>
+<tr>
+<td>Physicochemical Properties</td>
+<td>5-50</td>
+<td>Aggregated biophysical features</td>
+<td>Solubility, stability prediction</td>
+</tr>
+<tr>
+<td>Pseudo Amino Acid Composition (PseAAC)</td>
+<td>20+λ</td>
+<td>AAC + sequence-order correlation</td>
+<td>Classification with sequence-order effects</td>
+</tr>
+<tr>
+<td>Composition/Transition/Distribution (CTD)</td>
+<td>147</td>
+<td>Physicochemical property patterns</td>
+<td>Structural class prediction</td>
+</tr>
+<tr>
+<td>Quasi-sequence-order (QSO)</td>
+<td>20+lag</td>
+<td>Residue distance-dependent correlations</td>
+<td>Distant residue interactions</td>
+</tr>
+<tr>
+<td>Reduced Alphabet</td>
+<td>Variable</td>
+<td>Simplified residue groupings</td>
+<td>Small datasets, generalization</td>
+</tr>
+</tbody>
+</table>
+<h2 id="deep-learning-methods">Deep Learning Methods<a class="headerlink" href="#deep-learning-methods" title="Permanent link">&para;</a></h2>
+<h3 id="convolutional-neural-networks-cnns-for-peptides">Convolutional Neural Networks (CNNs) for Peptides<a class="headerlink" href="#convolutional-neural-networks-cnns-for-peptides" title="Permanent link">&para;</a></h3>
+<p>Convolutional neural networks, originally developed for image analysis, have been adapted to peptide sequences by treating the sequence as a one-dimensional signal. The key insight is that local sequence motifs — patterns of 2-6 consecutive amino acids — encode critical functional information, and CNNs can automatically learn to detect these motifs.</p>
+<p><strong>Architecture for peptide analysis:</strong>
+1. <strong>Input layer:</strong> Peptide sequence encoded as a one-hot matrix (L × 20) or embedding matrix (L × d), where L is sequence length and d is embedding dimension.
+2. <strong>Convolutional layers:</strong> 1D convolutions with filters of varying widths (2-6 residues) slide along the sequence, detecting local motifs.
+3. <strong>Pooling layers:</strong> Global max pooling or average pooling reduces the variable-length sequence representation to a fixed-length feature vector.
+4. <strong>Fully connected layers:</strong> Dense layers with dropout regularization map the pooled features to prediction outputs.</p>
+<p><strong>Peptide applications:</strong>
+- <strong>Deep-AmPEP30:</strong> CNN-based predictor achieving 90% accuracy for AMP prediction from sequence alone (<a href="https://doi.org/10.1093/bioinformatics/btaa643">Yan et al., 2020</a>).
+- <strong>ACEP:</strong> CNN for anticancer peptide prediction.
+- <strong>iDPF-PseAAC:</strong> CNN combining PseAAC features for multi-functional peptide classification.</p>
+<p><strong>Advantages:</strong> Automatic motif discovery without manual feature engineering; efficient computation through parameter sharing; effective for peptides of varying lengths through global pooling.</p>
+<h3 id="recurrent-neural-networks-rnns-and-lstms">Recurrent Neural Networks (RNNs) and LSTMs<a class="headerlink" href="#recurrent-neural-networks-rnns-and-lstms" title="Permanent link">&para;</a></h3>
+<p>RNNs natively model sequential dependencies by maintaining a hidden state that propagates along the sequence. Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs) address the vanishing gradient problem of vanilla RNNs, enabling the capture of long-range dependencies.</p>
+<p><strong>Architecture:</strong>
+- <strong>Bidirectional LSTMs:</strong> Process the sequence in both forward and backward directions, capturing context from both N- and C-terminal neighbors — critical because functional residues may be located anywhere in the peptide.
+- <strong>Encoder-decoder architectures:</strong> For sequence-to-sequence tasks (e.g., predicting physicochemical property profiles along the sequence).
+- <strong>Attention mechanisms:</strong> Enable the model to focus on the most informative positions in the sequence.</p>
+<p><strong>Peptide applications:</strong>
+- <strong>AMP Scanner:</strong> LSTM-based AMP prediction with full-sequence context (<a href="https://doi.org/10.1093/bioinformatics/bty179">Veltri et al., 2018</a>).
+- <strong>DeepToxin:</strong> Bidirectional LSTM for toxin classification.
+- <strong>Peptide retention time prediction:</strong> DeepDIA and Prosit use RNNs to predict chromatographic retention times for proteomics.</p>
+<h3 id="transformer-architectures">Transformer Architectures<a class="headerlink" href="#transformer-architectures" title="Permanent link">&para;</a></h3>
+<p>Transformers process entire sequences simultaneously through self-attention mechanisms, overcoming the sequential processing limitation of RNNs. For peptide analysis, this means every residue can directly attend to every other residue, capturing interactions between distant positions.</p>
+<p><strong>Key components:</strong></p>
+<p><strong>Self-attention:</strong> For each position in the peptide, the model computes attention weights over all positions, determining which other residues are most relevant for predicting the current position's context. This is computed as:</p>
+<p>Attention(Q, K, V) = softmax(QK^T / √d_k)V</p>
+<p>where Q (query), K (key), and V (value) are learned linear projections of the input.</p>
+<p><strong>Multi-head attention:</strong> Multiple attention operations run in parallel, each focusing on different types of relationships (e.g., one head may attend to hydrophobic interactions, another to charge complementarity).</p>
+<p><strong>Positional encoding:</strong> Since transformers have no inherent notion of sequence order, positional encodings (learned or sinusoidal) are added to input embeddings to convey residue position.</p>
+<p><strong>Peptide applications:</strong>
+- <strong>Protein language model fine-tuning:</strong> Pre-trained models (ProtBERT, ESM-2) fine-tuned on peptide-specific prediction tasks achieve state-of-the-art accuracy.
+- <strong>Peptide-MHC binding prediction:</strong> Transformer-based NetMHCpan and MHCflurry models predict peptide binding to MHC alleles.
+- <strong>Peptide-protein interaction prediction:</strong> PepNN and TransPPI use transformers to predict whether a given peptide binds a given protein.</p>
+<p><strong>Advantages:</strong> Capture long-range dependencies; parallel computation enables training on large datasets; pre-trained models enable transfer learning from massive unlabeled sequence corpora.</p>
+<h2 id="antimicrobial-peptide-amp-prediction">Antimicrobial Peptide (AMP) Prediction<a class="headerlink" href="#antimicrobial-peptide-amp-prediction" title="Permanent link">&para;</a></h2>
+<p>AMP prediction is the most extensively studied ML application in peptide science, driven by the urgent need for novel antibiotics and the amenability of AMPs to sequence-based prediction.</p>
+<h3 id="the-amp-prediction-pipeline">The AMP Prediction Pipeline<a class="headerlink" href="#the-amp-prediction-pipeline" title="Permanent link">&para;</a></h3>
+<p><strong>Data collection:</strong>
+- Positive set: Known AMPs from APD3, CAMP, DRAMP, DBAASP databases (typically 2,000-5,000 experimentally validated AMPs).
+- Negative set: Non-AMP peptides — construction of the negative set is critical and contested. Options include: (a) cytoplasmic proteins (may be AMPs in different conditions), (b) random peptides (may not represent biological sequences), (c) non-AMPs from UniProt with similar length distributions.</p>
+<p><strong>Feature engineering (classical ML):</strong>
+- <strong>Amino acid composition:</strong> AMPs are enriched in cationic (Lys, Arg) and hydrophobic (Leu, Ile, Ala, Val) residues, and depleted in acidic (Asp, Glu) residues.
+- <strong>Physicochemical features:</strong> Net positive charge, hydrophobic moment, Boman index, aggregation propensity.
+- <strong>Sequence-order features:</strong> PseAAC capturing correlations between residues at different positions.
+- <strong>Reduced alphabet features:</strong> Grouping amino acids by property (hydrophobic, polar, charged, etc.) to reduce dimensionality.</p>
+<p><strong>Model selection:</strong>
+- <strong>Classical ML (small datasets, &lt;5,000 sequences):</strong> SVM with RBF kernel, XGBoost — both achieve 85-92% accuracy with well-engineered features.
+- <strong>Deep learning (large datasets, &gt;10,000 sequences):</strong> CNNs or transformers — achieve 90-95% accuracy without manual feature engineering.
+- <strong>Transfer learning (limited labeled data):</strong> Fine-tuned ProtBERT or ESM-2 — achieve &gt;95% accuracy by leveraging pre-trained knowledge.</p>
+<p><strong>Validation:</strong>
+- <strong>Cross-validation:</strong> K-fold (typically 5 or 10) cross-validation on training data assesses model generalization.
+- <strong>Independent test set:</strong> Critical to avoid overfitting — a held-out test set with no sequence similarity to training data (&gt;40% identity threshold).
+- <strong>Prospective validation:</strong> Experimental testing of top-scoring predictions, the gold standard that too few studies perform.</p>
+<h3 id="state-of-the-art-amp-predictors">State-of-the-Art AMP Predictors<a class="headerlink" href="#state-of-the-art-amp-predictors" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Method</th>
+<th>Features</th>
+<th>Performance (Accuracy)</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAMP_R3</td>
+<td>SVM, RF, DT ensemble</td>
+<td>AAC, DPC, physicochemical</td>
+<td>~93%</td>
+<td>Waghu et al., 2016</td>
+</tr>
+<tr>
+<td>iAMPpred</td>
+<td>SVM ensemble</td>
+<td>Multi-feature fusion</td>
+<td>~87%</td>
+<td>Meher et al., 2017</td>
+</tr>
+<tr>
+<td>Deep-AmPEP30</td>
+<td>CNN</td>
+<td>PseKRAAC reduced alphabet</td>
+<td>~90%</td>
+<td>Yan et al., 2020</td>
+</tr>
+<tr>
+<td>AMPScanner v2</td>
+<td>CNN + LSTM</td>
+<td>One-hot + embeddings</td>
+<td>~95%</td>
+<td>Veltri et al., 2018</td>
+</tr>
+<tr>
+<td>AMP-BERT</td>
+<td>Fine-tuned ProtBERT</td>
+<td>Sequence embeddings</td>
+<td>~96%</td>
+<td>Lee et al., 2023</td>
+</tr>
+</tbody>
+</table>
+<h3 id="limitations-and-caveats">Limitations and Caveats<a class="headerlink" href="#limitations-and-caveats" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Training set bias:</strong> AMP databases are dominated by cationic, α-helical peptides; predictions for anionic, β-sheet, or cyclic AMPs may be unreliable.</li>
+<li><strong>Activity vs. mechanism:</strong> AMP predictors classify based on sequence similarity to known AMPs, not on demonstrated antimicrobial mechanism — false positives may be non-antimicrobial membrane-active peptides.</li>
+<li><strong>Potency prediction is harder than classification:</strong> Predicting MIC values (regression) is substantially more difficult than AMP/non-AMP classification, with prediction errors of 2-4 fold typical.</li>
+<li><strong>Species-specific activity:</strong> Most predictors do not differentiate activity against Gram-positive, Gram-negative, or fungal targets.</li>
+</ul>
+<h2 id="toxicity-classification">Toxicity Classification<a class="headerlink" href="#toxicity-classification" title="Permanent link">&para;</a></h2>
+<p>Toxicity prediction is essential for therapeutic peptide development, as many bioactive peptides (particularly AMPs) can lyse host cells at concentrations near their antimicrobial MIC.</p>
+<h3 id="hemolysis-prediction">Hemolysis Prediction<a class="headerlink" href="#hemolysis-prediction" title="Permanent link">&para;</a></h3>
+<p>Hemolytic activity — the lysis of red blood cells — is the most commonly predicted toxicity endpoint:</p>
+<ul>
+<li><strong>HemoPI:</strong> SVM classifier using amino acid composition and binary profile features, achieving ~82% accuracy.</li>
+<li><strong>HemoPred:</strong> Uses random forest with sequence-based features for hemolytic peptide classification.</li>
+<li><strong>HLPpred-Fuse:</strong> Ensemble method fusing multiple feature types through SVM classifiers.</li>
+<li><strong>Deep-HemoPred:</strong> CNN-based predictor achieving improvements over classical methods.</li>
+</ul>
+<p><strong>Key features for hemolysis prediction:</strong>
+Amphipathicity (as measured by hydrophobic moment), overall hydrophobicity, and the distribution of charged versus hydrophobic residues are the strongest predictors. Highly amphipathic α-helices with segregated hydrophobic and cationic faces are characteristic of both antimicrobial and hemolytic peptides — the challenge is identifying features that distinguish these activities.</p>
+<h3 id="cytotoxicity-prediction">Cytotoxicity Prediction<a class="headerlink" href="#cytotoxicity-prediction" title="Permanent link">&para;</a></h3>
+<p>General cytotoxicity prediction is more complex than hemolysis prediction due to the diversity of cell types and assays:</p>
+<ul>
+<li><strong>ToxinPred/ToxinPred2:</strong> SVM and ensemble methods for predicting general peptide toxicity from sequence (<a href="https://doi.org/10.1371/journal.pone.0073957">Gupta et al., 2013</a>; <a href="https://doi.org/10.1093/bib/bbac039">Sharma et al., 2022</a>).</li>
+<li><strong>T3SEpp:</strong> Prediction of bacterial type III secretion system effectors.</li>
+<li><strong>BTXpred:</strong> Specialized predictor for bacterial toxins.</li>
+</ul>
+<h3 id="therapeutic-index-prediction">Therapeutic Index Prediction<a class="headerlink" href="#therapeutic-index-prediction" title="Permanent link">&para;</a></h3>
+<p>The holy grail of peptide toxicity prediction is the therapeutic index — the ratio of toxic concentration to effective concentration. ML approaches to therapeutic index prediction include:
+- Multi-task learning architectures that simultaneously predict antimicrobial activity and hemolytic activity, with the ratio serving as the therapeutic index predictor.
+- Regression models trained directly on selectivity indices (MHC/HEMIC ratios) from experimental data.
+- Reinforcement learning frameworks that optimize peptide sequences for high antimicrobial activity while penalizing predicted toxicity.</p>
+<h2 id="binding-affinity-prediction">Binding Affinity Prediction<a class="headerlink" href="#binding-affinity-prediction" title="Permanent link">&para;</a></h2>
+<p>Predicting the binding affinity between peptides and their target proteins is central to computational drug discovery:</p>
+<h3 id="peptide-mhc-binding-prediction">Peptide-MHC Binding Prediction<a class="headerlink" href="#peptide-mhc-binding-prediction" title="Permanent link">&para;</a></h3>
+<p>The most mature and clinically relevant application, driven by cancer immunotherapy:
+- <strong>NetMHCpan 4.1:</strong> Ensemble of neural networks predicting peptide binding to any MHC class I allele, trained on extensive binding data from the Immune Epitope Database (IEDB) (<a href="https://doi.org/10.1093/nar/gkaa379">Reynisson et al., 2020</a>).
+- <strong>MHCflurry 2.0:</strong> Deep convolutional neural network architecture with allele-specific and pan-allele models.
+- <strong>MixMHCpred:</strong> Position-specific scoring matrix approach combined with neural network-based allele deconvolution.</p>
+<p>These tools achieve AUC &gt;0.95 for peptide-MHC binding prediction and are used clinically for neoantigen prediction in personalized cancer vaccines.</p>
+<h3 id="general-peptide-protein-binding-affinity">General Peptide-Protein Binding Affinity<a class="headerlink" href="#general-peptide-protein-binding-affinity" title="Permanent link">&para;</a></h3>
+<p>Beyond MHC, predicting general peptide-protein binding affinity remains challenging:
+- <strong>PepBind:</strong> SVM-based predictor using sequence and predicted structural features.
+- <strong>DeepPep:</strong> Deep learning using CNN features for peptide-protein interaction prediction.
+- <strong>TransPPI:</strong> Transformer-based architecture capturing both peptide and protein sequence features.
+- <strong>Graph neural networks:</strong> Representing peptide-protein interfaces as contact graphs for structure-based affinity prediction.</p>
+<p>Prediction accuracy for general peptide-protein binding affinity is moderate (Pearson correlation 0.5-0.7 with experimental ΔG), reflecting the complexity of binding energetics and the limited size of training datasets.</p>
+<h2 id="generative-models-for-peptide-design">Generative Models for Peptide Design<a class="headerlink" href="#generative-models-for-peptide-design" title="Permanent link">&para;</a></h2>
+<p>Generative models produce novel peptide sequences with desired properties, moving beyond classification/regression to de novo generation:</p>
+<h3 id="variational-autoencoders-vaes">Variational Autoencoders (VAEs)<a class="headerlink" href="#variational-autoencoders-vaes" title="Permanent link">&para;</a></h3>
+<p>VAEs learn a continuous latent space representation of peptide sequences:
+- <strong>Sampling:</strong> Points sampled from the latent space can be decoded to generate novel peptides.
+- <strong>Optimization:</strong> Gradient-based optimization in the latent space can generate peptides with maximized predicted properties.
+- <strong>Interpolation:</strong> Linear interpolation between latent representations of different peptides generates hybrid sequences.</p>
+<h3 id="generative-adversarial-networks-gans">Generative Adversarial Networks (GANs)<a class="headerlink" href="#generative-adversarial-networks-gans" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>ProteinGAN:</strong> Generates functional enzyme variants by adversarial training against natural sequences (<a href="https://doi.org/10.1038/s42256-021-00310-5">Repecka et al., 2021</a>).</li>
+<li><strong>AMP-GAN:</strong> Conditional GAN generating antimicrobial peptides with specified activity profiles.</li>
+<li><strong>PepGAN:</strong> Generates peptide sequences with controlled physicochemical properties.</li>
+</ul>
+<h3 id="autoregressive-language-models">Autoregressive Language Models<a class="headerlink" href="#autoregressive-language-models" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>ProtGPT2:</strong> GPT-2 architecture trained on UniRef50, generating novel protein sequences with natural-like properties.</li>
+<li><strong>PepCVAE:</strong> Controlled variational autoencoder generating peptides with specified length, charge, and hydrophobicity.</li>
+<li><strong>cVAE-DC:</strong> Conditional VAE with disentangled latent representations for multi-property controlled generation.</li>
+</ul>
+<h3 id="reinforcement-learning-for-peptide-optimization">Reinforcement Learning for Peptide Optimization<a class="headerlink" href="#reinforcement-learning-for-peptide-optimization" title="Permanent link">&para;</a></h3>
+<p>Reinforcement learning (RL) frames peptide design as a sequential decision process:
+- <strong>Action space:</strong> Selecting the next amino acid in the sequence (or mutation of an existing one)
+- <strong>State:</strong> Current peptide sequence
+- <strong>Reward:</strong> Predicted functional property (e.g., antimicrobial activity minus toxicity penalty)
+- <strong>Policy:</strong> Learned strategy for selecting mutations that maximize reward</p>
+<p>RL approaches have generated AMPs with improved therapeutic indices and binding peptides with enhanced affinity, demonstrating the potential of closed-loop computational optimization.</p>
+<h2 id="benchmark-datasets">Benchmark Datasets<a class="headerlink" href="#benchmark-datasets" title="Permanent link">&para;</a></h2>
+<p>Rigorous evaluation requires standardized benchmark datasets:</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Task</th>
+<th>Size</th>
+<th>Source</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>APD3</td>
+<td>AMP classification</td>
+<td>3,235+ AMPs</td>
+<td>UniProt + literature</td>
+<td>Gold standard, experimentally validated</td>
+</tr>
+<tr>
+<td>CAMP_R3</td>
+<td>AMP classification</td>
+<td>8,164 AMPs + non-AMPs</td>
+<td>Multi-source</td>
+<td>Patented and predicted sequences included</td>
+</tr>
+<tr>
+<td>DRAMP 3.0</td>
+<td>AMP classification</td>
+<td>22,259 entries</td>
+<td>Literature + patents</td>
+<td>Includes clinical and patent data</td>
+</tr>
+<tr>
+<td>DBAASP v3</td>
+<td>AMP classification + MIC</td>
+<td>20,000+ entries</td>
+<td>Literature</td>
+<td>MIC values against specific strains</td>
+</tr>
+<tr>
+<td>Hemolytik</td>
+<td>Hemolysis prediction</td>
+<td>~3,000 entries</td>
+<td>Literature</td>
+<td>Experimentally measured HC₅₀ values</td>
+</tr>
+<tr>
+<td>ToxinPred2</td>
+<td>Toxin classification</td>
+<td>~10,000 toxins + non-toxins</td>
+<td>Multi-source</td>
+<td>Updated with DL predictions</td>
+</tr>
+<tr>
+<td>IEDB</td>
+<td>Peptide-MHC binding</td>
+<td>&gt;1M measurements</td>
+<td>Immune epitope database</td>
+<td>Quantitative binding affinities</td>
+</tr>
+<tr>
+<td>PepBDB</td>
+<td>Peptide-protein complexes</td>
+<td>5,000+ structures</td>
+<td>PDB</td>
+<td>Structure-based evaluation</td>
+</tr>
+<tr>
+<td>ACPred-Fuse</td>
+<td>Anticancer peptides</td>
+<td>~1,500 ACPs + non-ACPs</td>
+<td>Literature</td>
+<td>Experimentally validated</td>
+</tr>
+<tr>
+<td>CPPsite 2.0</td>
+<td>Cell-penetrating peptides</td>
+<td>~1,850 peptides</td>
+<td>Literature</td>
+<td>Diverse CPP types</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critical considerations when using benchmark datasets:</strong></p>
+<ul>
+<li><strong>Sequence redundancy:</strong> Remove sequences sharing &gt;40-60% identity with test-set sequences to prevent inflated performance estimates.</li>
+<li><strong>Negative set construction:</strong> Random sequences may be trivially distinguished from real peptides by amino acid composition alone, inflating accuracy.</li>
+<li><strong>Class imbalance:</strong> Many peptide datasets are highly imbalanced (e.g., far more non-toxic than toxic peptides), requiring balanced accuracy, F1-score, or MCC (Matthews Correlation Coefficient) rather than raw accuracy.</li>
+<li><strong>Temporal data split:</strong> Train on earlier-discovered peptides, test on recently discovered ones, to assess generalization to novel peptides.</li>
+</ul>
+<h2 id="model-interpretability">Model Interpretability<a class="headerlink" href="#model-interpretability" title="Permanent link">&para;</a></h2>
+<p>Understanding why ML models make specific predictions is essential for scientific credibility and for generating mechanistic hypotheses:</p>
+<h3 id="shap-shapley-additive-explanations">SHAP (SHapley Additive exPlanations)<a class="headerlink" href="#shap-shapley-additive-explanations" title="Permanent link">&para;</a></h3>
+<p>SHAP values decompose a model's prediction into the contribution of each feature, based on cooperative game theory (<a href="https://doi.org/10.48550/arXiv.1705.07874">Lundberg &amp; Lee, 2017</a>).</p>
+<p><strong>Applications:</strong>
+- <strong>Global interpretation:</strong> Which features (e.g., specific amino acids, physicochemical properties) are most important across all predictions?
+- <strong>Local interpretation:</strong> For a specific peptide, which residues contribute most to its predicted antimicrobial activity?
+- <strong>Feature interaction:</strong> How do residues interact? Is Lys at position 5 more important when Leu is at position 8?</p>
+<p>For peptide models, SHAP analysis frequently reveals that:
+- AMP prediction is dominated by Lys/Arg content, net charge, and hydrophobicity.
+- Hemolysis prediction depends on amphipathicity (hydrophobic moment), overall hydrophobicity, and the spatial segregation of hydrophobic and cationic residues.
+- Binding affinity prediction emphasizes specific residue contacts at the binding interface.</p>
+<h3 id="attention-weight-visualization">Attention Weight Visualization<a class="headerlink" href="#attention-weight-visualization" title="Permanent link">&para;</a></h3>
+<p>For transformer-based models, attention weights provide direct insight into which residue pairs the model considers important:</p>
+<ul>
+<li><strong>Inter-residue attention:</strong> High attention between positions i and j suggests the model has learned a functional or structural relationship between those residues.</li>
+<li><strong>Local vs. global attention:</strong> Some heads focus on adjacent residues (local context), others on distant pairs (long-range interactions).</li>
+<li><strong>Head specialization:</strong> Different attention heads may capture different types of relationships — one head may focus on charge-charge interactions, another on hydrophobic contacts.</li>
+</ul>
+<p>For peptide science, attention weights have been used to identify:
+- Covarying residue pairs that reflect structural contacts
+- Residues critical for functional specificity
+- Motifs that distinguish closely related peptide families</p>
+<h3 id="integrated-gradients">Integrated Gradients<a class="headerlink" href="#integrated-gradients" title="Permanent link">&para;</a></h3>
+<p>Integrated gradients attribute a model's prediction to input features by integrating the gradient of the prediction with respect to the input along a path from a baseline (e.g., all-zero input) to the actual input:</p>
+<ul>
+<li><strong>Residue-level attribution:</strong> For each sequence position, how much did this specific amino acid contribute to (or detract from) the prediction?</li>
+<li><strong>Feature-level attribution:</strong> If using physicochemical feature representations, which properties drive the prediction?</li>
+<li><strong>Robustness:</strong> Integrated gradients satisfy axioms of attribution methods (sensitivity, implementation invariance), providing theoretically grounded interpretations.</li>
+</ul>
+<h3 id="saliency-maps-for-peptide-sequences">Saliency Maps for Peptide Sequences<a class="headerlink" href="#saliency-maps-for-peptide-sequences" title="Permanent link">&para;</a></h3>
+<p>Saliency maps (gradient of the output with respect to the input) highlight which positions in the sequence most strongly influence the prediction:
+- Positively contributing positions (high gradient) are "activating" — they push the prediction toward the positive class.
+- Negatively contributing positions (negative gradient) are "inhibitory."
+- For AMP prediction, saliency maps typically highlight cationic and hydrophobic residues, consistent with biophysical understanding.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<p>The effectiveness of ML in peptide science is supported by extensive validation:</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Method</th>
+<th>Task</th>
+<th>Performance</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Deep-AmPEP30</td>
+<td>CNN</td>
+<td>AMP classification</td>
+<td>AUC 0.97, Accuracy 90%</td>
+<td>Yan et al., Bioinformatics 2020</td>
+</tr>
+<tr>
+<td>AMPScanner v2</td>
+<td>CNN+LSTM</td>
+<td>AMP classification</td>
+<td>Accuracy 95%</td>
+<td>Veltri et al., Bioinformatics 2018</td>
+</tr>
+<tr>
+<td>AMP-BERT</td>
+<td>ProtBERT fine-tuned</td>
+<td>AMP classification</td>
+<td>AUC 0.99, MCC 0.92</td>
+<td>Lee et al., Brief. Bioinform. 2023</td>
+</tr>
+<tr>
+<td>ToxinPred2</td>
+<td>SVM + XGBoost</td>
+<td>Toxin classification</td>
+<td>AUC 0.98</td>
+<td>Sharma et al., Brief. Bioinform. 2022</td>
+</tr>
+<tr>
+<td>NetMHCpan 4.1</td>
+<td>NN ensemble</td>
+<td>Peptide-MHC binding</td>
+<td>PPV 0.92 (top 1%)</td>
+<td>Reynisson et al., NAR 2020</td>
+</tr>
+<tr>
+<td>ProteinGAN</td>
+<td>GAN</td>
+<td>Enzyme variant generation</td>
+<td>54% functional variants</td>
+<td>Repecka et al., Nat. Mach. Intell. 2021</td>
+</tr>
+<tr>
+<td>ProtGPT2</td>
+<td>GPT-2</td>
+<td>Protein sequence generation</td>
+<td>Natural-like folds</td>
+<td>Ferruz et al., Nat. Commun. 2022</td>
+</tr>
+<tr>
+<td>DeepToxin</td>
+<td>BiLSTM</td>
+<td>Toxin prediction</td>
+<td>AUC 0.99</td>
+<td>Pan et al., Bioinformatics 2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id="current-understanding">Current Understanding<a class="headerlink" href="#current-understanding" title="Permanent link">&para;</a></h2>
+<p>Machine learning has become an indispensable tool in peptide science, with capabilities spanning prediction, optimization, and generation:</p>
+<ul>
+<li><strong>Prediction accuracy is high but task-dependent:</strong> AMP classification achieves &gt;90% accuracy, while potency regression and general binding affinity prediction remain more challenging (R² of 0.4-0.7).</li>
+<li><strong>Transfer learning is transformative:</strong> Pre-trained protein language models (ProtBERT, ESM-2) dramatically improve performance on tasks with limited labeled data — a common scenario in peptide science.</li>
+<li><strong>Model interpretability is essential:</strong> Scientific applications require understanding why predictions are made, not just accuracy. SHAP analysis and attention visualization are becoming standard practice.</li>
+<li><strong>Experimental validation lags computational predictions:</strong> Most published ML peptide predictors have never had their predictions experimentally tested, limiting real-world impact.</li>
+<li><strong>Data quality limits performance:</strong> Noisy, biased, and incompletely characterized training data is the primary bottleneck, not algorithmic capability.</li>
+</ul>
+<h2 id="future-research-directions">Future Research Directions<a class="headerlink" href="#future-research-directions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Multi-task and multi-modal learning:</strong> Models that simultaneously predict multiple peptide properties (AMP activity, hemolysis, solubility, stability) from sequence, potentially learning shared representations that improve all tasks.</li>
+<li><strong>Few-shot and zero-shot learning:</strong> Methods that can predict properties for peptide families with very few labeled examples, leveraging knowledge from related families.</li>
+<li><strong>Uncertainty quantification:</strong> ML models that report prediction confidence alongside predictions, enabling risk-aware decision-making in peptide design.</li>
+<li><strong>Active learning pipelines:</strong> Closed-loop systems where ML models select peptides for experimental testing, results update the model, and the cycle iterates with increasing efficiency.</li>
+<li><strong>Benchmark data curation:</strong> Community-wide efforts to create standardized, high-quality benchmark datasets with consistent negative set construction and temporal splits.</li>
+<li><strong>Peptide language models:</strong> Training large language models specifically on peptide sequences (rather than full proteins) to capture peptide-specific sequence patterns.</li>
+<li><strong>Causal inference for peptide design:</strong> Moving beyond correlation-based prediction to causal models that predict the effect of specific sequence interventions on functional outcomes.</li>
+<li><strong>Interpretable-by-design architectures:</strong> Models whose predictions are inherently interpretable, rather than post-hoc explanation of black-box models.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<div class="faq-item">
+  <h3>Which ML algorithm should I start with for peptide classification?</h3>
+  <p>For beginners, start with <strong>XGBoost</strong> — it provides near state-of-the-art accuracy on structured peptide features with minimal hyperparameter tuning, built-in feature importance, and fast training. Use <strong>amino acid composition (AAC) + dipeptide composition (DPC) + net charge and hydrophobicity</strong> as your feature set. If you have >5,000 sequences, progress to <strong>CNNs</strong> or fine-tuned <strong>protein language models</strong> for improved accuracy. Always implement rigorous cross-validation and test on a held-out set with reduced sequence similarity to training data. For curated peptide ML resources, visit <a href="https://rplpeptides.com">RPL Peptides</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I choose between SVM, Random Forest, and XGBoost for my peptide dataset?</h3>
+  <p><strong>SVM</strong> is best when: (1) your dataset is small (<500 sequences), (2) you have high-dimensional feature vectors (e.g., 400D dipeptide composition), (3) you need smooth decision boundaries. <strong>Random Forest</strong> is best when: (1) you need robust feature importance estimates, (2) your dataset has mixed feature types (categorical + continuous), (3) you want a baseline model with minimal tuning. <strong>XGBoost</strong> is best when: (1) you want maximum accuracy on tabular peptide features, (2) you have medium-large datasets (1,000-50,000 sequences), (3) regularization against overfitting is important. In practice, train all three and ensemble their predictions — this often outperforms any single model.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What features best predict antimicrobial peptide activity?</h3>
+  <p>The most predictive features for AMP activity are: (1) <strong>Net positive charge</strong> — >90% of AMPs are cationic (net charge ≥ +2). (2) <strong>Hydrophobicity</strong> — moderate overall hydrophobicity (GRAVY between -0.5 and 0), as excessive hydrophobicity causes aggregation or toxicity. (3) <strong>Hydrophobic moment</strong> — a measure of amphipathicity that correlates with membrane perturbation ability. (4) <strong>Specific amino acid frequencies</strong> — enrichment in Lys, Arg, Trp, and hydrophobic residues; depletion in acidic residues. (5) <strong>Sequence patterns</strong> — alternating hydrophobic/cationic residue patterns characteristic of membrane-active α-helices. Feature importance from trained models consistently identifies these as dominant features, consistent with decades of biophysical studies on AMP mechanism.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How can I avoid overfitting when training ML models on peptide data?</h3>
+  <p>Overfitting is the most common pitfall in peptide ML. Prevention strategies: (1) <strong>Sequence identity filtering:</strong> Remove sequences from the training set that share >40% identity with test-set sequences — using CD-HIT or similar tools. (2) <strong>Cross-validation:</strong> Use stratified k-fold cross-validation (k=5 or 10) rather than single train/test splits. (3) <strong>Independent validation set:</strong> Hold out a test set at the beginning and never use it for hyperparameter tuning. (4) <strong>Feature selection:</strong> Reduce feature dimensionality to prevent models from memorizing noise — especially important for dipeptide composition (400 features). (5) <strong>Regularization:</strong> Use L1/L2 regularization, dropout (for neural networks), or early stopping. (6) <strong>Ensemble methods:</strong> Random forest and XGBoost have built-in robustness to overfitting through averaging. (7) <strong>Report multiple metrics:</strong> Don't rely on accuracy alone — report MCC, F1, and AUC-ROC for a complete picture.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What is the best deep learning architecture for peptide sequence analysis?</h3>
+  <p>The optimal architecture depends on your task and data volume: (1) <strong>For motif detection</strong> (AMP classification, post-translational modification site prediction): CNNs with 1D convolutions (filter widths 2-6) achieve excellent results and train quickly. (2) <strong>For sequential dependencies</strong> (toxin prediction, signal peptide prediction): Bidirectional LSTMs capture forward and backward context effectively. (3) <strong>For long-range interactions</strong> (structure prediction, binding affinity): Transformers with self-attention are superior. (4) <strong>For limited labeled data</strong>: Fine-tune a pre-trained protein language model (ProtBERT, ESM-2) rather than training from scratch — this is the current best practice and often outperforms task-specific architectures trained on small datasets. Implementations and guidance are available at <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How accurate are AMP prediction tools, and should I trust their predictions?</h3>
+  <p>Top AMP predictors (Deep-AmPEP30, AMPScanner v2, AMP-BERT) report accuracies of <strong>90-96% and AUC-ROC of 0.95-0.99</strong>. However, several caveats apply: (1) These metrics are on benchmark datasets that may not represent the true diversity of non-AMP sequences. (2) Predictors identify sequences <strong>similar to known AMPs</strong>, which is not synonymous with antimicrobial activity — confirmatory experimental testing is essential. (3) Most tools provide <strong>binary classification</strong> (AMP/non-AMP) rather than species-specific activity or potency prediction. (4) Performance may be substantially lower for <strong>novel AMP families</strong> with no close homologs in training data. Trust predictions as hypotheses for prioritization, not as replacements for experimental validation. Use multiple independent predictors and require consensus for higher confidence.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How can I interpret why my ML model predicted a peptide as antimicrobial?</h3>
+  <p>Use <strong>SHAP (SHapley Additive exPlanations)</strong> to decompose the prediction: for a specific peptide, SHAP shows which features (e.g., "high lysine content," "positive net charge," "specific dipeptide pattern") contributed positively or negatively to the AMP prediction. For <strong>deep learning models</strong>: (1) Use <strong>integrated gradients</strong> to attribute predictions to specific sequence positions — residues with highest attribution scores are those the model considers most AMP-relevant. (2) For <strong>attention-based models</strong>: visualize attention weights to see which residue pairs the model focuses on. (3) Use <strong>in silico alanine scanning</strong>: systematically replace each residue with alanine and observe the prediction change — residues whose mutation causes the largest drop in prediction score are functionally important. Combining these interpretability methods provides mechanistic hypotheses about which residues and properties drive antimicrobial activity.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What are the limitations of generative models for peptide design?</h3>
+  <p>Generative models face several limitations: (1) <strong>Distributional constraint:</strong> Models generate sequences within the distribution of their training data, limiting novelty outside known peptide families. (2) <strong>Property trade-offs:</strong> Optimizing for one property (antimicrobial activity) may inadvertently degrade others (solubility, stability, selectivity) unless explicitly multi-objective. (3) <strong>Synthesizability:</strong> Generated sequences may contain motifs that are difficult to synthesize (e.g., aggregation-prone sequences, aspartimide-forming Asp-Gly motifs). (4) <strong>Validation gap:</strong> Most generated sequences have not been experimentally tested — computational plausibility does not guarantee experimental function. (5) <strong>Sequence validity:</strong> Some models may generate non-canonical amino acids or violate biochemical constraints. Post-generation filtering for synthesizability, solubility, and structural plausibility is essential.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do protein language models (ProtBERT, ESM-2) improve peptide prediction?</h3>
+  <p>Protein language models (pLMs) are large transformer models pre-trained on hundreds of millions of protein sequences to predict masked amino acids (similar to BERT). This pre-training forces the model to learn rich representations capturing <strong>evolutionary constraints, structural propensities, and biochemical properties</strong> without explicit labels. Benefits for peptide prediction: (1) <strong>Transfer learning:</strong> Fine-tuning a pre-trained pLM on a peptide task with 500 labeled examples often outperforms a CNN trained from scratch on 5,000 examples. (2) <strong>Rich embeddings:</strong> pLM embeddings capture information that explicit feature engineering might miss (e.g., subtle covariation patterns, structural context). (3) <strong>Generalization:</strong> Pre-training on diverse sequences improves out-of-distribution generalization. (4) <strong>Zero-shot capability:</strong> ESM-1v can predict mutation effects without any task-specific training. The main limitation is computational cost — fine-tuning a 650M parameter model requires GPU resources. Lighter alternatives (ESM-2 35M, ProtBERT-BFD) provide strong results with lower computational demands.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I build a high-quality training dataset for peptide ML?</h3>
+  <p>Building a rigorous training dataset involves: (1) <strong>Define your positive set precisely:</strong> What exactly constitutes a "positive" peptide for your task? AMP with MIC < 100 μM against E. coli? Define and document criteria. (2) <strong>Curate positives from multiple databases:</strong> APD3, DRAMP, DBAASP for AMPs; ToxinPred for toxins; IEDB for MHC binders. Cross-reference to identify consensus positives. (3) <strong>Construct your negative set carefully:</strong> The negative set is as important as the positive set — randomly selected UniProt sequences may bias predictions toward composition-based discrimination. Consider using experimentally confirmed non-functional peptides or peptides similar in composition to positives. (4) <strong>Remove redundancy:</strong> Use CD-HIT at 40-60% identity threshold to remove similar sequences. (5) <strong>Enforce consistent sequence length:</strong> Match the length distribution of your application domain. (6) <strong>Temporal split when possible:</strong> Train on older data, test on newer data. (7) <strong>Document your dataset:</strong> Record sources, dates, filtering criteria, and version — reproducibility requires it. Curated datasets for common tasks are available through <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Veltri, D., Kamath, U., &amp; Shehu, A. (2018). Deep learning improves antimicrobial peptide recognition. <em>Bioinformatics</em>, 34(16), 2740–2747. <a href="https://doi.org/10.1093/bioinformatics/bty179">https://doi.org/10.1093/bioinformatics/bty179</a></p>
+</li>
+<li>
+<p>Yan, J., Bhadra, P., Li, A., Sethiya, P., Qin, L., Tai, H.K., Wong, K.H., &amp; Siu, S.W.I. (2020). Deep-AmPEP30: improve short antimicrobial peptides prediction with deep learning. <em>Molecular Therapy - Nucleic Acids</em>, 20, 882–894. <a href="https://doi.org/10.1016/j.omtn.2020.05.006">https://doi.org/10.1016/j.omtn.2020.05.006</a></p>
+</li>
+<li>
+<p>Gupta, S., Kapoor, P., Chaudhary, K., Gautam, A., Kumar, R., Open Source Drug Discovery Consortium, &amp; Raghava, G.P.S. (2013). In silico approach for predicting toxicity of peptides and proteins. <em>PLoS ONE</em>, 8(9), e73957. <a href="https://doi.org/10.1371/journal.pone.0073957">https://doi.org/10.1371/journal.pone.0073957</a></p>
+</li>
+<li>
+<p>Sharma, R., Shrivastava, S., Singh, S.K., Kumar, A., Saxena, A.K., &amp; Singh, R.K. (2022). Deep-AntiFP: prediction of antifungal peptides using deep learning. <em>Briefings in Bioinformatics</em>, 23(1), bbab339. <a href="https://doi.org/10.1093/bib/bbab339">https://doi.org/10.1093/bib/bbab339</a></p>
+</li>
+<li>
+<p>Reynisson, B., Alvarez, B., Paul, S., Peters, B., &amp; Nielsen, M. (2020). NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data. <em>Nucleic Acids Research</em>, 48(W1), W449–W454. <a href="https://doi.org/10.1093/nar/gkaa379">https://doi.org/10.1093/nar/gkaa379</a></p>
+</li>
+<li>
+<p>Waghu, F.H., Barai, R.S., Gurung, P., &amp; Idicula-Thomas, S. (2016). CAMPR3: a database on sequences, structures and signatures of antimicrobial peptides. <em>Nucleic Acids Research</em>, 44(D1), D1094–D1097. <a href="https://doi.org/10.1093/nar/gkv1153">https://doi.org/10.1093/nar/gkv1153</a></p>
+</li>
+<li>
+<p>Meher, P.K., Sahu, T.K., Saini, V., &amp; Rao, A.R. (2017). Predicting antimicrobial peptides with improved accuracy by incorporating the compositional, physico-chemical and structural features into Chou's general PseAAC. <em>Scientific Reports</em>, 7, 42362. <a href="https://doi.org/10.1038/srep42362">https://doi.org/10.1038/srep42362</a></p>
+</li>
+<li>
+<p>Lee, H.Y., Song, D.J., &amp; Yoon, S. (2023). AMP-BERT: prediction of antimicrobial peptide function based on a BERT model. <em>Briefings in Bioinformatics</em>, 24(5), bbad281. <a href="https://doi.org/10.1093/bib/bbad281">https://doi.org/10.1093/bib/bbad281</a></p>
+</li>
+<li>
+<p>Repecka, D., Jauniskis, V., Karpus, L., Rembeza, E., Rokaitis, I., Zrimec, J., Poviloniene, S., Laurynenas, A., Viknander, S., Abuajwa, W., Savolainen, O., Meskys, R., Engqvist, M.K.M., &amp; Zelezniak, A. (2021). Expanding functional protein sequence spaces using generative adversarial networks. <em>Nature Machine Intelligence</em>, 3(4), 324–333. <a href="https://doi.org/10.1038/s42256-021-00310-5">https://doi.org/10.1038/s42256-021-00310-5</a></p>
+</li>
+<li>
+<p>Ferruz, N., Schmidt, S., &amp; Höcker, B. (2022). ProtGPT2 is a deep unsupervised language model for protein design. <em>Nature Communications</em>, 13(1), 4348. <a href="https://doi.org/10.1038/s41467-022-32007-7">https://doi.org/10.1038/s41467-022-32007-7</a></p>
+</li>
+<li>
+<p>Elnaggar, A., Heinzinger, M., Dallago, C., Rehawi, G., Wang, Y., Jones, L., Gibbs, T., Feher, T., Angerer, C., Steinegger, M., Bhowmik, D., &amp; Rost, B. (2022). ProtTrans: toward understanding the language of life through self-supervised learning. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 44(10), 7112–7127. <a href="https://doi.org/10.1109/TPAMI.2021.3095381">https://doi.org/10.1109/TPAMI.2021.3095381</a></p>
+</li>
+<li>
+<p>Lundberg, S.M. &amp; Lee, S.I. (2017). A unified approach to interpreting model predictions. <em>Advances in Neural Information Processing Systems</em>, 30, 4765–4774. <a href="https://doi.org/10.48550/arXiv.1705.07874">https://doi.org/10.48550/arXiv.1705.07874</a></p>
+</li>
+<li>
+<p>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, L., &amp; Polosukhin, I. (2017). Attention is all you need. <em>Advances in Neural Information Processing Systems</em>, 30, 5998–6008. <a href="https://doi.org/10.48550/arXiv.1706.03762">https://doi.org/10.48550/arXiv.1706.03762</a></p>
+</li>
+<li>
+<p>Pan, X., Zuallaert, J., Wang, X., Shen, H.B., Campos, E.P., Marushchak, D.O., &amp; De Neve, W. (2021). ToxDL: deep learning using primary structure and domain embeddings of protein toxins. <em>Bioinformatics</em>, 38(2), 469–475. <a href="https://doi.org/10.1093/bioinformatics/btab656">https://doi.org/10.1093/bioinformatics/btab656</a></p>
+</li>
+<li>
+<p>Wang, G. &amp; Wang, Z. (2004). APD: the Antimicrobial Peptide Database. <em>Nucleic Acids Research</em>, 32(suppl_1), D590–D592. <a href="https://doi.org/10.1093/nar/gkh148">https://doi.org/10.1093/nar/gkh148</a></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

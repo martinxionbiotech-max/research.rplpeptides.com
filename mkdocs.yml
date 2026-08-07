@@ -132,6 +132,83 @@ nav:
     - Incretin Hormones and Metabolic Regulation: literature/incretin-hormones-metabolic-regulation.md
     - Peptide Synthesis Advances: literature/peptide-synthesis-advances-review.md
     - Analytical Methods for Peptide Characterization: literature/analytical-methods-peptide-characterization.md
+  - Regulatory Science:
+    - Overview: regulatory-science/index.md
+    - Peptide Drug Regulatory Pathways: regulatory-science/peptide-drug-regulatory-pathways.md
+    - ICH Guidelines for Peptides: regulatory-science/ich-guidelines-for-peptides.md
+    - GMP Requirements: regulatory-science/gmp-requirements-peptide-manufacturing.md
+    - Impurity Regulatory Control: regulatory-science/peptide-impurity-regulatory-control.md
+    - Biosimilar Peptides Framework: regulatory-science/biosimilar-peptide-regulatory-framework.md
+  - Structural Biology:
+    - Overview: structural-biology/index.md
+    - Secondary Structure Determination: structural-biology/peptide-secondary-structure.md
+    - X-ray Crystallography: structural-biology/xray-crystallography-peptides.md
+    - NMR Spectroscopy: structural-biology/nmr-spectroscopy-peptides.md
+    - Circular Dichroism: structural-biology/circular-dichroism-peptides.md
+    - Peptide-Protein Interactions: structural-biology/peptide-protein-interaction-structures.md
+  - Receptor Biology:
+    - Overview: receptor-biology/index.md
+    - GPCR Peptide Ligands: receptor-biology/gpcr-peptide-ligands.md
+    - Binding Kinetics: receptor-biology/peptide-receptor-binding-kinetics.md
+    - Receptor Tyrosine Kinases: receptor-biology/receptor-tyrosine-kinase-peptides.md
+    - Peptide Hormone Receptors: receptor-biology/peptide-hormone-receptors.md
+    - Signaling Pathways: receptor-biology/receptor-signaling-pathways.md
+  - Pharmacology:
+    - Overview: pharmacology/index.md
+    - Peptide Pharmacokinetics: pharmacology/peptide-pharmacokinetics.md
+    - Peptide Pharmacodynamics: pharmacology/peptide-pharmacodynamics.md
+    - Toxicology & Safety: pharmacology/peptide-toxicology-safety.md
+    - Bioequivalence: pharmacology/bioequivalence-generic-peptides.md
+    - Clinical Development: pharmacology/clinical-peptide-development.md
+  - Drug Delivery:
+    - Overview: drug-delivery/index.md
+    - Oral Peptide Delivery: drug-delivery/oral-peptide-delivery.md
+    - Transdermal Delivery: drug-delivery/transdermal-peptide-delivery.md
+    - Nanoparticle Delivery: drug-delivery/nanoparticle-peptide-delivery.md
+    - Injectable Depot Formulations: drug-delivery/injectable-depot-formulations.md
+    - Targeted Drug Delivery: drug-delivery/targeted-peptide-drug-delivery.md
+  - Formulation Science:
+    - Overview: formulation-science/index.md
+    - Formulation Stability: formulation-science/peptide-formulation-stability.md
+    - Lyophilization Design: formulation-science/lyophilization-formulation-design.md
+    - pH and Buffer Selection: formulation-science/ph-buffer-selection-peptides.md
+    - Aggregation Prevention: formulation-science/peptide-aggregation-prevention.md
+    - Excipients for Peptides: formulation-science/excipients-peptide-formulations.md
+  - Bioinformatics:
+    - Overview: bioinformatics/index.md
+    - Sequence Analysis Tools: bioinformatics/peptide-sequence-analysis-tools.md
+    - In Silico Design: bioinformatics/in-silico-peptide-design.md
+    - Molecular Docking: bioinformatics/molecular-docking-peptides.md
+    - Machine Learning: bioinformatics/machine-learning-peptide-science.md
+    - Database Resources: bioinformatics/peptide-database-resources.md
+  - Experimental Design:
+    - Overview: experimental-design/index.md
+    - Statistical Design: experimental-design/statistical-design-peptide-experiments.md
+    - Controls and Validation: experimental-design/controls-validation-peptide-research.md
+    - Dose-Response Design: experimental-design/dose-response-experimental-design.md
+    - Sample Size Analysis: experimental-design/sample-size-power-analysis.md
+    - Reproducibility: experimental-design/reproducibility-peptide-research.md
+  - Laboratory Techniques:
+    - Overview: laboratory-techniques/index.md
+    - Peptide Chromatography: laboratory-techniques/principles-peptide-chromatography.md
+    - Electrophoresis: laboratory-techniques/electrophoresis-peptide-analysis.md
+    - Spectrophotometric Quantification: laboratory-techniques/spectrophotometric-peptide-quantification.md
+    - Peptide Labeling: laboratory-techniques/peptide-labeling-techniques.md
+    - Digestion and Mapping: laboratory-techniques/peptide-digestion-mapping.md
+  - Scientific FAQ:
+    - Overview: faq/index.md
+    - Stability and Degradation: faq/peptide-stability-degradation-faq.md
+    - Synthesis Questions: faq/peptide-synthesis-questions-faq.md
+    - Mechanism of Action: faq/peptide-mechanism-of-action-faq.md
+    - Purity and Quality: faq/peptide-purity-quality-faq.md
+    - Storage and Handling: faq/peptide-storage-handling-science-faq.md
+  - Interactive Figures:
+    - Overview: interactive-figures/index.md
+    - Structure Visualization: interactive-figures/peptide-structure-visualization.md
+    - Molecular Docking Figures: interactive-figures/peptide-docking-simulation-figures.md
+    - Analytical Data Visualization: interactive-figures/analytical-data-visualization.md
+    - Bioinformatics Visualization: interactive-figures/bioinformatics-visualization-peptides.md
+    - Clinical Data Visualization: interactive-figures/clinical-data-visualization-peptides.md
   - COA Guide:
     - How to Read a Peptide COA: coa-guide/index.md
     - Understanding LC-MS Reports: coa-guide/01-understanding-lc-ms-reports.md

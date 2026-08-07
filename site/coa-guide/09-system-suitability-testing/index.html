@@ -1,0 +1,6859 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="System suitability testing for peptide HPLC: parameter definitions, USP <621> acceptance criteria, SST failure investigation, and links to method validation.">
+      
+      
+        <meta name="author" content="RPL Peptides Research Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/coa-guide/09-system-suitability-testing/">
+      
+      
+        <link rel="prev" href="../08-hplc-method-validation/">
+      
+      
+        <link rel="next" href="../10-analytical-method-transfer/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>System Suitability Testing (SST) in Peptide HPLC Analysis - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#system-suitability-testing-sst-in-peptide-hplc-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              System Suitability Testing (SST) in Peptide HPLC Analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/circular-dichroism-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/molecular-docking-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/machine-learning-peptide-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-database-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/clinical-data-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-sst-is-and-why-it-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What SST Is and Why It Exists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-regulatory-and-scientific-rationale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Regulatory and Scientific Rationale
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Science
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-five-core-sst-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Five Core SST Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#injection-precision-rsd-of-peak-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Injection Precision (RSD of Peak Area)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailing-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailing Factor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resolution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plate-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plate Count
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capacity Factor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-resolution-mixture-the-most-informative-sst-injection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Resolution Mixture: The Most Informative SST Injection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-run-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Run Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SST Run Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sst-frequency-and-sequence-design-trade-offs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Frequency and Sequence Design Trade-offs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-failure-investigation-and-root-cause-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Failure: Investigation and Root Cause Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SST Failure: Investigation and Root Cause Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-data-integrity-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Data Integrity Dimension
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation-data-systems-and-sst-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automation, Data Systems, and SST Integrity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-and-the-link-to-buyer-supplier-trust" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST and the Link to Buyer-Supplier Trust
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-practical-sst-sop-template-for-peptide-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Practical SST SOP Template for Peptide Methods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-vs-method-validation-understanding-the-distinction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST vs. Method Validation: Understanding the Distinction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-sst-is-and-why-it-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What SST Is and Why It Exists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-regulatory-and-scientific-rationale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Regulatory and Scientific Rationale
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Science
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Science">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-five-core-sst-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Five Core SST Parameters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#injection-precision-rsd-of-peak-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Injection Precision (RSD of Peak Area)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tailing-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tailing Factor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resolution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plate-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Plate Count
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capacity Factor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-resolution-mixture-the-most-informative-sst-injection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Resolution Mixture: The Most Informative SST Injection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-run-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Run Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SST Run Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sst-frequency-and-sequence-design-trade-offs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Frequency and Sequence Design Trade-offs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-failure-investigation-and-root-cause-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST Failure: Investigation and Root Cause Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SST Failure: Investigation and Root Cause Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-data-integrity-dimension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Data Integrity Dimension
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation-data-systems-and-sst-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automation, Data Systems, and SST Integrity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-and-the-link-to-buyer-supplier-trust" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST and the Link to Buyer-Supplier Trust
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-practical-sst-sop-template-for-peptide-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Practical SST SOP Template for Peptide Methods
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sst-vs-method-validation-understanding-the-distinction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SST vs. Method Validation: Understanding the Distinction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="system-suitability-testing-sst-in-peptide-hplc-analysis">System Suitability Testing (SST) in Peptide HPLC Analysis<a class="headerlink" href="#system-suitability-testing-sst-in-peptide-hplc-analysis" title="Permanent link">&para;</a></h1>
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>System suitability testing (SST) is the gate between a validated analytical method and a defensible purity result. It confirms that the entire chromatographic system — pump, injector, column, detector, and data system — operates within the validated performance envelope on the day of analysis, before any sample injection proceeds. For peptide manufacturers and the research laboratories that depend on their COAs, SST is the only contemporaneous proof that a purity number was generated under controlled, verifiable conditions.</p>
+<p>For laboratory managers and QC directors, the practical significance of SST cannot be overstated. A batch of 200 vials released against a COA with a failing or absent SST carries no weight under audit — the measurement day was never qualified. Regulatory frameworks from USP &lt;621&gt; to ICH Q2(R2) require SST as a component of analytical procedure performance verification, and in peer-reviewed practice, SST parameters such as injection precision, tailing factor, resolution, and plate count trend data constitute the earliest warning system for column aging, instrument drift, and method degradation. Laboratories that treat SST as a box to check miss the opportunity to prevent batch failures; laboratories that treat SST as a diagnostic tool protect their data integrity and their reputation.</p>
+<p>The key takeaway for any stakeholder reading a peptide COA: SST evidence separates a measurement from an assertion. A COA that lists the calculated SST values with their acceptance criteria — RSD, tailing, resolution, plate count — provides the reader with the confidence that the chromatographic system performed as intended on the day the sample was run. A COA that replaces SST evidence with silence offers no such assurance.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<h3 id="what-sst-is-and-why-it-exists">What SST Is and Why It Exists<a class="headerlink" href="#what-sst-is-and-why-it-exists" title="Permanent link">&para;</a></h3>
+<p>A validated method (see <a href="../08-hplc-method-validation/">HPLC Method Validation</a>) proves the procedure works under controlled conditions. But instruments drift: columns age, detector lamps dim, mobile phases evaporate or acidify over time, and autosampler seals degrade. SST is a defined set of checks run immediately before — and often during — a batch sequence to confirm the chromatographic system is still operating within the envelope established during method validation. It answers the question: "Is this instrument fit for purpose right now?"</p>
+<p>Under <a href="../06-usp-621-chromatography-guide/">USP &lt;621&gt;</a> and ICH Q2(R2) guidance, SST is mandatory for compendial procedures and is established best practice for all quantitative HPLC assays in peptide quality control. The European Pharmacopoeia (Ph. Eur.) likewise mandates system suitability as part of method verification in chapter 2.2.46, and the FDA's guidance on analytical procedures in CGMP environments explicitly ties SST to data integrity expectations under 21 CFR Part 11 and Part 211. The principle is universal: before a system reports a number, it must prove it can report it accurately.</p>
+<h3 id="the-regulatory-and-scientific-rationale">The Regulatory and Scientific Rationale<a class="headerlink" href="#the-regulatory-and-scientific-rationale" title="Permanent link">&para;</a></h3>
+<p>SST exists at the intersection of three regulatory concepts: method validation (proving the method can work), method verification (proving it works in this laboratory), and system qualification (proving the instrument works today). Validation establishes the method's performance characteristics — accuracy, precision, specificity, linearity, range, detection limit, quantitation limit, and robustness — under controlled conditions. But validation is a snapshot taken once, or periodically; it does not vouch for the column that has aged six months since that snapshot, nor for the mobile phase prepared this morning by a different analyst. SST fills that temporal gap by re-checking the parameters most sensitive to instrument condition on every batch.</p>
+<p>This rationale is explicitly acknowledged in the pharmaceutical peer-reviewed literature. In a widely cited review in the <em>Journal of Pharmaceutical and Biomedical Analysis</em>, Ermer and Miller (2005) positioned SST as the practical implementation of the "fit-for-purpose" concept that runs through ICH Q2 and Q7 guidance. Their framework — which has become the standard reference for SST design in the peptide and small-molecule fields — treats SST parameters as continuous process variables whose trends are more informative than their pass/fail snapshots.</p>
+<h2 id="core-science">Core Science<a class="headerlink" href="#core-science" title="Permanent link">&para;</a></h2>
+<h3 id="the-five-core-sst-parameters">The Five Core SST Parameters<a class="headerlink" href="#the-five-core-sst-parameters" title="Permanent link">&para;</a></h3>
+<p>Six parameters form the standard SST panel for peptide purity methods. Each responds to a different failure mode, and together they provide a comprehensive diagnostic of chromatographic health:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Definition</th>
+<th>Typical Acceptance Criterion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Injection precision (RSD of area)</td>
+<td>Repeatability of replicate injections of the reference standard</td>
+<td>≤ 1.0% (assay)</td>
+</tr>
+<tr>
+<td>Retention time RSD</td>
+<td>Repeatability of retention times</td>
+<td>≤ 0.5%</td>
+</tr>
+<tr>
+<td>Tailing factor T</td>
+<td>Peak symmetry of the main peak</td>
+<td>≤ 1.5 (or 2.0 for low-level peaks)</td>
+</tr>
+<tr>
+<td>Resolution Rs</td>
+<td>Separation between the main peak and the nearest critical impurity</td>
+<td>≥ 1.5 (baseline separation)</td>
+</tr>
+<tr>
+<td>Plate count N</td>
+<td>Column efficiency</td>
+<td>≥ 5,000–10,000 (method-specific)</td>
+</tr>
+<tr>
+<td>Capacity factor k'</td>
+<td>Retention relative to void volume</td>
+<td>≥ 2.0</td>
+</tr>
+</tbody>
+</table>
+<p>The exact limits are not arbitrary industry defaults — they are derived from each method's validation data. A method that demonstrated an RSD of 0.3% during validation might set the SST RSD limit at 1.0% to allow practical operating margins; a method that barely achieved 1.0% during validation cannot set the same limit without absorbing a high failure rate. The relationship between validation performance and SST limits is a direct traceability chain that should be documented in the method's validation report and referenced in the SOP.</p>
+<h3 id="injection-precision-rsd-of-peak-area">Injection Precision (RSD of Peak Area)<a class="headerlink" href="#injection-precision-rsd-of-peak-area" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[\text{RSD (\%)} = \frac{s}{\bar{x}} \times 100\]</div>
+<p>For five or six replicate injections of the reference standard, the RSD of peak area must not exceed the method's established limit, commonly 1.0% or tighter. In research peptide analysis at 214 nm, precision depends on stable detector response, consistent injection volume, and proper column equilibration.</p>
+<p>Poor injection precision diagnoses autosampler problems — a failing needle seal, an air bubble in the sample loop, incomplete loop filling in partial-loop mode — or detector instability. The failure pattern matters: a single outlier among five injections suggests an autosampler transient; progressively rising or falling area suggests detector drift; high RSD without trend suggests random noise, possibly from mobile phase degassing or pump pulsation. Each pattern directs the investigation to a different root cause.</p>
+<h3 id="tailing-factor">Tailing Factor<a class="headerlink" href="#tailing-factor" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[T = \frac{W_{0.05}}{2f}\]</div>
+<p>Where W₀.₀₅ is the peak width at 5% of peak height and f is the distance from the leading edge to the peak apex at that height. T = 1.0 is a perfectly symmetrical peak; T ≤ 1.5 is the common acceptance limit for pharmaceutical methods. Peptide-specific considerations: basic residues (Lys, Arg, His) interact with residual silanols on the silica support, and this secondary ion-exchange retention mechanism produces tailing that worsens at neutral pH and improves at the low pH (2–3) typical of TFA-based mobile phases. See <a href="../12-tailing-factor-explained/">Tailing Factor Explained</a> for a detailed treatment.</p>
+<h3 id="resolution">Resolution<a class="headerlink" href="#resolution" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}\]</div>
+<p>Where W₁ and W₂ are baseline peak widths. Rs ≥ 1.5 indicates baseline separation — the valley between the peaks reaches the baseline and area integration is reliable. For peptide purity methods, the critical pair is almost always the main peptide versus its nearest-eluting impurity, which is frequently a deletion analog or an oxidized species. See <a href="../13-resolution-in-chromatography/">Resolution in Chromatography</a> for the optimization framework.</p>
+<h3 id="plate-count">Plate Count<a class="headerlink" href="#plate-count" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[N = 16 \left(\frac{t_R}{W}\right)^2\]</div>
+<p>Where W is the baseline width. Plate count is a sensitive, non-specific indicator of column health. A drop of more than 20% from the value recorded during method validation signals column degradation — bonded-phase hydrolysis, frit blockage, or void formation at the column head. Plate count is also influenced by extra-column band broadening, so a sudden drop in plate count on an otherwise healthy column should trigger an inspection of tubing connections, injection volume, and detector flow-cell integrity.</p>
+<h3 id="capacity-factor">Capacity Factor<a class="headerlink" href="#capacity-factor" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[k' = \frac{t_R - t_0}{t_0}\]</div>
+<p>Where t₀ is the column void time (measured by an unretained marker such as uracil or thiourea). k' ≥ 2.0 ensures the main peak is adequately retained and is not eluting in the void volume region where resolution is poor and integration is unreliable. For gradient methods, k' is less directly interpretable than for isocratic methods, but a steep drop in k' across sequences indicates mobile phase composition drift, most often from solvent evaporation or improper gradient proportioning.</p>
+<h3 id="the-resolution-mixture-the-most-informative-sst-injection">The Resolution Mixture: The Most Informative SST Injection<a class="headerlink" href="#the-resolution-mixture-the-most-informative-sst-injection" title="Permanent link">&para;</a></h3>
+<p>A resolution mixture — the reference standard spiked with a known critical impurity at a known concentration — is the single most informative SST injection for peptide methods. Typically, the spike is a deletion peptide impurity (e.g., the N-1 des-amino acid analog) or an oxidized form at a concentration of 0.5–2.0% relative to the main peak. Running this mixture in SST confirms three things simultaneously: the critical-pair resolution, the retention-time stability of both species, and the detector's ability to see the low-level impurity in the presence of the high-concentration main peak. A method whose SST protocol omits the resolution mixture is forfeiting its best diagnostic tool — a standard-alone SST can pass RSD and tailing checks while a co-elution problem silently persists.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<p>The following table consolidates the regulatory, pharmacopeial, and peer-reviewed evidence base that underpins SST practice for peptide HPLC:</p>
+<table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Data</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SST is mandatory for compendial procedures and includes RSD, tailing, resolution, and plate count</td>
+<td>USP &lt;621&gt; specifies SST requirements including injection precision (RSD ≤ 1.0–2.0%), tailing factor (T ≤ 1.5–2.0), resolution (Rs ≥ 1.5)</td>
+<td>USP General Chapter &lt;621&gt;, Chromatography (2023)</td>
+</tr>
+<tr>
+<td>European Pharmacopoeia mandates system suitability with analogous parameters measured at half-height</td>
+<td>EP 2.2.46 specifies resolution calculation using peak widths at half-height and tailing through the symmetry factor at 10% height</td>
+<td>Ph. Eur. 11th Edition, Chapter 2.2.46 (2023)</td>
+</tr>
+<tr>
+<td>ICH Q2(R2) requires system suitability as part of analytical procedure performance verification</td>
+<td>Q2(R2) Section 3.1 mandates that system suitability criteria be established from validation data and verified before each analytical run</td>
+<td>ICH Q2(R2), International Council for Harmonisation (2024)</td>
+</tr>
+<tr>
+<td>FDA CGMP guidance ties SST to data integrity and laboratory records under 21 CFR Part 211</td>
+<td>FDA Guidance for Industry: Analytical Procedures and Methods Validation (2015)</td>
+<td></td>
+</tr>
+<tr>
+<td>SST parameter trends are more informative than pass/fail snapshots for predicting column failure</td>
+<td>Ermer, J.; Miller, J. H. McB. <em>J. Pharm. Biomed. Anal.</em> 2005, 38, 653–663</td>
+<td></td>
+</tr>
+<tr>
+<td>Column plate count degradation of &gt;20% from baseline signals column retirement independent of other parameters</td>
+<td>Snyder, L. R.; Kirkland, J. J.; Dolan, J. W. <em>Introduction to Modern Liquid Chromatography</em>, 3rd ed., Wiley, 2010, Ch. 11</td>
+<td></td>
+</tr>
+<tr>
+<td>Resolution-mixture SST injections detect co-elution problems invisible to standard-alone SST</td>
+<td>Dong, M. W. <em>LCGC North America</em> 2019, 37(5), 324–332</td>
+<td></td>
+</tr>
+<tr>
+<td>Autosampler precision failures trace to needle-seal leaks, air in the sample loop, or partial-loop injection errors in &gt;80% of cases</td>
+<td>Dolan, J. W. <em>LCGC North America</em> 2013, 31(8), 618–624</td>
+<td></td>
+</tr>
+<tr>
+<td>Mobile phase evaporation and column oven temperature drift are the leading causes of RT RSD failures in gradient peptide methods</td>
+<td>Neue, U. D. <em>HPLC Columns: Theory, Technology, and Practice</em>, Wiley-VCH, 1997</td>
+<td></td>
+</tr>
+<tr>
+<td>Bracketing standards every 10–20 injections provide run-length drift evidence superior to start-only SST</td>
+<td>ICH Q2(R2) Section 3.3 recommends system suitability checks at intervals throughout long sequences</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sst-run-design">SST Run Design<a class="headerlink" href="#sst-run-design" title="Permanent link">&para;</a></h2>
+<p>A well-designed SST protocol for a peptide purity method includes the following injection sequence, executed before any sample vial is uncapped:</p>
+<ol>
+<li><strong>Blank injection</strong> (diluent only) — confirms a clean baseline, no ghost peaks, and no carryover from previous sequences. The blank injection should be the same diluent used for sample preparation and should be integrated with the same parameters as the sample.</li>
+<li><strong>Five or six replicate injections of the reference standard</strong> — establishes RSD of area, retention time RSD, tailing factor, plate count, and capacity factor. Six replicates provide a more robust RSD estimate, but five is the minimum accepted under USP &lt;621&gt; and is sufficient for most peptide methods.</li>
+<li><strong>Resolution mixture injection</strong> — the standard spiked with the critical impurity (deletion peptide, oxidized form) to verify Rs ≥ 1.5 for the critical pair. The impurity concentration should match the reporting threshold (0.5% or 1.0%) to confirm the detector response at the specification limit.</li>
+<li><strong>Only after all three injections pass their criteria: batch samples</strong>, with a bracketing standard injection every 10–20 samples and a final standard injection at the end of the sequence to bracket any instrument drift across the run.</li>
+</ol>
+<h3 id="sst-frequency-and-sequence-design-trade-offs">SST Frequency and Sequence Design Trade-offs<a class="headerlink" href="#sst-frequency-and-sequence-design-trade-offs" title="Permanent link">&para;</a></h3>
+<p>How often to run SST is a balance between analytical assurance and throughput. The minimum acceptable practice is SST before each sequence. Better practice adds bracketing standards every 10–20 injections and a final standard at the sequence end. For long sequences spanning hundreds of injections across multiple batches, scheduled SST checkpoints — a full repeat of the standard injections at defined intervals — prevent a silently failing system from generating hours of invalid data.</p>
+<p>The trade-off between frequency and throughput is genuine: each standard injection consumes time, mobile phase, and column life. A risk-based framework sets SST frequency by the method's demonstrated intermediate precision during validation, the batch's criticality (release assays for finished peptides justify more frequent checks than early-development screening runs), and the column's known lifetime. Whatever the frequency, it must be defined in the SOP before the sequence starts; ad hoc SST injections inserted after a suspicious chromatogram are a data integrity concern.</p>
+<h2 id="sst-failure-investigation-and-root-cause-analysis">SST Failure: Investigation and Root Cause Analysis<a class="headerlink" href="#sst-failure-investigation-and-root-cause-analysis" title="Permanent link">&para;</a></h2>
+<p>When an SST criterion fails, the batch must not be reported. The investigation follows a structured diagnostic path, not a blind re-run that hopes for a better outcome:</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>First Action</th>
+<th>Second Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RSD of area fails</td>
+<td>Autosampler needle seal leak, air bubble in sample loop, injector partial-loop error</td>
+<td>Re-prime injector; inspect needle seal; purge sample loop</td>
+<td>Check injection precision of an independent standard solution; if RSD improves, the original sample vial preparation is suspect</td>
+</tr>
+<tr>
+<td>Tailing factor exceeds limit</td>
+<td>Column contamination from previous samples, residual silanol exposure, mass overload</td>
+<td>Regenerate column with strong solvent (80% ACN); verify pH of mobile phase</td>
+<td>Reduce injection mass; if tailing corrects, adjust sample concentration; if not, replace column</td>
+</tr>
+<tr>
+<td>Resolution fails</td>
+<td>Column efficiency loss, wrong mobile phase composition, gradient malfunction</td>
+<td>Re-prepare mobile phase; verify gradient proportioning valve function</td>
+<td>Check column plate count; if N has dropped &gt;20%, column is likely degraded</td>
+</tr>
+<tr>
+<td>Plate count drops</td>
+<td>Column aging, frit blockage, void at column head</td>
+<td>Measure backpressure trend; replace guard column first</td>
+<td>If N remains low, replace analytical column and re-qualify</td>
+</tr>
+<tr>
+<td>RT drift beyond RSD</td>
+<td>Column oven temperature instability, mobile phase evaporation, pump proportioning error</td>
+<td>Verify column oven setpoint with thermometer; prepare fresh mobile phase</td>
+<td>Check pump proportioning accuracy with step-gradient test</td>
+</tr>
+<tr>
+<td>Capacity factor drops</td>
+<td>Mobile phase organic content too high, column degradation</td>
+<td>Verify gradient composition; check pump calibration</td>
+<td>If k' shift is consistent across all peaks, correct mobile phase; if inconsistent, column chemistry has changed</td>
+</tr>
+</tbody>
+</table>
+<p>Document every investigation step in the batch record, including the corrective action taken and its result. The SST re-run after corrective action must pass all criteria before samples are processed. A laboratory that replaces its failed-SST column, re-runs SST without documenting the failure, and then runs samples has committed a data integrity violation — the failed column's chromatograms are part of the batch record whether or not they were "final."</p>
+<h3 id="the-data-integrity-dimension">The Data Integrity Dimension<a class="headerlink" href="#the-data-integrity-dimension" title="Permanent link">&para;</a></h3>
+<p>SST records are part of the analytical batch and are subject to the same data integrity rules as sample results under 21 CFR Part 11, EU Annex 11, and WHO guidance on good data and record management practices. In practice, this means:</p>
+<ol>
+<li><strong>Automated integration must use the same parameters as the validated method.</strong> Manual reintegration of SST injections — changing the baseline, integration threshold, or peak start/end — must be flagged by the CDS audit trail, justified in writing, and approved by a second analyst. A common data integrity red flag is an SST chromatogram whose integration differs from the method's SOP without a contemporaneous justification.</li>
+<li><strong>Re-injection of standards after a failed SST must be documented as a deviation.</strong> The original failed injections must remain in the data file, not be overwritten. The CDS should not permit retroactive deletion of injections from a sequence.</li>
+<li><strong>Audit trails must record any editing of SST results after approval.</strong> A system that allows "correcting" the RSD value from 1.3% to 0.9% after the batch is approved is a data integrity risk, not a convenience feature.</li>
+<li><strong>SST pass/fail gating in the CDS</strong> — where samples are held in the injection queue until SST passes — is good automated practice, but the gating logic must be validated and the audit trail must record the hold event and the analyst's release action.</li>
+</ol>
+<h2 id="automation-data-systems-and-sst-integrity">Automation, Data Systems, and SST Integrity<a class="headerlink" href="#automation-data-systems-and-sst-integrity" title="Permanent link">&para;</a></h2>
+<p>Modern chromatography data systems (CDS) such as Waters Empower, Agilent OpenLab, and Thermo Chromeleon compute SST parameters automatically during or immediately after the SST injections. These systems can gate the sequence — samples are held in the queue until the software confirms SST has passed — and can generate SST summary reports that auto-populate the batch record. This automation improves efficiency and reduces transcription errors, but it also introduces specific integrity considerations:</p>
+<ol>
+<li><strong>The SST calculation method must match the pharmacopeial definition.</strong> A CDS default for "resolution" might use the half-height formula (EP convention) while the method SOP specifies baseline widths (USP convention). The CDS configuration must be verified and documented as part of method transfer.</li>
+<li><strong>Integration parameters for SST injections must be locked.</strong> If the CDS allows different integration parameters for SST standards versus samples, the SST results are not comparable to the sample quantification.</li>
+<li><strong>Manual peak identification in SST —</strong> where the analyst overrides the CDS peak assignment — must be rare, justified, and auditable. A pattern of manual peak reassignments in SST data signals an unstable method or an operator compensating for instrument problems.</li>
+<li><strong>SST results must be reviewed and approved by a second analyst</strong> before the batch report is finalized. This second-person review is not just a regulatory checkbox; it is the last opportunity to catch a CDS configuration error, an integration mistake, or a failing parameter that the software's pass/fail logic misclassified.</li>
+</ol>
+<h2 id="sst-and-the-link-to-buyer-supplier-trust">SST and the Link to Buyer-Supplier Trust<a class="headerlink" href="#sst-and-the-link-to-buyer-supplier-trust" title="Permanent link">&para;</a></h2>
+<p>For a peptide buyer reviewing a COA, the presence of SST data — even in summary form — is a fast and reliable signal of laboratory maturity:</p>
+<ol>
+<li><strong>SST values confirm system health.</strong> A COA that reports "Injection precision RSD: 0.4% (limit ≤ 1.0%). Tailing factor: 1.12 (limit ≤ 1.5). Resolution (critical pair): 1.8 (limit ≥ 1.5)." tells you the system was performing well on measurement day.</li>
+<li><strong>SST parameter selection reveals laboratory priorities.</strong> A lab that reports only RSD, omitting resolution and tailing, may not be checking the critical impurity pair — and a co-eluting deletion peptide would go undetected.</li>
+<li><strong>SST trend data across batches reveals method stability.</strong> A supplier whose tailing factor trends from 1.05 to 1.38 across six months is watching its column age; a supplier whose SST values are identical across every batch may be copying-and-pasting rather than measuring.</li>
+<li><strong>Requesting SST raw data is a reasonable audit ask.</strong> Mature suppliers can produce the SST injection list, calculated values, pass/fail verdicts, and the audit trail on request. A supplier that cannot produce these artifacts for a COA under audit is operating below the standard of a quality-controlled laboratory.</li>
+</ol>
+<p>A COA without any SST evidence is not necessarily wrong — but it provides the buyer with no evidence that the measurement day was valid. In an industry where purity numbers drive purchasing decisions, that evidential gap is significant.</p>
+<h2 id="a-practical-sst-sop-template-for-peptide-methods">A Practical SST SOP Template for Peptide Methods<a class="headerlink" href="#a-practical-sst-sop-template-for-peptide-methods" title="Permanent link">&para;</a></h2>
+<p>A concise SST SOP for a peptide purity method should specify the following elements, each referenced to the method's validation data:</p>
+<ol>
+<li><strong>Standard solution preparation:</strong> concentration (typically 0.5–1.0 mg/mL), solvent composition, storage conditions, and expiry time (typically 24–48 hours at 2–8 °C, or fresh daily). The standard should be prepared from the same reference material lot used during validation, or demonstrated equivalent.</li>
+<li><strong>Injection sequence:</strong> blank (diluent), five or six replicate standard injections, resolution mixture (critical impurity spiked at reporting-threshold concentration), samples, bracketing standard every 10–20 injections, final standard at sequence end.</li>
+<li><strong>Acceptance criteria:</strong> RSD of area ≤ 1.0%; retention time RSD ≤ 0.5%; tailing factor T ≤ 1.5; resolution Rs ≥ 1.5 for the critical pair; plate count N ≥ method minimum (from validation); capacity factor k' ≥ 2.0.</li>
+<li><strong>Failure handling:</strong> stop the sequence, investigate per the diagnostic table above, document the deviation and corrective action, re-establish SST with a fresh standard preparation and a new sequence, and do not run samples until all criteria pass on the re-run.</li>
+<li><strong>Data review:</strong> specify who reviews SST results (analyst plus second reviewer), what they verify (calculated values versus limits, integration consistency, audit trail integrity), and how the approval is recorded (electronic signature in CDS or wet signature on printed batch record).</li>
+</ol>
+<p>Adopting a written SOP template removes ambiguity about what constitutes a passing system. It also makes the audit trail legible to both internal quality assurance and external customers — every piece of SST evidence traces to a defined, documented requirement.</p>
+<h2 id="sst-vs-method-validation-understanding-the-distinction">SST vs. Method Validation: Understanding the Distinction<a class="headerlink" href="#sst-vs-method-validation-understanding-the-distinction" title="Permanent link">&para;</a></h2>
+<p>SST and method validation are complementary activities that serve different purposes, operate on different timescales, and answer different questions. The table below summarizes the key differences:</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Validation</th>
+<th>System Suitability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>When performed</td>
+<td>Once per method (plus revalidation after changes)</td>
+<td>Every batch / every analytical run</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>All eight validation characteristics (accuracy, precision, specificity, linearity, range, LOD, LOQ, robustness)</td>
+<td>Day-of-analysis system checks (precision, tailing, resolution, plate count, capacity factor, retention time stability)</td>
+</tr>
+<tr>
+<td>Question answered</td>
+<td>"Can this method produce accurate, reliable results?"</td>
+<td>"Is this instrument performing correctly today?"</td>
+</tr>
+<tr>
+<td>Acceptance criteria origin</td>
+<td>Established during method development and confirmed during validation</td>
+<td>Derived from validation data and documented in the method SOP</td>
+</tr>
+<tr>
+<td>Regulatory basis</td>
+<td>ICH Q2(R2), USP &lt;1225&gt;</td>
+<td>USP &lt;621&gt;, ICH Q2(R2) Section 3.1, Ph. Eur. 2.2.46</td>
+</tr>
+</tbody>
+</table>
+<p>The SST limits must trace back to validation data through a documented rationale. For example, if validation demonstrated a repeatability RSD of 0.5%, the SST limit might be set at 1.0% to allow practical margin while remaining within the validated range. If validation's intermediate precision (day-to-day, analyst-to-analyst) was 1.2%, an SST RSD limit of 1.0% is aggressive but defensible if SST is run daily and the system is well maintained. The traceability chain — validation data → statistical analysis → SOP limit → SST check → batch release — is a fundamental element of analytical quality assurance.</p>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<ul>
+<li>SST verifies the instrument and column are fit for use before every batch — never skip it, and never treat it as a procedural formality.</li>
+<li>Core parameters: RSD of area ≤ 1.0%, tailing T ≤ 1.5, resolution Rs ≥ 1.5, plate count per method minimum, RT RSD ≤ 0.5%, k' ≥ 2.0.</li>
+<li>A resolution mixture containing a real critical impurity (deletion peptide or oxidized species) at reporting-threshold concentration is the most informative SST injection a peptide laboratory can run.</li>
+<li>SST failure stops the batch: investigate per a structured diagnostic table, correct the root cause, re-run SST to confirm the fix, and document every step in the batch record.</li>
+<li>SST limits come from validation data, not from arbitrary defaults — the traceability chain must be documented.</li>
+<li>SST data on a COA is a trust signal between supplier and buyer; its absence is an evidential gap that sophisticated procurement groups should probe.</li>
+<li>A COA that reports purity without any SST evidence leaves the measurement day unproven.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<div class="faq-item">
+<h3>Q: What is system suitability testing?</h3>
+<p class="faq-answer">A: System suitability testing (SST) is a set of pre-defined checks — injection precision, retention time repeatability, tailing factor, resolution, and plate count — run before each analytical batch to confirm the HPLC system performs within the validated operating envelope on that day. It verifies that the pump, injector, column, detector, and data system are fit for purpose before any sample result is generated.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: Why is SST mandatory under USP &lt;621&gt;?</h3>
+<p class="faq-answer">A: USP &lt;621&gt; requires SST because method validation alone cannot guarantee instrument performance on a future date. Instruments drift: columns age, lamps dim, mobile phases evaporate. SST bridges the time gap between validation (a one-time or periodic event) and daily measurement by re-verifying the parameters most sensitive to instrument condition on every sequence.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: What are the standard SST parameters in peptide HPLC?</h3>
+<p class="faq-answer">A: The standard SST panel includes: injection precision (RSD of peak area, typically ≤ 1.0%), retention time RSD (≤ 0.5%), tailing factor T (≤ 1.5), resolution Rs between the main peak and nearest impurity (≥ 1.5), plate count N (≥ method-specific minimum), and capacity factor k' (≥ 2.0). Additional parameters such as signal-to-noise ratio and detector linearity may be included per the method SOP.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: What happens if an SST criterion fails?</h3>
+<p class="faq-answer">A: The batch sequence must stop. Do not proceed to sample injections. Follow a structured investigation: identify the failing parameter, diagnose the likely cause (referencing the diagnostic table in the SOP), apply corrective action, document the deviation and corrective action in the batch record, re-prepare fresh standards, re-run SST, and only proceed to samples after all SST criteria pass on the re-run. The original failed SST injections must remain in the data file.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: What is the difference between SST and method validation?</h3>
+<p class="faq-answer">A: Method validation is performed once per method (or upon revalidation after changes) and covers all eight ICH characteristics: accuracy, precision, specificity, linearity, range, LOD, LOQ, and robustness. SST is performed every batch and checks only the subset of parameters — precision, tailing, resolution, plate count — that are sensitive to day-to-day instrument condition. Validation proves the method works; SST proves the instrument works today.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: How many standard replicate injections are required for SST?</h3>
+<p class="faq-answer">A: USP &lt;621&gt; specifies a minimum of five replicate injections of the reference standard for injection precision determination. Six replicates provide a more statistically robust RSD estimate and are preferred when method precision is borderline. Fewer than five replicates produce an RSD with insufficient degrees of freedom for reliable pass/fail decisions.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: What is a resolution mixture in SST?</h3>
+<p class="faq-answer">A: A resolution mixture is the reference standard spiked with a known critical impurity — typically a deletion peptide, oxidized species, or epimer — at a low concentration (0.5–2.0%) relative to the main peak. Running this mixture during SST simultaneously verifies the critical-pair resolution, the retention time stability of both species, and the detector's ability to detect a low-level impurity adjacent to a large main peak. It is the single most informative SST injection.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: How often should bracketing standards be injected?</h3>
+<p class="faq-answer">A: Best practice is a bracketing standard injection every 10–20 sample injections and at the end of the sequence. The bracketing standard's area RSD is evaluated across the full sequence — if it exceeds the method's limit, the sequence has experienced instrument drift and the results between the drifting standards may be unreliable. More frequent bracketing provides earlier drift detection; less frequent bracketing saves time and column life but increases the risk of unrecognized drift.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: What does SST tell a peptide buyer about a COA?</h3>
+<p class="faq-answer">A: SST data on a COA tells the buyer that the instrument was verified fit for purpose before the sample was run. It provides values for injection precision, tailing, and resolution that independently confirm the measurements were made under controlled conditions. A COA without SST evidence offers no proof that the instrument was performing correctly on measurement day — the purity number is an assertion without contemporaneous verification.</p>
+</div>
+
+<div class="faq-item">
+<h3>Q: Can SST data be audited?</h3>
+<p class="faq-answer">A: Yes. SST data — the injection sequence list with date/time stamps, calculated parameter values, pass/fail verdicts, and CDS audit trails — are part of the analytical batch record and subject to the same data integrity requirements as sample results under 21 CFR Part 11 and EU Annex 11. Mature suppliers can produce SST raw data on request. Suppliers that cannot produce these records for an audited COA are operating below the standard of a quality-controlled analytical laboratory.</p>
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li>USP General Chapter &lt;621&gt; Chromatography. United States Pharmacopeia–National Formulary, USP 46–NF 41. Rockville, MD: United States Pharmacopeial Convention; 2023.</li>
+<li>ICH Q2(R2) Validation of Analytical Procedures. International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; 2024.</li>
+<li>European Pharmacopoeia 11th Edition, Chapter 2.2.46: Chromatographic Separation Techniques. Strasbourg: European Directorate for the Quality of Medicines &amp; HealthCare; 2023.</li>
+<li>Ermer, J.; Miller, J. H. McB. Method Validation in Pharmaceutical Analysis: A Guide to Best Practice. <em>J. Pharm. Biomed. Anal.</em> 2005, 38(4), 653–663. doi:10.1016/j.jpba.2005.02.016</li>
+<li>Snyder, L. R.; Kirkland, J. J.; Dolan, J. W. <em>Introduction to Modern Liquid Chromatography</em>, 3rd ed. Hoboken, NJ: John Wiley &amp; Sons; 2010. doi:10.1002/9780470508183</li>
+<li>Dong, M. W. System Suitability Testing for HPLC Methods. <em>LCGC North America</em> 2019, 37(5), 324–332.</li>
+<li>Dolan, J. W. Troubleshooting LC Autosamplers. <em>LCGC North America</em> 2013, 31(8), 618–624.</li>
+<li>Neue, U. D. <em>HPLC Columns: Theory, Technology, and Practice</em>. New York: Wiley-VCH; 1997.</li>
+<li>FDA Guidance for Industry: Analytical Procedures and Methods Validation for Drugs and Biologics. Silver Spring, MD: U.S. Food and Drug Administration; 2015.</li>
+<li>WHO Technical Report Series No. 996, Annex 5: Guidance on Good Data and Record Management Practices. Geneva: World Health Organization; 2016.</li>
+<li>Huber, L. Validation and Qualification in Analytical Laboratories, 2nd ed. New York: Informa Healthcare; 2007.</li>
+<li>Ahuja, S.; Dong, M. W. <em>Handbook of Pharmaceutical Analysis by HPLC</em>. Amsterdam: Elsevier; 2005. doi:10.1016/S0149-6395(05)80041-8</li>
+<li>Krull, I. S.; Swartz, M. E. Analytical Method Development and Validation for the Academic Researcher. <em>Anal. Chem.</em> 1999, 71(22), 795A–801A. doi:10.1021/ac990793v</li>
+<li>Meyer, V. R. <em>Practical High-Performance Liquid Chromatography</em>, 5th ed. Chichester: Wiley; 2010. doi:10.1002/9780470682180</li>
+<li>Ahuja, S.; Rasmussen, H. <em>HPLC Method Development for Pharmaceuticals</em>. Amsterdam: Elsevier; 2007. doi:10.1016/S0149-6395(07)80032-8</li>
+<li>ICH Q14 Analytical Procedure Development. International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; 2024.</li>
+<li>USP General Chapter &lt;1225&gt; Validation of Compendial Procedures. United States Pharmacopeia–National Formulary, USP 46–NF 41. Rockville, MD: United States Pharmacopeial Convention; 2023.</li>
+</ol>
+<p>Return to <a href="../">How to Read a Peptide COA</a> or read <a href="../10-analytical-method-transfer/">Analytical Method Transfer</a>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

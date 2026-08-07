@@ -56,6 +56,50 @@ Explore our comprehensive research categories covering peptide science from fund
     In-depth evidence-based reviews of key peptide research topics.
     [:octicons-arrow-right-24: Explore](literature/index.md)
 
+-   :material-scale-balance: **Regulatory Science**
+    FDA/EMA regulatory frameworks, ICH guidelines, and GMP requirements for peptide therapeutics.
+    [:octicons-arrow-right-24: Explore](regulatory-science/index.md)
+
+-   :material-molecule: **Structural Biology**
+    X-ray crystallography, NMR, CD spectroscopy, and peptide–protein interaction structures.
+    [:octicons-arrow-right-24: Explore](structural-biology/index.md)
+
+-   :material-signal-cellular-3: **Receptor Biology**
+    GPCR signaling, binding kinetics, allosteric modulation, and receptor trafficking.
+    [:octicons-arrow-right-24: Explore](receptor-biology/index.md)
+
+-   :material-pill: **Pharmacology**
+    ADME, PK/PD modeling, bioavailability strategies, and therapeutic index analysis.
+    [:octicons-arrow-right-24: Explore](pharmacology/index.md)
+
+-   :material-syringe: **Drug Delivery**
+    Oral, transdermal, nanoparticle, depot, and targeted peptide delivery technologies.
+    [:octicons-arrow-right-24: Explore](drug-delivery/index.md)
+
+-   :material-flask-round-bottom: **Formulation Science**
+    Stability optimization, lyophilization design, excipient selection, and aggregation control.
+    [:octicons-arrow-right-24: Explore](formulation-science/index.md)
+
+-   :material-laptop: **Bioinformatics**
+    In silico design, molecular docking, machine learning, and peptide database resources.
+    [:octicons-arrow-right-24: Explore](bioinformatics/index.md)
+
+-   :material-clipboard-check: **Experimental Design**
+    Statistical design, dose-response, controls, sample size, and reproducibility frameworks.
+    [:octicons-arrow-right-24: Explore](experimental-design/index.md)
+
+-   :material-test-tube: **Laboratory Techniques**
+    Scientific principles behind chromatography, electrophoresis, spectrophotometry, and labeling.
+    [:octicons-arrow-right-24: Explore](laboratory-techniques/index.md)
+
+-   :material-chat-question: **Scientific FAQ**
+    Mechanism-of-action questions — stability, synthesis, purity, and storage at the molecular level.
+    [:octicons-arrow-right-24: Explore](faq/index.md)
+
+-   :material-chart-scatter-plot: **Interactive Figures**
+    Visualization guides for structures, signaling pathways, synthesis, and molecular dynamics.
+    [:octicons-arrow-right-24: Explore](interactive-figures/index.md)
+
 </div>
 
 ## Research Methods

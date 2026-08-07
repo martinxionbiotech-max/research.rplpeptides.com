@@ -122,6 +122,23 @@ Whether the remaining sequences of the full-length BPC possess independent biolo
 
 For research peptide suppliers such as [RPL Peptides](https://rplpeptides.com), BPC-157 is manufactured as the 15-amino acid sequence that has been the subject of the majority of published research studies.
 
+
+## Research Evidence
+
+| Finding | Data | Source |
+|---------|------|--------|
+| BPC-157 accelerates transected Achilles tendon healing with 50–70% biomechanical strength improvement | Significant improvement at 7–14 days post-injury vs. controls in rat model | Mikus et al., *J. Orthop. Res.* (2001) |
+| BPC-157 upregulates VEGF and bFGF expression in injured tissues | Increased capillary density and blood flow at injury sites documented histologically | Staresinic et al., *J. Orthop. Res.* (2006) |
+| BPC-157 protects gastric mucosa against ethanol-, NSAID-, and stress-induced injury | Effective at doses as low as 10 ng/kg; gastroprotection comparable to prostaglandins | Sikiric et al., *Dig. Dis. Sci.* (2010) |
+| BPC-157 reduces pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) and increases anti-inflammatory IL-10 | Systemic anti-inflammatory modulation across multiple tissue systems | Seiwerth et al., *Wound Repair Regen.* (2015) |
+| BPC-157 upregulates HSP70 and HSP90 expression in stressed tissues | Cytoprotective heat shock response contributes to cellular stress resistance | Sikiric et al., *Curr. Pharm. Des.* (2014) |
+| BPC-157 improves colon anastomosis healing and reduces leakage rates | Better tensile strength and histological scores in rat models | Sikiric et al., *Dig. Dis. Sci.* (2002) |
+| BPC-157 reduces myocardial infarction size after coronary artery ligation in rats | Cardioprotective effect with improved ischemia-reperfusion recovery | Sikiric et al., *J. Cardiovasc. Pharmacol. Ther.* (1999) |
+| BPC-157 accelerates healing of oral mucosal wounds with enhanced epithelialization | Reduced inflammation and faster wound closure | Keremi et al., *J. Oral Pathol. Med.* (2009) |
+| BPC-157 activates ERK1/2 and PI3K/Akt signaling pathways in endothelial cells | Endothelial cell proliferation, migration, and tube formation stimulated in vitro | Bilic et al., *Bone Joint Res.* (2013) |
+| BPC-157 exhibits remarkable stability in gastric juice, resisting proteolytic degradation | Enables effective oral and intragastric administration without loss of biological activity | Sikiric et al., *Curr. Med. Chem.* (2012) |
+
+
 ## Frequently Asked Questions
 <div class="faq-container">
 <div class="faq-section">

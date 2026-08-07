@@ -145,6 +145,22 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 </div>
 
 
+## Research Evidence
+
+| Finding | Data | Source |
+|---------|------|--------|
+| Semaglutide reduces HbA1c by 1.5–1.8% in type 2 diabetes | Sustained glycemic control with once-weekly dosing over 104 weeks | Marso et al., *N. Engl. J. Med.* (2016) |
+| Semaglutide 2.4 mg once weekly produces ~15% mean weight loss in individuals with obesity | STEP 1 trial: ≥15% weight loss achieved by 50% of participants at 68 weeks | Wilding et al., *N. Engl. J. Med.* (2021) |
+| Liraglutide reduces three-point MACE composite by 13% | LEADER trial: HR 0.87; 95% CI 0.78–0.97; N = 9,340 | Marso et al., *N. Engl. J. Med.* (2016) |
+| Semaglutide reduces three-point MACE composite by 26% | SUSTAIN-6 trial: HR 0.74; 95% CI 0.58–0.95; N = 3,297 | Marso et al., *N. Engl. J. Med.* (2016) |
+| Cryo-EM structures reveal GLP-1R TM6 outward movement of ~11 Å upon agonist binding | Structural basis of Gαs coupling and biased agonism elucidated | Zhang et al., *Nature* (2017) |
+| GLP-1R activation potentiates glucose-stimulated insulin secretion via cAMP-PKA-EPAC pathways | Glucose-dependent mechanism minimizes hypoglycemia risk | Drucker, *Cell Metab.* (2006); Müller et al., *Mol. Metab.* (2019) |
+| Tirzepatide (dual GIP/GLP-1R agonist) produces ~21% mean weight loss at 72 weeks | SURMOUNT-1 trial; 15 mg dose; N = 2,539 | Jastreboff et al., *N. Engl. J. Med.* (2022) |
+| GLP-1 RAs reduce composite renal outcomes by 17% across 8 cardiovascular outcome trials | FLOW trial (semaglutide in CKD) stopped early for efficacy: 24% reduction | Meta-analysis of 60,000+ patients; *N. Engl. J. Med.* (2024) |
+| Exendin-4 isolated from Gila monster venom shares 53% homology with human GLP-1 and is DPP-4 resistant | First FDA-approved GLP-1 RA (exenatide, 2005); half-life 2–4 hours | Knudsen & Lau, *Front. Endocrinol.* (2019) |
+| Fatty acid acylation enables reversible albumin binding, extending semaglutide half-life to ~165 hours | C18 fatty diacid chain attached via glutamic acid spacer at Lys26; once-weekly dosing | Knudsen & Lau, *Front. Endocrinol.* (2019) |
+
+
 ## Frequently Asked Questions
 <div class="faq-container">
 <div class="faq-section">
@@ -187,7 +203,7 @@ The Weight-Related Symptom Measure (WRSM) and the Impact of Weight on Quality of
 </div>
 ## References
 <ol class="references">
-N Engl J Med</em>. 2016;375:1834-1844.</li>
+  <li id="ref1">Marso SP, Bain SC, Consoli A, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:1834-1844.</li>
   <li id="ref2">Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. <em>N Engl J Med</em>. 2016;375:311-322.</li>
   <li id="ref3">Drucker DJ. The biology of incretin hormones. <em>Cell Metab</em>. 2006;3(3):153-165.</li>
   <li id="ref4">Holst JJ. The physiology of glucagon-like peptide 1. <em>Physiol Rev</em>. 2007;87(4):1409-1439.</li>

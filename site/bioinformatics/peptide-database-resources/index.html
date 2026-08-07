@@ -1,0 +1,7122 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Comprehensive survey of peptide databases: UniProt, NCBI Protein, PDB, PeptideAtlas, CAMP, DBAASP, APD3, SATPdb, PepBank, DRAMP, CancerPPD. Covers data formats (FASTA, PDB, mmCIF), API access, and integration workflows.">
+      
+      
+        <meta name="author" content="RPL Scientific Editorial Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/bioinformatics/peptide-database-resources/">
+      
+      
+        <link rel="prev" href="../machine-learning-peptide-science/">
+      
+      
+        <link rel="next" href="../../experimental-design/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Peptide Database Resources — UniProt, PDB, PeptideAtlas & Specialized Repositories - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#peptide-database-resources-uniprot-pdb-peptideatlas-specialized-repositories" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Peptide Database Resources — UniProt, PDB, PeptideAtlas & Specialized Repositories
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/circular-dichroism-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../molecular-docking-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../machine-learning-peptide-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-protein-sequence-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Protein Sequence Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Protein Sequence Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uniprot-universal-protein-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UniProt (Universal Protein Resource)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ncbi-protein-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NCBI Protein Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-general-sequence-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other General Sequence Repositories
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structural-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structural Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#protein-data-bank-pdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protein Data Bank (PDB)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdb-data-format-pdb-and-mmcif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDB Data Format: PDB and mmCIF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structural-data-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural Data Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specialized-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Specialized Peptide Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Specialized Peptide Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#antimicrobial-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antimicrobial Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#therapeutic-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Therapeutic Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mass-spectrometry-peptide-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mass Spectrometry Peptide Repositories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioactive-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bioactive Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-formats-for-peptide-bioinformatics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Formats for Peptide Bioinformatics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Formats for Peptide Bioinformatics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fasta-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FASTA Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdb-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDB Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mmcif-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mmCIF Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smiles-and-chemical-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SMILES and Chemical Formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-access-and-programmatic-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Access and Programmatic Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Access and Programmatic Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rest-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        REST APIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulk-downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bulk Downloads
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/clinical-data-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/09-system-suitability-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-protein-sequence-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Protein Sequence Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Protein Sequence Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uniprot-universal-protein-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UniProt (Universal Protein Resource)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ncbi-protein-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NCBI Protein Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-general-sequence-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other General Sequence Repositories
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#structural-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structural Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#protein-data-bank-pdb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protein Data Bank (PDB)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdb-data-format-pdb-and-mmcif" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDB Data Format: PDB and mmCIF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#structural-data-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structural Data Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specialized-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Specialized Peptide Databases
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Specialized Peptide Databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#antimicrobial-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antimicrobial Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#therapeutic-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Therapeutic Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mass-spectrometry-peptide-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mass Spectrometry Peptide Repositories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bioactive-peptide-databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bioactive Peptide Databases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-formats-for-peptide-bioinformatics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Formats for Peptide Bioinformatics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Formats for Peptide Bioinformatics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fasta-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FASTA Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pdb-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PDB Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mmcif-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mmCIF Format
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smiles-and-chemical-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SMILES and Chemical Formats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-access-and-programmatic-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Access and Programmatic Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Access and Programmatic Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rest-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        REST APIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bulk-downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bulk Downloads
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="peptide-database-resources-uniprot-pdb-peptideatlas-specialized-repositories">Peptide Database Resources — UniProt, PDB, PeptideAtlas &amp; Specialized Repositories<a class="headerlink" href="#peptide-database-resources-uniprot-pdb-peptideatlas-specialized-repositories" title="Permanent link">&para;</a></h1>
+<div class="quick-fact">
+  <strong>Key Summary:</strong> The modern peptide researcher has access to an extensive ecosystem of databases spanning general protein sequences (UniProt, NCBI Protein), three-dimensional structures (PDB), and specialized peptide repositories (PeptideAtlas, CAMP, DBAASP, APD3, DRAMP, SATPdb, PepBank, CancerPPD). This article provides a comprehensive survey of these resources, their data formats, programmatic API access methods, and strategies for integrating multi-source data into coherent research workflows.
+</div>
+
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>The exponential growth of biological data has transformed peptide research from a data-poor to a data-rich discipline. Today's peptide scientist must navigate dozens of specialized databases, each offering unique perspectives on peptide sequences, structures, functions, and experimental properties. This article provides a comprehensive roadmap to the peptide database landscape. We begin with foundational general-purpose resources — UniProt, NCBI Protein, and the Protein Data Bank (PDB) — that provide broad coverage of peptide and protein sequences and structures. We then survey specialized peptide databases organized by functional category: antimicrobial peptides (APD3, CAMP, DRAMP, DBAASP), therapeutic peptides (SATPdb, CancerPPD, THPdb), bioactive peptides (PepBank, BIOPEP-UWM, EROP-Moscow), and mass spectrometry-based peptide repositories (PeptideAtlas, PRIDE, MassIVE). For each database, we discuss scope, curation philosophy, unique features, and practical access methods. We cover essential data formats — FASTA for sequence data, PDB and mmCIF for structural data, and SDF/SMILES for chemical representations — including best practices for parsing and validation. The article addresses programmatic access through REST APIs, bulk downloads, and database-specific query languages, enabling researchers to integrate peptide data into computational pipelines. Finally, we present strategies for multi-database integration workflows that combine complementary information from disparate sources, supported by resources at <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<p>The history of biological databases is intertwined with the history of molecular biology itself. Margaret Dayhoff's <em>Atlas of Protein Sequence and Structure</em>, first published in 1965, was arguably the first biological database, painstakingly compiled before the era of computer-based sequence repositories. The establishment of GenBank in 1982 and the Protein Data Bank in 1971 laid the foundation for the modern database ecosystem, which now encompasses hundreds of specialized repositories.</p>
+<p>The exponential growth of sequence data — driven by successive revolutions in DNA sequencing technology, from Sanger sequencing through next-generation sequencing to long-read platforms — has transformed database scale. The European Nucleotide Archive (ENA), for instance, contained approximately 50 petabytes of data by 2023, while UniProt has grown from roughly 2 million entries in 2008 to over 250 million in 2024.</p>
+<p>For peptide researchers, this data abundance creates both opportunity and challenge. The opportunity lies in the unprecedented ability to contextualize peptide sequences within evolutionary relationships, structural frameworks, and functional annotations. The challenge lies in navigating a fragmented landscape where data is distributed across dozens of databases with varying curation standards, update frequencies, and access protocols.</p>
+<p>The development of specialized peptide databases has been driven by the recognition that general-purpose sequence databases are often poorly suited for peptide research. Many biologically active peptides are short (5-50 residues), post-translationally modified, or derived from precursor proteins through proteolytic processing — characteristics that are poorly captured by databases designed around full-length proteins. The emergence of databases such as the Antimicrobial Peptide Database (APD) in 2004 represented a paradigm shift toward community-curated, functionally focused repositories (<a href="https://doi.org/10.1093/nar/gkh148">Wang &amp; Wang, 2004</a>).</p>
+<p>The FAIR data principles — Findable, Accessible, Interoperable, and Reusable — articulated in 2016, provide a framework for evaluating database quality (<a href="https://doi.org/10.1038/sdata.2016.18">Wilkinson et al., 2016</a>). The best peptide databases adhere to these principles through persistent identifiers (DOIs, accession numbers), standardized data formats, documented APIs, and clear licensing terms.</p>
+<h2 id="general-protein-sequence-databases">General Protein Sequence Databases<a class="headerlink" href="#general-protein-sequence-databases" title="Permanent link">&para;</a></h2>
+<h3 id="uniprot-universal-protein-resource">UniProt (Universal Protein Resource)<a class="headerlink" href="#uniprot-universal-protein-resource" title="Permanent link">&para;</a></h3>
+<p>UniProt is the most comprehensive and widely used protein sequence database, produced by the UniProt Consortium — a collaboration between the European Bioinformatics Institute (EMBL-EBI), the SIB Swiss Institute of Bioinformatics, and the Protein Information Resource (PIR) (<a href="https://doi.org/10.1093/nar/gkac1052">UniProt Consortium, 2023</a>).</p>
+<p><strong>UniProtKB components:</strong></p>
+<p><strong>Swiss-Prot (reviewed):</strong>
+- Manually annotated, non-redundant entries with information extracted from literature and curator-evaluated computational analyses.
+- Each entry reviewed by expert curators, ensuring high-quality functional annotation, post-translational modification documentation, and variant information.
+- Contains approximately 570,000 entries (as of 2024), representing the gold standard for protein annotation quality.
+- For peptide researchers, Swiss-Prot provides curated information on peptide hormones, toxins, antimicrobial peptides, and other bioactive peptides with high-confidence annotations.</p>
+<p><strong>TrEMBL (unreviewed):</strong>
+- Automatically annotated entries derived from translation of coding sequences in EMBL-Bank/GenBank/DDBJ.
+- Contains over 250 million entries with computationally predicted annotations.
+- Coverage vastly exceeds Swiss-Prot, capturing the full diversity of sequenced organisms, but with lower annotation quality.
+- Useful for exploring peptide sequence diversity across the tree of life, with the caveat that annotations are predictions rather than experimentally confirmed observations.</p>
+<p><strong>UniRef (Reference Clusters):</strong>
+- Clustered sets of sequences from UniProtKB at 100% (UniRef100), 90% (UniRef90), and 50% (UniRef50) sequence identity.
+- Reduces redundancy for large-scale analyses — UniRef50 provides a representative sequence set suitable for database searching and clustering.
+- Essential for peptide researchers performing large-scale sequence similarity searches, as searching against UniRef90 (rather than the full UniProtKB) dramatically reduces computational requirements while maintaining biological diversity.</p>
+<p><strong>UniParc (Archive):</strong>
+- Comprehensive, non-redundant database of all protein sequences from major public databases, tracking sequence history.
+- Valuable for peptide researchers studying sequence evolution or accessing sequences that have been removed from current databases.</p>
+<p><strong>Access methods:</strong>
+- Web interface: <a href="https://www.uniprot.org">https://www.uniprot.org</a> with advanced query syntax and customizable result views.
+- REST API: Programmatic access through <a href="https://rest.uniprot.org">https://rest.uniprot.org</a>, supporting sequence retrieval, identifier mapping, and annotation queries.
+- FTP downloads: Complete database in FASTA, XML, and text formats, updated at least every 8 weeks.
+- SPARQL endpoint: Semantic web queries through UniProt's RDF representation.</p>
+<p><strong>Querying for peptides in UniProt:</strong>
+Effective peptide-specific queries include:
+- <code>length:[5 TO 50]</code> — restrict to short sequences
+- <code>annotation:(type:"signal peptide")</code> — identify peptide precursors
+- <code>keyword:"Antimicrobial [KW-0929]"</code> — retrieve annotated antimicrobial peptides
+- <code>cc_alternative_products</code> — find peptides derived from precursor processing
+- Combined queries: <code>length:[5 TO 50] AND keyword:"Secreted [KW-0964]"</code> to find short secreted peptides</p>
+<h3 id="ncbi-protein-database">NCBI Protein Database<a class="headerlink" href="#ncbi-protein-database" title="Permanent link">&para;</a></h3>
+<p>The NCBI Protein database is a collection of sequences from several sources, including translations from GenBank coding regions, RefSeq, Swiss-Prot, PIR, PRF, and PDB.</p>
+<p><strong>Key features:</strong>
+- <strong>Entrez search system:</strong> Powerful Boolean query language enabling complex search strategies across NCBI's integrated databases.
+- <strong>RefSeq subset:</strong> Curated, non-redundant sequence set providing a stable reference for annotation, with distinct accession prefixes (NP_ for proteins, XP_ for predicted proteins).
+- <strong>Identical Protein Groups:</strong> Clustering of identical sequences from different sources, reducing redundancy.
+- <strong>LinkOut:</strong> Links to external resources including specialized databases, publications, and structural data.</p>
+<p><strong>Peptide-specific considerations:</strong>
+The NCBI Protein database is less curated for peptide-specific annotations than UniProt/Swiss-Prot, but its integration with genomic data through the Entrez system makes it valuable for peptide genomics — tracing peptide-coding genes to genomic loci, regulatory elements, and evolutionary synteny.</p>
+<h3 id="other-general-sequence-repositories">Other General Sequence Repositories<a class="headerlink" href="#other-general-sequence-repositories" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>RefSeq:</strong> NCBI's curated reference sequence database providing a comprehensive, integrated, non-redundant set of sequences.</li>
+<li><strong>Ensembl:</strong> Genome-centric resource providing genomic context for peptide-coding genes, including splice variants and regulatory annotations.</li>
+<li><strong>InterPro:</strong> Integrates protein family, domain, and functional site classification from multiple member databases, providing comprehensive functional annotation.</li>
+</ul>
+<h2 id="structural-databases">Structural Databases<a class="headerlink" href="#structural-databases" title="Permanent link">&para;</a></h2>
+<h3 id="protein-data-bank-pdb">Protein Data Bank (PDB)<a class="headerlink" href="#protein-data-bank-pdb" title="Permanent link">&para;</a></h3>
+<p>The Protein Data Bank, established in 1971, is the single worldwide repository for experimentally determined three-dimensional structures of biological macromolecules (<a href="https://doi.org/10.1093/nar/gky1004">wwPDB Consortium, 2019</a>). For peptide researchers, the PDB provides atomic-resolution structural data essential for understanding peptide conformation, molecular recognition, and structure-based design.</p>
+<p><strong>PDB content relevant to peptides:</strong>
+- <strong>Peptide-protein complexes:</strong> Thousands of structures of peptides bound to receptors, enzymes, antibodies, and MHC molecules, providing direct visualization of binding modes.
+- <strong>Free peptide structures:</strong> Though less common (due to conformational flexibility), structures of free peptides (particularly cyclic and disulfide-stabilized peptides) are available.
+- <strong>Peptide drugs and inhibitors:</strong> Structural characterization of peptide therapeutics bound to their targets.
+- <strong>NMR and cryo-EM structures:</strong> Techniques that can capture peptide conformational ensembles not accessible through crystallography.</p>
+<p><strong>Access methods:</strong>
+- Web search: <a href="https://www.rcsb.org">https://www.rcsb.org</a> with advanced search including sequence similarity, ligand identity, and structural features.
+- REST API: Programmatic access to search, data retrieval, and sequence-structure mapping.
+- Bulk download: Complete PDB archive available through rsync and HTTP.
+- PDBe-KB: Aggregated structural annotations and functional predictions for all PDB entries.</p>
+<h3 id="pdb-data-format-pdb-and-mmcif">PDB Data Format: PDB and mmCIF<a class="headerlink" href="#pdb-data-format-pdb-and-mmcif" title="Permanent link">&para;</a></h3>
+<p><strong>PDB format:</strong>
+The legacy PDB file format is a fixed-column text format where each line begins with a record type identifier (e.g., ATOM, HETATM, SEQRES). While human-readable, the format has significant limitations: 4-character chain identifiers, 5-digit residue numbers, and a maximum of 99,999 atoms — constraints that modern large structures frequently violate.</p>
+<p><strong>mmCIF (macromolecular Crystallographic Information File):</strong>
+The mmCIF format is the current PDB standard, using a flexible key-value pair structure organized into categories. mmCIF addresses all PDB format limitations and supports rich metadata including experimental details, structure factors, and extensive annotation. Since 2014, the wwPDB has mandated mmCIF as the primary archive format, and the legacy PDB format is generated as a derived format.</p>
+<p>For programmatic work with structural data, using mmCIF-aware parsers (BioPython's MMCIFParser, PyMOL, or specialized mmCIF libraries) is recommended over legacy PDB parsers.</p>
+<h3 id="structural-data-resources">Structural Data Resources<a class="headerlink" href="#structural-data-resources" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>PDBe:</strong> European PDB resource with enhanced analysis tools, domain assignments, and assembly information.</li>
+<li><strong>PDBj:</strong> Japanese PDB resource with specialized NMR data tools.</li>
+<li><strong>SCOP2 and CATH:</strong> Hierarchical structural classification databases useful for identifying structural relationships among peptides and their targets.</li>
+<li><strong>AlphaFold Protein Structure Database:</strong> Predicted structures for over 200 million UniProt sequences, jointly developed by DeepMind and EMBL-EBI. While predictions rather than experimental structures, the AlphaFold DB dramatically expands structural coverage for peptide families.</li>
+</ul>
+<h2 id="specialized-peptide-databases">Specialized Peptide Databases<a class="headerlink" href="#specialized-peptide-databases" title="Permanent link">&para;</a></h2>
+<h3 id="antimicrobial-peptide-databases">Antimicrobial Peptide Databases<a class="headerlink" href="#antimicrobial-peptide-databases" title="Permanent link">&para;</a></h3>
+<p><strong>APD3 (Antimicrobial Peptide Database):</strong>
+The APD, maintained at the University of Nebraska Medical Center, is the foundational antimicrobial peptide database, established in 2004 (<a href="https://doi.org/10.1093/nar/gkv1278">Wang et al., 2016</a>). APD3 contains over 3,200 experimentally validated AMPs from all biological kingdoms.</p>
+<ul>
+<li><strong>Unique features:</strong> Calculates physicochemical parameters (net charge, hydrophobicity, Boman index) for each entry, includes structural information (NMR and X-ray structures) where available, and provides statistical analysis of AMP sequence features.</li>
+<li><strong>Curation:</strong> Each entry is manually curated with experimental validation required for inclusion.</li>
+<li><strong>Access:</strong> Web-based search, browsing by source organism, activity, structure, or physicochemical properties.</li>
+<li><strong>Limitations:</strong> Relatively small size compared to aggregate databases; limited to natural AMPs.</li>
+</ul>
+<p><strong>CAMP_R3 (Collection of Anti-Microbial Peptides):</strong>
+CAMP_R3 integrates data from multiple AMP databases and literature, containing over 8,000 sequences (<a href="https://doi.org/10.1093/nar/gkv1153">Waghu et al., 2016</a>).</p>
+<ul>
+<li><strong>Unique features:</strong> Integrates multiple ML-based AMP prediction tools, providing both experimental and predicted AMPs with confidence scores.</li>
+<li><strong>Sequence signatures:</strong> Identifies conserved patterns characteristic of AMP families.</li>
+<li><strong>Access:</strong> Web interface with sequence search, BLAST integration, and batch download.</li>
+</ul>
+<p><strong>DRAMP 3.0 (Data Repository of Antimicrobial Peptides):</strong>
+DRAMP provides the most comprehensive collection of antimicrobial peptides, with over 22,000 entries spanning natural AMPs, synthetic AMPs, patented sequences, and clinical candidates (<a href="https://doi.org/10.1093/nar/gkab1027">Shi et al., 2022</a>).</p>
+<ul>
+<li><strong>Unique features:</strong> Distinguishes between general AMPs, patented sequences, and peptides in clinical trials. Includes antimicrobial activity data (MIC values) where available.</li>
+<li><strong>Annotations:</strong> Structure, activity, target species, hemolytic activity, and physicochemical properties.</li>
+<li><strong>Access:</strong> Web interface with advanced search, sequence alignment, and batch download. Most comprehensive for translational AMP research.</li>
+</ul>
+<p><strong>DBAASP v3 (Database of Antimicrobial Activity and Structure of Peptides):</strong>
+DBAASP focuses on quantitative antimicrobial activity data, providing MIC values against specific microbial strains (<a href="https://doi.org/10.1093/nar/gkaa991">Pirtskhalava et al., 2021</a>).</p>
+<ul>
+<li><strong>Unique features:</strong> Specialized for structure-activity relationship analysis with standardized MIC data. Includes hemolytic activity data for therapeutic index calculation.</li>
+<li><strong>Physicochemical analysis:</strong> Detailed analysis of charge, hydrophobicity, amphipathicity, and structural features correlated with activity.</li>
+<li><strong>Access:</strong> Web interface with powerful filtering by activity, structure, and physicochemical properties.</li>
+</ul>
+<h3 id="therapeutic-peptide-databases">Therapeutic Peptide Databases<a class="headerlink" href="#therapeutic-peptide-databases" title="Permanent link">&para;</a></h3>
+<p><strong>SATPdb (Structurally Annotated Therapeutic Peptides Database):</strong>
+SATPdb catalogs therapeutic peptides with detailed structural annotations (<a href="https://doi.org/10.1093/nar/gkv1274">Singh et al., 2016</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Peptide therapeutics across categories including anticancer, antimicrobial, antiviral, antidiabetic, and cardiovascular peptides.</li>
+<li><strong>Structural features:</strong> Secondary structure content, disulfide bonding patterns, post-translational modifications, and structural models.</li>
+<li><strong>Clinical status:</strong> Classification by preclinical, clinical trial phase, and approved status.</li>
+</ul>
+<p><strong>CancerPPD (Cancer Peptide and Protein Database):</strong>
+CancerPPD is a specialized database for anticancer peptides and proteins, containing experimentally validated entries with detailed activity data (<a href="https://doi.org/10.1093/nar/gku1198">Tyagi et al., 2015</a>).</p>
+<ul>
+<li><strong>Unique features:</strong> Cell line-specific activity data (IC₅₀ values), mechanism of action annotations, origin (natural/synthetic/chimeric), and target information.</li>
+<li><strong>Natural and synthetic:</strong> Includes both naturally occurring anticancer peptides and designed/optimized variants.</li>
+<li><strong>Access:</strong> Web interface with search by sequence, structure, activity, or origin.</li>
+</ul>
+<p><strong>THPdb (FDA Approved Therapeutic Peptides and Proteins Database):</strong>
+THPdb provides comprehensive information on FDA-approved peptide and protein therapeutics (<a href="https://doi.org/10.1371/journal.pone.0181748">Usmani et al., 2017</a>).</p>
+<ul>
+<li><strong>Scope:</strong> All FDA-approved therapeutic peptides and proteins with detailed pharmaceutical information.</li>
+<li><strong>Clinical data:</strong> Indications, administration routes, pharmacokinetics, pharmacodynamics, and adverse effects where available.</li>
+<li><strong>Access:</strong> Web interface with browsing by therapeutic category, target, or administration route.</li>
+</ul>
+<h3 id="mass-spectrometry-peptide-repositories">Mass Spectrometry Peptide Repositories<a class="headerlink" href="#mass-spectrometry-peptide-repositories" title="Permanent link">&para;</a></h3>
+<p><strong>PeptideAtlas:</strong>
+PeptideAtlas is a comprehensive repository of mass spectrometry-based proteomics data, providing peptide identifications with statistical validation (<a href="https://doi.org/10.1093/nar/gkj040">Desiere et al., 2006</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Peptide identifications from thousands of LC-MS/MS experiments across multiple organisms and sample types.</li>
+<li><strong>Statistical validation:</strong> PeptideProphet probability scores provide confidence estimates for each identification.</li>
+<li><strong>Genome mapping:</strong> Peptides mapped to genomic coordinates, enabling proteogenomic analysis.</li>
+<li><strong>Access:</strong> Web interface, FTP downloads, and API access to processed peptide data.</li>
+</ul>
+<p><strong>PRIDE (PRoteomics IDEntifications Database):</strong>
+PRIDE is the world's largest mass spectrometry-based proteomics data repository, hosted at EMBL-EBI (<a href="https://doi.org/10.1093/nar/gkab1038">Perez-Riverol et al., 2022</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Raw mass spectrometry data, processed peptide and protein identifications, and quantification results.</li>
+<li><strong>ProteomeXchange:</strong> PRIDE is a founding member of the ProteomeXchange consortium, enabling cross-repository data discovery.</li>
+<li><strong>Access:</strong> Web interface, REST API, and programmatic access through PRIDE Inspector tools.</li>
+</ul>
+<p><strong>MassIVE (Mass Spectrometry Interactive Virtual Environment):</strong>
+MassIVE is a community-oriented mass spectrometry data repository with reanalysis capabilities.</p>
+<ul>
+<li><strong>Unique features:</strong> Supports data reanalysis through integrated workflows, enabling researchers to re-process raw data with updated search algorithms.</li>
+<li><strong>Community datasets:</strong> Large-scale community proteomics projects such as the Clinical Proteomic Tumor Analysis Consortium (CPTAC).</li>
+</ul>
+<h3 id="bioactive-peptide-databases">Bioactive Peptide Databases<a class="headerlink" href="#bioactive-peptide-databases" title="Permanent link">&para;</a></h3>
+<p><strong>PepBank:</strong>
+PepBank is a database of bioactive peptides with emphasis on peptide-receptor interactions and functional annotations (<a href="https://doi.org/10.1093/nar/gkl1048">Shtatland et al., 2007</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Experimentally validated bioactive peptides with known receptors or molecular targets.</li>
+<li><strong>Features:</strong> Sequence, source, target, biological activity, and literature references.</li>
+</ul>
+<p><strong>BIOPEP-UWM:</strong>
+BIOPEP is a database of bioactive peptide sequences within food proteins, maintained at the University of Warmia and Mazury (<a href="https://doi.org/10.3390/ijms20235748">Minkiewicz et al., 2019</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Peptides with demonstrated bioactivity (antihypertensive, antioxidant, opioid, immunomodulatory, etc.) identified in food protein sequences.</li>
+<li><strong>Unique features:</strong> Tools for simulating enzymatic digestion of proteins to predict release of bioactive peptides.</li>
+<li><strong>Applications:</strong> Nutraceutical and functional food research.</li>
+</ul>
+<p><strong>EROP-Moscow:</strong>
+The Endogenous Regulatory OligoPeptides database catalogs oligopeptides with regulatory functions in living organisms (<a href="https://doi.org/10.1093/nar/gkn786">Zamyatnin, 2009</a>).</p>
+<ul>
+<li><strong>Scope:</strong> Endogenous peptides (2-50 residues) with demonstrated regulatory activity.</li>
+<li><strong>Features:</strong> Sequence, structure, tissue distribution, receptor interactions, and biological functions.</li>
+</ul>
+<h2 id="data-formats-for-peptide-bioinformatics">Data Formats for Peptide Bioinformatics<a class="headerlink" href="#data-formats-for-peptide-bioinformatics" title="Permanent link">&para;</a></h2>
+<h3 id="fasta-format">FASTA Format<a class="headerlink" href="#fasta-format" title="Permanent link">&para;</a></h3>
+<p>FASTA is the universal format for representing peptide and protein sequences:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&gt;sp|P01308|INS_HUMAN Insulin OS=Homo sapiens
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+</code></pre></div>
+<ul>
+<li><strong>Header line:</strong> Begins with <code>&gt;</code>, conventionally containing accession, identifier, description, and organism.</li>
+<li><strong>Sequence lines:</strong> One-letter amino acid codes, typically wrapped at 60-80 characters.</li>
+<li><strong>Multiple sequences:</strong> Multiple FASTA records can be concatenated in a single file.</li>
+</ul>
+<p><strong>Best practices:</strong>
+- Use standard IUPAC one-letter amino acid codes.
+- Avoid ambiguous characters (B, Z, X) unless genuinely representing ambiguous positions.
+- Include source organism in the header for traceability.
+- Validate sequences programmatically — tools like <code>seqkit</code> can identify format issues.</p>
+<h3 id="pdb-format">PDB Format<a class="headerlink" href="#pdb-format" title="Permanent link">&para;</a></h3>
+<p>For structural data, the legacy PDB format remains widely used for small structures:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ATOM      1  N   ALA A   1       1.142   2.454   0.000  1.00  0.00           N
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>ATOM      2  CA  ALA A   1       2.631   2.425   0.000  1.00  0.00           C
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>...
+</code></pre></div>
+<p><strong>Limitations for peptides:</strong>
+- Fixed-column format with limited field widths
+- Cannot represent large structures with &gt;99,999 atoms
+- Chain IDs limited to single characters</p>
+<h3 id="mmcif-format">mmCIF Format<a class="headerlink" href="#mmcif-format" title="Permanent link">&para;</a></h3>
+<p>mmCIF uses a flexible key-value structure:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>_atom_site.group_PDB
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>_atom_site.id
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>_atom_site.type_symbol
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>_atom_site.label_atom_id
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>...
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>ATOM   1    N  N   . ALA A 1  ? 1.142  2.454  0.000  1.00  0.000  ? ...
+</code></pre></div>
+<p>mmCIF is the recommended format for all new structural bioinformatics work.</p>
+<h3 id="smiles-and-chemical-formats">SMILES and Chemical Formats<a class="headerlink" href="#smiles-and-chemical-formats" title="Permanent link">&para;</a></h3>
+<p>For modified peptides and peptidomimetics:
+- <strong>SMILES:</strong> Linear string representation of chemical structure (e.g., <code>CC(C(=O)O)N</code> for alanine).
+- <strong>HELM (Hierarchical Editing Language for Macromolecules):</strong> Notation system for complex biomolecules including peptides with non-natural modifications.
+- <strong>SDF/MOL:</strong> File formats for chemical structures with 2D/3D coordinates.</p>
+<h2 id="api-access-and-programmatic-integration">API Access and Programmatic Integration<a class="headerlink" href="#api-access-and-programmatic-integration" title="Permanent link">&para;</a></h2>
+<h3 id="rest-apis">REST APIs<a class="headerlink" href="#rest-apis" title="Permanent link">&para;</a></h3>
+<p>Most major peptide databases provide REST (Representational State Transfer) APIs for programmatic access:</p>
+<p><strong>UniProt REST API:</strong>
+- Endpoint: <code>https://rest.uniprot.org/uniprotkb/</code>
+- Capabilities: Search, retrieve entries in multiple formats, map identifiers between databases, and batch operations.
+- Example: Retrieve peptide entries by keyword:
+  <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>GET /uniprotkb/search?query=(keyword:antimicrobial)+AND+(length:[5+TO+50])&amp;format=json
+</code></pre></div></p>
+<p><strong>NCBI E-utilities:</strong>
+- Endpoint: <code>https://eutils.ncbi.nlm.nih.gov/entrez/eutils/</code>
+- Capabilities: Search across all NCBI databases, retrieve records, and link between databases.
+- Rate limiting: 3 requests/second without API key, 10 requests/second with API key.
+- Example: Search for AMPs in Protein database:
+  <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>esearch.fcgi?db=protein&amp;term=antimicrobial+peptide[title]+AND+5:50[SLEN]
+</code></pre></div></p>
+<p><strong>RCSB PDB REST API:</strong>
+- Endpoint: <code>https://data.rcsb.org/rest/v1/</code>
+- Capabilities: Search by sequence, structure, ligand, experimental method, resolution, and structural features.
+- GraphQL interface for complex queries returning only requested fields.</p>
+<p><strong>PDBe REST API:</strong>
+- Endpoint: <code>https://www.ebi.ac.uk/pdbe/api/</code>
+- Capabilities: Detailed structural annotations, domain assignments, binding site analysis.</p>
+<h3 id="bulk-downloads">Bulk Downloads<a class="headerlink" href="#bulk-downloads" title="Permanent link">&para;</a></h3>
+<p>For large-scale peptide bioinformatics, bulk downloads are often more practical than API access:</p>
+<table>
+<thead>
+<tr>
+<th>Database</th>
+<th>Download Format</th>
+<th>Update Frequency</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UniProtKB</td>
+<td>FASTA, XML, TXT</td>
+<td>Every 8 weeks</td>
+<td>~100 GB (compressed)</td>
+</tr>
+<tr>
+<td>NCBI Protein</td>
+<td>FASTA</td>
+<td>Weekly</td>
+<td>~500 GB</td>
+</tr>
+<tr>
+<td>PDB Archive</td>
+<td>mmCIF</td>
+<td>Weekly</td>
+<td>~2 TB (with structure factors)</td>
+</tr>
+<tr>
+<td>PeptideAtlas</td>
+<td>Custom TSV</td>
+<td>Per-build</td>
+<td>~1 GB per organism</td>
+</tr>
+<tr>
+<td>DRAMP 3.0</td>
+<td>FASTA, CSV</td>
+<td>Periodic</td>
+<td>~50 MB</td>
+</tr>
+<tr>
+<td>DBAASP</td>
+<td>CSV</td>
+<td>Periodic</td>
+<td>~30 MB</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Best practices for bulk data processing:</strong>
+- Use tools designed for bioinformatics data: <code>seqkit</code> for FASTA manipulation, BioPython for sequence parsing, PyMOL/ProDy for structural analysis.
+- Process data incrementally — complete UniProtKB in FASTA format is ~100 GB and parsing the entire file into memory is impractical.
+- Maintain local database mirrors using rsync for regularly updated resources (PDB, UniProt).
+- Version-track downloaded data — database content changes over time, and reproducibility requires knowing which version was used.</p>
+<h3 id="workflow-integration">Workflow Integration<a class="headerlink" href="#workflow-integration" title="Permanent link">&para;</a></h3>
+<p>Integrating multiple peptide databases into analysis workflows requires:</p>
+<p><strong>Identifier mapping:</strong>
+Peptide identifiers differ across databases. UniProt provides the <code>idmapping</code> service for converting between:
+- UniProtKB AC/ID ↔ Gene names, RefSeq, Ensembl, PDB, Pfam, InterPro, GO and dozens more.</p>
+<p><strong>Data harmonization:</strong>
+Different databases use different annotation schemas. Strategies for harmonization:
+- Map to common controlled vocabularies (Gene Ontology, ChEBI, PSI-MOD for modifications).
+- Use database cross-references (each UniProt entry lists cross-references to &gt;180 databases).
+- Implement data validation checks — flag inconsistencies between databases for manual review.</p>
+<p><strong>Pipeline design:</strong>
+A typical multi-database peptide analysis pipeline:
+1. <strong>Retrieve candidate sequences</strong> from UniProt/Swiss-Prot using keyword, taxonomy, and length filters.
+2. <strong>Cross-reference with specialized databases</strong> (CAMP, DBAASP, SATPdb) for functional annotations.
+3. <strong>Retrieve structural data</strong> from PDB or AlphaFold DB for candidates with available structures.
+4. <strong>Enrich with experimental data</strong> from PeptideAtlas or PRIDE for proteomic evidence.
+5. <strong>Integrate physicochemical predictions</strong> using computational tools or pre-computed database values.
+6. <strong>Prioritize candidates</strong> based on consensus annotations, structural features, and predicted properties.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<p>The utility and reliability of peptide databases are documented in extensive literature:</p>
+<table>
+<thead>
+<tr>
+<th>Database</th>
+<th>Validation Study</th>
+<th>Key Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>APD3</td>
+<td>Wang et al., NAR 2016</td>
+<td>3,200+ experimentally validated AMPs; predicts AMP features correlating with activity</td>
+</tr>
+<tr>
+<td>CAMP_R3</td>
+<td>Waghu et al., NAR 2016</td>
+<td>ML classifiers achieve &gt;93% accuracy; sequence signatures identify novel AMPs</td>
+</tr>
+<tr>
+<td>DRAMP 3.0</td>
+<td>Shi et al., NAR 2022</td>
+<td>22,000+ entries unified from 17 sources; clinical trial data integration</td>
+</tr>
+<tr>
+<td>DBAASP v3</td>
+<td>Pirtskhalava et al., NAR 2021</td>
+<td>Standardized MIC data enables quantitative SAR; therapeutic index calculation</td>
+</tr>
+<tr>
+<td>UniProt</td>
+<td>UniProt Consortium, NAR 2023</td>
+<td>250M+ sequences; manual curation achieves &gt;99% annotation accuracy for Swiss-Prot</td>
+</tr>
+<tr>
+<td>PeptideAtlas</td>
+<td>Desiere et al., NAR 2006</td>
+<td>Statistical validation reduces false discovery to &lt;1%; multi-organism coverage</td>
+</tr>
+<tr>
+<td>PRIDE</td>
+<td>Perez-Riverol et al., NAR 2022</td>
+<td>Largest proteomics repository; ProteomeXchange enables cross-repository discovery</td>
+</tr>
+<tr>
+<td>CancerPPD</td>
+<td>Tyagi et al., NAR 2015</td>
+<td>3,400+ anticancer peptides with cell line activity data</td>
+</tr>
+<tr>
+<td>PDB</td>
+<td>wwPDB Consortium, NAR 2019</td>
+<td>180,000+ structures; comprehensive peptide-protein complex coverage</td>
+</tr>
+</tbody>
+</table>
+<h2 id="current-understanding">Current Understanding<a class="headerlink" href="#current-understanding" title="Permanent link">&para;</a></h2>
+<p>The peptide database ecosystem is characterized by several themes:</p>
+<ul>
+<li><strong>Complementarity, not redundancy:</strong> While there is overlap between databases, each serves distinct needs — structural (PDB), sequence (UniProt), functional (APD3/DRAMP), or quantitative (DBAASP). Effective researchers leverage this complementarity through multi-database integration.</li>
+<li><strong>The curation gap:</strong> A fundamental divide exists between highly curated resources (Swiss-Prot, APD3) and automated resources (TrEMBL, predicted entries in CAMP). For hypothesis generation, automated resources provide breadth; for hypothesis testing, curated resources provide confidence.</li>
+<li><strong>FAIR compliance varies:</strong> Major databases (UniProt, PDB, PRIDE) are exemplars of FAIR principles. Smaller specialized databases vary in their adherence to persistent identifiers, documented APIs, and standardized formats.</li>
+<li><strong>Machine learning integration:</strong> Modern databases increasingly incorporate ML-based predictions alongside experimental data, blurring the line between data repositories and analysis platforms.</li>
+<li><strong>The clinical translation gap:</strong> Despite rich academic peptide databases, systematic integration with clinical trial data, pharmacokinetic data, and regulatory information remains limited — THPdb is a notable exception.</li>
+</ul>
+<h2 id="future-research-directions">Future Research Directions<a class="headerlink" href="#future-research-directions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Unified peptide meta-database:</strong> A single access point that integrates data from all major peptide databases through standardized APIs and ontologies, eliminating redundant searching across multiple platforms.</li>
+<li><strong>Real-time database updating:</strong> Continuous integration pipelines that incorporate new literature and sequence data within days rather than months.</li>
+<li><strong>Bidirectional experimental-database feedback:</strong> Platforms where experimental results feed directly into databases, reducing the current years-long lag between discovery and database inclusion.</li>
+<li><strong>Peptide knowledge graphs:</strong> Graph-based representations capturing relationships between peptide sequences, structures, activities, targets, pathways, and diseases, enabling network-based analysis and discovery.</li>
+<li><strong>AI-augmented curation:</strong> Machine learning models that assist human curators by prioritizing literature for review, flagging potential annotation errors, and suggesting annotations based on computational predictions.</li>
+<li><strong>Natural language interfaces:</strong> Query interfaces that accept natural language questions ("show me antimicrobial peptides longer than 10 residues from frog skin with MIC &lt; 10 µM against E. coli") rather than requiring formal query languages.</li>
+<li><strong>Standards for peptide-specific data:</strong> Community-developed minimum information standards for peptide activity data (MIAPE), synthesis protocols, and characterization, analogous to MIAME for microarrays.</li>
+<li><strong>Integrated peptide virtual screening platforms:</strong> Databases that not only store peptide data but provide on-demand computational analysis — docking, property prediction, toxicity screening — through integrated cloud computing resources.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<div class="faq-item">
+  <h3>Which database should I use as a starting point for peptide sequence data?</h3>
+  <p>Start with <strong>UniProtKB/Swiss-Prot</strong> for the highest quality curated annotations. Query using keywords, taxonomy, and length filters to identify peptides of interest. Expand your search to <strong>UniProtKB/TrEMBL</strong> for broader coverage, recognizing that TrEMBL annotations are computationally predicted and less reliable. For known peptide families, consult the relevant specialized database: <strong>APD3 or DRAMP</strong> for antimicrobial peptides, <strong>DBAASP</strong> for quantitative activity data, <strong>SATPdb</strong> for therapeutic peptides, and <strong>PeptideAtlas</strong> for mass spectrometry evidence. Document which database versions were accessed for reproducibility. Integrated resources are available at <a href="https://rplpeptides.com">RPL Peptides</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What is the difference between Swiss-Prot and TrEMBL, and when should I use each?</h3>
+  <p><strong>Swiss-Prot</strong> entries are manually curated by expert annotators who review experimental literature to confirm protein existence, function, post-translational modifications, and variants. Swiss-Prot has <strong>very high accuracy</strong> (~570,000 entries) but limited coverage. Use Swiss-Prot for: hypothesis testing, mechanism studies, and applications where annotation errors would be costly. <strong>TrEMBL</strong> entries are computationally translated from nucleotide sequences and automatically annotated. TrEMBL has <strong>vast coverage</strong> (>250 million entries) but lower annotation quality, with potential errors in gene prediction and functional assignment. Use TrEMBL for: exploring sequence diversity across organisms, identifying novel peptide families, and large-scale computational screens where individual errors average out statistically.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I programmatically access peptide databases for large-scale analysis?</h3>
+  <p>For <strong>high-throughput programmatic access</strong>: (1) Download <strong>bulk data files</strong> (FASTA format from UniProt FTP, mmCIF from PDB via rsync) and process locally — this is the most efficient approach for analyzing thousands to millions of peptides. (2) Use <strong>REST APIs</strong> for targeted queries (UniProt REST API, NCBI E-utilities, RCSB PDB REST API) when you need a specific subset of data. (3) Implement <strong>rate-limiting awareness</strong> — NCBI E-utilities limit to 3 requests/second without an API key; UniProt recommends caching results. (4) Use <strong>BioPython</strong> for parsing downloaded data — `SeqIO.parse()` handles FASTA, `MMCIFParser` handles mmCIF, and `Entrez` module interfaces with NCBI E-utilities. (5) <strong>Version-track your data</strong> — always record database release dates and download URLs for reproducibility. API access documentation is available at <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Which antimicrobial peptide database is the most comprehensive?</h3>
+  <p><strong>DRAMP 3.0</strong> (Data Repository of Antimicrobial Peptides) is the most comprehensive, with over 22,000 entries drawn from 17 distinct sources including APD3, CAMP, literature, and patent databases. It uniquely categorizes entries as natural, synthetic, patented, or clinical candidates. <strong>DBAASP v3</strong> provides the most detailed quantitative activity data (MIC values against specific strains). <strong>APD3</strong> maintains the highest curation standards with experimental validation required for all entries. For most purposes, querying DRAMP for broad coverage and cross-referencing against DBAASP for quantitative activity data provides the most complete picture. No single database captures all known AMPs — systematic literature mining still reveals peptides not present in any database.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How can I find structural information for my peptide of interest?</h3>
+  <p>Start by searching the <strong>PDB</strong> (rcsb.org) using your peptide's sequence. The RCSB PDB offers sequence similarity search (BLAST against PDB sequences) and text search by peptide name. If no experimental structure exists: (1) Check the <strong>AlphaFold Protein Structure Database</strong> (alphafold.ebi.ac.uk) for predicted structures — coverage includes most UniProt sequences. (2) Use <strong>ESMFold</strong> or <strong>AlphaFold2</strong> to predict the structure locally. (3) Search for structures of close homologs in PDB — a structure of a related peptide may inform your peptide's conformation. (4) For peptide-protein complexes, search with the protein receptor's PDB ID and filter for peptide ligands. (5) NMR ensembles in the PDB may capture peptide conformational flexibility more accurately than single crystal structures. Note that short, flexible peptides may not have stable structures in isolation — their bound conformations are more relevant for functional analysis.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What data formats should I use for storing and exchanging peptide data?</h3>
+  <p><strong>For sequences:</strong> <strong>FASTA format</strong> is the universal standard. Ensure headers contain unique identifiers and source information. <strong>For structures:</strong> Use <strong>mmCIF</strong> (PDBx/mmCIF) as the modern standard — it avoids the fixed-column limitations of legacy PDB format and supports comprehensive metadata. <strong>For modified peptides:</strong> Use <strong>HELM notation</strong> (Hierarchical Editing Language for Macromolecules) which represents complex peptides including non-natural amino acids, cyclizations, and conjugates. <strong>For chemical information:</strong> <strong>SMILES</strong> for simple representations, <strong>SDF</strong> for structures with coordinates. <strong>For tabular data:</strong> <strong>CSV or TSV</strong> with documented column headers — avoid Excel formats for computational workflows. <strong>For metadata:</strong> Use <strong>JSON</strong> for structured metadata that doesn't fit tabular formats. When depositing data, follow community standards (MIAPE for proteomics, PDB deposition guidelines for structures).</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I handle peptides with post-translational modifications in database searches?</h3>
+  <p>Post-translational modifications (PTMs) complicate database searching because: (1) Many databases store only the unmodified sequence, and (2) standard BLAST cannot match modified residues to their unmodified counterparts. Strategies: (1) <strong>UniProtKB</strong> annotates PTMs in the "PTM/Processing" section — search by unmodified sequence and review PTM annotations. (2) <strong>PhosphoSitePlus</strong> is the most comprehensive PTM-specific database for phosphorylation, acetylation, ubiquitination, and other modifications. (3) <strong>dbPTM</strong> integrates PTM data from multiple sources with structural mapping. (4) For <strong>database searching with mass spectrometry data</strong>, specify variable modifications in your search engine (MaxQuant, Mascot, MSFragger) — this allows matching spectra to modified peptide forms. (5) For <strong>sequence-similarity searching</strong> of modified peptides, search using the unmodified sequence and manually examine PTM annotations of hits. Modified peptide resources are available at <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I integrate data from multiple peptide databases into a unified analysis?</h3>
+  <p>A multi-database integration workflow: (1) <strong>Define your integration schema</strong> — identify which fields you need from each database (e.g., sequence from UniProt, MIC from DBAASP, structure from PDB). (2) <strong>Retrieve data</strong> programmatically using APIs or bulk downloads for each source. (3) <strong>Map identifiers</strong> using UniProt's ID mapping service to convert between database-specific accessions. (4) <strong>Merge by sequence identity</strong> — peptides with identical sequences are the same entity, even if database accessions differ. At 100% identity, merge confidently; at ≥90%, require manual review for near-identical isoforms. (5) <strong>Handle conflicting annotations</strong> — when databases disagree (e.g., one lists a peptide as AMP, another doesn't), flag conflicts and prefer curated sources. (6) <strong>Store in a structured format</strong> — SQLite or Pandas DataFrame for tabular data, or a custom JSON schema for nested data. (7) <strong>Version-control your integration code</strong> — database schemas change, and reproducible analyses require reproducible data processing.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What are the limitations of peptide databases I should be aware of?</h3>
+  <p>Key limitations include: (1) <strong>Publication bias:</strong> Negative results (peptides tested and found inactive) are rarely published and almost never entered into databases, skewing datasets toward positive examples. (2) <strong>Taxonomic bias:</strong> AMP databases are heavily biased toward amphibian, insect, and mammalian sources, with underrepresentation of microbial, plant, and marine peptides. (3) <strong>Assay heterogeneity:</strong> "Antimicrobial" is defined by different assays with different conditions (inoculum size, media, incubation time), making cross-study comparisons problematic. (4) <strong>Annotation lag:</strong> Peptides discovered in the literature typically take 1-3 years to appear in curated databases. (5) <strong>Sequence errors:</strong> Errors in deposited sequences (from sequencing errors, translation errors, or database entry errors) propagate through analyses — cross-reference multiple sources. (6) <strong>Missing metadata:</strong> Many entries lack information on synthesis method, purity, formulation, or assay conditions that affect experimental reproducibility. (7) <strong>Database-specific formats:</strong> Lack of standardization makes data integration time-consuming. Awareness of these limitations is essential for interpreting database-derived results appropriately.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How can I contribute my peptide data to public databases?</h3>
+  <p>Contributing data strengthens the entire research community: (1) <strong>For sequences:</strong> Submit to GenBank/ENA/DDBJ (International Nucleotide Sequence Database Collaboration) — peptide sequences are typically submitted as part of nucleotide or protein sequence records. (2) <strong>For structures:</strong> Deposit in the PDB — structural data must be deposited upon publication for most journals. (3) <strong>For proteomics data:</strong> Submit raw and processed mass spectrometry data to PRIDE or MassIVE (through ProteomeXchange) — this is required by many journals and funding agencies. (4) <strong>For AMP data:</strong> Contact APD3 or DRAMP curators with your published data for inclusion. (5) <strong>For functional data:</strong> DBAASP accepts submissions with quantitative activity data. (6) <strong>General guidance:</strong> Follow community data standards, include comprehensive metadata (synthesis protocols, purification methods, assay conditions), use persistent sample identifiers, and publish under open licenses (CC0 or CC-BY) to maximize reusability. The <a href="https://rplpeptides.com">RPL Peptides</a> platform also provides resources for peptide data management and sharing.</p>
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>UniProt Consortium. (2023). UniProt: the Universal Protein Knowledgebase in 2023. <em>Nucleic Acids Research</em>, 51(D1), D523–D531. <a href="https://doi.org/10.1093/nar/gkac1052">https://doi.org/10.1093/nar/gkac1052</a></p>
+</li>
+<li>
+<p>wwPDB Consortium. (2019). Protein Data Bank: the single global archive for 3D macromolecular structure data. <em>Nucleic Acids Research</em>, 47(D1), D520–D528. <a href="https://doi.org/10.1093/nar/gky1004">https://doi.org/10.1093/nar/gky1004</a></p>
+</li>
+<li>
+<p>Wang, G., Li, X., &amp; Wang, Z. (2016). APD3: the antimicrobial peptide database as a tool for research and education. <em>Nucleic Acids Research</em>, 44(D1), D1087–D1093. <a href="https://doi.org/10.1093/nar/gkv1278">https://doi.org/10.1093/nar/gkv1278</a></p>
+</li>
+<li>
+<p>Waghu, F.H., Barai, R.S., Gurung, P., &amp; Idicula-Thomas, S. (2016). CAMPR3: a database on sequences, structures and signatures of antimicrobial peptides. <em>Nucleic Acids Research</em>, 44(D1), D1094–D1097. <a href="https://doi.org/10.1093/nar/gkv1153">https://doi.org/10.1093/nar/gkv1153</a></p>
+</li>
+<li>
+<p>Shi, G., Kang, X., Dong, F., Liu, Y., Zhu, N., Hu, Y., Xu, H., Lao, X., &amp; Zheng, H. (2022). DRAMP 3.0: an enhanced comprehensive data repository of antimicrobial peptides. <em>Nucleic Acids Research</em>, 50(D1), D488–D496. <a href="https://doi.org/10.1093/nar/gkab1027">https://doi.org/10.1093/nar/gkab1027</a></p>
+</li>
+<li>
+<p>Pirtskhalava, M., Amstrong, A.A., Grigolava, M., Chubinidze, M., Alimbarashvili, E., Vishnepolsky, B., Gabrielian, A., Rosenthal, A., Hurt, D.E., &amp; Tartakovsky, M. (2021). DBAASP v3: database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. <em>Nucleic Acids Research</em>, 49(D1), D288–D297. <a href="https://doi.org/10.1093/nar/gkaa991">https://doi.org/10.1093/nar/gkaa991</a></p>
+</li>
+<li>
+<p>Singh, S., Chaudhary, K., Dhanda, S.K., Bhalla, S., Usmani, S.S., Gautam, A., Tuknait, A., Agrawal, P., Mathur, D., &amp; Raghava, G.P.S. (2016). SATPdb: a database of structurally annotated therapeutic peptides. <em>Nucleic Acids Research</em>, 44(D1), D1119–D1126. <a href="https://doi.org/10.1093/nar/gkv1274">https://doi.org/10.1093/nar/gkv1274</a></p>
+</li>
+<li>
+<p>Tyagi, A., Tuknait, A., Anand, P., Gupta, S., Sharma, M., Mathur, D., Joshi, A., Singh, S., Gautam, A., &amp; Raghava, G.P.S. (2015). CancerPPD: a database of anticancer peptides and proteins. <em>Nucleic Acids Research</em>, 43(D1), D837–D843. <a href="https://doi.org/10.1093/nar/gku1198">https://doi.org/10.1093/nar/gku1198</a></p>
+</li>
+<li>
+<p>Desiere, F., Deutsch, E.W., King, N.L., Nesvizhskii, A.I., Mallick, P., Eng, J., Chen, S., Eddes, J., Loevenich, S.N., &amp; Aebersold, R. (2006). The PeptideAtlas project. <em>Nucleic Acids Research</em>, 34(suppl_1), D655–D658. <a href="https://doi.org/10.1093/nar/gkj040">https://doi.org/10.1093/nar/gkj040</a></p>
+</li>
+<li>
+<p>Perez-Riverol, Y., Bai, J., Bandla, C., García-Seisdedos, D., Hewapathirana, S., Kamatchinathan, S., Kundu, D.J., Prakash, A., Frericks-Zipper, A., Eisenacher, M., Walzer, M., Wang, S., Brazma, A., &amp; Vizcaíno, J.A. (2022). The PRIDE database resources in 2022: a hub for mass spectrometry-based proteomics evidences. <em>Nucleic Acids Research</em>, 50(D1), D543–D552. <a href="https://doi.org/10.1093/nar/gkab1038">https://doi.org/10.1093/nar/gkab1038</a></p>
+</li>
+<li>
+<p>Shtatland, T., Guettler, D., Kossodo, M., Pivovarov, M., &amp; Weissleder, R. (2007). PepBank — a database of peptides based on sequence text mining and public peptide data sources. <em>BMC Bioinformatics</em>, 8, 280. <a href="https://doi.org/10.1186/1471-2105-8-280">https://doi.org/10.1186/1471-2105-8-280</a></p>
+</li>
+<li>
+<p>Usmani, S.S., Bedi, G., Samuel, J.S., Singh, S., Kalra, S., Kumar, P., Ahuja, A.A., Sharma, M., Gautam, A., &amp; Raghava, G.P.S. (2017). THPdb: database of FDA-approved peptide and protein therapeutics. <em>PLoS ONE</em>, 12(7), e0181748. <a href="https://doi.org/10.1371/journal.pone.0181748">https://doi.org/10.1371/journal.pone.0181748</a></p>
+</li>
+<li>
+<p>Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.W., da Silva Santos, L.B., Bourne, P.E., Bouwman, J., Brookes, A.J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C.T., Finkers, R., ... &amp; Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. <em>Scientific Data</em>, 3, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a></p>
+</li>
+<li>
+<p>Minkiewicz, P., Iwaniak, A., &amp; Darewicz, M. (2019). BIOPEP-UWM database of bioactive peptides: current opportunities. <em>International Journal of Molecular Sciences</em>, 20(23), 5978. <a href="https://doi.org/10.3390/ijms20235978">https://doi.org/10.3390/ijms20235978</a></p>
+</li>
+<li>
+<p>Zamyatnin, A.A. (2009). Fragmentomics of proteins and natural oligopeptides. <em>Biochemistry (Moscow)</em>, 73(13), 1457–1471. <a href="https://doi.org/10.1134/S000629790813003X">https://doi.org/10.1134/S000629790813003X</a></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

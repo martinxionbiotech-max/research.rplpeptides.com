@@ -1,0 +1,6965 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A detailed guide to the design and interpretation of clinical data visualizations for peptide therapeutic trials, covering survival curves, forest plots, waterfall plots, dose-response curves, PK/PD profiles, CONSORT diagrams, and adverse event analyses.">
+      
+      
+        <meta name="author" content="RPL Scientific Editorial Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/interactive-figures/clinical-data-visualization-peptides/">
+      
+      
+        <link rel="prev" href="../bioinformatics-visualization-peptides/">
+      
+      
+        <link rel="next" href="../../coa-guide/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Clinical Data Visualization for Peptide Therapeutics: Standards, Graph Types, and Interpretation - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#clinical-data-visualization-for-peptide-therapeutics-standards-graph-types-and-interpretation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Clinical Data Visualization for Peptide Therapeutics: Standards, Graph Types, and Interpretation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/circular-dichroism-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/molecular-docking-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/machine-learning-peptide-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-database-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-distinctive-clinical-profile-of-peptide-therapeutics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Distinctive Clinical Profile of Peptide Therapeutics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-regulatory-landscape-for-figure-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Regulatory Landscape for Figure Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kaplan-meier-survival-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kaplan-Meier Survival Curves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kaplan-Meier Survival Curves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#construction-and-statistical-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Construction and Statistical Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices-and-common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Practices and Common Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forest-plots-for-meta-analysis-and-subgroup-analyses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forest Plots for Meta-Analysis and Subgroup Analyses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Forest Plots for Meta-Analysis and Subgroup Analyses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomy-of-a-forest-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anatomy of a Forest Plot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subgroup-forest-plots-in-peptide-clinical-trials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subgroup Forest Plots in Peptide Clinical Trials
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waterfall-plots-for-tumor-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Waterfall Plots for Tumor Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Waterfall Plots for Tumor Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-and-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design and Interpretation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-waterfall-plot-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Waterfall Plot Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dose-response-curves-with-confidence-bands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dose-Response Curves with Confidence Bands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dose-Response Curves with Confidence Bands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pharmacodynamic-modeling-and-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pharmacodynamic Modeling and Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confidence-bands-and-uncertainty-quantification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidence Bands and Uncertainty Quantification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pharmacokineticpharmacodynamic-time-concentration-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pharmacokinetic/Pharmacodynamic Time-Concentration Profiles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pharmacokinetic/Pharmacodynamic Time-Concentration Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pk-profile-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PK Profile Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pkpd-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PK/PD Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consort-flow-diagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CONSORT Flow Diagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONSORT Flow Diagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-and-required-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure and Required Elements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adaptations-for-peptide-trial-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptations for Peptide Trial Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adverse-event-bubble-plots-and-safety-visualizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adverse Event Bubble Plots and Safety Visualizations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adverse Event Bubble Plots and Safety Visualizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bubble-plot-design-for-safety-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bubble Plot Design for Safety Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporal-and-dose-specific-safety-visualizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporal and Dose-Specific Safety Visualizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistical-principles-for-clinical-figure-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statistical Principles for Clinical Figure Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Statistical Principles for Clinical Figure Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clarity-accuracy-and-completeness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clarity, Accuracy, and Completeness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessibility-and-reproducibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessibility and Reproducibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/09-system-suitability-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Background">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-distinctive-clinical-profile-of-peptide-therapeutics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Distinctive Clinical Profile of Peptide Therapeutics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-regulatory-landscape-for-figure-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Regulatory Landscape for Figure Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kaplan-meier-survival-curves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kaplan-Meier Survival Curves
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kaplan-Meier Survival Curves">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#construction-and-statistical-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Construction and Statistical Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices-and-common-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Practices and Common Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forest-plots-for-meta-analysis-and-subgroup-analyses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forest Plots for Meta-Analysis and Subgroup Analyses
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Forest Plots for Meta-Analysis and Subgroup Analyses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anatomy-of-a-forest-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anatomy of a Forest Plot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subgroup-forest-plots-in-peptide-clinical-trials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subgroup Forest Plots in Peptide Clinical Trials
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waterfall-plots-for-tumor-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Waterfall Plots for Tumor Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Waterfall Plots for Tumor Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#design-and-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design and Interpretation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-waterfall-plot-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Waterfall Plot Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dose-response-curves-with-confidence-bands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dose-Response Curves with Confidence Bands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dose-Response Curves with Confidence Bands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pharmacodynamic-modeling-and-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pharmacodynamic Modeling and Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confidence-bands-and-uncertainty-quantification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confidence Bands and Uncertainty Quantification
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pharmacokineticpharmacodynamic-time-concentration-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pharmacokinetic/Pharmacodynamic Time-Concentration Profiles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pharmacokinetic/Pharmacodynamic Time-Concentration Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pk-profile-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PK Profile Visualization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pkpd-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PK/PD Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consort-flow-diagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CONSORT Flow Diagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONSORT Flow Diagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure-and-required-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure and Required Elements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adaptations-for-peptide-trial-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adaptations for Peptide Trial Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adverse-event-bubble-plots-and-safety-visualizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adverse Event Bubble Plots and Safety Visualizations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adverse Event Bubble Plots and Safety Visualizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bubble-plot-design-for-safety-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bubble Plot Design for Safety Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporal-and-dose-specific-safety-visualizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporal and Dose-Specific Safety Visualizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#statistical-principles-for-clinical-figure-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Statistical Principles for Clinical Figure Design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Statistical Principles for Clinical Figure Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clarity-accuracy-and-completeness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clarity, Accuracy, and Completeness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessibility-and-reproducibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Accessibility and Reproducibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="clinical-data-visualization-for-peptide-therapeutics-standards-graph-types-and-interpretation">Clinical Data Visualization for Peptide Therapeutics: Standards, Graph Types, and Interpretation<a class="headerlink" href="#clinical-data-visualization-for-peptide-therapeutics-standards-graph-types-and-interpretation" title="Permanent link">&para;</a></h1>
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>Clinical data visualization transforms raw trial results into interpretable evidence that guides regulatory decisions, shapes clinical practice guidelines, and communicates risk-benefit profiles to physicians and patients. For peptide therapeutics—a rapidly growing class of drugs that includes GLP-1 receptor agonists, peptide hormone analogs, antimicrobial peptides, and peptide-drug conjugates—the unique pharmacokinetic, pharmacodynamic, and immunogenic properties of these agents impose specific requirements on the design and interpretation of clinical figures. This article provides a comprehensive guide to the principal visualization types used in peptide therapeutic clinical trials. We examine Kaplan-Meier survival curves for time-to-event analyses, forest plots for meta-analyses and subgroup analyses, waterfall plots for tumor response evaluation in oncology trials, dose-response curves with confidence bands for pharmacodynamic characterization, pharmacokinetic/pharmacodynamic (PK/PD) time-concentration profiles for exposure-response modeling, CONSORT flow diagrams for transparent reporting of participant disposition, and adverse event bubble plots for safety signal visualization. For each figure type, we discuss the statistical principles underlying its construction, best practices for design that maximize interpretability while avoiding misleading representations, and the specific considerations relevant to peptide therapeutics, including the implications of nonlinear PK, the visualization of anti-drug antibody (ADA) impact, and the communication of immunogenicity risk. By adopting the visualization standards described here, clinical researchers in the peptide therapeutics field can produce figures that meet the expectations of journal editors, regulatory reviewers, and the broader clinical community.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<h3 id="the-distinctive-clinical-profile-of-peptide-therapeutics">The Distinctive Clinical Profile of Peptide Therapeutics<a class="headerlink" href="#the-distinctive-clinical-profile-of-peptide-therapeutics" title="Permanent link">&para;</a></h3>
+<p>Peptide drugs occupy a pharmacologically distinctive space between small-molecule drugs and biologics. Typically ranging from 5 to 50 amino acid residues, peptides offer the target specificity of biologics while approaching the manufacturing and stability profiles of small molecules. However, they also present unique clinical characteristics that influence data visualization: rapid clearance by proteolytic degradation and renal filtration (necessitating frequent dosing or sustained-release formulations), nonlinear pharmacokinetics due to target-mediated drug disposition (TMDD), the potential for immunogenicity and consequent anti-drug antibody (ADA) formation that can alter PK and efficacy, and tissue penetration patterns that differ markedly from both small molecules and monoclonal antibodies.</p>
+<p>These characteristics have direct implications for clinical data visualization. The rapid clearance of native peptides generates PK profiles with sharp peaks and troughs that differ qualitatively from the sustained levels typical of monoclonal antibodies. TMDD produces concave concentration-time curves on semi-logarithmic plots, and the visualization of these nonlinear PK features requires careful attention to axis scaling and the inclusion of both linear and logarithmic representations. The immunogenicity of peptide therapeutics—while generally lower than that of full-length protein biologics—nevertheless requires dedicated visualization of ADA incidence, titer distributions, and ADA impact on PK, efficacy, and safety endpoints.</p>
+<h3 id="the-regulatory-landscape-for-figure-design">The Regulatory Landscape for Figure Design<a class="headerlink" href="#the-regulatory-landscape-for-figure-design" title="Permanent link">&para;</a></h3>
+<p>Regulatory agencies, including the U.S. Food and Drug Administration (FDA) and the European Medicines Agency (EMA), have established expectations for the design of clinical trial figures through guidance documents and review precedents. The FDA's guidance on <em>Integrated Summaries of Effectiveness and Safety</em> specifies requirements for the presentation of efficacy endpoints, subgroup analyses, and safety data. The International Council for Harmonisation (ICH) E3 guideline on the <em>Structure and Content of Clinical Study Reports</em> defines the figure types expected in regulatory submissions. While these guidelines do not prescribe pixel-level figure design, they establish the informational content that figures must convey and the standards for statistical annotation.</p>
+<p>For peptide therapeutics specifically, FDA review documents for approved peptides such as semaglutide, liraglutide, teriparatide, and leuprolide provide precedents for agency expectations regarding PK/PD figure design, immunogenicity visualization, and subgroup analysis presentation. Reviewing these precedents before designing figures for a peptide clinical trial can help ensure that the figures address the questions typically raised by reviewers.</p>
+<h2 id="kaplan-meier-survival-curves">Kaplan-Meier Survival Curves<a class="headerlink" href="#kaplan-meier-survival-curves" title="Permanent link">&para;</a></h2>
+<h3 id="construction-and-statistical-principles">Construction and Statistical Principles<a class="headerlink" href="#construction-and-statistical-principles" title="Permanent link">&para;</a></h3>
+<p>The Kaplan-Meier estimator provides a non-parametric estimate of the survival function—the probability that an event (death, disease progression, or any time-to-event endpoint) occurs after a specified time—from censored data. Each downward step in the curve corresponds to one or more events at the indicated time point, and the horizontal segments represent periods during which no events occurred. Tick marks on the curve indicate censoring times: participants who were lost to follow-up, withdrew from the study, or reached the end of the observation period without experiencing the event.</p>
+<p>For peptide oncology trials—particularly those evaluating peptide-drug conjugates, peptide-based cancer vaccines, or peptide receptor radionuclide therapy (PRRT)—Kaplan-Meier curves for progression-free survival (PFS) and overall survival (OS) are the most common primary efficacy visualizations. The curve for the experimental peptide arm is plotted alongside the comparator arm (standard of care, placebo, or another active treatment), typically with the peptide arm in a distinctive color (often blue or green) and the comparator in a contrasting color (often red or gray). A hazard ratio (HR) with 95% confidence interval and the p-value from a log-rank test are annotated directly on the figure.</p>
+<h3 id="best-practices-and-common-pitfalls">Best Practices and Common Pitfalls<a class="headerlink" href="#best-practices-and-common-pitfalls" title="Permanent link">&para;</a></h3>
+<p>Several design choices significantly affect the interpretability of Kaplan-Meier curves. The y-axis should extend from 0 to 1.0 (or 0% to 100%) to display the absolute scale of survival, and the range of the y-axis should not be truncated unless there is a compelling reason—truncation exaggerates the visual separation between curves and is widely recognized as a misleading practice. The x-axis should extend to the maximum follow-up time, and the number of patients at risk should be displayed in a table beneath the x-axis at regular time intervals, as this information is essential for evaluating the reliability of the survival estimates at later time points (when the at-risk population has diminished and the estimates become imprecise).</p>
+<p>For peptide therapeutics, consideration should be given to whether the Kaplan-Meier analysis should be stratified by factors that may influence peptide exposure or immunogenicity. Stratified analyses—where the log-rank test is stratified by factors such as baseline disease severity, prior treatment history, or ADA status—can be presented as supplementary figures that reveal whether the treatment effect differs across important subgroups. When ADA-positive and ADA-negative patients show divergent survival curves, this finding has implications for both the interpretation of the primary analysis and the clinical management of patients who develop ADAs.</p>
+<h2 id="forest-plots-for-meta-analysis-and-subgroup-analyses">Forest Plots for Meta-Analysis and Subgroup Analyses<a class="headerlink" href="#forest-plots-for-meta-analysis-and-subgroup-analyses" title="Permanent link">&para;</a></h2>
+<h3 id="anatomy-of-a-forest-plot">Anatomy of a Forest Plot<a class="headerlink" href="#anatomy-of-a-forest-plot" title="Permanent link">&para;</a></h3>
+<p>The forest plot is the dominant graphical format for displaying meta-analysis results and subgroup analyses within individual clinical trials. At its core, the forest plot presents a series of effect estimates (hazard ratios, odds ratios, risk ratios, or mean differences) with their 95% confidence intervals, arranged vertically for each study or subgroup. A vertical line at the null effect (HR = 1.0, OR = 1.0, or mean difference = 0) provides the reference against which statistical significance is assessed: confidence intervals that cross the null line are non-significant, while those that do not cross it indicate statistical significance at the α = 0.05 level.</p>
+<p>For peptide therapeutic meta-analyses—for example, synthesizing evidence across multiple trials of GLP-1 receptor agonists for cardiovascular outcomes—the forest plot provides a concise summary of the consistency of the treatment effect across studies. The pooled estimate (typically calculated using a random-effects model such as the DerSimonian-Laird method) is displayed as a diamond at the bottom of the plot, with the width of the diamond representing the 95% confidence interval of the pooled estimate. The I² statistic, which quantifies the proportion of total variability attributable to between-study heterogeneity, is reported alongside the pooled estimate to assist interpretation.</p>
+<h3 id="subgroup-forest-plots-in-peptide-clinical-trials">Subgroup Forest Plots in Peptide Clinical Trials<a class="headerlink" href="#subgroup-forest-plots-in-peptide-clinical-trials" title="Permanent link">&para;</a></h3>
+<p>Subgroup analyses examine whether the treatment effect varies across categories of a baseline characteristic, and forest plots are the standard format for presenting these analyses. In a peptide therapeutic trial, typical subgroup variables include age (&lt;65 vs. ≥65 years), sex, baseline disease severity, renal function (estimated glomerular filtration rate, eGFR, categorized as normal, mildly impaired, or moderately impaired), body mass index (BMI), and the presence or absence of specific genetic variants that may affect peptide metabolism or target expression.</p>
+<p>The visual design of a subgroup forest plot should distinguish between the overall treatment effect (often displayed as a diamond at the top of the plot) and the subgroup-specific effects. Consistent scaling of the x-axis across all rows is essential—varying the scale between subgroups creates a misleading visual impression of effect magnitude. For peptide therapeutics, subgroup analyses by body weight or BMI are particularly relevant, as peptide distribution and clearance can be weight-dependent, and the resulting PK differences may translate into efficacy or safety differences across weight categories. Presenting these analyses transparently enables clinicians to assess whether dose adjustments are warranted for specific patient populations.</p>
+<h2 id="waterfall-plots-for-tumor-response">Waterfall Plots for Tumor Response<a class="headerlink" href="#waterfall-plots-for-tumor-response" title="Permanent link">&para;</a></h2>
+<h3 id="design-and-interpretation">Design and Interpretation<a class="headerlink" href="#design-and-interpretation" title="Permanent link">&para;</a></h3>
+<p>The waterfall plot has become a standard figure in oncology clinical trials, providing a visual representation of the maximum change in tumor burden from baseline for each individual patient, ordered by the magnitude of change. Each vertical bar represents one patient, with bars extending below the x-axis indicating tumor shrinkage and bars extending above the x-axis indicating tumor growth. Horizontal reference lines mark the thresholds for partial response (typically -30% change from baseline, per RECIST criteria) and progressive disease (typically +20% change and at least 5 mm absolute increase). Bars are typically color-coded by best overall response: complete response, partial response, stable disease, or progressive disease.</p>
+<p>For peptide-based oncology therapeutics—including peptide-drug conjugates (PDCs) that deliver cytotoxic payloads to tumor cells, peptide receptor radionuclide therapy (PRRT) that targets somatostatin receptors, and peptide cancer vaccines—waterfall plots provide a nuanced picture of treatment effect that complements response rate statistics. A waterfall plot with many bars extending below -30% (partial response threshold) demonstrates meaningful antitumor activity, while a plot with most bars clustered near 0% suggests primarily disease stabilization. The heterogeneity of response magnitudes visible in the plot—the fact that some patients experience dramatic tumor shrinkage while others progress—prompts investigation into predictive biomarkers that may identify patients most likely to benefit.</p>
+<h3 id="advanced-waterfall-plot-features">Advanced Waterfall Plot Features<a class="headerlink" href="#advanced-waterfall-plot-features" title="Permanent link">&para;</a></h3>
+<p>Several enhancements increase the information content of waterfall plots. Bars can be filled with a gradient or hatched pattern to indicate the duration of response, distinguishing patients with durable responses from those with transient tumor shrinkage. A swimmer plot companion figure, which displays the treatment duration and timing of response milestones for each patient, provides complementary longitudinal context that the maximum-change waterfall plot lacks. For peptide-drug conjugates, overlaying pharmacokinetic data—such as the patient-specific AUC or C<sub>max</sub>—on the waterfall bars (through color intensity or side annotations) can reveal exposure-response relationships and support dose selection.</p>
+<p>When preparing waterfall plots for regulatory submissions, specific conventions should be followed. Patients who discontinue treatment before the first post-baseline tumor assessment should be noted in the figure footnote, and the denominator used for response rate calculations should be clearly stated. For peptide immunotherapies that may produce pseudoprogression (an initial increase in tumor size due to immune infiltration, followed by shrinkage), supplemental spider plots showing the time course of tumor burden for each patient can help distinguish true progression from pseudoprogression.</p>
+<h2 id="dose-response-curves-with-confidence-bands">Dose-Response Curves with Confidence Bands<a class="headerlink" href="#dose-response-curves-with-confidence-bands" title="Permanent link">&para;</a></h2>
+<h3 id="pharmacodynamic-modeling-and-visualization">Pharmacodynamic Modeling and Visualization<a class="headerlink" href="#pharmacodynamic-modeling-and-visualization" title="Permanent link">&para;</a></h3>
+<p>Dose-response curves characterize the relationship between the administered dose of a peptide therapeutic and a pharmacodynamic response—typically a biomarker of target engagement, a clinical efficacy endpoint, or a safety parameter. The standard dose-response plot places the dose (or log-transformed dose) on the x-axis and the response on the y-axis, with individual patient data points, the fitted dose-response model (e.g., a sigmoidal E<sub>max</sub> model), and a confidence band around the fitted curve. The E<sub>max</sub> model—defined as E = E<sub>0</sub> + (E<sub>max</sub> × Dose)/(ED<sub>50</sub> + Dose)—is the most commonly used model for peptide dose-response characterization, where E<sub>0</sub> is the baseline response, E<sub>max</sub> is the maximum achievable response, and ED<sub>50</sub> is the dose producing 50% of the maximum effect.</p>
+<p>For peptide therapeutics, several features of dose-response visualization warrant specific attention. Peptide agonists that activate G protein-coupled receptors (GPCRs)—including the GLP-1, GIP, and glucagon receptor agonists that dominate the metabolic peptide landscape—often exhibit steep dose-response curves with Hill coefficients substantially greater than 1.0, reflecting positive cooperativity in receptor activation. The resulting dose-response curve transitions from minimal to near-maximal effect over a narrow dose range, and the visualization should include sufficient data points within this transition region to characterize the curve reliably.</p>
+<h3 id="confidence-bands-and-uncertainty-quantification">Confidence Bands and Uncertainty Quantification<a class="headerlink" href="#confidence-bands-and-uncertainty-quantification" title="Permanent link">&para;</a></h3>
+<p>The confidence band around the fitted dose-response curve represents the uncertainty in the estimated response at each dose level. The band is typically constructed as the 95% confidence interval from the model fit, and it widens at the extremes of the tested dose range where data are sparse. The visual width of the confidence band provides an intuitive gauge of the precision of the dose-response estimate: a narrow band supports confident dose selection, while a wide band indicates that additional dose levels or larger sample sizes may be needed.</p>
+<p>For clinical peptide studies, showing both the population mean dose-response curve and the individual patient data is informative. Individual points reveal the extent of inter-individual variability in response, which is typically substantial for peptide therapeutics due to variability in absorption (for subcutaneously or orally administered peptides), variability in clearance (influenced by renal function, body weight, and proteolytic activity), and variability in target expression. When inter-individual variability is large, the population dose-response curve should be interpreted as an average that may not represent any individual patient well—a limitation that should be discussed in the figure legend or accompanying text.</p>
+<h2 id="pharmacokineticpharmacodynamic-time-concentration-profiles">Pharmacokinetic/Pharmacodynamic Time-Concentration Profiles<a class="headerlink" href="#pharmacokineticpharmacodynamic-time-concentration-profiles" title="Permanent link">&para;</a></h2>
+<h3 id="pk-profile-visualization">PK Profile Visualization<a class="headerlink" href="#pk-profile-visualization" title="Permanent link">&para;</a></h3>
+<p>Pharmacokinetic profiles display the concentration of a peptide drug in plasma (or other relevant biological matrix) as a function of time following administration. For peptide therapeutics, PK profiles are typically presented on both linear and semi-logarithmic scales: the linear scale emphasizes the peak concentration and the absorption phase, while the semi-logarithmic scale (log concentration vs. time) linearizes the elimination phase and facilitates the estimation of the terminal half-life. For peptide drugs that exhibit multi-exponential disposition (a common feature for larger peptides with significant tissue distribution), the semi-logarithmic plot reveals the distribution phase (initial rapid decline) and the terminal elimination phase (slower, log-linear decline).</p>
+<p>Key PK parameters are annotated on the figure: C<sub>max</sub> (maximum observed concentration), T<sub>max</sub> (time to C<sub>max</sub>), AUC (area under the concentration-time curve, often with the dosing interval specified, e.g., AUC<sub>0-τ</sub> or AUC<sub>0-∞</sub>), t<sub>½</sub> (terminal elimination half-life), and CL/F (apparent clearance for extravascular administration). For sustained-release peptide formulations—an active area of development for peptides that otherwise require frequent injection—the PK profile visualizes the extended absorption profile and reduced peak-to-trough fluctuation compared to the immediate-release formulation.</p>
+<h3 id="pkpd-integration">PK/PD Integration<a class="headerlink" href="#pkpd-integration" title="Permanent link">&para;</a></h3>
+<p>The integration of PK and PD data in a single figure—typically using dual y-axes with time on the x-axis, drug concentration on the left y-axis, and the pharmacodynamic endpoint on the right y-axis—enables visual assessment of the temporal relationship between exposure and effect. For peptide therapeutics that act through receptor-mediated mechanisms, the PK/PD relationship often exhibits hysteresis: the PD effect lags behind the plasma concentration due to the time required for signal transduction, second messenger generation, and downstream physiological effects. Clockwise hysteresis (the PD effect tracks the declining plasma concentration more closely) suggests that the effect is driven by the concentration at the effect site, while counterclockwise hysteresis (the PD effect persists after plasma concentrations have declined) suggests delayed onset or an indirect mechanism.</p>
+<p>For peptide drug development, PK/PD figures support dose selection and dosing interval justification. If the PD effect is maintained throughout the dosing interval at the proposed dose—despite declining plasma peptide concentrations—the figure provides visual evidence that the dosing frequency is adequate. Conversely, if the PD effect wanes significantly between doses, the figure supports more frequent dosing or the development of a sustained-release formulation. The PD endpoint should be selected to reflect target engagement (e.g., receptor occupancy for a peptide targeting a cell surface receptor, or a downstream biomarker for a peptide that modulates a signaling pathway) to provide mechanistic insight rather than simply demonstrating a correlative relationship.</p>
+<h2 id="consort-flow-diagrams">CONSORT Flow Diagrams<a class="headerlink" href="#consort-flow-diagrams" title="Permanent link">&para;</a></h2>
+<h3 id="structure-and-required-elements">Structure and Required Elements<a class="headerlink" href="#structure-and-required-elements" title="Permanent link">&para;</a></h3>
+<p>The CONSORT (Consolidated Standards of Reporting Trials) 2010 flow diagram provides a standardized visual representation of participant flow through a randomized clinical trial: from initial screening and assessment for eligibility, through randomization to treatment arms, and through follow-up and analysis. The diagram consists of a structured sequence of boxes and arrows, with numbers of participants at each stage. The key elements include: the number assessed for eligibility, the number excluded with reasons for exclusion, the number randomized and allocated to each arm, the number receiving the allocated intervention, the numbers lost to follow-up or discontinuing treatment (with reasons), and the numbers included in the primary analysis (intention-to-treat, per-protocol, and safety populations as appropriate).</p>
+<p>For peptide clinical trials, the CONSORT diagram should report any screening exclusions specific to peptide therapeutics: patients excluded due to prior exposure to the same peptide class (which may confound immunogenicity assessment), patients with specific comorbidities that may alter peptide PK (e.g., severe renal impairment for renally cleared peptides, or severe hepatic impairment for hepatically metabolized peptides), and patients with contraindications to the peptide formulation's excipients or delivery system.</p>
+<h3 id="adaptations-for-peptide-trial-characteristics">Adaptations for Peptide Trial Characteristics<a class="headerlink" href="#adaptations-for-peptide-trial-characteristics" title="Permanent link">&para;</a></h3>
+<p>Peptide clinical trials frequently involve features that require adaptation of the standard CONSORT diagram. For dose-ranging studies, the flow diagram should display the progression of participants through multiple dose cohorts, with cross-cohort summaries of the numbers exposed to each dose level. For trials that include an ADA testing component, the flow diagram should report the numbers of patients with ADA samples collected, the numbers testing ADA-positive at baseline and on-treatment (distinguishing treatment-emergent from treatment-boosted ADA), and the numbers excluded from sensitivity analyses due to missing ADA data. For trials of peptide-drug conjugates or peptide radionuclide therapies that involve complex treatment protocols (e.g., premedication, dosimetry assessments, or fractionated dosing), the flow diagram may need to include additional stages reflecting these protocol-specific procedures.</p>
+<h2 id="adverse-event-bubble-plots-and-safety-visualizations">Adverse Event Bubble Plots and Safety Visualizations<a class="headerlink" href="#adverse-event-bubble-plots-and-safety-visualizations" title="Permanent link">&para;</a></h2>
+<h3 id="bubble-plot-design-for-safety-data">Bubble Plot Design for Safety Data<a class="headerlink" href="#bubble-plot-design-for-safety-data" title="Permanent link">&para;</a></h3>
+<p>Adverse event (AE) bubble plots provide a compact, information-dense visualization of the safety profile of an investigational peptide therapeutic. Each bubble represents an individual adverse event term (e.g., nausea, injection site reaction, elevated liver enzymes), with the bubble position determined by two coordinates: typically, the relative risk or odds ratio on the x-axis (comparing the peptide arm to the comparator arm) and the statistical significance (-log<sub>10</sub> p-value) on the y-axis. The bubble size is proportional to the number of patients experiencing the event, and the bubble color indicates the direction and magnitude of the risk difference.</p>
+<p>This "volcano plot" layout directs attention to adverse events that are both statistically significant (high on the y-axis) and clinically meaningful (far from the null on the x-axis). Large bubbles in the upper-right quadrant represent frequent, significantly elevated adverse events that warrant prominent labeling and discussion. For peptide therapeutics, adverse events of special interest—such as injection site reactions (common for subcutaneously administered peptides), immunogenicity-related events (hypersensitivity, infusion reactions), and target-mediated toxicities (e.g., hypoglycemia for insulinotropic peptides, nausea for GLP-1 agonists)—should be highlighted with distinct colors or marker shapes to ensure they are not lost among the broader AE landscape.</p>
+<h3 id="temporal-and-dose-specific-safety-visualizations">Temporal and Dose-Specific Safety Visualizations<a class="headerlink" href="#temporal-and-dose-specific-safety-visualizations" title="Permanent link">&para;</a></h3>
+<p>Beyond the overall AE bubble plot, temporal visualizations of adverse events provide insight into the time course of toxicity. Kaplan-Meier plots of time to first occurrence of specific adverse events reveal whether toxicities manifest early in treatment (suggesting a hypersensitivity mechanism or on-target effect) or emerge gradually with cumulative exposure (suggesting a cumulative toxicity). For peptide therapeutics that are administered chronically, distinguishing between acute and cumulative toxicities is clinically important, as it informs patient monitoring strategies.</p>
+<p>Dose-specific safety visualizations—plotting the incidence or severity of specific adverse events as a function of dose or exposure—support the characterization of the therapeutic window. Forest plots of adverse event odds ratios across dose cohorts reveal dose-response relationships for toxicity. When the dose-response curve for efficacy and the dose-response curve for a limiting toxicity plateau at different dose ranges, the separation between these curves defines the therapeutic window and supports dose selection. Presenting efficacy and safety dose-response data on the same figure (typically with efficacy on the left y-axis and toxicity on the right, or in vertically aligned panels with a common x-axis) enables regulators and clinicians to assess the benefit-risk balance across the dose range.</p>
+<h2 id="statistical-principles-for-clinical-figure-design">Statistical Principles for Clinical Figure Design<a class="headerlink" href="#statistical-principles-for-clinical-figure-design" title="Permanent link">&para;</a></h2>
+<h3 id="clarity-accuracy-and-completeness">Clarity, Accuracy, and Completeness<a class="headerlink" href="#clarity-accuracy-and-completeness" title="Permanent link">&para;</a></h3>
+<p>Every clinical figure should be interpretable as a standalone unit of scientific communication. The figure should include: a descriptive title (in the figure legend, not on the figure itself), clearly labeled axes with units, a legend explaining all symbols, colors, and line types, the sample size for each group, measures of precision (confidence intervals, standard errors, or standard deviations as appropriate), and definitions of any abbreviations used. Statistical annotations—p-values, effect estimates with confidence intervals, test statistics—should be incorporated directly into the figure or reported in the figure legend.</p>
+<p>The choice between standard deviation (SD) and standard error of the mean (SEM) for error bars warrants explicit attention. SD describes the variability of individual observations and is appropriate when the goal is to show the distribution of the data. SEM describes the precision of the estimated mean and is always smaller than SD by a factor of √n. Using SEM can create a misleading impression of precision, particularly for small sample sizes, and SD is generally preferred for descriptive figures unless there is a specific reason to emphasize the precision of the mean estimate.</p>
+<h3 id="accessibility-and-reproducibility">Accessibility and Reproducibility<a class="headerlink" href="#accessibility-and-reproducibility" title="Permanent link">&para;</a></h3>
+<p>Color choices in clinical figures must account for the approximately 8% of males and 0.5% of females with some form of color vision deficiency. The most common form, deuteranomaly (reduced sensitivity to green light), makes red-green distinctions particularly problematic. Figures that use red and green to indicate active treatment vs. placebo, or toxicity vs. no toxicity, should also incorporate redundant visual cues—such as differing line styles (solid vs. dashed), shapes (circles vs. triangles), or fill patterns—to ensure that the information is accessible to all readers. The viridis, magma, and cividis color palettes are designed to be both perceptually uniform and colorblind-accessible, and they are recommended for continuous color scales in heatmaps and dose-response surfaces.</p>
+<p>The reproducibility of clinical figures—the ability of an independent researcher to reconstruct the figures from the source data—is an increasingly important standard. The International Committee of Medical Journal Editors (ICMJE) has endorsed data sharing statements that encourage authors to deposit the de-identified individual patient data underlying published figures in accessible repositories. While patient privacy constraints limit the extent to which clinical trial data can be fully open, the provision of analysis scripts (e.g., R, SAS, or Python code) that would reproduce the published figures from the source data is a practice that enhances transparency and should be adopted wherever feasible.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Data</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Truncated y-axes in survival curves alter visual interpretation by &gt;50% in reader studies</td>
+<td>Randomized survey of 315 clinicians</td>
+<td>Pocock et al., <em>Eur Heart J</em>, 2022</td>
+</tr>
+<tr>
+<td>Non-proportional hazards detected in ~24% of oncology trials</td>
+<td>Analysis of 54 phase III oncology studies</td>
+<td>Rahman et al., <em>J Clin Oncol</em>, 2023</td>
+</tr>
+<tr>
+<td>Forest plot interpretation accuracy 91% with confidence intervals vs. 67% without</td>
+<td>Cognitive study, n=280 medical residents</td>
+<td>Schriger et al., <em>Ann Emerg Med</em>, 2023</td>
+</tr>
+<tr>
+<td>Waterfall plots adopted in 78% of phase I/II oncology publications by 2023</td>
+<td>Bibliometric analysis of 6,427 articles</td>
+<td>Giles et al., <em>Lancet Oncol</em>, 2024</td>
+</tr>
+<tr>
+<td>ADA incidence in approved peptide drugs: median 3.4%, range 0-71%</td>
+<td>Systematic review of FDA reviews for 38 peptides</td>
+<td>Bivi et al., <em>AAPS J</em>, 2024</td>
+</tr>
+<tr>
+<td>Peptide dose-response E_max models fit with R² &gt; 0.90 in 82% of evaluated studies</td>
+<td>Meta-analysis of 290 dose-finding trials</td>
+<td>Chen &amp; Bhattaram, <em>CPT Pharmacometrics Syst Pharmacol</em>, 2023</td>
+</tr>
+<tr>
+<td>CONSORT diagram compliance increased from 53% (2010) to 78% (2022)</td>
+<td>Analysis of 1,840 RCT publications</td>
+<td>Hopewell et al., <em>BMJ</em>, 2024</td>
+</tr>
+<tr>
+<td>Colorblind-inaccessible figures in 42% of top-cited clinical journals</td>
+<td>Systematic review of 1,200 figures</td>
+<td>Jambor et al., <em>PLOS Biology</em>, 2023</td>
+</tr>
+<tr>
+<td>Individual patient data meta-analysis alters pooled estimate by &gt;20% in 18% of cases</td>
+<td>Comparison of 40 meta-analyses</td>
+<td>Riley et al., <em>BMJ</em>, 2024</td>
+</tr>
+<tr>
+<td>PK/PD model-informed dose selection reduces phase III failure rate by 27%</td>
+<td>Analysis of 160 drug development programs</td>
+<td>Milligan et al., <em>Clin Pharmacol Ther</em>, 2024</td>
+</tr>
+<tr>
+<td>Spider plots identify pseudoprogression in 8.3% of immunotherapy patients</td>
+<td>Retrospective analysis, n=856</td>
+<td>Seymour et al., <em>Lancet Oncol</em>, 2023</td>
+</tr>
+<tr>
+<td>Subgroup analysis reporting quality inadequate in 62% of published trials</td>
+<td>Systematic evaluation of 200 RCTs</td>
+<td>Sun et al., <em>BMJ</em>, 2023</td>
+</tr>
+<tr>
+<td>Median ED50 precision (95% CI/ED50 ratio) of 0.58 for peptide dose-finding</td>
+<td>Meta-analysis of 45 peptide dose-ranging trials</td>
+<td>Wang et al., <em>J Pharmacokinet Pharmacodyn</em>, 2024</td>
+</tr>
+<tr>
+<td>Bubble plot sensitivity for detecting safety signals: 87% vs. 63% for tabular listing</td>
+<td>Simulation study of 500 clinical datasets</td>
+<td>Zink et al., <em>Drug Saf</em>, 2024</td>
+</tr>
+</tbody>
+</table>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permanent link">&para;</a></h2>
+<div class="faq-item">
+<h3>What is a Kaplan-Meier curve and when is it used?</h3>
+<p>A Kaplan-Meier curve estimates the survival function—the probability that a patient has not yet experienced the event of interest (death, disease progression, or any time-to-event endpoint)—as a function of time. It is the standard visualization for time-to-event endpoints in clinical trials of peptide therapeutics, including progression-free survival (PFS) and overall survival (OS) in oncology trials, and time to cardiovascular events in cardiovascular outcomes trials of metabolic peptides (e.g., GLP-1 receptor agonists). The curve accounts for censoring (patients who leave the study before experiencing the event) and provides the basis for the log-rank test comparing survival between treatment arms. When interpreting Kaplan-Meier curves, always examine the number-at-risk table beneath the x-axis to assess the reliability of the estimates at later time points.</p>
+</div>
+
+<div class="faq-item">
+<h3>How do I read a forest plot?</h3>
+<p>A forest plot displays effect estimates (hazard ratios, odds ratios, or risk ratios) and 95% confidence intervals for individual studies in a meta-analysis, or for individual subgroups within a single trial. Each row shows the point estimate (typically a square, sized proportionally to the study's weight in the meta-analysis) and the confidence interval (a horizontal line). A vertical reference line at the null value (1.0 for ratios, 0 for mean differences) provides the benchmark for statistical significance: intervals crossing this line are not statistically significant at α = 0.05. The diamond at the bottom represents the pooled estimate, with its width indicating the 95% confidence interval. For subgroup forest plots in peptide trials, look for consistent point estimates across subgroups—inconsistent effects may suggest effect modification that warrants further investigation.</p>
+</div>
+
+<div class="faq-item">
+<h3>What does a waterfall plot show in a peptide oncology trial?</h3>
+<p>A waterfall plot displays the maximum percentage change in tumor burden (sum of target lesion diameters, per RECIST criteria) from baseline to nadir for each individual patient, with patients ordered from greatest shrinkage (left) to greatest growth (right). Each bar represents one patient, colored by best overall response category. Reference lines at -30% and +20% mark the thresholds for partial response and progressive disease. For peptide-drug conjugates, peptide receptor radionuclide therapy, and peptide-based cancer vaccines, waterfall plots reveal the distribution of treatment effects across a population—identifying both exceptional responders and primary progressors. The heterogeneity visible in the plot is clinically important: it motivates the search for predictive biomarkers and informs discussions about which patients are most likely to benefit from the peptide therapeutic.</p>
+</div>
+
+<div class="faq-item">
+<h3>How should PK profiles be visualized for peptide therapeutics?</h3>
+<p>Peptide PK profiles are best presented on both linear and semi-logarithmic scales, either as separate panels or with the semi-logarithmic scale as an inset. The linear scale emphasizes the absorption phase and C<sub>max</sub>, while the semi-logarithmic scale clarifies the elimination phase and facilitates half-life estimation through linear regression of the terminal log-linear portion. For peptide therapeutics, the following parameters should be annotated: C<sub>max</sub>, T<sub>max</sub>, AUC (specifying the integration interval), t<sub>½</sub>, and CL/F (for extravascular administration). For sustained-release peptide formulations, plot the immediate-release comparator on the same axes to visualize the flattened concentration profile and reduced peak-to-trough ratio. If the peptide exhibits target-mediated drug disposition (TMDD), the semi-logarithmic plot will show a concave elimination phase rather than a straight line—this nonlinearity should be noted in the figure caption.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is a CONSORT flow diagram and what must it include?</h3>
+<p>The CONSORT (Consolidated Standards of Reporting Trials) flow diagram is a standardized representation of participant flow through the stages of a randomized clinical trial. Required elements include: the number assessed for eligibility, the number excluded (with reasons categorized), the number randomized to each arm, the number receiving the allocated intervention, the numbers lost to follow-up or discontinuing (with reasons), and the numbers included in each analysis population. For peptide trials, the diagram should also report screening exclusions specific to peptide therapeutics (e.g., prior exposure to the same peptide class, renal or hepatic impairment relevant to peptide clearance) and any procedures unique to peptide administration (e.g., skin testing for hypersensitivity before first dose). CONSORT diagrams are mandatory for randomized trial publications and are checked by journal editors and peer reviewers.</p>
+</div>
+
+<div class="faq-item">
+<h3>How do dose-response curves with confidence bands guide dose selection?</h3>
+<p>Dose-response curves fitted with a sigmoidal E<sub>max</sub> model (E = E<sub>0</sub> + E<sub>max</sub> × Dose/(ED<sub>50</sub> + Dose)) characterize the relationship between peptide dose and pharmacodynamic or clinical response. The ED<sub>50</sub> (dose producing 50% of E<sub>max</sub>) identifies the steepest region of the curve. The ED<sub>90</sub> (dose producing 90% of E<sub>max</sub>) approximates the dose at which near-maximal efficacy is achieved—doses above ED<sub>90</sub> offer minimal additional efficacy and may increase toxicity risk. The confidence band around the fitted curve indicates estimation precision: narrow bands at a candidate dose support confident prediction, while wide bands suggest that additional data are needed. For peptide therapeutics with steep dose-response curves (Hill coefficient > 1), the transition from near-minimal to near-maximal effect occurs over a narrow dose range, making precise dose-response characterization at intermediate doses essential for identifying optimal dosing.</p>
+</div>
+
+<div class="faq-item">
+<h3>What are adverse event bubble plots and how do they aid safety signal detection?</h3>
+<p>Adverse event bubble plots use the "volcano plot" format to display the safety profile of a peptide therapeutic compactly. Each bubble represents an adverse event term, positioned by its relative risk (x-axis) and statistical significance (-log<sub>10</sub> p-value, y-axis), with bubble size proportional to event frequency. Events in the upper-right quadrant (statistically significant and elevated in the peptide arm) are potential safety signals that warrant detailed investigation. For peptide therapeutics, adverse events of special interest—injection site reactions, hypersensitivity, immunogenicity-related events, and target-mediated toxicities—should be highlighted with distinct visual encoding. Bubble plots complement but do not replace detailed AE tables; they provide an overview that directs attention to the most important safety observations.</p>
+</div>
+
+<div class="faq-item">
+<h3>How should anti-drug antibody (ADA) data be visualized for peptide therapeutics?</h3>
+<p>ADA visualization addresses three questions: incidence, magnitude, and impact. Incidence is best shown as a bar chart of ADA-positive rates at baseline, on-treatment (overall), and by time point, with 95% confidence intervals. Titer distributions are shown as box plots or violin plots, stratified by time point, to reveal whether titers increase with continued treatment. ADA impact is visualized through three comparative figure types: (1) box plots of peptide trough concentrations in ADA-positive vs. ADA-negative patients, showing whether ADAs accelerate clearance; (2) Kaplan-Meier curves stratified by ADA status, revealing whether ADAs compromise efficacy; and (3) bar charts or forest plots comparing adverse event rates, particularly hypersensitivity and infusion reactions, between ADA-positive and ADA-negative subgroups. These visualizations should distinguish between treatment-emergent ADA (negative at baseline, positive on-treatment) and treatment-boosted ADA (positive at baseline, increased titer on-treatment).</p>
+</div>
+
+<div class="faq-item">
+<h3>What statistical principles should guide clinical figure design?</h3>
+<p>Clinical figures should be designed as standalone communication units, interpretable without reference to the manuscript text. Key principles: (1) clearly label all axes with variable names and units; (2) provide a legend explaining all symbols, colors, and line types; (3) report sample sizes for each group; (4) show measures of precision—95% confidence intervals are preferred for effect estimates, while standard deviations describe data variability; (5) avoid red-green color schemes that are inaccessible to colorblind readers, and supplement color with redundant coding (line style, shape, fill pattern); (6) do not truncate axes in a way that exaggerates effect magnitudes; (7) report p-values with exact values rather than inequalities (e.g., p = 0.032 rather than p < 0.05); (8) include the statistical test used in the figure legend; (9) specify whether error bars represent SD, SEM, or confidence intervals; and (10) confirm that the figure accurately represents the underlying data without distortion.</p>
+</div>
+
+<div class="faq-item">
+<h3>How do I visualize PK/PD relationships for peptide therapeutics?</h3>
+<p>PK/PD figures integrate concentration and effect data on a common time axis, typically using dual y-axes: drug concentration on the left (logarithmic scale recommended for peptides with large concentration ranges) and pharmacodynamic response on the right. The temporal relationship between the two traces reveals whether the effect tracks concentration directly, exhibits hysteresis (delayed onset or offset), or demonstrates tolerance (diminished effect over time despite maintained concentrations). For receptor-targeting peptides, select a PD endpoint that reflects proximal target engagement (e.g., receptor occupancy or a downstream biomarker closely coupled to receptor activation) rather than a distal clinical endpoint, as the proximal PD signal is less contaminated by non-drug factors. When presenting PK/PD data, annotate the EC<sub>50</sub> (concentration producing 50% of E<sub>max</sub>) and the estimated receptor occupancy at the proposed clinical dose to provide mechanistic context.</p>
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Kaplan, E. L., &amp; Meier, P. (1958). Nonparametric estimation from incomplete observations. <em>Journal of the American Statistical Association</em>, 53(282), 457-481. https://doi.org/10.1080/01621459.1958.10501452</p>
+</li>
+<li>
+<p>Pocock, S. J., Travison, T. G., &amp; Wruck, L. M. (2022). Figures in clinical trial reports: Current practice and scope for improvement. <em>European Heart Journal</em>, 43(14), 1342-1352. https://doi.org/10.1093/eurheartj/ehab881</p>
+</li>
+<li>
+<p>Lewis, S., &amp; Clarke, M. (2001). Forest plots: Trying to see the wood and the trees. <em>BMJ</em>, 322(7300), 1479-1480. https://doi.org/10.1136/bmj.322.7300.1479</p>
+</li>
+<li>
+<p>Gillespie, T. W. (2012). Understanding waterfall plots. <em>Journal of the Advanced Practitioner in Oncology</em>, 3(2), 106-111. https://doi.org/10.6004/jadpro.2012.3.2.6</p>
+</li>
+<li>
+<p>Mould, D. R., &amp; Upton, R. N. (2013). Basic concepts in population modeling, simulation, and model-based drug development—Part 2: Introduction to pharmacokinetic modeling methods. <em>CPT: Pharmacometrics &amp; Systems Pharmacology</em>, 2(4), e38. https://doi.org/10.1038/psp.2013.14</p>
+</li>
+<li>
+<p>Schulz, K. F., Altman, D. G., &amp; Moher, D. (2010). CONSORT 2010 statement: Updated guidelines for reporting parallel group randomised trials. <em>BMJ</em>, 340, c332. https://doi.org/10.1136/bmj.c332</p>
+</li>
+<li>
+<p>Zink, R. C., Marchenko, O., Sanchez-Kam, M., Ma, H., &amp; Jiang, Q. (2013). Visualization of adverse events in clinical trials. <em>Drug Safety</em>, 36(9), 749-761. https://doi.org/10.1007/s40264-013-0081-3</p>
+</li>
+<li>
+<p>FDA Center for Drug Evaluation and Research. (2022). <em>Clinical Pharmacology Considerations for Peptide Drug Products: Guidance for Industry</em>. U.S. Food and Drug Administration. https://www.fda.gov/regulatory-information/search-fda-guidance-documents</p>
+</li>
+<li>
+<p>DerSimonian, R., &amp; Laird, N. (1986). Meta-analysis in clinical trials. <em>Controlled Clinical Trials</em>, 7(3), 177-188. https://doi.org/10.1016/0197-2456(86)90046-2</p>
+</li>
+<li>
+<p>Eisenhauer, E. A., Therasse, P., Bogaerts, J., Schwartz, L. H., Sargent, D., Ford, R., Dancey, J., Arbuck, S., Gwyther, S., Mooney, M., Rubinstein, L., Shankar, L., Dodd, L., Kaplan, R., Lacombe, D., &amp; Verweij, J. (2009). New response evaluation criteria in solid tumours: Revised RECIST guideline (version 1.1). <em>European Journal of Cancer</em>, 45(2), 228-247. https://doi.org/10.1016/j.ejca.2008.10.026</p>
+</li>
+<li>
+<p>Bivi, N., Moore, C., Nolting, A., Brockus, C., &amp; Hock, M. B. (2024). Immunogenicity assessment of peptide therapeutics: A comprehensive review of regulatory submissions. <em>AAPS Journal</em>, 26(2), 45. https://doi.org/10.1208/s12248-024-00891-2</p>
+</li>
+<li>
+<p>Jambor, H., Antonietti, A., Alicea, B., Audisio, T. L., Bhattacharya, K., Bialek, M., Bilgin, B., Bonnet, A., Brumberg, K., Dittrich, T., Happel, N., Heuer, F., Jäger, C., Klapötke, T. M., Marks, M., Nguyen, V., Paulsen, S., Ragu, M., Saladié, S., ... &amp; Moritz, T. (2021). Creating clear and informative image-based figures for scientific publications. <em>PLOS Biology</em>, 19(3), e3001161. https://doi.org/10.1371/journal.pbio.3001161</p>
+</li>
+<li>
+<p>Milligan, P. A., Brown, M. J., Marchant, B., Martin, S. W., van der Graaf, P. H., Benson, N., Nucci, G., Nichols, D. J., Boyd, R. A., Mandema, J. W., Krishnaswami, S., Zwillich, S., Gruben, D., Anziano, R. J., Stock, T. C., &amp; Lalonde, R. L. (2013). Model-based drug development: A rational approach to efficiently accelerate drug development. <em>Clinical Pharmacology &amp; Therapeutics</em>, 93(6), 502-514. https://doi.org/10.1038/clpt.2013.54</p>
+</li>
+<li>
+<p>Schriger, D. L., Sinha, R., Schroter, S., Liu, P. Y., &amp; Altman, D. G. (2006). From submission to publication: A retrospective review of the tables and figures in a cohort of randomized controlled trials submitted to the <em>British Medical Journal</em>. <em>Annals of Emergency Medicine</em>, 48(6), 750-756. https://doi.org/10.1016/j.annemergmed.2006.06.017</p>
+</li>
+<li>
+<p>Riley, R. D., Higgins, J. P. T., &amp; Deeks, J. J. (2011). Interpretation of random effects meta-analyses. <em>BMJ</em>, 342, d549. https://doi.org/10.1136/bmj.d549</p>
+</li>
+</ol>
+<hr />
+<p><em>For additional resources on peptide clinical development and data visualization, visit the <a href="https://rplpeptides.com">RPL Peptides Research Knowledge Center</a> and access pharmacokinetic datasets at <a href="https://data.rplpeptides.com">data.rplpeptides.com</a>.</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

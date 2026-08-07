@@ -1,0 +1,6960 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Comprehensive guide to peptide docking methodologies covering AutoDock Vina, HADDOCK, RosettaDock, ClusPro, flexible peptide docking challenges, scoring functions, virtual screening, and MD refinement.">
+      
+      
+        <meta name="author" content="RPL Scientific Editorial Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/bioinformatics/molecular-docking-peptides/">
+      
+      
+        <link rel="prev" href="../in-silico-peptide-design/">
+      
+      
+        <link rel="next" href="../machine-learning-peptide-science/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Molecular Docking for Peptide Research — Algorithms, Scoring & Validation - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#molecular-docking-for-peptide-research-algorithms-scoring-validation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Molecular Docking for Peptide Research — Algorithms, Scoring & Validation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/circular-dichroism-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../structural-biology/peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-algorithms-for-peptides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Algorithms for Peptides
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Docking Algorithms for Peptides">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autodock-vina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AutoDock Vina
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#haddock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HADDOCK
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rosettadock-and-flexpepdock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RosettaDock and FlexPepDock
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cluspro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ClusPro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-in-flexible-peptide-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenges in Flexible Peptide Docking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Challenges in Flexible Peptide Docking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-conformational-flexibility-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Conformational Flexibility Challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#induced-fit-and-conformational-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Induced Fit and Conformational Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropic-penalties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entropic Penalties
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-mediated-interactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Water-Mediated Interactions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoring-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scoring Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scoring-function-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Function Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoring-function-performance-for-peptide-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Function Performance for Peptide Docking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-screening-for-peptide-ligands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Screening for Peptide Ligands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtual Screening for Peptide Ligands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#library-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Library Preparation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practical-virtual-screening-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Virtual Screening Protocol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enrichment-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enrichment Assessment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#md-refinement-of-docked-complexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MD Refinement of Docked Complexes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MD Refinement of Docked Complexes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stability-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stability Assessment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mm-pbsagbsa-binding-free-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MM-PBSA/GBSA Binding Free Energy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protocol-for-md-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protocol for MD Refinement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../machine-learning-peptide-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-database-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/clinical-data-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/09-system-suitability-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docking-algorithms-for-peptides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docking Algorithms for Peptides
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Docking Algorithms for Peptides">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#autodock-vina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AutoDock Vina
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#haddock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HADDOCK
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rosettadock-and-flexpepdock" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RosettaDock and FlexPepDock
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cluspro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ClusPro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-in-flexible-peptide-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenges in Flexible Peptide Docking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Challenges in Flexible Peptide Docking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-conformational-flexibility-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Conformational Flexibility Challenge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#induced-fit-and-conformational-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Induced Fit and Conformational Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entropic-penalties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entropic Penalties
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-mediated-interactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Water-Mediated Interactions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoring-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scoring Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scoring-function-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Function Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scoring-function-performance-for-peptide-docking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scoring Function Performance for Peptide Docking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-screening-for-peptide-ligands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Screening for Peptide Ligands
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Virtual Screening for Peptide Ligands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#library-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Library Preparation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practical-virtual-screening-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Virtual Screening Protocol
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enrichment-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enrichment Assessment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#md-refinement-of-docked-complexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MD Refinement of Docked Complexes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MD Refinement of Docked Complexes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stability-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stability Assessment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mm-pbsagbsa-binding-free-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MM-PBSA/GBSA Binding Free Energy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protocol-for-md-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protocol for MD Refinement
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="molecular-docking-for-peptide-research-algorithms-scoring-validation">Molecular Docking for Peptide Research — Algorithms, Scoring &amp; Validation<a class="headerlink" href="#molecular-docking-for-peptide-research-algorithms-scoring-validation" title="Permanent link">&para;</a></h1>
+<div class="quick-fact">
+  <strong>Key Summary:</strong> Molecular docking is a computational technique that predicts the preferred binding orientation and affinity of a peptide ligand to its target receptor. This article examines the major docking algorithms (AutoDock Vina, HADDOCK, RosettaDock, ClusPro), the unique challenges of flexible peptide docking, scoring function design and validation, virtual screening strategies for peptide ligands, and post-docking refinement using molecular dynamics simulations.
+</div>
+
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>Molecular docking is the computational method of choice for predicting how peptides interact with their macromolecular targets — typically proteins, but also nucleic acids and membranes. Understanding peptide-protein interactions at atomic resolution is fundamental to rational drug design, biological mechanism elucidation, and protein engineering. This article provides a comprehensive survey of molecular docking as applied to peptide ligands, covering algorithmic approaches from fast Fourier transform-based rigid-body methods (ClusPro) through semi-flexible stochastic search algorithms (AutoDock Vina) to data-driven flexible docking (HADDOCK) and full backbone flexibility (RosettaDock). We examine the unique challenges that distinguish peptide docking from small-molecule docking — peptide flexibility with many rotatable bonds, the importance of induced fit, entropic penalties upon binding, and the difficulty of scoring extended binding interfaces. Scoring functions, the mathematical models that evaluate binding poses, are reviewed in terms of their components (force field, empirical, and knowledge-based) and their performance in benchmark assessments. Virtual screening of peptide libraries, where docking is used to prioritize candidates for experimental testing, is discussed with emphasis on enrichment metrics and practical protocols. Finally, we address the critical role of post-docking molecular dynamics (MD) refinement in distinguishing true binding poses from false positives and in providing dynamic understanding of peptide-protein complexes. Researchers seeking to apply docking methods in their peptide research programs will find practical guidance for protocol selection, interpretation of results, and integration with experimental workflows at <a href="https://rplpeptides.com">RPL Peptides</a>.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<p>The molecular docking problem — predicting how two molecules interact to form a stable complex — has been a central challenge in computational chemistry since the 1980s. The problem encompasses two interdependent sub-problems: the <strong>sampling problem</strong> (exploring the conformational and orientational space of the ligand relative to the receptor to identify candidate binding poses) and the <strong>scoring problem</strong> (evaluating the relative quality of candidate poses to identify those closest to the experimental structure and rank compounds by predicted binding affinity).</p>
+<p>Early docking algorithms, such as the geometric matching approach of DOCK developed by Kuntz and colleagues, treated both ligand and receptor as rigid bodies (<a href="https://doi.org/10.1016/0022-2836(82)90153-X">Kuntz et al., 1982</a>). While computationally efficient, rigid docking cannot account for the conformational changes that characterize most biomolecular recognition events — particularly for peptides, which are inherently flexible molecules that typically adopt their bioactive conformations only upon binding.</p>
+<p>The development of AutoDock in the 1990s introduced stochastic search algorithms (genetic algorithms, Lamarckian genetic algorithms) that could explore ligand conformational degrees of freedom during docking (<a href="https://doi.org/10.1002/(SICI)1096-987X(19981115)19:14">Morris et al., 1998</a>). AutoDock Vina, released in 2010, achieved dramatic speed improvements through a hybrid scoring function and efficient global optimization strategy, making it the most widely used docking program for academic research (<a href="https://doi.org/10.1002/jcc.21334">Trott &amp; Olson, 2010</a>).</p>
+<p>Data-driven docking, pioneered by HADDOCK (High Ambiguity Driven protein-protein DOCKing), integrates experimental or predicted information about the binding interface to guide the docking search (<a href="https://doi.org/10.1021/ja026939x">Dominguez et al., 2003</a>). This approach has proven particularly valuable for peptide docking, where NMR chemical shift perturbations, alanine scanning mutagenesis data, or residue conservation patterns can identify the binding interface and dramatically improve docking accuracy.</p>
+<p>The Rosetta macromolecular modeling suite includes both general protein-protein docking (RosettaDock) and peptide-specific docking (FlexPepDock) protocols. FlexPepDock explicitly models full peptide backbone flexibility using fragment insertion techniques developed for protein structure prediction, making it uniquely suited for the conformational changes that characterize peptide binding (<a href="https://doi.org/10.1002/prot.22780">Raveh et al., 2010</a>).</p>
+<p>The CAPRI (Critical Assessment of PRedicted Interactions) experiment has provided community-wide benchmarking of docking methods since 2001, revealing both progress and persistent challenges in predicting biomolecular complexes (<a href="https://doi.org/10.1002/prot.25795">Lensink et al., 2020</a>). Peptide-protein docking has consistently been one of the most challenging CAPRI target categories, highlighting the special difficulties associated with flexible peptide ligands.</p>
+<h2 id="docking-algorithms-for-peptides">Docking Algorithms for Peptides<a class="headerlink" href="#docking-algorithms-for-peptides" title="Permanent link">&para;</a></h2>
+<h3 id="autodock-vina">AutoDock Vina<a class="headerlink" href="#autodock-vina" title="Permanent link">&para;</a></h3>
+<p>AutoDock Vina is a widely used docking program that combines an empirical scoring function with an iterated local search global optimizer. While primarily designed for small-molecule docking, Vina can be applied to peptide ligands with thoughtful protocol design.</p>
+<p><strong>Algorithm:</strong> Vina employs a stochastic global optimization algorithm combining the Broyden-Fletcher-Goldfarb-Shanno (BFGS) method for local optimization with random perturbations for escaping local minima. The search space is defined by a grid box centered on the binding site, and ligand poses are evaluated using a scoring function that includes steric, hydrophobic, and hydrogen bonding terms weighted by empirical parameters derived from experimental binding data (<a href="https://doi.org/10.1002/jcc.21334">Trott &amp; Olson, 2010</a>).</p>
+<p><strong>Peptide docking considerations with Vina:</strong>
+- <strong>Rotatable bonds:</strong> Peptides have many rotatable bonds (typically N × 3 for N residues), making the search space exponentially larger than for small-molecule drugs. Vina's performance degrades with ligands having more than 20-30 rotatable bonds.
+- <strong>Conformational sampling:</strong> Pre-generating a diverse ensemble of peptide conformers (using RDKit, OMEGA, or MD simulations) and docking each conformer independently can improve coverage of conformational space. This "ensemble docking" approach is often more effective than attempting to sample all degrees of freedom in a single Vina run.
+- <strong>Exhaustiveness parameter:</strong> Increasing the <code>exhaustiveness</code> parameter (default 8, can be set to 32-128) allocates more computational effort per run, which is recommended for peptide ligands.
+- <strong>Grid box definition:</strong> For peptides that may adopt extended conformations, the grid box must be sufficiently large to accommodate the full ligand — an important consideration since Vina's scoring function is defined relative to the grid.</p>
+<p><strong>Best practices for peptide docking with Vina:</strong>
+1. Generate 50-200 peptide conformers using OMEGA or a short MD simulation.
+2. Define the grid box with at least 5 Å padding in all dimensions beyond the binding site.
+3. Use exhaustiveness ≥ 32 for peptide ligands.
+4. Run multiple independent docking runs and cluster results by RMSD.
+5. Validate by redocking a known peptide ligand (if available) to assess protocol performance.</p>
+<h3 id="haddock">HADDOCK<a class="headerlink" href="#haddock" title="Permanent link">&para;</a></h3>
+<p>HADDOCK (High Ambiguity Driven protein-protein DOCKing) is uniquely suited for peptide docking because it can integrate experimental data to guide the docking process. Rather than performing blind global docking, HADDOCK uses Ambiguous Interaction Restraints (AIRs) derived from experimental or bioinformatic data to focus sampling on the correct binding interface (<a href="https://doi.org/10.1021/ja026939x">Dominguez et al., 2003</a>; <a href="https://doi.org/10.1016/j.jmb.2015.09.014">van Zundert et al., 2016</a>).</p>
+<p><strong>The HADDOCK docking process:</strong>
+1. <strong>Rigid-body docking (it0):</strong> Randomization of orientations and rigid-body energy minimization with AIR restraints to generate initial complexes.
+2. <strong>Semi-flexible refinement (it1):</strong> Simulated annealing in torsion angle space, allowing flexibility in the interface side chains and backbone.
+3. <strong>Final refinement (water):</strong> Explicit solvent refinement with a thin shell of TIP3P water molecules.</p>
+<p><strong>Air restraints for peptide docking:</strong>
+AIRs specify residues predicted or known to be at the binding interface and are defined with distance ranges. For peptide docking, AIRs can be derived from:
+- NMR chemical shift perturbation data
+- Alanine scanning mutagenesis
+- Cross-linking mass spectrometry
+- Hydrogen-deuterium exchange data
+- Evolutionary conservation analysis
+- Computational interface prediction (e.g., WHISCY, CPORT)</p>
+<p>Even when no experimental data is available, HADDOCK can use "ab initio" mode with predicted interface residues, which often outperforms blind docking due to the focused sampling.</p>
+<p><strong>HADDOCK peptide docking protocol:</strong>
+The HADDOCK server provides a specialized "peptide-protein docking" interface that defines the peptide as fully flexible and the receptor as semi-flexible. Key parameters include random exclusion of AIRs (to prevent overfitting), the number of structures to generate at each stage (typically 1000/200/200 for it0/it1/water), and the fraction of explicit water molecules to retain.</p>
+<h3 id="rosettadock-and-flexpepdock">RosettaDock and FlexPepDock<a class="headerlink" href="#rosettadock-and-flexpepdock" title="Permanent link">&para;</a></h3>
+<p>RosettaDock performs protein-protein docking using Monte Carlo-based searches with rigid-body and side-chain degrees of freedom. For peptide-protein docking, the FlexPepDock protocol extends RosettaDock with explicit peptide backbone flexibility, making it the current gold standard for high-resolution peptide docking (<a href="https://doi.org/10.1093/nar/gkr352">London et al., 2011</a>).</p>
+<p><strong>FlexPepDock features:</strong>
+- <strong>Fragment-based peptide backbone flexibility:</strong> Peptide backbone conformations are sampled using backbone fragment libraries derived from the Protein Data Bank, enabling biologically realistic conformational changes.
+- <strong>Increasing flexibility protocol:</strong> A multi-stage refinement where peptide flexibility increases progressively — from rigid-body optimization through gradual backbone relaxation to full flexibility.
+- <strong>High-resolution refinement:</strong> Final refinement stage optimizes side-chain packing and backbone torsion angles using Rosetta's all-atom energy function.
+- <strong>Binding energy estimation:</strong> Rosetta's all-atom energy function provides binding energy estimates that can distinguish near-native from non-native poses.</p>
+<p>The FlexPepDock refinement protocol typically achieves interface RMSD below 2.0 Å when starting from a model within 5.5 Å backbone RMSD of the native structure, making it exceptionally effective for refining moderate-resolution docking models to high resolution.</p>
+<p><strong>FlexPepDock ab initio mode:</strong>
+For cases where no initial model is available, FlexPepDock's ab initio mode performs global docking with full peptide flexibility:</p>
+<ol>
+<li>Generate ~200 starting structures by positioning the peptide at random orientations near the receptor surface.</li>
+<li>Apply the full FlexPepDock refinement protocol to each starting structure.</li>
+<li>Cluster the resulting models and rank clusters by Rosetta energy.</li>
+<li>The lowest-energy cluster typically contains near-native poses when docking succeeds.</li>
+</ol>
+<p>FlexPepDock ab initio is computationally demanding (requiring 100-200 CPU hours for thorough sampling) but can achieve remarkable accuracy when successful.</p>
+<h3 id="cluspro">ClusPro<a class="headerlink" href="#cluspro" title="Permanent link">&para;</a></h3>
+<p>ClusPro employs Fast Fourier Transform (FFT)-based rigid-body docking to systematically evaluate all possible orientations of the ligand relative to the receptor (<a href="https://doi.org/10.1038/nprot.2016.169">Kozakov et al., 2017</a>). The FFT approach enables exhaustive six-dimensional search at moderate computational cost.</p>
+<p><strong>Key features:</strong>
+- <strong>PIPER algorithm:</strong> ClusPro's core docking algorithm uses FFT correlation to evaluate shape complementarity, electrostatic, and desolvation contributions for billions of orientations.
+- <strong>Clustering and refinement:</strong> The top-scoring orientations are clustered (9 Å Cα RMSD), and cluster centers are refined by energy minimization using the CHARMM force field.
+- <strong>Balanced and specialized scoring:</strong> ClusPro provides balanced, electrostatic-favored, hydrophobic-favored, and van der Waals + electrostatic scoring schemes, allowing users to select the most appropriate based on the expected binding interface characteristics.</p>
+<p><strong>Peptide docking with ClusPro:</strong>
+ClusPro was designed primarily for protein-protein docking and treats the peptide as a rigid body. This limits its utility for cases involving significant conformational changes. However, for peptides with well-defined pre-formed structures (e.g., disulfide-stabilized toxins, helical peptides with stable secondary structure), ClusPro can provide useful predictions with the advantage of exhaustive rigid-body sampling.</p>
+<p>For flexible peptides, a common strategy is to dock multiple pre-generated conformers individually and combine the results, though this does not fully capture the coupled conformational and orientational sampling available in FlexPepDock or HADDOCK.</p>
+<h2 id="challenges-in-flexible-peptide-docking">Challenges in Flexible Peptide Docking<a class="headerlink" href="#challenges-in-flexible-peptide-docking" title="Permanent link">&para;</a></h2>
+<p>Peptide docking presents unique challenges that distinguish it from both small-molecule docking and rigid-body protein-protein docking:</p>
+<h3 id="the-conformational-flexibility-challenge">The Conformational Flexibility Challenge<a class="headerlink" href="#the-conformational-flexibility-challenge" title="Permanent link">&para;</a></h3>
+<p>A typical peptide of 10 amino acids contains approximately 30 rotatable backbone bonds and 20-40 rotatable side-chain bonds. The combinatorial explosion of possible conformations makes exhaustive sampling impossible. Even with stochastic search algorithms, the probability of sampling near-native conformations decreases exponentially with peptide length.</p>
+<p><strong>Strategies to address flexibility:</strong>
+- <strong>Conformational pre-sampling:</strong> Generate a diverse but finite set of conformers using enhanced sampling methods (conformational searching, short MD simulations, replica exchange).
+- <strong>Incremental construction:</strong> Build the peptide into the binding site residue-by-residue, sampling favorable orientations at each step (as in some versions of DOCK and Glide).
+- <strong>Fragment-based approaches:</strong> Use pre-computed fragment libraries of short peptide segments to sample local conformational space, as implemented in FlexPepDock.
+- <strong>Gaussian-accelerated MD:</strong> Enhanced sampling methods that lower energy barriers while preserving Boltzmann distributions, enabling exploration of peptide conformational space.</p>
+<h3 id="induced-fit-and-conformational-selection">Induced Fit and Conformational Selection<a class="headerlink" href="#induced-fit-and-conformational-selection" title="Permanent link">&para;</a></h3>
+<p>Peptide binding often involves substantial conformational changes in both the peptide and the receptor — a phenomenon known as induced fit. Additionally, peptides may exist as ensembles of conformers in solution, with binding selecting conformers that are compatible with the bound state (conformational selection). Docking methods must account for both mechanisms.</p>
+<p><strong>Receptor flexibility:</strong>
+While many docking protocols treat the receptor as rigid, side-chain flexibility at the binding interface can be critical for accurate docking. Methods for incorporating receptor flexibility include:
+- <strong>Soft docking:</strong> Reducing the van der Waals repulsion term to allow partial overlap, simulating minor receptor adjustments.
+- <strong>Rotamer libraries:</strong> Allowing interface side chains to sample alternative rotameric states (used in RosettaDock and HADDOCK).
+- <strong>Ensemble docking:</strong> Docking against multiple receptor conformations (from MD simulations, NMR ensembles, or crystallographic structures with different ligands).
+- <strong>Induced fit docking:</strong> Iterative cycles of docking and receptor refinement (as implemented in Schrödinger's Induced Fit protocol).</p>
+<h3 id="entropic-penalties">Entropic Penalties<a class="headerlink" href="#entropic-penalties" title="Permanent link">&para;</a></h3>
+<p>Peptide binding is typically accompanied by a significant loss of conformational entropy, as the flexible free peptide is constrained to a single bound conformation. This entropic penalty can be 5-15 kcal/mol, substantially reducing the net binding free energy. Most docking scoring functions do not explicitly account for this entropic penalty, leading to overestimated binding affinities for flexible peptides relative to more rigid ligands.</p>
+<p><strong>Addressing entropic effects:</strong>
+- Ligand conformational entropy can be estimated from the number of rotatable bonds or from analysis of the free-state conformational ensemble.
+- MM-PBSA/GBSA calculations, which include quasi-harmonic entropy estimates, provide improved ranking of peptide binding affinities when applied to MD ensembles.
+- Normal mode analysis of docked complexes provides estimates of vibrational entropy changes.</p>
+<h3 id="water-mediated-interactions">Water-Mediated Interactions<a class="headerlink" href="#water-mediated-interactions" title="Permanent link">&para;</a></h3>
+<p>Peptide-protein interfaces frequently contain ordered water molecules that mediate hydrogen bonding between peptide and receptor. Failing to account for these water molecules can lead to incorrect binding pose predictions and inaccurate affinity estimates.</p>
+<ul>
+<li><strong>Explicit water in docking:</strong> HADDOCK's water refinement stage explicitly adds water molecules and optimizes their positions.</li>
+<li><strong>Water prediction tools:</strong> Programs such as WaterMap (Schrödinger), 3D-RISM, and GIST can predict the locations of thermodynamically favorable water sites for inclusion in docking protocols.</li>
+</ul>
+<h2 id="scoring-functions">Scoring Functions<a class="headerlink" href="#scoring-functions" title="Permanent link">&para;</a></h2>
+<p>The scoring function is the mathematical model that evaluates and ranks docking poses. Accurate scoring is essential for both pose prediction (identifying the correct binding mode among decoys) and affinity ranking (ordering compounds by predicted binding strength).</p>
+<h3 id="scoring-function-types">Scoring Function Types<a class="headerlink" href="#scoring-function-types" title="Permanent link">&para;</a></h3>
+<p><strong>Force field-based scoring functions:</strong>
+These functions estimate the interaction energy using molecular mechanics force fields (e.g., CHARMM, AMBER, OPLS) with simplified treatments of solvation. They include terms for van der Waals interactions (typically Lennard-Jones 12-6 potential), electrostatics (Coulomb's law with distance-dependent dielectric), and sometimes hydrogen bonding. While physically interpretable, they are computationally expensive and sensitive to minor structural variations.</p>
+<ul>
+<li><em>Example:</em> DOCK energy score, GoldScore (GOLD)</li>
+<li><em>Strength:</em> Physical basis enables interpretation of binding energetics</li>
+<li><em>Weakness:</em> Entropy and desolvation are poorly captured</li>
+</ul>
+<p><strong>Empirical scoring functions:</strong>
+Empirical functions sum weighted terms representing different physical contributions to binding, with weights derived by regression against experimental binding data. Terms typically include hydrogen bonding, hydrophobic contacts, ionic interactions, and a penalty for rotatable bonds (entropic cost).</p>
+<ul>
+<li><em>Example:</em> ChemScore, GlideScore, AutoDock Vina scoring function</li>
+<li><em>Strength:</em> Computationally efficient, trained to reproduce experimental data</li>
+<li><em>Weakness:</em> Training set dependency, limited transferability to novel chemotypes</li>
+</ul>
+<p><strong>Knowledge-based scoring functions:</strong>
+These statistical potentials are derived from the frequency of atom-atom contacts in experimentally determined protein-ligand or protein-protein complexes. The underlying assumption is that favorable interactions occur more frequently than expected by chance.</p>
+<ul>
+<li><em>Example:</em> PMF (Potential of Mean Force), DrugScore, DFIRE</li>
+<li><em>Strength:</em> Avoids fitting to binding data, captures implicit physical chemistry</li>
+<li><em>Weakness:</em> Limited by the quality and diversity of training structures</li>
+</ul>
+<p><strong>Consensus scoring:</strong>
+Combining scores from multiple independent scoring functions (consensus scoring) often improves enrichment in virtual screening and reduces false positive rates. This approach leverages the complementary strengths of different scoring paradigms.</p>
+<h3 id="scoring-function-performance-for-peptide-docking">Scoring Function Performance for Peptide Docking<a class="headerlink" href="#scoring-function-performance-for-peptide-docking" title="Permanent link">&para;</a></h3>
+<p>The performance of scoring functions for peptide docking is generally lower than for small-molecule docking. Key challenges include:</p>
+<ul>
+<li><strong>Extended interfaces:</strong> Peptide binding interfaces are typically larger and more heterogeneous than small-molecule binding sites, with mixtures of hydrophobic, polar, and charged interactions that are difficult to capture with a single scoring model.</li>
+<li><strong>Interface water:</strong> Buried water molecules at peptide-protein interfaces are energetically important but poorly treated by implicit solvation models.</li>
+<li><strong>Entropy underestimation:</strong> Most scoring functions do not adequately penalize the entropic cost of constraining flexible peptides.</li>
+<li><strong>Balancing energy terms:</strong> The relative weighting of different energy terms optimized for small molecules may not transfer to peptide ligands.</li>
+</ul>
+<p>A 2021 benchmark of peptide docking methods found that Rosetta energy (in FlexPepDock) provided the best discrimination between near-native and incorrect poses (interface RMSD &lt; 2.0 Å), while HADDOCK scores were most effective for discriminating binders from non-binders in virtual screening applications (<a href="https://doi.org/10.1002/wcms.1500">Schueler-Furman et al., 2021</a>).</p>
+<h2 id="virtual-screening-for-peptide-ligands">Virtual Screening for Peptide Ligands<a class="headerlink" href="#virtual-screening-for-peptide-ligands" title="Permanent link">&para;</a></h2>
+<p>Virtual screening uses docking to computationally evaluate large libraries of peptide sequences and prioritize candidates with predicted binding affinity. This approach can reduce experimental screening efforts by orders of magnitude.</p>
+<h3 id="library-preparation">Library Preparation<a class="headerlink" href="#library-preparation" title="Permanent link">&para;</a></h3>
+<p>Peptide virtual screening libraries can be:
+- <strong>Structure-based libraries:</strong> All possible single/double mutants of a known peptide binder, or combinatorial peptide libraries.
+- <strong>Sequence-based libraries:</strong> Peptide sequences from genomic/transcriptomic analyses of venom glands, secretomes, or other biological sources.
+- <strong>Fragment-based libraries:</strong> Di-, tri-, and tetrapeptide fragments that can be computationally linked.
+- <strong>Synthetic libraries:</strong> Designed peptide libraries such as phage display or mRNA display outputs.</p>
+<h3 id="practical-virtual-screening-protocol">Practical Virtual Screening Protocol<a class="headerlink" href="#practical-virtual-screening-protocol" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Library preparation:</strong> Generate 3D conformers for each peptide (using OMEGA, RDKit ETKDG, or short MD). For larger libraries, conformer generation may be the computational bottleneck.</li>
+<li><strong>Target preparation:</strong> Prepare the receptor structure by adding hydrogens, assigning protonation states (at appropriate pH), and optimizing the hydrogen bonding network. Include crystallographic waters if they are structurally conserved.</li>
+<li><strong>Grid preparation:</strong> Define the docking grid to encompass the entire binding site plus 5-8 Å padding in all directions.</li>
+<li><strong>Primary docking:</strong> Dock all library members using a fast docking program (Vina, Glide HTVS), typically with moderate sampling exhaustiveness.</li>
+<li><strong>Post-docking filtering:</strong> Filter top-ranked poses by ligand efficiency (binding energy per heavy atom), strain energy (internal energy of the docked pose relative to the global minimum), and key interactions (hydrogen bonds with catalytic or specificity-determining residues).</li>
+<li><strong>Rescoring and refinement:</strong> Re-dock or refine the top 5-10% of candidates with a more accurate protocol (FlexPepDock, HADDOCK with simulated restraints, or MD-based MM-PBSA/GBSA).</li>
+<li><strong>Consensus selection:</strong> Select candidates that rank highly across multiple scoring methods and that visually exhibit key binding interactions.</li>
+</ol>
+<h3 id="enrichment-assessment">Enrichment Assessment<a class="headerlink" href="#enrichment-assessment" title="Permanent link">&para;</a></h3>
+<p>The performance of a virtual screening protocol is quantified by enrichment metrics:
+- <strong>Enrichment Factor (EF):</strong> Ratio of active compounds found in the top x% of the ranked library to the number expected by random selection. EF₁% values &gt; 10 are considered good.
+- <strong>Area Under the ROC Curve (AUC):</strong> Measure of discrimination between actives and decoys. AUC &gt; 0.8 indicates useful enrichment.
+- <strong>Boltzmann-Enhanced Discrimination of ROC (BEDROC):</strong> Weighted AUC that emphasizes early enrichment, more relevant where only the top-scoring compounds will be tested experimentally.</p>
+<p>For peptide virtual screening, enrichment metrics should be interpreted cautiously, as true "actives" and "inactives" sets are harder to define than for small molecules — partially active peptides, aggregation artifacts, and assay variability complicate classification.</p>
+<h2 id="md-refinement-of-docked-complexes">MD Refinement of Docked Complexes<a class="headerlink" href="#md-refinement-of-docked-complexes" title="Permanent link">&para;</a></h2>
+<p>Molecular dynamics simulations of docked peptide-protein complexes provide critical validation and refinement:</p>
+<h3 id="stability-assessment">Stability Assessment<a class="headerlink" href="#stability-assessment" title="Permanent link">&para;</a></h3>
+<p>The most immediate use of MD refinement is assessing whether the docked complex is dynamically stable. A correctly docked complex should maintain key intermolecular contacts throughout the simulation:
+- <strong>RMSD monitoring:</strong> Peptide ligand RMSD (relative to the docked pose) typically stabilizes within 2-3 Å for correct poses but drifts &gt;5 Å for incorrect poses within 50-100 ns of simulation.
+- <strong>Contact persistence:</strong> Key hydrogen bonds and hydrophobic contacts should persist for &gt;60% of the simulation trajectory. Transient or lost contacts suggest the docking pose may be incorrect.
+- <strong>Binding free energy convergence:</strong> MM-PBSA/GBSA binding free energies computed over sliding windows should converge to stable values for correctly docked complexes.</p>
+<h3 id="mm-pbsagbsa-binding-free-energy">MM-PBSA/GBSA Binding Free Energy<a class="headerlink" href="#mm-pbsagbsa-binding-free-energy" title="Permanent link">&para;</a></h3>
+<p>Molecular Mechanics Poisson-Boltzmann Surface Area (MM-PBSA) and its Generalized Born variant (MM-GBSA) are endpoint free energy methods that compute binding free energy from snapshots extracted from MD trajectories:</p>
+<p>ΔG_bind = ⟨G_complex⟩ − ⟨G_receptor⟩ − ⟨G_ligand⟩</p>
+<p>Each term includes molecular mechanics energy (bonded + nonbonded), solvation free energy (polar + nonpolar), and optionally an entropy estimate.</p>
+<p>MM-PBSA/GBSA has been shown to provide better ranking of peptide binding affinities than docking scores, though absolute values may differ from experimental measurements by several kcal/mol (<a href="https://doi.org/10.1517/17460441.2015.1032936">Genheden &amp; Ryde, 2015</a>). For peptide docking validation, MM-GBSA provides a pragmatic balance of accuracy and computational cost — 100-500 frames from 50-100 ns MD trajectories typically provide converged ensemble averages.</p>
+<h3 id="protocol-for-md-refinement">Protocol for MD Refinement<a class="headerlink" href="#protocol-for-md-refinement" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Solvate the docked complex in a periodic water box with physiological salt concentration (150 mM NaCl).</li>
+<li>Perform energy minimization (steepest descent + conjugate gradient) to relieve steric clashes.</li>
+<li>Equilibrate with position restraints on heavy atoms (NVT → NPT).</li>
+<li>Run unrestrained production MD for 50-200 ns, depending on system size and peptide flexibility.</li>
+<li>Analyze RMSD, RMSF (flexibility), hydrogen bond persistence, and MM-GBSA as described above.</li>
+<li>Compare results between candidate poses — the pose with lowest and most stable MM-GBSA energy and maintained key contacts is likely correct.</li>
+</ol>
+<p>For high-value targets, enhanced sampling methods such as replica exchange MD or metadynamics can provide more thorough exploration of the binding free energy landscape, albeit at substantially higher computational cost.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<p>The field of peptide docking has been extensively benchmarked and validated:</p>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Method</th>
+<th>Key Finding</th>
+<th>Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CAPRI rounds 1-46</td>
+<td>Community-wide</td>
+<td>Peptide docking accuracy improved from 40% to ~70% acceptable predictions over 20 years</td>
+<td>Lensink et al., Proteins 2020</td>
+</tr>
+<tr>
+<td>FlexPepDock benchmark</td>
+<td>Rosetta</td>
+<td>Achieved near-native accuracy (iRMSD &lt; 2.0 Å) for 70% of benchmark peptides starting from moderate-quality models</td>
+<td>Raveh et al., Proteins 2010</td>
+</tr>
+<tr>
+<td>HADDOCK peptide validation</td>
+<td>HADDOCK</td>
+<td>Data-driven docking with 3+ restraints achieves &gt;80% success on peptide benchmark</td>
+<td>Trellet et al., PLoS ONE 2013</td>
+</tr>
+<tr>
+<td>Vina peptide screening</td>
+<td>Vina + MD</td>
+<td>Ensemble docking + MM-GBSA rescoring correctly identified peptide binders with AUC &gt; 0.85</td>
+<td>Weng et al., J. Chem. Inf. Model. 2019</td>
+</tr>
+<tr>
+<td>AutoDock vs. Rosetta comparison</td>
+<td>Multiple</td>
+<td>Rosetta FlexPepDock outperforms AutoDock Vina for peptide docking accuracy (iRMSD)</td>
+<td>Rentzsch &amp; Renard, Brief. Bioinform. 2020</td>
+</tr>
+<tr>
+<td>Scoring function evaluation</td>
+<td>Multiple</td>
+<td>Consensus scoring reduces false positives by 30-50% relative to single scores</td>
+<td>Wang et al., J. Med. Chem. 2020</td>
+</tr>
+<tr>
+<td>MD validation utility</td>
+<td>MD + MM-PBSA</td>
+<td>MD stability assessment correctly identifies incorrect docking poses in &gt;90% of test cases</td>
+<td>Genheden &amp; Ryde, Expert Opin. Drug Discov. 2015</td>
+</tr>
+</tbody>
+</table>
+<h2 id="current-understanding">Current Understanding<a class="headerlink" href="#current-understanding" title="Permanent link">&para;</a></h2>
+<p>Molecular docking for peptide ligands has matured considerably but remains more challenging than small-molecule docking. Key insights from recent work include:</p>
+<ul>
+<li><strong>Specialized protocols outperform general methods:</strong> FlexPepDock for high-resolution refinement and HADDOCK for data-driven docking provide superior accuracy for peptide-protein complexes compared to general small-molecule docking programs.</li>
+<li><strong>Integration with experimental data is transformative:</strong> Even sparse experimental data (a few key residues identified by mutagenesis or NMR) dramatically improves docking accuracy by constraining the search space.</li>
+<li><strong>No single score is sufficient:</strong> The highest accuracy comes from consensus approaches combining multiple scoring functions, visual inspection of key interactions, and MD-based stability assessment.</li>
+<li><strong>Post-docking MD is not optional:</strong> For high-stakes applications (design prioritization, mechanistic hypothesis testing), MD refinement provides critical discrimination between correct and incorrect poses.</li>
+<li><strong>The field is advancing through deep learning:</strong> Emerging deep learning-based scoring functions and docking methods are showing promise for improved accuracy, particularly in ranking rather than pose prediction.</li>
+</ul>
+<h2 id="future-research-directions">Future Research Directions<a class="headerlink" href="#future-research-directions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Deep learning scoring functions:</strong> Neural network-based scoring functions trained on structural interaction fingerprints or 3D convolutional representations of protein-ligand complexes, potentially capturing non-additive effects that escape physics-based functions.</li>
+<li><strong>Diffusion models for protein-ligand docking:</strong> Generative diffusion models (e.g., DiffDock) that directly sample ligand poses conditioned on the receptor structure, achieving state-of-the-art results for small molecules and being extended to peptides.</li>
+<li><strong>End-to-end structure-based peptide design:</strong> Joint optimization of peptide sequence, conformation, and binding orientation using differentiable docking or reinforcement learning frameworks.</li>
+<li><strong>Cryo-EM density-guided docking:</strong> Integrating cryo-EM density maps as restraints in docking protocols, increasingly relevant as cryo-EM resolution improves for smaller complexes.</li>
+<li><strong>Absolute binding free energy calculations:</strong> Applying alchemical free energy perturbation (FEP) methods to peptide-protein binding, enabling direct comparison with experimental Kd values rather than relative rankings.</li>
+<li><strong>Membrane-associated peptide docking:</strong> Specialized docking protocols that account for the membrane environment, critical for antimicrobial peptides and membrane-active toxins.</li>
+<li><strong>Covalent peptide docking:</strong> Accurate prediction of covalent docking modes for cyclic peptides with disulfide bridges or electrophilic warheads targeting cysteine residues.</li>
+<li><strong>Scalable cloud-based peptide docking:</strong> Distributed computing platforms enabling virtual screening of billion-compound peptide libraries against the structural proteome.</li>
+</ul>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<div class="faq-item">
+  <h3>Which docking program should I use for peptide-protein docking?</h3>
+  <p>The choice depends on your specific needs: <strong>FlexPepDock (Rosetta)</strong> is the most accurate for high-resolution peptide docking when computational resources permit. <strong>HADDOCK</strong> is the best choice when you have experimental data (NMR, mutagenesis) to guide docking, and the web server makes it accessible. <strong>AutoDock Vina</strong> is suitable for rapid screening of moderate-sized peptide libraries when used with pre-generated conformer ensembles. <strong>ClusPro</strong> is appropriate for structurally rigid peptides. For high-stakes projects, use two complementary methods and require consensus. Peptide docking resources are available at <a href="https://rplpeptides.com">RPL Peptides</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How can I improve the accuracy of my peptide docking results?</h3>
+  <p>Several strategies improve peptide docking accuracy: (1) <strong>Use experimental data</strong> — even identifying 3-5 key interface residues dramatically constrains docking and improves accuracy. (2) <strong>Generate multiple conformers</strong> of your peptide before docking — a single starting conformation may bias results. (3) <strong>Increase sampling</strong> — run multiple independent docking runs and increase exhaustiveness parameters. (4) <strong>Apply MD refinement</strong> — run 50-100 ns MD on top poses; unstable complexes are likely incorrect. (5) <strong>Compute MM-GBSA binding energies</strong> — these correlate better with experiment than docking scores. (6) <strong>Visually inspect</strong> top poses for chemical reasonableness — are key intermolecular interactions satisfied? (7) <strong>Validate your protocol</strong> by redocking a known ligand to your target before applying to unknowns.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What are the main limitations of AutoDock Vina for peptide docking?</h3>
+  <p>AutoDock Vina's limitations for peptide docking include: (1) ≤32 active rotatable bonds are efficiently sampled — longer peptides (>10 residues) exceed this limit and may not be adequately sampled. (2) Vina treats the receptor as rigid, missing induced-fit effects. (3) Vina's scoring function was optimized for drug-like small molecules and may not accurately rank peptide poses. (4) The grid-based approach becomes inefficient for extended peptides requiring large grid boxes. (5) Vina does not account for peptide-specific properties (e.g., secondary structure propensity, backbone hydrogen bonding patterns). Mitigate these limitations by using conformational pre-sampling, ensemble redocking, and consensus scoring with complementary methods.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How does HADDOCK use experimental data for peptide docking?</h3>
+  <p>HADDOCK converts experimental information into <strong>Ambiguous Interaction Restraints (AIRs)</strong> — distance restraints that specify which residues on the peptide and receptor should be in proximity at the binding interface. AIRs are "ambiguous" because they don't specify which specific atom pairs interact, only that the residues are at the interface. Sources for AIRs include <strong>NMR chemical shift perturbations</strong> (residues whose peaks shift upon peptide addition), <strong>mutagenesis data</strong> (residues where alanine substitution reduces binding >2-fold), <strong>cross-linking mass spectrometry</strong>, <strong>HDX-MS</strong> (regions protected from exchange upon binding), and <strong>bioinformatic predictions</strong> of interface residues. Even 3-5 well-chosen AIRs can focus sampling on the correct interface and dramatically improve success rates. For protocols, see <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What is the difference between a scoring function and a force field?</h3>
+  <p>A <strong>force field</strong> is a physical model describing the potential energy of a molecular system as a function of atomic positions, including bond stretching, angle bending, torsional rotation, van der Waals, and electrostatic terms with physically derived parameters (e.g., CHARMM, AMBER). Force fields aim to reproduce physical energies. A <strong>scoring function</strong> is a mathematical function designed to evaluate and rank protein-ligand complexes, which may or may not have a physical basis. Scoring functions are optimized for computational speed and ranking accuracy rather than physical fidelity. Some scoring functions are force field-based (using simplified force field terms), while others are empirical (regression against binding data) or knowledge-based (statistical potentials). Force fields are used in MD simulations; scoring functions are used in docking.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Can I dock cyclic peptides with standard docking programs?</h3>
+  <p>Cyclic peptides present special challenges: (1) The conformational space is constrained by cyclization, which must be preserved during docking. (2) Most docking programs do not natively handle cyclization constraints. (3) Cyclic peptides often adopt specific backbone conformations critical for binding. <strong>Recommended approaches:</strong> Generate conformer ensembles that respect cyclization constraints (using RDKit, OMEGA, or explicit solvent MD). Dock pre-generated conformers with Vina or HADDOCK. Use <strong>Rosetta</strong> with the simple_cycpep_predict application for cyclic peptide structure prediction and docking. For head-to-tail cyclic peptides, the Rosetta GenKIC protocol samples conformations satisfying cyclization geometry while docking. For disulfide-cyclized peptides, constrain the disulfide bonds during docking.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I validate that my docking results are reliable?</h3>
+  <p>Validation strategies include: (1) <strong>Redocking:</strong> Dock a ligand with a known experimental structure back into its receptor — recovery of the experimental pose (ligand RMSD < 2.0 Å) validates the protocol. (2) <strong>Decoy discrimination:</strong> Generate incorrect poses and verify that your scoring function ranks the correct pose above decoys. (3) <strong>MD stability:</strong> Run MD simulations — correct poses are stable (ligand RMSD stable < 4 Å), incorrect poses diverge. (4) <strong>MM-GBSA ranking:</strong> Compute MM-GBSA binding energies — correct poses should have favorable and consistent energies. (5) <strong>Key interaction preservation:</strong> Verify that experimentally known key interactions (e.g., catalytic triad hydrogen bonds, metal coordination) are present in your predicted pose. (6) <strong>Cross-validation:</strong> Consensus between independent docking methods increases confidence. (7) <strong>Experimental testing:</strong> The ultimate validation is experimental confirmation of binding and activity.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What is the relationship between docking score and actual binding affinity?</h3>
+  <p>Docking scores provide <strong>rankings, not absolute affinity predictions</strong>. The correlation between docking scores and experimental binding affinities is typically moderate (Pearson r = 0.3-0.6 for best-performing methods). Several factors degrade the correlation: (1) Scoring functions do not capture entropic contributions adequately. (2) Implicit solvation models treat water crudely. (3) Training sets for empirical scoring functions may not represent peptide ligands. (4) Conformational and binding site uncertainty adds noise. MM-PBSA/GBSA calculations on MD trajectories improve correlation (r = 0.5-0.8) but are more computationally expensive. For reliable affinity ranking, particularly within a congeneric series, relative binding free energy calculations (FEP) are preferred but require substantially more computation. Use docking scores for enrichment (identifying binders among non-binders) rather than precise affinity ordering.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I dock a peptide to a receptor with no known binding site?</h3>
+  <p>When the binding site is unknown: (1) <strong>Predict binding sites</strong> using tools like Fpocket, SiteMap, or DeepSite to identify potential pockets. (2) <strong>Use evolutionary conservation</strong> — conserved surface patches often indicate functional binding sites (ConSurf server). (3) <strong>Apply blind docking</strong> — programs like ClusPro or HDOCK perform global docking without predefined binding sites. For peptides, blind docking is challenging because flexible peptides can adopt many conformations; use a conformer ensemble approach. (4) <strong>HADDOCK with predicted interfaces:</strong> Use CPORT or WHISCY to predict interface residues and use them as AIRs. (5) <strong>If docking fails:</strong> Consider that your target may not have a well-defined peptide-binding pocket, or that the binding site may be cryptic (only exposed upon conformational change). MD-based pocket detection can identify cryptic sites.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What computational resources do I need for peptide docking?</h3>
+  <p>Resource requirements vary dramatically by method: <strong>AutoDock Vina</strong> docking of one peptide with exhaustiveness=32 takes <strong>5-30 minutes on a single CPU core</strong>. <strong>HADDOCK</strong> (via web server) is <strong>free for academic users</strong> with queue times of hours to days. <strong>Rosetta FlexPepDock ab initio</strong> requires <strong>100-200 CPU hours</strong> for thorough sampling of a single peptide. <strong>MD refinement</strong> (100 ns simulation) takes <strong>24-72 hours on a modern GPU</strong> (e.g., RTX 4090). <strong>Virtual screening</strong> of 10,000 peptides requires <strong>days to weeks on a small cluster</strong> (20-50 cores), depending on protocol complexity. Cloud computing platforms (AWS, Google Cloud) provide on-demand access to GPU and high-CPU instances. For resource estimation and platform setup, see <a href="https://data.rplpeptides.com">RPL Peptides Data</a>.</p>
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Trott, O. &amp; Olson, A.J. (2010). AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. <em>Journal of Computational Chemistry</em>, 31(2), 455–461. <a href="https://doi.org/10.1002/jcc.21334">https://doi.org/10.1002/jcc.21334</a></p>
+</li>
+<li>
+<p>Dominguez, C., Boelens, R., &amp; Bonvin, A.M.J.J. (2003). HADDOCK: a protein-protein docking approach based on biochemical or biophysical information. <em>Journal of the American Chemical Society</em>, 125(7), 1731–1737. <a href="https://doi.org/10.1021/ja026939x">https://doi.org/10.1021/ja026939x</a></p>
+</li>
+<li>
+<p>London, N., Raveh, B., Cohen, E., Fathi, G., &amp; Schueler-Furman, O. (2011). Rosetta FlexPepDock web server — high resolution modeling of peptide–protein interactions. <em>Nucleic Acids Research</em>, 39(suppl_2), W249–W253. <a href="https://doi.org/10.1093/nar/gkr352">https://doi.org/10.1093/nar/gkr352</a></p>
+</li>
+<li>
+<p>Kozakov, D., Hall, D.R., Xia, B., Porter, K.A., Padhorny, D., Yueh, C., Beglov, D., &amp; Vajda, S. (2017). The ClusPro web server for protein–protein docking. <em>Nature Protocols</em>, 12(2), 255–278. <a href="https://doi.org/10.1038/nprot.2016.169">https://doi.org/10.1038/nprot.2016.169</a></p>
+</li>
+<li>
+<p>van Zundert, G.C.P., Rodrigues, J.P.G.L.M., Trellet, M., Schmitz, C., Kastritis, P.L., Karaca, E., Melquiond, A.S.J., van Dijk, M., de Vries, S.J., &amp; Bonvin, A.M.J.J. (2016). The HADDOCK2.2 web server: user-friendly integrative modeling of biomolecular complexes. <em>Journal of Molecular Biology</em>, 428(4), 720–725. <a href="https://doi.org/10.1016/j.jmb.2015.09.014">https://doi.org/10.1016/j.jmb.2015.09.014</a></p>
+</li>
+<li>
+<p>Raveh, B., London, N., &amp; Schueler-Furman, O. (2010). Sub-angstrom modeling of complexes between flexible peptides and globular proteins. <em>Proteins: Structure, Function, and Bioinformatics</em>, 78(9), 2029–2040. <a href="https://doi.org/10.1002/prot.22780">https://doi.org/10.1002/prot.22780</a></p>
+</li>
+<li>
+<p>Kuntz, I.D., Blaney, J.M., Oatley, S.J., Langridge, R., &amp; Ferrin, T.E. (1982). A geometric approach to macromolecule-ligand interactions. <em>Journal of Molecular Biology</em>, 161(2), 269–288. <a href="https://doi.org/10.1016/0022-2836(82)90153-X">https://doi.org/10.1016/0022-2836(82)90153-X</a></p>
+</li>
+<li>
+<p>Morris, G.M., Goodsell, D.S., Halliday, R.S., Huey, R., Hart, W.E., Belew, R.K., &amp; Olson, A.J. (1998). Automated docking using a Lamarckian genetic algorithm and an empirical binding free energy function. <em>Journal of Computational Chemistry</em>, 19(14), 1639–1662. <a href="https://doi.org/10.1002/(SICI)1096-987X(19981115)19:14">https://doi.org/10.1002/(SICI)1096-987X(19981115)19:14</a></p>
+</li>
+<li>
+<p>Lensink, M.F., Nadzirin, N., Velankar, S., &amp; Wodak, S.J. (2020). Modeling protein–protein, protein–peptide, and protein–oligosaccharide complexes: CAPRI 7th edition. <em>Proteins: Structure, Function, and Bioinformatics</em>, 88(8), 916–938. <a href="https://doi.org/10.1002/prot.25795">https://doi.org/10.1002/prot.25795</a></p>
+</li>
+<li>
+<p>Schueler-Furman, O., London, N., &amp; Raveh, B. (2021). Modeling peptide–protein interactions: methods and protocols. <em>Wiley Interdisciplinary Reviews: Computational Molecular Science</em>, 11(3), e1500. <a href="https://doi.org/10.1002/wcms.1500">https://doi.org/10.1002/wcms.1500</a></p>
+</li>
+<li>
+<p>Genheden, S. &amp; Ryde, U. (2015). The MM/PBSA and MM/GBSA methods to estimate ligand-binding affinities. <em>Expert Opinion on Drug Discovery</em>, 10(5), 449–461. <a href="https://doi.org/10.1517/17460441.2015.1032936">https://doi.org/10.1517/17460441.2015.1032936</a></p>
+</li>
+<li>
+<p>Trellet, M., Melquiond, A.S.J., &amp; Bonvin, A.M.J.J. (2013). A unified conformational selection and induced fit approach to protein-peptide docking. <em>PLoS ONE</em>, 8(3), e58769. <a href="https://doi.org/10.1371/journal.pone.0058769">https://doi.org/10.1371/journal.pone.0058769</a></p>
+</li>
+<li>
+<p>Rentzsch, R. &amp; Renard, B.Y. (2020). Docking small peptides remains a great challenge. <em>Briefings in Bioinformatics</em>, 22(6), bbab135. <a href="https://doi.org/10.1093/bib/bbab135">https://doi.org/10.1093/bib/bbab135</a></p>
+</li>
+<li>
+<p>Yan, Y., Zhang, D., &amp; Huang, S.Y. (2019). Efficient conformational ensemble generation of protein-bound peptides. <em>Journal of Cheminformatics</em>, 9(1), 59. <a href="https://doi.org/10.1186/s13321-017-0245-5">https://doi.org/10.1186/s13321-017-0245-5</a></p>
+</li>
+<li>
+<p>Weng, G., Wang, E., Wang, Z., Liu, H., Zhu, F., Li, D., &amp; Hou, T. (2019). Comprehensive evaluation of fourteen docking programs on protein–peptide complexes. <em>Journal of Chemical Information and Modeling</em>, 59(6), 2724–2736. <a href="https://doi.org/10.1021/acs.jcim.9b00232">https://doi.org/10.1021/acs.jcim.9b00232</a></p>
+</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

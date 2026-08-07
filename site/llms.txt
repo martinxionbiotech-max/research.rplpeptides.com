@@ -1,0 +1,50 @@
+# RPL Peptides Research Knowledge Center
+
+> RPL Peptides Research Knowledge Center is an open, evidence-based scientific education platform dedicated to peptide biology, synthesis chemistry, analytical characterization (HPLC, LC-MS), and metabolic research.
+
+## Core Documentation & Guides
+
+- [Home & Knowledge Portal](https://research.rplpeptides.com/index.md): Comprehensive portal overview, analytical comparison matrix, and quick search directory.
+- [How to Read a Peptide COA (Pillar Guide)](https://research.rplpeptides.com/coa-guide/index.md): The definitive master guide explaining HPLC purity, peak area integration, retention time matching (HPLC-RTM), LC-MS molecular weight confirmation, and Certificate of Analysis interpretation.
+
+## Topic Cluster: Certificate of Analysis (COA) & Analytical Science
+
+- [1. Understanding LC-MS Reports](https://research.rplpeptides.com/coa-guide/01-understanding-lc-ms-reports.md): Electrospray Ionization (ESI-MS), mass-to-charge ratio ($m/z$), charge state deconvolution, and monoisotopic vs average mass.
+- [2. HPLC Chromatogram Interpretation](https://research.rplpeptides.com/coa-guide/02-hplc-chromatogram-interpretation.md): Reading baseline stability, signal-to-noise ratio ($S/N = 2H/h$), ghost peaks, and solvent fronts.
+- [3. Peak Area vs Peak Height](https://research.rplpeptides.com/coa-guide/03-peak-area-vs-peak-height.md): Mathematical integration formula ($A = \int I(t) dt$) and why area percentage is required over peak height.
+- [4. Retention Time Explained](https://research.rplpeptides.com/coa-guide/04-retention-time-explained.md): Retention time ($t_R$), capacity factor ($k' = \frac{t_R - t_0}{t_0}$), selectivity, drift causes, and HPLC-RTM.
+- [5. Common Peptide Impurities](https://research.rplpeptides.com/coa-guide/05-common-peptide-impurities.md): SPPS deletion sequences ($N-1$), truncated peptides, diastereomers, oxidized peptides, and TFA adducts.
+- [6. USP <621> Chromatography Guide](https://research.rplpeptides.com/coa-guide/06-usp-621-chromatography-guide.md): United States Pharmacopeia allowable chromatographic method adjustments ($L/d_p$, flow rate, temperature, pH).
+- [7. ICH Q2(R2) Method Validation](https://research.rplpeptides.com/coa-guide/07-ich-q2r2-explained.md): Global validation standards for analytical procedures (Specificity, Linearity, Precision, Accuracy, LOD, LOQ).
+- [8. HPLC Method Validation Protocol](https://research.rplpeptides.com/coa-guide/08-hplc-method-validation.md): Practical SOP for executing HPLC method validation for research peptide quality control.
+- [9. System Suitability Testing (SST)](https://research.rplpeptides.com/coa-guide/09-system-suitability-testing.md): SST acceptance criteria (Peak Area RSD $\le 1.0\%$, RT RSD $\le 0.5\%$, Tailing Factor $T \le 1.5$, Resolution $R_s \ge 1.5$).
+- [10. Analytical Method Transfer](https://research.rplpeptides.com/coa-guide/10-analytical-method-transfer.md): Inter-laboratory reproducibility, gradient delay/dwell volume ($V_D$) matching, and acceptance criteria.
+- [11. Reverse Phase HPLC for Peptides](https://research.rplpeptides.com/coa-guide/11-reverse-phase-hplc-for-peptides.md): C18 vs C4 stationary phases, $300\text{ \AA}$ pore size silica requirements, and TFA ion-pairing mechanism.
+- [12. Tailing Factor Explained](https://research.rplpeptides.com/coa-guide/12-tailing-factor-explained.md): Formula ($T = \frac{W_{0.05}}{2f}$), silanol interactions, causes, and troubleshooting.
+- [13. Resolution in Chromatography](https://research.rplpeptides.com/coa-guide/13-resolution-in-chromatography.md): Resolution formula ($R_s = \frac{2(t_{R2} - t_{R1})}{W_1 + W_2}$), Purnell equation, and baseline separation requirements.
+- [14. Deletion Peptides ($N-1$) Explained](https://research.rplpeptides.com/coa-guide/14-deletion-peptides-explained.md): Synthesis mechanisms during incomplete SPPS coupling cycles and RP-HPLC separation strategies.
+- [15. Oxidized Peptide Impurities](https://research.rplpeptides.com/coa-guide/15-oxidized-peptide-impurities.md): Methionine (+16 Da), Tryptophan, and Cysteine oxidation pathways and chromatographic retention shifts.
+- [16. How Laboratories Calculate HPLC Purity](https://research.rplpeptides.com/coa-guide/16-how-laboratories-calculate-hplc-purity.md): Area Percent Normalization vs Weight/Weight Assay percentage, Relative Response Factors ($RRF$), and true net peptide content.
+
+## Peptide Library (Molecular Research Profiles)
+
+- [Semaglutide](https://research.rplpeptides.com/peptide-library/semaglutide.md): Long-acting GLP-1 receptor agonist ($C_{187}H_{291}N_{45}O_{59}$, MW 4113.58 Da).
+- [Tirzepatide](https://research.rplpeptides.com/peptide-library/tirzepatide.md): Dual GIP/GLP-1 receptor agonist ($C_{225}H_{348}N_{48}O_{68}$, MW 4813.45 Da).
+- [Retatrutide](https://research.rplpeptides.com/peptide-library/retatrutide.md): Triple GLP-1/GIP/GCG receptor agonist for metabolic research.
+- [BPC-157](https://research.rplpeptides.com/peptide-library/bpc-157.md): Pentadecapeptide (15 aa) derived from human gastric juice protein.
+- [TB-500](https://research.rplpeptides.com/peptide-library/tb-500.md): Thymosin beta-4 synthetic analog containing the LKKTET actin-binding motif.
+- [MOTS-c](https://research.rplpeptides.com/peptide-library/mots-c.md): Mitochondrial open reading frame of 12S rRNA peptide regulating metabolic homeostasis and AMPK signaling.
+- [SS-31 (Elamipretide)](https://research.rplpeptides.com/peptide-library/ss-31.md): Mitochondria-targeted tetrapeptide for cardiolipin binding and ETC stabilization.
+
+## Research Categories & Methodologies
+
+- [Peptide Biology Overview](https://research.rplpeptides.com/research/peptide-biology/index.md): What are peptides, classification, structure-function, signaling, transport, immunopeptidomics.
+- [Peptide Chemistry Overview](https://research.rplpeptides.com/research/peptide-chemistry/index.md): Synthesis overview, SPPS, purification methods, analytical characterization.
+- [Analytical Science Overview](https://research.rplpeptides.com/research/analytical-science/index.md): HPLC analysis, mass spectrometry, peptide stability studies, purity testing.
+- [Metabolic Research Overview](https://research.rplpeptides.com/research/metabolic/index.md): GLP-1 research, GIP research, dual agonists, multi-receptor peptides.
+- [Research Methods SOPs](https://research.rplpeptides.com/methods/index.md): SPPS method, RP-HPLC analysis, Mass Spec protocols, Lyophilization, Peptide Storage & Stability.
+- [Scientific Comparisons](https://research.rplpeptides.com/comparisons/index.md): GLP-1 vs GIP, Semaglutide vs Tirzepatide, Peptides vs Small Molecules, Single vs Multi-Receptor Agonists.
+
+## Full Consolidated Documentation Feed
+
+- [llms-full.txt](https://research.rplpeptides.com/llms-full.txt): Complete, consolidated markdown knowledge base formatted for direct LLM context ingestion.

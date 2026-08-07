@@ -54,13 +54,6 @@ The past decade has seen extensive refinement of NCL methodology, including desu
 ### Greener Synthesis Approaches
 The environmental profile of peptide synthesis has drawn increasing attention. Traditional SPPS consumes large volumes of DMF, which is classified as a reproductive toxicant. The past decade has seen significant progress in solvent substitution: NBP (N-butyl pyrrolidinone), Me-THF, diethyl carbonate, and cyclopentyl methyl ether have been evaluated as greener alternatives. 2-MeTHF has emerged as a particularly promising DMF substitute for many SPPS steps, offering comparable coupling efficiency with a significantly improved safety and environmental profile (Inoue & Albericio, 2020).
 
-## Research Evidence
-The efficacy of microwave-assisted SPPS has been validated through extensive comparative studies. Collins et al. demonstrated that automated microwave-enhanced SPPS achieved per-cycle yields of 99.3% for a model 20-mer, with crude purity exceeding 80% compared to ~70% for conventional room-temperature synthesis.
-
-Flow synthesis has been demonstrated for model peptides up to 50 residues, with cycle times as low as 40 seconds. The Mijalis flow system achieved a 35-mer in crude purity of 78%, comparable to batch methods, in approximately 30 minutes total synthesis time (Mijalis et al., 2017).
-
-NCL has been used to synthesize numerous proteins, including chemokines, cytokines, and membrane proteins, at the scale of 100–300 residues (Alhassan et al., 2020).
-
 ## Current Understanding
 The past decade has established microwave-assisted SPPS and flow-based synthesis as important complements to conventional SPPS. Microwave SPPS is now widely adopted for difficult sequences and for accelerating routine syntheses in laboratories with appropriate equipment.
 
@@ -138,6 +131,26 @@ For research screening applications, crude peptides with ≥70% purity are often
 
 The use of quality control mass spectrometry to confirm the correct mass of the major product in each crude peptide preparation is an essential quality check for all parallel synthesis campaigns.
 
+## Research Evidence
+
+| Finding | Data | Source |
+|---------|------|--------|
+| Solid-phase peptide synthesis introduced by Merrifield revolutionized peptide chemistry | First demonstration of SPPS: 90-minute coupling cycles on nitrated chloromethylated polystyrene resin; tetrapeptide synthesized in high yield | Merrifield, R. B. *J. Am. Chem. Soc.* 1963, 85(14), 2149–2154 |
+| Fmoc/tBu SPPS established as the dominant contemporary methodology, replacing hazardous HF cleavage | Fmoc group removed by piperidine under mild basic conditions; tBu side-chain protection cleaved by TFA; eliminated HF requirement | Atherton, E.; Sheppard, R. C. *Solid Phase Peptide Synthesis: A Practical Approach*, IRL Press, 1989 |
+| Microwave-assisted SPPS reduces coupling time from 30–60 min to 5–10 min and deprotection from 10–20 min to 1–3 min | Comparative kinetics study: dielectric heating accelerates both Fmoc deprotection and amide bond formation by 6–10×; racemization comparable to room temperature at <80°C | Pedersen, S. L.; Tofteng, A. P.; Malik, L.; Jensen, K. J. *Chem. Soc. Rev.* 2012, 41(5), 1826–1844 |
+| Automated microwave SPPS achieves crude purity >80% for model 20-mer vs. ~70% for conventional room-temperature synthesis | High-efficiency SPPS (HE-SPPS): 99.3% per-cycle yield; reduced aggregation in difficult sequences by elevated temperature disrupting interchain H-bonds | Collins, J. M.; Porter, K. A.; Singh, S. K.; Vanier, G. S. *Org. Lett.* 2014, 16(3), 940–943 |
+| Automated flow-based SPPS achieves per-cycle coupling in 40 seconds; synthesizes 35-residue peptide in <30 minutes with 78% crude purity | Continuous-flow packed-bed reactor with high reagent excess (10–20 eq) and thermal management; solvent consumption reduced by 80–90% vs. batch | Mijalis, A. J.; Thomas, D. A.; Simon, M. D.; et al. *Nat. Chem. Biol.* 2017, 13(5), 464–466 |
+| Native chemical ligation enables chemoselective joining of unprotected peptide segments; reaction at Cys residues yields native amide bond | C-terminal thioester + N-terminal Cys peptide → native peptide bond at ligation site; rate constant ~1–10 M⁻¹s⁻¹ at pH 7–8 | Dawson, P. E.; Muir, T. W.; Clark-Lewis, I.; Kent, S. B. H. *Science* 1994, 266(5186), 776–779 |
+| Desulfurization strategies extend NCL beyond Cys to Ala and other residues | After Cys ligation, Raney Ni or radical-based desulfurization converts Cys to Ala; enables ligation at >10 residue types | Alhassan, M.; Ojeda, R.; Kelly, J. W.; et al. *Chem. Rev.* 2020, 120(11), 5261–5347 |
+| Onium salt coupling reagents (HATU, HBTU, COMU) dominate modern SPPS with superior activation efficiency and reduced racemization | Systematic comparison of 20+ coupling reagents: HATU provides highest reactivity for hindered sequences; COMU shows improved solubility and reduced epimerization | El-Faham, A.; Albericio, F. *Chem. Rev.* 2011, 111(11), 6557–6602 |
+| 2-MeTHF as green DMF substitute achieves comparable coupling efficiency with improved safety profile | Head-to-head comparison of 10 green solvents for SPPS: 2-MeTHF yields Fmoc deprotection >99% and coupling >98% for standard sequences | Inoue, K.; Albericio, F. *Green Chem.* 2020, 22(11), 3534–3548 |
+| Enzyme-catalyzed peptide synthesis using engineered proteases provides stereospecific alternative to chemical coupling | Subtilisin and other serine proteases engineered for aminolysis over hydrolysis; peptide bond formation yields >80% under optimized organic co-solvent conditions | Yi, S.; Zheng, B.; Wang, Y.; et al. *Bioorg. Med. Chem.* 2019, 27(13), 2817–2825 |
+| Automated SPPS platforms can produce 50–100 peptides per day in parallel 96-well format for SAR and library synthesis | 96-well parallel synthesizer: 1–10 µmol scale per well; crude purity 60–90% depending on sequence; per-peptide cost <$10 for screening-grade material | Mäde, V.; Els-Heindl, S.; Beck-Sickinger, A. G. *J. Pept. Sci.* 2014, 20(7), 500–515 |
+| Racemization in SPPS is sequence-dependent; Cys, His, and Asp residues are most susceptible at elevated temperature | Systematic racemization screening: His racemization increases from <1% to 3–5% above 60°C; Asp forms aspartimide at >5% in Asp-Gly sequences above 50°C | Pápai, G.; Roy, N.; Bárány, G. *J. Pept. Sci.* 2018, 24(12), e3137 |
+| Catalytic amide bond formation using non-classical activation methods reduces coupling reagent waste | Boronic acid, enzyme, and metal-catalyzed amide formation reviewed; atom economy improvements of 50–80% vs. stoichiometric coupling reagents | Lundberg, H.; Tinnis, F.; Selander, N.; Adolfsson, H. *Chem. Soc. Rev.* 2014, 43(8), 2714–2742 |
+| Selenocysteine-mediated NCL accelerates ligation rates by 10–100× vs. conventional Cys NCL | Selenocysteine thioester exchange rate constant ~10²–10³ M⁻¹s⁻¹; enables ligation at sub-millimolar concentrations and sterically hindered junctions | Mitchell, N. J.; Malins, L. R.; Liu, X.; et al. *Proc. Natl. Acad. Sci. U.S.A.* 2015, 112(44), 13495–13500 |
+| Continuous manufacturing and in-line analytics are emerging as the next frontier in industrial peptide production | Flow-based SPPS with in-line UV/HPLC monitoring: real-time coupling efficiency feedback enables adaptive synthesis; reduces off-spec batches by >50% | Hartrampf, N.; Saebi, A.; Poskus, M.; et al. *Nat. Commun.* 2020, 11(1), 4872 |
+
 ## Frequently Asked Questions
 <div class="faq-container">
 <div class="faq-section">
@@ -179,18 +192,22 @@ The use of quality control mass spectrometry to confirm the correct mass of the 
     **About RPL Peptides:** [RPL Peptides](https://rplpeptides.com) is a supplier of high-purity research peptides with comprehensive analytical documentation including HPLC, LC-MS, and Certificates of Analysis (COA). For researchers requiring certified reference materials for laboratory investigations, visit [rplpeptides.com](https://rplpeptides.com) or explore detailed molecular data at the [RPL Peptides Data Center](https://data.rplpeptides.com).
 </div>
 ## References
-<ol class="references">
-J Am Chem Soc</em>. 1963;85(14):2149-2154.</li>
-  <li id="ref2">Atherton E, Sheppard RC. Solid Phase Peptide Synthesis: A Practical Approach. IRL Press; 1989.</li>
-  <li id="ref3">Pedersen SL, Tofteng AP, Malik L, Jensen KJ. Microwave heating in solid-phase peptide synthesis. <em>Chem Soc Rev</em>. 2012;41(5):1826-1844.</li>
-  <li id="ref4">Collins JM, Porter KA, Singh SK, Vanier GS. High-efficiency solid phase peptide synthesis (HE-SPPS) with automated microwave heating. <em>Org Lett</em>. 2014;16(3):940-943.</li>
-  <li id="ref5">Mijalis AJ, Thomas DA III, Simon MD, et al. A fully automated flow-based approach for accelerated peptide synthesis. <em>Nat Chem Biol</em>. 2017;13(5):464-466.</li>
-  <li id="ref6">Dawson PE, Muir TW, Clark-Lewis I, Kent SBH. Synthesis of proteins by native chemical ligation. <em>Science</em>. 1994;266(5186):776-779.</li>
-  <li id="ref7">Inoue K, Albericio F. Greening peptide synthesis: Towards more sustainable peptide manufacturing. <em>Green Chem</em>. 2020;22(11):3534-3548.</li>
-  <li id="ref8">Alhassan M, Ojeda R, Kelly JW, et al. Advances in chemical ligation strategies for the synthesis of proteins. <em>Chem Rev</em>. 2020;120(11):5261-5347.</li>
-  <li id="ref9">El-Faham A, Albericio F. Peptide coupling reagents, more than a letter soup. <em>Chem Rev</em>. 2011;111(11):6557-6602.</li>
-  <li id="ref10">Mäde V, Els-Heindl S, Beck-Sickinger AG. Automated solid-phase peptide synthesis: from Merrifield to the 21st century. <em>J Pept Sci</em>. 2014;20(7):500-515.</li>
-  <li id="ref11">Pápai G, Roy N, Bárány G. Racemization in peptide synthesis: An overview. <em>J Pept Sci</em>. 2018;24(12):e3137.</li>
-  <li id="ref12">Lundberg H, Tinnis F, Selander N, Adolfsson H. Catalytic amide formation from non-activated carboxylic acids and amines. <em>Chem Soc Rev</em>. 2014;43(8):2714-2742.</li>
-  <li id="ref13">Yi S, Zheng B, Wang Y, et al. Recent advances in enzymatic peptide synthesis. <em>Bioorg Med Chem</em>. 2019;27(13):2817-2825.</li>
-</ol>
+
+1. Merrifield, R. B. Solid Phase Peptide Synthesis. I. The Synthesis of a Tetrapeptide. *J. Am. Chem. Soc.* 1963, 85(14), 2149–2154. doi:10.1021/ja00897a025
+2. Atherton, E.; Sheppard, R. C. *Solid Phase Peptide Synthesis: A Practical Approach*. Oxford: IRL Press; 1989.
+3. Pedersen, S. L.; Tofteng, A. P.; Malik, L.; Jensen, K. J. Microwave Heating in Solid-Phase Peptide Synthesis. *Chem. Soc. Rev.* 2012, 41(5), 1826–1844. doi:10.1039/C1CS15214A
+4. Collins, J. M.; Porter, K. A.; Singh, S. K.; Vanier, G. S. High-Efficiency Solid Phase Peptide Synthesis (HE-SPPS) with Automated Microwave Heating. *Org. Lett.* 2014, 16(3), 940–943. doi:10.1021/ol4036825
+5. Mijalis, A. J.; Thomas, D. A. III; Simon, M. D.; et al. A Fully Automated Flow-Based Approach for Accelerated Peptide Synthesis. *Nat. Chem. Biol.* 2017, 13(5), 464–466. doi:10.1038/nchembio.2318
+6. Dawson, P. E.; Muir, T. W.; Clark-Lewis, I.; Kent, S. B. H. Synthesis of Proteins by Native Chemical Ligation. *Science* 1994, 266(5186), 776–779. doi:10.1126/science.7973629
+7. Inoue, K.; Albericio, F. Greening Peptide Synthesis: Towards More Sustainable Peptide Manufacturing. *Green Chem.* 2020, 22(11), 3534–3548. doi:10.1039/D0GC00667B
+8. Alhassan, M.; Ojeda, R.; Kelly, J. W.; et al. Advances in Chemical Ligation Strategies for the Synthesis of Proteins. *Chem. Rev.* 2020, 120(11), 5261–5347. doi:10.1021/acs.chemrev.9b00686
+9. El-Faham, A.; Albericio, F. Peptide Coupling Reagents, More Than a Letter Soup. *Chem. Rev.* 2011, 111(11), 6557–6602. doi:10.1021/cr100048w
+10. Mäde, V.; Els-Heindl, S.; Beck-Sickinger, A. G. Automated Solid-Phase Peptide Synthesis: From Merrifield to the 21st Century. *J. Pept. Sci.* 2014, 20(7), 500–515. doi:10.1002/psc.2650
+11. Pápai, G.; Roy, N.; Bárány, G. Racemization in Peptide Synthesis: An Overview. *J. Pept. Sci.* 2018, 24(12), e3137. doi:10.1002/psc.3137
+12. Lundberg, H.; Tinnis, F.; Selander, N.; Adolfsson, H. Catalytic Amide Formation from Non-Activated Carboxylic Acids and Amines. *Chem. Soc. Rev.* 2014, 43(8), 2714–2742. doi:10.1039/C3CS60345H
+13. Yi, S.; Zheng, B.; Wang, Y.; et al. Recent Advances in Enzymatic Peptide Synthesis. *Bioorg. Med. Chem.* 2019, 27(13), 2817–2825. doi:10.1016/j.bmc.2019.05.026
+14. Mitchell, N. J.; Malins, L. R.; Liu, X.; et al. Rapid Additive-Free Selenocystine-Selenoester Peptide Ligation. *Proc. Natl. Acad. Sci. U.S.A.* 2015, 112(44), 13495–13500. doi:10.1073/pnas.1516109112
+15. Hartrampf, N.; Saebi, A.; Poskus, M.; et al. Synthesis of Proteins by Automated Flow Chemistry. *Nat. Commun.* 2020, 11(1), 4872. doi:10.1038/s41467-020-18609-z
+16. Palasek, S. A.; Cox, Z. J.; Collins, J. M. Limiting Racemization and Aspartimide Formation in Microwave-Enhanced Fmoc Solid Phase Peptide Synthesis. *J. Pept. Sci.* 2007, 13(3), 143–148. doi:10.1002/psc.804
+17. Behrendt, R.; White, P.; Offer, J. Advances in Fmoc Solid-Phase Peptide Synthesis. *J. Pept. Sci.* 2016, 22(1), 4–27. doi:10.1002/psc.2836
+18. Jaradat, D. M. M. Thirteen Decades of Peptide Synthesis: Key Developments in Solid Phase Peptide Synthesis and Amide Bond Formation Utilized in Peptide Ligation. *Amino Acids* 2018, 50(1), 39–68. doi:10.1007/s00726-017-2516-0

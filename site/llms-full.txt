@@ -1,0 +1,1876 @@
+# RPL Peptides Complete Technical Knowledge Base (Full Feed)
+
+<!-- FILE: index.md -->
+---
+title: "RPL Peptides Research Knowledge Center | Scientific Education Platform"
+description: "A comprehensive scientific education platform for peptide biology, molecular research, analytical methods, and emerging peptide technologies. Explore 50+ research articles, 14 peptide profiles, and scientific comparisons."
+keywords: "Peptide Biology, Peptide Chemistry, Analytical Science, Metabolic Research, Peptide Library, COA Guide, HPLC, LC-MS"
+---
+
+<div class="hero-card">
+  <h1>RPL Peptides Research Knowledge Center</h1>
+  <p>Exploring peptide biology, molecular science, research methods, and emerging peptide technologies — an evidence-based educational resource for the peptide research community.</p>
+</div>
+
+## Featured Research Areas
+
+<div class="grid-cards">
+  <div class="card-item">
+    <h3><span class="badge">Biology</span> Peptide Biology</h3>
+    <p>Fundamentals of peptide structure, classification, sequence-function relationships, and signaling pathways.</p>
+    <a href="research/peptide-biology/index.md">Explore Peptide Biology &rarr;</a>
+  </div>
+  <div class="card-item">
+    <h3><span class="badge">Chemistry</span> Peptide Chemistry</h3>
+    <p>Synthesis methods, SPPS methodology, purification strategies, and analytical characterization.</p>
+    <a href="research/peptide-chemistry/index.md">Explore Peptide Chemistry &rarr;</a>
+  </div>
+  <div class="card-item">
+    <h3><span class="badge">Analytical</span> Analytical Science</h3>
+    <p>HPLC analysis, Mass Spectrometry (LC-MS/MS), stability testing, and purity assessment methodologies.</p>
+    <a href="research/analytical-science/index.md">Explore Analytical Science &rarr;</a>
+  </div>
+  <div class="card-item">
+    <h3><span class="badge">Metabolic</span> Metabolic Research</h3>
+    <p>GLP-1, GIP, incretin biology, dual GLP-1/GIP agonists, and multi-receptor peptide research.</p>
+    <a href="research/metabolic/index.md">Explore Metabolic Research &rarr;</a>
+  </div>
+  <div class="card-item">
+    <h3><span class="badge">Library</span> Peptide Library</h3>
+    <p>Comprehensive molecular profiles of 14 research peptides with scientific background and references.</p>
+    <a href="peptide-library/index.md">Browse Peptide Library &rarr;</a>
+  </div>
+  <div class="card-item">
+    <h3><span class="badge">COA</span> COA Guide Series</h3>
+    <p>Complete 16-part technical guide on interpreting Certificates of Analysis, HPLC purity, and LC-MS reports.</p>
+    <a href="coa-guide/index.md">Read COA Guide Series &rarr;</a>
+  </div>
+</div>
+
+---
+
+## Research Methodologies & Scientific Comparisons
+
+| Category | Key Topics Covered | Recommended Guides |
+| :--- | :--- | :--- |
+| **Research Methods** | Solid-Phase Peptide Synthesis (SPPS), RP-HPLC, Mass Spec, Lyophilization, Storage | [Methods Overview](methods/index.md) |
+| **Literature Reviews** | GLP-1 RAs, BPC-157 Tissue Protection, Incretin Hormones, Synthesis Advances | [Literature Overview](literature/index.md) |
+| **Comparisons** | GLP-1 vs GIP, Semaglutide vs Tirzepatide, Peptides vs Small Molecules | [Comparisons Overview](comparisons/index.md) |
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+!!! question "What is the purpose of the RPL Peptides Research Knowledge Center?"
+    The platform is an open, evidence-based educational resource dedicated to advancing scientific knowledge in peptide biology, synthesis chemistry, analytical characterization, and metabolic research.
+
+!!! question "How are research peptide profiles formatted?"
+    Each profile in our [Peptide Library](peptide-library/index.md) provides quick facts, molecular formula, sequence, target receptors, biological research background, mechanisms of action, and peer-reviewed literature citations.
+
+
+---
+
+<!-- FILE: rpl-peptides-ecosystem.md -->
+---
+title: "RPL Peptides Scientific Ecosystem"
+description: "Overview of the four interconnected web resources in the RPL Peptides scientific ecosystem."
+---
+
+# RPL Peptides Scientific Ecosystem
+
+The RPL Peptides scientific ecosystem comprises four interconnected web resources designed to support peptide researchers with comprehensive information, molecular data, analytical documentation, and research tools.
+
+- **Research Knowledge Center** ([research.rplpeptides.com](https://research.rplpeptides.com/))
+- **Main Website** ([rplpeptides.com](https://rplpeptides.com/))
+- **Molecular Data Center** ([data.rplpeptides.com](https://data.rplpeptides.com/))
+- **Research Calculators & Utilities** ([tool.rplpeptides.com](https://tool.rplpeptides.com/))
+
+
+---
+
+<!-- FILE: peptide-library/aod9604.md -->
+---
+title: "AOD9604 Research Profile"
+description: "Modified C-terminal fragment of human growth hormone (hGH 177-191)."
+---
+
+# AOD9604 Research Profile
+
+!!! info "Executive Summary"
+    AOD9604 is a synthetic 15-amino-acid peptide corresponding to the lipolytic C-terminal domain of hGH (residues 177-191).
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/bpc-157.md -->
+---
+title: "BPC-157 Research Profile"
+description: "Body Protection Compound-157 — stable gastric pentadecapeptide."
+---
+
+# BPC-157 Research Profile
+
+!!! info "Executive Summary"
+    BPC-157 is a synthetic pentadecapeptide (15 amino acids) derived from a stable protein fragment isolated from human gastric juice.
+
+## Quick Facts
+- **Sequence**: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val
+- **Molecular Weight**: $\\approx 1419 \\text{ Da}$
+- **Primary Research Focus**: Gastrointestinal protection, angiogenesis, tendon and muscle repair.
+
+---
+[Return to Peptide Library Overview](index.md) or read [BPC-157 Tissue Protection Review](../literature/bpc-157-tissue-protection-mechanisms.md).
+
+
+---
+
+<!-- FILE: peptide-library/epithalon.md -->
+---
+title: "Epithalon Research Profile"
+description: "AEDG tetrapeptide in telomere biology and cellular aging research."
+---
+
+# Epithalon Research Profile
+
+!!! info "Executive Summary"
+    Epithalon (Ala-Glu-Asp-Gly) is a synthetic tetrapeptide studied for its effects on telomerase activation, pineal gland function, and cellular senescence.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/foxo4-dri.md -->
+---
+title: "FOXO4-DRI Research Profile"
+description: "D-retro-inverso interfering peptide targeting FOXO4-p53 interaction."
+---
+
+# FOXO4-DRI Research Profile
+
+!!! info "Executive Summary"
+    FOXO4-DRI is a synthetic D-retro-inverso interfering peptide designed to disrupt the nuclear FOXO4-p53 interaction and selectively eliminate senescent cells.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/ghk-cu.md -->
+---
+title: "GHK-Cu Research Profile"
+description: "Copper-binding tripeptide (Gly-His-Lys) complex."
+---
+
+# GHK-Cu Research Profile
+
+!!! info "Executive Summary"
+    GHK-Cu is a naturally occurring tripeptide-copper complex involved in wound healing, gene expression modulation, and tissue remodeling.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/index.md -->
+---
+title: "Peptide Library | Research Molecule Profiles"
+description: "Comprehensive scientific profiles of 14 research peptides studied in scientific contexts."
+---
+
+# Peptide Library
+
+Comprehensive scientific profiles of peptide molecules studied in research contexts. Each entry provides molecular characteristics, biological research background, and current scientific understanding.
+
+- [Semaglutide](semaglutide.md) — GLP-1 Receptor Agonist
+- [Tirzepatide](tirzepatide.md) — Dual GIP/GLP-1 Receptor Agonist
+- [Retatrutide](retatrutide.md) — Triple GLP-1/GIP/GCG Receptor Agonist
+- [BPC-157](bpc-157.md) — Body Protection Compound-157
+- [TB-500](tb-500.md) — Thymosin Beta-4 Synthetic Analog
+- [MOTS-c](mots-c.md) — Mitochondrial Open Reading Frame of 12S rRNA
+- [SS-31](ss-31.md) — Elamipretide (Mitochondria-Targeted Peptide)
+- [Ipamorelin](ipamorelin.md) — Selective Ghrelin Receptor Agonist
+- [Tesamorelin](tesamorelin.md) — GHRH Analog
+- [AOD9604](aod9604.md) — Modified C-Terminal hGH Fragment (177-191)
+- [GHK-Cu](ghk-cu.md) — Copper-Binding Tripeptide
+- [Epithalon](epithalon.md) — AEDG Tetrapeptide
+- [PT-141](pt-141.md) — Bremelanotide (Melanocortin Agonist)
+- [FOXO4-DRI](foxo4-dri.md) — Interfering Peptide in Senescence
+
+
+---
+
+<!-- FILE: peptide-library/ipamorelin.md -->
+---
+title: "Ipamorelin Research Profile"
+description: "Selective ghrelin receptor (GHS-R1a) agonist pentapeptide."
+---
+
+# Ipamorelin Research Profile
+
+!!! info "Executive Summary"
+    Ipamorelin is a pentapeptide growth hormone secretagogue that selectively binds to the ghrelin receptor (GHS-R1a) to stimulate pulsatile GH release.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/mots-c.md -->
+---
+title: "MOTS-c Peptide Profile"
+description: "Mitochondrial open reading frame of the 12S rRNA type-c — metabolic regulation peptide."
+---
+
+# MOTS-c Peptide Profile
+
+!!! info "Executive Summary"
+    MOTS-c is a 16-amino-acid peptide encoded within the mitochondrial genome (12S rRNA region) that regulates metabolic homeostasis and AMPK signaling.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/pt-141.md -->
+---
+title: "PT-141 Research Profile"
+description: "Bremelanotide melanocortin receptor (MC3R/MC4R) agonist."
+---
+
+# PT-141 Research Profile
+
+!!! info "Executive Summary"
+    PT-141 (bremelanotide) is a synthetic cyclic peptide melanocortin receptor agonist studied for central nervous system regulation of behavior.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/retatrutide.md -->
+---
+title: "Retatrutide Research Profile"
+description: "Triple GLP-1/GIP/Glucagon receptor agonist for next-generation metabolic research."
+---
+
+# Retatrutide Research Profile
+
+!!! info "Executive Summary"
+    Retatrutide (LY3437943) is an investigational synthetic peptide engineered as a triple agonist at the GLP-1, GIP, and glucagon (GCG) receptors.
+
+## Quick Facts
+- **Peptide Class**: Multi-Receptor Agonist (Triple Agonist)
+- **Molecular Targets**: GLP-1R, GIPR, GCGR
+- **Half-Life**: $\approx 6-7 \text{ days}$
+
+## Mechanism of Action
+Simultaneous activation of GLP-1R (appetite suppression), GIPR (lipid buffering), and GCGR (energy expenditure & hepatic lipid oxidation) produces synergistic weight loss and metabolic improvements.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/semaglutide.md -->
+---
+title: "Semaglutide Research Profile"
+description: "GLP-1 receptor agonist for metabolic research — molecular formula C187H291N45O59, MW 4,113 Da."
+---
+
+# Semaglutide Research Profile
+
+!!! info "Executive Summary"
+    Semaglutide is a 31-amino acid synthetic peptide analog of human glucagon-like peptide-1 (GLP-1) engineered for extended pharmacokinetic profile and resistance to dipeptidyl peptidase-4 (DPP-4) degradation.
+
+## Quick Facts
+- **Peptide Class**: GLP-1 Receptor Agonist
+- **Molecular Target**: GLP-1 Receptor (GLP-1R)
+- **Molecular Formula**: $C_{187}H_{291}N_{45}O_{59}$
+- **Molecular Weight**: $4113.58 \text{ Da}$
+- **Half-Life**: $\approx 7 \text{ days}$ (subcutaneous)
+
+## Mechanism of Action
+Semaglutide binds to the GLP-1 receptor, a class B G protein-coupled receptor expressed on pancreatic beta cells, central neurons, gastrointestinal cells, and cardiovascular tissues. Upon ligand binding, the receptor activates intracellular $G_{\alpha s}$ signaling, leading to increased cyclic AMP (cAMP) production and downstream activation of PKA and EPAC.
+
+## Frequently Asked Questions
+### What is the molecular basis for semaglutide's extended half-life?
+Semaglutide incorporates a C18 fatty diacid attached via a glutamic acid linker to lysine at position 26. This fatty acid chain binds non-covalently to serum albumin, protecting the peptide from renal clearance and enzymatic degradation.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/ss-31.md -->
+---
+title: "SS-31 / Elamipretide Profile"
+description: "Mitochondria-targeted tetrapeptide for cardiolipin binding and ETC stabilization."
+---
+
+# SS-31 / Elamipretide Profile
+
+!!! info "Executive Summary"
+    SS-31 (elamipretide) is a synthetic mitochondria-targeted tetrapeptide ($d\\text{-Arg-dmt-Lys-Phe-NH}_2$) that binds to cardiolipin in the inner mitochondrial membrane.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/tb-500.md -->
+---
+title: "TB-500 Research Profile"
+description: "Thymosin Beta-4 synthetic analog — actin-sequestering research peptide."
+---
+
+# TB-500 Research Profile
+
+!!! info "Executive Summary"
+    TB-500 is a synthetic peptide analog derived from thymosin beta-4 ($T\beta 4$), a 43-amino acid naturally occurring actin-sequestering peptide.
+
+## Quick Facts
+- **Functional Domain**: LKKTET actin-binding motif
+- **Primary Research Areas**: Angiogenesis, cytoskeletal dynamics, cell migration, tissue repair.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/tesamorelin.md -->
+---
+title: "Tesamorelin Research Profile"
+description: "Synthetic GHRH analog (GRF 1-44) for somatotropic axis research."
+---
+
+# Tesamorelin Research Profile
+
+!!! info "Executive Summary"
+    Tesamorelin is a synthetic 44-amino-acid analog of human growth hormone-releasing hormone (GHRH) with a Nle27 substitution for enhanced stability.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: peptide-library/tirzepatide.md -->
+---
+title: "Tirzepatide Research Profile"
+description: "Dual GIP/GLP-1 receptor agonist for metabolic research — molecular formula C225H348N48O68, MW 4,814 Da."
+---
+
+# Tirzepatide Research Profile
+
+!!! info "Executive Summary"
+    Tirzepatide (LY3298176) is a synthetic 39-amino acid peptide engineered as a first-in-class dual agonist of the glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptors.
+
+## Quick Facts
+- **Peptide Class**: Dual GIP/GLP-1 Receptor Agonist
+- **Molecular Targets**: GIPR and GLP-1R
+- **Amino Acid Length**: 39 amino acids
+- **Half-Life**: $\approx 5 \text{ days}$
+
+## Mechanism of Action
+Tirzepatide simultaneously activates both GIP and GLP-1 receptors. GIPR signaling in adipose tissue and beta cells complements GLP-1R activation, producing superior glycemic control and weight reduction compared to selective GLP-1R agonists.
+
+---
+[Return to Peptide Library Overview](index.md)
+
+
+---
+
+<!-- FILE: comparisons/glp-1-vs-gip-research.md -->
+---
+title: "GLP-1 vs GIP Research Comparison"
+description: "Comparative analysis of GLP-1 and GIP incretin hormone biology."
+---
+
+# GLP-1 vs GIP Research Comparison
+
+!!! info "Executive Summary"
+    Comparative analysis of GLP-1 and GIP signaling, contrasting their effects on insulin secretion, glucagon regulation, gastric emptying, and adipose tissue lipid handling.
+
+---
+[Return to Comparisons Overview](index.md)
+
+
+---
+
+<!-- FILE: comparisons/index.md -->
+---
+title: "Scientific Comparisons"
+description: "Comparative analyses examining differences between peptide classes and research approaches."
+---
+
+# Scientific Comparisons
+
+- [GLP-1 vs GIP Research Comparison](glp-1-vs-gip-research.md)
+- [Semaglutide vs Tirzepatide Comparison](semaglutide-vs-tirzepatide.md)
+- [Peptide Hormones vs Small Molecules](peptide-hormones-vs-small-molecules.md)
+- [Single vs Multi-Receptor Agonists](single-vs-multi-receptor-agonists.md)
+
+
+---
+
+<!-- FILE: comparisons/peptide-hormones-vs-small-molecules.md -->
+---
+title: "Peptide Hormones vs Small Molecules Comparison"
+description: "Pharmacological comparison of peptide therapeutics versus small molecule drugs."
+---
+
+# Peptide Hormones vs Small Molecules Comparison
+
+!!! info "Executive Summary"
+    Comparative analysis of peptide hormones and small molecules regarding molecular weight, target specificity, cell permeability, oral bioavailability, and manufacturing.
+
+---
+[Return to Comparisons Overview](index.md)
+
+
+---
+
+<!-- FILE: comparisons/semaglutide-vs-tirzepatide.md -->
+---
+title: "Semaglutide vs Tirzepatide Comparison"
+description: "Head-to-head comparative analysis of selective GLP-1 vs dual GLP-1/GIP receptor agonism."
+---
+
+# Semaglutide vs Tirzepatide Comparison
+
+!!! info "Executive Summary"
+    Direct comparison of semaglutide (selective GLP-1R) and tirzepatide (dual GIP/GLP-1R) based on SURPASS and SURMOUNT clinical trial data, molecular structure, and signaling bias.
+
+---
+[Return to Comparisons Overview](index.md)
+
+
+---
+
+<!-- FILE: comparisons/single-vs-multi-receptor-agonists.md -->
+---
+title: "Single vs Multi-Receptor Agonists Comparison"
+description: "Evolution of metabolic peptide design from selective single-target to multi-receptor agonists."
+---
+
+# Single vs Multi-Receptor Agonists Comparison
+
+!!! info "Executive Summary"
+    Analysis of single-receptor agonists vs dual and triple multi-receptor agonists, evaluating efficacy ceilings, receptor cross-talk, and systems-level metabolic targeting.
+
+---
+[Return to Comparisons Overview](index.md)
+
+
+---
+
+<!-- FILE: coa-guide/01-understanding-lc-ms-reports.md -->
+---
+title: "Understanding LC-MS Reports for Research Peptides"
+description: "A comprehensive guide to reading Liquid Chromatography-Mass Spectrometry (LC-MS) reports, interpreting m/z spectra, and verifying peptide molecular weight."
+category: "Quality Control"
+tags: [LC-MS, Mass Spectrometry, Molecular Weight, Peptide Identity]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Understanding LC-MS Reports for Research Peptides
+
+!!! info "Executive Summary"
+    Liquid Chromatography-Mass Spectrometry (LC-MS) is the gold standard for confirming peptide molecular identity. While HPLC measures relative chromatographic purity, LC-MS measures the exact mass-to-charge ratio ($m/z$) of ionized molecules.
+
+## ESI-MS Ionization Fundamentals
+In Electrospray Ionization (ESI), peptides accept protons ($H^+$) during nebulization, forming multiply charged species in the gas phase:
+
+$$\\frac{m}{z} = \\frac{M + z \\cdot 1.007276}{z}$$
+
+Where:
+- $M$ is the monoisotopic molecular mass of the neutral peptide.
+- $z$ is the integer charge state ($+1, +2, +3, \\dots$).
+- $1.007276$ is the mass of a proton ($H^+$).
+
+### Example Charge State Calculation
+For a peptide with monoisotopic mass $M = 4111.91\\text{ Da}$ (such as Semaglutide):
+- $[M+3H]^{3+} = \\frac{4111.91 + 3(1.0073)}{3} = 1371.64\\text{ } m/z$
+- $[M+4H]^{4+} = \\frac{4111.91 + 4(1.0073)}{4} = 1028.98\\text{ } m/z$
+
+---
+
+## TIC vs XIC Chromatograms
+
+- **Total Ion Chromatogram (TIC)**: Plots total ion signal intensity across all scanned $m/z$ ratios against time.
+- **Extracted Ion Chromatogram (XIC)**: Filters exclusively for $m/z$ signals corresponding to the calculated target peptide mass, isolating the analyte from background noise.
+
+---
+
+## Frequently Asked Questions
+
+### What is the difference between Monoisotopic Mass and Average Mass?
+Monoisotopic mass is calculated using the exact mass of the most abundant naturally occurring isotope for each element ($^{1}H, ^{12}C, ^{14}N, ^{16}O, ^{32}S$). Average mass is calculated using atomic weights averaged over natural isotopic abundances. High-resolution LC-MS reports monoisotopic mass.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Common Peptide Impurities](05-common-peptide-impurities.md)
+- [How Laboratories Calculate HPLC Purity](16-how-laboratories-calculate-hplc-purity.md)
+
+
+---
+
+<!-- FILE: coa-guide/02-hplc-chromatogram-interpretation.md -->
+---
+title: "HPLC Chromatogram Interpretation: A Practical Field Guide"
+description: "Learn how to read baseline stability, signal-to-noise ratio (S/N), ghost peaks, and solvent fronts on peptide HPLC chromatograms."
+category: "Chromatography"
+tags: [HPLC, Chromatogram, Baseline, Analytical Testing]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# HPLC Chromatogram Interpretation: A Practical Field Guide
+
+!!! info "Executive Summary"
+    A chromatogram is a graphical plot of detector response versus time. Interpreting a chromatogram requires evaluating peak symmetry, baseline noise, and signal resolution.
+
+## Signal-to-Noise Ratio ($S/N$) Formula
+
+$$\\text{S/N} = \\frac{2H}{h}$$
+
+Where:
+- $H$ is the peak height from the central baseline to the apex.
+- $h$ is the peak-to-peak noise range of the baseline observed in a blank run over a defined window.
+
+According to ICH Q2(R2) guidelines:
+- **Limit of Detection (LOD)**: $S/N \\ge 3:1$
+- **Limit of Quantitation (LOQ)**: $S/N \\ge 10:1$
+
+---
+
+## Key Features of a Peptide Chromatogram
+
+1. **Solvent Front ($t_0$)**: Initial void peak representing unretained mobile phase and non-retained salts.
+2. **Main Target Peak**: Dominant signal representing the primary peptide product.
+3. **Impurity Peaks**: Smaller secondary peaks corresponding to deletion sequences, diastereomers, or oxidation products.
+4. **Baseline Drift**: Gradual upward or downward slope caused by gradient mobile phase absorbance changes.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Peak Area vs Peak Height](03-peak-area-vs-peak-height.md)
+- [Retention Time Explained](04-retention-time-explained.md)
+
+
+---
+
+<!-- FILE: coa-guide/03-peak-area-vs-peak-height.md -->
+---
+title: "Peak Area vs Peak Height in HPLC Purity Calculations"
+description: "Discover why chromatographic peak area integration is mathematically required for peptide purity calculations instead of peak height."
+category: "Analytical Chemistry"
+tags: [Peak Area, Peak Height, HPLC Purity, Integration]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Peak Area vs Peak Height in HPLC Purity Calculations
+
+!!! info "Executive Summary"
+    Chromatographic purity calculations use integrated peak area rather than peak height because peak height varies significantly with column degradation, flow rate fluctuations, and band broadening.
+
+## Mathematical Integration Formula
+
+$$\\text{Area } (A) = \\int_{t_1}^{t_2} I(t) \\, dt$$
+
+Where $I(t)$ is the detector intensity at time $t$, integrated between peak start $t_1$ and peak end $t_2$.
+
+For a Gaussian chromatographic peak:
+
+$$\\text{Area} \\approx H \\times W_{0.5}$$
+
+Where $H$ is peak height and $W_{0.5}$ is peak width at half-height.
+
+---
+
+## Why Peak Height Fails for Purity Determination
+
+As an analytical column ages, band broadening increases peak width while reducing peak height. However, the total number of absorbed photons (and thus total integrated peak area) remains constant for a fixed mass of analyte.
+
+| Factor | Effect on Peak Height | Effect on Peak Area |
+| :--- | :--- | :--- |
+| **Column Aging** | Decreases | Remains Constant |
+| **Flow Rate Decrease** | Increases | Remains Constant |
+| **Temperature Increase** | Increases | Remains Constant |
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [How Laboratories Calculate HPLC Purity](16-how-laboratories-calculate-hplc-purity.md)
+
+
+---
+
+<!-- FILE: coa-guide/04-retention-time-explained.md -->
+---
+title: "Retention Time (RT) Explained: Capacity Factor, Selectivity, and Drift"
+description: "Understand the physicochemical factors governing peptide retention time (RT), capacity factor k', and retention time matching (HPLC-RTM)."
+category: "Chromatography"
+tags: [Retention Time, Capacity Factor, HPLC-RTM, Chromatography]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Retention Time (RT) Explained: Capacity Factor, Selectivity, and Drift
+
+!!! info "Executive Summary"
+    Retention time ($t_R$) measures how long an analyte is retained inside the chromatographic column. Capacity factor ($k'$) normalizes retention relative to system dead time ($t_0$).
+
+## Capacity Factor (Retention Factor) $k'$ Formula
+
+$$k' = \\frac{t_R - t_0}{t_0}$$
+
+Where:
+- $t_R$ is the retention time of the main peptide peak.
+- $t_0$ is the column void time (time required for an unretained compound to pass through).
+
+An optimal $k'$ value for analytical peptide chromatography ranges between $2.0 \\le k' \\le 10.0$.
+
+---
+
+## Causes of Retention Time Drift
+
+- **Column Temperature Variations**: A $1^\\circ\\text{C}$ temperature change can alter $t_R$ by $1-3\\%$.
+- **Mobile Phase Evaporation**: Volatile organic modifier loss alters gradient strength.
+- **Column Aging & Silanol Exposure**: Stationary phase degradation shifts retention behavior over time.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [System Suitability Testing](09-system-suitability-testing.md)
+- [Analytical Method Transfer](10-analytical-method-transfer.md)
+
+
+---
+
+<!-- FILE: coa-guide/05-common-peptide-impurities.md -->
+---
+title: "Common Synthetic Peptide Impurities: Types, Causes, and Detection"
+description: "An in-depth review of synthetic peptide impurities generated during Solid-Phase Peptide Synthesis (SPPS) and purification."
+category: "Quality Control"
+tags: [Peptide Impurities, SPPS, Deletion Peptides, Oxidation]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Common Synthetic Peptide Impurities: Types, Causes, and Detection
+
+!!! info "Executive Summary"
+    Synthetic peptide impurities arise from incomplete coupling reactions, side reactions during cleavage, or environmental degradation.
+
+## Main Impurity Categories
+
+| Impurity Type | Mechanism / Cause | Mass Shift | Chromatographic Behavior |
+| :--- | :--- | :--- | :--- |
+| **Deletion Peptides $(N-1)$** | Incomplete Fmoc coupling step | $-\\text{Mass of amino acid}$ | Elutes near target peak |
+| **Oxidized Peptides** | Methionine/Tryptophan oxidation | $+16\\text{ Da } (\\text{or } +32\\text{ Da})$ | Earlier elution (more polar) |
+| **Diastereomers** | Epimerization at $\\alpha$-carbon | $0\\text{ Da}$ (Identical Mass) | Partially resolved peak |
+| **TFA Adducts** | Residual trifluoroacetic acid | $+114\\text{ Da}$ | Variable |
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Deletion Peptides Explained](14-deletion-peptides-explained.md)
+- [Oxidized Peptide Impurities](15-oxidized-peptide-impurities.md)
+
+
+---
+
+<!-- FILE: coa-guide/06-usp-621-chromatography-guide.md -->
+---
+title: "USP <621> Chromatography Guide: Allowable Method Adjustments"
+description: "Guide to United States Pharmacopeia (USP) <621> standards, column parameters, gradient limits, and system suitability requirements."
+category: "Regulatory Compliance"
+tags: [USP 621, Pharmacopeia, Chromatography, Method Adjustment]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# USP <621> Chromatography Guide: Allowable Method Adjustments
+
+!!! info "Executive Summary"
+    USP <621> specifies acceptable tolerances for adjusting HPLC parameters without re-validating the analytical method.
+
+## Summary of Allowable Adjustments
+
+- **Column Length ($L$) / Particle Size ($d_p$)**: $L/d_p$ ratio may be adjusted within $-25\\%$ to $+50\\%$.
+- **Flow Rate**: May be adjusted by $\\pm 50\\%$.
+- **Column Temperature**: May be adjusted by $\\pm 10^\\circ\\text{C}$ (up to a maximum of $60^\\circ\\text{C}$).
+- **pH of Mobile Phase**: May be adjusted by $\\pm 0.2\\text{ pH units}$.
+- **Injection Volume**: May be reduced as long as detection precision and $S/N$ criteria are satisfied.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [ICH Q2(R2) Explained](07-ich-q2r2-explained.md)
+- [System Suitability Testing](09-system-suitability-testing.md)
+
+
+---
+
+<!-- FILE: coa-guide/07-ich-q2r2-explained.md -->
+---
+title: "ICH Q2(R2) Explained: Validation of Analytical Procedures"
+description: "Breakdown of the ICH Q2(R2) guideline for analytical method validation in peptide quality control."
+category: "Regulatory Compliance"
+tags: [ICH Q2R2, Method Validation, Quality Control, Specificity]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# ICH Q2(R2) Explained: Validation of Analytical Procedures
+
+!!! info "Executive Summary"
+    ICH Q2(R2) defines global standards for validating analytical methods across core criteria: Specificity, Linearity, Accuracy, Precision, LOD, LOQ, and Robustness.
+
+## Validation Criteria Matrix
+
+| Validation Parameter | Acceptance Threshold | Purpose |
+| :--- | :--- | :--- |
+| **Specificity** | Resolution $R_s \\ge 1.5$ from impurities | Ensures no co-eluting peaks |
+| **Linearity** | $R^2 \\ge 0.999$ | Verifies proportional response |
+| **Repeatability** | Peak Area $\\text{RSD} \\le 1.0\\%$ | Evaluates intra-day precision |
+| **Intermediate Precision** | Peak Area $\\text{RSD} \\le 2.0\\%$ | Evaluates inter-day/analyst precision |
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [HPLC Method Validation Protocol](08-hplc-method-validation.md)
+
+
+---
+
+<!-- FILE: coa-guide/08-hplc-method-validation.md -->
+---
+title: "HPLC Method Validation Protocol for Research Peptide Quality Control"
+description: "Practical step-by-step SOP for executing HPLC analytical method validation for research peptides."
+category: "Method Validation"
+tags: [SOP, Validation Protocol, Spike Recovery, Solution Stability]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# HPLC Method Validation Protocol for Research Peptide Quality Control
+
+!!! info "Executive Summary"
+    Method validation ensures an HPLC analytical procedure consistently yields accurate, precise, and specific purity measurements for research peptides.
+
+## Standard Validation Protocol Steps
+
+1. **Solution Stability Testing**: Verify sample stability in autosampler at $4^\\circ\\text{C}$ over $24\\text{ h}$ and $48\\text{ h}$.
+2. **Spike Recovery (Accuracy)**: Evaluate recovery across $80\\%$, $100\\%$, and $120\\%$ target concentrations (acceptance: $98.0\% - 102.0\%$).
+3. **Linearity Range**: Assess detector response across $50\\%$ to $150\\%$ of nominal test concentration.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [ICH Q2(R2) Explained](07-ich-q2r2-explained.md)
+- [System Suitability Testing](09-system-suitability-testing.md)
+
+
+---
+
+<!-- FILE: coa-guide/09-system-suitability-testing.md -->
+---
+title: "System Suitability Testing (SST) in Peptide HPLC Analysis"
+description: "Learn the acceptance criteria for HPLC System Suitability Testing (SST) prior to sample analysis."
+category: "Quality Assurance"
+tags: [SST, System Suitability, Repeatability, Acceptance Criteria]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# System Suitability Testing (SST) in Peptide HPLC Analysis
+
+!!! info "Executive Summary"
+    System Suitability Testing (SST) confirms instrument performance (pump, column, detector) prior to running production batch samples.
+
+## Standard Acceptance Criteria
+
+- **Peak Area Repeatability**: $\\text{RSD} \\le 1.0\\%$ ($n = 5$ or $6$ injections)
+- **Retention Time Repeatability**: $\\text{RSD} \\le 0.5\\%$
+- **Tailing Factor ($T$)**: $T \\le 1.5$
+- **Chromatographic Resolution ($R_s$)**: $R_s \\ge 1.5$ between critical pair
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Tailing Factor Explained](12-tailing-factor-explained.md)
+- [Resolution in Chromatography](13-resolution-in-chromatography.md)
+
+
+---
+
+<!-- FILE: coa-guide/10-analytical-method-transfer.md -->
+---
+title: "Analytical Method Transfer: Ensuring Inter-Laboratory Reproducibility"
+description: "Best practices for transferring HPLC analytical procedures between testing facilities while maintaining data integrity."
+category: "Quality Assurance"
+tags: [Method Transfer, Inter-Laboratory, Dwell Volume, Reproducibility]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Analytical Method Transfer: Ensuring Inter-Laboratory Reproducibility
+
+!!! info "Executive Summary"
+    Method transfer verifies that a receiving laboratory can reproduce analytical purity results within pre-defined acceptance limits.
+
+## Key Considerations in Transfer Protocols
+
+1. **Dwell Volume ($V_D$) Matching**: Differences in system gradient delay volume ($V_D$) cause retention shifts in gradient elution.
+2. **Column Lot-to-Lot Variability**: Stationary phase bonding density differences across C18 silica batches.
+3. **Acceptance Criteria**: Mean purity difference between sending and receiving labs must be $\\le 0.5\\%$.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Retention Time Explained](04-retention-time-explained.md)
+
+
+---
+
+<!-- FILE: coa-guide/11-reverse-phase-hplc-for-peptides.md -->
+---
+title: "Reverse Phase HPLC for Peptides: Columns, Mobile Phases, and Ion-Pairing"
+description: "Master Reversed-Phase HPLC (RP-HPLC) for peptide separation, silica pore sizes, C18 vs C4 phases, and TFA ion-pairing."
+category: "Chromatography"
+tags: [RP-HPLC, C18, Pore Size, Ion-Pairing, TFA]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Reverse Phase HPLC for Peptides: Columns, Mobile Phases, and Ion-Pairing
+
+!!! info "Executive Summary"
+    Reversed-Phase HPLC separates peptides based on hydrophobic interactions between side chains and non-polar stationary phases (C18, C8, C4).
+
+## Pore Size Requirements
+
+For peptides ($>2000\\text{ Da}$), **$300\\,\\text{\\AA}$ pore silica columns** are required to prevent restricted diffusion inside column pores. $100\\,\\text{\\AA}$ pore columns cause peak broadening and mass overload for larger peptides.
+
+## Standard Mobile Phase System
+
+- **Mobile Phase A**: $99.9\%\\text{ } H_2O + 0.1\%\\text{ TFA}$
+- **Mobile Phase B**: $99.9\%\\text{ ACN} + 0.1\%\\text{ TFA}$
+
+Trifluoroacetic acid (TFA) acts as an ion-pairing agent, masking basic amine charges and sharpening peak shapes.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Tailing Factor Explained](12-tailing-factor-explained.md)
+
+
+---
+
+<!-- FILE: coa-guide/12-tailing-factor-explained.md -->
+---
+title: "Tailing Factor Explained: Calculation, Causes, and Mitigation"
+description: "Learn how to calculate tailing factor (T) and asymmetry factor (As), identify silanol interaction, and eliminate peak tailing."
+category: "Peak Symmetry"
+tags: [Tailing Factor, Peak Asymmetry, Silanol, Peak Shape]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Tailing Factor Explained: Calculation, Causes, and Mitigation
+
+!!! info "Executive Summary"
+    Peak tailing reduces chromatographic resolution and integration accuracy. Tailing factor ($T$) measures peak symmetry at $5\\%$ peak height.
+
+## Tailing Factor Formula ($T$)
+
+$$T = \\frac{W_{0.05}}{2f}$$
+
+Where:
+- $W_{0.05}$ is the total peak width at $5\\%$ of peak height.
+- $f$ is the distance from peak apex to leading edge at $5\\%$ height.
+
+An ideal Gaussian peak has $T = 1.0$. Acceptable SST limits specify $T \\le 1.5$.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Resolution in Chromatography](13-resolution-in-chromatography.md)
+
+
+---
+
+<!-- FILE: coa-guide/13-resolution-in-chromatography.md -->
+---
+title: "Resolution in Chromatography: Formula, Peak Overlap, and Optimization"
+description: "Understand chromatographic resolution (Rs), Purnell equation, and how baseline separation impacts reported purity."
+category: "Chromatography"
+tags: [Resolution, Purnell Equation, Peak Overlap, Separation]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Resolution in Chromatography: Formula, Peak Overlap, and Optimization
+
+!!! info "Executive Summary"
+    Chromatographic resolution ($R_s$) measures the degree of separation between two adjacent peaks. Baseline separation requires $R_s \\ge 1.5$.
+
+## Resolution Formula
+
+$$R_s = \\frac{2(t_{R2} - t_{R1})}{W_1 + W_2}$$
+
+Where:
+- $t_{R1}, t_{R2}$ are retention times of peaks 1 and 2.
+- $W_1, W_2$ are baseline peak widths.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [How Laboratories Calculate HPLC Purity](16-how-laboratories-calculate-hplc-purity.md)
+
+
+---
+
+<!-- FILE: coa-guide/14-deletion-peptides-explained.md -->
+---
+title: "Deletion Peptides Explained: Synthesis Mechanisms and Separation"
+description: "Learn how (N-1) deletion peptides form during incomplete SPPS coupling steps and how RP-HPLC separates them from the main peak."
+category: "Impurities"
+tags: [Deletion Peptides, SPPS, Coupling Efficiency, HPLC Separation]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Deletion Peptides Explained: Synthesis Mechanisms and Separation
+
+!!! info "Executive Summary"
+    Deletion peptides $(N-1)$ lack one or more amino acid residues due to incomplete coupling reactions during Solid-Phase Peptide Synthesis (SPPS).
+
+## Mass Shift ($\\Delta m$)
+A deletion peptide missing a Valine residue exhibits a mass shift of $\\Delta m = -99.07\\text{ Da}$. On reversed-phase HPLC, deletion peptides typically elute very close to the target peak, requiring shallow gradients for baseline resolution ($R_s \\ge 1.5$).
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Common Peptide Impurities](05-common-peptide-impurities.md)
+
+
+---
+
+<!-- FILE: coa-guide/15-oxidized-peptide-impurities.md -->
+---
+title: "Oxidized Peptide Impurities: Methionine, Tryptophan, and Cysteine"
+description: "Examine oxidation pathways of sensitive amino acids in peptides and their characteristic chromatographic retention shifts."
+category: "Impurities"
+tags: [Oxidation, Methionine, Tryptophan, Degradation]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# Oxidized Peptide Impurities: Methionine, Tryptophan, and Cysteine
+
+!!! info "Executive Summary"
+    Oxidation of Methionine to Methionine Sulfoxide increases molecule polarity, shifting retention time earlier on reversed-phase HPLC columns.
+
+## Characteristic Mass Shift
+- **Methionine Sulfoxide**: $+16\\text{ Da}$
+- **Methionine Sulfone**: $+32\\text{ Da}$
+
+Because sulfoxides introduce a polar oxygen atom, oxidized impurities elute **earlier** (smaller $t_R$) than the target peptide on C18 columns.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Understanding LC-MS Reports](01-understanding-lc-ms-reports.md)
+
+
+---
+
+<!-- FILE: coa-guide/16-how-laboratories-calculate-hplc-purity.md -->
+---
+title: "How Laboratories Calculate HPLC Purity: Area Normalization vs External Standards"
+description: "Detailed breakdown of Area Percent Normalization vs Weight/Weight Assay percentage in chromatographic quality control."
+category: "Purity Calculation"
+tags: [Area Normalization, Response Factor, Assay, HPLC Purity]
+author: "RPL Peptides Research Team"
+published: "2026-08-01"
+---
+
+# How Laboratories Calculate HPLC Purity: Area Normalization vs External Standards
+
+!!! info "Executive Summary"
+    Purity calculation method choice directly affects reported percentage values on a Certificate of Analysis (COA).
+
+## Area Percent Normalization Formula
+
+$$\\text{Purity (\\%)} = \\frac{A_{\\text{main}}}{\\sum_{i=1}^{n} A_i} \\times 100$$
+
+## Corrected Purity with Relative Response Factors ($RRF$)
+
+$$\\text{Corrected Purity (\\%)} = \\frac{\\frac{A_{\\text{main}}}{RRF_{\\text{main}}}}{\\sum_{i=1}^{n} \\frac{A_i}{RRF_i}} \\times 100$$
+
+Where $RRF_i$ is the relative UV response factor of impurity $i$ at $214\\text{ nm}$ compared to the main peptide.
+
+---
+
+## Related Guides in this Cluster
+- [How to Read a Peptide COA](index.md)
+- [Peak Area vs Peak Height](03-peak-area-vs-peak-height.md)
+
+
+---
+
+<!-- FILE: coa-guide/index.md -->
+---
+title: "HPLC vs HPLC-RTM in Peptide COA: Complete Guide to Reading Certificates of Analysis"
+description: "Master peptide Certificate of Analysis (COA) interpretation. Learn how HPLC purity and HPLC-RTM are measured, peak integration, retention time, impurities, and why HPLC alone cannot verify identity."
+keywords: "Peptide COA, HPLC Purity, HPLC-RTM, Retention Time, LC-MS, Peptide Quality Control, Chromatogram Integration"
+---
+
+# HPLC vs HPLC-RTM in Peptide COA: The Complete Guide to Reading Research Peptide Certificates of Analysis
+
+!!! info "Executive Summary & Key Takeaways"
+    - **Reported Purity $\neq$ Weight Percentage**: A reported HPLC purity of **99%** indicates that $99\%$ of UV-absorbing chromatographic peak area belongs to the main peak. It does not mean $99\%$ of the powder by net weight is peptide.
+    - **HPLC $\neq$ Identity**: HPLC separates compounds by hydrophobicity but cannot confirm amino acid sequence or molecular weight. Definitive identity requires [Mass Spectrometry (LC-MS)](01-understanding-lc-ms-reports.md).
+    - **HPLC-RTM (Retention Time Matching)**: Verifies that the sample elutes at the same retention time ($t_R$) as a verified reference standard under identical method conditions.
+
+---
+
+## 1. How Laboratories Calculate HPLC Purity
+
+Chromatographic purity is determined by integrating the area under the detector response curve for all peaks detected above threshold:
+
+$$\\text{Purity (\\%)} = \\frac{A_{\\text{main}}}{\\sum_{i=1}^{n} A_i} \\times 100$$
+
+Where $A_{\\text{main}}$ is the peak area of the target peptide, and $\\sum A_i$ is the total peak area of all detected signals.
+
+```text
+Detector Signal (UV 214 nm)
+^
+|                         /\\  <-- Main Target Peak (Area: 99.12%)
+|                        /  \\
+|                       /    \\
+|  /\\                  /      \\                 /\\
+|_/  \\________________/        \\_______________/  \\_____> Retention Time (t_R)
+  Impurity A                                    Impurity B
+  (Area: 0.28%)                                (Area: 0.31%)
+```
+
+---
+
+## 2. Key Differences: HPLC Purity vs HPLC-RTM
+
+| Feature | HPLC Purity | HPLC-RTM (Retention Time Matching) |
+| :--- | :--- | :--- |
+| **Primary Focus** | Relative peak area concentration | Retention behavior comparison |
+| **Metric Used** | Integrated Peak Area ($A_{\\text{main}} / \\sum A_i$) | Retention Time ($t_R$) vs Reference ($t_{R,\\text{ref}}$) |
+| **Acceptance Criteria** | $\\ge 95.0\\%$ or $\\ge 98.0\\%$ | $\\Delta t_R \\le \\pm 0.1\\text{ min}$ vs Reference |
+| **What It Proves** | Absence of significant organic impurities | Chromatographic match with reference standard |
+| **Limitation** | Ignores non-UV absorbing salts/water | Does not prove sequence or molecular weight |
+
+---
+
+## 3. Frequently Asked Questions (FAQ)
+
+### Does 99% HPLC purity mean the peptide is 99% pure by weight?
+**No.** HPLC purity represents chromatographic peak area percentage under specific column, mobile phase, and UV detector wavelength conditions. It does not account for non-UV absorbing counterions (such as acetate or TFA salts), moisture, residual solvents, or inorganic salts. To determine absolute weight percentage, complementary assays such as Peptide Content (N-element analysis) or Gravimetric Analysis are required.
+
+### Can HPLC retention time alone confirm peptide identity?
+**No.** Retention time indicates how long a compound is retained by the column stationary phase. Two completely different peptides with similar hydrophobicity and amino acid composition can elute at nearly identical retention times. Definitive identity confirmation requires [Mass Spectrometry (LC-MS)](01-understanding-lc-ms-reports.md) or HRMS.
+
+### Why do two independent laboratories report different retention times for the same batch?
+Retention time is method-dependent. Differences in column dimensions, C18 stationary phase brand, gradient slope, flow rate, system dwell volume, and ambient temperature directly alter $t_R$. As long as the sample matches a qualified reference standard under the same method ([HPLC-RTM](04-retention-time-explained.md)), the data remains valid.
+
+---
+
+## 4. Topic Cluster Navigation
+
+Explore the complete 16-part technical series:
+
+- [1. Understanding LC-MS Reports](01-understanding-lc-ms-reports.md)
+- [2. HPLC Chromatogram Interpretation](02-hplc-chromatogram-interpretation.md)
+- [3. Peak Area vs Peak Height](03-peak-area-vs-peak-height.md)
+- [4. Retention Time Explained](04-retention-time-explained.md)
+- [5. Common Peptide Impurities](05-common-peptide-impurities.md)
+- [6. USP <621> Chromatography Guide](06-usp-621-chromatography-guide.md)
+- [7. ICH Q2(R2) Explained](07-ich-q2r2-explained.md)
+- [8. HPLC Method Validation](08-hplc-method-validation.md)
+- [9. System Suitability Testing](09-system-suitability-testing.md)
+- [10. Analytical Method Transfer](10-analytical-method-transfer.md)
+- [11. Reverse Phase HPLC for Peptides](11-reverse-phase-hplc-for-peptides.md)
+- [12. Tailing Factor Explained](12-tailing-factor-explained.md)
+- [13. Resolution in Chromatography](13-resolution-in-chromatography.md)
+- [14. Deletion Peptides Explained](14-deletion-peptides-explained.md)
+- [15. Oxidized Peptide Impurities](15-oxidized-peptide-impurities.md)
+- [16. How Laboratories Calculate HPLC Purity](16-how-laboratories-calculate-hplc-purity.md)
+
+
+---
+
+<!-- FILE: authors/index.md -->
+---
+title: "Editorial Team and Scientific Review"
+description: "Our commitment to accuracy, authority, and educational integrity in peptide science communication."
+---
+
+# Editorial Team and Scientific Review
+
+Our commitment to accuracy, authority, and educational integrity in peptide science communication.
+
+!!! info "Editorial Principles"
+    - All scientific claims are supported by citations from peer-reviewed literature.
+    - Content is reviewed regularly to reflect advances in scientific understanding.
+    - We distinguish between established scientific knowledge and emerging research areas.
+
+
+---
+
+<!-- FILE: research/index.md -->
+---
+title: "Peptide Research Knowledge Base"
+description: "Explore research categories covering peptide biology, chemistry, analytical science, and metabolic research."
+---
+
+# Peptide Research Knowledge Base
+
+Explore our comprehensive research categories:
+
+- [Peptide Biology](peptide-biology/index.md)
+- [Peptide Chemistry](peptide-chemistry/index.md)
+- [Analytical Science](analytical-science/index.md)
+- [Metabolic Research](metabolic/index.md)
+- [Research Applications](applications/index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/index.md -->
+---
+title: "Peptide Biology Overview"
+description: "Fundamentals of peptide structure, classification, sequence-function relationships, and signaling pathways."
+---
+
+# Peptide Biology
+
+- [What Are Peptides?](what-are-peptides.md)
+- [Peptide Classification](peptide-classification.md)
+- [Peptide Structure and Function](peptide-structure-function.md)
+- [Peptide Signaling Pathways](peptide-signaling-pathways.md)
+- [Peptide Transport and Uptake](peptide-transport-and-uptake.md)
+- [Peptide Immunopeptidomics](peptide-immunopeptidomics.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/peptide-classification.md -->
+---
+title: "Peptide Classification"
+description: "Taxonomy of peptides classified by length, source, biological function, and synthesis mechanism."
+---
+
+# Peptide Classification
+
+!!! info "Executive Summary"
+    Peptides can be classified by length (oligopeptides, polypeptides), function (hormones, neuropeptides, AMPs, growth factors), structure (linear, cyclic, disulfide-rich), or synthesis route (ribosomal vs non-ribosomal).
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/peptide-immunopeptidomics.md -->
+---
+title: "Peptide Immunopeptidomics"
+description: "Study of MHC-bound peptide repertoires, T-cell epitopes, and neoantigen discovery."
+---
+
+# Peptide Immunopeptidomics
+
+!!! info "Executive Summary"
+    Immunopeptidomics employs mass spectrometry to profile naturally presented MHC class I and class II peptides, enabling neoantigen discovery for personalized cancer immunotherapy.
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/peptide-signaling-pathways.md -->
+---
+title: "Peptide Signaling Pathways"
+description: "Signal transduction mechanisms mediated by peptides through GPCRs and RTKs."
+---
+
+# Peptide Signaling Pathways
+
+!!! info "Executive Summary"
+    Peptides signal primarily through G protein-coupled receptors (GPCRs) and receptor tyrosine kinases (RTKs) to activate cAMP, calcium, MAPK/ERK, and PI3K/Akt pathways.
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/peptide-structure-function.md -->
+---
+title: "Peptide Structure and Function"
+description: "Relationship between peptide primary, secondary, and tertiary structure and biological activity."
+---
+
+# Peptide Structure and Function
+
+!!! info "Executive Summary"
+    Peptide biological activity is governed by its three-dimensional conformation, determined by primary sequence, hydrogen bonding (helices, sheets), and disulfide cross-links.
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/peptide-transport-and-uptake.md -->
+---
+title: "Peptide Transport and Uptake"
+description: "Transmembrane peptide transport via PepT1/PepT2 and cell-penetrating peptides (CPPs)."
+---
+
+# Peptide Transport and Uptake
+
+!!! info "Executive Summary"
+    Small peptides cross cell membranes via proton-coupled transporters (PepT1/SLC15A1, PepT2/SLC15A2), while cell-penetrating peptides (CPPs) enter via direct translocation or macropinocytosis.
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-biology/what-are-peptides.md -->
+---
+title: "What Are Peptides?"
+description: "Comprehensive scientific overview of peptides — short chains of amino acids linked by peptide bonds."
+---
+
+# What Are Peptides?
+
+!!! info "Executive Summary"
+    Peptides are short chains of amino acids linked by amide (peptide) bonds, typically ranging from 2 to 50 residues in length. They function as signaling molecules, hormones, neurotransmitters, and antimicrobial agents across biological systems.
+
+---
+[Return to Peptide Biology Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-chemistry/analytical-characterization.md -->
+---
+title: "Analytical Characterization of Peptides"
+description: "Multi-technique characterization package for synthetic peptides."
+---
+
+# Analytical Characterization of Peptides
+
+!!! info "Executive Summary"
+    Full peptide characterization requires orthogonal methods: RP-HPLC (purity), ESI-MS/MALDI-TOF (molecular identity), amino acid analysis (content), and CD/NMR (structure).
+
+---
+[Return to Peptide Chemistry Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-chemistry/index.md -->
+---
+title: "Peptide Chemistry Overview"
+description: "Synthesis methods, purification strategies, and analytical characterization techniques."
+---
+
+# Peptide Chemistry
+
+- [Peptide Synthesis Overview](peptide-synthesis-overview.md)
+- [Solid-Phase Peptide Synthesis (SPPS)](solid-phase-peptide-synthesis.md)
+- [Peptide Purification Methods](peptide-purification-methods.md)
+- [Analytical Characterization](analytical-characterization.md)
+
+
+---
+
+<!-- FILE: research/peptide-chemistry/peptide-purification-methods.md -->
+---
+title: "Peptide Purification Methods"
+description: "Preparative RP-HPLC, ion-exchange, and size-exclusion techniques for synthetic peptides."
+---
+
+# Peptide Purification Methods
+
+!!! info "Executive Summary"
+    Preparative reverse-phase HPLC (RP-HPLC) with aqueous acetonitrile/TFA mobile phases is the gold standard for separating target peptides from deletion sequences and side-reaction products.
+
+---
+[Return to Peptide Chemistry Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-chemistry/peptide-synthesis-overview.md -->
+---
+title: "Peptide Synthesis Overview"
+description: "Review of chemical, biological, and hybrid peptide synthesis approaches."
+---
+
+# Peptide Synthesis Overview
+
+!!! info "Executive Summary"
+    Peptide synthesis encompasses chemical approaches (SPPS, solution phase) and biological expression. SPPS dominates laboratory and clinical manufacturing.
+
+---
+[Return to Peptide Chemistry Overview](index.md)
+
+
+---
+
+<!-- FILE: research/peptide-chemistry/solid-phase-peptide-synthesis.md -->
+---
+title: "Solid-Phase Peptide Synthesis (SPPS)"
+description: "In-depth review of SPPS methodology, resin supports, protecting group strategies, and coupling reagents."
+---
+
+# Solid-Phase Peptide Synthesis (SPPS)
+
+!!! info "Executive Summary"
+    SPPS anchors the C-terminal amino acid to an insoluble resin, enabling chain elongation via repeated cycles of Fmoc deprotection, washing, and carboxyl activation.
+
+---
+[Return to Peptide Chemistry Overview](index.md)
+
+
+---
+
+<!-- FILE: research/analytical-science/hplc-analysis-peptides.md -->
+---
+title: "HPLC Analysis of Peptides"
+description: "Principles and practice of analytical RP-HPLC for peptide quality control."
+---
+
+# HPLC Analysis of Peptides
+
+!!! info "Executive Summary"
+    RP-HPLC using C18 stationary phases and UV detection at $214\\text{ nm}$ is the primary analytical method for assessing relative peptide purity.
+
+---
+[Return to Analytical Science Overview](index.md)
+
+
+---
+
+<!-- FILE: research/analytical-science/index.md -->
+---
+title: "Peptide Analytical Science"
+description: "HPLC, mass spectrometry, stability testing, and purity assessment methodologies."
+---
+
+# Peptide Analytical Science
+
+- [HPLC Analysis of Peptides](hplc-analysis-peptides.md)
+- [Mass Spectrometry in Peptide Research](mass-spectrometry-peptide-research.md)
+- [Peptide Stability Studies](peptide-stability-studies.md)
+- [Purity Testing Methods](purity-testing-methods.md)
+
+
+---
+
+<!-- FILE: research/analytical-science/mass-spectrometry-peptide-research.md -->
+---
+title: "Mass Spectrometry in Peptide Research"
+description: "MS and MS/MS methods for molecular weight verification and sequence elucidation."
+---
+
+# Mass Spectrometry in Peptide Research
+
+!!! info "Executive Summary"
+    High-resolution mass spectrometry (ESI-Orbitrap, MALDI-TOF) provides exact mass measurement and sequence confirmation via CID/HCD/ETD fragmentation.
+
+---
+[Return to Analytical Science Overview](index.md)
+
+
+---
+
+<!-- FILE: research/analytical-science/peptide-stability-studies.md -->
+---
+title: "Peptide Stability Studies"
+description: "Chemical degradation pathways (deamidation, oxidation, hydrolysis) and formulation strategies."
+---
+
+# Peptide Stability Studies
+
+!!! info "Executive Summary"
+    Peptides degrade via deamidation (Asn/Gln), oxidation (Met/Trp/Cys), hydrolysis (Asp-Pro), and aggregation. pH optimization (4.0-6.0) and lyophilization maximize shelf life.
+
+---
+[Return to Analytical Science Overview](index.md)
+
+
+---
+
+<!-- FILE: research/analytical-science/purity-testing-methods.md -->
+---
+title: "Purity Testing Methods for Peptides"
+description: "Comprehensive approaches to determining peptide purity and impurity profiles."
+---
+
+# Purity Testing Methods for Peptides
+
+!!! info "Executive Summary"
+    Combining HPLC-UV, LC-MS, capillary electrophoresis, and residual water/TFA determination ensures rigorous quality assessment.
+
+---
+[Return to Analytical Science Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/biotechnology-applications.md -->
+---
+title: "Biotechnology Applications of Peptides"
+description: "Industrial, diagnostic, and drug delivery applications of engineered peptides."
+---
+
+# Biotechnology Applications of Peptides
+
+!!! info "Executive Summary"
+    Peptide biotechnology encompasses peptide-based materials, biosensors, peptide-drug conjugates (PDCs), and engineered biomaterials.
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/cell-biology-research.md -->
+---
+title: "Peptides in Cell Biology Research"
+description: "Peptides as signaling molecules, growth factor mimics, and cell-penetrating tools."
+---
+
+# Peptides in Cell Biology Research
+
+!!! info "Executive Summary"
+    Synthetic peptides enable precise manipulation of cell proliferation, differentiation, cell-matrix adhesion (RGD motif), and apoptosis in cell biology models.
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/index.md -->
+---
+title: "Research Applications of Peptides"
+description: "Applications of peptides in metabolic research, cell biology, molecular biology, and biotechnology."
+---
+
+# Research Applications
+
+- [Metabolic Research Applications](metabolic-research.md)
+- [Cell Biology Research](cell-biology-research.md)
+- [Molecular Biology Research](molecular-biology-research.md)
+- [Biotechnology Applications](biotechnology-applications.md)
+- [Peptide Vaccines](peptide-vaccines.md)
+- [Peptide Radiolabeling](peptide-radiolabeling.md)
+
+
+---
+
+<!-- FILE: research/applications/metabolic-research.md -->
+---
+title: "Peptides in Metabolic Research"
+description: "Application of incretins, dual agonists, and mitochondrial peptides in metabolism."
+---
+
+# Peptides in Metabolic Research
+
+!!! info "Executive Summary"
+    Metabolic research peptides serve as tools to probe glucose homeostasis, thermogenesis, lipid partitioning, and energy expenditure pathways.
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/molecular-biology-research.md -->
+---
+title: "Peptides in Molecular Biology Research"
+description: "Peptide nucleic acids (PNAs), epitope tags, and enzyme substrate peptides."
+---
+
+# Peptides in Molecular Biology Research
+
+!!! info "Executive Summary"
+    Molecular biology uses peptide epitope tags (FLAG, HA, His6), PNAs for sequence-specific nucleic acid binding, and fluorogenic peptide substrates for enzyme kinetics.
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/peptide-radiolabeling.md -->
+---
+title: "Peptide Radiolabeling"
+description: "PET and SPECT radiopeptide imaging (68Ga, 18F) and PRRT therapy (177Lu)."
+---
+
+# Peptide Radiolabeling
+
+!!! info "Executive Summary"
+    Bifunctional chelators (DOTA, NOTA) attach radioactive isotopes (68Ga, 177Lu, 99mTc) to peptide vectors for diagnostic PET/SPECT imaging and targeted radionuclide therapy (theranostics).
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/applications/peptide-vaccines.md -->
+---
+title: "Peptide Vaccines"
+description: "Synthetic epitope selection, multi-epitope designs, adjuvants, and neoantigen vaccines."
+---
+
+# Peptide Vaccines
+
+!!! info "Executive Summary"
+    Peptide vaccines deliver short synthetic T-cell and B-cell epitopes combined with TLR adjuvants to elicit targeted protective immune responses against pathogens or cancer neoantigens.
+
+---
+[Return to Applications Overview](index.md)
+
+
+---
+
+<!-- FILE: research/metabolic/gip-research.md -->
+---
+title: "GIP Research"
+description: "Glucose-dependent insulinotropic polypeptide biology and receptor signaling."
+---
+
+# GIP Research
+
+!!! info "Executive Summary"
+    GIP is a 42-amino acid incretin hormone secreted by K-cells that regulates insulin secretion, glucagon release, and lipid buffering in adipose tissue.
+
+---
+[Return to Metabolic Research Overview](index.md)
+
+
+---
+
+<!-- FILE: research/metabolic/glp-1-research-overview.md -->
+---
+title: "GLP-1 Research Overview"
+description: "Incretin hormone biology, GLP-1 receptor activation, and cardiometabolic research."
+---
+
+# GLP-1 Research Overview
+
+!!! info "Executive Summary"
+    Glucagon-like peptide-1 (GLP-1) is a 30/31-amino acid incretin hormone that stimulates glucose-dependent insulin secretion, suppresses glucagon, and promotes satiety.
+
+---
+[Return to Metabolic Research Overview](index.md)
+
+
+---
+
+<!-- FILE: research/metabolic/glp1-gip-dual-agonist.md -->
+---
+title: "GLP-1/GIP Dual Agonists"
+description: "Unimolecular dual receptor agonism and synergistic metabolic targeting."
+---
+
+# GLP-1/GIP Dual Agonists
+
+!!! info "Executive Summary"
+    Dual GLP-1/GIP agonists like tirzepatide combine complementary incretin pathways in a single molecule, producing superior glycemic control and weight reduction compared to single-receptor agonists.
+
+---
+[Return to Metabolic Research Overview](index.md)
+
+
+---
+
+<!-- FILE: research/metabolic/index.md -->
+---
+title: "Metabolic Peptide Research"
+description: "GLP-1, GIP, incretin biology, and multi-receptor peptide research."
+---
+
+# Metabolic Peptide Research
+
+- [GLP-1 Research Overview](glp-1-research-overview.md)
+- [GIP Research](gip-research.md)
+- [GLP-1/GIP Dual Agonists](glp1-gip-dual-agonist.md)
+- [Multi-Receptor Peptide Research](multi-receptor-peptide-research.md)
+
+
+---
+
+<!-- FILE: research/metabolic/multi-receptor-peptide-research.md -->
+---
+title: "Multi-Receptor Peptide Research"
+description: "Next-generation triple and multi-target peptide strategies."
+---
+
+# Multi-Receptor Peptide Research
+
+!!! info "Executive Summary"
+    Multi-receptor peptides (e.g., retatrutide GIP/GLP-1/GCG triagonist) target multiple endocrine nodes simultaneously to achieve unprecedented metabolic efficacy.
+
+---
+[Return to Metabolic Research Overview](index.md)
+
+
+---
+
+<!-- FILE: literature/analytical-methods-peptide-characterization.md -->
+---
+title: "Analytical Methods for Peptide Characterization Review"
+description: "Review of orthogonal analytical techniques for peptide quality control."
+---
+
+# Analytical Methods for Peptide Characterization Review
+
+!!! info "Executive Summary"
+    Comprehensive review evaluating RP-HPLC, ESI-MS, MALDI-TOF, circular dichroism, and NMR spectroscopy for peptide characterization and regulatory compliance.
+
+---
+[Return to Literature Overview](index.md)
+
+
+---
+
+<!-- FILE: literature/bpc-157-tissue-protection-mechanisms.md -->
+---
+title: "BPC-157 Tissue Protection Mechanisms Review"
+description: "Review of BPC-157's angiogenic, nitric oxide, and cytoprotective healing pathways."
+---
+
+# BPC-157 Tissue Protection Mechanisms Review
+
+!!! info "Executive Summary"
+    Synthesis of peer-reviewed research on BPC-157's tissue-protective actions across gastrointestinal mucosa, tendon repair, vascular endothelium, and peripheral nerve injury.
+
+---
+[Return to Literature Overview](index.md)
+
+
+---
+
+<!-- FILE: literature/glp-1-receptor-agonists-review.md -->
+---
+title: "GLP-1 Receptor Agonists Review"
+description: "Comprehensive literature review on GLP-1 receptor agonist mechanisms and clinical evidence."
+---
+
+# GLP-1 Receptor Agonists Review
+
+!!! info "Executive Summary"
+    Review of GLP-1 receptor agonist pharmacology from early exendin-4 discovery through long-acting semaglutide and oral formulations, detailing cardiovascular and metabolic outcome trials.
+
+---
+[Return to Literature Overview](index.md)
+
+
+---
+
+<!-- FILE: literature/incretin-hormones-metabolic-regulation.md -->
+---
+title: "Incretin Hormones & Metabolic Regulation Review"
+description: "Evidence-based review of GLP-1 and GIP physiology in postprandial metabolism."
+---
+
+# Incretin Hormones & Metabolic Regulation Review
+
+!!! info "Executive Summary"
+    Review of incretin hormone secretion, DPP-4 degradation, receptor distribution, and the physiological basis of the incretin effect in glucose homeostasis.
+
+---
+[Return to Literature Overview](index.md)
+
+
+---
+
+<!-- FILE: literature/index.md -->
+---
+title: "Scientific Literature Reviews"
+description: "Evidence-based literature reviews synthesizing peer-reviewed research on key peptide topics."
+---
+
+# Scientific Literature Reviews
+
+- [GLP-1 Receptor Agonists Review](glp-1-receptor-agonists-review.md)
+- [BPC-157 Tissue Protection Mechanisms](bpc-157-tissue-protection-mechanisms.md)
+- [Incretin Hormones & Metabolic Regulation](incretin-hormones-metabolic-regulation.md)
+- [Peptide Synthesis Advances Review](peptide-synthesis-advances-review.md)
+- [Analytical Methods for Peptide Characterization](analytical-methods-peptide-characterization.md)
+
+
+---
+
+<!-- FILE: literature/peptide-synthesis-advances-review.md -->
+---
+title: "Peptide Synthesis Advances Review"
+description: "A decade of innovation in microwave SPPS, flow synthesis, and green chemistry."
+---
+
+# Peptide Synthesis Advances Review
+
+!!! info "Executive Summary"
+    Literature review covering recent advances in automated flow-based SPPS, microwave heating, native chemical ligation (NCL), and sustainable green solvents.
+
+---
+[Return to Literature Overview](index.md)
+
+
+---
+
+<!-- FILE: methods/index.md -->
+---
+title: "Peptide Research Methodologies"
+description: "Detailed methodology guides covering peptide synthesis, HPLC analysis, mass spec, and storage."
+---
+
+# Peptide Research Methodologies
+
+- [Solid-Phase Peptide Synthesis (SPPS)](solid-phase-peptide-synthesis-method.md)
+- [RP-HPLC Peptide Analysis](rpp-hplc-peptide-analysis.md)
+- [Mass Spectrometry Methods](mass-spec-peptide-method.md)
+- [Lyophilization of Peptides](lyophilization-peptides.md)
+- [Peptide Storage and Stability](peptide-storage-stability.md)
+
+
+---
+
+<!-- FILE: methods/lyophilization-peptides.md -->
+---
+title: "Lyophilization of Peptides Guide"
+description: "Freeze-drying principles, formulation lyoprotectants, and drying cycles."
+---
+
+# Lyophilization of Peptides Guide
+
+!!! info "Executive Summary"
+    Freeze-drying protocols for producing stable peptide cakes using disaccharide lyoprotectants (trehalose, sucrose) and controlled freezing, primary drying, and secondary drying stages.
+
+---
+[Return to Methods Overview](index.md)
+
+
+---
+
+<!-- FILE: methods/mass-spec-peptide-method.md -->
+---
+title: "Mass Spectrometry Methods for Peptide Analysis"
+description: "ESI and MALDI-TOF experimental protocols for molecular weight and sequence analysis."
+---
+
+# Mass Spectrometry Methods for Peptide Analysis
+
+!!! info "Executive Summary"
+    SOP for mass spectrometric analysis of synthetic peptides using ESI-MS and MALDI-TOF, including sample preparation, charge state deconvolution, and MS/MS fragmentation interpretation.
+
+---
+[Return to Methods Overview](index.md)
+
+
+---
+
+<!-- FILE: methods/peptide-storage-stability.md -->
+---
+title: "Peptide Storage and Stability Guide"
+description: "Storage conditions, buffer choice, and freeze-thaw minimization for peptides."
+---
+
+# Peptide Storage and Stability Guide
+
+!!! info "Executive Summary"
+    Guidelines for storing lyophilized peptides at -20°C/-80°C desiccated and handling reconstituted peptide solutions to prevent chemical and physical degradation.
+
+---
+[Return to Methods Overview](index.md)
+
+
+---
+
+<!-- FILE: methods/rpp-hplc-peptide-analysis.md -->
+---
+title: "RP-HPLC Peptide Analysis Method"
+description: "Operating principles, column selection, and method parameters for peptide HPLC."
+---
+
+# RP-HPLC Peptide Analysis Method
+
+!!! info "Executive Summary"
+    Standard analytical RP-HPLC procedure for peptide purity determination using C18 columns, water/acetonitrile gradients with 0.1% TFA, and UV 214 nm detection.
+
+---
+[Return to Methods Overview](index.md)
+
+
+---
+
+<!-- FILE: methods/solid-phase-peptide-synthesis-method.md -->
+---
+title: "Solid-Phase Peptide Synthesis Method"
+description: "Practical methodological guide for Fmoc/tBu SPPS in the laboratory."
+---
+
+# Solid-Phase Peptide Synthesis Method
+
+!!! info "Executive Summary"
+    Step-by-step SOP for manual and automated Fmoc SPPS, including resin swelling, piperidine deprotection, HBTU/HATU/DIC coupling, Kaiser testing, and TFA cleavage.
+
+---
+[Return to Methods Overview](index.md)
+
+
+---
+

@@ -1,0 +1,6963 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Complete guide to circular dichroism spectroscopy of peptides: far-UV and near-UV CD, secondary structure estimation, thermal denaturation, solvent effects, and synchrotron radiation CD.">
+      
+      
+        <meta name="author" content="RPL Scientific Editorial Team">
+      
+      
+        <link rel="canonical" href="https://research.rplpeptides.com/structural-biology/circular-dichroism-peptides/">
+      
+      
+        <link rel="prev" href="../nmr-spectroscopy-peptides/">
+      
+      
+        <link rel="next" href="../peptide-protein-interaction-structures/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Circular Dichroism Spectroscopy of Peptides — Principles, Applications, and Data Analysis - RPL Peptides Research Knowledge Center</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#circular-dichroism-spectroscopy-of-peptides-principles-applications-and-data-analysis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-header__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RPL Peptides Research Knowledge Center
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Circular Dichroism Spectroscopy of Peptides — Principles, Applications, and Data Analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RPL Peptides Research Knowledge Center" class="md-nav__button md-logo" aria-label="RPL Peptides Research Knowledge Center" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    RPL Peptides Research Knowledge Center
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/what-are-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Are Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-classification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Classification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-structure-function/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Structure and Function
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-self-assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Self-Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-transport-and-uptake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Transport and Uptake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-biology/peptide-immunopeptidomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Immunopeptidomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chemistry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Chemistry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-synthesis-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/solid-phase-peptide-synthesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/peptide-purification-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Purification Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/peptide-chemistry/analytical-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analytical Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/hplc-analysis-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Analysis of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/mass-spectrometry-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/peptide-stability-studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Stability Studies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/analytical-science/purity-testing-methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity Testing Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metabolic Research
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp-1-research-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Research Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GIP Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/glp1-gip-dual-agonist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1/GIP Dual Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/metabolic/multi-receptor-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-Receptor Peptide Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Applications
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Applications
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/metabolic-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolic Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/cell-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cell Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/molecular-biology-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Biology Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/biotechnology-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biotechnology Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-vaccines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Vaccines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../research/applications/peptide-radiolabeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Radiolabeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Library
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Peptide Library
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/semaglutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/retatrutide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retatrutide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/bpc-157/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tb-500/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TB-500
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/mots-c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOTS-c
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ss-31/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SS-31
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ipamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ipamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/tesamorelin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesamorelin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/aod9604/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AOD9604
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/ghk-cu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GHK-Cu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/epithalon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epithalon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/pt-141/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PT-141
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../peptide-library/foxo4-dri/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FOXO4-DRI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literature Reviews
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Literature Reviews
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/glp-1-receptor-agonists-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 Receptor Agonists Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/bpc-157-tissue-protection-mechanisms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BPC-157 Tissue Protection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/incretin-hormones-metabolic-regulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incretin Hormones and Metabolic Regulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/peptide-synthesis-advances-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Synthesis Advances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../literature/analytical-methods-peptide-characterization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Methods for Peptide Characterization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulatory Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regulatory Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-drug-regulatory-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Drug Regulatory Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/ich-guidelines-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Guidelines for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/gmp-requirements-peptide-manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GMP Requirements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/peptide-impurity-regulatory-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impurity Regulatory Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../regulatory-science/biosimilar-peptide-regulatory-framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biosimilar Peptides Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structural Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-secondary-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Structure Determination
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xray-crystallography-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-ray Crystallography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nmr-spectroscopy-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NMR Spectroscopy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Circular Dichroism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-principles-of-circular-dichroism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical Principles of Circular Dichroism
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physical Principles of Circular Dichroism">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#polarization-and-optical-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Polarization and Optical Activity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-origin-of-peptide-cd-exciton-coupling-and-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Origin of Peptide CD: Exciton Coupling and Transitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrumentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instrumentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#far-uv-cd-and-secondary-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Far-UV CD and Secondary Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Far-UV CD and Secondary Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#characteristic-spectral-signatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Characteristic Spectral Signatures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-analysis-deconvolution-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Analysis: Deconvolution Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations-and-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations and Caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thermal-denaturation-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermal Denaturation Studies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Thermal Denaturation Studies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experimental Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thermodynamic-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermodynamic Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solvent-effects-on-peptide-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solvent Effects on Peptide CD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solvent Effects on Peptide CD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluoroalcohols-tfe-and-hfip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluoroalcohols: TFE and HFIP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#membrane-mimetic-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Membrane-Mimetic Environments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protein-peptide-binding-studies-by-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protein-Peptide Binding Studies by CD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protein-Peptide Binding Studies by CD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-binding-by-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring Binding by CD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-binding-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Binding Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synchrotron-radiation-circular-dichroism-srcd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchrotron Radiation Circular Dichroism (SRCD)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Synchrotron Radiation Circular Dichroism (SRCD)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-srcd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantages of SRCD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srcd-in-peptide-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SRCD in Peptide Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peptide-protein-interaction-structures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide-Protein Interactions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Biology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Receptor Biology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/gpcr-peptide-ligands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GPCR Peptide Ligands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-receptor-binding-kinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Binding Kinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-tyrosine-kinase-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receptor Tyrosine Kinases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/peptide-hormone-receptors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormone Receptors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../receptor-biology/receptor-signaling-pathways/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Signaling Pathways
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pharmacology
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pharmacology
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacokinetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacokinetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-pharmacodynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Pharmacodynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/peptide-toxicology-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toxicology & Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/bioequivalence-generic-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioequivalence
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pharmacology/clinical-peptide-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drug Delivery
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/oral-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oral Peptide Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/transdermal-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transdermal Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/nanoparticle-peptide-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nanoparticle Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/injectable-depot-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Injectable Depot Formulations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../drug-delivery/targeted-peptide-drug-delivery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Targeted Drug Delivery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Science
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Formulation Science
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-formulation-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formulation Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/lyophilization-formulation-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/ph-buffer-selection-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    pH and Buffer Selection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/peptide-aggregation-prevention/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregation Prevention
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../formulation-science/excipients-peptide-formulations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excipients for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bioinformatics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-sequence-analysis-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sequence Analysis Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/in-silico-peptide-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    In Silico Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/molecular-docking-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/machine-learning-peptide-science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bioinformatics/peptide-database-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Resources
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experimental Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Experimental Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/statistical-design-peptide-experiments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statistical Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/controls-validation-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls and Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/dose-response-experimental-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dose-Response Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/sample-size-power-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Size Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../experimental-design/reproducibility-peptide-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reproducibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Laboratory Techniques
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Laboratory Techniques
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/principles-peptide-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/electrophoresis-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Electrophoresis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/spectrophotometric-peptide-quantification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spectrophotometric Quantification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-labeling-techniques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Labeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory-techniques/peptide-digestion-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digestion and Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scientific FAQ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scientific FAQ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-stability-degradation-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stability and Degradation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-synthesis-questions-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synthesis Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-mechanism-of-action-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanism of Action
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-purity-quality-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Purity and Quality
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/peptide-storage-handling-science-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storage and Handling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interactive Figures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Interactive Figures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-structure-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/peptide-docking-simulation-figures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Molecular Docking Figures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/analytical-data-visualization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/bioinformatics-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bioinformatics Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interactive-figures/clinical-data-visualization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clinical Data Visualization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    COA Guide
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    COA Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Read a Peptide COA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/01-understanding-lc-ms-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Understanding LC-MS Reports
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/02-hplc-chromatogram-interpretation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Chromatogram Interpretation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/03-peak-area-vs-peak-height/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peak Area vs Peak Height
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/04-retention-time-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retention Time Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/05-common-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/06-usp-621-chromatography-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USP <621> Chromatography Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/07-ich-q2r2-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICH Q2(R2) Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/08-hplc-method-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPLC Method Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/09-system-suitability-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System Suitability Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/10-analytical-method-transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analytical Method Transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/11-reverse-phase-hplc-for-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reverse Phase HPLC for Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/12-tailing-factor-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailing Factor Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/13-resolution-in-chromatography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resolution in Chromatography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/14-deletion-peptides-explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deletion Peptides Explained
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/15-oxidized-peptide-impurities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oxidized Peptide Impurities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../coa-guide/16-how-laboratories-calculate-hplc-purity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How Laboratories Calculate HPLC Purity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research Methods
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Research Methods
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/solid-phase-peptide-synthesis-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solid-Phase Peptide Synthesis (SPPS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/rpp-hplc-peptide-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RP-HPLC Peptide Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/mass-spec-peptide-method/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mass Spectrometry Methods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/lyophilization-peptides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lyophilization of Peptides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../methods/peptide-storage-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Storage and Stability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparisons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Comparisons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/glp-1-vs-gip-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GLP-1 vs GIP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/semaglutide-vs-tirzepatide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Semaglutide vs Tirzepatide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/peptide-hormones-vs-small-molecules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peptide Hormones vs Small Molecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comparisons/single-vs-multi-receptor-agonists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single vs Multi-Receptor Agonists
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rpl-peptides-ecosystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPL Peptides Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physical-principles-of-circular-dichroism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical Principles of Circular Dichroism
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physical Principles of Circular Dichroism">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#polarization-and-optical-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Polarization and Optical Activity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-origin-of-peptide-cd-exciton-coupling-and-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Origin of Peptide CD: Exciton Coupling and Transitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrumentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instrumentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#far-uv-cd-and-secondary-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Far-UV CD and Secondary Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Far-UV CD and Secondary Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#characteristic-spectral-signatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Characteristic Spectral Signatures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-analysis-deconvolution-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Analysis: Deconvolution Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations-and-caveats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations and Caveats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thermal-denaturation-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermal Denaturation Studies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Thermal Denaturation Studies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experimental Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thermodynamic-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermodynamic Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solvent-effects-on-peptide-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solvent Effects on Peptide CD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Solvent Effects on Peptide CD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluoroalcohols-tfe-and-hfip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fluoroalcohols: TFE and HFIP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#membrane-mimetic-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Membrane-Mimetic Environments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protein-peptide-binding-studies-by-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protein-Peptide Binding Studies by CD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Protein-Peptide Binding Studies by CD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-binding-by-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring Binding by CD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantitative-binding-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantitative Binding Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synchrotron-radiation-circular-dichroism-srcd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Synchrotron Radiation Circular Dichroism (SRCD)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Synchrotron Radiation Circular Dichroism (SRCD)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-srcd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advantages of SRCD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#srcd-in-peptide-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SRCD in Peptide Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-evidence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Evidence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current Understanding
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-research-directions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Future Research Directions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="circular-dichroism-spectroscopy-of-peptides-principles-applications-and-data-analysis">Circular Dichroism Spectroscopy of Peptides — Principles, Applications, and Data Analysis<a class="headerlink" href="#circular-dichroism-spectroscopy-of-peptides-principles-applications-and-data-analysis" title="Permanent link">&para;</a></h1>
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>Circular dichroism (CD) spectroscopy is the most accessible and widely used technique for rapid characterization of peptide secondary structure, conformational stability, and binding interactions in solution. The method measures the differential absorption of left- and right-circularly polarized light, providing characteristic spectral signatures for alpha-helices, beta-sheets, turns, and disordered conformations in the far-UV region (190–260 nm). Quantitative algorithms including CONTIN, CDSSTR, SELCON3, and BeStSel deconvolve CD spectra into fractional secondary structure content with accuracies approaching those of higher-resolution but more demanding techniques. CD spectroscopy uniquely combines experimental simplicity with the ability to monitor conformational changes in real time, making it indispensable throughout the peptide research and development pipeline.</p>
+<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
+<p>The phenomenon of circular dichroism — differential absorption of circularly polarized light — was first observed by Aimé Cotton in 1895 for solutions of chiral molecules. However, the application of CD to biological macromolecules awaited the development of sensitive photoelectric spectropolarimeters in the 1960s. The first CD spectra of polypeptides and proteins, recorded by Serge Beychok, Gerald Fasman, and Jen Tsi Yang in the late 1960s, established the connection between far-UV CD spectral shape and secondary structure type, with the characteristic double minima at 208 and 222 nm of alpha-helical poly-L-lysine becoming the iconic signature of helical conformation.</p>
+<p>The 1970s and 1980s were dominated by empirical and semi-empirical approaches to secondary structure estimation. Norma Greenfield and Gerald Fasman established the first quantitative correlation between the mean residue ellipticity at 222 nm ([θ]₂₂₂) and fractional helix content, expressed as f_H = ([θ]₂₂₂ − [θ]_C) / ([θ]_H − [θ]_C), where [θ]_H and [θ]_C are the ellipticities of reference helical and coil states. While limited in scope, this simple approach remains useful for helix-coil transition analysis of peptides for which more sophisticated deconvolution is inappropriate.</p>
+<p>The 1990s witnessed a revolution in CD analysis methodology. The development of comprehensive reference sets of proteins with known high-resolution crystal structures — pioneered by W. Curtis Johnson Jr., Robert Woody, and Narasimha Sreerama — enabled multivariate deconvolution algorithms (CONTIN, CDSSTR, SELCON) that estimate not only helix content but also beta-sheet, turn, and disordered fractions. The publication of the SP175 reference set (2000) and subsequent expansions to include membrane proteins, beta-sheet-rich proteins, and denatured states significantly improved accuracy.</p>
+<p>The twenty-first century has seen the introduction of synchrotron radiation circular dichroism (SRCD), the development of web-based analysis servers (DichroWeb, BeStSel, CAPITO), and the application of CD to increasingly challenging systems including membrane proteins, intrinsically disordered proteins, and high-throughput screening for drug discovery and formulation development.</p>
+<h2 id="physical-principles-of-circular-dichroism">Physical Principles of Circular Dichroism<a class="headerlink" href="#physical-principles-of-circular-dichroism" title="Permanent link">&para;</a></h2>
+<h3 id="polarization-and-optical-activity">Polarization and Optical Activity<a class="headerlink" href="#polarization-and-optical-activity" title="Permanent link">&para;</a></h3>
+<p>Circularly polarized light (CPL) consists of photons whose electric field vector rotates clockwise (right CPL) or counterclockwise (left CPL) as the beam propagates. An optically active (chiral) sample absorbs left and right CPL to different extents. The differential absorbance, ΔA = A_L − A_R, is the circular dichroism signal.</p>
+<p>For historical reasons closely tied to instrument design, CD is most commonly expressed as ellipticity (θ), in millidegrees (mdeg), which is related to differential absorbance by:</p>
+<p>θ (mdeg) = 32,980 × ΔA</p>
+<p>To normalize for concentration and path length, the mean residue ellipticity (MRE) is calculated:</p>
+<p>[θ]_MRE = θ_obs × MRW / (10 × c × l)</p>
+<p>where MRW is the mean residue weight (molecular weight divided by number of residues), c is concentration in g/mL, and l is path length in cm. [θ]_MRE has units of deg·cm²·dmol⁻¹·residue⁻¹, enabling direct comparison between peptides and proteins of different sizes.</p>
+<h3 id="the-origin-of-peptide-cd-exciton-coupling-and-transitions">The Origin of Peptide CD: Exciton Coupling and Transitions<a class="headerlink" href="#the-origin-of-peptide-cd-exciton-coupling-and-transitions" title="Permanent link">&para;</a></h3>
+<p>The far-UV CD of peptides arises primarily from the electronic transitions of the peptide bond (amide chromophore). Two transitions dominate:</p>
+<ol>
+<li>
+<p><strong>n→π* transition</strong>: Promotion of a non-bonding oxygen lone-pair electron to the antibonding π<em> orbital of the carbonyl group. This transition is centered at approximately 220 nm and is magnetically allowed but electrically forbidden, gaining intensity through mixing with higher-energy transitions in the chiral peptide environment. The n→π</em> CD band is the primary source of the characteristic 222 nm band in alpha-helices.</p>
+</li>
+<li>
+<p><strong>π→π* transition</strong>: Promotion of a π-bonding electron to the π<em> antibonding orbital. The strong π→π</em> transition is centered at approximately 190 nm and is electrically allowed. Exciton coupling between adjacent peptide chromophores — in which the transition dipoles interact through space — splits the π→π* transition into components polarized parallel and perpendicular to the helix axis, producing the positive 192 nm and negative 208 nm bands of the alpha-helical CD spectrum.</p>
+</li>
+</ol>
+<p>For beta-sheets, exciton coupling between strands generates a different splitting pattern, producing the characteristic negative band near 215–218 nm and positive band near 195 nm. The precise wavelength and intensity of these bands depend on the number of strands, sheet twist, parallel/antiparallel orientation, and edge effects, yielding a family of related spectra rather than a single signature.</p>
+<h3 id="instrumentation">Instrumentation<a class="headerlink" href="#instrumentation" title="Permanent link">&para;</a></h3>
+<p>Modern CD spectropolarimeters employ a photoelastic modulator (PEM) — typically a fused silica or calcium fluoride crystal driven at its resonant frequency (~50 kHz) — to alternately produce left and right CPL. The PEM is placed between crossed linear polarizers; when the PEM retardance equals λ/4, the output alternates between left and right CPL at 50 kHz. A photomultiplier tube or solid-state detector measures the transmitted intensity, and a lock-in amplifier demodulates the signal at the PEM frequency to extract the CD signal.</p>
+<p>Key instrumental considerations for peptide CD:</p>
+<ul>
+<li><strong>Nitrogen purging</strong>: Oxygen absorbs strongly below 200 nm, necessitating nitrogen purging of the optical path to achieve useful signal below 195 nm.</li>
+<li><strong>Path length selection</strong>: For standard aqueous peptide samples at 0.1–1.0 mg/mL, 0.1 cm (1 mm) cuvettes are typical for far-UV CD, balancing absorbance and signal. For lower concentrations or organic solvents, 0.5–1.0 cm cells may be used.</li>
+<li><strong>Detector protection</strong>: High voltages on the PMT indicate high absorbance; spectra should be recorded only in regions where the dynode voltage (or equivalent) is within the linear range of the detector.</li>
+<li><strong>Temperature control</strong>: Peltier-controlled cell holders enable accurate temperature control during thermal denaturation experiments with temperature ramps of 0.5–2°C/min.</li>
+</ul>
+<h2 id="far-uv-cd-and-secondary-structure">Far-UV CD and Secondary Structure<a class="headerlink" href="#far-uv-cd-and-secondary-structure" title="Permanent link">&para;</a></h2>
+<h3 id="characteristic-spectral-signatures">Characteristic Spectral Signatures<a class="headerlink" href="#characteristic-spectral-signatures" title="Permanent link">&para;</a></h3>
+<p>The far-UV CD spectrum (190–260 nm) is the primary region for secondary structure assessment. Each structural type produces a characteristic CD pattern:</p>
+<p><strong>Alpha-helix</strong>:
+- Strong negative band at 222 nm (n→π<em>)
+- Strong negative band at 208 nm (π→π</em>, perpendicular component)
+- Strong positive band at 192 nm (π→π*, parallel component)
+- [θ]₂₂₂ intensity of approximately −30,000 to −36,000 deg·cm²·dmol⁻¹ for a fully helical peptide
+- Ratio R₁ = [θ]₂₂₂/[θ]₂₀₈ is approximately 0.8–0.9 for monomeric helices; lower values indicate helix-helix association or distortion</p>
+<p><strong>Beta-sheet</strong>:
+- Negative band at 215–218 nm (n→π<em>)
+- Positive band at 195–200 nm (π→π</em>)
+- Considerable variation depending on parallel/antiparallel character, number of strands, and twist
+- [θ]₂₁₆ intensity typically −5,000 to −15,000 deg·cm²·dmol⁻¹, weaker than for alpha-helices</p>
+<p><strong>Beta-turn</strong>:
+- Signatures are type-dependent; common types show negative bands near 220–225 nm
+- Type I β-turns: negative band near 220 nm, positive near 195 nm
+- Type II β-turns: negative band near 220 nm, very weak signal near 200 nm
+- Turn CD is generally weaker and more variable than helix or sheet CD</p>
+<p><strong>Random coil / disordered</strong>:
+- Strong negative band near 197–200 nm (π→π*)
+- Weak positive or negative band near 220 nm
+- [θ]₁₉₈ typically +3,000 to −20,000 deg·cm²·dmol⁻¹ depending on chain length and solvent
+- Polyproline II (PPII) conformation (common in disordered peptides): negative band near 200 nm, weak positive near 220 nm</p>
+<h3 id="quantitative-analysis-deconvolution-algorithms">Quantitative Analysis: Deconvolution Algorithms<a class="headerlink" href="#quantitative-analysis-deconvolution-algorithms" title="Permanent link">&para;</a></h3>
+<p><strong>CONTIN</strong> (Provencher and Glöckner, 1981) employs a ridge regression approach with a regularization parameter that balances the quality of fit against the smoothness of the solution. CONTIN treats the unknown CD spectrum as a linear combination of reference spectra weighted by fractional content. Advantages include robustness (overfitting is controlled by the regularization parameter) and the ability to handle correlated basis spectra. Limitations include sensitivity to the choice of reference set and potential for negative predicted fractions.</p>
+<p><strong>SELCON3</strong> (Sreerama and Woody, 1993) implements a self-consistent method. The algorithm iteratively removes each reference protein from the basis set, analyzes it using the remaining references, and compares the predicted and known secondary structure. Through singular value decomposition and a self-consistent selection criterion, an optimal subset of reference proteins is identified. SELCON3 performs well when the reference set includes proteins structurally similar to the unknown.</p>
+<p><strong>CDSSTR</strong> (Johnson, 1999) uses a variable selection method: multiple subsets of reference proteins are used to analyze the unknown spectrum, and only those subsets for which all proteins are well-predicted are retained. The ensemble of successful analyses provides both the secondary structure estimate and its uncertainty. CDSSTR is particularly effective when the unknown has unusual spectral features that are not well represented in the reference set.</p>
+<p><strong>BeStSel</strong> (Micsonai et al., 2018) is a web server specifically optimized for beta-sheet-rich proteins. It provides parallel/antiparallel sheet discrimination and estimates of sheet twist, which are not available from traditional algorithms. BeStSel uses a reference set with detailed secondary structure assignments by DSSP and is continuously updated.</p>
+<p><strong>Critical parameters for deconvolution accuracy</strong>:
+- Wavelength range: 190–260 nm is optimal; data below 190 nm improves accuracy but requires more aggressive nitrogen purging.
+- Spectral quality: High signal-to-noise ratio, proper baseline subtraction, and accurate concentration determination are essential.
+- Reference set: Must be appropriate for the structural class; alpha-helical peptide reference sets differ from protein reference sets.
+- Normalization: Consistent mean residue ellipticity normalization across the reference set and unknown.</p>
+<h3 id="limitations-and-caveats">Limitations and Caveats<a class="headerlink" href="#limitations-and-caveats" title="Permanent link">&para;</a></h3>
+<p>Several artifacts and limitations must be considered when interpreting peptide CD data:</p>
+<ol>
+<li>
+<p><strong>Absorption flattening</strong>: At high concentrations or in highly scattering samples, differential absorption flattening (the "Duysens effect") reduces apparent CD intensity. For peptides, this is typically negligible at concentrations below 1 mg/mL in 1 mm cells but may be significant for aggregated or fibrillar samples.</p>
+</li>
+<li>
+<p><strong>Spectral contributions from aromatic side chains</strong>: Phenylalanine, tyrosine, and tryptophan residues have CD-active transitions in the 250–300 nm region (near-UV CD) and can also contribute to far-UV CD through coupling with peptide backbone transitions. For short peptides with a high proportion of aromatic residues, these contributions can distort secondary structure estimates.</p>
+</li>
+<li>
+<p><strong>Disulfide bonds</strong>: Cystine disulfide bonds produce broad CD bands centered near 260 nm and shorter-wavelength contributions that can affect the 220–250 nm region. In disulfide-rich peptides, these contributions can distort apparent secondary structure content.</p>
+</li>
+<li>
+<p><strong>Reference set bias</strong>: Deconvolution algorithms assume the unknown spectrum can be represented as a linear combination of reference spectra. When the unknown is structurally distinct from the reference set (e.g., a highly distorted helix, a 3₁₀-helix, or a non-canonical β-sheet), significant errors can result.</p>
+</li>
+<li>
+<p><strong>Short peptide considerations</strong>: Standard reference sets are optimized for proteins of &gt;50 residues. For short peptides (&lt;20 residues), end effects, fraying, and incomplete or distorted secondary structure produce CD spectra that may be poorly represented by protein reference sets, and dedicated peptide reference sets or single-wavelength analyses (e.g., [θ]₂₂₂ for helix content) may be more appropriate.</p>
+</li>
+</ol>
+<h2 id="thermal-denaturation-studies">Thermal Denaturation Studies<a class="headerlink" href="#thermal-denaturation-studies" title="Permanent link">&para;</a></h2>
+<h3 id="experimental-design">Experimental Design<a class="headerlink" href="#experimental-design" title="Permanent link">&para;</a></h3>
+<p>Thermal denaturation monitored by CD is one of the most widely used methods for quantifying peptide and protein stability. The peptide is heated at a controlled rate (typically 0.5–2°C/min) while CD is monitored at one or more fixed wavelengths, producing a thermal unfolding curve. Key experimental considerations include:</p>
+<ol>
+<li>
+<p><strong>Wavelength selection</strong>: For alpha-helical peptides, 222 nm is monitored because: (a) the CD signal at this wavelength is dominated by the n→π* transition of the helix, providing a direct probe of helical content; (b) baseline drift is minimal at 222 nm; and (c) the temperature dependence of the random coil CD at 222 nm is small. For β-sheet peptides, 215–218 nm is monitored.</p>
+</li>
+<li>
+<p><strong>Reversibility</strong>: Thermal unfolding must be reversible for thermodynamic analysis. Reversibility is assessed by comparing CD spectra before heating and after cooling. Irreversible aggregation, often indicated by visible turbidity, non-isosbestic behavior, or failure to return to the initial spectrum upon cooling, precludes thermodynamic interpretation.</p>
+</li>
+<li>
+<p><strong>Equilibrium</strong>: The temperature ramp rate must be sufficiently slow for the sample to remain at equilibrium. For peptides with rapid folding kinetics (typical of small, single-domain peptides), ramp rates of 0.5–1°C/min are generally adequate. For larger or kinetically slow systems, equilibration at each temperature point may be necessary.</p>
+</li>
+<li>
+<p><strong>Concentration dependence</strong>: For oligomerizing systems, the apparent T_m (midpoint of the thermal transition) is concentration-dependent. Analyzing unfolding at multiple concentrations can distinguish monomeric unfolding (concentration-independent) from coupled unfolding-dissociation (concentration-dependent).</p>
+</li>
+</ol>
+<h3 id="thermodynamic-analysis">Thermodynamic Analysis<a class="headerlink" href="#thermodynamic-analysis" title="Permanent link">&para;</a></h3>
+<p>For a two-state unfolding transition (N ⇌ U), the equilibrium constant at temperature T is:</p>
+<p>K(T) = f_U / (1 − f_U) = ([θ]_T − [θ]_N) / ([θ]_U − [θ]_T)</p>
+<p>where [θ]_T, [θ]_N, and [θ]_U are the ellipticities at temperature T, the native baseline, and the unfolded baseline, respectively. The baselines are typically modeled as linear functions of temperature.</p>
+<p>The free energy of unfolding at temperature T is:</p>
+<p>ΔG(T) = −RT ln K(T)</p>
+<p>The temperature dependence of ΔG is given by the Gibbs-Helmholtz equation:</p>
+<p>ΔG(T) = ΔH_m(1 − T/T_m) − ΔC_p[(T_m − T) + T ln(T/T_m)]</p>
+<p>where ΔH_m is the enthalpy change at T_m, and ΔC_p is the heat capacity change (often assumed to be zero for small peptides, giving the simpler van't Hoff equation).</p>
+<p>For peptide systems, two-state behavior should be validated by demonstrating: (a) a single sigmoidal transition; (b) coincidence of T_m determined at multiple wavelengths; (c) consistency with Differential Scanning Calorimetry (DSC) where available; and (d) ΔH_van't Hoff (from the temperature dependence of K) comparable to ΔH_calorimetric (from DSC).</p>
+<h2 id="solvent-effects-on-peptide-cd">Solvent Effects on Peptide CD<a class="headerlink" href="#solvent-effects-on-peptide-cd" title="Permanent link">&para;</a></h2>
+<h3 id="fluoroalcohols-tfe-and-hfip">Fluoroalcohols: TFE and HFIP<a class="headerlink" href="#fluoroalcohols-tfe-and-hfip" title="Permanent link">&para;</a></h3>
+<p>2,2,2-Trifluoroethanol (TFE) and 1,1,1,3,3,3-hexafluoroisopropanol (HFIP) are the most commonly used co-solvents for inducing and stabilizing alpha-helical conformation in peptides. The mechanism of TFE action has been debated extensively:</p>
+<ol>
+<li>
+<p><strong>Excluded volume / preferential hydration model</strong>: TFE is excluded from the peptide surface, increasing the effective concentration and favoring the more compact helical state. This model is consistent with the observation that TFE increases the T_m of helices without affecting ΔH significantly.</p>
+</li>
+<li>
+<p><strong>Direct binding model</strong>: TFE binds weakly to the peptide backbone in the helical conformation, stabilizing it through hydrophobic interactions. NMR studies have shown specific TFE-peptide interactions at certain sites.</p>
+</li>
+<li>
+<p><strong>Dielectric effect</strong>: TFE lowers the dielectric constant of the solvent (from ~80 for water to ~50–60 for 30% TFE/water), weakening peptide-solvent hydrogen bonds relative to intrachain backbone hydrogen bonds.</p>
+</li>
+</ol>
+<p>In practice, TFE titration experiments — in which CD spectra are recorded as a function of TFE concentration (typically 0–50% v/v) — reveal the intrinsic helical propensity of a peptide sequence. Peptides that become fully helical at low TFE concentrations (&lt;20%) have high intrinsic helicity; those requiring &gt;50% TFE have low intrinsic helicity and may not form stable helices under physiological conditions.</p>
+<h3 id="membrane-mimetic-environments">Membrane-Mimetic Environments<a class="headerlink" href="#membrane-mimetic-environments" title="Permanent link">&para;</a></h3>
+<p>Membrane-active peptides (antimicrobial peptides, cell-penetrating peptides, fusion peptides) often adopt amphipathic helical or beta-sheet conformations only in the presence of lipid membranes or membrane-mimetic environments. CD in the presence of various membrane models reveals these conformational transitions:</p>
+<ul>
+<li><strong>SDS micelles</strong>: Sodium dodecyl sulfate micelles provide a negatively charged surface that mimics bacterial membranes. SDS is commonly used at 10–100 mM, well above its critical micelle concentration (CMC) of ~8 mM in water.</li>
+<li><strong>DPC micelles</strong>: Dodecylphosphocholine micelles provide zwitterionic surfaces mimicking eukaryotic membranes. DPC is used at 5–50 mM (CMC ~1 mM).</li>
+<li><strong>Lipid vesicles (liposomes)</strong>: Small unilamellar vesicles (SUVs) or large unilamellar vesicles (LUVs) of defined lipid composition provide the most biologically relevant model. However, light scattering from vesicles contributes to the CD signal and requires correction using CD-detected scattering correction or comparison with baseline spectra.</li>
+<li><strong>Bicelles</strong>: Mixtures of long-chain and short-chain lipids forming discoidal bilayer fragments provide an intermediate model with true bilayer structure but reduced scattering compared to vesicles.</li>
+</ul>
+<p>A key practical consideration is the peptide-to-lipid (P/L) ratio. At high P/L ratios, peptide binding may saturate available lipid surface, leading to aggregation or non-native conformations. Titrations of peptide into lipid (or vice versa) at fixed P/L reveal the dependence of conformation on binding stoichiometry.</p>
+<h2 id="protein-peptide-binding-studies-by-cd">Protein-Peptide Binding Studies by CD<a class="headerlink" href="#protein-peptide-binding-studies-by-cd" title="Permanent link">&para;</a></h2>
+<h3 id="monitoring-binding-by-cd">Monitoring Binding by CD<a class="headerlink" href="#monitoring-binding-by-cd" title="Permanent link">&para;</a></h3>
+<p>CD spectroscopy is a versatile method for studying peptide-protein and peptide-peptide binding interactions. Several experimental strategies are employed:</p>
+<ol>
+<li>
+<p><strong>Far-UV CD difference spectroscopy</strong>: The CD spectrum of the complex is compared with the sum of the spectra of the individual components. Induced CD — the appearance of new secondary structure (typically helix formation in a previously disordered peptide) upon binding — provides a direct, binding-dependent signal for titration experiments.</p>
+</li>
+<li>
+<p><strong>Near-UV CD</strong>: Binding-induced changes in the near-UV CD spectrum (250–320 nm), which arises from aromatic side chains and disulfide bonds in asymmetric environments, report on changes in tertiary structure upon complex formation. This is particularly useful for peptide-protein complexes where the peptide lacks tertiary structure but the protein undergoes binding-induced conformational changes.</p>
+</li>
+<li>
+<p><strong>Thermal denaturation of complexes</strong>: Comparison of the T_m of the free protein with that of the peptide-protein complex quantifies the stabilizing effect of peptide binding through ΔT_m or, with appropriate analysis, ΔΔG of binding.</p>
+</li>
+</ol>
+<h3 id="quantitative-binding-analysis">Quantitative Binding Analysis<a class="headerlink" href="#quantitative-binding-analysis" title="Permanent link">&para;</a></h3>
+<p>For a simple 1:1 binding model (P + L ⇌ PL), the dissociation constant is:</p>
+<p>K_d = [P][L] / [PL]</p>
+<p>The observed CD signal at a given wavelength is the population-weighted average of free and bound signals:</p>
+<p>[θ]_obs = f_bound × [θ]_PL + (1 − f_bound) × [θ]_free</p>
+<p>where f_bound = [PL] / [P]_total. Fitting the binding isotherm (observed signal vs. total ligand concentration) to the quadratic binding equation yields K_d.</p>
+<p>For tight-binding peptides (K_d comparable to or lower than the protein concentration), the quadratic rather than the hyperbolic form must be used, as the approximation [L]_free ≈ [L]_total is invalid. Stoichiometry can also be extracted from the binding isotherm when the inflection point is sharp and data extend to full saturation.</p>
+<h2 id="synchrotron-radiation-circular-dichroism-srcd">Synchrotron Radiation Circular Dichroism (SRCD)<a class="headerlink" href="#synchrotron-radiation-circular-dichroism-srcd" title="Permanent link">&para;</a></h2>
+<h3 id="advantages-of-srcd">Advantages of SRCD<a class="headerlink" href="#advantages-of-srcd" title="Permanent link">&para;</a></h3>
+<p>Synchrotron radiation circular dichroism (SRCD) uses the high photon flux and broad wavelength range of synchrotron light sources to extend conventional CD capabilities:</p>
+<ol>
+<li>
+<p><strong>Extended wavelength range</strong>: SRCD beamlines routinely collect data to 170 nm or below (compared to ~185–190 nm on conventional instruments), accessing additional electronic transitions that improve secondary structure deconvolution accuracy, particularly for beta-sheet, turn, and disordered structures.</p>
+</li>
+<li>
+<p><strong>Higher signal-to-noise ratio</strong>: The high photon flux (10⁴–10⁶ times greater than conventional xenon arc lamps) enables CD measurements on samples with high absorbance (concentrated solutions, buffers containing chloride or other absorbing species) and faster data acquisition.</p>
+</li>
+<li>
+<p><strong>Time-resolved measurements</strong>: The high flux combined with stopped-flow or continuous-flow mixing enables time-resolved CD measurements on the millisecond timescale, capturing folding and binding kinetics.</p>
+</li>
+<li>
+<p><strong>High-temperature measurements</strong>: SRCD can be collected at temperatures up to ~90°C without the degradation in signal-to-noise that afflicts conventional instruments at elevated temperatures.</p>
+</li>
+<li>
+<p><strong>Low sample volumes</strong>: Microfluidic cells with path lengths of 50–100 μm combined with the high flux enable CD measurements on sub-microliter sample volumes.</p>
+</li>
+</ol>
+<h3 id="srcd-in-peptide-research">SRCD in Peptide Research<a class="headerlink" href="#srcd-in-peptide-research" title="Permanent link">&para;</a></h3>
+<p>SRCD has provided unique insights into peptide systems, including:
+- <strong>Membrane peptide structure</strong>: The extended wavelength range improves discrimination between helical and beta-sheet conformations of peptides in lipid environments where conventional CD is ambiguous.
+- <strong>Folding kinetics</strong>: Time-resolved SRCD has captured the kinetics of peptide helix formation on sub-millisecond timescales, revealing intermediate states that are invisible to conventional CD.
+- <strong>High-throughput screening</strong>: SRCD combined with automated sample handling enables screening of peptide libraries for structural properties under varying buffer, ligand, and temperature conditions.</p>
+<h2 id="research-evidence">Research Evidence<a class="headerlink" href="#research-evidence" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Study</th>
+<th>Peptide/Protein System</th>
+<th>CD Method</th>
+<th>Key Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Greenfield &amp; Fasman (1969)</td>
+<td>Poly-L-lysine, model proteins</td>
+<td>Far-UV CD</td>
+<td>Established the basis for estimating α-helical content from [θ]₂₂₂</td>
+</tr>
+<tr>
+<td>Sreerama &amp; Woody (2000)</td>
+<td>SP175 reference set (43–50 proteins)</td>
+<td>SELCON3, CDSSTR, CONTIN</td>
+<td>Compiled the most widely used CD reference set; validated deconvolution accuracy</td>
+</tr>
+<tr>
+<td>Micsonai et al. (2018)</td>
+<td>73 reference proteins</td>
+<td>BeStSel web server</td>
+<td>Improved β-sheet content estimation including parallel/antiparallel classification</td>
+</tr>
+<tr>
+<td>Johnson (1999)</td>
+<td>Reference set analysis</td>
+<td>CDSSTR (variable selection)</td>
+<td>Developed the variable selection method; showed improved accuracy for unusual structures</td>
+</tr>
+<tr>
+<td>Kelly et al. (2005)</td>
+<td>Model peptides and proteins</td>
+<td>SRCD (CD12 beamline, SRS)</td>
+<td>Demonstrated enhanced deconvolution accuracy with SRCD's extended wavelength range</td>
+</tr>
+<tr>
+<td>Miles &amp; Wallace (2016)</td>
+<td>CAPITO database analysis</td>
+<td>CAPITO CD analysis server</td>
+<td>Developed a server for CD-based folding analysis with novel 2D visualization</td>
+</tr>
+<tr>
+<td>Scholtz et al. (1991)</td>
+<td>Alanine-based peptides</td>
+<td>CD thermal denaturation</td>
+<td>Quantified the helix-coil transition thermodynamics for short peptides</td>
+</tr>
+<tr>
+<td>Rohl &amp; Baldwin (1997)</td>
+<td>Alanine-based host-guest peptides</td>
+<td>CD + TFE titration</td>
+<td>Measured intrinsic helix propensities; demonstrated Alanine's high helix propensity</td>
+</tr>
+<tr>
+<td>Woody (1995)</td>
+<td>Theoretical</td>
+<td>Exciton theory</td>
+<td>Developed the theoretical framework for peptide CD; explained the 208/222 nm ratio</td>
+</tr>
+<tr>
+<td>Wieprecht et al. (1999)</td>
+<td>Magainin and analogs</td>
+<td>CD + lipid titration</td>
+<td>Characterized the helix-coil transition of antimicrobial peptides upon membrane binding</td>
+</tr>
+<tr>
+<td>Wallace &amp; Janes (2001)</td>
+<td>SRCD review</td>
+<td>SRCD methods</td>
+<td>Comprehensive review of SRCD instrumentation, methods, and biological applications</td>
+</tr>
+<tr>
+<td>Lees et al. (2006)</td>
+<td>CD reference database</td>
+<td>PCDDB (Protein Circular Dichroism Data Bank)</td>
+<td>Established the first public repository for validated CD spectra and metadata</td>
+</tr>
+</tbody>
+</table>
+<h2 id="current-understanding">Current Understanding<a class="headerlink" href="#current-understanding" title="Permanent link">&para;</a></h2>
+<p>Circular dichroism spectroscopy occupies a unique niche in peptide structural biology. While it does not provide atomic-resolution structural information, its combination of speed, sensitivity to conformational change, and minimal sample requirements makes it the first-line technique for secondary structure characterization. The development of validated reference sets and robust deconvolution algorithms has transformed CD from a qualitative method into a quantitative analytical tool.</p>
+<p>The recognition that CD deconvolution accuracy depends critically on the quality and representativeness of the reference set has led to ongoing efforts to expand and diversify reference databases. The Protein Circular Dichroism Data Bank (PCDDB), established in 2006, has begun to address the historical problem of inaccessible raw CD data by providing a curated repository of validated spectra, metadata, and experimental conditions.</p>
+<p>The integration of CD with complementary techniques has proven particularly powerful. CD provides rapid, global secondary structure assessment that guides higher-resolution studies (X-ray crystallography, NMR). Thermal denaturation by CD provides thermodynamic parameters that complement kinetic measurements from stopped-flow fluorescence or NMR relaxation. And CD titration experiments identify binding events and stoichiometries that are then characterized in atomic detail by co-crystallization or NMR structure determination.</p>
+<p>Modern CD instruments, many of which incorporate multiple simultaneous detection modes (absorbance, fluorescence, light scattering), provide a comprehensive biophysical characterization platform. High-throughput CD instruments with automated sample handling have become standard in industrial settings for formulation screening, stability assessment, and quality control of peptide therapeutics.</p>
+<h2 id="future-research-directions">Future Research Directions<a class="headerlink" href="#future-research-directions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><strong>Microfluidic CD</strong>: Integration of CD detection with microfluidic sample handling, enabling high-throughput, low-volume measurements for peptide library screening, formulation development, and in-line process analytical technology (PAT) for peptide manufacturing.</p>
+</li>
+<li>
+<p><strong>Time-resolved CD at XFELs</strong>: The combination of X-ray free-electron lasers with CD detection would enable femtosecond time resolution, capturing the earliest events in peptide folding and photochemical processes.</p>
+</li>
+<li>
+<p><strong>Computational prediction of CD spectra</strong>: Deep learning methods trained on the PCDDB that predict CD spectra from sequence alone (and vice versa) would enable rapid in silico screening of peptide designs and assignment of experimental spectra.</p>
+</li>
+<li>
+<p><strong>Single-molecule CD</strong>: Emerging technologies for detecting chirality at the single-molecule level — through plasmonic enhancement, optical trapping, or novel detection schemes — would reveal the structural heterogeneity hidden in ensemble-averaged CD measurements.</p>
+</li>
+<li>
+<p><strong>In-cell CD</strong>: The development of CD-compatible cell suspensions and selective labeling strategies would enable measurement of peptide secondary structure in the physiological intracellular environment, bridging the gap between in vitro and in vivo conformation.</p>
+</li>
+<li>
+<p><strong>CD-guided integrative modeling</strong>: Systematic incorporation of CD-derived secondary structure content as restraints in computational structure prediction and molecular dynamics simulations would improve model accuracy for peptides where high-resolution methods are inapplicable.</p>
+</li>
+</ul>
+<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permanent link">&para;</a></h2>
+<div class="faq-container">
+
+<div class="faq-item">
+<h3 class="faq-question">What information can CD provide about peptide structure?</h3>
+<p>Circular dichroism provides: (1) secondary structure composition (fraction of helix, sheet, turn, and disordered conformation) from far-UV spectra (190–260 nm); (2) conformational stability through thermal or chemical denaturation experiments yielding T_m, ΔH, and ΔG; (3) binding interactions through titration experiments that report on peptide-protein, peptide-ligand, or peptide-lipid complex formation; (4) tertiary structure changes from near-UV CD (250–320 nm) monitoring aromatic side chains; and (5) folding and binding kinetics through stopped-flow CD with millisecond time resolution.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How much peptide is needed for a CD experiment?</h3>
+<p>For a standard far-UV CD experiment in a 1 mm pathlength cuvette, approximately 200–300 μL of peptide solution at 0.1–0.5 mg/mL is required (20–150 μg of peptide). For short peptides (<15 residues), higher concentrations (0.5–2 mg/mL) may be necessary to achieve adequate signal-to-noise. Using microvolume or demountable cells, sample volumes as low as 10–20 μL can be analyzed. Quality peptide samples optimized for CD are available through <a href="https://rplpeptides.com">RPL Peptides</a>.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How accurate is secondary structure estimation from CD?</h3>
+<p>For standard proteins with well-represented structures, deconvolution algorithms achieve root-mean-square deviations (RMSD) of 3–5% for helix content, 5–10% for beta-sheet content, and 5–10% for turn and disordered content when high-quality data (190–260 nm) are available. Accuracy decreases for: short peptides (<20 residues), unusual secondary structures (3₁₀-helices, PPII), membrane proteins, and structures not well represented in the reference set. SRCD extending to 170 nm improves accuracy by ~5%.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">What is the difference between far-UV and near-UV CD?</h3>
+<p>Far-UV CD (190–260 nm) arises primarily from peptide bond transitions and reports on secondary structure. Near-UV CD (250–320 nm) arises from aromatic amino acid side chains (phenylalanine, tyrosine, tryptophan) and disulfide bonds in asymmetric environments, reporting on tertiary structure — the specific spatial arrangement of these chromophores. For short peptides lacking tertiary structure, near-UV CD is generally featureless, but binding-induced changes can be informative when the binding partner contains aromatic residues.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How does TFE induce helical structure in peptides?</h3>
+<p>2,2,2-Trifluoroethanol (TFE) stabilizes alpha-helical conformation through a combination of mechanisms: (1) lowering the solvent dielectric constant weakens peptide-solvent hydrogen bonds relative to intrachain backbone hydrogen bonds; (2) preferential exclusion of TFE from the peptide surface increases the effective peptide concentration, favoring the more compact helical state; and (3) specific TFE-peptide interactions may stabilize the helical backbone conformation at certain sites. The TFE concentration required for helix induction is a semi-quantitative measure of a peptide's intrinsic helical propensity.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How is thermal stability measured by CD?</h3>
+<p>The peptide is heated at a controlled rate (0.5–2°C/min) while CD is monitored at a characteristic wavelength (222 nm for helices, 216 nm for sheets). The resulting sigmoidal thermal unfolding curve is analyzed to extract the melting temperature (T_m), van't Hoff enthalpy (ΔH_vH), and, for reversible transitions, the free energy of unfolding (ΔG). Reversibility must be confirmed by demonstrating that the CD spectrum after cooling matches the pre-heating spectrum. The temperature should be calibrated using a thermocouple in a mock sample.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">Can CD distinguish between parallel and antiparallel beta-sheets?</h3>
+<p>Traditional deconvolution algorithms (CONTIN, SELCON3, CDSSTR) do not distinguish parallel from antiparallel sheets. However, the BeStSel server, which uses a reference set with DSSP-assigned secondary structure classifications that differentiate parallel and antiparallel sheets, can estimate the fraction of each. The distinction is based on subtle differences in the shape and position of the beta-sheet CD bands: antiparallel sheets typically show a slightly red-shifted negative band (217–218 nm vs. 215–216 nm) and differences in the positive band at ~195 nm.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">What are the advantages of SRCD over conventional CD?</h3>
+<p>Synchrotron radiation CD provides: (1) an extended wavelength range to 170 nm or below, capturing additional electronic transitions that improve deconvolution accuracy; (2) 10⁴–10⁶ times higher photon flux, enabling measurements on higher-absorbance samples and faster acquisition; (3) time-resolved capability for kinetic measurements on the millisecond timescale; (4) better signal-to-noise at elevated temperatures; and (5) compatibility with microvolume cells. The primary limitation is access, as SRCD requires beamline time at a synchrotron facility.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">How are peptide-protein binding interactions studied by CD?</h3>
+<p>CD monitors binding through several approaches: (1) Induced CD — the appearance of new secondary structure (often helix formation) when a disordered peptide binds to its target protein; (2) difference CD — the difference spectrum between the complex and the sum of individual component spectra; (3) thermal shift — stabilization of the protein (increased T_m) upon peptide binding; (4) isothermal titration — monitoring CD at a fixed wavelength during incremental addition of peptide to protein (or vice versa), fitting the binding isotherm to obtain K_d and stoichiometry. For detailed binding characterization, consult <a href="https://data.rplpeptides.com">RPL Peptides Data Center</a>.</p>
+</div>
+
+<div class="faq-item">
+<h3 class="faq-question">What causes the negative CD bands at 208 and 222 nm in alpha-helices?</h3>
+<p>The 222 nm band arises from the n→π* transition of the peptide bond, which is magnetically allowed but electrically forbidden in isolated amides. In the chiral helical environment, mixing with allowed transitions gives it CD intensity. The 208 nm band (and positive 192 nm band) arise from exciton splitting of the strong π→π* transition: coupling between the transition dipoles of adjacent peptide bonds splits the excited state into components polarized parallel (192 nm, positive CD) and perpendicular (208 nm, negative CD) to the helix axis. The ratio [θ]₂₂₂/[θ]₂₀₈ provides information about helix length and oligomerization state.</p>
+</div>
+
+</div>
+
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ol class="references">
+<li id="ref1">Greenfield, N. J., & Fasman, G. D. (1969). Computed circular dichroism spectra for the evaluation of protein conformation. Biochemistry, 8(10), 4108–4116. DOI: 10.1021/bi00838a031</li>
+<li id="ref2">Sreerama, N., & Woody, R. W. (2000). Estimation of protein secondary structure from circular dichroism spectra: comparison of CONTIN, SELCON, and CDSSTR methods with an expanded reference set. Analytical Biochemistry, 287(2), 252–260. DOI: 10.1006/abio.2000.4880</li>
+<li id="ref3">Micsonai, A., Wien, F., Bulyáki, É., Kun, J., Moussong, É., Lee, Y. H., Goto, Y., Réfrégiers, M., & Kardos, J. (2018). BeStSel: a web server for accurate protein secondary structure prediction and fold recognition from the circular dichroism spectra. Nucleic Acids Research, 46(W1), W315–W322. DOI: 10.1093/nar/gky497</li>
+<li id="ref4">Johnson, W. C. (1999). Analyzing protein circular dichroism spectra for accurate secondary structures. Proteins: Structure, Function, and Bioinformatics, 35(3), 307–312. DOI: 10.1002/(SICI)1097-0134(19990515)35:3&lt;307::AID-PROT4&gt;3.0.CO;2-3</li>
+<li id="ref5">Woody, R. W. (1995). Circular dichroism. Methods in Enzymology, 246, 34–71. DOI: 10.1016/0076-6879(95)46006-3</li>
+<li id="ref6">Kelly, S. M., Jess, T. J., & Price, N. C. (2005). How to study proteins by circular dichroism. Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics, 1751(2), 119–139. DOI: 10.1016/j.bbapap.2005.06.005</li>
+<li id="ref7">Miles, A. J., & Wallace, B. A. (2016). Circular dichroism spectroscopy of membrane proteins. Chemical Society Reviews, 45(18), 4859–4872. DOI: 10.1039/C5CS00084J</li>
+<li id="ref8">Scholtz, J. M., Qian, H., York, E. J., Stewart, J. M., & Baldwin, R. L. (1991). Parameters of helix-coil transition theory for alanine-based peptides of varying chain lengths in water. Biopolymers, 31(13), 1463–1470. DOI: 10.1002/bip.360311304</li>
+<li id="ref9">Rohl, C. A., & Baldwin, R. L. (1997). Comparison of NH exchange and circular dichroism as techniques for measuring the parameters of the helix-coil transition in peptides. Biochemistry, 36(28), 8435–8442. DOI: 10.1021/bi9706677</li>
+<li id="ref10">Wieprecht, T., Beyermann, M., & Seelig, J. (1999). Binding of antibacterial magainin peptides to electrically neutral membranes: thermodynamics and structure. Biochemistry, 38(32), 10377–10387. DOI: 10.1021/bi990913+</li>
+<li id="ref11">Wallace, B. A., & Janes, R. W. (2001). Synchrotron radiation circular dichroism spectroscopy of proteins: secondary structure, fold recognition and structural genomics. Current Opinion in Chemical Biology, 5(5), 567–571. DOI: 10.1016/S1367-5931(00)00248-X</li>
+<li id="ref12">Lees, J. G., Miles, A. J., Wien, F., & Wallace, B. A. (2006). A reference database for circular dichroism spectroscopy covering fold and secondary structure space. Bioinformatics, 22(16), 1955–1962. DOI: 10.1093/bioinformatics/btl327</li>
+<li id="ref13">Provencher, S. W., & Glöckner, J. (1981). Estimation of globular protein secondary structure from circular dichroism. Biochemistry, 20(1), 33–37. DOI: 10.1021/bi00504a006</li>
+<li id="ref14">Brahms, S., & Brahms, J. (1980). Determination of protein secondary structure in solution by vacuum ultraviolet circular dichroism. Journal of Molecular Biology, 138(2), 149–178. DOI: 10.1016/0022-2836(80)90282-X</li>
+<li id="ref15">Whitmore, L., & Wallace, B. A. (2008). Protein secondary structure analyses from circular dichroism spectroscopy: methods and reference databases. Biopolymers, 89(5), 392–400. DOI: 10.1002/bip.20853</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 RPL Peptides — All Rights Reserved
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://rplpeptides.com" target="_blank" rel="noopener" title="RPL Peptides Main Website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v151.5L7.5 426.3C2.6 435 0 444.7 0 454.7 0 486.4 25.6 512 57.3 512h333.4c31.6 0 57.3-25.6 57.3-57.3 0-10-2.6-19.8-7.5-28.4L320 215.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 215.5V64h64v151.5c0 11.1 2.9 22.1 8.4 31.8L306 320H142l41.6-72.7c5.5-9.7 8.4-20.6 8.4-31.8"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://data.rplpeptides.com" target="_blank" rel="noopener" title="Peptide Data Center" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M448 205.8c-14.8 9.8-31.8 17.7-49.5 24-47 16.8-108.7 26.2-174.5 26.2s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V288c0 44.2 100.3 80 224 80s224-35.8 224-80zm0-77.8V80c0-44.2-100.3-80-224-80S0 35.8 0 80v48c0 44.2 100.3 80 224 80s224-35.8 224-80m-49.5 261.8C351.6 406.5 289.9 416 224 416s-127.6-9.5-174.5-26.2c-17.6-6.3-34.7-14.2-49.5-24V432c0 44.2 100.3 80 224 80s224-35.8 224-80v-66.2c-14.8 9.8-31.8 17.7-49.5 24"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://tool.rplpeptides.com" target="_blank" rel="noopener" title="Research Tools" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M509.4 98.6c7.6-7.6 20.3-5.7 24.1 4.3 6.8 17.7 10.5 37 10.5 57.1 0 88.4-71.6 160-160 160-17.5 0-34.4-2.8-50.2-8L146.9 498.9c-28.1 28.1-73.7 28.1-101.8 0s-28.1-73.7 0-101.8L232 210.2c-5.2-15.8-8-32.6-8-50.2C224 71.6 295.6 0 384 0c20.1 0 39.4 3.7 57.1 10.5 10 3.8 11.8 16.5 4.3 24.1l-88.7 88.7c-3 3-4.7 7.1-4.7 11.3V176c0 8.8 7.2 16 16 16h41.4c4.2 0 8.3-1.7 11.3-4.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
